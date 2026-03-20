@@ -1,34 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
   <rect width="800" height="800" fill="#FEFAE0"/>
-
   <!-- Rotating Squares - spiral tunnel effect -->
-  <!-- Outermost to innermost, each rotated progressively -->
-  <rect x="50" y="50" width="700" height="700" fill="none" stroke="#000000" stroke-width="3" transform="rotate(0, 400, 400)"/>
-  <rect x="75" y="75" width="650" height="650" fill="none" stroke="#1D3557" stroke-width="3" transform="rotate(5, 400, 400)"/>
-  <rect x="100" y="100" width="600" height="600" fill="none" stroke="#E63946" stroke-width="3" transform="rotate(10, 400, 400)"/>
-  <rect x="125" y="125" width="550" height="550" fill="none" stroke="#000000" stroke-width="3" transform="rotate(15, 400, 400)"/>
-  <rect x="150" y="150" width="500" height="500" fill="none" stroke="#F4D35E" stroke-width="3" transform="rotate(20, 400, 400)"/>
-  <rect x="175" y="175" width="450" height="450" fill="none" stroke="#2A9D8F" stroke-width="3" transform="rotate(25, 400, 400)"/>
-  <rect x="200" y="200" width="400" height="400" fill="none" stroke="#E76F51" stroke-width="3" transform="rotate(30, 400, 400)"/>
-  <rect x="220" y="220" width="360" height="360" fill="none" stroke="#1D3557" stroke-width="3" transform="rotate(35, 400, 400)"/>
-  <rect x="240" y="240" width="320" height="320" fill="none" stroke="#E63946" stroke-width="3" transform="rotate(40, 400, 400)"/>
-  <rect x="260" y="260" width="280" height="280" fill="none" stroke="#000000" stroke-width="3" transform="rotate(45, 400, 400)"/>
-  <rect x="278" y="278" width="244" height="244" fill="none" stroke="#F4D35E" stroke-width="3" transform="rotate(50, 400, 400)"/>
-  <rect x="296" y="296" width="208" height="208" fill="none" stroke="#2A9D8F" stroke-width="3" transform="rotate(55, 400, 400)"/>
-  <rect x="312" y="312" width="176" height="176" fill="none" stroke="#E76F51" stroke-width="3" transform="rotate(60, 400, 400)"/>
-  <rect x="326" y="326" width="148" height="148" fill="none" stroke="#1D3557" stroke-width="3" transform="rotate(65, 400, 400)"/>
-  <rect x="340" y="340" width="120" height="120" fill="none" stroke="#E63946" stroke-width="3" transform="rotate(70, 400, 400)"/>
-  <rect x="352" y="352" width="96" height="96" fill="none" stroke="#000000" stroke-width="3" transform="rotate(75, 400, 400)"/>
-  <rect x="362" y="362" width="76" height="76" fill="none" stroke="#F4D35E" stroke-width="3" transform="rotate(80, 400, 400)"/>
-  <rect x="372" y="372" width="56" height="56" fill="none" stroke="#2A9D8F" stroke-width="3" transform="rotate(85, 400, 400)"/>
-  <rect x="380" y="380" width="40" height="40" fill="none" stroke="#E76F51" stroke-width="3" transform="rotate(90, 400, 400)"/>
-  <rect x="388" y="388" width="24" height="24" fill="#E63946" stroke="#000000" stroke-width="2" transform="rotate(95, 400, 400)"/>
-
-  <!-- Filled accent squares at corners for depth -->
-  <rect x="50" y="50" width="60" height="60" fill="#E63946" opacity="0.7" transform="rotate(0, 400, 400)"/>
-  <rect x="690" y="50" width="60" height="60" fill="#1D3557" opacity="0.7" transform="rotate(0, 400, 400)"/>
-  <rect x="50" y="690" width="60" height="60" fill="#F4D35E" opacity="0.7" transform="rotate(0, 400, 400)"/>
-  <rect x="690" y="690" width="60" height="60" fill="#2A9D8F" opacity="0.7" transform="rotate(0, 400, 400)"/>
-
-  <!-- Central dot -->
-  <circle cx="400" cy="400" r="6" fill="#000000"/>
+  <rect x="50" y="50" width="700" height="700" fill="none" stroke="#1D3557" stroke-width="3" transform="rotate(0, 400, 400)"/>
+  <rect x="75" y="75" width="650" height="650" fill="none" stroke="#E63946" stroke-width="3" transform="rotate(5, 400, 400)"/>
+  <rect x="100" y="100" width="600" height="600" fill="none" stroke="#F4D35E" stroke-width="3" transform="rotate(10, 400, 400)"/>
+  <rect x="125" y="125" width="550" height="550" fill="none" stroke="#2A9D8F" stroke-width="3" transform="rotate(16, 400, 400)"/>
+  <rect x="150" y="150" width="500" height="500" fill="none" stroke="#E76F51" stroke-width="3" transform="rotate(22, 400, 400)"/>
+  <rect x="172" y="172" width="456" height="456" fill="none" stroke="#000000" stroke-width="3" transform="rotate(29, 400, 400)"/>
+  <rect x="194" y="194" width="412" height="412" fill="none" stroke="#457B9D" stroke-width="3" transform="rotate(37, 400, 400)"/>
+  <rect x="216" y="216" width="368" height="368" fill="none" stroke="#E63946" stroke-width="3" transform="rotate(46, 400, 400)"/>
+  <rect x="236" y="236" width="328" height="328" fill="none" stroke="#1D3557" stroke-width="3" transform="rotate(56, 400, 400)"/>
+  <rect x="254" y="254" width="292" height="292" fill="none" stroke="#F4D35E" stroke-width="3" transform="rotate(67, 400, 400)"/>
+  <rect x="270" y="270" width="260" height="260" fill="none" stroke="#2A9D8F" stroke-width="3" transform="rotate(79, 400, 400)"/>
+  <rect x="286" y="286" width="228" height="228" fill="none" stroke="#E76F51" stroke-width="3" transform="rotate(92, 400, 400)"/>
+  <rect x="302" y="302" width="196" height="196" fill="none" stroke="#000000" stroke-width="3" transform="rotate(106, 400, 400)"/>
+  <rect x="318" y="318" width="164" height="164" fill="none" stroke="#457B9D" stroke-width="3" transform="rotate(121, 400, 400)"/>
+  <rect x="332" y="332" width="136" height="136" fill="none" stroke="#E63946" stroke-width="3" transform="rotate(137, 400, 400)"/>
+  <rect x="345" y="345" width="110" height="110" fill="none" stroke="#1D3557" stroke-width="3" transform="rotate(155, 400, 400)"/>
+  <rect x="356" y="356" width="88" height="88" fill="none" stroke="#F4D35E" stroke-width="3" transform="rotate(174, 400, 400)"/>
+  <rect x="366" y="366" width="68" height="68" fill="none" stroke="#2A9D8F" stroke-width="3" transform="rotate(195, 400, 400)"/>
+  <rect x="375" y="375" width="50" height="50" fill="none" stroke="#E76F51" stroke-width="3" transform="rotate(218, 400, 400)"/>
+  <rect x="383" y="383" width="34" height="34" fill="none" stroke="#000000" stroke-width="2" transform="rotate(243, 400, 400)"/>
+  <!-- Center dot -->
+  <circle cx="400" cy="400" r="6" fill="#E63946"/>
+  <!-- Corner accent circles -->
+  <circle cx="50" cy="50" r="10" fill="#E63946"/>
+  <circle cx="750" cy="50" r="10" fill="#1D3557"/>
+  <circle cx="50" cy="750" r="10" fill="#F4D35E"/>
+  <circle cx="750" cy="750" r="10" fill="#2A9D8F"/>
+</svg>

@@ -1,106 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
   <rect width="800" height="800" fill="#FEFAE0"/>
+  <!-- Lever and Fulcrum - Multiple lever/seesaw compositions -->
 
-  <!-- === LEVER 1: Top - large balanced seesaw === -->
+  <!-- === LEVER 1: Top - balanced seesaw === -->
   <!-- Fulcrum triangle -->
-  <polygon points="400,280 380,320 420,320" fill="#000000"/>
-  <!-- Beam -->
-  <rect x="150" y="268" width="500" height="8" fill="#000000" transform="rotate(-3,400,272)"/>
-  <!-- Left side: heavy large circle (visually heavy) -->
-  <circle cx="200" cy="248" r="45" fill="#E63946"/>
-  <!-- Right side: multiple lighter shapes -->
-  <rect x="540" y="230" width="30" height="30" fill="#1D3557"/>
-  <circle cx="600" cy="252" r="15" fill="#457B9D"/>
-  <rect x="620" y="240" width="20" height="20" fill="#F4D35E"/>
-  <!-- Fulcrum base -->
-  <rect x="375" y="320" width="50" height="8" fill="#000000"/>
+  <polygon points="200,220 180,260 220,260" fill="#000000"/>
+  <!-- Horizontal bar -->
+  <rect x="60" y="210" width="280" height="8" fill="#1D3557"/>
+  <!-- Left shape: large circle -->
+  <circle cx="80" cy="195" r="25" fill="#E63946"/>
+  <!-- Right shape: small square -->
+  <rect x="310" y="185" width="20" height="20" fill="#F4D35E"/>
 
-  <!-- === LEVER 2: Middle-left - tilted toward heavy side === -->
-  <!-- Fulcrum -->
-  <polygon points="200,500 180,540 220,540" fill="#1D3557"/>
-  <!-- Beam tilted -->
-  <rect x="60" y="485" width="280" height="6" fill="#1D3557" transform="rotate(8,200,488)"/>
-  <!-- Left side (higher): small triangle -->
-  <polygon points="90,460 75,485 105,485" fill="#F4D35E"/>
-  <!-- Right side (lower): large rectangle -->
-  <rect x="290" y="470" width="50" height="35" fill="#E63946"/>
-  <!-- Fulcrum base -->
-  <rect x="185" y="540" width="30" height="6" fill="#1D3557"/>
+  <!-- === LEVER 2: Top right - tilted seesaw === -->
+  <!-- Fulcrum triangle -->
+  <polygon points="600,230 580,270 620,270" fill="#000000"/>
+  <!-- Tilted horizontal bar -->
+  <rect x="480" y="208" width="260" height="8" fill="#2A9D8F" transform="rotate(-8, 600, 212)"/>
+  <!-- Left shape: heavy rectangle -->
+  <rect x="485" y="172" width="50" height="30" fill="#1D3557"/>
+  <!-- Right shape: small circle -->
+  <circle cx="720" cy="210" r="15" fill="#E76F51"/>
 
-  <!-- === LEVER 3: Middle-right - perfectly balanced === -->
-  <!-- Fulcrum - circle type -->
-  <circle cx="600" cy="500" r="20" fill="#E76F51"/>
-  <rect x="600" y="500" width="2" height="40" fill="#E76F51" x="599"/>
-  <!-- Beam -->
-  <rect x="470" y="478" width="260" height="6" fill="#000000"/>
-  <!-- Left: medium square -->
-  <rect x="485" y="448" width="35" height="30" fill="#1D3557"/>
-  <!-- Right: medium circle -->
-  <circle cx="705" cy="462" r="18" fill="#1D3557"/>
-  <!-- Fulcrum base -->
-  <rect x="580" y="540" width="40" height="6" fill="#E76F51"/>
+  <!-- === LEVER 3: Middle - wide balanced seesaw === -->
+  <!-- Fulcrum triangle -->
+  <polygon points="400,460 370,510 430,510" fill="#000000"/>
+  <!-- Horizontal bar -->
+  <rect x="120" y="448" width="560" height="10" fill="#457B9D"/>
+  <!-- Left shape: two stacked circles -->
+  <circle cx="170" cy="425" r="22" fill="#E63946"/>
+  <circle cx="170" cy="395" r="16" fill="#F4D35E"/>
+  <!-- Right shape: large triangle -->
+  <polygon points="630,448 600,400 660,400" fill="#2A9D8F"/>
+  <!-- Small accent shapes on the bar -->
+  <rect x="280" y="432" width="16" height="16" fill="#E76F51"/>
+  <circle cx="500" cy="440" r="8" fill="#1D3557"/>
 
-  <!-- === LEVER 4: Bottom-center - dramatic tilt === -->
-  <!-- Fulcrum -->
-  <polygon points="400,660 375,700 425,700" fill="#E63946"/>
-  <!-- Beam strongly tilted -->
-  <rect x="180" y="640" width="440" height="7" fill="#E63946" transform="rotate(-12,400,643)"/>
-  <!-- Left side (lower): giant black square -->
-  <rect x="195" y="585" width="60" height="60" fill="#000000"/>
-  <!-- Right side (higher): tiny shapes floating up -->
-  <circle cx="560" cy="615" r="8" fill="#F4D35E"/>
-  <rect x="580" y="608" width="12" height="12" fill="#457B9D"/>
-  <circle cx="610" cy="618" r="6" fill="#E76F51"/>
-  <!-- Fulcrum base -->
-  <rect x="380" y="700" width="40" height="6" fill="#E63946"/>
+  <!-- === LEVER 4: Bottom - asymmetric fulcrum === -->
+  <!-- Fulcrum triangle (off-center) -->
+  <polygon points="300,700 275,740 325,740" fill="#000000"/>
+  <!-- Horizontal bar tilted because of asymmetric load -->
+  <rect x="100" y="686" width="500" height="8" fill="#E63946" transform="rotate(5, 300, 690)"/>
+  <!-- Left shape: large heavy square -->
+  <rect x="105" y="644" width="45" height="45" fill="#1D3557"/>
+  <!-- Right shapes: three small circles -->
+  <circle cx="480" cy="672" r="12" fill="#F4D35E"/>
+  <circle cx="520" cy="672" r="10" fill="#2A9D8F"/>
+  <circle cx="555" cy="672" r="8" fill="#E76F51"/>
 
-  <!-- === LEVER 5: Top-right small - balanced with unequal arms === -->
-  <!-- Fulcrum offset to right -->
-  <polygon points="550,150 535,180 565,180" fill="#457B9D"/>
-  <!-- Beam - longer on left -->
-  <rect x="420" y="140" width="200" height="5" fill="#457B9D"/>
-  <!-- Left (long arm): small circle far from fulcrum -->
-  <circle cx="435" cy="130" r="12" fill="#F4D35E"/>
-  <!-- Right (short arm): large rectangle near fulcrum -->
-  <rect x="575" y="118" width="30" height="22" fill="#E63946"/>
-  <!-- Fulcrum base -->
-  <rect x="540" y="180" width="20" height="5" fill="#457B9D"/>
-
-  <!-- === Additional balance elements === -->
-
-  <!-- Hanging mobile from lever 1 beam, left side -->
-  <line x1="250" y1="276" x2="250" y2="330" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="250" cy="340" r="10" fill="#F4D35E"/>
-
-  <!-- Hanging weight from lever 1, right side -->
-  <line x1="580" y1="270" x2="580" y2="310" stroke="#000000" stroke-width="1.5"/>
-  <rect x="572" y="310" width="16" height="16" fill="#E76F51"/>
-
-  <!-- Vertical balance pole -->
-  <rect x="48" y="100" width="4" height="300" fill="#000000"/>
-  <circle cx="50" cy="100" r="15" fill="#E63946"/>
-  <circle cx="50" cy="400" r="25" fill="#1D3557"/>
-  <rect x="30" y="195" width="40" height="5" fill="#000000"/>
-  <circle cx="25" cy="195" r="8" fill="#F4D35E"/>
-  <circle cx="75" cy="195" r="8" fill="#F4D35E"/>
-
-  <!-- Decorative weight symbols -->
-  <!-- Small weight icon bottom-left -->
-  <polygon points="100,740 85,770 115,770" fill="#000000"/>
-  <rect x="85" y="770" width="30" height="10" fill="#000000"/>
-
-  <!-- Balance scale icon top-left -->
-  <rect x="698" y="60" width="4" height="60" fill="#000000"/>
-  <rect x="670" y="58" width="60" height="4" fill="#000000"/>
-  <path d="M 670,62 L 660,90 L 680,90 Z" fill="#E63946" opacity="0.7"/>
-  <path d="M 730,62 L 720,90 L 740,90 Z" fill="#1D3557" opacity="0.7"/>
-
-  <!-- Ground line -->
-  <line x1="50" y1="780" x2="750" y2="780" stroke="#000000" stroke-width="2"/>
-
-  <!-- Scattered geometric accents -->
-  <circle cx="350" cy="400" r="5" fill="#E63946" opacity="0.5"/>
-  <rect x="680" y="380" width="10" height="10" fill="#F4D35E" opacity="0.5" transform="rotate(45,685,385)"/>
-  <circle cx="140" cy="620" r="4" fill="#457B9D" opacity="0.6"/>
-  <rect x="700" y="650" width="8" height="8" fill="#E76F51" opacity="0.5"/>
+  <!-- Ground lines under fulcrums -->
+  <line x1="40" y1="265" x2="360" y2="265" stroke="#000000" stroke-width="2"/>
+  <line x1="460" y1="275" x2="760" y2="275" stroke="#000000" stroke-width="2"/>
+  <line x1="80" y1="515" x2="720" y2="515" stroke="#000000" stroke-width="2"/>
+  <line x1="60" y1="745" x2="640" y2="745" stroke="#000000" stroke-width="2"/>
 </svg>
