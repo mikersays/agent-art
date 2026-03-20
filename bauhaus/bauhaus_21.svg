@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Tessellation - Bauhaus Style</title>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Row 1 - Interlocking hexagonal-inspired tiles -->
+  <polygon points="0,0 100,0 150,50 100,100 0,100 -50,50" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="100,0 200,0 250,50 200,100 100,100 150,50" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="200,0 300,0 350,50 300,100 200,100 250,50" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="300,0 400,0 450,50 400,100 300,100 350,50" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="400,0 500,0 550,50 500,100 400,100 450,50" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="500,0 600,0 650,50 600,100 500,100 550,50" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="600,0 700,0 750,50 700,100 600,100 650,50" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="700,0 800,0 850,50 800,100 700,100 750,50" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 2 offset -->
+  <polygon points="-50,50 50,50 100,100 50,150 -50,150 -100,100" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="50,50 150,50 200,100 150,150 50,150 100,100" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="150,50 250,50 300,100 250,150 150,150 200,100" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="250,50 350,50 400,100 350,150 250,150 300,100" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="350,50 450,50 500,100 450,150 350,150 400,100" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="450,50 550,50 600,100 550,150 450,150 500,100" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="550,50 650,50 700,100 650,150 550,150 600,100" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="650,50 750,50 800,100 750,150 650,150 700,100" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="750,50 850,50 900,100 850,150 750,150 800,100" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 3 -->
+  <polygon points="0,100 100,100 150,150 100,200 0,200 -50,150" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="100,100 200,100 250,150 200,200 100,200 150,150" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="200,100 300,100 350,150 300,200 200,200 250,150" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="300,100 400,100 450,150 400,200 300,200 350,150" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="400,100 500,100 550,150 500,200 400,200 450,150" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="500,100 600,100 650,150 600,200 500,200 550,150" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="600,100 700,100 750,150 700,200 600,200 650,150" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="700,100 800,100 850,150 800,200 700,200 750,150" fill="#E63946" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 4 offset -->
+  <polygon points="-50,150 50,150 100,200 50,250 -50,250 -100,200" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="50,150 150,150 200,200 150,250 50,250 100,200" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="150,150 250,150 300,200 250,250 150,250 200,200" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="250,150 350,150 400,200 350,250 250,250 300,200" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="350,150 450,150 500,200 450,250 350,250 400,200" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="450,150 550,150 600,200 550,250 450,250 500,200" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="550,150 650,150 700,200 650,250 550,250 600,200" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="650,150 750,150 800,200 750,250 650,250 700,200" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="750,150 850,150 900,200 850,250 750,250 800,200" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 5 -->
+  <polygon points="0,200 100,200 150,250 100,300 0,300 -50,250" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="100,200 200,200 250,250 200,300 100,300 150,250" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="200,200 300,200 350,250 300,300 200,300 250,250" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="300,200 400,200 450,250 400,300 300,300 350,250" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="400,200 500,200 550,250 500,300 400,300 450,250" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="500,200 600,200 650,250 600,300 500,300 550,250" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="600,200 700,200 750,250 700,300 600,300 650,250" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="700,200 800,200 850,250 800,300 700,300 750,250" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 6 offset -->
+  <polygon points="-50,250 50,250 100,300 50,350 -50,350 -100,300" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="50,250 150,250 200,300 150,350 50,350 100,300" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="150,250 250,250 300,300 250,350 150,350 200,300" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="250,250 350,250 400,300 350,350 250,350 300,300" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="350,250 450,250 500,300 450,350 350,350 400,300" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="450,250 550,250 600,300 550,350 450,350 500,300" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="550,250 650,250 700,300 650,350 550,350 600,300" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="650,250 750,250 800,300 750,350 650,350 700,300" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="750,250 850,250 900,300 850,350 750,350 800,300" fill="#264653" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 7 -->
+  <polygon points="0,300 100,300 150,350 100,400 0,400 -50,350" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="100,300 200,300 250,350 200,400 100,400 150,350" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="200,300 300,300 350,350 300,400 200,400 250,350" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="300,300 400,300 450,350 400,400 300,400 350,350" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="400,300 500,300 550,350 500,400 400,400 450,350" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="500,300 600,300 650,350 600,400 500,400 550,350" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="600,300 700,300 750,350 700,400 600,400 650,350" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="700,300 800,300 850,350 800,400 700,400 750,350" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 8 offset -->
+  <polygon points="-50,350 50,350 100,400 50,450 -50,450 -100,400" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="50,350 150,350 200,400 150,450 50,450 100,400" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="150,350 250,350 300,400 250,450 150,450 200,400" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="250,350 350,350 400,400 350,450 250,450 300,400" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="350,350 450,350 500,400 450,450 350,450 400,400" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="450,350 550,350 600,400 550,450 450,450 500,400" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="550,350 650,350 700,400 650,450 550,450 600,400" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="650,350 750,350 800,400 750,450 650,450 700,400" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="750,350 850,350 900,400 850,450 750,450 800,400" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 9 -->
+  <polygon points="0,400 100,400 150,450 100,500 0,500 -50,450" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="100,400 200,400 250,450 200,500 100,500 150,450" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="200,400 300,400 350,450 300,500 200,500 250,450" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="300,400 400,400 450,450 400,500 300,500 350,450" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="400,400 500,400 550,450 500,500 400,500 450,450" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="500,400 600,400 650,450 600,500 500,500 550,450" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="600,400 700,400 750,450 700,500 600,500 650,450" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="700,400 800,400 850,450 800,500 700,500 750,450" fill="#E63946" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 10 offset -->
+  <polygon points="-50,450 50,450 100,500 50,550 -50,550 -100,500" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="50,450 150,450 200,500 150,550 50,550 100,500" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="150,450 250,450 300,500 250,550 150,550 200,500" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="250,450 350,450 400,500 350,550 250,550 300,500" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="350,450 450,450 500,500 450,550 350,550 400,500" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="450,450 550,450 600,500 550,550 450,550 500,500" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="550,450 650,450 700,500 650,550 550,550 600,500" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="650,450 750,450 800,500 750,550 650,550 700,500" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="750,450 850,450 900,500 850,550 750,550 800,500" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 11 -->
+  <polygon points="0,500 100,500 150,550 100,600 0,600 -50,550" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="100,500 200,500 250,550 200,600 100,600 150,550" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="200,500 300,500 350,550 300,600 200,600 250,550" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="300,500 400,500 450,550 400,600 300,600 350,550" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="400,500 500,500 550,550 500,600 400,600 450,550" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="500,500 600,500 650,550 600,600 500,600 550,550" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="600,500 700,500 750,550 700,600 600,600 650,550" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="700,500 800,500 850,550 800,600 700,600 750,550" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 12 offset -->
+  <polygon points="-50,550 50,550 100,600 50,650 -50,650 -100,600" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="50,550 150,550 200,600 150,650 50,650 100,600" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="150,550 250,550 300,600 250,650 150,650 200,600" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="250,550 350,550 400,600 350,650 250,650 300,600" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="350,550 450,550 500,600 450,650 350,650 400,600" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="450,550 550,550 600,600 550,650 450,650 500,600" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="550,550 650,550 700,600 650,650 550,650 600,600" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="650,550 750,550 800,600 750,650 650,650 700,600" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="750,550 850,550 900,600 850,650 750,650 800,600" fill="#264653" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 13 -->
+  <polygon points="0,600 100,600 150,650 100,700 0,700 -50,650" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="100,600 200,600 250,650 200,700 100,700 150,650" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="200,600 300,600 350,650 300,700 200,700 250,650" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="300,600 400,600 450,650 400,700 300,700 350,650" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="400,600 500,600 550,650 500,700 400,700 450,650" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="500,600 600,600 650,650 600,700 500,700 550,650" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="600,600 700,600 750,650 700,700 600,700 650,650" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="700,600 800,600 850,650 800,700 700,700 750,650" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 14 offset -->
+  <polygon points="-50,650 50,650 100,700 50,750 -50,750 -100,700" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="50,650 150,650 200,700 150,750 50,750 100,700" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="150,650 250,650 300,700 250,750 150,750 200,700" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="250,650 350,650 400,700 350,750 250,750 300,700" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="350,650 450,650 500,700 450,750 350,750 400,700" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="450,650 550,650 600,700 550,750 450,750 500,700" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="550,650 650,650 700,700 650,750 550,750 600,700" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="650,650 750,650 800,700 750,750 650,750 700,700" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="750,650 850,650 900,700 850,750 750,750 800,700" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 15 -->
+  <polygon points="0,700 100,700 150,750 100,800 0,800 -50,750" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="100,700 200,700 250,750 200,800 100,800 150,750" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="200,700 300,700 350,750 300,800 200,800 250,750" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="300,700 400,700 450,750 400,800 300,800 350,750" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="400,700 500,700 550,750 500,800 400,800 450,750" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="500,700 600,700 650,750 600,800 500,800 550,750" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <polygon points="600,700 700,700 750,750 700,800 600,800 650,750" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <polygon points="700,700 800,700 850,750 800,800 700,800 750,750" fill="#E63946" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 16 offset - bottom -->
+  <polygon points="-50,750 50,750 100,800 50,850 -50,850 -100,800" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="50,750 150,750 200,800 150,850 50,850 100,800" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="150,750 250,750 300,800 250,850 150,850 200,800" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="250,750 350,750 400,800 350,850 250,850 300,800" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="350,750 450,750 500,800 450,850 350,850 400,800" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="450,750 550,750 600,800 550,850 450,850 500,800" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+  <polygon points="550,750 650,750 700,800 650,850 550,850 600,800" fill="#264653" stroke="#000000" stroke-width="2"/>
+  <polygon points="650,750 750,750 800,800 750,850 650,850 700,800" fill="#6D2E46" stroke="#000000" stroke-width="2"/>
+  <polygon points="750,750 850,750 900,800 850,850 750,850 800,800" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+</svg>

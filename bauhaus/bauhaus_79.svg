@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Subtle radial background -->
+  <circle cx="400" cy="400" r="380" fill="#A8DADC" opacity="0.1"/>
+  <circle cx="400" cy="400" r="280" fill="#A8DADC" opacity="0.1"/>
+  <circle cx="400" cy="400" r="180" fill="#A8DADC" opacity="0.1"/>
+
+  <!-- Domino 1 - center, vertical (6|3) -->
+  <g transform="translate(370,350)">
+    <rect x="0" y="0" width="60" height="120" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <line x1="5" y1="60" x2="55" y2="60" stroke="#000000" stroke-width="2"/>
+    <!-- top: 6 dots -->
+    <circle cx="15" cy="15" r="5" fill="#1D3557"/><circle cx="30" cy="15" r="5" fill="#1D3557"/><circle cx="45" cy="15" r="5" fill="#1D3557"/>
+    <circle cx="15" cy="40" r="5" fill="#1D3557"/><circle cx="30" cy="40" r="5" fill="#1D3557"/><circle cx="45" cy="40" r="5" fill="#1D3557"/>
+    <!-- bottom: 3 dots -->
+    <circle cx="15" cy="75" r="5" fill="#E63946"/><circle cx="30" cy="85" r="5" fill="#E63946"/><circle cx="45" cy="95" r="5" fill="#E63946"/>
+  </g>
+
+  <!-- Domino 2 - top, rotated right (5|2) -->
+  <g transform="translate(400,250) rotate(-30)">
+    <rect x="-30" y="-60" width="60" height="120" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <line x1="-25" y1="0" x2="25" y2="0" stroke="#000000" stroke-width="2"/>
+    <!-- top: 5 -->
+    <circle cx="-15" cy="-45" r="4.5" fill="#2A9D8F"/><circle cx="15" cy="-45" r="4.5" fill="#2A9D8F"/>
+    <circle cx="0" cy="-30" r="4.5" fill="#2A9D8F"/>
+    <circle cx="-15" cy="-15" r="4.5" fill="#2A9D8F"/><circle cx="15" cy="-15" r="4.5" fill="#2A9D8F"/>
+    <!-- bottom: 2 -->
+    <circle cx="-10" cy="20" r="4.5" fill="#F4D35E"/><circle cx="10" cy="40" r="4.5" fill="#F4D35E"/>
+  </g>
+
+  <!-- Domino 3 - top-right, rotated (4|1) -->
+  <g transform="translate(530,220) rotate(-60)">
+    <rect x="-30" y="-60" width="60" height="120" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <line x1="-25" y1="0" x2="25" y2="0" stroke="#000000" stroke-width="2"/>
+    <!-- top: 4 -->
+    <circle cx="-12" cy="-42" r="4.5" fill="#E63946"/><circle cx="12" cy="-42" r="4.5" fill="#E63946"/>
+    <circle cx="-12" cy="-18" r="4.5" fill="#E63946"/><circle cx="12" cy="-18" r="4.5" fill="#E63946"/>
+    <!-- bottom: 1 -->
+    <circle cx="0" cy="30" r="5" fill="#1D3557"/>
+  </g>
+
+  <!-- Domino 4 - right, horizontal (3|5) -->
+  <g transform="translate(560,370) rotate(-90)">
+    <rect x="-30" y="-60" width="60" height="120" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <line x1="-25" y1="0" x2="25" y2="0" stroke="#000000" stroke-width="2"/>
+    <!-- top: 3 diagonal -->
+    <circle cx="-12" cy="-42" r="4.5" fill="#F4D35E"/><circle cx="0" cy="-30" r="4.5" fill="#F4D35E"/><circle cx="12" cy="-18" r="4.5" fill="#F4D35E"/>
+    <!-- bottom: 5 -->
+    <circle cx="-12" cy="15" r="4.5" fill="#2A9D8F"/><circle cx="12" cy="15" r="4.5" fill="#2A9D8F"/>
+    <circle cx="0" cy="30" r="4.5" fill="#2A9D8F"/>
+    <circle cx="-12" cy="45" r="4.5" fill="#2A9D8F"/><circle cx="12" cy="45" r="4.5" fill="#2A9D8F"/>
+  </g>
+
+  <!-- Domino 5 - bottom-right (2|4) -->
+  <g transform="translate(530,530) rotate(30)">
+    <rect x="-30" y="-60" width="60" height="120" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <line x1="-25" y1="0" x2="25" y2="0" stroke="#000000" stroke-width="2"/>
+    <!-- top: 2 -->
+    <circle cx="-10" cy="-40" r="4.5" fill="#1D3557"/><circle cx="10" cy="-20" r="4.5" fill="#1D3557"/>
+    <!-- bottom: 4 -->
+    <circle cx="-12" cy="15" r="4.5" fill="#E63946"/><circle cx="12" cy="15" r="4.5" fill="#E63946"/>
+    <circle cx="-12" cy="42" r="4.5" fill="#E63946"/><circle cx="12" cy="42" r="4.5" fill="#E63946"/>
+  </g>
+
+  <!-- Domino 6 - bottom (1|6) -->
+  <g transform="translate(420,570) rotate(60)">
+    <rect x="-30" y="-60" width="60" height="120" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <line x1="-25" y1="0" x2="25" y2="0" stroke="#000000" stroke-width="2"/>
+    <!-- top: 1 -->
+    <circle cx="0" cy="-30" r="5" fill="#2A9D8F"/>
+    <!-- bottom: 6 -->
+    <circle cx="-12" cy="15" r="4" fill="#F4D35E"/><circle cx="0" cy="15" r="4" fill="#F4D35E"/><circle cx="12" cy="15" r="4" fill="#F4D35E"/>
+    <circle cx="-12" cy="40" r="4" fill="#F4D35E"/><circle cx="0" cy="40" r="4" fill="#F4D35E"/><circle cx="12" cy="40" r="4" fill="#F4D35E"/>
+  </g>
+
+  <!-- Domino 7 - bottom-left (blank|3) -->
+  <g transform="translate(270,560) rotate(120)">
+    <rect x="-30" y="-60" width="60" height="120" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <line x1="-25" y1="0" x2="25" y2="0" stroke="#000000" stroke-width="2"/>
+    <!-- top: blank -->
+    <!-- bottom: 3 -->
+    <circle cx="-12" cy="18" r="4.5" fill="#333333"/><circle cx="0" cy="30" r="4.5" fill="#333333"/><circle cx="12" cy="42" r="4.5" fill="#333333"/>
+  </g>
+
+  <!-- Domino 8 - left (5|5) -->
+  <g transform="translate(230,400) rotate(90)">
+    <rect x="-30" y="-60" width="60" height="120" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <line x1="-25" y1="0" x2="25" y2="0" stroke="#000000" stroke-width="2"/>
+    <!-- top: 5 -->
+    <circle cx="-12" cy="-45" r="4" fill="#E63946"/><circle cx="12" cy="-45" r="4" fill="#E63946"/>
+    <circle cx="0" cy="-30" r="4" fill="#E63946"/>
+    <circle cx="-12" cy="-15" r="4" fill="#E63946"/><circle cx="12" cy="-15" r="4" fill="#E63946"/>
+    <!-- bottom: 5 -->
+    <circle cx="-12" cy="15" r="4" fill="#1D3557"/><circle cx="12" cy="15" r="4" fill="#1D3557"/>
+    <circle cx="0" cy="30" r="4" fill="#1D3557"/>
+    <circle cx="-12" cy="45" r="4" fill="#1D3557"/><circle cx="12" cy="45" r="4" fill="#1D3557"/>
+  </g>
+
+  <!-- Domino 9 - top-left (2|6) -->
+  <g transform="translate(260,240) rotate(150)">
+    <rect x="-30" y="-60" width="60" height="120" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <line x1="-25" y1="0" x2="25" y2="0" stroke="#000000" stroke-width="2"/>
+    <!-- top: 2 -->
+    <circle cx="-10" cy="-40" r="4.5" fill="#F4D35E"/><circle cx="10" cy="-20" r="4.5" fill="#F4D35E"/>
+    <!-- bottom: 6 -->
+    <circle cx="-12" cy="15" r="4" fill="#2A9D8F"/><circle cx="0" cy="15" r="4" fill="#2A9D8F"/><circle cx="12" cy="15" r="4" fill="#2A9D8F"/>
+    <circle cx="-12" cy="40" r="4" fill="#2A9D8F"/><circle cx="0" cy="40" r="4" fill="#2A9D8F"/><circle cx="12" cy="40" r="4" fill="#2A9D8F"/>
+  </g>
+
+  <!-- Outer decorative dominos - small, scattered -->
+  <!-- Top small domino -->
+  <g transform="translate(400,100) rotate(0)">
+    <rect x="-20" y="-40" width="40" height="80" rx="4" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+    <line x1="-16" y1="0" x2="16" y2="0" stroke="#000000" stroke-width="1.5"/>
+    <circle cx="0" cy="-20" r="4" fill="#000000"/>
+    <circle cx="-8" cy="15" r="3" fill="#000000"/><circle cx="8" cy="30" r="3" fill="#000000"/>
+  </g>
+
+  <!-- Bottom small domino -->
+  <g transform="translate(400,700) rotate(180)">
+    <rect x="-20" y="-40" width="40" height="80" rx="4" fill="#E63946" stroke="#000000" stroke-width="2"/>
+    <line x1="-16" y1="0" x2="16" y2="0" stroke="#000000" stroke-width="1.5"/>
+    <circle cx="-8" cy="-28" r="3" fill="#FFFFFF"/><circle cx="8" cy="-28" r="3" fill="#FFFFFF"/>
+    <circle cx="-8" cy="-12" r="3" fill="#FFFFFF"/><circle cx="8" cy="-12" r="3" fill="#FFFFFF"/>
+    <circle cx="0" cy="20" r="4" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Left small domino -->
+  <g transform="translate(100,400) rotate(90)">
+    <rect x="-20" y="-40" width="40" height="80" rx="4" fill="#2A9D8F" stroke="#000000" stroke-width="2"/>
+    <line x1="-16" y1="0" x2="16" y2="0" stroke="#000000" stroke-width="1.5"/>
+    <circle cx="-8" cy="-25" r="3" fill="#FFFFFF"/><circle cx="0" cy="-15" r="3" fill="#FFFFFF"/><circle cx="8" cy="-25" r="3" fill="#FFFFFF"/>
+    <circle cx="0" cy="20" r="4" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Right small domino -->
+  <g transform="translate(700,400) rotate(-90)">
+    <rect x="-20" y="-40" width="40" height="80" rx="4" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+    <line x1="-16" y1="0" x2="16" y2="0" stroke="#000000" stroke-width="1.5"/>
+    <circle cx="0" cy="-20" r="4" fill="#F4D35E"/>
+    <circle cx="0" cy="20" r="4" fill="#F4D35E"/>
+  </g>
+
+  <!-- Center hub circle -->
+  <circle cx="400" cy="410" r="20" fill="#000000"/>
+  <circle cx="400" cy="410" r="12" fill="#333333"/>
+  <circle cx="400" cy="410" r="5" fill="#F4D35E"/>
+
+  <!-- Border -->
+  <rect x="5" y="5" width="790" height="790" fill="none" stroke="#000000" stroke-width="3"/>
+</svg>

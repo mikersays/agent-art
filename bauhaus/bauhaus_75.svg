@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Canopy: Overlapping semicircles/arcs from top creating umbrella pattern -->
+
+  <!-- Layer 1 - Largest arcs from top edge -->
+  <path d="M400,0 A400,400 0 0,1 800,400 L800,0 Z" fill="#E63946" opacity="0.85"/>
+  <path d="M0,0 A400,400 0 0,0 400,400 L400,0 Z" fill="#1D3557" opacity="0.85"/>
+
+  <!-- Layer 2 - Medium arcs, offset -->
+  <path d="M200,0 A300,300 0 0,1 800,300 L800,0 L200,0 Z" fill="#F4D35E" opacity="0.6"/>
+  <path d="M0,0 A300,300 0 0,0 600,300 L0,300 L0,0 Z" fill="#264653" opacity="0.5"/>
+
+  <!-- Layer 3 - Semicircles hanging from top -->
+  <path d="M0,0 Q200,350 400,0" fill="#DDA15E" opacity="0.7" stroke="#000000" stroke-width="2"/>
+  <path d="M200,0 Q400,350 600,0" fill="#E9C46A" opacity="0.65" stroke="#000000" stroke-width="2"/>
+  <path d="M400,0 Q600,350 800,0" fill="#E63946" opacity="0.6" stroke="#000000" stroke-width="2"/>
+
+  <!-- Layer 4 - Smaller arcs -->
+  <path d="M100,0 Q250,250 400,0" fill="#1D3557" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
+  <path d="M300,0 Q450,250 600,0" fill="#264653" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
+  <path d="M500,0 Q650,250 800,0" fill="#F4D35E" opacity="0.55" stroke="#000000" stroke-width="1.5"/>
+  <path d="M0,0 Q100,200 200,0" fill="#E63946" opacity="0.45" stroke="#000000" stroke-width="1.5"/>
+  <path d="M600,0 Q750,220 800,80" fill="#DDA15E" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Layer 5 - Arc outlines for depth -->
+  <path d="M50,0 Q300,500 550,0" fill="none" stroke="#000000" stroke-width="3"/>
+  <path d="M250,0 Q500,500 750,0" fill="none" stroke="#000000" stroke-width="3"/>
+  <path d="M150,0 Q400,450 650,0" fill="none" stroke="#E63946" stroke-width="2"/>
+
+  <!-- Draping lines from canopy -->
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.25"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
+
+  <!-- Bottom ground area with geometric shapes -->
+  <rect x="0" y="700" width="800" height="100" fill="#264653" opacity="0.15"/>
+  <rect x="0" y="750" width="800" height="50" fill="#1D3557" opacity="0.1"/>
+
+  <!-- Accent circles where drape lines meet ground -->
+  <circle cx="100" cy="700" r="8" fill="#E63946"/>
+  <circle cx="200" cy="700" r="8" fill="#F4D35E"/>
+  <circle cx="300" cy="700" r="8" fill="#1D3557"/>
+  <circle cx="400" cy="700" r="12" fill="#000000"/>
+  <circle cx="500" cy="700" r="8" fill="#264653"/>
+  <circle cx="600" cy="700" r="8" fill="#DDA15E"/>
+  <circle cx="700" cy="700" r="8" fill="#E9C46A"/>
+
+  <!-- Central pole -->
+  <rect x="396" y="300" width="8" height="420" fill="#000000"/>
+
+  <!-- Bauhaus-style geometric footer -->
+  <rect x="0" y="785" width="160" height="15" fill="#E63946"/>
+  <rect x="160" y="785" width="160" height="15" fill="#F4D35E"/>
+  <rect x="320" y="785" width="160" height="15" fill="#1D3557"/>
+  <rect x="480" y="785" width="160" height="15" fill="#264653"/>
+  <rect x="640" y="785" width="160" height="15" fill="#DDA15E"/>
+
+  <!-- Top decorative arc scallops -->
+  <path d="M0,0 Q50,80 100,0" fill="none" stroke="#000000" stroke-width="2.5"/>
+  <path d="M100,0 Q150,80 200,0" fill="none" stroke="#000000" stroke-width="2.5"/>
+  <path d="M200,0 Q250,80 300,0" fill="none" stroke="#000000" stroke-width="2.5"/>
+  <path d="M300,0 Q350,80 400,0" fill="none" stroke="#000000" stroke-width="2.5"/>
+  <path d="M400,0 Q450,80 500,0" fill="none" stroke="#000000" stroke-width="2.5"/>
+  <path d="M500,0 Q550,80 600,0" fill="none" stroke="#000000" stroke-width="2.5"/>
+  <path d="M600,0 Q650,80 700,0" fill="none" stroke="#000000" stroke-width="2.5"/>
+  <path d="M700,0 Q750,80 800,0" fill="none" stroke="#000000" stroke-width="2.5"/>
+</svg>

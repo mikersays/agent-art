@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Typography Grid - Abstract letterforms from geometric shapes -->
+  <!-- 4x4 grid of abstract glyph-like compositions -->
+
+  <!-- Grid lines -->
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
+
+  <!-- Cell 1,1 - Abstract "A"-like form -->
+  <polygon points="100,30 40,180 70,180" fill="#E63946"/>
+  <polygon points="100,30 130,180 160,180" fill="#E63946"/>
+  <rect x="60" y="120" width="80" height="15" fill="#000000"/>
+
+  <!-- Cell 1,2 - Abstract "B"-like form -->
+  <rect x="230" y="30" width="18" height="160" fill="#1D3557"/>
+  <circle cx="280" cy="80" r="40" fill="none" stroke="#1D3557" stroke-width="12"/>
+  <circle cx="285" cy="150" r="45" fill="none" stroke="#F4D35E" stroke-width="10"/>
+
+  <!-- Cell 1,3 - Abstract arc form -->
+  <path d="M 440 170 A 70 70 0 1 1 560 170" fill="none" stroke="#E76F51" stroke-width="16"/>
+  <circle cx="500" cy="100" r="15" fill="#E76F51"/>
+  <rect x="480" y="150" width="40" height="12" fill="#000000"/>
+
+  <!-- Cell 1,4 - Abstract angular form -->
+  <rect x="640" y="30" width="16" height="160" fill="#000000"/>
+  <rect x="640" y="30" width="120" height="16" fill="#000000"/>
+  <rect x="640" y="100" width="80" height="14" fill="#457B9D"/>
+  <rect x="640" y="174" width="120" height="16" fill="#000000"/>
+
+  <!-- Cell 2,1 - Circle and line composition -->
+  <circle cx="100" cy="300" r="60" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="100" cy="300" r="35" fill="#FFFFFF"/>
+  <rect x="95" y="240" width="10" height="120" fill="#000000"/>
+  <rect x="60" y="340" width="80" height="10" fill="#E63946"/>
+
+  <!-- Cell 2,2 - Diagonal strokes -->
+  <rect x="230" y="220" width="140" height="14" fill="#1D3557" transform="rotate(45, 300, 300)"/>
+  <rect x="230" y="260" width="140" height="14" fill="#E63946" transform="rotate(45, 300, 300)"/>
+  <rect x="280" y="220" width="14" height="140" fill="#000000"/>
+  <circle cx="340" cy="350" r="20" fill="#F4D35E"/>
+
+  <!-- Cell 2,3 - Stacked horizontals -->
+  <rect x="430" y="225" width="140" height="20" fill="#000000"/>
+  <rect x="430" y="265" width="100" height="16" fill="#E63946"/>
+  <rect x="430" y="300" width="140" height="20" fill="#1D3557"/>
+  <rect x="430" y="340" width="60" height="14" fill="#F4D35E"/>
+  <rect x="430" y="370" width="140" height="20" fill="#000000"/>
+
+  <!-- Cell 2,4 - Semicircle and verticals -->
+  <path d="M 640 300 A 60 60 0 0 1 760 300" fill="#457B9D"/>
+  <rect x="640" y="220" width="14" height="160" fill="#000000"/>
+  <rect x="746" y="220" width="14" height="160" fill="#000000"/>
+  <circle cx="700" cy="260" r="10" fill="#E63946"/>
+
+  <!-- Cell 3,1 - Triangle composition -->
+  <polygon points="100,420 40,580 160,580" fill="none" stroke="#000000" stroke-width="10"/>
+  <polygon points="100,450 70,540 130,540" fill="#E63946"/>
+  <rect x="60" y="560" width="80" height="10" fill="#1D3557"/>
+
+  <!-- Cell 3,2 - Cross/plus form -->
+  <rect x="270" y="420" width="60" height="160" fill="#F4D35E"/>
+  <rect x="230" y="475" width="140" height="50" fill="#E76F51"/>
+  <circle cx="300" cy="500" r="18" fill="#FFFFFF"/>
+  <rect x="290" y="420" width="20" height="20" fill="#000000"/>
+
+  <!-- Cell 3,3 - Nested squares -->
+  <rect x="430" y="420" width="140" height="160" fill="none" stroke="#000000" stroke-width="8"/>
+  <rect x="455" y="445" width="90" height="110" fill="none" stroke="#E63946" stroke-width="6"/>
+  <rect x="475" y="465" width="50" height="70" fill="#1D3557"/>
+  <rect x="490" y="480" width="20" height="40" fill="#F4D35E"/>
+
+  <!-- Cell 3,4 - Curved and straight -->
+  <path d="M 640 500 Q 700 420 760 500" fill="none" stroke="#E76F51" stroke-width="12"/>
+  <path d="M 640 500 Q 700 580 760 500" fill="none" stroke="#457B9D" stroke-width="12"/>
+  <rect x="694" y="440" width="12" height="120" fill="#000000"/>
+
+  <!-- Cell 4,1 - Dot matrix form -->
+  <circle cx="50" cy="640" r="12" fill="#000000"/>
+  <circle cx="90" cy="640" r="12" fill="#000000"/>
+  <circle cx="130" cy="640" r="12" fill="#E63946"/>
+  <circle cx="50" cy="680" r="12" fill="#000000"/>
+  <circle cx="130" cy="680" r="12" fill="#1D3557"/>
+  <circle cx="50" cy="720" r="12" fill="#000000"/>
+  <circle cx="90" cy="720" r="12" fill="#000000"/>
+  <circle cx="130" cy="720" r="12" fill="#000000"/>
+  <circle cx="50" cy="760" r="12" fill="#E63946"/>
+  <circle cx="130" cy="760" r="12" fill="#F4D35E"/>
+
+  <!-- Cell 4,2 - Angular zigzag -->
+  <polyline points="230,620 270,700 310,620 350,700 370,640" fill="none" stroke="#000000" stroke-width="10"/>
+  <rect x="230" y="740" width="140" height="14" fill="#E63946"/>
+  <circle cx="300" cy="770" r="15" fill="#F4D35E"/>
+
+  <!-- Cell 4,3 - Overlapping circles -->
+  <circle cx="470" cy="680" r="50" fill="#E63946" opacity="0.6"/>
+  <circle cx="520" cy="700" r="50" fill="#1D3557" opacity="0.6"/>
+  <circle cx="495" cy="730" r="50" fill="#F4D35E" opacity="0.6"/>
+  <rect x="480" y="660" width="30" height="8" fill="#000000"/>
+
+  <!-- Cell 4,4 - Minimal vertical stripes -->
+  <rect x="640" y="620" width="14" height="160" fill="#000000"/>
+  <rect x="665" y="640" width="14" height="140" fill="#E63946"/>
+  <rect x="690" y="660" width="14" height="120" fill="#1D3557"/>
+  <rect x="715" y="640" width="14" height="140" fill="#F4D35E"/>
+  <rect x="740" y="620" width="14" height="160" fill="#E76F51"/>
+  <circle cx="700" cy="760" r="8" fill="#000000"/>
+
+  <!-- Border frame -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000000" stroke-width="6"/>
+</svg>

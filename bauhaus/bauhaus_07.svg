@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Radial Burst</title>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Radial burst center point (off-center) -->
+  <!-- Lines radiating from point at 280, 350 -->
+  <line x1="280" y1="350" x2="0" y2="0" stroke="#000000" stroke-width="1.5"/>
+  <line x1="280" y1="350" x2="160" y2="0" stroke="#1D3557" stroke-width="1.5"/>
+  <line x1="280" y1="350" x2="320" y2="0" stroke="#000000" stroke-width="1"/>
+  <line x1="280" y1="350" x2="500" y2="0" stroke="#E63946" stroke-width="1.5"/>
+  <line x1="280" y1="350" x2="700" y2="0" stroke="#000000" stroke-width="1"/>
+  <line x1="280" y1="350" x2="800" y2="100" stroke="#457B9D" stroke-width="1.5"/>
+  <line x1="280" y1="350" x2="800" y2="300" stroke="#000000" stroke-width="1"/>
+  <line x1="280" y1="350" x2="800" y2="500" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="280" y1="350" x2="800" y2="700" stroke="#000000" stroke-width="1"/>
+  <line x1="280" y1="350" x2="800" y2="800" stroke="#1D3557" stroke-width="1.5"/>
+  <line x1="280" y1="350" x2="600" y2="800" stroke="#000000" stroke-width="1"/>
+  <line x1="280" y1="350" x2="400" y2="800" stroke="#E63946" stroke-width="1.5"/>
+  <line x1="280" y1="350" x2="200" y2="800" stroke="#000000" stroke-width="1"/>
+  <line x1="280" y1="350" x2="0" y2="800" stroke="#457B9D" stroke-width="1.5"/>
+  <line x1="280" y1="350" x2="0" y2="600" stroke="#000000" stroke-width="1"/>
+  <line x1="280" y1="350" x2="0" y2="400" stroke="#F4D35E" stroke-width="1.5"/>
+  <line x1="280" y1="350" x2="0" y2="200" stroke="#000000" stroke-width="1"/>
+
+  <!-- Center point -->
+  <circle cx="280" cy="350" r="12" fill="#000000"/>
+  <circle cx="280" cy="350" r="6" fill="#E63946"/>
+
+  <!-- Geometric shapes scattered along rays -->
+  <!-- Along top-left ray -->
+  <rect x="120" y="150" width="40" height="40" fill="#E63946" transform="rotate(45, 140, 170)"/>
+
+  <!-- Along top ray -->
+  <circle cx="310" cy="120" r="25" fill="#F4D35E"/>
+  <circle cx="310" cy="120" r="12" fill="#FFFFFF"/>
+
+  <!-- Along top-right ray -->
+  <polygon points="520,100 545,60 570,100" fill="#1D3557"/>
+  <rect x="620" y="45" width="50" height="25" fill="#457B9D"/>
+
+  <!-- Along right rays -->
+  <circle cx="600" cy="340" r="30" fill="none" stroke="#E63946" stroke-width="3"/>
+  <rect x="680" y="460" width="60" height="35" fill="#F4D35E"/>
+  <polygon points="700,270 730,240 730,300" fill="#000000"/>
+
+  <!-- Along bottom-right rays -->
+  <circle cx="650" cy="620" r="20" fill="#1D3557"/>
+  <rect x="540" y="680" width="45" height="45" fill="#E63946" opacity="0.8"/>
+
+  <!-- Along bottom rays -->
+  <polygon points="380,650 400,610 420,650" fill="#457B9D"/>
+  <circle cx="300" cy="700" r="18" fill="#F4D35E"/>
+  <rect x="180" y="620" width="35" height="55" fill="#1D3557"/>
+
+  <!-- Along left rays -->
+  <circle cx="100" cy="550" r="22" fill="#A8DADC"/>
+  <rect x="60" y="380" width="50" height="30" fill="#E63946"/>
+  <polygon points="80,250 100,210 120,250" fill="#F4D35E"/>
+
+  <!-- Concentric arc rings from center -->
+  <circle cx="280" cy="350" r="80" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="8,6"/>
+  <circle cx="280" cy="350" r="160" fill="none" stroke="#457B9D" stroke-width="1" stroke-dasharray="12,8"/>
+  <circle cx="280" cy="350" r="260" fill="none" stroke="#000000" stroke-width="0.8" stroke-dasharray="4,8"/>
+
+  <!-- Additional accent shapes -->
+  <rect x="450" y="180" width="20" height="20" fill="#000000"/>
+  <circle cx="150" cy="450" r="8" fill="#E63946"/>
+  <circle cx="500" cy="550" r="10" fill="#000000"/>
+  <polygon points="420,420 440,390 460,420" fill="#F4D35E"/>
+
+  <!-- Frame -->
+  <rect x="15" y="15" width="770" height="770" fill="none" stroke="#000000" stroke-width="2"/>
+</svg>

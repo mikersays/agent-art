@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Shadow Play - Geometric shapes with offset shadow duplicates -->
+
+  <!-- Element 1: Large red circle with shadow -->
+  <circle cx="215" cy="195" r="90" fill="#000000" opacity="0.25"/>
+  <circle cx="200" cy="180" r="90" fill="#E63946"/>
+
+  <!-- Element 2: Blue rectangle with shadow -->
+  <rect x="420" y="85" width="180" height="120" fill="#000000" opacity="0.25"/>
+  <rect x="405" y="70" width="180" height="120" fill="#1D3557"/>
+
+  <!-- Element 3: Yellow triangle with shadow -->
+  <polygon points="365,355 285,505 445,505" fill="#000000" opacity="0.25" transform="translate(15,15)"/>
+  <polygon points="365,355 285,505 445,505" fill="#F4D35E"/>
+
+  <!-- Element 4: Orange square with shadow, rotated -->
+  <rect x="570" y="280" width="120" height="120" fill="#000000" opacity="0.25" transform="rotate(30, 645, 355)"/>
+  <rect x="555" y="265" width="120" height="120" fill="#E76F51" transform="rotate(30, 630, 340)"/>
+
+  <!-- Element 5: Steel blue semicircle with shadow -->
+  <path d="M 115 465 A 70 70 0 0 1 255 465 Z" fill="#000000" opacity="0.25" transform="translate(15,15)"/>
+  <path d="M 115 465 A 70 70 0 0 1 255 465 Z" fill="#457B9D"/>
+
+  <!-- Element 6: Black thin rectangle (bar) with shadow -->
+  <rect x="515" y="510" width="220" height="25" fill="#A89F91" opacity="0.4" transform="translate(12,12)"/>
+  <rect x="515" y="510" width="220" height="25" fill="#000000"/>
+
+  <!-- Element 7: Gray circle with shadow -->
+  <circle cx="690" cy="190" r="45" fill="#000000" opacity="0.2"/>
+  <circle cx="678" cy="178" r="45" fill="#A89F91"/>
+
+  <!-- Element 8: Small red square with shadow -->
+  <rect x="90" y="590" width="70" height="70" fill="#000000" opacity="0.25" transform="translate(12,12)"/>
+  <rect x="90" y="590" width="70" height="70" fill="#E63946"/>
+
+  <!-- Element 9: Yellow circle with shadow -->
+  <circle cx="260" cy="670" r="55" fill="#000000" opacity="0.2" transform="translate(12,12)"/>
+  <circle cx="260" cy="670" r="55" fill="#F4D35E"/>
+
+  <!-- Element 10: Blue triangle with shadow -->
+  <polygon points="520,590 470,720 570,720" fill="#000000" opacity="0.25" transform="translate(15,15)"/>
+  <polygon points="520,590 470,720 570,720" fill="#1D3557"/>
+
+  <!-- Element 11: Orange diamond with shadow -->
+  <rect x="665" y="600" width="80" height="80" fill="#000000" opacity="0.25" transform="rotate(45, 720, 655) translate(12,12)"/>
+  <rect x="665" y="600" width="80" height="80" fill="#E76F51" transform="rotate(45, 720, 655)"/>
+
+  <!-- Element 12: Horizontal bar at top with shadow -->
+  <rect x="50" y="42" width="300" height="18" fill="#000000" opacity="0.25" transform="translate(10,10)"/>
+  <rect x="50" y="42" width="300" height="18" fill="#1D3557"/>
+
+  <!-- Element 13: Steel blue rectangle with shadow -->
+  <rect x="420" y="410" width="60" height="140" fill="#000000" opacity="0.25" transform="translate(12,12)"/>
+  <rect x="420" y="410" width="60" height="140" fill="#457B9D"/>
+
+  <!-- Element 14: Small warm gray triangle with shadow -->
+  <polygon points="185,310 145,390 225,390" fill="#000000" opacity="0.2" transform="translate(12,12)"/>
+  <polygon points="185,310 145,390 225,390" fill="#A89F91"/>
+
+  <!-- Element 15: Ring (annulus) with shadow -->
+  <circle cx="402" cy="262" r="40" fill="#000000" opacity="0.2"/>
+  <circle cx="390" cy="250" r="40" fill="#F4D35E"/>
+  <circle cx="390" cy="250" r="22" fill="#FFFFFF"/>
+
+  <!-- Element 16: Thin vertical bar with shadow -->
+  <rect x="322" y="580" width="16" height="180" fill="#000000" opacity="0.25" transform="translate(10,10)"/>
+  <rect x="322" y="580" width="16" height="180" fill="#E63946"/>
+
+  <!-- Element 17: Overlapping composition accent - small circles cluster -->
+  <circle cx="622" cy="465" r="18" fill="#000000" opacity="0.2" transform="translate(8,8)"/>
+  <circle cx="622" cy="465" r="18" fill="#F4D35E"/>
+  <circle cx="652" cy="455" r="14" fill="#000000" opacity="0.2" transform="translate(8,8)"/>
+  <circle cx="652" cy="455" r="14" fill="#E63946"/>
+  <circle cx="637" cy="440" r="10" fill="#000000" opacity="0.2" transform="translate(8,8)"/>
+  <circle cx="637" cy="440" r="10" fill="#1D3557"/>
+
+  <!-- Subtle background diagonal line for depth -->
+  <line x1="0" y1="800" x2="800" y2="0" stroke="#A89F91" stroke-width="1" opacity="0.15"/>
+  <line x1="0" y1="700" x2="700" y2="0" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
+  <line x1="100" y1="800" x2="800" y2="100" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
+
+  <!-- Border -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000000" stroke-width="4"/>
+</svg>

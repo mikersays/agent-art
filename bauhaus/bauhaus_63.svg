@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Piano Keys - Abstract keyboard with colored sound waves -->
+
+  <!-- White piano keys -->
+  <rect x="100" y="500" width="50" height="260" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="155" y="500" width="50" height="260" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="210" y="500" width="50" height="260" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="265" y="500" width="50" height="260" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="320" y="500" width="50" height="260" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="375" y="500" width="50" height="260" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="430" y="500" width="50" height="260" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="485" y="500" width="50" height="260" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="540" y="500" width="50" height="260" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="595" y="500" width="50" height="260" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="650" y="500" width="50" height="260" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+
+  <!-- Black piano keys -->
+  <rect x="135" y="500" width="35" height="160" fill="#000000"/>
+  <rect x="192" y="500" width="35" height="160" fill="#000000"/>
+  <rect x="302" y="500" width="35" height="160" fill="#000000"/>
+  <rect x="357" y="500" width="35" height="160" fill="#000000"/>
+  <rect x="412" y="500" width="35" height="160" fill="#000000"/>
+  <rect x="522" y="500" width="35" height="160" fill="#000000"/>
+  <rect x="577" y="500" width="35" height="160" fill="#000000"/>
+  <rect x="632" y="500" width="35" height="160" fill="#000000"/>
+
+  <!-- Sound waves emanating upward - colored arcs -->
+  <!-- Wave group 1 - from left keys -->
+  <path d="M125 490 Q125 420 180 380" fill="none" stroke="#E63946" stroke-width="4" opacity="0.9"/>
+  <path d="M125 490 Q110 390 190 330" fill="none" stroke="#E63946" stroke-width="3" opacity="0.7"/>
+  <path d="M125 490 Q95 350 200 280" fill="none" stroke="#E63946" stroke-width="2" opacity="0.5"/>
+
+  <!-- Wave group 2 - from middle keys -->
+  <path d="M350 490 Q350 400 400 350" fill="none" stroke="#F4D35E" stroke-width="5" opacity="0.9"/>
+  <path d="M350 490 Q340 360 410 290" fill="none" stroke="#F4D35E" stroke-width="4" opacity="0.7"/>
+  <path d="M350 490 Q330 300 420 220" fill="none" stroke="#F4D35E" stroke-width="3" opacity="0.5"/>
+  <path d="M350 490 Q320 240 430 150" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.3"/>
+
+  <!-- Wave group 3 - from right keys -->
+  <path d="M575 490 Q575 430 620 390" fill="none" stroke="#2A9D8F" stroke-width="4" opacity="0.9"/>
+  <path d="M575 490 Q590 380 630 320" fill="none" stroke="#2A9D8F" stroke-width="3" opacity="0.7"/>
+  <path d="M575 490 Q600 320 640 250" fill="none" stroke="#2A9D8F" stroke-width="2" opacity="0.5"/>
+
+  <!-- Concentric sound wave circles -->
+  <circle cx="400" cy="300" r="40" fill="none" stroke="#E76F51" stroke-width="3" opacity="0.8"/>
+  <circle cx="400" cy="300" r="70" fill="none" stroke="#E76F51" stroke-width="2.5" opacity="0.6"/>
+  <circle cx="400" cy="300" r="100" fill="none" stroke="#E76F51" stroke-width="2" opacity="0.4"/>
+  <circle cx="400" cy="300" r="130" fill="none" stroke="#E76F51" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Floating geometric notes -->
+  <circle cx="200" cy="200" r="15" fill="#E63946"/>
+  <line x1="215" y1="200" x2="215" y2="140" stroke="#E63946" stroke-width="3"/>
+  <rect x="215" y="135" width="20" height="12" fill="#E63946"/>
+
+  <circle cx="500" cy="120" r="12" fill="#F4D35E"/>
+  <line x1="512" y1="120" x2="512" y2="70" stroke="#F4D35E" stroke-width="3"/>
+  <rect x="512" y="65" width="18" height="10" fill="#F4D35E"/>
+
+  <circle cx="650" cy="180" r="10" fill="#2A9D8F"/>
+  <line x1="660" y1="180" x2="660" y2="135" stroke="#2A9D8F" stroke-width="2"/>
+
+  <!-- Decorative dots -->
+  <circle cx="300" cy="100" r="5" fill="#FEFAE0"/>
+  <circle cx="450" cy="60" r="4" fill="#FEFAE0"/>
+  <circle cx="550" cy="90" r="6" fill="#FEFAE0"/>

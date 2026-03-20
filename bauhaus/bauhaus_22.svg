@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Suspension Bridge - Bauhaus Style</title>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Sky gradient background -->
+  <rect x="0" y="0" width="800" height="500" fill="#1D3557" opacity="0.15"/>
+
+  <!-- Water below -->
+  <rect x="0" y="580" width="800" height="220" fill="#1D3557" opacity="0.25"/>
+  <rect x="0" y="620" width="800" height="180" fill="#1D3557" opacity="0.2"/>
+  <rect x="0" y="660" width="800" height="140" fill="#264653" opacity="0.2"/>
+
+  <!-- Left foundation - geometric blocks -->
+  <rect x="20" y="520" width="120" height="280" fill="#264653"/>
+  <rect x="30" y="530" width="100" height="50" fill="#000000" opacity="0.3"/>
+  <polygon points="20,520 80,480 140,520" fill="#6D2E46"/>
+
+  <!-- Right foundation -->
+  <rect x="660" y="520" width="120" height="280" fill="#264653"/>
+  <rect x="670" y="530" width="100" height="50" fill="#000000" opacity="0.3"/>
+  <polygon points="660,520 720,480 780,520" fill="#6D2E46"/>
+
+  <!-- Left tower -->
+  <rect x="55" y="180" width="50" height="340" fill="#000000"/>
+  <rect x="60" y="180" width="40" height="340" fill="#1D3557"/>
+  <rect x="50" y="170" width="60" height="25" fill="#E63946"/>
+  <rect x="45" y="155" width="70" height="20" fill="#000000"/>
+  <circle cx="80" cy="145" r="12" fill="#F4D35E"/>
+
+  <!-- Right tower -->
+  <rect x="695" y="180" width="50" height="340" fill="#000000"/>
+  <rect x="700" y="180" width="40" height="340" fill="#1D3557"/>
+  <rect x="690" y="170" width="60" height="25" fill="#E63946"/>
+  <rect x="685" y="155" width="70" height="20" fill="#000000"/>
+  <circle cx="720" cy="145" r="12" fill="#F4D35E"/>
+
+  <!-- Main cables - catenary arcs -->
+  <path d="M 80,170 Q 400,420 720,170" fill="none" stroke="#000000" stroke-width="6"/>
+  <path d="M 80,170 Q 400,400 720,170" fill="none" stroke="#E63946" stroke-width="4"/>
+
+  <!-- Secondary cable -->
+  <path d="M 80,190 Q 400,450 720,190" fill="none" stroke="#000000" stroke-width="4"/>
+  <path d="M 80,190 Q 400,435 720,190" fill="none" stroke="#DDA15E" stroke-width="2.5"/>
+
+  <!-- Road deck -->
+  <rect x="60" y="500" width="680" height="20" fill="#000000"/>
+  <rect x="60" y="502" width="680" height="16" fill="#DDA15E"/>
+  <line x1="60" y1="510" x2="740" y2="510" stroke="#000000" stroke-width="1" stroke-dasharray="20,10"/>
+
+  <!-- Vertical suspender cables from main cable to deck -->
+  <line x1="140" y1="220" x2="140" y2="500" stroke="#000000" stroke-width="2"/>
+  <line x1="200" y1="265" x2="200" y2="500" stroke="#000000" stroke-width="2"/>
+  <line x1="260" y1="305" x2="260" y2="500" stroke="#000000" stroke-width="2"/>
+  <line x1="320" y1="340" x2="320" y2="500" stroke="#000000" stroke-width="2"/>
+  <line x1="380" y1="365" x2="380" y2="500" stroke="#000000" stroke-width="2"/>
+  <line x1="400" y1="370" x2="400" y2="500" stroke="#000000" stroke-width="2"/>
+  <line x1="420" y1="365" x2="420" y2="500" stroke="#000000" stroke-width="2"/>
+  <line x1="480" y1="340" x2="480" y2="500" stroke="#000000" stroke-width="2"/>
+  <line x1="540" y1="305" x2="540" y2="500" stroke="#000000" stroke-width="2"/>
+  <line x1="600" y1="265" x2="600" y2="500" stroke="#000000" stroke-width="2"/>
+  <line x1="660" y1="220" x2="660" y2="500" stroke="#000000" stroke-width="2"/>
+
+  <!-- Colored accent dots at cable-deck junctions -->
+  <circle cx="140" cy="500" r="4" fill="#E63946"/>
+  <circle cx="200" cy="500" r="4" fill="#F4D35E"/>
+  <circle cx="260" cy="500" r="4" fill="#E63946"/>
+  <circle cx="320" cy="500" r="4" fill="#F4D35E"/>
+  <circle cx="380" cy="500" r="4" fill="#E63946"/>
+  <circle cx="400" cy="500" r="5" fill="#6D2E46"/>
+  <circle cx="420" cy="500" r="4" fill="#E63946"/>
+  <circle cx="480" cy="500" r="4" fill="#F4D35E"/>
+  <circle cx="540" cy="500" r="4" fill="#E63946"/>
+  <circle cx="600" cy="500" r="4" fill="#F4D35E"/>
+  <circle cx="660" cy="500" r="4" fill="#E63946"/>
+
+  <!-- Colored dots at top cable connections -->
+  <circle cx="140" cy="220" r="4" fill="#F4D35E"/>
+  <circle cx="200" cy="265" r="4" fill="#F4D35E"/>
+  <circle cx="260" cy="305" r="4" fill="#F4D35E"/>
+  <circle cx="320" cy="340" r="4" fill="#F4D35E"/>
+  <circle cx="400" cy="370" r="5" fill="#E63946"/>
+  <circle cx="480" cy="340" r="4" fill="#F4D35E"/>
+  <circle cx="540" cy="305" r="4" fill="#F4D35E"/>
+  <circle cx="600" cy="265" r="4" fill="#F4D35E"/>
+  <circle cx="660" cy="220" r="4" fill="#F4D35E"/>
+
+  <!-- Approach ramps -->
+  <polygon points="0,530 60,500 60,520 0,550" fill="#DDA15E"/>
+  <polygon points="740,500 800,530 800,550 740,520" fill="#DDA15E"/>
+
+  <!-- Decorative cross-bracing on towers -->
+  <line x1="60" y1="200" x2="100" y2="300" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="100" y1="200" x2="60" y2="300" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="60" y1="310" x2="100" y2="410" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="100" y1="310" x2="60" y2="410" stroke="#F4D35E" stroke-width="2"/>
+
+  <line x1="700" y1="200" x2="740" y2="300" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="740" y1="200" x2="700" y2="300" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="700" y1="310" x2="740" y2="410" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="740" y1="310" x2="700" y2="410" stroke="#F4D35E" stroke-width="2"/>
+
+  <!-- Geometric sun element -->
+  <circle cx="400" cy="80" r="40" fill="#F4D35E"/>
+  <circle cx="400" cy="80" r="30" fill="#DDA15E"/>
+  <circle cx="400" cy="80" r="15" fill="#E63946"/>
+
+  <!-- Sun rays -->
+  <line x1="400" y1="25" x2="400" y2="10" stroke="#F4D35E" stroke-width="3"/>
+  <line x1="440" y1="40" x2="455" y2="28" stroke="#F4D35E" stroke-width="3"/>
+  <line x1="455" y1="80" x2="470" y2="80" stroke="#F4D35E" stroke-width="3"/>
+  <line x1="440" y1="120" x2="455" y2="132" stroke="#F4D35E" stroke-width="3"/>
+  <line x1="360" y1="40" x2="345" y2="28" stroke="#F4D35E" stroke-width="3"/>
+  <line x1="345" y1="80" x2="330" y2="80" stroke="#F4D35E" stroke-width="3"/>
+  <line x1="360" y1="120" x2="345" y2="132" stroke="#F4D35E" stroke-width="3"/>
+
+  <!-- Water reflections -->
+  <line x1="100" y1="640" x2="180" y2="640" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+  <line x1="300" y1="660" x2="420" y2="660" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="500" y1="650" x2="600" y2="650" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+  <line x1="250" y1="700" x2="350" y2="700" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="450" y1="720" x2="580" y2="720" stroke="#FFFFFF" stroke-width="1" opacity="0.25"/>
+</svg>

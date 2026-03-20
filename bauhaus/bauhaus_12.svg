@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#A89F91"/>
+
+  <!-- Mechanical Ballet - Abstract figures in dynamic poses -->
+  <!-- Inspired by Oskar Schlemmer's Triadic Ballet -->
+
+  <!-- Stage floor -->
+  <rect x="0" y="650" width="800" height="150" fill="#1D3557"/>
+  <line x1="0" y1="650" x2="800" y2="650" stroke="#000000" stroke-width="3"/>
+
+  <!-- Figure 1 - Leaping dancer (left) -->
+  <!-- Head -->
+  <circle cx="150" cy="200" r="35" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <!-- Body -->
+  <rect x="120" y="235" width="60" height="120" fill="#E63946" stroke="#000000" stroke-width="2" transform="rotate(-15, 150, 295)"/>
+  <!-- Left arm -->
+  <rect x="80" y="250" width="50" height="15" fill="#000000" transform="rotate(-45, 105, 257)"/>
+  <!-- Right arm -->
+  <rect x="170" y="240" width="55" height="15" fill="#000000" transform="rotate(30, 197, 247)"/>
+  <!-- Left leg -->
+  <rect x="115" y="350" width="18" height="90" fill="#1D3557" transform="rotate(-30, 124, 395)"/>
+  <!-- Right leg -->
+  <rect x="155" y="350" width="18" height="90" fill="#1D3557" transform="rotate(20, 164, 395)"/>
+  <!-- Left foot -->
+  <polygon points="85,430 115,430 100,450" fill="#E76F51" transform="rotate(-30, 100, 440)"/>
+  <!-- Right foot -->
+  <polygon points="165,435 195,435 180,455" fill="#E76F51" transform="rotate(20, 180, 445)"/>
+
+  <!-- Figure 2 - Central figure, arms raised (center) -->
+  <!-- Head -->
+  <circle cx="400" cy="180" r="40" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <!-- Inner head circle -->
+  <circle cx="400" cy="180" r="20" fill="#000000"/>
+  <!-- Neck -->
+  <rect x="390" y="220" width="20" height="30" fill="#000000"/>
+  <!-- Body - large rectangle -->
+  <rect x="350" y="250" width="100" height="150" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <!-- Body accent stripe -->
+  <rect x="350" y="310" width="100" height="20" fill="#F4D35E"/>
+  <!-- Left arm up -->
+  <rect x="300" y="200" width="55" height="18" fill="#E63946" transform="rotate(-60, 327, 209)"/>
+  <!-- Left hand circle -->
+  <circle cx="285" cy="160" r="12" fill="#F4D35E"/>
+  <!-- Right arm up -->
+  <rect x="445" y="200" width="55" height="18" fill="#E63946" transform="rotate(60, 472, 209)"/>
+  <!-- Right hand circle -->
+  <circle cx="515" cy="160" r="12" fill="#F4D35E"/>
+  <!-- Left leg -->
+  <rect x="365" y="400" width="22" height="110" fill="#000000"/>
+  <!-- Right leg -->
+  <rect x="413" y="400" width="22" height="110" fill="#000000"/>
+  <!-- Left foot -->
+  <polygon points="355,510 390,510 372,540" fill="#457B9D"/>
+  <!-- Right foot -->
+  <polygon points="410,510 445,510 427,540" fill="#457B9D"/>
+  <!-- Tutu/skirt semicircle -->
+  <ellipse cx="400" cy="400" rx="65" ry="20" fill="#E63946" opacity="0.8"/>
+
+  <!-- Figure 3 - Crouching/bending figure (right) -->
+  <!-- Head -->
+  <circle cx="650" cy="350" r="30" fill="#457B9D" stroke="#000000" stroke-width="2"/>
+  <!-- Body tilted -->
+  <rect x="620" y="380" width="55" height="100" fill="#F4D35E" stroke="#000000" stroke-width="2" transform="rotate(25, 647, 430)"/>
+  <!-- Arms reaching down -->
+  <rect x="610" y="460" width="50" height="14" fill="#000000" transform="rotate(70, 635, 467)"/>
+  <rect x="660" y="460" width="50" height="14" fill="#000000" transform="rotate(80, 685, 467)"/>
+  <!-- Legs bent -->
+  <rect x="635" y="475" width="16" height="80" fill="#E63946" transform="rotate(-20, 643, 515)"/>
+  <rect x="665" y="475" width="16" height="80" fill="#E63946" transform="rotate(15, 673, 515)"/>
+  <!-- Feet -->
+  <polygon points="615,555 640,555 627,575" fill="#1D3557"/>
+  <polygon points="680,550 705,550 692,570" fill="#1D3557"/>
+
+  <!-- Figure 4 - Small spinning figure (far left) -->
+  <circle cx="60" cy="500" r="20" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <rect x="42" y="520" width="36" height="60" fill="#457B9D" stroke="#000000" stroke-width="1.5" transform="rotate(10, 60, 550)"/>
+  <rect x="20" y="530" width="40" height="10" fill="#000000" transform="rotate(-20, 40, 535)"/>
+  <rect x="72" y="525" width="40" height="10" fill="#000000" transform="rotate(15, 92, 530)"/>
+  <rect x="45" y="580" width="12" height="50" fill="#E63946" transform="rotate(-15, 51, 605)"/>
+  <rect x="62" y="580" width="12" height="50" fill="#E63946" transform="rotate(25, 68, 605)"/>
+
+  <!-- Figure 5 - Tall stilted figure (right side) -->
+  <circle cx="740" cy="150" r="25" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <rect x="722" y="175" width="36" height="80" fill="#000000"/>
+  <rect x="680" y="190" width="45" height="12" fill="#F4D35E" transform="rotate(-10, 702, 196)"/>
+  <rect x="755" y="185" width="45" height="12" fill="#F4D35E" transform="rotate(20, 777, 191)"/>
+  <!-- Very long legs (stilts) -->
+  <rect x="727" y="255" width="12" height="200" fill="#457B9D"/>
+  <rect x="745" y="255" width="12" height="200" fill="#457B9D"/>
+  <polygon points="720,455 740,455 730,480" fill="#E76F51"/>
+  <polygon points="742,455 762,455 752,480" fill="#E76F51"/>
+
+  <!-- Geometric stage decorations -->
+  <circle cx="50" cy="100" r="40" fill="none" stroke="#F4D35E" stroke-width="3"/>
+  <circle cx="750" cy="80" r="30" fill="none" stroke="#E63946" stroke-width="3"/>
+  <rect x="350" y="50" width="100" height="60" fill="none" stroke="#457B9D" stroke-width="3"/>
+
+  <!-- Spotlight beams -->
+  <polygon points="400,0 300,650 500,650" fill="#F4D35E" opacity="0.08"/>
+  <polygon points="150,0 50,650 250,650" fill="#E63946" opacity="0.06"/>
+  <polygon points="650,0 550,650 750,650" fill="#457B9D" opacity="0.06"/>
+</svg>

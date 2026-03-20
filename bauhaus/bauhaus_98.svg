@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="450" fill="#A8DADC" opacity="0.3"/>
+
+  <!-- Sun -->
+  <circle cx="680" cy="100" r="50" fill="#F4D35E"/>
+  <circle cx="680" cy="100" r="60" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.5"/>
+
+  <!-- Distant hills -->
+  <ellipse cx="200" cy="420" rx="300" ry="80" fill="#1D3557" opacity="0.15"/>
+  <ellipse cx="600" cy="430" rx="250" ry="60" fill="#1D3557" opacity="0.1"/>
+
+  <!-- Water/river under viaduct -->
+  <rect x="0" y="520" width="800" height="60" fill="#A8DADC" opacity="0.4"/>
+  <line x1="0" y1="535" x2="800" y2="535" stroke="#1D3557" stroke-width="1" opacity="0.3"/>
+  <line x1="0" y1="555" x2="800" y2="555" stroke="#1D3557" stroke-width="1" opacity="0.2"/>
+
+  <!-- Ground -->
+  <rect x="0" y="580" width="800" height="220" fill="#333333" opacity="0.15"/>
+  <rect x="0" y="750" width="800" height="50" fill="#333333" opacity="0.3"/>
+
+  <!-- Viaduct structure -->
+  <!-- Main deck -->
+  <rect x="0" y="350" width="800" height="30" fill="#333333"/>
+  <rect x="0" y="345" width="800" height="8" fill="#000000"/>
+
+  <!-- Arch 1 -->
+  <path d="M 20 520 A 90 120 0 0 1 200 520" fill="#E63946" opacity="0.6"/>
+  <path d="M 20 520 A 90 120 0 0 1 200 520" fill="none" stroke="#000000" stroke-width="3"/>
+  <!-- Pier -->
+  <rect x="15" y="380" width="25" height="140" fill="#333333"/>
+  <rect x="190" y="380" width="25" height="140" fill="#333333"/>
+
+  <!-- Arch 2 -->
+  <path d="M 215 520 A 90 120 0 0 1 395 520" fill="#F4D35E" opacity="0.5"/>
+  <path d="M 215 520 A 90 120 0 0 1 395 520" fill="none" stroke="#000000" stroke-width="3"/>
+  <rect x="210" y="380" width="25" height="140" fill="#333333"/>
+  <rect x="385" y="380" width="25" height="140" fill="#333333"/>
+
+  <!-- Arch 3 -->
+  <path d="M 410 520 A 90 120 0 0 1 590 520" fill="#1D3557" opacity="0.5"/>
+  <path d="M 410 520 A 90 120 0 0 1 590 520" fill="none" stroke="#000000" stroke-width="3"/>
+  <rect x="405" y="380" width="25" height="140" fill="#333333"/>
+  <rect x="580" y="380" width="25" height="140" fill="#333333"/>
+
+  <!-- Arch 4 -->
+  <path d="M 605 520 A 90 120 0 0 1 785 520" fill="#E76F51" opacity="0.5"/>
+  <path d="M 605 520 A 90 120 0 0 1 785 520" fill="none" stroke="#000000" stroke-width="3"/>
+  <rect x="600" y="380" width="25" height="140" fill="#333333"/>
+  <rect x="775" y="380" width="25" height="140" fill="#333333"/>
+
+  <!-- Cross bracing on piers -->
+  <line x1="20" y1="390" x2="40" y2="510" stroke="#000000" stroke-width="2"/>
+  <line x1="40" y1="390" x2="20" y2="510" stroke="#000000" stroke-width="2"/>
+  <line x1="215" y1="390" x2="235" y2="510" stroke="#000000" stroke-width="2"/>
+  <line x1="235" y1="390" x2="215" y2="510" stroke="#000000" stroke-width="2"/>
+  <line x1="410" y1="390" x2="430" y2="510" stroke="#000000" stroke-width="2"/>
+  <line x1="430" y1="390" x2="410" y2="510" stroke="#000000" stroke-width="2"/>
+  <line x1="605" y1="390" x2="625" y2="510" stroke="#000000" stroke-width="2"/>
+  <line x1="625" y1="390" x2="605" y2="510" stroke="#000000" stroke-width="2"/>
+
+  <!-- Railing posts on top -->
+  <line x1="50" y1="330" x2="50" y2="350" stroke="#000000" stroke-width="2"/>
+  <line x1="130" y1="330" x2="130" y2="350" stroke="#000000" stroke-width="2"/>
+  <line x1="210" y1="330" x2="210" y2="350" stroke="#000000" stroke-width="2"/>
+  <line x1="290" y1="330" x2="290" y2="350" stroke="#000000" stroke-width="2"/>
+  <line x1="370" y1="330" x2="370" y2="350" stroke="#000000" stroke-width="2"/>
+  <line x1="450" y1="330" x2="450" y2="350" stroke="#000000" stroke-width="2"/>
+  <line x1="530" y1="330" x2="530" y2="350" stroke="#000000" stroke-width="2"/>
+  <line x1="610" y1="330" x2="610" y2="350" stroke="#000000" stroke-width="2"/>
+  <line x1="690" y1="330" x2="690" y2="350" stroke="#000000" stroke-width="2"/>
+  <line x1="770" y1="330" x2="770" y2="350" stroke="#000000" stroke-width="2"/>
+  <!-- Top rail -->
+  <line x1="0" y1="332" x2="800" y2="332" stroke="#000000" stroke-width="2"/>
+
+  <!-- Landscape trees (geometric) -->
+  <rect x="80" y="620" width="15" height="40" fill="#333333"/>
+  <polygon points="50,620 87,560 125,620" fill="#1D3557" opacity="0.6"/>
+  <rect x="650" y="630" width="12" height="35" fill="#333333"/>
+  <polygon points="625,630 656,580 687,630" fill="#1D3557" opacity="0.5"/>
+  <circle cx="350" cy="650" r="20" fill="#E76F51" opacity="0.3"/>
+</svg>

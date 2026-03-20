@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Large blue triangle pointing up -->
+  <polygon points="400,80 150,500 650,500" fill="#1D3557" opacity="0.8"/>
+
+  <!-- Large red triangle pointing down -->
+  <polygon points="400,700 180,320 620,320" fill="#E63946" opacity="0.7"/>
+
+  <!-- Medium yellow triangle pointing right -->
+  <polygon points="200,400 500,250 500,550" fill="#F4D35E" opacity="0.75"/>
+
+  <!-- Black triangle pointing left -->
+  <polygon points="700,350 450,200 450,500" fill="#000000" opacity="0.6"/>
+
+  <!-- Small red triangle top-left -->
+  <polygon points="50,50 180,50 115,160" fill="#E63946" opacity="0.9"/>
+
+  <!-- Small blue triangle bottom-right -->
+  <polygon points="650,700 780,700 715,600" fill="#1D3557" opacity="0.9"/>
+
+  <!-- Small yellow triangle top-right -->
+  <polygon points="700,100 780,100 740,30" fill="#F4D35E"/>
+
+  <!-- Outlined triangle large -->
+  <polygon points="400,150 100,650 700,650" fill="none" stroke="#000000" stroke-width="3"/>
+
+  <!-- Outlined triangle medium -->
+  <polygon points="400,250 220,550 580,550" fill="none" stroke="#E63946" stroke-width="2"/>
+
+  <!-- Tiny black triangles scattered -->
+  <polygon points="80,300 120,300 100,260" fill="#000000"/>
+  <polygon points="720,200 760,200 740,160" fill="#000000"/>
+  <polygon points="350,750 390,750 370,710" fill="#000000"/>
+
+  <!-- Semi-transparent layered triangles center -->
+  <polygon points="400,300 330,440 470,440" fill="#F4D35E" opacity="0.5"/>
+  <polygon points="400,350 350,440 450,440" fill="#E63946" opacity="0.5"/>
+  <polygon points="400,380 370,440 430,440" fill="#1D3557" opacity="0.5"/>
+
+  <!-- Large background triangle subtle -->
+  <polygon points="0,800 400,0 800,800" fill="#1D3557" opacity="0.05"/>
+
+  <!-- Inverted small triangles -->
+  <polygon points="200,100 250,200 150,200" fill="#F4D35E" opacity="0.6"/>
+  <polygon points="600,650 650,750 550,750" fill="#E63946" opacity="0.6"/>
+
+  <!-- Thin black lines connecting vertices -->
+  <line x1="400" y1="80" x2="400" y2="700" stroke="#000000" stroke-width="1"/>
+  <line x1="150" y1="500" x2="650" y2="500" stroke="#000000" stroke-width="1"/>
+  <line x1="100" y1="650" x2="700" y2="650" stroke="#000000" stroke-width="1"/>
+
+  <!-- Right-angle triangle black -->
+  <polygon points="0,800 0,600 200,800" fill="#000000" opacity="0.8"/>
+
+  <!-- Right-angle triangle top-right -->
+  <polygon points="800,0 800,150 650,0" fill="#E63946" opacity="0.7"/>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Stars in background -->
+  <circle cx="100" cy="100" r="2" fill="#FFFFFF"/>
+  <circle cx="200" cy="60" r="1.5" fill="#FFFFFF"/>
+  <circle cx="650" cy="80" r="2" fill="#FFFFFF"/>
+  <circle cx="720" cy="150" r="1.5" fill="#FFFFFF"/>
+  <circle cx="80" cy="250" r="1" fill="#FFFFFF"/>
+  <circle cx="700" cy="300" r="1.5" fill="#FFFFFF"/>
+  <circle cx="150" cy="400" r="1" fill="#FFFFFF"/>
+  <circle cx="680" cy="450" r="2" fill="#FFFFFF"/>
+  <circle cx="50" cy="500" r="1" fill="#FFFFFF"/>
+  <circle cx="750" cy="550" r="1.5" fill="#FFFFFF"/>
+  <circle cx="120" cy="180" r="1" fill="#FFFFFF"/>
+  <circle cx="600" cy="120" r="1" fill="#FFFFFF"/>
+
+  <!-- Exhaust flame - large outer -->
+  <polygon points="400,720 340,800 360,750 330,800 400,760 470,800 440,750 460,800" fill="#E63946"/>
+  <polygon points="400,710 360,790 380,740 350,790 400,755 450,790 420,740 440,790" fill="#E76F51"/>
+  <polygon points="400,700 375,770 385,735 370,770 400,750 430,770 415,735 425,770" fill="#F4D35E"/>
+
+  <!-- Exhaust nozzle -->
+  <polygon points="365,680 435,680 425,720 375,720" fill="#000000"/>
+  <rect x="370" y="710" width="60" height="10" fill="#6D2E46"/>
+
+  <!-- Rocket body - main rectangle -->
+  <rect x="350" y="300" width="100" height="380" rx="5" fill="#FFFFFF"/>
+  <rect x="350" y="300" width="100" height="380" rx="5" fill="none" stroke="#000000" stroke-width="4"/>
+
+  <!-- Body stripe details -->
+  <rect x="350" y="440" width="100" height="30" fill="#E63946"/>
+  <rect x="350" y="440" width="100" height="30" fill="none" stroke="#000000" stroke-width="2"/>
+  <rect x="350" y="550" width="100" height="30" fill="#E63946"/>
+  <rect x="350" y="550" width="100" height="30" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <!-- Geometric pattern on body -->
+  <rect x="370" y="480" width="60" height="60" fill="none" stroke="#1D3557" stroke-width="2"/>
+  <circle cx="400" cy="510" r="20" fill="none" stroke="#1D3557" stroke-width="2"/>
+  <polygon points="400,490 420,520 380,520" fill="#2A9D8F"/>
+
+  <!-- Porthole window -->
+  <circle cx="400" cy="380" r="25" fill="#1D3557"/>
+  <circle cx="400" cy="380" r="25" fill="none" stroke="#000000" stroke-width="3"/>
+  <circle cx="400" cy="380" r="18" fill="#2A9D8F"/>
+  <circle cx="400" cy="380" r="10" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="393" cy="373" r="5" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- Nose cone - triangle -->
+  <polygon points="400,160 340,310 460,310" fill="#E63946"/>
+  <polygon points="400,160 340,310 460,310" fill="none" stroke="#000000" stroke-width="4"/>
+  <!-- Nose cone detail stripe -->
+  <polygon points="400,200 370,280 430,280" fill="#F4D35E"/>
+  <polygon points="400,230 385,270 415,270" fill="#E76F51"/>
+
+  <!-- Nose tip -->
+  <circle cx="400" cy="170" r="8" fill="#F4D35E"/>
+  <circle cx="400" cy="170" r="4" fill="#000000"/>
+
+  <!-- Left fin -->
+  <polygon points="350,580 280,700 350,680" fill="#2A9D8F"/>
+  <polygon points="350,580 280,700 350,680" fill="none" stroke="#000000" stroke-width="3"/>
+  <!-- Left fin detail -->
+  <polygon points="340,620 310,680 345,670" fill="#1D3557"/>
+
+  <!-- Right fin -->
+  <polygon points="450,580 520,700 450,680" fill="#2A9D8F"/>
+  <polygon points="450,580 520,700 450,680" fill="none" stroke="#000000" stroke-width="3"/>
+  <!-- Right fin detail -->
+  <polygon points="460,620 490,680 455,670" fill="#1D3557"/>
+
+  <!-- Small side boosters -->
+  <rect x="295" y="620" width="20" height="60" rx="10" fill="#6D2E46"/>
+  <rect x="295" y="620" width="20" height="60" rx="10" fill="none" stroke="#000000" stroke-width="2"/>
+  <polygon points="305,685 295,710 315,710" fill="#E76F51"/>
+
+  <rect x="485" y="620" width="20" height="60" rx="10" fill="#6D2E46"/>
+  <rect x="485" y="620" width="20" height="60" rx="10" fill="none" stroke="#000000" stroke-width="2"/>
+  <polygon points="495,685 485,710 505,710" fill="#E76F51"/>
+
+  <!-- Antenna on top -->
+  <line x1="400" y1="160" x2="400" y2="120" stroke="#000000" stroke-width="3"/>
+  <circle cx="400" cy="115" r="5" fill="#E63946"/>
+
+  <!-- Geometric exhaust particles -->
+  <rect x="380" y="780" width="8" height="8" fill="#F4D35E" opacity="0.6" transform="rotate(45,384,784)"/>
+  <rect x="410" y="770" width="6" height="6" fill="#E76F51" opacity="0.5" transform="rotate(30,413,773)"/>
+  <polygon points="370,790 375,780 380,790" fill="#E63946" opacity="0.4"/>
+  <polygon points="420,785 425,775 430,785" fill="#F4D35E" opacity="0.5"/>
+</svg>

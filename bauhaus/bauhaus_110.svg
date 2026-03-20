@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- === BACKGROUND GRID === -->
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- === TOP LEFT QUADRANT: Geometric tower === -->
+  <rect x="60" y="40" width="120" height="300" fill="#1D3557"/>
+  <rect x="60" y="40" width="120" height="300" fill="none" stroke="#000000" stroke-width="3"/>
+  <rect x="80" y="60" width="80" height="50" fill="#2A9D8F"/>
+  <rect x="80" y="120" width="80" height="50" fill="#E63946"/>
+  <rect x="80" y="180" width="80" height="50" fill="#F4D35E"/>
+  <polygon points="120,10 50,40 190,40" fill="#E63946"/>
+  <polygon points="120,10 50,40 190,40" fill="none" stroke="#000000" stroke-width="3"/>
+  <circle cx="120" cy="275" r="25" fill="#F4D35E"/>
+  <circle cx="120" cy="275" r="12" fill="#000000"/>
+
+  <!-- === TOP CENTER: Large circle composition === -->
+  <circle cx="400" cy="180" r="130" fill="none" stroke="#000000" stroke-width="4"/>
+  <circle cx="400" cy="180" r="110" fill="#E63946" opacity="0.2"/>
+  <circle cx="400" cy="180" r="80" fill="#F4D35E" opacity="0.3"/>
+  <circle cx="400" cy="180" r="50" fill="#1D3557" opacity="0.4"/>
+  <circle cx="400" cy="180" r="20" fill="#000000"/>
+  <!-- Radial lines from center -->
+  <line x1="400" y1="180" x2="400" y2="50" stroke="#000000" stroke-width="2"/>
+  <line x1="400" y1="180" x2="530" y2="180" stroke="#000000" stroke-width="2"/>
+  <line x1="400" y1="180" x2="400" y2="310" stroke="#000000" stroke-width="2"/>
+  <line x1="400" y1="180" x2="270" y2="180" stroke="#000000" stroke-width="2"/>
+  <line x1="400" y1="180" x2="492" y2="88" stroke="#000000" stroke-width="1.5"/>
+  <line x1="400" y1="180" x2="308" y2="272" stroke="#000000" stroke-width="1.5"/>
+  <line x1="400" y1="180" x2="492" y2="272" stroke="#000000" stroke-width="1.5"/>
+  <line x1="400" y1="180" x2="308" y2="88" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- === TOP RIGHT QUADRANT: Stacked rectangles === -->
+  <rect x="600" y="30" width="160" height="60" fill="#E76F51"/>
+  <rect x="620" y="100" width="140" height="50" fill="#6D2E46"/>
+  <rect x="640" y="160" width="120" height="40" fill="#2A9D8F"/>
+  <rect x="660" y="210" width="100" height="35" fill="#F4D35E"/>
+  <rect x="680" y="255" width="80" height="30" fill="#E63946"/>
+  <rect x="600" y="30" width="160" height="60" fill="none" stroke="#000000" stroke-width="2"/>
+  <rect x="620" y="100" width="140" height="50" fill="none" stroke="#000000" stroke-width="2"/>
+  <rect x="640" y="160" width="120" height="40" fill="none" stroke="#000000" stroke-width="2"/>
+  <polygon points="720,295 680,330 760,330" fill="#1D3557"/>
+
+  <!-- === MIDDLE LEFT: Ellipse and triangle composition === -->
+  <ellipse cx="120" cy="480" rx="90" ry="50" fill="#E76F51" opacity="0.6"/>
+  <ellipse cx="120" cy="480" rx="90" ry="50" fill="none" stroke="#000000" stroke-width="2"/>
+  <ellipse cx="120" cy="480" rx="60" ry="30" fill="#F4D35E" opacity="0.5"/>
+  <polygon points="120,420 60,530 180,530" fill="none" stroke="#000000" stroke-width="3"/>
+  <polygon points="120,440 80,510 160,510" fill="#2A9D8F" opacity="0.4"/>
+  <circle cx="120" cy="480" r="15" fill="#6D2E46"/>
+  <circle cx="120" cy="480" r="6" fill="#FFFFFF"/>
+
+  <!-- === CENTER: The grand diamond === -->
+  <polygon points="400,340 520,470 400,600 280,470" fill="#F4D35E" opacity="0.3"/>
+  <polygon points="400,340 520,470 400,600 280,470" fill="none" stroke="#000000" stroke-width="4"/>
+  <polygon points="400,370 490,470 400,570 310,470" fill="#E63946" opacity="0.3"/>
+  <polygon points="400,370 490,470 400,570 310,470" fill="none" stroke="#1D3557" stroke-width="2"/>
+  <polygon points="400,400 460,470 400,540 340,470" fill="#1D3557" opacity="0.3"/>
+  <circle cx="400" cy="470" r="30" fill="#2A9D8F"/>
+  <circle cx="400" cy="470" r="30" fill="none" stroke="#000000" stroke-width="3"/>
+  <circle cx="400" cy="470" r="15" fill="#F4D35E"/>
+  <circle cx="400" cy="470" r="5" fill="#000000"/>
+
+  <!-- === MIDDLE RIGHT: Mondrian-like grid === -->
+  <rect x="580" y="340" width="100" height="80" fill="#E63946"/>
+  <rect x="580" y="340" width="100" height="80" fill="none" stroke="#000000" stroke-width="3"/>
+  <rect x="690" y="340" width="80" height="80" fill="#FFFFFF"/>
+  <rect x="690" y="340" width="80" height="80" fill="none" stroke="#000000" stroke-width="3"/>
+  <rect x="580" y="430" width="60" height="100" fill="#F4D35E"/>
+  <rect x="580" y="430" width="60" height="100" fill="none" stroke="#000000" stroke-width="3"/>
+  <rect x="650" y="430" width="120" height="100" fill="#1D3557"/>
+  <rect x="650" y="430" width="120" height="100" fill="none" stroke="#000000" stroke-width="3"/>
+  <rect x="580" y="540" width="190" height="50" fill="#FFFFFF"/>
+  <rect x="580" y="540" width="190" height="50" fill="none" stroke="#000000" stroke-width="3"/>
+  <rect x="700" y="540" width="70" height="50" fill="#2A9D8F"/>
+  <rect x="700" y="540" width="70" height="50" fill="none" stroke="#000000" stroke-width="3"/>
+
+  <!-- === BOTTOM LEFT: Interlocking shapes === -->
+  <rect x="40" y="600" width="150" height="80" fill="#6D2E46"/>
+  <rect x="40" y="600" width="150" height="80" fill="none" stroke="#000000" stroke-width="3"/>
+  <circle cx="115" cy="640" r="30" fill="#E63946"/>
+  <circle cx="115" cy="640" r="30" fill="none" stroke="#000000" stroke-width="2"/>
+  <polygon points="115,610 85,655 145,655" fill="#F4D35E"/>
+  <circle cx="115" cy="640" r="10" fill="#000000"/>
+
+  <!-- Horizontal bars -->
+  <rect x="40" y="700" width="180" height="15" fill="#1D3557"/>
+  <rect x="40" y="720" width="160" height="10" fill="#E76F51"/>
+  <rect x="40" y="735" width="140" height="8" fill="#2A9D8F"/>
+  <rect x="40" y="748" width="120" height="6" fill="#F4D35E"/>
+
+  <!-- === BOTTOM CENTER: Arch and columns === -->
+  <rect x="300" y="640" width="30" height="140" fill="#000000"/>
+  <rect x="470" y="640" width="30" height="140" fill="#000000"/>
+  <path d="M300,640 Q400,560 500,640" fill="none" stroke="#000000" stroke-width="5"/>
+  <path d="M310,640 Q400,575 490,640" fill="#E63946" opacity="0.3"/>
+  <!-- Keystone -->
+  <polygon points="400,575 390,600 410,600" fill="#F4D35E"/>
+  <!-- Base -->
+  <rect x="280" y="770" width="240" height="15" fill="#000000"/>
+
+  <!-- Column details -->
+  <rect x="300" y="640" width="30" height="10" fill="#6D2E46"/>
+  <rect x="470" y="640" width="30" height="10" fill="#6D2E46"/>
+  <rect x="300" y="760" width="30" height="15" fill="#6D2E46"/>
+  <rect x="470" y="760" width="30" height="15" fill="#6D2E46"/>
+
+  <!-- Floor circles under arch -->
+  <circle cx="370" cy="730" r="12" fill="#2A9D8F"/>
+  <circle cx="400" cy="720" r="15" fill="#1D3557"/>
+  <circle cx="430" cy="730" r="12" fill="#E76F51"/>
+
+  <!-- === BOTTOM RIGHT: Spiral/target === -->
+  <circle cx="680" cy="700" r="70" fill="#E63946"/>
+  <circle cx="680" cy="700" r="55" fill="#FFFFFF"/>
+  <circle cx="680" cy="700" r="42" fill="#1D3557"/>
+  <circle cx="680" cy="700" r="30" fill="#FFFFFF"/>
+  <circle cx="680" cy="700" r="20" fill="#F4D35E"/>
+  <circle cx="680" cy="700" r="10" fill="#000000"/>
+  <!-- Cross hairs -->
+  <line x1="680" y1="625" x2="680" y2="775" stroke="#000000" stroke-width="1.5"/>
+  <line x1="605" y1="700" x2="755" y2="700" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- === SCATTERED ACCENT ELEMENTS === -->
+  <!-- Floating triangles -->
+  <polygon points="250,320 230,355 270,355" fill="#E76F51"/>
+  <polygon points="550,300 540,320 560,320" fill="#6D2E46"/>
+
+  <!-- Small accent circles -->
+  <circle cx="240" cy="180" r="8" fill="#2A9D8F"/>
+  <circle cx="560" cy="600" r="6" fill="#E63946"/>
+  <circle cx="260" cy="560" r="10" fill="#F4D35E"/>
+  <circle cx="540" cy="140" r="5" fill="#000000"/>
+
+  <!-- Diagonal accent lines -->
+  <line x1="220" y1="350" x2="280" y2="410" stroke="#E63946" stroke-width="3"/>
+  <line x1="520" y1="600" x2="560" y2="640" stroke="#1D3557" stroke-width="2"/>
+
+  <!-- Outer frame -->
+  <rect x="10" y="10" width="780" height="780" fill="none" stroke="#000000" stroke-width="5"/>
+  <rect x="18" y="18" width="764" height="764" fill="none" stroke="#6D2E46" stroke-width="1.5"/>
+</svg>

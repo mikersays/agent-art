@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Bauhaus Poster - Bold abstract poster layout -->
+
+  <!-- Strong vertical accent bar on the left -->
+  <rect x="80" y="40" width="60" height="720" fill="#E63946"/>
+
+  <!-- Large circle - dominant shape -->
+  <circle cx="420" cy="280" r="180" fill="#1D3557"/>
+
+  <!-- Half circle overlay -->
+  <path d="M420 100 A180 180 0 0 1 600 280 L420 280 Z" fill="#F4D35E"/>
+
+  <!-- Thick horizontal bars -->
+  <rect x="80" y="500" width="640" height="40" fill="#000000"/>
+  <rect x="80" y="560" width="640" height="25" fill="#E63946"/>
+  <rect x="80" y="600" width="640" height="15" fill="#000000"/>
+  <rect x="80" y="630" width="640" height="35" fill="#2A9D8F"/>
+  <rect x="80" y="680" width="640" height="20" fill="#000000"/>
+  <rect x="80" y="710" width="640" height="50" fill="#F4D35E"/>
+
+  <!-- Large triangle -->
+  <polygon points="200,480 340,320 340,480" fill="#E76F51"/>
+
+  <!-- Small geometric accents -->
+  <rect x="600" y="100" width="80" height="80" fill="#F4D35E"/>
+  <rect x="610" y="110" width="60" height="60" fill="#000000"/>
+  <circle cx="640" cy="140" r="20" fill="#FFFFFF"/>
+
+  <!-- Vertical thin lines -->
+  <line x1="500" y1="40" x2="500" y2="480" stroke="#000000" stroke-width="3"/>
+  <line x1="520" y1="40" x2="520" y2="480" stroke="#000000" stroke-width="1"/>
+
+  <!-- Small squares cluster -->
+  <rect x="160" y="100" width="40" height="40" fill="#2A9D8F"/>
+  <rect x="160" y="150" width="40" height="40" fill="#F4D35E"/>
+  <rect x="160" y="200" width="40" height="40" fill="#E63946"/>
+
+  <!-- Diagonal line accent -->
+  <line x1="80" y1="40" x2="720" y2="40" stroke="#000000" stroke-width="5"/>
+  <line x1="80" y1="760" x2="720" y2="760" stroke="#000000" stroke-width="5"/>
+
+  <!-- Additional geometric elements -->
+  <rect x="550" y="380" width="120" height="100" fill="none" stroke="#000000" stroke-width="4"/>
+  <circle cx="610" cy="430" r="30" fill="#E63946" opacity="0.8"/>
+  <rect x="350" y="400" width="60" height="80" fill="#1D3557" opacity="0.6"/>
+
+  <!-- Thin horizontal accent lines in the circle -->
+  <line x1="240" y1="250" x2="420" y2="250" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="240" y1="280" x2="420" y2="280" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="240" y1="310" x2="420" y2="310" stroke="#FFFFFF" stroke-width="2"/>

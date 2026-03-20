@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#000000"/>
+
+  <!-- Stained glass window frame -->
+  <rect x="40" y="20" width="720" height="760" rx="10" fill="none" stroke="#A89F91" stroke-width="12"/>
+
+  <!-- Gothic arch top -->
+  <path d="M60,400 L60,100 Q400,0 740,100 L740,400" stroke="#000000" stroke-width="8" fill="none"/>
+
+  <!-- Large curved sections - top arch area -->
+  <path d="M60,100 Q400,10 740,100 L740,200 Q400,120 60,200 Z" fill="#1D3557" stroke="#000000" stroke-width="6"/>
+  <path d="M60,200 Q400,120 740,200 L740,300 Q550,250 400,280 Q250,250 60,300 Z" fill="#E63946" stroke="#000000" stroke-width="6"/>
+
+  <!-- Central rose circle -->
+  <circle cx="400" cy="340" r="80" fill="#F4D35E" stroke="#000000" stroke-width="6"/>
+  <circle cx="400" cy="340" r="55" fill="#E9C46A" stroke="#000000" stroke-width="5"/>
+  <circle cx="400" cy="340" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+  <circle cx="400" cy="340" r="12" fill="#E63946" stroke="#000000" stroke-width="3"/>
+  <!-- Rose petals/spokes -->
+  <line x1="400" y1="260" x2="400" y2="420" stroke="#000000" stroke-width="4"/>
+  <line x1="320" y1="340" x2="480" y2="340" stroke="#000000" stroke-width="4"/>
+  <line x1="343" y1="283" x2="457" y2="397" stroke="#000000" stroke-width="4"/>
+  <line x1="457" y1="283" x2="343" y2="397" stroke="#000000" stroke-width="4"/>
+
+  <!-- Left panel sections -->
+  <path d="M60,300 Q150,270 200,300 L200,420 L60,420 Z" fill="#2A9D8F" stroke="#000000" stroke-width="5"/>
+  <path d="M200,300 Q280,280 320,340 L320,420 L200,420 Z" fill="#F4D35E" stroke="#000000" stroke-width="5"/>
+  <rect x="60" y="420" width="70" height="100" fill="#E9C46A" stroke="#000000" stroke-width="5"/>
+  <rect x="130" y="420" width="70" height="100" fill="#1D3557" stroke="#000000" stroke-width="5"/>
+  <rect x="200" y="420" width="60" height="100" fill="#FFFFFF" stroke="#000000" stroke-width="5"/>
+  <rect x="260" y="420" width="60" height="100" fill="#E63946" stroke="#000000" stroke-width="5"/>
+
+  <!-- Right panel sections -->
+  <path d="M480,340 Q520,280 600,300 L740,300 L740,420 L480,420 Z" fill="#E9C46A" stroke="#000000" stroke-width="5"/>
+  <path d="M600,300 L740,300 L740,420 L600,420 Z" fill="#A89F91" stroke="#000000" stroke-width="5"/>
+  <rect x="480" y="420" width="60" height="100" fill="#2A9D8F" stroke="#000000" stroke-width="5"/>
+  <rect x="540" y="420" width="70" height="100" fill="#F4D35E" stroke="#000000" stroke-width="5"/>
+  <rect x="610" y="420" width="65" height="100" fill="#E63946" stroke="#000000" stroke-width="5"/>
+  <rect x="675" y="420" width="65" height="100" fill="#1D3557" stroke="#000000" stroke-width="5"/>
+
+  <!-- Middle horizontal band -->
+  <rect x="60" y="520" width="680" height="12" fill="#000000"/>
+
+  <!-- Lower panels - tall vertical sections -->
+  <rect x="60" y="532" width="95" height="230" fill="#E63946" stroke="#000000" stroke-width="5"/>
+  <rect x="155" y="532" width="95" height="230" fill="#FFFFFF" stroke="#000000" stroke-width="5"/>
+  <rect x="250" y="532" width="95" height="230" fill="#1D3557" stroke="#000000" stroke-width="5"/>
+  <rect x="345" y="532" width="110" height="230" fill="#F4D35E" stroke="#000000" stroke-width="5"/>
+  <rect x="455" y="532" width="95" height="230" fill="#2A9D8F" stroke="#000000" stroke-width="5"/>
+  <rect x="550" y="532" width="95" height="230" fill="#E9C46A" stroke="#000000" stroke-width="5"/>
+  <rect x="645" y="532" width="95" height="230" fill="#E63946" stroke="#000000" stroke-width="5"/>
+
+  <!-- Curved leading lines within lower panels -->
+  <path d="M155,532 Q180,650 155,762" stroke="#000000" stroke-width="4" fill="none"/>
+  <path d="M345,532 Q370,650 345,762" stroke="#000000" stroke-width="4" fill="none"/>
+  <path d="M550,532 Q575,650 550,762" stroke="#000000" stroke-width="4" fill="none"/>
+
+  <!-- Diamond accents in lower panels -->
+  <polygon points="107,620 130,650 107,680 84,650" fill="#F4D35E" stroke="#000000" stroke-width="3"/>
+  <polygon points="202,620 225,650 202,680 179,650" fill="#2A9D8F" stroke="#000000" stroke-width="3"/>
+  <polygon points="297,620 320,650 297,680 274,650" fill="#E9C46A" stroke="#000000" stroke-width="3"/>
+  <polygon points="400,600 430,640 400,680 370,640" fill="#E63946" stroke="#000000" stroke-width="3"/>
+  <polygon points="502,620 525,650 502,680 479,650" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <polygon points="597,620 620,650 597,680 574,650" fill="#1D3557" stroke="#000000" stroke-width="3"/>
+  <polygon points="692,620 715,650 692,680 669,650" fill="#F4D35E" stroke="#000000" stroke-width="3"/>
+
+  <!-- Small triangular accents in arch -->
+  <polygon points="150,150 180,180 120,180" fill="#F4D35E" stroke="#000000" stroke-width="3"/>
+  <polygon points="650,150 680,180 620,180" fill="#2A9D8F" stroke="#000000" stroke-width="3"/>
+  <polygon points="250,130 270,160 230,160" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <polygon points="550,130 570,160 530,160" fill="#E9C46A" stroke="#000000" stroke-width="3"/>
+
+  <!-- Title -->
+  <text x="400" y="790" font-family="sans-serif" font-size="20" font-weight="bold" fill="#A89F91" text-anchor="middle">STAINED GLASS</text>
+</svg>

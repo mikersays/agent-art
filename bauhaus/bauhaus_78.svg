@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#A8DADC" opacity="0.3"/>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Background subtle pattern -->
+  <rect x="0" y="0" width="800" height="800" fill="#A8DADC" opacity="0.08"/>
+
+  <!-- Main periscope 1 (large, center-left) -->
+  <!-- Upper tube -->
+  <rect x="180" y="80" width="60" height="200" fill="#1D3557"/>
+  <rect x="185" y="80" width="50" height="200" fill="#1D3557"/>
+  <!-- Horizontal connector -->
+  <rect x="180" y="270" width="200" height="60" fill="#333333"/>
+  <!-- Lower tube -->
+  <rect x="320" y="320" width="60" height="220" fill="#1D3557"/>
+  <!-- Upper viewing circle -->
+  <circle cx="210" cy="75" r="35" fill="#2A9D8F" stroke="#000000" stroke-width="3"/>
+  <circle cx="210" cy="75" r="22" fill="#A8DADC"/>
+  <circle cx="210" cy="75" r="12" fill="#FFFFFF"/>
+  <!-- Lower viewing circle -->
+  <circle cx="350" cy="545" r="35" fill="#E63946" stroke="#000000" stroke-width="3"/>
+  <circle cx="350" cy="545" r="22" fill="#F4D35E"/>
+  <circle cx="350" cy="545" r="12" fill="#FFFFFF"/>
+  <!-- Upper mirror (diagonal) -->
+  <line x1="185" y1="275" x2="240" y2="325" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="180" y1="270" x2="240" y2="330" stroke="#F4D35E" stroke-width="2"/>
+  <!-- Lower mirror (diagonal) -->
+  <line x1="320" y1="275" x2="375" y2="325" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="315" y1="270" x2="380" y2="330" stroke="#F4D35E" stroke-width="2"/>
+
+  <!-- Main periscope 2 (right side, inverted) -->
+  <!-- Upper tube -->
+  <rect x="520" y="120" width="50" height="180" fill="#E63946"/>
+  <!-- Horizontal connector -->
+  <rect x="420" y="290" width="150" height="50" fill="#333333"/>
+  <!-- Lower tube -->
+  <rect x="420" y="330" width="50" height="200" fill="#E63946"/>
+  <!-- Upper viewing circle -->
+  <circle cx="545" cy="115" r="30" fill="#1D3557" stroke="#000000" stroke-width="3"/>
+  <circle cx="545" cy="115" r="18" fill="#A8DADC"/>
+  <circle cx="545" cy="115" r="9" fill="#FFFFFF"/>
+  <!-- Lower viewing circle -->
+  <circle cx="445" cy="535" r="30" fill="#F4D35E" stroke="#000000" stroke-width="3"/>
+  <circle cx="445" cy="535" r="18" fill="#2A9D8F"/>
+  <circle cx="445" cy="535" r="9" fill="#FFFFFF"/>
+  <!-- Mirrors -->
+  <line x1="520" y1="295" x2="565" y2="335" stroke="#F4D35E" stroke-width="3"/>
+  <line x1="420" y1="295" x2="465" y2="335" stroke="#F4D35E" stroke-width="3"/>
+
+  <!-- Small periscope 3 (far right) -->
+  <rect x="640" y="200" width="40" height="150" fill="#2A9D8F"/>
+  <rect x="640" y="340" width="120" height="40" fill="#333333"/>
+  <rect x="720" y="370" width="40" height="160" fill="#2A9D8F"/>
+  <circle cx="660" cy="195" r="25" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <circle cx="660" cy="195" r="14" fill="#FFFFFF"/>
+  <circle cx="740" cy="535" r="25" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <circle cx="740" cy="535" r="14" fill="#FFFFFF"/>
+  <line x1="640" y1="345" x2="675" y2="375" stroke="#F4D35E" stroke-width="3"/>
+  <line x1="720" y1="345" x2="755" y2="375" stroke="#F4D35E" stroke-width="3"/>
+
+  <!-- Small periscope 4 (bottom left) -->
+  <rect x="60" y="450" width="35" height="130" fill="#F4D35E"/>
+  <rect x="60" y="570" width="130" height="35" fill="#333333"/>
+  <rect x="155" y="595" width="35" height="130" fill="#F4D35E"/>
+  <circle cx="77" cy="445" r="22" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <circle cx="77" cy="445" r="12" fill="#A8DADC"/>
+  <circle cx="172" cy="730" r="22" fill="#2A9D8F" stroke="#000000" stroke-width="2"/>
+  <circle cx="172" cy="730" r="12" fill="#A8DADC"/>
+  <line x1="60" y1="575" x2="90" y2="600" stroke="#E63946" stroke-width="3"/>
+  <line x1="155" y1="575" x2="185" y2="600" stroke="#E63946" stroke-width="3"/>
+
+  <!-- Decorative geometric elements -->
+  <rect x="600" y="650" width="80" height="80" fill="#1D3557" opacity="0.6"/>
+  <polygon points="640,650 680,690 600,690" fill="#F4D35E" opacity="0.5"/>
+
+  <rect x="50" y="50" width="60" height="60" fill="#E63946" opacity="0.4"/>
+  <circle cx="80" cy="80" r="20" fill="#F4D35E" opacity="0.5"/>
+
+  <!-- Wave/water viewing element at bottom -->
+  <path d="M 0,760 Q 100,740 200,760 Q 300,780 400,760 Q 500,740 600,760 Q 700,780 800,760" fill="none" stroke="#2A9D8F" stroke-width="3"/>
+  <path d="M 0,775 Q 100,755 200,775 Q 300,795 400,775 Q 500,755 600,775 Q 700,795 800,775" fill="none" stroke="#A8DADC" stroke-width="2"/>
+
+  <!-- Cross-hair sight marks -->
+  <g transform="translate(660,660)">
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="#000000" stroke-width="1.5"/>
+    <line x1="0" y1="-15" x2="0" y2="15" stroke="#000000" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#000000" stroke-width="1"/>
+  </g>
+
+  <!-- Border -->
+  <rect x="5" y="5" width="790" height="790" fill="none" stroke="#000000" stroke-width="3"/>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Central axis (vertical rod) -->
+  <rect x="395" y="120" width="10" height="560" fill="#000000"/>
+  <circle cx="400" cy="120" r="8" fill="#000000"/>
+  <circle cx="400" cy="680" r="8" fill="#000000"/>
+
+  <!-- Outermost ring - tilted ellipse (nearly horizontal) -->
+  <ellipse cx="400" cy="400" rx="300" ry="80" fill="none" stroke="#E63946" stroke-width="8" transform="rotate(-15,400,400)"/>
+
+  <!-- Second ring - tilted opposite -->
+  <ellipse cx="400" cy="400" rx="270" ry="120" fill="none" stroke="#1D3557" stroke-width="7" transform="rotate(30,400,400)"/>
+
+  <!-- Third ring - steep tilt -->
+  <ellipse cx="400" cy="400" rx="240" ry="200" fill="none" stroke="#F4D35E" stroke-width="6" transform="rotate(-55,400,400)"/>
+
+  <!-- Fourth ring - near vertical -->
+  <ellipse cx="400" cy="400" rx="200" ry="250" fill="none" stroke="#6D2E46" stroke-width="5" transform="rotate(70,400,400)"/>
+
+  <!-- Fifth ring - another angle -->
+  <ellipse cx="400" cy="400" rx="160" ry="100" fill="none" stroke="#264653" stroke-width="6" transform="rotate(5,400,400)"/>
+
+  <!-- Sixth inner ring -->
+  <ellipse cx="400" cy="400" rx="120" ry="180" fill="none" stroke="#DDA15E" stroke-width="5" transform="rotate(-40,400,400)"/>
+
+  <!-- Innermost ring -->
+  <ellipse cx="400" cy="400" rx="70" ry="50" fill="none" stroke="#000000" stroke-width="4" transform="rotate(50,400,400)"/>
+
+  <!-- Central hub -->
+  <circle cx="400" cy="400" r="25" fill="#E63946"/>
+  <circle cx="400" cy="400" r="15" fill="#F4D35E"/>
+  <circle cx="400" cy="400" r="6" fill="#000000"/>
+
+  <!-- Axis mounting brackets (top) -->
+  <rect x="385" y="140" width="30" height="8" fill="#000000"/>
+  <rect x="380" y="155" width="40" height="6" fill="#1D3557"/>
+
+  <!-- Axis mounting brackets (bottom) -->
+  <rect x="385" y="652" width="30" height="8" fill="#000000"/>
+  <rect x="380" y="640" width="40" height="6" fill="#1D3557"/>
+
+  <!-- Motion blur dots along rings -->
+  <circle cx="160" cy="340" r="5" fill="#E63946" opacity="0.6"/>
+  <circle cx="640" cy="460" r="5" fill="#E63946" opacity="0.6"/>
+  <circle cx="300" cy="250" r="4" fill="#1D3557" opacity="0.5"/>
+  <circle cx="500" cy="550" r="4" fill="#1D3557" opacity="0.5"/>
+  <circle cx="220" cy="520" r="4" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="580" cy="280" r="4" fill="#F4D35E" opacity="0.5"/>
+
+  <!-- Stand/base -->
+  <polygon points="370,680 430,680 460,740 340,740" fill="#000000"/>
+  <rect x="320" y="740" width="160" height="10" fill="#000000"/>
+
+  <!-- Top cap -->
+  <polygon points="385,120 415,120 410,95 390,95" fill="#000000"/>
+  <circle cx="400" cy="90" r="8" fill="#6D2E46"/>
+</svg>

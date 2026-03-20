@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Thick black grid lines - vertical -->
+  <line x1="160" y1="0" x2="160" y2="800" stroke="#000000" stroke-width="6"/>
+  <line x1="320" y1="0" x2="320" y2="800" stroke="#000000" stroke-width="6"/>
+  <line x1="480" y1="0" x2="480" y2="800" stroke="#000000" stroke-width="6"/>
+  <line x1="640" y1="0" x2="640" y2="800" stroke="#000000" stroke-width="6"/>
+
+  <!-- Thick black grid lines - horizontal -->
+  <line x1="0" y1="120" x2="800" y2="120" stroke="#000000" stroke-width="6"/>
+  <line x1="0" y1="280" x2="800" y2="280" stroke="#000000" stroke-width="6"/>
+  <line x1="0" y1="440" x2="800" y2="440" stroke="#000000" stroke-width="6"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#000000" stroke-width="6"/>
+  <line x1="0" y1="680" x2="800" y2="680" stroke="#000000" stroke-width="6"/>
+
+  <!-- Large red rectangle spanning two cells -->
+  <rect x="3" y="3" width="157" height="277" fill="#E63946"/>
+
+  <!-- Blue square -->
+  <rect x="483" y="443" width="157" height="117" fill="#1D3557"/>
+
+  <!-- Yellow rectangle spanning wide -->
+  <rect x="323" y="123" width="317" height="157" fill="#F4D35E"/>
+
+  <!-- Black rectangle -->
+  <rect x="643" y="3" width="154" height="117" fill="#000000"/>
+
+  <!-- Red small square -->
+  <rect x="643" y="563" width="154" height="117" fill="#E63946"/>
+
+  <!-- Blue tall rectangle -->
+  <rect x="163" y="563" width="157" height="234" fill="#1D3557"/>
+
+  <!-- Yellow square -->
+  <rect x="3" y="683" width="157" height="114" fill="#F4D35E"/>
+
+  <!-- Black rectangle bottom -->
+  <rect x="483" y="683" width="157" height="114" fill="#000000"/>
+
+  <!-- Red rectangle -->
+  <rect x="323" y="283" width="157" height="157" fill="#E63946" opacity="0.9"/>
+
+  <!-- Outlined rectangles -->
+  <rect x="163" y="123" width="157" height="157" fill="none" stroke="#000000" stroke-width="3"/>
+  <rect x="643" y="283" width="154" height="157" fill="none" stroke="#E63946" stroke-width="3"/>
+
+  <!-- Small yellow accent -->
+  <rect x="3" y="443" width="157" height="117" fill="#F4D35E" opacity="0.6"/>
+
+  <!-- Blue accent rectangle -->
+  <rect x="643" y="123" width="154" height="157" fill="#1D3557" opacity="0.4"/>
+
+  <!-- Thin interior lines for asymmetry -->
+  <line x1="240" y1="280" x2="240" y2="440" stroke="#000000" stroke-width="3"/>
+  <line x1="560" y1="560" x2="560" y2="680" stroke="#000000" stroke-width="3"/>
+  <line x1="480" y1="360" x2="640" y2="360" stroke="#000000" stroke-width="3"/>
+  <line x1="0" y1="200" x2="160" y2="200" stroke="#000000" stroke-width="3"/>
+
+  <!-- Additional filled cells for richness -->
+  <rect x="323" y="443" width="157" height="117" fill="#000000" opacity="0.15"/>
+  <rect x="483" y="283" width="157" height="157" fill="#F4D35E" opacity="0.3"/>
+
+  <!-- Border -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000000" stroke-width="6"/>
+</svg>

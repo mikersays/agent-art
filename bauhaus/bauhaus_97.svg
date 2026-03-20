@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#A8DADC" opacity="0.2"/>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Background geometric pattern -->
+  <rect x="0" y="0" width="400" height="400" fill="#A8DADC" opacity="0.15"/>
+  <rect x="400" y="400" width="400" height="400" fill="#F4D35E" opacity="0.1"/>
+
+  <!-- Die 1 - Large, slightly rotated - showing 5 -->
+  <g transform="translate(300, 300) rotate(-12)">
+    <rect x="-100" y="-100" width="200" height="200" rx="20" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+    <circle cx="-50" cy="-50" r="16" fill="#000000"/>
+    <circle cx="50" cy="-50" r="16" fill="#000000"/>
+    <circle cx="0" cy="0" r="16" fill="#000000"/>
+    <circle cx="-50" cy="50" r="16" fill="#000000"/>
+    <circle cx="50" cy="50" r="16" fill="#000000"/>
+  </g>
+
+  <!-- Die 2 - Medium, rotated differently - showing 3 -->
+  <g transform="translate(550, 200) rotate(25)">
+    <rect x="-70" y="-70" width="140" height="140" rx="14" fill="#E63946" stroke="#000000" stroke-width="3"/>
+    <circle cx="-35" cy="-35" r="12" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="12" fill="#FFFFFF"/>
+    <circle cx="35" cy="35" r="12" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Die 3 - Large, behind others - showing 6 -->
+  <g transform="translate(180, 550) rotate(8)">
+    <rect x="-90" y="-90" width="180" height="180" rx="18" fill="#1D3557" stroke="#000000" stroke-width="3.5"/>
+    <circle cx="-45" cy="-50" r="14" fill="#FFFFFF"/>
+    <circle cx="45" cy="-50" r="14" fill="#FFFFFF"/>
+    <circle cx="-45" cy="0" r="14" fill="#FFFFFF"/>
+    <circle cx="45" cy="0" r="14" fill="#FFFFFF"/>
+    <circle cx="-45" cy="50" r="14" fill="#FFFFFF"/>
+    <circle cx="45" cy="50" r="14" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Die 4 - Small, tilted - showing 1 -->
+  <g transform="translate(600, 500) rotate(-30)">
+    <rect x="-55" y="-55" width="110" height="110" rx="12" fill="#F4D35E" stroke="#000000" stroke-width="3"/>
+    <circle cx="0" cy="0" r="14" fill="#000000"/>
+  </g>
+
+  <!-- Die 5 - Medium, showing 4 -->
+  <g transform="translate(450, 620) rotate(15)">
+    <rect x="-65" y="-65" width="130" height="130" rx="13" fill="#E76F51" stroke="#000000" stroke-width="3"/>
+    <circle cx="-30" cy="-30" r="11" fill="#FFFFFF"/>
+    <circle cx="30" cy="-30" r="11" fill="#FFFFFF"/>
+    <circle cx="-30" cy="30" r="11" fill="#FFFFFF"/>
+    <circle cx="30" cy="30" r="11" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Die 6 - Small, showing 2 -->
+  <g transform="translate(130, 200) rotate(-20)">
+    <rect x="-45" y="-45" width="90" height="90" rx="10" fill="#333333" stroke="#000000" stroke-width="2.5"/>
+    <circle cx="-20" cy="-20" r="9" fill="#E63946"/>
+    <circle cx="20" cy="20" r="9" fill="#E63946"/>
+  </g>
+
+  <!-- Die 7 - Tiny, accent - showing 2 -->
+  <g transform="translate(680, 380) rotate(40)">
+    <rect x="-35" y="-35" width="70" height="70" rx="8" fill="#FFFFFF" stroke="#1D3557" stroke-width="3"/>
+    <circle cx="-14" cy="-14" r="7" fill="#1D3557"/>
+    <circle cx="14" cy="14" r="7" fill="#1D3557"/>
+  </g>
+
+  <!-- Scattered loose dots - abstract -->
+  <circle cx="70" cy="400" r="8" fill="#E63946" opacity="0.5"/>
+  <circle cx="730" cy="150" r="10" fill="#1D3557" opacity="0.4"/>
+  <circle cx="350" cy="750" r="7" fill="#000000" opacity="0.3"/>
+  <circle cx="700" cy="700" r="9" fill="#F4D35E" opacity="0.5"/>
+
+  <!-- Decorative lines -->
+  <line x1="0" y1="400" x2="60" y2="400" stroke="#333333" stroke-width="3"/>
+  <line x1="740" y1="400" x2="800" y2="400" stroke="#333333" stroke-width="3"/>
+  <line x1="400" y1="0" x2="400" y2="50" stroke="#333333" stroke-width="3"/>
+  <line x1="400" y1="760" x2="400" y2="800" stroke="#333333" stroke-width="3"/>
+</svg>

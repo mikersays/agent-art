@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Concentric circles -->
+  <circle cx="400" cy="400" r="350" fill="none" stroke="#000000" stroke-width="2"/>
+  <circle cx="400" cy="400" r="300" fill="none" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="400" cy="400" r="250" fill="none" stroke="#264653" stroke-width="1"/>
+  <circle cx="400" cy="400" r="200" fill="none" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="400" cy="400" r="150" fill="none" stroke="#264653" stroke-width="1"/>
+  <circle cx="400" cy="400" r="100" fill="none" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="400" cy="400" r="50" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Center filled circle -->
+  <circle cx="400" cy="400" r="20" fill="#E63946"/>
+
+  <!-- North point (main) -->
+  <polygon points="400,50 370,200 400,150 430,200" fill="#E63946" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="400,50 430,200 400,150 370,200" fill="#6D2E46" stroke="#000000" stroke-width="1.5" opacity="0"/>
+  <!-- North dark half -->
+  <polygon points="400,50 400,150 430,200" fill="#6D2E46" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- South point -->
+  <polygon points="400,750 370,600 400,650 430,600" fill="#1D3557" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="400,750 400,650 430,600" fill="#264653" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- East point -->
+  <polygon points="750,400 600,370 650,400 600,430" fill="#F4D35E" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="750,400 650,400 600,430" fill="#DDA15E" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- West point -->
+  <polygon points="50,400 200,370 150,400 200,430" fill="#F4D35E" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="50,400 150,400 200,430" fill="#DDA15E" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- NE point (smaller) -->
+  <polygon points="647,153 530,270 560,250 550,290" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <polygon points="647,153 560,250 550,290" fill="#000000" stroke="#000000" stroke-width="1"/>
+
+  <!-- NW point -->
+  <polygon points="153,153 270,270 250,250 250,290" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <polygon points="153,153 250,250 250,290" fill="#000000" stroke="#000000" stroke-width="1"/>
+
+  <!-- SE point -->
+  <polygon points="647,647 530,530 560,550 550,510" fill="#264653" stroke="#000000" stroke-width="1"/>
+  <polygon points="647,647 560,550 550,510" fill="#000000" stroke="#000000" stroke-width="1"/>
+
+  <!-- SW point -->
+  <polygon points="153,647 270,530 250,550 250,510" fill="#6D2E46" stroke="#000000" stroke-width="1"/>
+  <polygon points="153,647 250,550 250,510" fill="#000000" stroke="#000000" stroke-width="1"/>
+
+  <!-- Decorative fills between circles - NE quadrant geometric pattern -->
+  <path d="M 400,150 A 250,250 0 0,1 650,400" fill="none" stroke="#E63946" stroke-width="2" stroke-dasharray="8,4"/>
+  <path d="M 400,200 A 200,200 0 0,1 600,400" fill="none" stroke="#F4D35E" stroke-width="1.5" stroke-dasharray="6,3"/>
+
+  <!-- Cross hairs -->
+  <line x1="400" y1="250" x2="400" y2="350" stroke="#000000" stroke-width="2"/>
+  <line x1="400" y1="450" x2="400" y2="550" stroke="#000000" stroke-width="2"/>
+  <line x1="250" y1="400" x2="350" y2="400" stroke="#000000" stroke-width="2"/>
+  <line x1="450" y1="400" x2="550" y2="400" stroke="#000000" stroke-width="2"/>
+
+  <!-- Degree markers around outer ring -->
+  <line x1="400" y1="52" x2="400" y2="70" stroke="#000000" stroke-width="2"/>
+  <line x1="400" y1="730" x2="400" y2="748" stroke="#000000" stroke-width="2"/>
+  <line x1="52" y1="400" x2="70" y2="400" stroke="#000000" stroke-width="2"/>
+  <line x1="730" y1="400" x2="748" y2="400" stroke="#000000" stroke-width="2"/>
+
+  <!-- 30/60 degree tick marks -->
+  <line x1="575" y1="97" x2="563" y2="112" stroke="#000000" stroke-width="1.5"/>
+  <line x1="703" y1="225" x2="688" y2="237" stroke="#000000" stroke-width="1.5"/>
+  <line x1="225" y1="97" x2="237" y2="112" stroke="#000000" stroke-width="1.5"/>
+  <line x1="97" y1="225" x2="112" y2="237" stroke="#000000" stroke-width="1.5"/>
+  <line x1="575" y1="703" x2="563" y2="688" stroke="#000000" stroke-width="1.5"/>
+  <line x1="703" y1="575" x2="688" y2="563" stroke="#000000" stroke-width="1.5"/>
+  <line x1="225" y1="703" x2="237" y2="688" stroke="#000000" stroke-width="1.5"/>
+  <line x1="97" y1="575" x2="112" y2="563" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Directional labels -->
+  <text x="400" y="42" font-family="sans-serif" font-size="20" fill="#E63946" text-anchor="middle" font-weight="bold">N</text>
+  <text x="400" y="775" font-family="sans-serif" font-size="20" fill="#1D3557" text-anchor="middle" font-weight="bold">S</text>
+  <text x="775" y="406" font-family="sans-serif" font-size="20" fill="#F4D35E" text-anchor="middle" font-weight="bold">E</text>
+  <text x="25" y="406" font-family="sans-serif" font-size="20" fill="#F4D35E" text-anchor="middle" font-weight="bold">W</text>
+
+  <!-- Smaller intermediate labels -->
+  <text x="665" y="140" font-family="sans-serif" font-size="12" fill="#000000" text-anchor="middle">NE</text>
+  <text x="135" y="140" font-family="sans-serif" font-size="12" fill="#000000" text-anchor="middle">NW</text>
+  <text x="665" y="670" font-family="sans-serif" font-size="12" fill="#000000" text-anchor="middle">SE</text>
+  <text x="135" y="670" font-family="sans-serif" font-size="12" fill="#000000" text-anchor="middle">SW</text>
+
+  <!-- Decorative diamond in center -->
+  <polygon points="400,370 430,400 400,430 370,400" fill="none" stroke="#F4D35E" stroke-width="2"/>
+
+  <!-- Inner decorative triangles between rings -->
+  <polygon points="400,105 390,145 410,145" fill="#DDA15E" opacity="0.6"/>
+  <polygon points="400,695 390,655 410,655" fill="#DDA15E" opacity="0.6"/>
+  <polygon points="105,400 145,390 145,410" fill="#DDA15E" opacity="0.6"/>
+  <polygon points="695,400 655,390 655,410" fill="#DDA15E" opacity="0.6"/>
+
+  <!-- Title -->
+  <rect x="280" y="10" width="240" height="28" fill="#000000" rx="0"/>
+  <text x="400" y="30" font-family="sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">COMPASS ROSE</text>
+</svg>

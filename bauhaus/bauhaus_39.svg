@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Domino Effect</title>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Ground/surface line -->
+  <line x1="0" y1="680" x2="800" y2="680" stroke="#A89F91" stroke-width="2"/>
+
+  <!-- Shadow/ground plane -->
+  <rect x="0" y="680" width="800" height="120" fill="#000000" opacity="0.04"/>
+
+  <!-- Impact burst at the start (left) -->
+  <line x1="45" y1="350" x2="25" y2="320" stroke="#E63946" stroke-width="1.5" opacity="0.6"/>
+  <line x1="40" y1="380" x2="15" y2="375" stroke="#E63946" stroke-width="1.5" opacity="0.5"/>
+  <line x1="50" y1="330" x2="35" y2="300" stroke="#F4D35E" stroke-width="1" opacity="0.4"/>
+
+  <!-- Domino 1 - Almost flat, fallen (nearly horizontal) -->
+  <g transform="rotate(-80, 80, 680)">
+    <rect x="55" y="440" width="50" height="240" rx="4" fill="#1D3557" stroke="#000000" stroke-width="1.5"/>
+    <line x1="55" y1="560" x2="105" y2="560" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <!-- 3 dots -->
+    <circle cx="80" cy="480" r="6" fill="#FFFFFF"/>
+    <circle cx="70" cy="520" r="6" fill="#FFFFFF"/>
+    <circle cx="90" cy="520" r="6" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Domino 2 - Very tilted -->
+  <g transform="rotate(-65, 160, 680)">
+    <rect x="135" y="420" width="50" height="260" rx="4" fill="#E63946" stroke="#000000" stroke-width="1.5"/>
+    <line x1="135" y1="550" x2="185" y2="550" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <!-- 5 dots -->
+    <circle cx="160" cy="460" r="5.5" fill="#FFFFFF"/>
+    <circle cx="148" cy="490" r="5.5" fill="#FFFFFF"/>
+    <circle cx="172" cy="490" r="5.5" fill="#FFFFFF"/>
+    <circle cx="148" cy="520" r="5.5" fill="#FFFFFF"/>
+    <circle cx="172" cy="520" r="5.5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Domino 3 - Tilted -->
+  <g transform="rotate(-50, 250, 680)">
+    <rect x="225" y="410" width="50" height="270" rx="4" fill="#F4D35E" stroke="#000000" stroke-width="1.5"/>
+    <line x1="225" y1="545" x2="275" y2="545" stroke="#000000" stroke-width="1" opacity="0.3"/>
+    <!-- 2 dots -->
+    <circle cx="250" cy="470" r="6" fill="#000000"/>
+    <circle cx="250" cy="510" r="6" fill="#000000"/>
+  </g>
+
+  <!-- Domino 4 - Moderately tilted -->
+  <g transform="rotate(-38, 350, 680)">
+    <rect x="325" y="400" width="50" height="280" rx="4" fill="#457B9D" stroke="#000000" stroke-width="1.5"/>
+    <line x1="325" y1="540" x2="375" y2="540" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <!-- 6 dots -->
+    <circle cx="340" cy="445" r="5" fill="#FFFFFF"/>
+    <circle cx="360" cy="445" r="5" fill="#FFFFFF"/>
+    <circle cx="340" cy="480" r="5" fill="#FFFFFF"/>
+    <circle cx="360" cy="480" r="5" fill="#FFFFFF"/>
+    <circle cx="340" cy="515" r="5" fill="#FFFFFF"/>
+    <circle cx="360" cy="515" r="5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Domino 5 - Slightly tilted -->
+  <g transform="rotate(-25, 450, 680)">
+    <rect x="425" y="390" width="50" height="290" rx="4" fill="#000000" stroke="#000000" stroke-width="1.5"/>
+    <line x1="425" y1="535" x2="475" y2="535" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+    <!-- 4 dots -->
+    <circle cx="440" cy="445" r="5.5" fill="#FFFFFF"/>
+    <circle cx="460" cy="445" r="5.5" fill="#FFFFFF"/>
+    <circle cx="440" cy="500" r="5.5" fill="#FFFFFF"/>
+    <circle cx="460" cy="500" r="5.5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Domino 6 - Slightly tilted -->
+  <g transform="rotate(-15, 550, 680)">
+    <rect x="525" y="385" width="50" height="295" rx="4" fill="#E9C46A" stroke="#000000" stroke-width="1.5"/>
+    <line x1="525" y1="532" x2="575" y2="532" stroke="#000000" stroke-width="1" opacity="0.3"/>
+    <!-- 1 dot -->
+    <circle cx="550" cy="458" r="7" fill="#000000"/>
+  </g>
+
+  <!-- Domino 7 - Barely tilted -->
+  <g transform="rotate(-6, 640, 680)">
+    <rect x="615" y="380" width="50" height="300" rx="4" fill="#A89F91" stroke="#000000" stroke-width="1.5"/>
+    <line x1="615" y1="530" x2="665" y2="530" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <!-- 3 dots diagonal -->
+    <circle cx="630" cy="440" r="5.5" fill="#FFFFFF"/>
+    <circle cx="640" cy="480" r="5.5" fill="#FFFFFF"/>
+    <circle cx="650" cy="520" r="5.5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Domino 8 - Standing upright (hasn't fallen yet) -->
+  <g transform="rotate(0, 730, 680)">
+    <rect x="705" y="375" width="50" height="305" rx="4" fill="#E63946" stroke="#000000" stroke-width="1.5"/>
+    <line x1="705" y1="527" x2="755" y2="527" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <!-- 2 dots -->
+    <circle cx="720" cy="440" r="6" fill="#FFFFFF"/>
+    <circle cx="740" cy="440" r="6" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Motion arc lines showing the trajectory of falling -->
+  <path d="M80,350 Q120,320 150,360" fill="none" stroke="#E63946" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  <path d="M170,320 Q210,290 240,340" fill="none" stroke="#F4D35E" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  <path d="M270,300 Q310,275 340,330" fill="none" stroke="#457B9D" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  <path d="M370,310 Q405,290 430,340" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+  <path d="M470,330 Q500,315 525,355" fill="none" stroke="#E9C46A" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+  <path d="M560,355 Q585,345 610,370" fill="none" stroke="#A89F91" stroke-width="1" stroke-dasharray="3,3" opacity="0.3"/>
+
+  <!-- Shadows beneath dominoes -->
+  <ellipse cx="100" cy="685" rx="40" ry="5" fill="#000000" opacity="0.15" transform="rotate(-10, 100, 685)"/>
+  <ellipse cx="200" cy="685" rx="35" ry="5" fill="#000000" opacity="0.15" transform="rotate(-5, 200, 685)"/>
+  <ellipse cx="300" cy="685" rx="32" ry="5" fill="#000000" opacity="0.12"/>
+  <ellipse cx="400" cy="685" rx="30" ry="5" fill="#000000" opacity="0.12"/>
+  <ellipse cx="500" cy="685" rx="28" ry="4" fill="#000000" opacity="0.1"/>
+  <ellipse cx="590" cy="685" rx="26" ry="4" fill="#000000" opacity="0.1"/>
+  <ellipse cx="670" cy="685" rx="25" ry="4" fill="#000000" opacity="0.08"/>
+  <ellipse cx="730" cy="685" rx="25" ry="5" fill="#000000" opacity="0.08"/>
+
+  <!-- Decorative top bar -->
+  <rect x="0" y="0" width="800" height="25" fill="#000000"/>
+  <rect x="0" y="0" width="100" height="25" fill="#E63946"/>
+  <rect x="100" y="0" width="100" height="25" fill="#1D3557"/>
+  <rect x="200" y="0" width="100" height="25" fill="#F4D35E"/>
+  <rect x="300" y="0" width="100" height="25" fill="#457B9D"/>
+  <rect x="400" y="0" width="100" height="25" fill="#000000"/>
+  <rect x="500" y="0" width="100" height="25" fill="#E9C46A"/>
+  <rect x="600" y="0" width="100" height="25" fill="#A89F91"/>
+  <rect x="700" y="0" width="100" height="25" fill="#E63946"/>
+
+  <!-- Direction arrow -->
+  <line x1="60" y1="750" x2="740" y2="750" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="740,745 755,750 740,755" fill="#000000" opacity="0.4"/>
+
+  <!-- Title -->
+  <text x="400" y="785" font-family="sans-serif" font-size="14" fill="#000000" text-anchor="middle" letter-spacing="4">DOMINO EFFECT</text>
+</svg>

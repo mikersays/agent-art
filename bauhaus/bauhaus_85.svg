@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#000000"/>
+
+  <!-- Wave 1: Very long wavelength (low frequency) - Red -->
+  <path d="M 0,80 Q 100,40 200,80 Q 300,120 400,80 Q 500,40 600,80 Q 700,120 800,80" fill="none" stroke="#E63946" stroke-width="4"/>
+  <path d="M 0,90 Q 100,50 200,90 Q 300,130 400,90 Q 500,50 600,90 Q 700,130 800,90" fill="none" stroke="#E63946" stroke-width="2" opacity="0.5"/>
+
+  <!-- Wave 2: Long wavelength - Orange -->
+  <path d="M 0,150 Q 80,110 160,150 Q 240,190 320,150 Q 400,110 480,150 Q 560,190 640,150 Q 720,110 800,150" fill="none" stroke="#E76F51" stroke-width="4"/>
+  <path d="M 0,160 Q 80,120 160,160 Q 240,200 320,160 Q 400,120 480,160 Q 560,200 640,160 Q 720,120 800,160" fill="none" stroke="#E76F51" stroke-width="2" opacity="0.5"/>
+
+  <!-- Wave 3: Medium-long wavelength - Yellow -->
+  <path d="M 0,230 Q 65,185 130,230 Q 195,275 260,230 Q 325,185 390,230 Q 455,275 520,230 Q 585,185 650,230 Q 715,275 780,230" fill="none" stroke="#F4D35E" stroke-width="3.5"/>
+  <path d="M 0,240 Q 65,195 130,240 Q 195,285 260,240 Q 325,195 390,240 Q 455,285 520,240 Q 585,195 650,240 Q 715,285 780,240" fill="none" stroke="#F4D35E" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Wave 4: Medium wavelength - Cream -->
+  <path d="M 0,310 Q 50,270 100,310 Q 150,350 200,310 Q 250,270 300,310 Q 350,350 400,310 Q 450,270 500,310 Q 550,350 600,310 Q 650,270 700,310 Q 750,350 800,310" fill="none" stroke="#FEFAE0" stroke-width="3"/>
+  <path d="M 0,320 Q 50,280 100,320 Q 150,360 200,320 Q 250,280 300,320 Q 350,360 400,320 Q 450,280 500,320 Q 550,360 600,320 Q 650,280 700,320 Q 750,360 800,320" fill="none" stroke="#FEFAE0" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Wave 5: Medium-short wavelength - Steel Blue -->
+  <path d="M 0,390 Q 40,355 80,390 Q 120,425 160,390 Q 200,355 240,390 Q 280,425 320,390 Q 360,355 400,390 Q 440,425 480,390 Q 520,355 560,390 Q 600,425 640,390 Q 680,355 720,390 Q 760,425 800,390" fill="none" stroke="#457B9D" stroke-width="3"/>
+  <path d="M 0,400 Q 40,365 80,400 Q 120,435 160,400 Q 200,365 240,400 Q 280,435 320,400 Q 360,365 400,400 Q 440,435 480,400 Q 520,365 560,400 Q 600,435 640,400 Q 680,365 720,400 Q 760,435 800,400" fill="none" stroke="#457B9D" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Wave 6: Short wavelength - Blue -->
+  <path d="M 0,470 Q 30,440 60,470 Q 90,500 120,470 Q 150,440 180,470 Q 210,500 240,470 Q 270,440 300,470 Q 330,500 360,470 Q 390,440 420,470 Q 450,500 480,470 Q 510,440 540,470 Q 570,500 600,470 Q 630,440 660,470 Q 690,500 720,470 Q 750,440 780,470" fill="none" stroke="#1D3557" stroke-width="3"/>
+  <path d="M 0,478 Q 30,448 60,478 Q 90,508 120,478 Q 150,448 180,478 Q 210,508 240,478 Q 270,448 300,478 Q 330,508 360,478 Q 390,448 420,478 Q 450,508 480,478 Q 510,448 540,478 Q 570,508 600,478 Q 630,448 660,478 Q 690,508 720,478 Q 750,448 780,478" fill="none" stroke="#1D3557" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Wave 7: Very short wavelength - White (high frequency) -->
+  <path d="M 0,550 Q 20,525 40,550 Q 60,575 80,550 Q 100,525 120,550 Q 140,575 160,550 Q 180,525 200,550 Q 220,575 240,550 Q 260,525 280,550 Q 300,575 320,550 Q 340,525 360,550 Q 380,575 400,550 Q 420,525 440,550 Q 460,575 480,550 Q 500,525 520,550 Q 540,575 560,550 Q 580,525 600,550 Q 620,575 640,550 Q 660,525 680,550 Q 700,575 720,550 Q 740,525 760,550 Q 780,575 800,550" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  <path d="M 0,558 Q 20,533 40,558 Q 60,583 80,558 Q 100,533 120,558 Q 140,583 160,558 Q 180,533 200,558 Q 220,583 240,558 Q 260,533 280,558 Q 300,583 320,558 Q 340,533 360,558 Q 380,583 400,558 Q 420,533 440,558 Q 460,583 480,558 Q 500,533 520,558 Q 540,583 560,558 Q 580,533 600,558 Q 620,583 640,558 Q 660,533 680,558 Q 700,583 720,558 Q 740,533 760,558 Q 780,583 800,558" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+
+  <!-- Wave 8: Ultra-short wavelength - Red again (wrapping spectrum) -->
+  <path d="M 0,630 Q 15,610 30,630 Q 45,650 60,630 Q 75,610 90,630 Q 105,650 120,630 Q 135,610 150,630 Q 165,650 180,630 Q 195,610 210,630 Q 225,650 240,630 Q 255,610 270,630 Q 285,650 300,630 Q 315,610 330,630 Q 345,650 360,630 Q 375,610 390,630 Q 405,650 420,630 Q 435,610 450,630 Q 465,650 480,630 Q 495,610 510,630 Q 525,650 540,630 Q 555,610 570,630 Q 585,650 600,630 Q 615,610 630,630 Q 645,650 660,630 Q 675,610 690,630 Q 705,650 720,630 Q 735,610 750,630 Q 765,650 780,630" fill="none" stroke="#E63946" stroke-width="2" opacity="0.8"/>
+
+  <!-- Frequency labels - vertical bars on left edge -->
+  <rect x="10" y="72" width="4" height="16" fill="#E63946"/>
+  <rect x="10" y="142" width="4" height="16" fill="#E76F51"/>
+  <rect x="10" y="222" width="4" height="16" fill="#F4D35E"/>
+  <rect x="10" y="302" width="4" height="16" fill="#FEFAE0"/>
+  <rect x="10" y="382" width="4" height="16" fill="#457B9D"/>
+  <rect x="10" y="462" width="4" height="16" fill="#1D3557"/>
+  <rect x="10" y="542" width="4" height="16" fill="#FFFFFF"/>
+  <rect x="10" y="622" width="4" height="16" fill="#E63946" opacity="0.8"/>
+
+  <!-- Frequency labels - vertical bars on right edge -->
+  <rect x="786" y="72" width="4" height="16" fill="#E63946"/>
+  <rect x="786" y="142" width="4" height="16" fill="#E76F51"/>
+  <rect x="786" y="222" width="4" height="16" fill="#F4D35E"/>
+  <rect x="786" y="302" width="4" height="16" fill="#FEFAE0"/>
+  <rect x="786" y="382" width="4" height="16" fill="#457B9D"/>
+  <rect x="786" y="462" width="4" height="16" fill="#1D3557"/>
+  <rect x="786" y="542" width="4" height="16" fill="#FFFFFF"/>
+  <rect x="786" y="622" width="4" height="16" fill="#E63946" opacity="0.8"/>
+
+  <!-- Horizontal separator lines between wave bands -->
+  <line x1="30" y1="115" x2="770" y2="115" stroke="#FEFAE0" stroke-width="0.5" opacity="0.15"/>
+  <line x1="30" y1="190" x2="770" y2="190" stroke="#FEFAE0" stroke-width="0.5" opacity="0.15"/>
+  <line x1="30" y1="270" x2="770" y2="270" stroke="#FEFAE0" stroke-width="0.5" opacity="0.15"/>
+  <line x1="30" y1="350" x2="770" y2="350" stroke="#FEFAE0" stroke-width="0.5" opacity="0.15"/>
+  <line x1="30" y1="430" x2="770" y2="430" stroke="#FEFAE0" stroke-width="0.5" opacity="0.15"/>
+  <line x1="30" y1="510" x2="770" y2="510" stroke="#FEFAE0" stroke-width="0.5" opacity="0.15"/>
+  <line x1="30" y1="590" x2="770" y2="590" stroke="#FEFAE0" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Spectrum bar at bottom -->
+  <rect x="100" y="700" width="100" height="30" fill="#E63946"/>
+  <rect x="200" y="700" width="86" height="30" fill="#E76F51"/>
+  <rect x="286" y="700" width="86" height="30" fill="#F4D35E"/>
+  <rect x="372" y="700" width="86" height="30" fill="#FEFAE0"/>
+  <rect x="458" y="700" width="86" height="30" fill="#457B9D"/>
+  <rect x="544" y="700" width="86" height="30" fill="#1D3557"/>
+  <rect x="630" y="700" width="70" height="30" fill="#FFFFFF"/>
+
+  <!-- Spectrum bar border -->
+  <rect x="100" y="700" width="600" height="30" fill="none" stroke="#FEFAE0" stroke-width="1.5"/>
+
+  <!-- Arrow indicating increasing frequency -->
+  <line x1="100" y1="750" x2="700" y2="750" stroke="#FEFAE0" stroke-width="1.5"/>
+  <polygon points="700,750 690,745 690,755" fill="#FEFAE0"/>
+
+  <!-- Vertical grid lines (measurement markings) -->
+  <line x1="200" y1="50" x2="200" y2="670" stroke="#FEFAE0" stroke-width="0.3" opacity="0.1"/>
+  <line x1="400" y1="50" x2="400" y2="670" stroke="#FEFAE0" stroke-width="0.3" opacity="0.1"/>
+  <line x1="600" y1="50" x2="600" y2="670" stroke="#FEFAE0" stroke-width="0.3" opacity="0.1"/>
+
+  <!-- Top border accent -->
+  <rect x="0" y="0" width="800" height="4" fill="#E63946"/>
+  <rect x="0" y="4" width="800" height="2" fill="#F4D35E"/>
+
+  <!-- Bottom border accent -->
+  <rect x="0" y="794" width="800" height="4" fill="#1D3557"/>
+  <rect x="0" y="790" width="800" height="4" fill="#457B9D"/>
+</svg>

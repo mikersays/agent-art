@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bauhaus Collection</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #f5f5f0; color: #1a1a1a; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  header { padding: 3rem 2rem 2rem; text-align: center; }
+  header h1 { font-size: 2.5rem; font-weight: 700; letter-spacing: 0.3em; text-transform: uppercase; }
+  header p { margin-top: 0.5rem; font-size: 0.9rem; color: #666; letter-spacing: 0.1em; }
+  .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; padding: 1rem 2rem 4rem; max-width: 1400px; margin: 0 auto; }
+  .card { background: #fff; border: 1px solid #e0e0e0; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer; }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+  .card img { width: 100%; aspect-ratio: 1; display: block; }
+  .card .label { padding: 0.75rem 1rem; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: #555; border-top: 1px solid #e0e0e0; }
+  .overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 10; align-items: center; justify-content: center; cursor: pointer; }
+  .overlay.active { display: flex; }
+  .overlay img { max-width: 90vmin; max-height: 90vmin; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Bauhaus</h1>
+  <p>110 Geometric Compositions</p>
+</header>
+<div class="gallery" id="gallery"></div>
+<div class="overlay" id="overlay" onclick="this.classList.remove('active')">
+  <img id="overlay-img" src="" alt="">
+</div>
+<script>
+const titles = [
+  "Composition with Circles","Grid Study","Triangle Harmony","Concentric Forms","Diagonal Tension",
+  "Staircase","Radial Burst","Color Blocks","Arch Study","Point and Line to Plane",
+  "Weaving Pattern","Mechanical Ballet","Typography Grid","Golden Section","Shadow Play",
+  "Clock Tower","Suprematist Homage","Industrial Rhythm","Color Theory","Architectural Plan",
+  "Tessellation","Suspension Bridge","Dance Notation","Spectrum Analysis","Nested Frames",
+  "Photomontage Abstract","Furniture Study","Rhythm and Blues","Eye of the Bauhaus","Final Composition",
+  "Pendulum Motion","Cityscape","Spiral Staircase","Chess Board","Signal Flags",
+  "Counterweight","Map Fragment","Propeller","Domino Effect","Kaleidoscope",
+  "Orbit","Brick Wall","Sound Wave","Compass Rose","Totem",
+  "Scaffolding","Abacus","Labyrinth","Semaphore","Prism",
+  "Molecule","Venetian Blinds","Target Practice","Origami","Metronome",
+  "Typewriter Keys","Windmill","Circuit Board","Hourglass","Grand Finale",
+  "Rotating Squares","Bauhaus Poster","Piano Keys","Sundial","Suspension",
+  "Elevation","Gears Interlocking","Ripple","Flagpole","Cross Section",
+  "Lattice","Lighthouse","Pulse","Bookshelf","Canopy",
+  "Pinwheel","Amphitheater","Periscope","Dominos Arranged","Bauhaus Garden",
+  "Trapeze","Honeycomb","Lever and Fulcrum","Crown","Wavelength",
+  "Drawbridge","Pixel Grid","Gyroscope","Lantern","Erosion",
+  "Pendulums in Sync","Mosaic","Antenna Array","Tightrope","Stained Glass",
+  "Parachute","Dice","Viaduct","Carousel","Century Mark",
+  "Ziggurat","Pulley System","Aqueduct","Barcode","Constellation",
+  "Ferris Wheel","Guilloche","Drawers","Rocket","Opus Finale"
+];
+function fileName(i) {
+  if (i < 100) return `bauhaus_${String(i).padStart(2,'0')}.svg`;
+  return `bauhaus_${i}.svg`;
+}
+const gallery = document.getElementById('gallery');
+for (let i = 1; i <= 110; i++) {
+  const src = fileName(i);
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = `<img src="${src}" onerror="this.parentElement.style.opacity='0.3'" alt="${titles[i-1]}"><div class="label">${String(i).padStart(2,'0')} &mdash; ${titles[i-1]}</div>`;
+  card.onclick = () => { document.getElementById('overlay-img').src = src; document.getElementById('overlay').classList.add('active'); };
+  gallery.appendChild(card);
+}
+</script>
+</body>
+</html>

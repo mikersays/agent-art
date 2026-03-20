@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Furniture Study</title>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Floor plane -->
+  <rect x="0" y="600" width="800" height="200" fill="#F4D35E" opacity="0.15"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#333333" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Chair 1: Wassily Chair (Breuer) - left side, angular tubular frame -->
+  <g transform="translate(80, 280)">
+    <!-- Tubular steel frame -->
+    <line x1="0" y1="0" x2="0" y2="300" stroke="#333333" stroke-width="5"/>
+    <line x1="160" y1="0" x2="160" y2="300" stroke="#333333" stroke-width="5"/>
+    <line x1="0" y1="0" x2="160" y2="0" stroke="#333333" stroke-width="5"/>
+    <line x1="0" y1="300" x2="160" y2="300" stroke="#333333" stroke-width="5"/>
+    <!-- Seat sling -->
+    <rect x="10" y="160" width="140" height="8" fill="#000000" rx="2"/>
+    <!-- Back sling -->
+    <rect x="10" y="30" width="140" height="8" fill="#000000" rx="2"/>
+    <!-- Armrest -->
+    <rect x="10" y="90" width="140" height="6" fill="#000000" rx="2"/>
+    <!-- Cross brace -->
+    <line x1="0" y1="160" x2="40" y2="300" stroke="#333333" stroke-width="4"/>
+    <line x1="160" y1="160" x2="120" y2="300" stroke="#333333" stroke-width="4"/>
+    <!-- Red accent -->
+    <circle cx="80" cy="120" r="20" fill="#E63946" opacity="0.3"/>
+  </g>
+
+  <!-- Chair 2: Barcelona Chair (Mies) - center, X-frame -->
+  <g transform="translate(320, 320)">
+    <!-- X-shaped legs -->
+    <path d="M0,250 Q80,100 160,250" fill="none" stroke="#333333" stroke-width="6"/>
+    <path d="M0,250 Q80,400 160,250" fill="none" stroke="#333333" stroke-width="6" transform="scale(1,-1) translate(0,-250)"/>
+    <!-- Seat cushion -->
+    <rect x="-10" y="80" width="180" height="40" rx="5" fill="#1D3557" opacity="0.7"/>
+    <!-- Back cushion (angled) -->
+    <rect x="10" y="10" width="140" height="60" rx="5" fill="#1D3557" opacity="0.5" transform="rotate(-15 80 40)"/>
+    <!-- Tufting lines -->
+    <line x1="20" y1="90" x2="20" y2="110" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <line x1="55" y1="90" x2="55" y2="110" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <line x1="90" y1="90" x2="90" y2="110" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <line x1="125" y1="90" x2="125" y2="110" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- Table: Bauhaus table - right side, clean geometric -->
+  <g transform="translate(560, 300)">
+    <!-- Table top -->
+    <rect x="0" y="0" width="180" height="10" fill="#333333"/>
+    <!-- Table legs -->
+    <line x1="15" y1="10" x2="15" y2="280" stroke="#000000" stroke-width="4"/>
+    <line x1="165" y1="10" x2="165" y2="280" stroke="#000000" stroke-width="4"/>
+    <!-- Cross support -->
+    <line x1="15" y1="180" x2="165" y2="180" stroke="#333333" stroke-width="3"/>
+    <!-- Object on table: yellow circle (lamp base) -->
+    <circle cx="90" cy="-10" r="25" fill="#F4D35E" opacity="0.8"/>
+    <!-- Lamp shade triangle -->
+    <polygon points="65,-40 115,-40 90,-80" fill="#E9C46A" opacity="0.6"/>
+    <!-- Lamp stem -->
+    <line x1="90" y1="-35" x2="90" y2="-10" stroke="#333333" stroke-width="2"/>
+    <!-- Book on table -->
+    <rect x="120" y="-18" width="35" height="8" fill="#E63946" opacity="0.7" transform="rotate(-5 137 -14)"/>
+  </g>
+
+  <!-- Chair 3: Cantilever Chair (Stam/Breuer) - far left, S-curve -->
+  <g transform="translate(30, 100)">
+    <!-- Cantilever frame -->
+    <path d="M0,200 L0,50 Q0,0 50,0 L100,0 Q120,0 120,20 L120,80" fill="none" stroke="#2A9D8F" stroke-width="5"/>
+    <path d="M0,200 L80,200 L80,80 L120,80" fill="none" stroke="#2A9D8F" stroke-width="5"/>
+    <!-- Seat -->
+    <rect x="5" y="155" width="75" height="6" fill="#E9C46A"/>
+    <!-- Back -->
+    <rect x="85" y="25" width="6" height="130" fill="#E9C46A"/>
+  </g>
+
+  <!-- Stool: Bauhaus stool - bottom center -->
+  <g transform="translate(280, 620)">
+    <!-- Seat -->
+    <circle cx="60" cy="0" r="50" fill="#E63946" opacity="0.6"/>
+    <!-- Three legs -->
+    <line x1="30" y1="20" x2="10" y2="140" stroke="#000000" stroke-width="4"/>
+    <line x1="60" y1="30" x2="60" y2="140" stroke="#000000" stroke-width="4"/>
+    <line x1="90" y1="20" x2="110" y2="140" stroke="#000000" stroke-width="4"/>
+    <!-- Cross ring -->
+    <ellipse cx="60" cy="100" rx="45" ry="8" fill="none" stroke="#333333" stroke-width="2"/>
+  </g>
+
+  <!-- Shelf unit - top right corner -->
+  <g transform="translate(590, 50)">
+    <!-- Verticals -->
+    <line x1="0" y1="0" x2="0" y2="200" stroke="#000000" stroke-width="3"/>
+    <line x1="150" y1="0" x2="150" y2="200" stroke="#000000" stroke-width="3"/>
+    <!-- Shelves -->
+    <line x1="0" y1="0" x2="150" y2="0" stroke="#000000" stroke-width="3"/>
+    <line x1="0" y1="50" x2="150" y2="50" stroke="#000000" stroke-width="3"/>
+    <line x1="0" y1="100" x2="150" y2="100" stroke="#000000" stroke-width="3"/>
+    <line x1="0" y1="150" x2="150" y2="150" stroke="#000000" stroke-width="3"/>
+    <line x1="0" y1="200" x2="150" y2="200" stroke="#000000" stroke-width="3"/>
+    <!-- Items on shelves -->
+    <rect x="10" y="10" width="30" height="35" fill="#1D3557" opacity="0.5"/>
+    <rect x="50" y="20" width="20" height="25" fill="#E63946" opacity="0.4"/>
+    <circle cx="120" cy="30" r="15" fill="#F4D35E" opacity="0.5"/>
+    <rect x="15" y="60" width="50" height="30" fill="#2A9D8F" opacity="0.4"/>
+    <rect x="80" y="110" width="40" height="35" fill="#E9C46A" opacity="0.5"/>
+    <circle cx="40" cy="170" r="18" fill="#E63946" opacity="0.3"/>
+  </g>
+
+  <!-- Decorative Bauhaus typography-style marks -->
+  <rect x="30" y="720" width="60" height="8" fill="#E63946"/>
+  <rect x="100" y="720" width="40" height="8" fill="#1D3557"/>
+  <rect x="150" y="720" width="80" height="8" fill="#F4D35E"/>
+  <circle cx="750" cy="724" r="15" fill="#000000" opacity="0.6"/>
+</svg>

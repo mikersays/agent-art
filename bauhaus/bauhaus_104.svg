@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Barcode vertical lines - varying widths, mostly black -->
+  <rect x="30" y="100" width="8" height="600" fill="#000000"/>
+  <rect x="42" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="50" y="100" width="12" height="600" fill="#000000"/>
+  <rect x="67" y="100" width="5" height="600" fill="#000000"/>
+  <rect x="78" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="86" y="100" width="10" height="600" fill="#000000"/>
+  <rect x="102" y="100" width="6" height="600" fill="#000000"/>
+  <rect x="114" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="122" y="100" width="14" height="600" fill="#000000"/>
+  <rect x="142" y="100" width="4" height="600" fill="#000000"/>
+  <rect x="152" y="100" width="8" height="600" fill="#000000"/>
+  <rect x="166" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="175" y="100" width="10" height="600" fill="#000000"/>
+  <rect x="191" y="100" width="5" height="600" fill="#000000"/>
+  <rect x="202" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="210" y="100" width="12" height="600" fill="#000000"/>
+  <rect x="228" y="100" width="6" height="600" fill="#000000"/>
+  <rect x="240" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="249" y="100" width="8" height="600" fill="#000000"/>
+  <rect x="263" y="100" width="14" height="600" fill="#000000"/>
+  <rect x="283" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="292" y="100" width="5" height="600" fill="#000000"/>
+  <rect x="303" y="100" width="10" height="600" fill="#000000"/>
+  <rect x="319" y="100" width="4" height="600" fill="#000000"/>
+  <rect x="329" y="100" width="8" height="600" fill="#000000"/>
+  <rect x="343" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="352" y="100" width="12" height="600" fill="#000000"/>
+  <rect x="370" y="100" width="6" height="600" fill="#000000"/>
+  <rect x="382" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="390" y="100" width="5" height="600" fill="#000000"/>
+  <rect x="401" y="100" width="14" height="600" fill="#000000"/>
+  <rect x="421" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="430" y="100" width="8" height="600" fill="#000000"/>
+  <rect x="444" y="100" width="10" height="600" fill="#000000"/>
+  <rect x="460" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="469" y="100" width="6" height="600" fill="#000000"/>
+  <rect x="481" y="100" width="12" height="600" fill="#000000"/>
+  <rect x="499" y="100" width="4" height="600" fill="#000000"/>
+  <rect x="509" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="518" y="100" width="8" height="600" fill="#000000"/>
+  <rect x="532" y="100" width="5" height="600" fill="#000000"/>
+  <rect x="543" y="100" width="10" height="600" fill="#000000"/>
+  <rect x="559" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="568" y="100" width="14" height="600" fill="#000000"/>
+  <rect x="588" y="100" width="6" height="600" fill="#000000"/>
+  <rect x="600" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="609" y="100" width="8" height="600" fill="#000000"/>
+  <rect x="623" y="100" width="5" height="600" fill="#000000"/>
+  <rect x="634" y="100" width="12" height="600" fill="#000000"/>
+  <rect x="652" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="661" y="100" width="10" height="600" fill="#000000"/>
+  <rect x="677" y="100" width="4" height="600" fill="#000000"/>
+  <rect x="687" y="100" width="8" height="600" fill="#000000"/>
+  <rect x="701" y="100" width="3" height="600" fill="#000000"/>
+  <rect x="710" y="100" width="6" height="600" fill="#000000"/>
+  <rect x="722" y="100" width="14" height="600" fill="#000000"/>
+  <rect x="742" y="100" width="5" height="600" fill="#000000"/>
+  <rect x="753" y="100" width="8" height="600" fill="#000000"/>
+  <rect x="767" y="100" width="3" height="600" fill="#000000"/>
+
+  <!-- Colored highlight overlays breaking the pattern -->
+  <!-- Red block -->
+  <rect x="120" y="200" width="30" height="120" fill="#E63946" opacity="0.9"/>
+  <!-- Blue block -->
+  <rect x="260" y="350" width="40" height="150" fill="#1D3557" opacity="0.85"/>
+  <!-- Yellow block -->
+  <rect x="390" y="150" width="35" height="100" fill="#F4D35E" opacity="0.9"/>
+  <!-- Steel blue block -->
+  <rect x="520" y="400" width="45" height="130" fill="#457B9D" opacity="0.85"/>
+  <!-- Sand block -->
+  <rect x="650" y="250" width="30" height="90" fill="#DDA15E" opacity="0.9"/>
+  <!-- Forest block -->
+  <rect x="180" y="500" width="38" height="100" fill="#264653" opacity="0.85"/>
+
+  <!-- Geometric accents breaking the barcode -->
+  <!-- Red circle -->
+  <circle cx="140" cy="460" r="25" fill="#E63946"/>
+  <circle cx="140" cy="460" r="25" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <!-- Yellow triangle -->
+  <polygon points="410,580 440,640 380,640" fill="#F4D35E"/>
+  <polygon points="410,580 440,640 380,640" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <!-- Blue diamond -->
+  <polygon points="550,200 575,235 550,270 525,235" fill="#1D3557"/>
+  <polygon points="550,200 575,235 550,270 525,235" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <!-- White rectangle cutout -->
+  <rect x="680" y="450" width="40" height="60" fill="#FFFFFF" stroke="#E63946" stroke-width="3"/>
+
+  <!-- Top and bottom boundary lines -->
+  <line x1="20" y1="95" x2="775" y2="95" stroke="#000000" stroke-width="2"/>
+  <line x1="20" y1="705" x2="775" y2="705" stroke="#000000" stroke-width="2"/>
+
+  <!-- Small decorative dots -->
+  <circle cx="50" cy="750" r="4" fill="#E63946"/>
+  <circle cx="200" cy="750" r="4" fill="#1D3557"/>
+  <circle cx="350" cy="750" r="4" fill="#F4D35E"/>
+  <circle cx="500" cy="750" r="4" fill="#264653"/>
+  <circle cx="650" cy="750" r="4" fill="#457B9D"/>
+</svg>

@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Crown base band -->
+  <rect x="180" y="500" width="440" height="60" fill="#F4D35E"/>
+  <rect x="180" y="500" width="440" height="60" fill="none" stroke="#000000" stroke-width="3"/>
+
+  <!-- Crown base decorative stripe -->
+  <rect x="180" y="530" width="440" height="10" fill="#E76F51"/>
+
+  <!-- Crown body - rising structure -->
+  <rect x="200" y="350" width="400" height="150" fill="#F4D35E"/>
+  <rect x="200" y="350" width="400" height="150" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <!-- Crown points - 5 triangular peaks -->
+  <!-- Point 1 - leftmost -->
+  <polygon points="200,350 250,180 300,350" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <!-- Point 2 -->
+  <polygon points="280,350 340,200 400,350" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <!-- Point 3 - center, tallest -->
+  <polygon points="340,350 400,140 460,350" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <!-- Point 4 -->
+  <polygon points="400,350 460,200 520,350" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <!-- Point 5 - rightmost -->
+  <polygon points="500,350 550,180 600,350" fill="#E63946" stroke="#000000" stroke-width="2"/>
+
+  <!-- Jewel at tip of each point - circles -->
+  <circle cx="250" cy="195" r="14" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="250" cy="195" r="7" fill="#457B9D"/>
+
+  <circle cx="340" cy="215" r="12" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="340" cy="215" r="6" fill="#E63946"/>
+
+  <circle cx="400" cy="155" r="18" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="400" cy="155" r="10" fill="#E63946"/>
+  <circle cx="400" cy="155" r="5" fill="#F4D35E"/>
+
+  <circle cx="460" cy="215" r="12" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="460" cy="215" r="6" fill="#457B9D"/>
+
+  <circle cx="550" cy="195" r="14" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="550" cy="195" r="7" fill="#E63946"/>
+
+  <!-- Geometric jewels on crown body -->
+  <!-- Row of diamonds on body -->
+  <rect x="240" y="390" width="20" height="20" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(45,250,400)"/>
+  <circle cx="250" cy="400" r="5" fill="#E63946"/>
+
+  <rect x="320" y="390" width="20" height="20" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(45,330,400)"/>
+  <circle cx="330" cy="400" r="5" fill="#457B9D"/>
+
+  <rect x="390" y="385" width="24" height="24" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(45,402,397)"/>
+  <circle cx="402" cy="397" r="7" fill="#E76F51"/>
+
+  <rect x="460" y="390" width="20" height="20" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(45,470,400)"/>
+  <circle cx="470" cy="400" r="5" fill="#E63946"/>
+
+  <rect x="540" y="390" width="20" height="20" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(45,550,400)"/>
+  <circle cx="550" cy="400" r="5" fill="#457B9D"/>
+
+  <!-- Jewels on base band -->
+  <circle cx="230" cy="520" r="10" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="230" cy="520" r="5" fill="#E63946"/>
+
+  <circle cx="320" cy="520" r="10" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="320" cy="520" r="5" fill="#1D3557"/>
+
+  <circle cx="400" cy="515" r="14" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="400" cy="515" r="8" fill="#E76F51"/>
+  <circle cx="400" cy="515" r="4" fill="#F4D35E"/>
+
+  <circle cx="480" cy="520" r="10" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="480" cy="520" r="5" fill="#E63946"/>
+
+  <circle cx="570" cy="520" r="10" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="570" cy="520" r="5" fill="#1D3557"/>
+
+  <!-- Inner geometric pattern on crown body -->
+  <line x1="200" y1="370" x2="600" y2="370" stroke="#E76F51" stroke-width="2"/>
+  <line x1="200" y1="430" x2="600" y2="430" stroke="#E76F51" stroke-width="2"/>
+  <line x1="200" y1="460" x2="600" y2="460" stroke="#E76F51" stroke-width="1.5"/>
+
+  <!-- Cross patterns between points -->
+  <line x1="270" y1="280" x2="270" y2="350" stroke="#000000" stroke-width="1.5"/>
+  <line x1="245" y1="315" x2="295" y2="315" stroke="#000000" stroke-width="1.5"/>
+
+  <line x1="370" y1="280" x2="370" y2="350" stroke="#000000" stroke-width="1.5"/>
+  <line x1="345" y1="315" x2="395" y2="315" stroke="#000000" stroke-width="1.5"/>
+
+  <line x1="430" y1="280" x2="430" y2="350" stroke="#000000" stroke-width="1.5"/>
+  <line x1="405" y1="315" x2="455" y2="315" stroke="#000000" stroke-width="1.5"/>
+
+  <line x1="530" y1="280" x2="530" y2="350" stroke="#000000" stroke-width="1.5"/>
+  <line x1="505" y1="315" x2="555" y2="315" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Small triangular decorations between points -->
+  <polygon points="270,300 260,320 280,320" fill="#457B9D"/>
+  <polygon points="370,310 360,330 380,330" fill="#E76F51"/>
+  <polygon points="430,310 420,330 440,330" fill="#457B9D"/>
+  <polygon points="530,300 520,320 540,320" fill="#E76F51"/>
+
+  <!-- Crown velvet interior suggestion -->
+  <rect x="220" y="440" width="360" height="20" fill="#E63946" opacity="0.3"/>
+
+  <!-- Ermine dots on base -->
+  <circle cx="200" cy="548" r="3" fill="#000000"/>
+  <circle cx="260" cy="548" r="3" fill="#000000"/>
+  <circle cx="340" cy="548" r="3" fill="#000000"/>
+  <circle cx="400" cy="548" r="3" fill="#000000"/>
+  <circle cx="460" cy="548" r="3" fill="#000000"/>
+  <circle cx="540" cy="548" r="3" fill="#000000"/>
+  <circle cx="600" cy="548" r="3" fill="#000000"/>
+
+  <!-- Radiating lines from center jewel -->
+  <line x1="400" y1="125" x2="400" y2="100" stroke="#F4D35E" stroke-width="1.5" opacity="0.7"/>
+  <line x1="400" y1="125" x2="380" y2="105" stroke="#F4D35E" stroke-width="1" opacity="0.5"/>
+  <line x1="400" y1="125" x2="420" y2="105" stroke="#F4D35E" stroke-width="1" opacity="0.5"/>
+  <line x1="400" y1="125" x2="365" y2="115" stroke="#F4D35E" stroke-width="1" opacity="0.4"/>
+  <line x1="400" y1="125" x2="435" y2="115" stroke="#F4D35E" stroke-width="1" opacity="0.4"/>
+
+  <!-- Pedestal/cushion below -->
+  <rect x="160" y="560" width="480" height="20" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <rect x="140" y="580" width="520" height="15" fill="#E63946" stroke="#000000" stroke-width="2" opacity="0.8"/>
+
+  <!-- Corner decorative elements -->
+  <rect x="30" y="30" width="60" height="60" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <rect x="710" y="30" width="60" height="60" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <rect x="30" y="710" width="60" height="60" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <rect x="710" y="710" width="60" height="60" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="60" cy="60" r="15" fill="#F4D35E" opacity="0.3"/>
+  <circle cx="740" cy="60" r="15" fill="#F4D35E" opacity="0.3"/>
+  <circle cx="60" cy="740" r="15" fill="#F4D35E" opacity="0.3"/>
+  <circle cx="740" cy="740" r="15" fill="#F4D35E" opacity="0.3"/>
+</svg>

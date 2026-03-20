@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#F4D35E" opacity="0.15"/>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Sky gradient effect -->
+  <rect x="0" y="0" width="800" height="400" fill="#1D3557" opacity="0.08"/>
+
+  <!-- Left tower platform -->
+  <rect x="20" y="280" width="160" height="420" fill="#1D3557"/>
+  <rect x="30" y="280" width="140" height="10" fill="#000000"/>
+  <!-- Tower details -->
+  <rect x="50" y="310" width="30" height="40" fill="#F4D35E"/>
+  <rect x="100" y="310" width="30" height="40" fill="#E63946"/>
+  <rect x="50" y="370" width="30" height="40" fill="#2A9D8F"/>
+  <rect x="100" y="370" width="30" height="40" fill="#F4D35E"/>
+  <rect x="50" y="430" width="30" height="40" fill="#E63946"/>
+  <rect x="100" y="430" width="30" height="40" fill="#2A9D8F"/>
+  <rect x="50" y="490" width="80" height="50" fill="#000000" opacity="0.3"/>
+  <!-- Tower arch -->
+  <path d="M40,700 Q100,650 160,700" stroke="#E9C46A" stroke-width="4" fill="none"/>
+  <!-- Tower top crenellation -->
+  <rect x="30" y="265" width="20" height="20" fill="#1D3557"/>
+  <rect x="60" y="265" width="20" height="20" fill="#1D3557"/>
+  <rect x="90" y="265" width="20" height="20" fill="#1D3557"/>
+  <rect x="120" y="265" width="20" height="20" fill="#1D3557"/>
+  <rect x="150" y="265" width="20" height="20" fill="#1D3557"/>
+
+  <!-- Right tower platform -->
+  <rect x="620" y="280" width="160" height="420" fill="#1D3557"/>
+  <rect x="630" y="280" width="140" height="10" fill="#000000"/>
+  <!-- Tower details -->
+  <rect x="650" y="310" width="30" height="40" fill="#E63946"/>
+  <rect x="700" y="310" width="30" height="40" fill="#F4D35E"/>
+  <rect x="650" y="370" width="30" height="40" fill="#F4D35E"/>
+  <rect x="700" y="370" width="30" height="40" fill="#E63946"/>
+  <rect x="650" y="430" width="30" height="40" fill="#2A9D8F"/>
+  <rect x="700" y="430" width="30" height="40" fill="#F4D35E"/>
+  <rect x="650" y="490" width="80" height="50" fill="#000000" opacity="0.3"/>
+  <!-- Tower arch -->
+  <path d="M640,700 Q700,650 760,700" stroke="#E9C46A" stroke-width="4" fill="none"/>
+  <!-- Tower top crenellation -->
+  <rect x="630" y="265" width="20" height="20" fill="#1D3557"/>
+  <rect x="660" y="265" width="20" height="20" fill="#1D3557"/>
+  <rect x="690" y="265" width="20" height="20" fill="#1D3557"/>
+  <rect x="720" y="265" width="20" height="20" fill="#1D3557"/>
+  <rect x="750" y="265" width="20" height="20" fill="#1D3557"/>
+
+  <!-- Tightrope wire -->
+  <line x1="100" y1="285" x2="700" y2="285" stroke="#000000" stroke-width="3"/>
+  <!-- Wire sag hint -->
+  <path d="M100,285 Q400,295 700,285" stroke="#000000" stroke-width="2" fill="none"/>
+
+  <!-- Geometric figure walking on rope -->
+  <!-- Body (torso) -->
+  <rect x="385" y="230" width="30" height="50" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="400" cy="218" r="18" fill="#F4D35E"/>
+  <!-- Eyes -->
+  <circle cx="394" cy="215" r="3" fill="#000000"/>
+  <circle cx="406" cy="215" r="3" fill="#000000"/>
+  <!-- Left leg (stepping forward) -->
+  <line x1="392" y1="280" x2="375" y2="284" stroke="#000000" stroke-width="5"/>
+  <line x1="375" y1="284" x2="365" y2="283" stroke="#000000" stroke-width="4"/>
+  <!-- Right leg (behind) -->
+  <line x1="408" y1="280" x2="425" y2="284" stroke="#000000" stroke-width="5"/>
+  <line x1="425" y1="284" x2="435" y2="283" stroke="#000000" stroke-width="4"/>
+  <!-- Left arm holding pole -->
+  <line x1="385" y1="240" x2="360" y2="255" stroke="#000000" stroke-width="4"/>
+  <!-- Right arm holding pole -->
+  <line x1="415" y1="240" x2="440" y2="255" stroke="#000000" stroke-width="4"/>
+
+  <!-- Balance pole -->
+  <line x1="250" y1="265" x2="550" y2="265" stroke="#A89F91" stroke-width="6"/>
+  <line x1="250" y1="265" x2="550" y2="265" stroke="#000000" stroke-width="2"/>
+  <!-- Pole end weights -->
+  <circle cx="250" cy="270" r="12" fill="#2A9D8F"/>
+  <circle cx="550" cy="260" r="12" fill="#E9C46A"/>
+  <!-- Pole curve (slight bend from weight) -->
+  <path d="M250,265 Q400,275 550,265" stroke="#A89F91" stroke-width="3" fill="none" opacity="0.5"/>
+
+  <!-- Ground -->
+  <rect x="0" y="700" width="800" height="100" fill="#A89F91"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="3"/>
+
+  <!-- Shadow of figure on ground -->
+  <ellipse cx="400" cy="710" rx="25" ry="5" fill="#000000" opacity="0.2"/>
+
+  <!-- Decorative flags on towers -->
+  <polygon points="30,265 30,240 55,252" fill="#E63946"/>
+  <polygon points="770,265 770,240 745,252" fill="#2A9D8F"/>
+
+  <!-- Crowd dots below -->
+  <circle cx="300" cy="730" r="5" fill="#000000" opacity="0.3"/>
+  <circle cx="320" cy="735" r="5" fill="#000000" opacity="0.3"/>
+  <circle cx="340" cy="728" r="5" fill="#000000" opacity="0.3"/>
+  <circle cx="360" cy="733" r="5" fill="#000000" opacity="0.3"/>
+  <circle cx="400" cy="730" r="5" fill="#000000" opacity="0.3"/>
+  <circle cx="420" cy="736" r="5" fill="#000000" opacity="0.3"/>
+  <circle cx="440" cy="729" r="5" fill="#000000" opacity="0.3"/>
+  <circle cx="460" cy="734" r="5" fill="#000000" opacity="0.3"/>
+  <circle cx="480" cy="731" r="5" fill="#000000" opacity="0.3"/>
+  <circle cx="500" cy="727" r="5" fill="#000000" opacity="0.3"/>
+
+  <!-- Title -->
+  <text x="400" y="780" font-family="sans-serif" font-size="24" font-weight="bold" fill="#1D3557" text-anchor="middle">TIGHTROPE</text>
+</svg>

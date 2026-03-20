@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Outer clock ring -->
+  <circle cx="400" cy="400" r="340" fill="none" stroke="#000000" stroke-width="8"/>
+  <circle cx="400" cy="400" r="320" fill="none" stroke="#1D3557" stroke-width="3"/>
+  <circle cx="400" cy="400" r="300" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <!-- Inner decorative rings -->
+  <circle cx="400" cy="400" r="240" fill="none" stroke="#E63946" stroke-width="4"/>
+  <circle cx="400" cy="400" r="160" fill="none" stroke="#F4D35E" stroke-width="6"/>
+  <circle cx="400" cy="400" r="80" fill="#1D3557"/>
+  <circle cx="400" cy="400" r="60" fill="#E63946"/>
+  <circle cx="400" cy="400" r="20" fill="#000000"/>
+
+  <!-- Hour markers as geometric shapes -->
+  <!-- 12 o'clock - triangle -->
+  <polygon points="400,75 385,110 415,110" fill="#E63946"/>
+  <!-- 1 -->
+  <rect x="555" y="115" width="25" height="25" fill="#1D3557" transform="rotate(30,567,127)"/>
+  <!-- 2 -->
+  <circle cx="660" cy="230" r="14" fill="#F4D35E"/>
+  <!-- 3 o'clock - triangle -->
+  <polygon points="725,400 690,385 690,415" fill="#E63946"/>
+  <!-- 4 -->
+  <rect x="655" y="545" width="25" height="25" fill="#2A9D8F" transform="rotate(60,667,557)"/>
+  <!-- 5 -->
+  <circle cx="555" cy="660" r="14" fill="#E76F51"/>
+  <!-- 6 o'clock - triangle -->
+  <polygon points="400,725 385,690 415,690" fill="#E63946"/>
+  <!-- 7 -->
+  <rect x="220" y="645" width="25" height="25" fill="#1D3557" transform="rotate(-60,232,657)"/>
+  <!-- 8 -->
+  <circle cx="140" cy="555" r="14" fill="#F4D35E"/>
+  <!-- 9 o'clock - triangle -->
+  <polygon points="75,400 110,385 110,415" fill="#E63946"/>
+  <!-- 10 -->
+  <rect x="120" y="215" width="25" height="25" fill="#2A9D8F" transform="rotate(-30,132,227)"/>
+  <!-- 11 -->
+  <circle cx="230" cy="120" r="14" fill="#E76F51"/>
+
+  <!-- Radiating lines from center (every 30 degrees) -->
+  <line x1="400" y1="400" x2="400" y2="100" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="400" x2="550" y2="140" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="400" x2="660" y2="250" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="400" x2="700" y2="400" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="400" x2="660" y2="550" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="400" x2="550" y2="660" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="400" x2="400" y2="700" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="400" x2="250" y2="660" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="400" x2="140" y2="550" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="400" x2="100" y2="400" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="400" x2="140" y2="250" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="400" x2="250" y2="140" stroke="#000000" stroke-width="2" opacity="0.3"/>
+
+  <!-- Clock hands -->
+  <!-- Hour hand -->
+  <line x1="400" y1="400" x2="340" y2="220" stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <!-- Minute hand -->
+  <line x1="400" y1="400" x2="520" y2="180" stroke="#1D3557" stroke-width="6" stroke-linecap="round"/>
+  <!-- Second hand -->
+  <line x1="400" y1="400" x2="400" y2="140" stroke="#E63946" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Tower base structure -->
+  <rect x="340" y="700" width="120" height="60" fill="#1D3557"/>
+  <rect x="360" y="680" width="80" height="20" fill="#000000"/>
+  <polygon points="350,700 400,660 450,700" fill="#E63946"/>
+
+  <!-- Decorative corner elements -->
+  <rect x="30" y="30" width="60" height="60" fill="#F4D35E" opacity="0.7"/>
+  <rect x="710" y="30" width="60" height="60" fill="#E63946" opacity="0.7"/>
+  <rect x="30" y="710" width="60" height="60" fill="#2A9D8F" opacity="0.7"/>
+  <rect x="710" y="710" width="60" height="60" fill="#1D3557" opacity="0.7"/>
+
+  <!-- Pendulum suggestion -->
+  <line x1="400" y1="700" x2="400" y2="780" stroke="#000000" stroke-width="3"/>
+  <circle cx="400" cy="785" r="12" fill="#E76F51"/>
+
+  <!-- Tick marks between hours -->
+  <circle cx="470" cy="85" r="4" fill="#000000"/>
+  <circle cx="530" cy="100" r="4" fill="#000000"/>
+  <circle cx="620" cy="165" r="4" fill="#000000"/>
+  <circle cx="680" cy="310" r="4" fill="#000000"/>
+  <circle cx="695" cy="460" r="4" fill="#000000"/>
+  <circle cx="620" cy="610" r="4" fill="#000000"/>
+  <circle cx="470" cy="705" r="4" fill="#000000"/>
+  <circle cx="330" cy="705" r="4" fill="#000000"/>
+  <circle cx="180" cy="610" r="4" fill="#000000"/>
+  <circle cx="105" cy="460" r="4" fill="#000000"/>
+  <circle cx="105" cy="310" r="4" fill="#000000"/>
+  <circle cx="180" cy="165" r="4" fill="#000000"/>
+</svg>

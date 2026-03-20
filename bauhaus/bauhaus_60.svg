@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <clipPath id="mainClip"><rect x="0" y="0" width="800" height="800"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Background grid -->
+  <g stroke="#000000" stroke-width="0.3" opacity="0.08">
+    <line x1="0" y1="100" x2="800" y2="100"/><line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/><line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="500" x2="800" y2="500"/><line x1="0" y1="600" x2="800" y2="600"/>
+    <line x1="0" y1="700" x2="800" y2="700"/>
+    <line x1="100" y1="0" x2="100" y2="800"/><line x1="200" y1="0" x2="200" y2="800"/>
+    <line x1="300" y1="0" x2="300" y2="800"/><line x1="400" y1="0" x2="400" y2="800"/>
+    <line x1="500" y1="0" x2="500" y2="800"/><line x1="600" y1="0" x2="600" y2="800"/>
+    <line x1="700" y1="0" x2="700" y2="800"/>
+  </g>
+
+  <!-- Large background shapes -->
+  <!-- Big red circle, top-left quadrant -->
+  <circle cx="200" cy="200" r="160" fill="#E63946" opacity="0.15"/>
+  <!-- Blue rectangle block -->
+  <rect x="500" y="50" width="250" height="200" fill="#1D3557" opacity="0.12"/>
+  <!-- Yellow block bottom-right -->
+  <rect x="550" y="550" width="220" height="220" fill="#F4D35E" opacity="0.15"/>
+  <!-- Teal block bottom-left -->
+  <rect x="30" y="580" width="200" height="190" fill="#2A9D8F" opacity="0.12"/>
+
+  <!-- === LAYER 1: Large structural elements === -->
+
+  <!-- Central large circle -->
+  <circle cx="400" cy="400" r="180" fill="none" stroke="#000000" stroke-width="4"/>
+  <circle cx="400" cy="400" r="175" fill="none" stroke="#E63946" stroke-width="1" opacity="0.5"/>
+
+  <!-- Large red quarter arc top-right -->
+  <path d="M400,400 L400,220 A180,180 0 0,1 580,400 Z" fill="#E63946" opacity="0.7"/>
+
+  <!-- Large blue quarter arc bottom-left -->
+  <path d="M400,400 L400,580 A180,180 0 0,1 220,400 Z" fill="#1D3557" opacity="0.7"/>
+
+  <!-- Large yellow quarter arc top-left -->
+  <path d="M400,400 L220,400 A180,180 0 0,1 400,220 Z" fill="#F4D35E" opacity="0.6"/>
+
+  <!-- Large teal quarter arc bottom-right -->
+  <path d="M400,400 L580,400 A180,180 0 0,1 400,580 Z" fill="#2A9D8F" opacity="0.6"/>
+
+  <!-- Inner circle -->
+  <circle cx="400" cy="400" r="90" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+
+  <!-- Inner circle pattern -->
+  <circle cx="400" cy="400" r="60" fill="#264653" opacity="0.8"/>
+  <circle cx="400" cy="400" r="40" fill="#E63946"/>
+  <circle cx="400" cy="400" r="22" fill="#F4D35E"/>
+  <circle cx="400" cy="400" r="8" fill="#000000"/>
+
+  <!-- === LAYER 2: Geometric overlays on the circle === -->
+
+  <!-- Cross lines through center -->
+  <line x1="400" y1="100" x2="400" y2="700" stroke="#000000" stroke-width="2"/>
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#000000" stroke-width="2"/>
+
+  <!-- Diagonal lines -->
+  <line x1="270" y1="270" x2="530" y2="530" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <line x1="530" y1="270" x2="270" y2="530" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- === LAYER 3: Top-left composition === -->
+
+  <!-- Overlapping squares -->
+  <rect x="50" y="50" width="120" height="120" fill="#E63946" opacity="0.8"/>
+  <rect x="90" y="90" width="120" height="120" fill="#F4D35E" opacity="0.7"/>
+  <rect x="130" y="50" width="60" height="60" fill="#1D3557" opacity="0.8"/>
+
+  <!-- Small circles cluster -->
+  <circle cx="80" cy="250" r="20" fill="#2A9D8F"/>
+  <circle cx="110" cy="270" r="15" fill="#E9C46A" opacity="0.8"/>
+  <circle cx="60" cy="280" r="12" fill="#E63946" opacity="0.6"/>
+
+  <!-- Triangle -->
+  <polygon points="160,240 200,300 120,300" fill="#1D3557" opacity="0.7"/>
+
+  <!-- === LAYER 4: Top-right composition === -->
+
+  <!-- Stacked horizontal bars -->
+  <rect x="550" y="80" width="200" height="20" fill="#E63946"/>
+  <rect x="570" y="110" width="180" height="20" fill="#F4D35E"/>
+  <rect x="590" y="140" width="160" height="20" fill="#2A9D8F"/>
+  <rect x="610" y="170" width="140" height="20" fill="#1D3557"/>
+
+  <!-- Large triangle -->
+  <polygon points="700,300 750,200 650,200" fill="none" stroke="#E63946" stroke-width="3"/>
+  <polygon points="700,290 740,210 660,210" fill="#E63946" opacity="0.3"/>
+
+  <!-- Circle with cross -->
+  <circle cx="620" cy="320" r="25" fill="none" stroke="#000000" stroke-width="2"/>
+  <line x1="620" y1="295" x2="620" y2="345" stroke="#000000" stroke-width="2"/>
+  <line x1="595" y1="320" x2="645" y2="320" stroke="#000000" stroke-width="2"/>
+
+  <!-- === LAYER 5: Bottom-left composition === -->
+
+  <!-- Vertical bars -->
+  <rect x="40" y="450" width="15" height="100" fill="#E63946"/>
+  <rect x="60" y="470" width="15" height="80" fill="#F4D35E"/>
+  <rect x="80" y="440" width="15" height="110" fill="#1D3557"/>
+  <rect x="100" y="460" width="15" height="90" fill="#2A9D8F"/>
+
+  <!-- Diamond -->
+  <polygon points="170,500 200,460 230,500 200,540" fill="none" stroke="#E9C46A" stroke-width="3"/>
+  <polygon points="170,500 200,468 230,500 200,532" fill="#E9C46A" opacity="0.3"/>
+
+  <!-- Nested squares -->
+  <rect x="50" y="620" width="80" height="80" fill="none" stroke="#264653" stroke-width="3"/>
+  <rect x="65" y="635" width="50" height="50" fill="none" stroke="#E63946" stroke-width="2"/>
+  <rect x="78" y="648" width="24" height="24" fill="#F4D35E"/>
+
+  <!-- Circle cluster -->
+  <circle cx="180" cy="680" r="30" fill="#1D3557" opacity="0.6"/>
+  <circle cx="210" cy="660" r="22" fill="#E63946" opacity="0.5"/>
+  <circle cx="195" cy="700" r="18" fill="#2A9D8F" opacity="0.7"/>
+
+  <!-- === LAYER 6: Bottom-right composition === -->
+
+  <!-- Large square with circle -->
+  <rect x="600" y="600" width="150" height="150" fill="none" stroke="#000000" stroke-width="3"/>
+  <circle cx="675" cy="675" r="65" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="675" cy="675" r="40" fill="#E63946" opacity="0.4"/>
+  <circle cx="675" cy="675" r="18" fill="#1D3557" opacity="0.7"/>
+
+  <!-- Triangle stack -->
+  <polygon points="560,750 590,690 620,750" fill="#264653" opacity="0.7"/>
+  <polygon points="570,750 590,710 610,750" fill="#2A9D8F" opacity="0.8"/>
+
+  <!-- Horizontal lines -->
+  <line x1="550" y1="620" x2="590" y2="620" stroke="#E63946" stroke-width="3"/>
+  <line x1="550" y1="630" x2="590" y2="630" stroke="#F4D35E" stroke-width="3"/>
+  <line x1="550" y1="640" x2="590" y2="640" stroke="#2A9D8F" stroke-width="3"/>
+  <line x1="550" y1="650" x2="590" y2="650" stroke="#1D3557" stroke-width="3"/>
+
+  <!-- === LAYER 7: Floating accent elements === -->
+
+  <!-- Scattered small triangles -->
+  <polygon points="300,80 310,60 320,80" fill="#E63946"/>
+  <polygon points="500,50 510,30 520,50" fill="#2A9D8F"/>
+  <polygon points="460,720 470,700 480,720" fill="#F4D35E"/>
+  <polygon points="280,720 290,700 300,720" fill="#1D3557"/>
+
+  <!-- Small circles scattered -->
+  <circle cx="340" cy="130" r="8" fill="#E9C46A"/>
+  <circle cx="480" cy="150" r="6" fill="#264653"/>
+  <circle cx="320" cy="680" r="7" fill="#E63946" opacity="0.7"/>
+  <circle cx="700" cy="450" r="10" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="100" cy="400" r="8" fill="#2A9D8F" opacity="0.7"/>
+
+  <!-- Small squares scattered -->
+  <rect x="250" y="50" width="12" height="12" fill="#1D3557" transform="rotate(45,256,56)"/>
+  <rect x="720" y="500" width="10" height="10" fill="#E63946" transform="rotate(30,725,505)"/>
+  <rect x="350" y="750" width="14" height="14" fill="#264653" transform="rotate(15,357,757)"/>
+
+  <!-- === LAYER 8: Arcs and curves === -->
+
+  <!-- Arc top -->
+  <path d="M250,150 A100,100 0 0,1 350,50" fill="none" stroke="#E63946" stroke-width="3"/>
+
+  <!-- Arc right -->
+  <path d="M700,350 A80,80 0 0,1 780,430" fill="none" stroke="#1D3557" stroke-width="3"/>
+
+  <!-- Arc bottom -->
+  <path d="M350,750 A120,120 0 0,1 500,780" fill="none" stroke="#F4D35E" stroke-width="3"/>
+
+  <!-- Arc left -->
+  <path d="M30,350 A70,70 0 0,0 20,500" fill="none" stroke="#2A9D8F" stroke-width="3"/>
+
+  <!-- Semi-circle decorations -->
+  <path d="M300,100 A30,30 0 0,1 360,100" fill="#264653" opacity="0.5"/>
+  <path d="M650,500 A25,25 0 0,1 700,500" fill="#E63946" opacity="0.4"/>
+
+  <!-- === LAYER 9: Transparency overlays === -->
+
+  <!-- Large transparent overlay shapes -->
+  <rect x="300" y="250" width="80" height="80" fill="#F4D35E" opacity="0.15" transform="rotate(30,340,290)"/>
+  <rect x="420" y="480" width="80" height="80" fill="#E63946" opacity="0.15" transform="rotate(-20,460,520)"/>
+  <circle cx="300" cy="500" r="50" fill="#1D3557" opacity="0.1"/>
+  <circle cx="500" cy="300" r="45" fill="#2A9D8F" opacity="0.1"/>
+
+  <!-- === LAYER 10: Final details and border === -->
+
+  <!-- Dotted circle around center -->
+  <circle cx="400" cy="400" r="140" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="8,8" opacity="0.4"/>
+  <circle cx="400" cy="400" r="120" fill="none" stroke="#E9C46A" stroke-width="1" stroke-dasharray="4,6" opacity="0.5"/>
+
+  <!-- Corner accent compositions -->
+  <!-- TL -->
+  <line x1="10" y1="10" x2="40" y2="10" stroke="#E63946" stroke-width="4"/>
+  <line x1="10" y1="10" x2="10" y2="40" stroke="#E63946" stroke-width="4"/>
+  <!-- TR -->
+  <line x1="760" y1="10" x2="790" y2="10" stroke="#1D3557" stroke-width="4"/>
+  <line x1="790" y1="10" x2="790" y2="40" stroke="#1D3557" stroke-width="4"/>
+  <!-- BL -->
+  <line x1="10" y1="790" x2="40" y2="790" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="10" y1="760" x2="10" y2="790" stroke="#F4D35E" stroke-width="4"/>
+  <!-- BR -->
+  <line x1="760" y1="790" x2="790" y2="790" stroke="#2A9D8F" stroke-width="4"/>
+  <line x1="790" y1="760" x2="790" y2="790" stroke="#2A9D8F" stroke-width="4"/>
+
+  <!-- Final small geometric flourishes -->
+  <polygon points="750,50 770,50 760,30" fill="#E63946" opacity="0.6"/>
+  <polygon points="30,750 50,750 40,770" fill="#1D3557" opacity="0.6"/>
+  <rect x="740" y="740" width="15" height="15" fill="#264653" opacity="0.5"/>
+  <rect x="45" y="45" width="8" height="8" fill="#2A9D8F"/>
+</svg>

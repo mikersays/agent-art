@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#A89F91"/>
+
+  <!-- Mosaic - Irregular polygon tessellation -->
+  <!-- Row 1 -->
+  <polygon points="0,0 120,0 100,80 0,60" fill="#E63946" stroke="#000000" stroke-width="4"/>
+  <polygon points="120,0 280,0 260,50 200,90 100,80" fill="#1D3557" stroke="#000000" stroke-width="4"/>
+  <polygon points="280,0 420,0 440,70 350,100 260,50" fill="#F4D35E" stroke="#000000" stroke-width="4"/>
+  <polygon points="420,0 580,0 560,60 500,80 440,70" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+  <polygon points="580,0 720,0 740,50 680,90 560,60" fill="#2A9D8F" stroke="#000000" stroke-width="4"/>
+  <polygon points="720,0 800,0 800,70 740,50" fill="#E9C46A" stroke="#000000" stroke-width="4"/>
+
+  <!-- Row 2 -->
+  <polygon points="0,60 100,80 80,170 0,150" fill="#F4D35E" stroke="#000000" stroke-width="4"/>
+  <polygon points="100,80 200,90 180,160 130,190 80,170" fill="#2A9D8F" stroke="#000000" stroke-width="4"/>
+  <polygon points="200,90 350,100 330,180 250,170 180,160" fill="#E63946" stroke="#000000" stroke-width="4"/>
+  <polygon points="350,100 440,70 500,80 480,160 400,190 330,180" fill="#000000" stroke="#000000" stroke-width="4"/>
+  <polygon points="500,80 560,60 680,90 650,170 540,180 480,160" fill="#E9C46A" stroke="#000000" stroke-width="4"/>
+  <polygon points="680,90 740,50 800,70 800,160 720,170 650,170" fill="#E63946" stroke="#000000" stroke-width="4"/>
+
+  <!-- Row 3 -->
+  <polygon points="0,150 80,170 60,270 0,250" fill="#1D3557" stroke="#000000" stroke-width="4"/>
+  <polygon points="80,170 130,190 160,280 100,290 60,270" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+  <polygon points="130,190 250,170 330,180 300,280 220,300 160,280" fill="#A89F91" stroke="#000000" stroke-width="4"/>
+  <polygon points="330,180 400,190 480,160 460,270 370,290 300,280" fill="#F4D35E" stroke="#000000" stroke-width="4"/>
+  <polygon points="480,160 540,180 520,280 460,270" fill="#1D3557" stroke="#000000" stroke-width="4"/>
+  <polygon points="540,180 650,170 720,170 700,260 600,280 520,280" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+  <polygon points="720,170 800,160 800,260 700,260" fill="#2A9D8F" stroke="#000000" stroke-width="4"/>
+
+  <!-- Row 4 -->
+  <polygon points="0,250 60,270 40,370 0,360" fill="#E9C46A" stroke="#000000" stroke-width="4"/>
+  <polygon points="60,270 100,290 120,380 80,390 40,370" fill="#E63946" stroke="#000000" stroke-width="4"/>
+  <polygon points="100,290 220,300 240,380 180,400 120,380" fill="#2A9D8F" stroke="#000000" stroke-width="4"/>
+  <polygon points="220,300 300,280 370,290 350,390 280,400 240,380" fill="#000000" stroke="#000000" stroke-width="4"/>
+  <polygon points="370,290 460,270 520,280 500,380 420,400 350,390" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+  <polygon points="520,280 600,280 700,260 680,370 580,390 500,380" fill="#F4D35E" stroke="#000000" stroke-width="4"/>
+  <polygon points="700,260 800,260 800,370 740,380 680,370" fill="#E63946" stroke="#000000" stroke-width="4"/>
+
+  <!-- Row 5 -->
+  <polygon points="0,360 40,370 30,470 0,460" fill="#2A9D8F" stroke="#000000" stroke-width="4"/>
+  <polygon points="40,370 80,390 100,480 60,490 30,470" fill="#F4D35E" stroke="#000000" stroke-width="4"/>
+  <polygon points="80,390 180,400 200,490 140,500 100,480" fill="#1D3557" stroke="#000000" stroke-width="4"/>
+  <polygon points="180,400 280,400 350,390 340,480 260,500 200,490" fill="#E9C46A" stroke="#000000" stroke-width="4"/>
+  <polygon points="350,390 420,400 500,380 490,470 400,500 340,480" fill="#E63946" stroke="#000000" stroke-width="4"/>
+  <polygon points="500,380 580,390 680,370 660,470 560,490 490,470" fill="#A89F91" stroke="#000000" stroke-width="4"/>
+  <polygon points="680,370 740,380 800,370 800,460 720,480 660,470" fill="#1D3557" stroke="#000000" stroke-width="4"/>
+
+  <!-- Row 6 -->
+  <polygon points="0,460 30,470 20,570 0,560" fill="#000000" stroke="#000000" stroke-width="4"/>
+  <polygon points="30,470 60,490 80,580 50,590 20,570" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+  <polygon points="60,490 140,500 160,590 120,600 80,580" fill="#E63946" stroke="#000000" stroke-width="4"/>
+  <polygon points="140,500 260,500 280,590 220,600 160,590" fill="#F4D35E" stroke="#000000" stroke-width="4"/>
+  <polygon points="260,500 340,480 400,500 380,590 310,600 280,590" fill="#2A9D8F" stroke="#000000" stroke-width="4"/>
+  <polygon points="400,500 490,470 560,490 540,580 440,600 380,590" fill="#000000" stroke="#000000" stroke-width="4"/>
+  <polygon points="560,490 660,470 720,480 700,580 620,600 540,580" fill="#E9C46A" stroke="#000000" stroke-width="4"/>
+  <polygon points="720,480 800,460 800,570 760,580 700,580" fill="#F4D35E" stroke="#000000" stroke-width="4"/>
+
+  <!-- Row 7 -->
+  <polygon points="0,560 20,570 10,680 0,670" fill="#E9C46A" stroke="#000000" stroke-width="4"/>
+  <polygon points="20,570 50,590 60,680 30,690 10,680" fill="#2A9D8F" stroke="#000000" stroke-width="4"/>
+  <polygon points="50,590 120,600 140,690 90,700 60,680" fill="#A89F91" stroke="#000000" stroke-width="4"/>
+  <polygon points="120,600 220,600 240,690 180,700 140,690" fill="#1D3557" stroke="#000000" stroke-width="4"/>
+  <polygon points="220,600 310,600 380,590 370,690 300,700 240,690" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+  <polygon points="380,590 440,600 540,580 530,680 430,700 370,690" fill="#E63946" stroke="#000000" stroke-width="4"/>
+  <polygon points="540,580 620,600 700,580 690,680 600,700 530,680" fill="#F4D35E" stroke="#000000" stroke-width="4"/>
+  <polygon points="700,580 760,580 800,570 800,680 740,690 690,680" fill="#2A9D8F" stroke="#000000" stroke-width="4"/>
+
+  <!-- Row 8 - bottom -->
+  <polygon points="0,670 10,680 0,800 0,800" fill="#1D3557" stroke="#000000" stroke-width="4"/>
+  <polygon points="10,680 30,690 60,680 90,700 80,800 0,800" fill="#E63946" stroke="#000000" stroke-width="4"/>
+  <polygon points="90,700 180,700 200,800 80,800" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+  <polygon points="180,700 240,690 300,700 320,800 200,800" fill="#E9C46A" stroke="#000000" stroke-width="4"/>
+  <polygon points="300,700 370,690 430,700 450,800 320,800" fill="#A89F91" stroke="#000000" stroke-width="4"/>
+  <polygon points="430,700 530,680 600,700 600,800 450,800" fill="#1D3557" stroke="#000000" stroke-width="4"/>
+  <polygon points="600,700 690,680 740,690 750,800 600,800" fill="#F4D35E" stroke="#000000" stroke-width="4"/>
+  <polygon points="740,690 800,680 800,800 750,800" fill="#000000" stroke="#000000" stroke-width="4"/>
+</svg>

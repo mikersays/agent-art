@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Scaffolding structure: vertical poles -->
+  <line x1="100" y1="50" x2="100" y2="750" stroke="#000000" stroke-width="6"/>
+  <line x1="250" y1="50" x2="250" y2="750" stroke="#000000" stroke-width="6"/>
+  <line x1="400" y1="50" x2="400" y2="750" stroke="#000000" stroke-width="6"/>
+  <line x1="550" y1="50" x2="550" y2="750" stroke="#000000" stroke-width="6"/>
+  <line x1="700" y1="50" x2="700" y2="750" stroke="#000000" stroke-width="6"/>
+
+  <!-- Horizontal bars -->
+  <line x1="70" y1="100" x2="730" y2="100" stroke="#333333" stroke-width="5"/>
+  <line x1="70" y1="230" x2="730" y2="230" stroke="#333333" stroke-width="5"/>
+  <line x1="70" y1="360" x2="730" y2="360" stroke="#333333" stroke-width="5"/>
+  <line x1="70" y1="490" x2="730" y2="490" stroke="#333333" stroke-width="5"/>
+  <line x1="70" y1="620" x2="730" y2="620" stroke="#333333" stroke-width="5"/>
+  <line x1="70" y1="720" x2="730" y2="720" stroke="#333333" stroke-width="5"/>
+
+  <!-- Diagonal cross braces -->
+  <line x1="100" y1="100" x2="250" y2="230" stroke="#333333" stroke-width="3"/>
+  <line x1="250" y1="100" x2="100" y2="230" stroke="#333333" stroke-width="3"/>
+  <line x1="400" y1="100" x2="550" y2="230" stroke="#333333" stroke-width="3"/>
+  <line x1="550" y1="100" x2="400" y2="230" stroke="#333333" stroke-width="3"/>
+  <line x1="250" y1="230" x2="400" y2="360" stroke="#333333" stroke-width="3"/>
+  <line x1="400" y1="230" x2="250" y2="360" stroke="#333333" stroke-width="3"/>
+  <line x1="550" y1="230" x2="700" y2="360" stroke="#333333" stroke-width="3"/>
+  <line x1="700" y1="230" x2="550" y2="360" stroke="#333333" stroke-width="3"/>
+  <line x1="100" y1="360" x2="250" y2="490" stroke="#333333" stroke-width="3"/>
+  <line x1="250" y1="360" x2="100" y2="490" stroke="#333333" stroke-width="3"/>
+  <line x1="400" y1="490" x2="550" y2="620" stroke="#333333" stroke-width="3"/>
+  <line x1="550" y1="490" x2="400" y2="620" stroke="#333333" stroke-width="3"/>
+  <line x1="100" y1="620" x2="250" y2="720" stroke="#333333" stroke-width="3"/>
+  <line x1="550" y1="620" x2="700" y2="720" stroke="#333333" stroke-width="3"/>
+  <line x1="700" y1="620" x2="550" y2="720" stroke="#333333" stroke-width="3"/>
+
+  <!-- Colored panels filling scaffold gaps -->
+  <rect x="100" y="100" width="150" height="130" fill="#E63946" opacity="0.75"/>
+  <rect x="550" y="100" width="150" height="130" fill="#1D3557" opacity="0.8"/>
+  <rect x="250" y="360" width="150" height="130" fill="#F4D35E" opacity="0.7"/>
+  <rect x="400" y="230" width="150" height="130" fill="#2A9D8F" opacity="0.7"/>
+  <rect x="100" y="490" width="150" height="130" fill="#E76F51" opacity="0.75"/>
+  <rect x="550" y="490" width="150" height="130" fill="#E63946" opacity="0.6"/>
+  <rect x="250" y="620" width="150" height="100" fill="#1D3557" opacity="0.7"/>
+  <rect x="400" y="620" width="150" height="100" fill="#F4D35E" opacity="0.65"/>
+  <rect x="700" y="360" width="0" height="130" fill="#2A9D8F" opacity="0.5"/>
+  <rect x="400" y="100" width="150" height="130" fill="#333333" opacity="0.3"/>
+
+  <!-- Extra diagonal braces for visual richness -->
+  <line x1="250" y1="490" x2="400" y2="620" stroke="#333333" stroke-width="3"/>
+  <line x1="400" y1="360" x2="550" y2="490" stroke="#333333" stroke-width="3"/>
+  <line x1="550" y1="360" x2="400" y2="490" stroke="#333333" stroke-width="3"/>
+
+  <!-- Joint circles at intersections -->
+  <circle cx="100" cy="100" r="8" fill="#000000"/>
+  <circle cx="250" cy="100" r="8" fill="#000000"/>
+  <circle cx="400" cy="100" r="8" fill="#000000"/>
+  <circle cx="550" cy="100" r="8" fill="#000000"/>
+  <circle cx="700" cy="100" r="8" fill="#000000"/>
+  <circle cx="100" cy="230" r="8" fill="#000000"/>
+  <circle cx="250" cy="230" r="8" fill="#000000"/>
+  <circle cx="400" cy="230" r="8" fill="#000000"/>
+  <circle cx="550" cy="230" r="8" fill="#000000"/>
+  <circle cx="700" cy="230" r="8" fill="#000000"/>
+  <circle cx="100" cy="360" r="8" fill="#000000"/>
+  <circle cx="250" cy="360" r="8" fill="#000000"/>
+  <circle cx="400" cy="360" r="8" fill="#000000"/>
+  <circle cx="550" cy="360" r="8" fill="#000000"/>
+  <circle cx="700" cy="360" r="8" fill="#000000"/>
+  <circle cx="100" cy="490" r="8" fill="#000000"/>
+  <circle cx="250" cy="490" r="8" fill="#000000"/>
+  <circle cx="400" cy="490" r="8" fill="#000000"/>
+  <circle cx="550" cy="490" r="8" fill="#000000"/>
+  <circle cx="700" cy="490" r="8" fill="#000000"/>
+  <circle cx="100" cy="620" r="8" fill="#000000"/>
+  <circle cx="250" cy="620" r="8" fill="#000000"/>
+  <circle cx="400" cy="620" r="8" fill="#000000"/>
+  <circle cx="550" cy="620" r="8" fill="#000000"/>
+  <circle cx="700" cy="620" r="8" fill="#000000"/>
+  <circle cx="100" cy="720" r="8" fill="#000000"/>
+  <circle cx="250" cy="720" r="8" fill="#000000"/>
+  <circle cx="400" cy="720" r="8" fill="#000000"/>
+  <circle cx="550" cy="720" r="8" fill="#000000"/>
+  <circle cx="700" cy="720" r="8" fill="#000000"/>
+
+  <!-- Small geometric accents -->
+  <rect x="160" y="145" width="20" height="20" fill="#FFFFFF" stroke="#000000" stroke-width="2" transform="rotate(45 170 155)"/>
+  <rect x="610" y="145" width="20" height="20" fill="#FFFFFF" stroke="#000000" stroke-width="2" transform="rotate(45 620 155)"/>
+  <polygon points="325,300 340,270 355,300" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <polygon points="175,550 190,520 205,550" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+
+  <!-- Ground base -->
+  <rect x="60" y="740" width="680" height="12" fill="#000000"/>
+  <rect x="60" y="50" width="680" height="8" fill="#000000"/>
+</svg>

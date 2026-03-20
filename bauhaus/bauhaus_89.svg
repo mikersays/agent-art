@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Outer glow rays emanating from lantern -->
+  <polygon points="400,400 50,100 150,80" fill="#F4D35E" opacity="0.08"/>
+  <polygon points="400,400 650,60 750,100" fill="#F4D35E" opacity="0.08"/>
+  <polygon points="400,400 0,350 0,450" fill="#DDA15E" opacity="0.06"/>
+  <polygon points="400,400 800,350 800,450" fill="#DDA15E" opacity="0.06"/>
+  <polygon points="400,400 100,700 200,750" fill="#F4D35E" opacity="0.05"/>
+  <polygon points="400,400 600,700 700,750" fill="#F4D35E" opacity="0.05"/>
+  <polygon points="400,400 350,0 450,0" fill="#F4D35E" opacity="0.07"/>
+  <polygon points="400,400 350,800 450,800" fill="#DDA15E" opacity="0.04"/>
+
+  <!-- Geometric light glow circles -->
+  <circle cx="400" cy="400" r="300" fill="#F4D35E" opacity="0.04"/>
+  <circle cx="400" cy="400" r="240" fill="#F4D35E" opacity="0.06"/>
+  <circle cx="400" cy="400" r="180" fill="#DDA15E" opacity="0.08"/>
+  <circle cx="400" cy="400" r="130" fill="#F4D35E" opacity="0.1"/>
+
+  <!-- Main lantern body - large central form -->
+  <path d="M340,250 Q310,400 340,550 L460,550 Q490,400 460,250 Z" fill="#E63946" opacity="0.9"/>
+
+  <!-- Lantern panel divisions -->
+  <line x1="400" y1="250" x2="400" y2="550" stroke="#6D2E46" stroke-width="3"/>
+  <path d="M340,250 Q310,400 340,550" fill="none" stroke="#000000" stroke-width="3"/>
+  <path d="M460,250 Q490,400 460,550" fill="none" stroke="#000000" stroke-width="3"/>
+
+  <!-- Inner glow on lantern -->
+  <path d="M360,280 Q345,400 360,520 L400,520 Q385,400 400,280 Z" fill="#F4D35E" opacity="0.4"/>
+  <path d="M400,280 Q415,400 400,520 L440,520 Q455,400 440,280 Z" fill="#DDA15E" opacity="0.3"/>
+
+  <!-- Top cap -->
+  <rect x="330" y="235" width="140" height="20" fill="#000000"/>
+  <rect x="345" y="220" width="110" height="20" fill="#000000"/>
+  <rect x="370" y="205" width="60" height="20" fill="#6D2E46"/>
+
+  <!-- Top hook/ring -->
+  <circle cx="400" cy="195" r="15" fill="none" stroke="#000000" stroke-width="4"/>
+  <line x1="400" y1="180" x2="400" y2="140" stroke="#000000" stroke-width="3"/>
+
+  <!-- Bottom cap -->
+  <rect x="330" y="545" width="140" height="20" fill="#000000"/>
+  <rect x="350" y="565" width="100" height="15" fill="#000000"/>
+  <rect x="375" y="580" width="50" height="10" fill="#6D2E46"/>
+
+  <!-- Bottom tassel/ornament -->
+  <line x1="400" y1="590" x2="400" y2="640" stroke="#E63946" stroke-width="2"/>
+  <circle cx="400" cy="645" r="8" fill="#E63946"/>
+  <rect x="393" y="620" width="14" height="10" fill="#F4D35E"/>
+
+  <!-- Smaller side lantern left -->
+  <path d="M150,350 Q140,420 150,490 L210,490 Q220,420 210,350 Z" fill="#F4D35E" opacity="0.7"/>
+  <rect x="145" y="340" width="70" height="12" fill="#000000"/>
+  <rect x="145" y="488" width="70" height="12" fill="#000000"/>
+  <line x1="180" y1="350" x2="180" y2="490" stroke="#000000" stroke-width="2"/>
+
+  <!-- Smaller side lantern right -->
+  <path d="M590,350 Q580,420 590,490 L650,490 Q660,420 650,350 Z" fill="#DDA15E" opacity="0.7"/>
+  <rect x="585" y="340" width="70" height="12" fill="#000000"/>
+  <rect x="585" y="488" width="70" height="12" fill="#000000"/>
+  <line x1="620" y1="350" x2="620" y2="490" stroke="#000000" stroke-width="2"/>
+
+  <!-- Horizontal wire connecting lanterns -->
+  <line x1="220" y1="345" x2="330" y2="240" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  <line x1="580" y1="345" x2="470" y2="240" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Small decorative squares around glow -->
+  <rect x="280" y="180" width="12" height="12" fill="#F4D35E" opacity="0.5" transform="rotate(45,286,186)"/>
+  <rect x="508" y="180" width="12" height="12" fill="#F4D35E" opacity="0.5" transform="rotate(45,514,186)"/>
+  <rect x="260" y="600" width="10" height="10" fill="#DDA15E" opacity="0.4"/>
+  <rect x="530" y="600" width="10" height="10" fill="#DDA15E" opacity="0.4"/>
+</svg>

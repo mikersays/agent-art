@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Grid lines for amplitude reference -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="1" stroke-dasharray="4,4" opacity="0.3"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,6" opacity="0.2"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,6" opacity="0.2"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,6" opacity="0.15"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,6" opacity="0.15"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,6" opacity="0.1"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="0.5" stroke-dasharray="2,6" opacity="0.1"/>
+
+  <!-- Amplitude markers on left side -->
+  <line x1="30" y1="400" x2="40" y2="400" stroke="#000000" stroke-width="2"/>
+  <text x="25" y="404" font-family="sans-serif" font-size="10" fill="#000000" text-anchor="end">0</text>
+  <line x1="30" y1="200" x2="40" y2="200" stroke="#000000" stroke-width="2"/>
+  <text x="25" y="204" font-family="sans-serif" font-size="10" fill="#000000" text-anchor="end">+A</text>
+  <line x1="30" y1="600" x2="40" y2="600" stroke="#000000" stroke-width="2"/>
+  <text x="25" y="604" font-family="sans-serif" font-size="10" fill="#000000" text-anchor="end">-A</text>
+  <line x1="30" y1="100" x2="40" y2="100" stroke="#000000" stroke-width="2"/>
+  <text x="25" y="104" font-family="sans-serif" font-size="10" fill="#000000" text-anchor="end">+2A</text>
+  <line x1="30" y1="700" x2="40" y2="700" stroke="#000000" stroke-width="2"/>
+  <text x="25" y="704" font-family="sans-serif" font-size="10" fill="#000000" text-anchor="end">-2A</text>
+
+  <!-- Wave 1 - Low frequency, large amplitude (RED) -->
+  <path d="M 0 400 Q 100 100 200 400 Q 300 700 400 400 Q 500 100 600 400 Q 700 700 800 400" fill="none" stroke="#E63946" stroke-width="4" opacity="0.85"/>
+
+  <!-- Wave 2 - Medium frequency (BLUE) -->
+  <path d="M 0 400 Q 50 250 100 400 Q 150 550 200 400 Q 250 250 300 400 Q 350 550 400 400 Q 450 250 500 400 Q 550 550 600 400 Q 650 250 700 400 Q 750 550 800 400" fill="none" stroke="#1D3557" stroke-width="3" opacity="0.8"/>
+
+  <!-- Wave 3 - Higher frequency, smaller amplitude (YELLOW) -->
+  <path d="M 0 400 Q 25 320 50 400 Q 75 480 100 400 Q 125 320 150 400 Q 175 480 200 400 Q 225 320 250 400 Q 275 480 300 400 Q 325 320 350 400 Q 375 480 400 400 Q 425 320 450 400 Q 475 480 500 400 Q 525 320 550 400 Q 575 480 600 400 Q 625 320 650 400 Q 675 480 700 400 Q 725 320 750 400 Q 775 480 800 400" fill="none" stroke="#F4D35E" stroke-width="3" opacity="0.9"/>
+
+  <!-- Wave 4 - Damped wave (BURGUNDY) -->
+  <path d="M 0 400 Q 50 150 100 400 Q 150 600 200 400 Q 250 220 300 400 Q 350 540 400 400 Q 450 290 500 400 Q 550 480 600 400 Q 650 350 700 400 Q 750 420 800 400" fill="none" stroke="#6D2E46" stroke-width="2.5" opacity="0.7"/>
+
+  <!-- Wave 5 - Very high frequency, tiny amplitude (FOREST) -->
+  <path d="M 0 400 Q 12 375 25 400 Q 37 425 50 400 Q 62 375 75 400 Q 87 425 100 400 Q 112 375 125 400 Q 137 425 150 400 Q 162 375 175 400 Q 187 425 200 400 Q 212 375 225 400 Q 237 425 250 400 Q 262 375 275 400 Q 287 425 300 400 Q 312 375 325 400 Q 337 425 350 400 Q 362 375 375 400 Q 387 425 400 400 Q 412 375 425 400 Q 437 425 450 400 Q 462 375 475 400 Q 487 425 500 400 Q 512 375 525 400 Q 537 425 550 400 Q 562 375 575 400 Q 587 425 600 400 Q 612 375 625 400 Q 637 425 650 400 Q 662 375 675 400 Q 687 425 700 400 Q 712 375 725 400 Q 737 425 750 400 Q 762 375 775 400 Q 787 425 800 400" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Wave 6 - Square-ish wave approximation (SAND) -->
+  <path d="M 0 400 L 0 300 L 60 300 L 60 500 L 120 500 L 120 300 L 180 300 L 180 500 L 240 500 L 240 300 L 300 300 L 300 500 L 360 500 L 360 300 L 420 300 L 420 500 L 480 500 L 480 300 L 540 300 L 540 500 L 600 500 L 600 300 L 660 300 L 660 500 L 720 500 L 720 300 L 780 300 L 780 400 L 800 400" fill="none" stroke="#DDA15E" stroke-width="2" opacity="0.5"/>
+
+  <!-- Frequency labels / legend -->
+  <rect x="560" y="50" width="210" height="170" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <line x1="575" y1="75" x2="615" y2="75" stroke="#E63946" stroke-width="4"/>
+  <text x="625" y="79" font-family="sans-serif" font-size="12" fill="#000000">f = 1.5 Hz</text>
+  <line x1="575" y1="100" x2="615" y2="100" stroke="#1D3557" stroke-width="3"/>
+  <text x="625" y="104" font-family="sans-serif" font-size="12" fill="#000000">f = 4 Hz</text>
+  <line x1="575" y1="125" x2="615" y2="125" stroke="#F4D35E" stroke-width="3"/>
+  <text x="625" y="129" font-family="sans-serif" font-size="12" fill="#000000">f = 8 Hz</text>
+  <line x1="575" y1="150" x2="615" y2="150" stroke="#6D2E46" stroke-width="2.5"/>
+  <text x="625" y="154" font-family="sans-serif" font-size="12" fill="#000000">damped</text>
+  <line x1="575" y1="175" x2="615" y2="175" stroke="#264653" stroke-width="1.5"/>
+  <text x="625" y="179" font-family="sans-serif" font-size="12" fill="#000000">f = 16 Hz</text>
+  <line x1="575" y1="200" x2="615" y2="200" stroke="#DDA15E" stroke-width="2"/>
+  <text x="625" y="204" font-family="sans-serif" font-size="12" fill="#000000">square</text>
+
+  <!-- Peak markers -->
+  <polygon points="200,100 195,112 205,112" fill="#E63946"/>
+  <polygon points="600,100 595,112 605,112" fill="#E63946"/>
+  <polygon points="100,250 95,262 105,262" fill="#1D3557"/>
+  <polygon points="300,250 295,262 305,262" fill="#1D3557"/>
+
+  <!-- Title -->
+  <rect x="50" y="740" width="200" height="35" fill="#000000"/>
+  <text x="150" y="764" font-family="sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">SOUND WAVE</text>
+</svg>

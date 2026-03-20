@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Ground -->
+  <rect x="0" y="720" width="800" height="80" fill="#000000"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#A89F91" stroke-width="2"/>
+
+  <!-- Antenna Mast 1 - tall left -->
+  <rect x="95" y="120" width="10" height="600" fill="#A89F91"/>
+  <rect x="85" y="120" width="30" height="8" fill="#000000"/>
+  <!-- Cross elements -->
+  <line x1="50" y1="180" x2="150" y2="180" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="60" y1="240" x2="140" y2="240" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="70" y1="300" x2="130" y2="300" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="55" y1="360" x2="145" y2="360" stroke="#FFFFFF" stroke-width="3"/>
+  <!-- Dish -->
+  <path d="M40,420 Q100,380 160,420" stroke="#E63946" stroke-width="4" fill="none"/>
+  <circle cx="100" cy="410" r="8" fill="#E63946"/>
+  <!-- Signal waves -->
+  <path d="M160,420 Q200,400 180,360" stroke="#F4D35E" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M170,430 Q220,400 195,350" stroke="#F4D35E" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <!-- Top element -->
+  <polygon points="100,120 90,90 110,90" fill="#E63946"/>
+  <line x1="100" y1="90" x2="100" y2="60" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="100" cy="55" r="5" fill="#E63946"/>
+
+  <!-- Antenna Mast 2 - center-left -->
+  <rect x="265" y="200" width="10" height="520" fill="#A89F91"/>
+  <rect x="255" y="200" width="30" height="8" fill="#000000"/>
+  <!-- Cross elements -->
+  <line x1="220" y1="260" x2="320" y2="260" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="230" y1="330" x2="310" y2="330" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="215" y1="400" x2="325" y2="400" stroke="#FFFFFF" stroke-width="3"/>
+  <!-- Circular dish -->
+  <circle cx="270" cy="480" r="35" fill="none" stroke="#2A9D8F" stroke-width="4"/>
+  <circle cx="270" cy="480" r="15" fill="#2A9D8F" opacity="0.5"/>
+  <circle cx="270" cy="480" r="5" fill="#FFFFFF"/>
+  <!-- Signal arcs from dish -->
+  <path d="M305,480 Q340,460 340,440" stroke="#F4D35E" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M310,475 Q350,450 355,425" stroke="#F4D35E" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M315,470 Q360,440 370,410" stroke="#F4D35E" stroke-width="1" fill="none" opacity="0.3"/>
+  <!-- Top -->
+  <rect x="260" y="180" width="20" height="25" fill="#F4D35E"/>
+  <line x1="270" y1="180" x2="270" y2="150" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Antenna Mast 3 - center (tallest) -->
+  <rect x="425" y="80" width="12" height="640" fill="#A89F91"/>
+  <rect x="410" y="80" width="42" height="10" fill="#000000"/>
+  <!-- Cross elements -->
+  <line x1="370" y1="150" x2="492" y2="150" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="380" y1="220" x2="482" y2="220" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="390" y1="290" x2="472" y2="290" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="375" y1="360" x2="487" y2="360" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="385" y1="430" x2="477" y2="430" stroke="#FFFFFF" stroke-width="3"/>
+  <!-- Large dish -->
+  <path d="M370,520 Q431,470 492,520" stroke="#E9C46A" stroke-width="5" fill="none"/>
+  <line x1="431" y1="505" x2="431" y2="520" stroke="#E9C46A" stroke-width="3"/>
+  <circle cx="431" cy="500" r="10" fill="#E9C46A"/>
+  <!-- Signal waves -->
+  <path d="M460,490 Q490,470 480,440" stroke="#E63946" stroke-width="2.5" fill="none" opacity="0.8"/>
+  <path d="M475,495 Q510,465 500,425" stroke="#E63946" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M490,500 Q530,460 520,410" stroke="#E63946" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <!-- Top -->
+  <polygon points="431,80 420,50 442,50" fill="#E63946"/>
+  <line x1="431" y1="50" x2="431" y2="20" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="431" cy="15" r="6" fill="#F4D35E"/>
+
+  <!-- Antenna Mast 4 - center-right -->
+  <rect x="575" y="240" width="10" height="480" fill="#A89F91"/>
+  <!-- Cross elements -->
+  <line x1="540" y1="300" x2="620" y2="300" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="545" y1="380" x2="615" y2="380" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="535" y1="460" x2="625" y2="460" stroke="#FFFFFF" stroke-width="3"/>
+  <!-- Small dish -->
+  <path d="M545,540 Q580,510 615,540" stroke="#2A9D8F" stroke-width="4" fill="none"/>
+  <circle cx="580" cy="530" r="6" fill="#2A9D8F"/>
+  <!-- Signal -->
+  <path d="M615,530 Q640,515 635,490" stroke="#F4D35E" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M620,525 Q650,505 650,475" stroke="#F4D35E" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <!-- Top -->
+  <rect x="570" y="220" width="20" height="25" fill="#2A9D8F"/>
+  <line x1="580" y1="220" x2="580" y2="190" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="580" cy="185" r="5" fill="#E63946"/>
+
+  <!-- Antenna Mast 5 - far right -->
+  <rect x="715" y="170" width="10" height="550" fill="#A89F91"/>
+  <rect x="705" y="170" width="30" height="8" fill="#000000"/>
+  <!-- Cross elements -->
+  <line x1="680" y1="230" x2="760" y2="230" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="685" y1="310" x2="755" y2="310" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="675" y1="390" x2="765" y2="390" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="690" y1="470" x2="750" y2="470" stroke="#FFFFFF" stroke-width="3"/>
+  <!-- Dish -->
+  <circle cx="720" cy="560" r="30" fill="none" stroke="#E63946" stroke-width="4"/>
+  <circle cx="720" cy="560" r="12" fill="#E63946" opacity="0.5"/>
+  <circle cx="720" cy="560" r="4" fill="#FFFFFF"/>
+  <!-- Signal -->
+  <path d="M750,555 Q780,540 775,510" stroke="#F4D35E" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M755,550 Q790,530 790,495" stroke="#F4D35E" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <!-- Top -->
+  <polygon points="720,170 712,140 728,140" fill="#F4D35E"/>
+  <line x1="720" y1="140" x2="720" y2="110" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Ground details -->
+  <rect x="80" y="710" width="40" height="15" fill="#A89F91"/>
+  <rect x="250" y="710" width="40" height="15" fill="#A89F91"/>
+  <rect x="415" y="710" width="32" height="15" fill="#A89F91"/>
+  <rect x="560" y="710" width="40" height="15" fill="#A89F91"/>
+  <rect x="700" y="710" width="40" height="15" fill="#A89F91"/>
+
+  <!-- Stars/sky dots -->
+  <circle cx="30" cy="40" r="2" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="200" cy="100" r="2" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="340" cy="30" r="2" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="520" cy="60" r="2" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="650" cy="100" r="2" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="770" cy="50" r="2" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- Title -->
+  <text x="400" y="770" font-family="sans-serif" font-size="22" font-weight="bold" fill="#F4D35E" text-anchor="middle">ANTENNA ARRAY</text>
+</svg>

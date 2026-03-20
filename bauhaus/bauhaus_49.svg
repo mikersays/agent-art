@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Background grid lines -->
+  <line x1="200" y1="50" x2="200" y2="750" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+  <line x1="400" y1="50" x2="400" y2="750" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+  <line x1="600" y1="50" x2="600" y2="750" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+  <line x1="50" y1="200" x2="750" y2="200" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+  <line x1="50" y1="400" x2="750" y2="400" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+  <line x1="50" y1="600" x2="750" y2="600" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+
+  <!-- Row 1 -->
+  <!-- Semaphore 1: arms at 12 o'clock and 3 o'clock (A) -->
+  <circle cx="200" cy="200" r="40" fill="#333333" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="200" cy="200" r="20" fill="#E63946"/>
+  <line x1="200" y1="200" x2="200" y2="120" stroke="#F4D35E" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200" y1="200" x2="280" y2="200" stroke="#F4D35E" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="200" cy="120" r="8" fill="#F4D35E"/>
+  <circle cx="280" cy="200" r="8" fill="#F4D35E"/>
+
+  <!-- Semaphore 2: arms at 10 o'clock and 2 o'clock (U) -->
+  <circle cx="400" cy="200" r="40" fill="#333333" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="400" cy="200" r="20" fill="#2A9D8F"/>
+  <line x1="400" y1="200" x2="345" y2="130" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <line x1="400" y1="200" x2="455" y2="130" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="345" cy="130" r="8" fill="#FFFFFF"/>
+  <circle cx="455" cy="130" r="8" fill="#FFFFFF"/>
+
+  <!-- Semaphore 3: arms at 6 and 9 (K) -->
+  <circle cx="600" cy="200" r="40" fill="#333333" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="600" cy="200" r="20" fill="#E76F51"/>
+  <line x1="600" y1="200" x2="600" y2="280" stroke="#E63946" stroke-width="6" stroke-linecap="round"/>
+  <line x1="600" y1="200" x2="520" y2="200" stroke="#E63946" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="600" cy="280" r="8" fill="#E63946"/>
+  <circle cx="520" cy="200" r="8" fill="#E63946"/>
+
+  <!-- Row 2 -->
+  <!-- Semaphore 4: arms at 1 and 7 -->
+  <circle cx="200" cy="400" r="40" fill="#333333" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="200" cy="400" r="20" fill="#F4D35E"/>
+  <line x1="200" y1="400" x2="240" y2="330" stroke="#2A9D8F" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200" y1="400" x2="160" y2="470" stroke="#2A9D8F" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="240" cy="330" r="8" fill="#2A9D8F"/>
+  <circle cx="160" cy="470" r="8" fill="#2A9D8F"/>
+
+  <!-- Semaphore 5: arms at 11 and 5 -->
+  <circle cx="400" cy="400" r="50" fill="#000000" stroke="#F4D35E" stroke-width="4"/>
+  <circle cx="400" cy="400" r="25" fill="#E63946"/>
+  <line x1="400" y1="400" x2="350" y2="315" stroke="#F4D35E" stroke-width="7" stroke-linecap="round"/>
+  <line x1="400" y1="400" x2="450" y2="485" stroke="#F4D35E" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="350" cy="315" r="10" fill="#F4D35E"/>
+  <circle cx="450" cy="485" r="10" fill="#F4D35E"/>
+
+  <!-- Semaphore 6: arms at 9 and 12 -->
+  <circle cx="600" cy="400" r="40" fill="#333333" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="600" cy="400" r="20" fill="#1D3557" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="600" y1="400" x2="520" y2="400" stroke="#E76F51" stroke-width="6" stroke-linecap="round"/>
+  <line x1="600" y1="400" x2="600" y2="320" stroke="#E76F51" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="520" cy="400" r="8" fill="#E76F51"/>
+  <circle cx="600" cy="320" r="8" fill="#E76F51"/>
+
+  <!-- Row 3 -->
+  <!-- Semaphore 7: arms at 4 and 8 -->
+  <circle cx="200" cy="600" r="40" fill="#333333" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="200" cy="600" r="20" fill="#2A9D8F"/>
+  <line x1="200" y1="600" x2="250" y2="660" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200" y1="600" x2="140" y2="650" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="250" cy="660" r="8" fill="#FFFFFF"/>
+  <circle cx="140" cy="650" r="8" fill="#FFFFFF"/>
+
+  <!-- Semaphore 8: arms at 3 and 10 -->
+  <circle cx="400" cy="600" r="40" fill="#333333" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="400" cy="600" r="20" fill="#E76F51"/>
+  <line x1="400" y1="600" x2="480" y2="600" stroke="#F4D35E" stroke-width="6" stroke-linecap="round"/>
+  <line x1="400" y1="600" x2="345" y2="530" stroke="#F4D35E" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="480" cy="600" r="8" fill="#F4D35E"/>
+  <circle cx="345" cy="530" r="8" fill="#F4D35E"/>
+
+  <!-- Semaphore 9: arms at 6 and 12 (rest/attention) -->
+  <circle cx="600" cy="600" r="40" fill="#333333" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="600" cy="600" r="20" fill="#F4D35E"/>
+  <line x1="600" y1="600" x2="600" y2="520" stroke="#E63946" stroke-width="6" stroke-linecap="round"/>
+  <line x1="600" y1="600" x2="600" y2="680" stroke="#E63946" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="600" cy="520" r="8" fill="#E63946"/>
+  <circle cx="600" cy="680" r="8" fill="#E63946"/>
+
+  <!-- Small decorative elements between signals -->
+  <rect x="290" y="145" width="10" height="10" fill="#F4D35E" opacity="0.5" transform="rotate(45 295 150)"/>
+  <rect x="490" y="145" width="10" height="10" fill="#E63946" opacity="0.5" transform="rotate(45 495 150)"/>
+  <rect x="290" y="345" width="10" height="10" fill="#2A9D8F" opacity="0.5" transform="rotate(45 295 350)"/>
+  <rect x="490" y="345" width="10" height="10" fill="#FFFFFF" opacity="0.3" transform="rotate(45 495 350)"/>
+  <rect x="290" y="545" width="10" height="10" fill="#E76F51" opacity="0.5" transform="rotate(45 295 550)"/>
+  <rect x="490" y="545" width="10" height="10" fill="#F4D35E" opacity="0.5" transform="rotate(45 495 550)"/>
+
+  <!-- Title bar top -->
+  <rect x="50" y="50" width="700" height="8" fill="#E63946"/>
+  <!-- Title bar bottom -->
+  <rect x="50" y="742" width="700" height="8" fill="#E63946"/>
+  <!-- Side bars -->
+  <rect x="50" y="50" width="8" height="700" fill="#F4D35E"/>
+  <rect x="742" y="50" width="8" height="700" fill="#F4D35E"/>
+
+  <!-- Corner dots -->
+  <circle cx="54" cy="54" r="6" fill="#FFFFFF"/>
+  <circle cx="746" cy="54" r="6" fill="#FFFFFF"/>
+  <circle cx="54" cy="746" r="6" fill="#FFFFFF"/>
+  <circle cx="746" cy="746" r="6" fill="#FFFFFF"/>
+</svg>

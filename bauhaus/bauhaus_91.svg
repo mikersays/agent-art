@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="800" height="60" fill="#1D3557"/>
+  <text x="400" y="40" font-family="sans-serif" font-size="28" font-weight="bold" fill="#F4D35E" text-anchor="middle">PENDULUMS IN SYNC</text>
+
+  <!-- Support beam -->
+  <rect x="50" y="100" width="700" height="12" fill="#000000"/>
+  <rect x="50" y="100" width="700" height="4" fill="#A89F91"/>
+
+  <!-- Pendulum 1 - far left swing -->
+  <line x1="130" y1="106" x2="60" y2="480" stroke="#000000" stroke-width="3"/>
+  <circle cx="60" cy="480" r="35" fill="#E63946"/>
+  <circle cx="60" cy="480" r="15" fill="#000000" opacity="0.3"/>
+
+  <!-- Pendulum 2 - moderate left swing -->
+  <line x1="250" y1="106" x2="215" y2="520" stroke="#000000" stroke-width="3"/>
+  <circle cx="215" cy="520" r="35" fill="#1D3557"/>
+  <circle cx="215" cy="520" r="15" fill="#000000" opacity="0.3"/>
+
+  <!-- Pendulum 3 - center (vertical) -->
+  <line x1="400" y1="106" x2="400" y2="560" stroke="#000000" stroke-width="3"/>
+  <circle cx="400" cy="560" r="35" fill="#F4D35E"/>
+  <circle cx="400" cy="560" r="15" fill="#000000" opacity="0.3"/>
+
+  <!-- Pendulum 4 - moderate right swing -->
+  <line x1="550" y1="106" x2="585" y2="520" stroke="#000000" stroke-width="3"/>
+  <circle cx="585" cy="520" r="35" fill="#2A9D8F"/>
+  <circle cx="585" cy="520" r="15" fill="#000000" opacity="0.3"/>
+
+  <!-- Pendulum 5 - far right swing -->
+  <line x1="670" y1="106" x2="740" y2="480" stroke="#000000" stroke-width="3"/>
+  <circle cx="740" cy="480" r="35" fill="#E9C46A"/>
+  <circle cx="740" cy="480" r="15" fill="#000000" opacity="0.3"/>
+
+  <!-- Pivot points on beam -->
+  <circle cx="130" cy="106" r="8" fill="#000000"/>
+  <circle cx="250" cy="106" r="8" fill="#000000"/>
+  <circle cx="400" cy="106" r="8" fill="#000000"/>
+  <circle cx="550" cy="106" r="8" fill="#000000"/>
+  <circle cx="670" cy="106" r="8" fill="#000000"/>
+
+  <!-- Wave pattern connecting bobs -->
+  <path d="M60,480 Q137,520 215,520 Q307,520 400,560 Q492,520 585,520 Q662,480 740,480"
+        stroke="#E63946" stroke-width="3" fill="none" stroke-dasharray="8,4"/>
+
+  <!-- Motion arc traces -->
+  <path d="M30,480 A100,100 0 0,1 130,380" stroke="#A89F91" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M185,520 A65,65 0 0,1 250,455" stroke="#A89F91" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M370,560 A30,30 0 0,1 400,530" stroke="#A89F91" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M585,455 A65,65 0 0,1 615,520" stroke="#A89F91" stroke-width="1.5" fill="none" opacity="0.5" transform="rotate(0,550,106)"/>
+  <path d="M670,380 A100,100 0 0,1 770,480" stroke="#A89F91" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- Support pillars -->
+  <rect x="40" y="90" width="16" height="30" fill="#000000"/>
+  <rect x="744" y="90" width="16" height="30" fill="#000000"/>
+  <rect x="40" y="70" width="16" height="25" fill="#A89F91"/>
+  <rect x="744" y="70" width="16" height="25" fill="#A89F91"/>
+
+  <!-- Ground line -->
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="4"/>
+
+  <!-- Shadow ellipses under bobs -->
+  <ellipse cx="60" cy="700" rx="30" ry="6" fill="#000000" opacity="0.2"/>
+  <ellipse cx="215" cy="700" rx="30" ry="6" fill="#000000" opacity="0.2"/>
+  <ellipse cx="400" cy="700" rx="30" ry="6" fill="#000000" opacity="0.2"/>
+  <ellipse cx="585" cy="700" rx="30" ry="6" fill="#000000" opacity="0.2"/>
+  <ellipse cx="740" cy="700" rx="30" ry="6" fill="#000000" opacity="0.2"/>
+
+  <!-- Decorative geometric elements -->
+  <rect x="20" y="720" width="760" height="8" fill="#1D3557"/>
+  <rect x="20" y="735" width="760" height="4" fill="#E63946"/>
+  <circle cx="48" cy="106" r="4" fill="#F4D35E"/>
+  <circle cx="752" cy="106" r="4" fill="#F4D35E"/>
+
+  <!-- Phase indicators - small triangles -->
+  <polygon points="60,430 50,445 70,445" fill="#E63946" opacity="0.6"/>
+  <polygon points="215,470 205,485 225,485" fill="#1D3557" opacity="0.6"/>
+  <polygon points="400,510 390,525 410,525" fill="#F4D35E" opacity="0.6"/>
+  <polygon points="585,470 575,485 595,485" fill="#2A9D8F" opacity="0.6"/>
+  <polygon points="740,430 730,445 750,445" fill="#E9C46A" opacity="0.6"/>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#F4D35E" opacity="0.15"/>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Sky gradient background -->
+  <rect x="0" y="0" width="800" height="500" fill="#457B9D" opacity="0.12"/>
+
+  <!-- Ground -->
+  <rect x="0" y="620" width="800" height="180" fill="#264653"/>
+  <rect x="0" y="620" width="800" height="10" fill="#DDA15E"/>
+
+  <!-- TIER 1 - Bottom arches (5 large arches) -->
+  <!-- Pillars -->
+  <rect x="40" y="380" width="30" height="240" fill="#1D3557"/>
+  <rect x="170" y="380" width="30" height="240" fill="#1D3557"/>
+  <rect x="300" y="380" width="30" height="240" fill="#1D3557"/>
+  <rect x="430" y="380" width="30" height="240" fill="#1D3557"/>
+  <rect x="560" y="380" width="30" height="240" fill="#1D3557"/>
+  <rect x="690" y="380" width="30" height="240" fill="#1D3557"/>
+
+  <!-- Arches tier 1 -->
+  <path d="M70,520 Q120,400 170,520" fill="none" stroke="#1D3557" stroke-width="8"/>
+  <path d="M200,520 Q250,400 300,520" fill="none" stroke="#1D3557" stroke-width="8"/>
+  <path d="M330,520 Q380,400 430,520" fill="none" stroke="#1D3557" stroke-width="8"/>
+  <path d="M460,520 Q510,400 560,520" fill="none" stroke="#1D3557" stroke-width="8"/>
+  <path d="M590,520 Q640,400 690,520" fill="none" stroke="#1D3557" stroke-width="8"/>
+
+  <!-- Horizontal band between tiers -->
+  <rect x="30" y="370" width="700" height="20" fill="#E63946"/>
+  <rect x="30" y="370" width="700" height="4" fill="#000000"/>
+
+  <!-- TIER 2 - Upper arches (4 arches, slightly narrower) -->
+  <!-- Pillars tier 2 -->
+  <rect x="80" y="200" width="25" height="170" fill="#457B9D"/>
+  <rect x="205" y="200" width="25" height="170" fill="#457B9D"/>
+  <rect x="340" y="200" width="25" height="170" fill="#457B9D"/>
+  <rect x="475" y="200" width="25" height="170" fill="#457B9D"/>
+  <rect x="610" y="200" width="25" height="170" fill="#457B9D"/>
+
+  <!-- Arches tier 2 -->
+  <path d="M105,330 Q150,230 205,330" fill="none" stroke="#457B9D" stroke-width="6"/>
+  <path d="M230,330 Q285,230 340,330" fill="none" stroke="#457B9D" stroke-width="6"/>
+  <path d="M365,330 Q420,230 475,330" fill="none" stroke="#457B9D" stroke-width="6"/>
+  <path d="M500,330 Q555,230 610,330" fill="none" stroke="#457B9D" stroke-width="6"/>
+
+  <!-- Upper band -->
+  <rect x="70" y="190" width="575" height="16" fill="#DDA15E"/>
+  <rect x="70" y="190" width="575" height="3" fill="#000000"/>
+
+  <!-- Water channel on top -->
+  <rect x="60" y="160" width="595" height="30" fill="#1D3557"/>
+  <rect x="65" y="165" width="585" height="20" fill="#457B9D"/>
+  <!-- Water surface shimmer -->
+  <line x1="80" y1="175" x2="130" y2="175" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  <line x1="160" y1="173" x2="220" y2="173" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  <line x1="250" y1="176" x2="300" y2="176" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  <line x1="330" y1="173" x2="390" y2="173" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  <line x1="420" y1="175" x2="480" y2="175" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  <line x1="510" y1="174" x2="560" y2="174" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  <line x1="580" y1="176" x2="630" y2="176" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Channel walls -->
+  <rect x="60" y="155" width="595" height="8" fill="#000000"/>
+  <rect x="60" y="187" width="595" height="5" fill="#000000"/>
+
+  <!-- Pillar base details -->
+  <rect x="35" y="610" width="40" height="10" fill="#DDA15E"/>
+  <rect x="165" y="610" width="40" height="10" fill="#DDA15E"/>
+  <rect x="295" y="610" width="40" height="10" fill="#DDA15E"/>
+  <rect x="425" y="610" width="40" height="10" fill="#DDA15E"/>
+  <rect x="555" y="610" width="40" height="10" fill="#DDA15E"/>
+  <rect x="685" y="610" width="40" height="10" fill="#DDA15E"/>
+
+  <!-- Keystone details on tier 1 arches -->
+  <rect x="115" y="415" width="10" height="10" fill="#F4D35E"/>
+  <rect x="245" y="415" width="10" height="10" fill="#F4D35E"/>
+  <rect x="375" y="415" width="10" height="10" fill="#F4D35E"/>
+  <rect x="505" y="415" width="10" height="10" fill="#F4D35E"/>
+  <rect x="635" y="415" width="10" height="10" fill="#F4D35E"/>
+
+  <!-- Water flow at end - cascading -->
+  <path d="M655,175 Q670,175 675,200 Q680,250 685,300" fill="none" stroke="#457B9D" stroke-width="4" opacity="0.7"/>
+  <path d="M655,175 Q665,175 668,195 Q672,240 678,290" fill="none" stroke="#457B9D" stroke-width="2" opacity="0.5"/>
+
+  <!-- Geometric accents -->
+  <circle cx="400" cy="130" r="12" fill="#E63946"/>
+  <polygon points="400,100 408,118 392,118" fill="#F4D35E"/>
+</svg>

@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <defs>
+    <!-- Hexagon template pointing flat-top -->
+    <polygon id="hex" points="30,0 15,-26 -15,-26 -30,0 -15,26 15,26"/>
+  </defs>
+
+  <!-- Hexagonal grid - row by row, staggered -->
+  <!-- Row 0 (y=80) -->
+  <use href="#hex" x="100" y="80" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="170" y="80" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="240" y="80" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="310" y="80" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="380" y="80" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="450" y="80" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="520" y="80" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="590" y="80" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="660" y="80" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+
+  <!-- Inner circles for some empty cells row 0 -->
+  <circle cx="100" cy="80" r="12" fill="none" stroke="#457B9D" stroke-width="1.5"/>
+  <circle cx="240" cy="80" r="14" fill="#457B9D" opacity="0.3"/>
+  <circle cx="520" cy="80" r="10" fill="none" stroke="#E63946" stroke-width="1.5"/>
+
+  <!-- Row 1 (y=132, offset) -->
+  <use href="#hex" x="135" y="132" fill="#457B9D" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="205" y="132" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="275" y="132" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="345" y="132" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="415" y="132" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="485" y="132" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="555" y="132" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="625" y="132" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="695" y="132" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <circle cx="205" cy="132" r="12" fill="none" stroke="#F4D35E" stroke-width="1.5"/>
+  <circle cx="345" cy="132" r="15" fill="#E63946" opacity="0.2"/>
+  <circle cx="415" cy="132" r="10" fill="none" stroke="#1D3557" stroke-width="1.5"/>
+  <circle cx="695" cy="132" r="12" fill="#F4D35E" opacity="0.25"/>
+
+  <!-- Row 2 (y=184) -->
+  <use href="#hex" x="100" y="184" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="170" y="184" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="240" y="184" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="310" y="184" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="380" y="184" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="450" y="184" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="520" y="184" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="590" y="184" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="660" y="184" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+
+  <circle cx="100" cy="184" r="14" fill="#1D3557" opacity="0.2"/>
+  <circle cx="170" cy="184" r="10" fill="none" stroke="#E76F51" stroke-width="1.5"/>
+  <circle cx="450" cy="184" r="12" fill="none" stroke="#F4D35E" stroke-width="1.5"/>
+  <circle cx="590" cy="184" r="13" fill="#457B9D" opacity="0.25"/>
+
+  <!-- Row 3 (y=236, offset) -->
+  <use href="#hex" x="135" y="236" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="205" y="236" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="275" y="236" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="345" y="236" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="415" y="236" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="485" y="236" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="555" y="236" fill="#457B9D" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="625" y="236" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="695" y="236" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <circle cx="275" cy="236" r="12" fill="none" stroke="#E63946" stroke-width="2"/>
+  <circle cx="345" cy="236" r="10" fill="#E76F51" opacity="0.3"/>
+  <circle cx="485" cy="236" r="14" fill="none" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Row 4 (y=288) -->
+  <use href="#hex" x="100" y="288" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="170" y="288" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="240" y="288" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="310" y="288" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="380" y="288" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="450" y="288" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="520" y="288" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="590" y="288" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="660" y="288" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <circle cx="170" cy="288" r="12" fill="#F4D35E" opacity="0.3"/>
+  <circle cx="240" cy="288" r="10" fill="none" stroke="#457B9D" stroke-width="1.5"/>
+  <circle cx="380" cy="288" r="14" fill="none" stroke="#E63946" stroke-width="1.5"/>
+  <circle cx="660" cy="288" r="11" fill="#E63946" opacity="0.25"/>
+
+  <!-- Row 5 (y=340, offset) -->
+  <use href="#hex" x="135" y="340" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="205" y="340" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="275" y="340" fill="#457B9D" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="345" y="340" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="415" y="340" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="485" y="340" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="555" y="340" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="625" y="340" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="695" y="340" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+
+  <circle cx="135" cy="340" r="13" fill="none" stroke="#1D3557" stroke-width="1.5"/>
+  <circle cx="345" cy="340" r="12" fill="#457B9D" opacity="0.2"/>
+  <circle cx="485" cy="340" r="10" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="555" cy="340" r="14" fill="#E63946" opacity="0.15"/>
+
+  <!-- Row 6 (y=392) -->
+  <use href="#hex" x="100" y="392" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="170" y="392" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="240" y="392" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="310" y="392" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="380" y="392" fill="#457B9D" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="450" y="392" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="520" y="392" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="590" y="392" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="660" y="392" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+
+  <circle cx="100" cy="392" r="11" fill="none" stroke="#E76F51" stroke-width="1.5"/>
+  <circle cx="240" cy="392" r="12" fill="#1D3557" opacity="0.2"/>
+  <circle cx="450" cy="392" r="14" fill="none" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="590" cy="392" r="10" fill="#F4D35E" opacity="0.3"/>
+
+  <!-- Row 7 (y=444, offset) -->
+  <use href="#hex" x="135" y="444" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="205" y="444" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="275" y="444" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="345" y="444" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="415" y="444" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="485" y="444" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="555" y="444" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="625" y="444" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="695" y="444" fill="#457B9D" stroke="#000000" stroke-width="2"/>
+
+  <circle cx="205" cy="444" r="12" fill="none" stroke="#E63946" stroke-width="1.5"/>
+  <circle cx="345" cy="444" r="13" fill="#457B9D" opacity="0.2"/>
+  <circle cx="415" cy="444" r="10" fill="none" stroke="#1D3557" stroke-width="1.5"/>
+  <circle cx="625" cy="444" r="14" fill="#E76F51" opacity="0.2"/>
+
+  <!-- Row 8 (y=496) -->
+  <use href="#hex" x="100" y="496" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="170" y="496" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="240" y="496" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="310" y="496" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="380" y="496" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="450" y="496" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="520" y="496" fill="#457B9D" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="590" y="496" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="660" y="496" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <circle cx="170" cy="496" r="12" fill="none" stroke="#F4D35E" stroke-width="1.5"/>
+  <circle cx="310" cy="496" r="11" fill="#E63946" opacity="0.2"/>
+  <circle cx="450" cy="496" r="14" fill="none" stroke="#E76F51" stroke-width="1.5"/>
+  <circle cx="660" cy="496" r="10" fill="#1D3557" opacity="0.25"/>
+
+  <!-- Row 9 (y=548, offset) -->
+  <use href="#hex" x="135" y="548" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="205" y="548" fill="#457B9D" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="275" y="548" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="345" y="548" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="415" y="548" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="485" y="548" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="555" y="548" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="625" y="548" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="695" y="548" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <circle cx="135" cy="548" r="12" fill="#F4D35E" opacity="0.25"/>
+  <circle cx="275" cy="548" r="10" fill="none" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="415" cy="548" r="14" fill="none" stroke="#457B9D" stroke-width="1.5"/>
+  <circle cx="555" cy="548" r="11" fill="#1D3557" opacity="0.2"/>
+  <circle cx="695" cy="548" r="12" fill="none" stroke="#E63946" stroke-width="1.5"/>
+
+  <!-- Row 10 (y=600) -->
+  <use href="#hex" x="100" y="600" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="170" y="600" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="240" y="600" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="310" y="600" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="380" y="600" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="450" y="600" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="520" y="600" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="590" y="600" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="660" y="600" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <circle cx="170" cy="600" r="14" fill="none" stroke="#E76F51" stroke-width="1.5"/>
+  <circle cx="310" cy="600" r="12" fill="#457B9D" opacity="0.2"/>
+  <circle cx="520" cy="600" r="10" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="660" cy="600" r="13" fill="#E63946" opacity="0.15"/>
+
+  <!-- Row 11 (y=652, offset) -->
+  <use href="#hex" x="135" y="652" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="205" y="652" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="275" y="652" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="345" y="652" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="415" y="652" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="485" y="652" fill="#457B9D" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="555" y="652" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="625" y="652" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="695" y="652" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+
+  <circle cx="205" cy="652" r="12" fill="#E76F51" opacity="0.2"/>
+  <circle cx="275" cy="652" r="10" fill="none" stroke="#1D3557" stroke-width="1.5"/>
+  <circle cx="415" cy="652" r="14" fill="none" stroke="#E63946" stroke-width="1.5"/>
+  <circle cx="625" cy="652" r="11" fill="#F4D35E" opacity="0.3"/>
+
+  <!-- Row 12 (y=704) -->
+  <use href="#hex" x="100" y="704" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="170" y="704" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="240" y="704" fill="#457B9D" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="310" y="704" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="380" y="704" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="450" y="704" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="520" y="704" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="590" y="704" fill="none" stroke="#000000" stroke-width="2"/>
+  <use href="#hex" x="660" y="704" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+
+  <circle cx="100" cy="704" r="13" fill="none" stroke="#F4D35E" stroke-width="1.5"/>
+  <circle cx="310" cy="704" r="10" fill="#1D3557" opacity="0.2"/>
+  <circle cx="450" cy="704" r="12" fill="none" stroke="#457B9D" stroke-width="1.5"/>
+  <circle cx="590" cy="704" r="14" fill="#E63946" opacity="0.15"/>
+</svg>

@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#264653"/>
+
+  <!-- Title bar -->
+  <rect x="50" y="30" width="700" height="60" rx="8" fill="#1D3557"/>
+  <text x="400" y="68" text-anchor="middle" font-family="monospace" font-size="28" font-weight="bold" fill="#F4D35E">BAUHAUS TYPEWRITER</text>
+
+  <!-- Row 1: 10 keys, offset 0 -->
+  <!-- Key 1 -->
+  <circle cx="120" cy="170" r="32" fill="#000000" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="120" cy="170" r="26" fill="#1D3557"/>
+  <polygon points="120,152 130,178 110,178" fill="#E63946"/>
+
+  <!-- Key 2 -->
+  <circle cx="190" cy="170" r="32" fill="#000000" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="190" cy="170" r="26" fill="#1D3557"/>
+  <rect x="180" y="160" width="20" height="20" fill="#F4D35E"/>
+
+  <!-- Key 3 -->
+  <circle cx="260" cy="170" r="32" fill="#000000" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="260" cy="170" r="26" fill="#1D3557"/>
+  <circle cx="260" cy="170" r="10" fill="#2A9D8F"/>
+
+  <!-- Key 4 -->
+  <circle cx="330" cy="170" r="32" fill="#000000" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="330" cy="170" r="26" fill="#1D3557"/>
+  <line x1="318" y1="158" x2="342" y2="182" stroke="#E63946" stroke-width="3"/>
+  <line x1="342" y1="158" x2="318" y2="182" stroke="#E63946" stroke-width="3"/>
+
+  <!-- Key 5 -->
+  <circle cx="400" cy="170" r="32" fill="#000000" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="400" cy="170" r="26" fill="#1D3557"/>
+  <polygon points="400,155 412,175 388,175" fill="#F4D35E"/>
+  <polygon points="400,185 412,165 388,165" fill="#F4D35E"/>
+
+  <!-- Key 6 -->
+  <circle cx="470" cy="170" r="32" fill="#000000" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="470" cy="170" r="26" fill="#1D3557"/>
+  <rect x="462" y="158" width="16" height="24" rx="8" fill="#E9C46A"/>
+
+  <!-- Key 7 -->
+  <circle cx="540" cy="170" r="32" fill="#000000" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="540" cy="170" r="26" fill="#1D3557"/>
+  <line x1="528" y1="170" x2="552" y2="170" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="540" y1="158" x2="540" y2="182" stroke="#FFFFFF" stroke-width="3"/>
+
+  <!-- Key 8 -->
+  <circle cx="610" cy="170" r="32" fill="#000000" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="610" cy="170" r="26" fill="#1D3557"/>
+  <polygon points="598,180 610,155 622,180" fill="#2A9D8F"/>
+
+  <!-- Key 9 -->
+  <circle cx="680" cy="170" r="32" fill="#000000" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="680" cy="170" r="26" fill="#1D3557"/>
+  <circle cx="680" cy="170" r="10" fill="none" stroke="#E63946" stroke-width="3"/>
+
+  <!-- Row 2: 9 keys, offset +35 -->
+  <circle cx="155" cy="250" r="32" fill="#000000" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="155" cy="250" r="26" fill="#264653"/>
+  <rect x="145" y="240" width="20" height="20" transform="rotate(45,155,250)" fill="#E63946"/>
+
+  <circle cx="225" cy="250" r="32" fill="#000000" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="225" cy="250" r="26" fill="#264653"/>
+  <line x1="213" y1="250" x2="237" y2="250" stroke="#F4D35E" stroke-width="3"/>
+
+  <circle cx="295" cy="250" r="32" fill="#000000" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="295" cy="250" r="26" fill="#264653"/>
+  <polygon points="283,260 295,238 307,260" fill="#FFFFFF"/>
+
+  <circle cx="365" cy="250" r="32" fill="#000000" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="365" cy="250" r="26" fill="#264653"/>
+  <circle cx="365" cy="244" r="5" fill="#F4D35E"/>
+  <circle cx="359" cy="256" r="5" fill="#F4D35E"/>
+  <circle cx="371" cy="256" r="5" fill="#F4D35E"/>
+
+  <circle cx="435" cy="250" r="32" fill="#000000" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="435" cy="250" r="26" fill="#264653"/>
+  <rect x="425" y="244" width="20" height="4" fill="#2A9D8F"/>
+  <rect x="425" y="252" width="20" height="4" fill="#2A9D8F"/>
+
+  <circle cx="505" cy="250" r="32" fill="#000000" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="505" cy="250" r="26" fill="#264653"/>
+  <polygon points="493,240 517,240 517,260 493,260" fill="none" stroke="#E63946" stroke-width="2"/>
+  <line x1="493" y1="240" x2="517" y2="260" stroke="#E63946" stroke-width="2"/>
+
+  <circle cx="575" cy="250" r="32" fill="#000000" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="575" cy="250" r="26" fill="#264653"/>
+  <circle cx="575" cy="250" r="12" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="575" cy="250" r="5" fill="#F4D35E"/>
+
+  <circle cx="645" cy="250" r="32" fill="#000000" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="645" cy="250" r="26" fill="#264653"/>
+  <line x1="633" y1="242" x2="657" y2="242" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="637" y1="250" x2="653" y2="250" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="641" y1="258" x2="649" y2="258" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Row 3: 8 keys, offset +70 -->
+  <circle cx="190" cy="330" r="32" fill="#000000" stroke="#2A9D8F" stroke-width="2"/>
+  <circle cx="190" cy="330" r="26" fill="#1D3557"/>
+  <polygon points="178,340 190,318 202,340" fill="#E9C46A"/>
+
+  <circle cx="260" cy="330" r="32" fill="#000000" stroke="#2A9D8F" stroke-width="2"/>
+  <circle cx="260" cy="330" r="26" fill="#1D3557"/>
+  <rect x="252" y="322" width="16" height="16" fill="#E63946"/>
+  <rect x="256" y="326" width="8" height="8" fill="#1D3557"/>
+
+  <circle cx="330" cy="330" r="32" fill="#000000" stroke="#2A9D8F" stroke-width="2"/>
+  <circle cx="330" cy="330" r="26" fill="#1D3557"/>
+  <line x1="318" y1="324" x2="342" y2="324" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="318" y1="330" x2="342" y2="330" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="318" y1="336" x2="342" y2="336" stroke="#F4D35E" stroke-width="2"/>
+
+  <circle cx="400" cy="330" r="32" fill="#000000" stroke="#2A9D8F" stroke-width="2"/>
+  <circle cx="400" cy="330" r="26" fill="#1D3557"/>
+  <circle cx="400" cy="330" r="14" fill="#E63946" opacity="0.6"/>
+  <circle cx="406" cy="324" r="14" fill="#1D3557" opacity="0.6"/>
+
+  <circle cx="470" cy="330" r="32" fill="#000000" stroke="#2A9D8F" stroke-width="2"/>
+  <circle cx="470" cy="330" r="26" fill="#1D3557"/>
+  <polygon points="458,340 470,320 482,340" fill="none" stroke="#2A9D8F" stroke-width="2"/>
+
+  <circle cx="540" cy="330" r="32" fill="#000000" stroke="#2A9D8F" stroke-width="2"/>
+  <circle cx="540" cy="330" r="26" fill="#1D3557"/>
+  <rect x="530" y="322" width="8" height="8" fill="#F4D35E"/>
+  <rect x="542" y="322" width="8" height="8" fill="#E63946"/>
+  <rect x="530" y="334" width="8" height="8" fill="#2A9D8F"/>
+  <rect x="542" y="334" width="8" height="8" fill="#E9C46A"/>
+
+  <circle cx="610" cy="330" r="32" fill="#000000" stroke="#2A9D8F" stroke-width="2"/>
+  <circle cx="610" cy="330" r="26" fill="#1D3557"/>
+  <path d="M600,330 Q610,315 620,330" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M600,330 Q610,345 620,330" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Row 4: 7 keys, offset +105 -->
+  <circle cx="225" cy="410" r="32" fill="#000000" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="225" cy="410" r="26" fill="#264653"/>
+  <rect x="215" y="405" width="20" height="10" fill="#E63946"/>
+
+  <circle cx="295" cy="410" r="32" fill="#000000" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="295" cy="410" r="26" fill="#264653"/>
+  <circle cx="295" cy="410" r="8" fill="#F4D35E"/>
+  <line x1="295" y1="398" x2="295" y2="422" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="283" y1="410" x2="307" y2="410" stroke="#F4D35E" stroke-width="2"/>
+
+  <circle cx="365" cy="410" r="32" fill="#000000" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="365" cy="410" r="26" fill="#264653"/>
+  <polygon points="353,420 365,395 377,420" fill="#2A9D8F"/>
+  <line x1="357" y1="412" x2="373" y2="412" stroke="#264653" stroke-width="2"/>
+
+  <circle cx="435" cy="410" r="32" fill="#000000" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="435" cy="410" r="26" fill="#264653"/>
+  <polygon points="423,400 447,400 447,420 423,420" fill="none" stroke="#E9C46A" stroke-width="2"/>
+
+  <circle cx="505" cy="410" r="32" fill="#000000" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="505" cy="410" r="26" fill="#264653"/>
+  <circle cx="499" cy="404" r="6" fill="#E63946"/>
+  <circle cx="511" cy="404" r="6" fill="#F4D35E"/>
+  <circle cx="505" cy="416" r="6" fill="#1D3557"/>
+
+  <circle cx="575" cy="410" r="32" fill="#000000" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="575" cy="410" r="26" fill="#264653"/>
+  <path d="M563,410 L575,398 L587,410 L575,422 Z" fill="none" stroke="#E63946" stroke-width="2"/>
+
+  <!-- Row 5: spacebar row -->
+  <rect x="200" y="475" width="400" height="50" rx="25" fill="#000000" stroke="#F4D35E" stroke-width="2"/>
+  <rect x="210" y="480" width="380" height="40" rx="20" fill="#1D3557"/>
+  <line x1="300" y1="500" x2="500" y2="500" stroke="#F4D35E" stroke-width="2" opacity="0.5"/>
+
+  <!-- Decorative bottom elements -->
+  <rect x="50" y="560" width="700" height="4" fill="#E63946"/>
+  <rect x="50" y="570" width="700" height="4" fill="#F4D35E"/>
+  <rect x="50" y="580" width="700" height="4" fill="#2A9D8F"/>
+
+  <!-- Bottom geometric decoration -->
+  <polygon points="200,620 220,650 180,650" fill="#E63946"/>
+  <rect x="270" y="620" width="30" height="30" fill="#F4D35E"/>
+  <circle cx="400" cy="635" r="15" fill="#2A9D8F"/>
+  <polygon points="500,620 520,650 480,650" fill="#1D3557"/>
+  <rect x="570" y="620" width="30" height="30" fill="#E9C46A" transform="rotate(45,585,635)"/>
+
+  <!-- Corner accents -->
+  <rect x="50" y="700" width="100" height="8" fill="#F4D35E"/>
+  <rect x="650" y="700" width="100" height="8" fill="#F4D35E"/>
+  <circle cx="100" cy="740" r="20" fill="#E63946" opacity="0.7"/>
+  <circle cx="700" cy="740" r="20" fill="#2A9D8F" opacity="0.7"/>
+</svg>

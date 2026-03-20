@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#F4D35E"/>
+
+  <!-- Central totem pole structure - vertical black bar -->
+  <rect x="300" y="30" width="200" height="740" fill="none" stroke="#000000" stroke-width="3"/>
+
+  <!-- === FACE 1 (top) - Red face === -->
+  <rect x="300" y="30" width="200" height="150" fill="#E63946"/>
+  <!-- Eyes - two circles -->
+  <circle cx="355" cy="80" r="22" fill="#FFFFFF"/>
+  <circle cx="445" cy="80" r="22" fill="#FFFFFF"/>
+  <circle cx="355" cy="80" r="10" fill="#000000"/>
+  <circle cx="445" cy="80" r="10" fill="#000000"/>
+  <!-- Nose - triangle -->
+  <polygon points="400,95 385,130 415,130" fill="#F4D35E"/>
+  <!-- Mouth - rectangle -->
+  <rect x="365" y="140" width="70" height="15" fill="#000000"/>
+  <!-- Decorative brow lines -->
+  <line x1="325" y1="55" x2="385" y2="55" stroke="#000000" stroke-width="3"/>
+  <line x1="415" y1="55" x2="475" y2="55" stroke="#000000" stroke-width="3"/>
+  <!-- Ear shapes -->
+  <rect x="280" y="60" width="20" height="40" fill="#6D2E46"/>
+  <rect x="500" y="60" width="20" height="40" fill="#6D2E46"/>
+
+  <!-- === FACE 2 - Blue face === -->
+  <rect x="300" y="180" width="200" height="150" fill="#1D3557"/>
+  <!-- Eyes - large circles with geometric pupils -->
+  <circle cx="360" cy="230" r="25" fill="#FFFFFF"/>
+  <circle cx="440" cy="230" r="25" fill="#FFFFFF"/>
+  <rect x="350" y="220" width="20" height="20" fill="#000000"/>
+  <rect x="430" y="220" width="20" height="20" fill="#000000"/>
+  <!-- Nose - inverted triangle -->
+  <polygon points="400,250 385,280 415,280" fill="#DDA15E"/>
+  <!-- Mouth - wide thin rectangle with teeth -->
+  <rect x="340" y="295" width="120" height="20" fill="#000000"/>
+  <rect x="360" y="295" width="10" height="20" fill="#FFFFFF"/>
+  <rect x="390" y="295" width="10" height="20" fill="#FFFFFF"/>
+  <rect x="420" y="295" width="10" height="20" fill="#FFFFFF"/>
+  <!-- Side decorations -->
+  <polygon points="280,210 300,195 300,225" fill="#F4D35E"/>
+  <polygon points="520,210 500,195 500,225" fill="#F4D35E"/>
+
+  <!-- === FACE 3 - Forest green face === -->
+  <rect x="300" y="330" width="200" height="150" fill="#264653"/>
+  <!-- Eyes - half circles / arcs -->
+  <circle cx="355" cy="385" r="20" fill="#F4D35E"/>
+  <circle cx="445" cy="385" r="20" fill="#F4D35E"/>
+  <circle cx="355" cy="385" r="8" fill="#000000"/>
+  <circle cx="445" cy="385" r="8" fill="#000000"/>
+  <!-- Horizontal line through eyes -->
+  <line x1="300" y1="385" x2="500" y2="385" stroke="#000000" stroke-width="2"/>
+  <!-- Nose - diamond -->
+  <polygon points="400,400 390,425 400,445 410,425" fill="#E63946"/>
+  <!-- Mouth - circle (open mouth) -->
+  <circle cx="400" cy="460" r="15" fill="#000000"/>
+  <circle cx="400" cy="460" r="8" fill="#6D2E46"/>
+  <!-- Side horns -->
+  <polygon points="280,340 300,330 300,370" fill="#DDA15E"/>
+  <polygon points="520,340 500,330 500,370" fill="#DDA15E"/>
+
+  <!-- === FACE 4 - Burgundy face === -->
+  <rect x="300" y="480" width="200" height="150" fill="#6D2E46"/>
+  <!-- Eyes - triangular eyes -->
+  <polygon points="355,510 335,540 375,540" fill="#FFFFFF"/>
+  <polygon points="445,510 425,540 465,540" fill="#FFFFFF"/>
+  <circle cx="355" cy="530" r="6" fill="#000000"/>
+  <circle cx="445" cy="530" r="6" fill="#000000"/>
+  <!-- Nose - simple line -->
+  <line x1="400" y1="540" x2="400" y2="575" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="390" y1="575" x2="410" y2="575" stroke="#F4D35E" stroke-width="4"/>
+  <!-- Mouth - zigzag -->
+  <polyline points="360,600 375,590 390,600 405,590 420,600 435,590" fill="none" stroke="#E63946" stroke-width="3"/>
+  <!-- Cheek marks -->
+  <circle cx="325" cy="560" r="12" fill="#DDA15E" opacity="0.6"/>
+  <circle cx="475" cy="560" r="12" fill="#DDA15E" opacity="0.6"/>
+  <!-- Side wings -->
+  <rect x="275" y="500" width="25" height="25" fill="#E63946"/>
+  <rect x="500" y="500" width="25" height="25" fill="#E63946"/>
+
+  <!-- === FACE 5 (bottom) - Sand/Black face === -->
+  <rect x="300" y="630" width="200" height="140" fill="#DDA15E"/>
+  <!-- Eyes - concentric circles -->
+  <circle cx="360" cy="680" r="22" fill="#000000"/>
+  <circle cx="360" cy="680" r="14" fill="#FFFFFF"/>
+  <circle cx="360" cy="680" r="7" fill="#1D3557"/>
+  <circle cx="440" cy="680" r="22" fill="#000000"/>
+  <circle cx="440" cy="680" r="14" fill="#FFFFFF"/>
+  <circle cx="440" cy="680" r="7" fill="#1D3557"/>
+  <!-- Nose - rectangle -->
+  <rect x="392" y="700" width="16" height="25" fill="#264653"/>
+  <!-- Mouth - thick bar -->
+  <rect x="350" y="735" width="100" height="18" fill="#E63946" rx="9"/>
+  <!-- Crown/top decoration -->
+  <polygon points="340,630 360,610 380,630" fill="#000000"/>
+  <polygon points="380,630 400,610 420,630" fill="#000000"/>
+  <polygon points="420,630 440,610 460,630" fill="#000000"/>
+  <!-- Side tusks -->
+  <polygon points="300,660 280,650 285,680" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <polygon points="500,660 520,650 515,680" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+
+  <!-- Vertical divider lines between faces -->
+  <line x1="300" y1="180" x2="500" y2="180" stroke="#000000" stroke-width="3"/>
+  <line x1="300" y1="330" x2="500" y2="330" stroke="#000000" stroke-width="3"/>
+  <line x1="300" y1="480" x2="500" y2="480" stroke="#000000" stroke-width="3"/>
+  <line x1="300" y1="630" x2="500" y2="630" stroke="#000000" stroke-width="3"/>
+
+  <!-- Title -->
+  <rect x="580" y="370" width="160" height="60" fill="#000000"/>
+  <text x="660" y="395" font-family="sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle" font-weight="bold">TOTEM</text>
+  <text x="660" y="418" font-family="sans-serif" font-size="11" fill="#F4D35E" text-anchor="middle">BAUHAUS 1923</text>
+</svg>

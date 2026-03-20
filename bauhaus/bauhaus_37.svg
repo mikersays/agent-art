@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Map Fragment</title>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Background elevation zones -->
+  <rect x="50" y="50" width="700" height="700" fill="#F4D35E" opacity="0.15"/>
+
+  <!-- Grid coordinate system -->
+  <!-- Vertical grid lines -->
+  <line x1="50" y1="50" x2="50" y2="750" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="150" y1="50" x2="150" y2="750" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="250" y1="50" x2="250" y2="750" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="350" y1="50" x2="350" y2="750" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="450" y1="50" x2="450" y2="750" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="550" y1="50" x2="550" y2="750" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="650" y1="50" x2="650" y2="750" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="750" y1="50" x2="750" y2="750" stroke="#A89F91" stroke-width="0.5"/>
+  <!-- Horizontal grid lines -->
+  <line x1="50" y1="50" x2="750" y2="50" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="50" y1="150" x2="750" y2="150" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="50" y1="250" x2="750" y2="250" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="50" y1="350" x2="750" y2="350" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="50" y1="450" x2="750" y2="450" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="50" y1="550" x2="750" y2="550" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="50" y1="650" x2="750" y2="650" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="50" y1="750" x2="750" y2="750" stroke="#A89F91" stroke-width="0.5"/>
+
+  <!-- Grid coordinate labels -->
+  <text x="50" y="40" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="middle">A</text>
+  <text x="150" y="40" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="middle">B</text>
+  <text x="250" y="40" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="middle">C</text>
+  <text x="350" y="40" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="middle">D</text>
+  <text x="450" y="40" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="middle">E</text>
+  <text x="550" y="40" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="middle">F</text>
+  <text x="650" y="40" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="middle">G</text>
+  <text x="750" y="40" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="middle">H</text>
+  <text x="35" y="54" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="end">1</text>
+  <text x="35" y="154" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="end">2</text>
+  <text x="35" y="254" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="end">3</text>
+  <text x="35" y="354" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="end">4</text>
+  <text x="35" y="454" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="end">5</text>
+  <text x="35" y="554" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="end">6</text>
+  <text x="35" y="654" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="end">7</text>
+  <text x="35" y="754" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="end">8</text>
+
+  <!-- Elevation Zone 1 - Lowest (blue/water) - bottom left area -->
+  <path d="M80,600 Q120,580 180,590 Q240,600 280,620 Q300,640 280,680 Q240,720 180,730 Q120,720 90,690 Q70,660 80,600Z" fill="#1D3557" opacity="0.3"/>
+
+  <!-- Elevation Zone 2 - Mid-low (steel blue) -->
+  <path d="M200,400 Q280,360 360,380 Q420,400 440,450 Q450,520 420,560 Q380,590 320,580 Q260,560 220,500 Q190,450 200,400Z" fill="#457B9D" opacity="0.35"/>
+
+  <!-- Elevation Zone 3 - Mid (yellow/warm) - central highland -->
+  <path d="M300,250 Q380,200 450,230 Q500,270 510,340 Q500,400 460,420 Q400,430 350,400 Q310,360 300,300 Q295,270 300,250Z" fill="#F4D35E" opacity="0.4"/>
+
+  <!-- Elevation Zone 4 - High (coral) -->
+  <path d="M360,280 Q400,250 430,270 Q460,300 455,350 Q440,380 410,390 Q380,385 360,350 Q345,320 360,280Z" fill="#E9C46A" opacity="0.5"/>
+
+  <!-- Elevation Zone 5 - Peak (red) -->
+  <path d="M390,300 Q410,285 425,300 Q435,320 425,340 Q410,350 395,340 Q385,325 390,300Z" fill="#E63946" opacity="0.6"/>
+
+  <!-- Secondary elevation area - upper right -->
+  <path d="M520,120 Q580,90 640,110 Q690,140 700,200 Q690,260 650,280 Q600,290 560,260 Q530,220 520,170 Q515,140 520,120Z" fill="#457B9D" opacity="0.3"/>
+  <path d="M560,140 Q600,120 635,140 Q660,170 655,210 Q640,240 610,248 Q580,245 560,220 Q545,190 560,140Z" fill="#F4D35E" opacity="0.4"/>
+  <path d="M585,165 Q610,150 628,168 Q638,190 630,210 Q615,222 600,215 Q585,200 585,165Z" fill="#E63946" opacity="0.5"/>
+
+  <!-- Contour lines - main formation (concentric organic curves) -->
+  <path d="M250,220 Q320,160 420,190 Q530,230 550,370 Q540,480 470,510 Q370,530 290,490 Q210,430 200,340 Q195,270 250,220Z" fill="none" stroke="#000000" stroke-width="1.2"/>
+  <path d="M280,250 Q340,200 430,220 Q510,260 525,370 Q515,460 455,490 Q370,505 305,470 Q240,420 230,340 Q228,285 280,250Z" fill="none" stroke="#000000" stroke-width="1"/>
+  <path d="M310,275 Q365,235 435,255 Q490,290 500,370 Q492,440 445,465 Q375,478 325,450 Q275,410 265,345 Q262,300 310,275Z" fill="none" stroke="#000000" stroke-width="0.8"/>
+  <path d="M340,300 Q385,270 435,285 Q470,310 478,365 Q472,420 440,440 Q390,452 350,430 Q315,400 308,350 Q305,320 340,300Z" fill="none" stroke="#000000" stroke-width="0.7"/>
+  <path d="M365,315 Q395,295 428,308 Q452,330 456,360 Q452,400 432,415 Q400,425 375,412 Q348,390 345,355 Q343,330 365,315Z" fill="none" stroke="#000000" stroke-width="0.6"/>
+
+  <!-- Contour lines - secondary formation (upper right) -->
+  <path d="M500,100 Q570,70 650,100 Q710,140 720,220 Q710,290 660,310 Q600,325 550,290 Q510,240 500,170 Q495,130 500,100Z" fill="none" stroke="#000000" stroke-width="1"/>
+  <path d="M530,125 Q585,100 640,120 Q680,150 688,210 Q680,265 645,280 Q600,290 565,265 Q535,230 530,175 Q527,145 530,125Z" fill="none" stroke="#000000" stroke-width="0.8"/>
+  <path d="M555,148 Q595,130 630,145 Q658,168 662,205 Q656,242 635,255 Q605,262 578,245 Q556,220 555,180 Q553,160 555,148Z" fill="none" stroke="#000000" stroke-width="0.6"/>
+
+  <!-- Contour lines - water body (bottom left) -->
+  <path d="M60,580 Q110,555 190,570 Q260,590 310,620 Q330,660 310,710 Q260,750 180,760 Q100,750 70,710 Q50,670 60,580Z" fill="none" stroke="#1D3557" stroke-width="1"/>
+  <path d="M80,600 Q120,580 185,590 Q240,605 280,630 Q295,660 280,695 Q245,730 180,735 Q115,725 90,695 Q72,660 80,600Z" fill="none" stroke="#1D3557" stroke-width="0.8"/>
+
+  <!-- Elevation markers / spot heights -->
+  <circle cx="405" cy="320" r="3" fill="#E63946"/>
+  <text x="415" y="318" font-family="monospace" font-size="9" fill="#E63946">847</text>
+  <circle cx="608" cy="185" r="3" fill="#E63946"/>
+  <text x="618" y="183" font-family="monospace" font-size="9" fill="#E63946">612</text>
+
+  <!-- River/stream path -->
+  <path d="M420,510 Q400,560 380,590 Q350,630 340,680 Q335,720 340,750" fill="none" stroke="#1D3557" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Small tributary -->
+  <path d="M460,540 Q440,555 420,555 Q405,558 390,575" fill="none" stroke="#1D3557" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Path/road -->
+  <path d="M50,400 Q150,390 250,370 Q350,350 450,380 Q550,420 650,380 Q700,360 750,350" fill="none" stroke="#E63946" stroke-width="1.5" stroke-dasharray="6,3"/>
+
+  <!-- Map border frame -->
+  <rect x="50" y="50" width="700" height="700" fill="none" stroke="#000000" stroke-width="2.5"/>
+
+  <!-- Corner markers -->
+  <line x1="40" y1="50" x2="50" y2="50" stroke="#000000" stroke-width="2"/>
+  <line x1="50" y1="40" x2="50" y2="50" stroke="#000000" stroke-width="2"/>
+  <line x1="750" y1="40" x2="750" y2="50" stroke="#000000" stroke-width="2"/>
+  <line x1="750" y1="50" x2="760" y2="50" stroke="#000000" stroke-width="2"/>
+  <line x1="40" y1="750" x2="50" y2="750" stroke="#000000" stroke-width="2"/>
+  <line x1="50" y1="750" x2="50" y2="760" stroke="#000000" stroke-width="2"/>
+  <line x1="750" y1="750" x2="760" y2="750" stroke="#000000" stroke-width="2"/>
+  <line x1="750" y1="750" x2="750" y2="760" stroke="#000000" stroke-width="2"/>
+
+  <!-- Legend box -->
+  <rect x="560" y="600" width="170" height="130" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="645" y="618" font-family="monospace" font-size="9" fill="#000000" text-anchor="middle">ELEVATION (m)</text>
+  <rect x="572" y="626" width="14" height="10" fill="#1D3557" opacity="0.3"/>
+  <text x="594" y="635" font-family="monospace" font-size="8" fill="#000000">0 - 100</text>
+  <rect x="572" y="642" width="14" height="10" fill="#457B9D" opacity="0.35"/>
+  <text x="594" y="651" font-family="monospace" font-size="8" fill="#000000">100 - 300</text>
+  <rect x="572" y="658" width="14" height="10" fill="#F4D35E" opacity="0.4"/>
+  <text x="594" y="667" font-family="monospace" font-size="8" fill="#000000">300 - 600</text>
+  <rect x="572" y="674" width="14" height="10" fill="#E9C46A" opacity="0.5"/>
+  <text x="594" y="683" font-family="monospace" font-size="8" fill="#000000">600 - 800</text>
+  <rect x="572" y="690" width="14" height="10" fill="#E63946" opacity="0.6"/>
+  <text x="594" y="699" font-family="monospace" font-size="8" fill="#000000">800+</text>
+  <line x1="572" y1="710" x2="586" y2="710" stroke="#E63946" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="594" y="714" font-family="monospace" font-size="8" fill="#000000">Road</text>
+
+  <!-- Title block -->
+  <text x="400" y="785" font-family="sans-serif" font-size="14" fill="#000000" text-anchor="middle" letter-spacing="4">MAP FRAGMENT</text>
+  <text x="400" y="16" font-family="monospace" font-size="10" fill="#A89F91" text-anchor="middle">SECTOR D4 // BAUHAUS TOPOGRAPHIC SURVEY</text>
+</svg>

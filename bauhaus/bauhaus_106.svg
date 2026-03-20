@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Ground -->
+  <rect x="0" y="650" width="800" height="150" fill="#1D3557"/>
+
+  <!-- Support structure - A-frame legs -->
+  <polygon points="400,620 320,650 325,650" fill="#000000"/>
+  <polygon points="400,620 475,650 480,650" fill="#000000"/>
+  <rect x="295" y="640" width="210" height="20" fill="#000000"/>
+
+  <!-- Left support beam -->
+  <polygon points="400,150 250,650 265,650" fill="#000000"/>
+  <!-- Right support beam -->
+  <polygon points="400,150 535,650 550,650" fill="#000000"/>
+  <!-- Cross beam -->
+  <rect x="310" y="450" width="180" height="8" fill="#000000"/>
+
+  <!-- Central hub -->
+  <circle cx="400" cy="320" r="30" fill="#000000"/>
+  <circle cx="400" cy="320" r="18" fill="#6D2E46"/>
+  <circle cx="400" cy="320" r="8" fill="#F4D35E"/>
+
+  <!-- Outer wheel rim -->
+  <circle cx="400" cy="320" r="220" fill="none" stroke="#000000" stroke-width="6"/>
+  <circle cx="400" cy="320" r="210" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <!-- Spokes -->
+  <line x1="400" y1="320" x2="400" y2="100" stroke="#000000" stroke-width="4"/>
+  <line x1="400" y1="320" x2="400" y2="540" stroke="#000000" stroke-width="4"/>
+  <line x1="400" y1="320" x2="620" y2="320" stroke="#000000" stroke-width="4"/>
+  <line x1="400" y1="320" x2="180" y2="320" stroke="#000000" stroke-width="4"/>
+  <line x1="400" y1="320" x2="555" y2="165" stroke="#000000" stroke-width="3"/>
+  <line x1="400" y1="320" x2="245" y2="475" stroke="#000000" stroke-width="3"/>
+  <line x1="400" y1="320" x2="555" y2="475" stroke="#000000" stroke-width="3"/>
+  <line x1="400" y1="320" x2="245" y2="165" stroke="#000000" stroke-width="3"/>
+
+  <!-- Gondola at top (12 o'clock) -->
+  <rect x="383" y="80" width="34" height="40" rx="4" fill="#E63946"/>
+  <line x1="400" y1="80" x2="400" y2="100" stroke="#000000" stroke-width="2"/>
+
+  <!-- Gondola at bottom (6 o'clock) -->
+  <rect x="383" y="530" width="34" height="40" rx="4" fill="#1D3557"/>
+  <line x1="400" y1="530" x2="400" y2="540" stroke="#000000" stroke-width="2"/>
+
+  <!-- Gondola at right (3 o'clock) -->
+  <rect x="613" y="303" width="34" height="40" rx="4" fill="#F4D35E"/>
+  <line x1="620" y1="320" x2="630" y2="303" stroke="#000000" stroke-width="2"/>
+
+  <!-- Gondola at left (9 o'clock) -->
+  <rect x="153" y="303" width="34" height="40" rx="4" fill="#2A9D8F"/>
+  <line x1="180" y1="320" x2="170" y2="303" stroke="#000000" stroke-width="2"/>
+
+  <!-- Gondola at top-right (1:30) -->
+  <rect x="541" y="148" width="34" height="40" rx="4" fill="#E76F51"/>
+  <line x1="555" y1="165" x2="558" y2="148" stroke="#000000" stroke-width="2"/>
+
+  <!-- Gondola at bottom-left (7:30) -->
+  <rect x="228" y="468" width="34" height="40" rx="4" fill="#6D2E46"/>
+  <line x1="245" y1="475" x2="245" y2="468" stroke="#000000" stroke-width="2"/>
+
+  <!-- Gondola at bottom-right (4:30) -->
+  <rect x="541" y="458" width="34" height="40" rx="4" fill="#E63946"/>
+  <line x1="555" y1="475" x2="558" y2="458" stroke="#000000" stroke-width="2"/>
+
+  <!-- Gondola at top-left (10:30) -->
+  <rect x="228" y="148" width="34" height="40" rx="4" fill="#F4D35E"/>
+  <line x1="245" y1="165" x2="245" y2="148" stroke="#000000" stroke-width="2"/>
+
+  <!-- Inner decorative ring -->
+  <circle cx="400" cy="320" r="120" fill="none" stroke="#6D2E46" stroke-width="2" stroke-dasharray="8,6"/>
+
+  <!-- Platform base -->
+  <rect x="220" y="645" width="360" height="12" fill="#000000"/>
+  <rect x="240" y="657" width="320" height="8" fill="#6D2E46"/>
+
+  <!-- Decorative triangles on base -->
+  <polygon points="260,657 280,657 270,648" fill="#F4D35E"/>
+  <polygon points="380,657 400,657 390,648" fill="#E63946"/>
+  <polygon points="500,657 520,657 510,648" fill="#2A9D8F"/>
+
+  <!-- Title text area - geometric banner -->
+  <rect x="50" y="720" width="200" height="40" fill="#E63946"/>
+  <rect x="250" y="720" width="10" height="40" fill="#F4D35E"/>
+</svg>

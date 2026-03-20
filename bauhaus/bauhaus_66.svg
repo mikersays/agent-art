@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#457B9D"/>
+
+  <!-- Sky gradient effect -->
+  <rect x="0" y="0" width="800" height="300" fill="#1D3557" opacity="0.3"/>
+
+  <!-- Ground -->
+  <rect x="0" y="650" width="800" height="150" fill="#A89F91"/>
+  <rect x="0" y="700" width="800" height="100" fill="#000000" opacity="0.15"/>
+
+  <!-- Main building body -->
+  <rect x="100" y="200" width="600" height="450" fill="#FFFFFF"/>
+
+  <!-- Building outline -->
+  <rect x="100" y="200" width="600" height="450" fill="none" stroke="#000000" stroke-width="4"/>
+
+  <!-- Roof flat slab -->
+  <rect x="80" y="185" width="640" height="20" fill="#000000"/>
+
+  <!-- Left tower element -->
+  <rect x="100" y="120" width="150" height="530" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+  <rect x="80" y="105" width="190" height="20" fill="#000000"/>
+
+  <!-- Tower windows - vertical strip -->
+  <rect x="140" y="140" width="70" height="180" fill="#1D3557"/>
+  <line x1="175" y1="140" x2="175" y2="320" stroke="#000000" stroke-width="2"/>
+  <line x1="140" y1="200" x2="210" y2="200" stroke="#000000" stroke-width="2"/>
+  <line x1="140" y1="260" x2="210" y2="260" stroke="#000000" stroke-width="2"/>
+
+  <!-- Row 1 windows - large -->
+  <rect x="290" y="230" width="100" height="80" fill="#1D3557"/>
+  <rect x="420" y="230" width="100" height="80" fill="#1D3557"/>
+  <rect x="550" y="230" width="120" height="80" fill="#1D3557"/>
+
+  <!-- Window mullions row 1 -->
+  <line x1="340" y1="230" x2="340" y2="310" stroke="#000000" stroke-width="2"/>
+  <line x1="470" y1="230" x2="470" y2="310" stroke="#000000" stroke-width="2"/>
+  <line x1="610" y1="230" x2="610" y2="310" stroke="#000000" stroke-width="2"/>
+
+  <!-- Horizontal band - red -->
+  <rect x="250" y="320" width="420" height="12" fill="#E63946"/>
+
+  <!-- Row 2 windows -->
+  <rect x="290" y="350" width="100" height="70" fill="#1D3557"/>
+  <rect x="420" y="350" width="100" height="70" fill="#457B9D"/>
+  <rect x="550" y="350" width="120" height="70" fill="#1D3557"/>
+
+  <!-- Window mullions row 2 -->
+  <line x1="340" y1="350" x2="340" y2="420" stroke="#000000" stroke-width="2"/>
+  <line x1="470" y1="350" x2="470" y2="420" stroke="#000000" stroke-width="2"/>
+  <line x1="610" y1="350" x2="610" y2="420" stroke="#000000" stroke-width="2"/>
+
+  <!-- Balcony row 2 -->
+  <rect x="280" y="420" width="125" height="8" fill="#A89F91"/>
+  <rect x="280" y="428" width="125" height="3" fill="#000000"/>
+  <rect x="280" y="420" width="4" height="25" fill="#000000"/>
+  <rect x="401" y="420" width="4" height="25" fill="#000000"/>
+  <!-- Balcony railing bars -->
+  <line x1="300" y1="428" x2="300" y2="445" stroke="#000000" stroke-width="1.5"/>
+  <line x1="320" y1="428" x2="320" y2="445" stroke="#000000" stroke-width="1.5"/>
+  <line x1="340" y1="428" x2="340" y2="445" stroke="#000000" stroke-width="1.5"/>
+  <line x1="360" y1="428" x2="360" y2="445" stroke="#000000" stroke-width="1.5"/>
+  <line x1="380" y1="428" x2="380" y2="445" stroke="#000000" stroke-width="1.5"/>
+  <rect x="280" y="443" width="125" height="3" fill="#000000"/>
+
+  <!-- Yellow accent band -->
+  <rect x="250" y="450" width="420" height="10" fill="#F4D35E"/>
+
+  <!-- Row 3 windows -->
+  <rect x="290" y="475" width="60" height="60" fill="#1D3557"/>
+  <rect x="370" y="475" width="60" height="60" fill="#1D3557"/>
+  <rect x="460" y="475" width="60" height="60" fill="#1D3557"/>
+  <rect x="550" y="475" width="60" height="60" fill="#1D3557"/>
+  <rect x="630" y="475" width="40" height="60" fill="#457B9D"/>
+
+  <!-- Tower windows lower -->
+  <rect x="130" y="370" width="90" height="60" fill="#1D3557"/>
+  <line x1="175" y1="370" x2="175" y2="430" stroke="#000000" stroke-width="2"/>
+
+  <rect x="130" y="480" width="90" height="60" fill="#457B9D"/>
+  <line x1="175" y1="480" x2="175" y2="540" stroke="#000000" stroke-width="2"/>
+
+  <!-- Door / Entrance -->
+  <rect x="310" y="560" width="80" height="90" fill="#000000"/>
+  <rect x="315" y="565" width="70" height="80" fill="#6D2E46"/>
+  <circle cx="375" cy="605" r="4" fill="#F4D35E"/>
+
+  <!-- Entrance canopy -->
+  <rect x="290" y="550" width="120" height="12" fill="#000000"/>
+
+  <!-- Secondary entrance / garage -->
+  <rect x="500" y="580" width="120" height="70" fill="#000000"/>
+  <rect x="505" y="585" width="110" height="60" fill="#A89F91" opacity="0.6"/>
+  <line x1="530" y1="585" x2="530" y2="645" stroke="#000000" stroke-width="1.5"/>
+  <line x1="555" y1="585" x2="555" y2="645" stroke="#000000" stroke-width="1.5"/>
+  <line x1="580" y1="585" x2="580" y2="645" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Circular window accent -->
+  <circle cx="640" cy="270" r="25" fill="none" stroke="#000000" stroke-width="3"/>
+  <circle cx="640" cy="270" r="22" fill="#F4D35E" opacity="0.7"/>
+  <line x1="640" y1="248" x2="640" y2="292" stroke="#000000" stroke-width="2"/>
+  <line x1="618" y1="270" x2="662" y2="270" stroke="#000000" stroke-width="2"/>
+
+  <!-- Right side vertical accent -->
+  <rect x="690" y="200" width="15" height="450" fill="#E63946"/>
+
+  <!-- Steps -->
+  <rect x="300" y="650" width="100" height="10" fill="#A89F91" stroke="#000000" stroke-width="1"/>
+  <rect x="310" y="660" width="80" height="10" fill="#A89F91" stroke="#000000" stroke-width="1"/>
+
+  <!-- Chimney -->
+  <rect x="500" y="130" width="30" height="70" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <rect x="495" y="125" width="40" height="10" fill="#000000"/>
+
+  <!-- Antenna -->
+  <line x1="600" y1="105" x2="600" y2="185" stroke="#000000" stroke-width="3"/>
+  <line x1="585" y1="130" x2="615" y2="130" stroke="#000000" stroke-width="2"/>
+  <line x1="590" y1="150" x2="610" y2="150" stroke="#000000" stroke-width="2"/>
+
+  <!-- Shadow beneath building -->
+  <rect x="100" y="650" width="620" height="8" fill="#000000" opacity="0.3"/>
+</svg>

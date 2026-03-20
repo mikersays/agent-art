@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Structured grid lines -->
+  <line x1="400" y1="50" x2="400" y2="750" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="50" y1="400" x2="750" y2="400" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="130" y1="50" x2="130" y2="750" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="670" y1="50" x2="670" y2="750" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="50" y1="130" x2="750" y2="130" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="50" y1="670" x2="750" y2="670" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Central color wheel structure -->
+  <!-- Primary: Red circle (top-left) -->
+  <circle cx="340" cy="320" r="150" fill="#E63946" opacity="0.6"/>
+
+  <!-- Primary: Blue circle (bottom) -->
+  <circle cx="460" cy="480" r="150" fill="#1D3557" opacity="0.6"/>
+
+  <!-- Primary: Yellow circle (top-right) -->
+  <circle cx="480" cy="300" r="150" fill="#F4D35E" opacity="0.6"/>
+
+  <!-- Overlap areas create secondary colors via opacity mixing -->
+  <!-- Red + Yellow overlap region - extra orange accent -->
+  <ellipse cx="420" cy="280" rx="60" ry="50" fill="#E76F51" opacity="0.5"/>
+
+  <!-- Red + Blue overlap region - purple accent -->
+  <ellipse cx="370" cy="430" rx="55" ry="50" fill="#5E2D7A" opacity="0.45"/>
+
+  <!-- Blue + Yellow overlap region - green/teal accent -->
+  <ellipse cx="490" cy="400" rx="55" ry="50" fill="#2A9D8F" opacity="0.5"/>
+
+  <!-- Center where all three overlap -->
+  <circle cx="420" cy="380" r="35" fill="#000000" opacity="0.35"/>
+
+  <!-- Outer ring of color swatches - structured study -->
+  <!-- Top row -->
+  <rect x="100" y="60" width="80" height="50" fill="#E63946"/>
+  <rect x="200" y="60" width="80" height="50" fill="#E76F51"/>
+  <rect x="300" y="60" width="80" height="50" fill="#F4D35E"/>
+  <rect x="400" y="60" width="80" height="50" fill="#2A9D8F"/>
+  <rect x="500" y="60" width="80" height="50" fill="#1D3557"/>
+  <rect x="600" y="60" width="80" height="50" fill="#000000"/>
+
+  <!-- Swatch labels (thin lines beneath) -->
+  <rect x="100" y="112" width="80" height="3" fill="#000000"/>
+  <rect x="200" y="112" width="80" height="3" fill="#000000"/>
+  <rect x="300" y="112" width="80" height="3" fill="#000000"/>
+  <rect x="400" y="112" width="80" height="3" fill="#000000"/>
+  <rect x="500" y="112" width="80" height="3" fill="#000000"/>
+  <rect x="600" y="112" width="80" height="3" fill="#000000"/>
+
+  <!-- Bottom gradient study - tints and shades -->
+  <rect x="80" y="680" width="55" height="55" fill="#E63946" opacity="0.2"/>
+  <rect x="145" y="680" width="55" height="55" fill="#E63946" opacity="0.4"/>
+  <rect x="210" y="680" width="55" height="55" fill="#E63946" opacity="0.6"/>
+  <rect x="275" y="680" width="55" height="55" fill="#E63946" opacity="0.8"/>
+  <rect x="340" y="680" width="55" height="55" fill="#E63946"/>
+
+  <rect x="430" y="680" width="55" height="55" fill="#1D3557" opacity="0.2"/>
+  <rect x="495" y="680" width="55" height="55" fill="#1D3557" opacity="0.4"/>
+  <rect x="560" y="680" width="55" height="55" fill="#1D3557" opacity="0.6"/>
+  <rect x="625" y="680" width="55" height="55" fill="#1D3557" opacity="0.8"/>
+  <rect x="690" y="680" width="55" height="55" fill="#1D3557"/>
+
+  <!-- Left side - vertical value study -->
+  <rect x="40" y="150" width="40" height="40" fill="#F4D35E" opacity="0.15"/>
+  <rect x="40" y="200" width="40" height="40" fill="#F4D35E" opacity="0.3"/>
+  <rect x="40" y="250" width="40" height="40" fill="#F4D35E" opacity="0.45"/>
+  <rect x="40" y="300" width="40" height="40" fill="#F4D35E" opacity="0.6"/>
+  <rect x="40" y="350" width="40" height="40" fill="#F4D35E" opacity="0.75"/>
+  <rect x="40" y="400" width="40" height="40" fill="#F4D35E"/>
+  <rect x="40" y="450" width="40" height="40" fill="#E76F51"/>
+  <rect x="40" y="500" width="40" height="40" fill="#E63946"/>
+  <rect x="40" y="550" width="40" height="40" fill="#1D3557"/>
+  <rect x="40" y="600" width="40" height="40" fill="#000000"/>
+
+  <!-- Right side - complementary pairs -->
+  <rect x="720" y="180" width="40" height="40" fill="#E63946"/>
+  <rect x="720" y="230" width="40" height="40" fill="#2A9D8F"/>
+
+  <rect x="720" y="310" width="40" height="40" fill="#1D3557"/>
+  <rect x="720" y="360" width="40" height="40" fill="#E76F51"/>
+
+  <rect x="720" y="440" width="40" height="40" fill="#F4D35E"/>
+  <rect x="720" y="490" width="40" height="40" fill="#1D3557"/>
+
+  <!-- Connecting lines showing relationships -->
+  <line x1="340" y1="320" x2="40" y2="500" stroke="#E63946" stroke-width="1" opacity="0.3"/>
+  <line x1="480" y1="300" x2="40" y2="400" stroke="#F4D35E" stroke-width="1" opacity="0.3"/>
+  <line x1="460" y1="480" x2="40" y2="550" stroke="#1D3557" stroke-width="1" opacity="0.3"/>
+
+  <!-- Small geometric accents -->
+  <polygon points="400,140 390,160 410,160" fill="#000000"/>
+  <polygon points="400,620 390,600 410,600" fill="#000000"/>
+  <polygon points="150,400 170,390 170,410" fill="#000000"/>
+  <polygon points="660,400 640,390 640,410" fill="#000000"/>
+
+  <!-- Outer frame -->
+  <rect x="30" y="30" width="740" height="740" fill="none" stroke="#000000" stroke-width="2"/>
+</svg>

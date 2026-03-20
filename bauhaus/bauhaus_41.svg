@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Central form -->
+  <circle cx="400" cy="400" r="60" fill="#E63946"/>
+  <circle cx="400" cy="400" r="40" fill="#1D3557"/>
+  <circle cx="400" cy="400" r="18" fill="#F4D35E"/>
+
+  <!-- Orbit 1 - large horizontal ellipse -->
+  <ellipse cx="400" cy="400" rx="320" ry="120" fill="none" stroke="#000000" stroke-width="2"/>
+  <circle cx="720" cy="400" r="12" fill="#E63946"/>
+  <circle cx="80" cy="400" r="8" fill="#1D3557"/>
+  <circle cx="400" cy="280" r="6" fill="#F4D35E"/>
+
+  <!-- Orbit 2 - tilted ellipse (simulated via transform) -->
+  <ellipse cx="400" cy="400" rx="280" ry="90" fill="none" stroke="#6D2E46" stroke-width="2" transform="rotate(45 400 400)"/>
+  <circle cx="598" cy="198" r="14" fill="#6D2E46"/>
+  <circle cx="210" cy="590" r="9" fill="#DDA15E"/>
+
+  <!-- Orbit 3 - steep tilt -->
+  <ellipse cx="400" cy="400" rx="250" ry="70" fill="none" stroke="#264653" stroke-width="2" transform="rotate(-30 400 400)"/>
+  <circle cx="617" cy="275" r="10" fill="#264653"/>
+  <circle cx="175" cy="530" r="7" fill="#F4D35E"/>
+
+  <!-- Orbit 4 - nearly vertical -->
+  <ellipse cx="400" cy="400" rx="200" ry="60" fill="none" stroke="#DDA15E" stroke-width="2" transform="rotate(80 400 400)"/>
+  <circle cx="435" cy="200" r="11" fill="#DDA15E"/>
+  <circle cx="365" cy="600" r="6" fill="#E63946"/>
+
+  <!-- Orbit 5 - medium -->
+  <ellipse cx="400" cy="400" rx="340" ry="150" fill="none" stroke="#E63946" stroke-width="1.5" transform="rotate(15 400 400)"/>
+  <circle cx="270" cy="260" r="8" fill="#000000"/>
+  <circle cx="530" cy="540" r="13" fill="#E63946"/>
+
+  <!-- Orbit 6 - tight -->
+  <ellipse cx="400" cy="400" rx="150" ry="50" fill="none" stroke="#F4D35E" stroke-width="2" transform="rotate(-60 400 400)"/>
+  <circle cx="330" cy="270" r="9" fill="#F4D35E"/>
+
+  <!-- Orbit 7 -->
+  <ellipse cx="400" cy="400" rx="300" ry="100" fill="none" stroke="#1D3557" stroke-width="1.5" transform="rotate(-15 400 400)"/>
+  <circle cx="695" cy="375" r="10" fill="#1D3557"/>
+
+  <!-- Additional satellite dots scattered along orbits -->
+  <circle cx="480" cy="310" r="5" fill="#000000"/>
+  <circle cx="320" cy="490" r="5" fill="#000000"/>
+  <circle cx="550" cy="350" r="4" fill="#6D2E46"/>
+  <circle cx="250" cy="450" r="4" fill="#264653"/>
+  <circle cx="460" cy="480" r="6" fill="#DDA15E"/>
+  <circle cx="340" cy="320" r="6" fill="#E63946"/>
+
+  <!-- Speed lines / motion arcs -->
+  <path d="M 710 390 Q 720 370 715 350" fill="none" stroke="#E63946" stroke-width="1.5"/>
+  <path d="M 600 195 Q 610 180 625 178" fill="none" stroke="#6D2E46" stroke-width="1.5"/>
+  <path d="M 530 535 Q 545 545 548 560" fill="none" stroke="#E63946" stroke-width="1.5"/>
+
+  <!-- Decorative corner marks -->
+  <line x1="30" y1="30" x2="80" y2="30" stroke="#000000" stroke-width="3"/>
+  <line x1="30" y1="30" x2="30" y2="80" stroke="#000000" stroke-width="3"/>
+  <line x1="720" y1="30" x2="770" y2="30" stroke="#000000" stroke-width="3"/>
+  <line x1="770" y1="30" x2="770" y2="80" stroke="#000000" stroke-width="3"/>
+  <line x1="30" y1="770" x2="80" y2="770" stroke="#000000" stroke-width="3"/>
+  <line x1="30" y1="720" x2="30" y2="770" stroke="#000000" stroke-width="3"/>
+  <line x1="720" y1="770" x2="770" y2="770" stroke="#000000" stroke-width="3"/>
+  <line x1="770" y1="720" x2="770" y2="770" stroke="#000000" stroke-width="3"/>
+
+  <!-- Bauhaus typography-style label -->
+  <rect x="320" y="730" width="160" height="30" fill="#000000"/>
+  <text x="400" y="752" font-family="sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ORBIT</text>
+</svg>

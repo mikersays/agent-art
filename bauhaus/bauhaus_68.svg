@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Drop point 1: upper-left (x=200, y=250) - Red ripples -->
+  <circle cx="200" cy="250" r="20" fill="#E63946" opacity="0.9"/>
+  <circle cx="200" cy="250" r="45" fill="none" stroke="#E63946" stroke-width="3" opacity="0.8"/>
+  <circle cx="200" cy="250" r="75" fill="none" stroke="#E63946" stroke-width="2.5" opacity="0.65"/>
+  <circle cx="200" cy="250" r="110" fill="none" stroke="#E63946" stroke-width="2" opacity="0.5"/>
+  <circle cx="200" cy="250" r="150" fill="none" stroke="#E63946" stroke-width="1.8" opacity="0.38"/>
+  <circle cx="200" cy="250" r="195" fill="none" stroke="#E63946" stroke-width="1.5" opacity="0.28"/>
+  <circle cx="200" cy="250" r="245" fill="none" stroke="#E63946" stroke-width="1.2" opacity="0.18"/>
+  <circle cx="200" cy="250" r="300" fill="none" stroke="#E63946" stroke-width="1" opacity="0.1"/>
+
+  <!-- Drop point 2: center-right (x=550, y=350) - Yellow ripples -->
+  <circle cx="550" cy="350" r="18" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="550" cy="350" r="40" fill="none" stroke="#F4D35E" stroke-width="3" opacity="0.8"/>
+  <circle cx="550" cy="350" r="68" fill="none" stroke="#F4D35E" stroke-width="2.5" opacity="0.65"/>
+  <circle cx="550" cy="350" r="100" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.5"/>
+  <circle cx="550" cy="350" r="138" fill="none" stroke="#F4D35E" stroke-width="1.8" opacity="0.38"/>
+  <circle cx="550" cy="350" r="180" fill="none" stroke="#F4D35E" stroke-width="1.5" opacity="0.28"/>
+  <circle cx="550" cy="350" r="228" fill="none" stroke="#F4D35E" stroke-width="1.2" opacity="0.18"/>
+  <circle cx="550" cy="350" r="280" fill="none" stroke="#F4D35E" stroke-width="1" opacity="0.1"/>
+
+  <!-- Drop point 3: lower-center (x=380, y=580) - White ripples -->
+  <circle cx="380" cy="580" r="15" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="380" cy="580" r="38" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.75"/>
+  <circle cx="380" cy="580" r="65" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+  <circle cx="380" cy="580" r="98" fill="none" stroke="#FFFFFF" stroke-width="1.8" opacity="0.45"/>
+  <circle cx="380" cy="580" r="135" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.32"/>
+  <circle cx="380" cy="580" r="178" fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity="0.2"/>
+  <circle cx="380" cy="580" r="225" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.12"/>
+
+  <!-- Drop point 4: upper-right (x=650, y=150) - Steel blue ripples -->
+  <circle cx="650" cy="150" r="14" fill="#457B9D" opacity="0.9"/>
+  <circle cx="650" cy="150" r="35" fill="none" stroke="#457B9D" stroke-width="2.5" opacity="0.75"/>
+  <circle cx="650" cy="150" r="62" fill="none" stroke="#457B9D" stroke-width="2" opacity="0.6"/>
+  <circle cx="650" cy="150" r="95" fill="none" stroke="#457B9D" stroke-width="1.8" opacity="0.45"/>
+  <circle cx="650" cy="150" r="132" fill="none" stroke="#457B9D" stroke-width="1.5" opacity="0.32"/>
+  <circle cx="650" cy="150" r="175" fill="none" stroke="#457B9D" stroke-width="1.2" opacity="0.2"/>
+
+  <!-- Drop point 5: lower-left (x=120, y=620) - Burgundy ripples -->
+  <circle cx="120" cy="620" r="12" fill="#6D2E46" opacity="0.9"/>
+  <circle cx="120" cy="620" r="32" fill="none" stroke="#6D2E46" stroke-width="2.5" opacity="0.75"/>
+  <circle cx="120" cy="620" r="58" fill="none" stroke="#6D2E46" stroke-width="2" opacity="0.6"/>
+  <circle cx="120" cy="620" r="90" fill="none" stroke="#6D2E46" stroke-width="1.8" opacity="0.45"/>
+  <circle cx="120" cy="620" r="128" fill="none" stroke="#6D2E46" stroke-width="1.5" opacity="0.32"/>
+  <circle cx="120" cy="620" r="170" fill="none" stroke="#6D2E46" stroke-width="1.2" opacity="0.2"/>
+
+  <!-- Interference pattern overlay - thin arcs at intersections -->
+  <!-- Intersection zone 1-2 -->
+  <ellipse cx="375" cy="300" rx="30" ry="15" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.4" transform="rotate(-15,375,300)"/>
+  <ellipse cx="375" cy="300" rx="50" ry="20" fill="none" stroke="#A89F91" stroke-width="0.8" opacity="0.3" transform="rotate(-15,375,300)"/>
+
+  <!-- Interference zone 2-3 -->
+  <ellipse cx="465" cy="465" rx="35" ry="18" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.35" transform="rotate(30,465,465)"/>
+  <ellipse cx="465" cy="465" rx="55" ry="22" fill="none" stroke="#A89F91" stroke-width="0.8" opacity="0.25" transform="rotate(30,465,465)"/>
+
+  <!-- Interference zone 1-3 -->
+  <ellipse cx="290" cy="415" rx="28" ry="14" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.35" transform="rotate(60,290,415)"/>
+
+  <!-- Small accent dots at interference nodes -->
+  <circle cx="350" cy="310" r="4" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="400" cy="290" r="3" fill="#E63946" opacity="0.7"/>
+  <circle cx="480" cy="450" r="4" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="450" cy="480" r="3" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="280" cy="430" r="3.5" fill="#E63946" opacity="0.5"/>
+  <circle cx="250" cy="500" r="3" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="620" cy="260" r="3" fill="#457B9D" opacity="0.6"/>
+  <circle cx="300" cy="250" r="2.5" fill="#F4D35E" opacity="0.5"/>
+
+  <!-- Geometric accents - Bauhaus style -->
+  <rect x="30" y="30" width="60" height="4" fill="#E63946" opacity="0.8"/>
+  <rect x="30" y="30" width="4" height="60" fill="#E63946" opacity="0.8"/>
+  <rect x="710" y="30" width="60" height="4" fill="#F4D35E" opacity="0.8"/>
+  <rect x="766" y="30" width="4" height="60" fill="#F4D35E" opacity="0.8"/>
+  <rect x="30" y="766" width="60" height="4" fill="#457B9D" opacity="0.8"/>
+  <rect x="30" y="710" width="4" height="60" fill="#457B9D" opacity="0.8"/>
+  <rect x="710" y="766" width="60" height="4" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="766" y="710" width="4" height="60" fill="#FFFFFF" opacity="0.8"/>
+</svg>

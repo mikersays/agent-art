@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Top beam / support structure -->
+  <rect x="50" y="60" width="700" height="16" fill="#000000"/>
+  <rect x="50" y="60" width="700" height="4" fill="#457B9D"/>
+
+  <!-- Vertical support left -->
+  <rect x="50" y="60" width="12" height="200" fill="#000000"/>
+  <!-- Vertical support right -->
+  <rect x="738" y="60" width="12" height="200" fill="#000000"/>
+
+  <!-- Pulley 1 (left) -->
+  <circle cx="180" cy="100" r="40" fill="none" stroke="#1D3557" stroke-width="6"/>
+  <circle cx="180" cy="100" r="8" fill="#000000"/>
+  <circle cx="180" cy="100" r="3" fill="#FFFFFF"/>
+  <!-- Pulley bracket -->
+  <line x1="180" y1="60" x2="180" y2="60" stroke="#000000" stroke-width="4"/>
+  <rect x="172" y="56" width="16" height="12" fill="#264653"/>
+
+  <!-- Pulley 2 (center-left) -->
+  <circle cx="350" cy="100" r="35" fill="none" stroke="#E63946" stroke-width="5"/>
+  <circle cx="350" cy="100" r="7" fill="#000000"/>
+  <circle cx="350" cy="100" r="3" fill="#FFFFFF"/>
+  <rect x="342" y="56" width="16" height="12" fill="#264653"/>
+
+  <!-- Pulley 3 (center-right) -->
+  <circle cx="500" cy="100" r="45" fill="none" stroke="#F4D35E" stroke-width="6"/>
+  <circle cx="500" cy="100" r="9" fill="#000000"/>
+  <circle cx="500" cy="100" r="4" fill="#FFFFFF"/>
+  <rect x="492" y="56" width="16" height="12" fill="#264653"/>
+
+  <!-- Pulley 4 (right) -->
+  <circle cx="660" cy="100" r="30" fill="none" stroke="#457B9D" stroke-width="5"/>
+  <circle cx="660" cy="100" r="6" fill="#000000"/>
+  <circle cx="660" cy="100" r="3" fill="#FFFFFF"/>
+  <rect x="652" y="56" width="16" height="12" fill="#264653"/>
+
+  <!-- Lower redirect pulley (left side) -->
+  <circle cx="120" cy="350" r="28" fill="none" stroke="#000000" stroke-width="4"/>
+  <circle cx="120" cy="350" r="5" fill="#E63946"/>
+  <!-- Mount -->
+  <rect x="86" y="340" width="10" height="20" fill="#264653"/>
+  <rect x="50" y="330" width="48" height="6" fill="#000000"/>
+
+  <!-- Lower redirect pulley (right side) -->
+  <circle cx="700" cy="300" r="25" fill="none" stroke="#000000" stroke-width="4"/>
+  <circle cx="700" cy="300" r="5" fill="#F4D35E"/>
+  <rect x="720" y="290" width="10" height="20" fill="#264653"/>
+  <rect x="725" y="280" width="30" height="6" fill="#000000"/>
+
+  <!-- Ropes/lines connecting pulleys -->
+  <!-- Rope from pulley 1 down-left to redirect, then to weight -->
+  <line x1="180" y1="140" x2="148" y2="350" stroke="#DDA15E" stroke-width="3"/>
+  <line x1="120" y1="378" x2="120" y2="600" stroke="#DDA15E" stroke-width="3"/>
+
+  <!-- Rope from pulley 1 down-right to weight -->
+  <line x1="180" y1="140" x2="220" y2="500" stroke="#DDA15E" stroke-width="3"/>
+
+  <!-- Rope from pulley 2 to weight -->
+  <line x1="350" y1="135" x2="350" y2="520" stroke="#DDA15E" stroke-width="3"/>
+
+  <!-- Rope from pulley 3 left side down -->
+  <line x1="500" y1="145" x2="460" y2="450" stroke="#DDA15E" stroke-width="3"/>
+  <!-- Rope from pulley 3 right side to redirect -->
+  <line x1="500" y1="145" x2="675" y2="300" stroke="#DDA15E" stroke-width="3"/>
+
+  <!-- Rope from redirect pulley right to weight -->
+  <line x1="700" y1="325" x2="700" y2="550" stroke="#DDA15E" stroke-width="3"/>
+
+  <!-- Rope from pulley 4 to weight -->
+  <line x1="660" y1="130" x2="580" y2="480" stroke="#DDA15E" stroke-width="3"/>
+
+  <!-- Cross-connection rope -->
+  <line x1="220" y1="200" x2="350" y2="200" stroke="#000000" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <line x1="500" y1="220" x2="660" y2="180" stroke="#000000" stroke-width="1.5" stroke-dasharray="8,4"/>
+
+  <!-- Weight 1 - Red triangle -->
+  <polygon points="120,600 90,680 150,680" fill="#E63946" stroke="#000000" stroke-width="2"/>
+
+  <!-- Weight 2 - Blue rectangle -->
+  <rect x="195" y="500" width="50" height="70" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+
+  <!-- Weight 3 - Yellow circle -->
+  <circle cx="350" cy="555" r="35" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+
+  <!-- Weight 4 - Dark diamond -->
+  <polygon points="460,450 490,500 460,550 430,500" fill="#264653" stroke="#000000" stroke-width="2"/>
+
+  <!-- Weight 5 - Steel blue hexagon -->
+  <polygon points="580,480 610,500 610,540 580,560 550,540 550,500" fill="#457B9D" stroke="#000000" stroke-width="2"/>
+
+  <!-- Weight 6 - Sand square -->
+  <rect x="675" y="550" width="50" height="50" fill="#DDA15E" stroke="#000000" stroke-width="2"/>
+
+  <!-- Decorative elements -->
+  <circle cx="400" cy="700" r="10" fill="#E63946"/>
+  <circle cx="430" cy="720" r="8" fill="#1D3557"/>
+  <circle cx="370" cy="720" r="8" fill="#F4D35E"/>
+
+  <!-- Floor line -->
+  <line x1="0" y1="750" x2="800" y2="750" stroke="#000000" stroke-width="3"/>
+  <line x1="0" y1="755" x2="800" y2="755" stroke="#264653" stroke-width="2"/>
+</svg>

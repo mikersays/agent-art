@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Row 1 (y=60) - even row -->
+  <rect x="40" y="60" width="90" height="40" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <rect x="140" y="60" width="90" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+  <rect x="240" y="60" width="90" height="40" fill="#000000" stroke="#000000" stroke-width="1"/>
+  <rect x="340" y="60" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <rect x="440" y="60" width="90" height="40" fill="#264653" stroke="#000000" stroke-width="1"/>
+  <!-- gap - missing brick -->
+  <rect x="640" y="60" width="90" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 2 (y=110) - offset row -->
+  <rect x="85" y="110" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <rect x="185" y="110" width="90" height="40" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <rect x="285" y="110" width="90" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1"/>
+  <rect x="385" y="110" width="90" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <rect x="485" y="110" width="90" height="40" fill="#000000" stroke="#000000" stroke-width="1"/>
+  <rect x="585" y="110" width="90" height="40" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <rect x="685" y="110" width="90" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 3 (y=160) - even -->
+  <rect x="40" y="160" width="90" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <rect x="140" y="160" width="90" height="40" fill="#264653" stroke="#000000" stroke-width="1"/>
+  <!-- gap -->
+  <rect x="340" y="160" width="90" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+  <rect x="440" y="160" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <rect x="540" y="160" width="90" height="40" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <rect x="640" y="160" width="90" height="40" fill="#000000" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 4 (y=210) - offset -->
+  <rect x="85" y="210" width="90" height="40" fill="#000000" stroke="#000000" stroke-width="1"/>
+  <rect x="185" y="210" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <rect x="285" y="210" width="90" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <!-- gap -->
+  <rect x="485" y="210" width="90" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1"/>
+  <rect x="585" y="210" width="90" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+  <rect x="685" y="210" width="90" height="40" fill="#264653" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 5 (y=260) - even -->
+  <rect x="40" y="260" width="90" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1"/>
+  <rect x="140" y="260" width="90" height="40" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <rect x="240" y="260" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <rect x="340" y="260" width="90" height="40" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <rect x="440" y="260" width="90" height="40" fill="#000000" stroke="#000000" stroke-width="1"/>
+  <rect x="540" y="260" width="90" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <!-- gap -->
+
+  <!-- Row 6 (y=310) - offset -->
+  <!-- gap at start -->
+  <rect x="185" y="310" width="90" height="40" fill="#264653" stroke="#000000" stroke-width="1"/>
+  <rect x="285" y="310" width="90" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+  <rect x="385" y="310" width="90" height="40" fill="#000000" stroke="#000000" stroke-width="1"/>
+  <rect x="485" y="310" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <rect x="585" y="310" width="90" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <rect x="685" y="310" width="90" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 7 (y=360) - even -->
+  <rect x="40" y="360" width="90" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+  <rect x="140" y="360" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <rect x="240" y="360" width="90" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1"/>
+  <!-- gap -->
+  <rect x="440" y="360" width="90" height="40" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <rect x="540" y="360" width="90" height="40" fill="#264653" stroke="#000000" stroke-width="1"/>
+  <rect x="640" y="360" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 8 (y=410) - offset -->
+  <rect x="85" y="410" width="90" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <rect x="185" y="410" width="90" height="40" fill="#000000" stroke="#000000" stroke-width="1"/>
+  <rect x="285" y="410" width="90" height="40" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <rect x="385" y="410" width="90" height="40" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <rect x="485" y="410" width="90" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+  <!-- gap -->
+  <rect x="685" y="410" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 9 (y=460) - even -->
+  <rect x="40" y="460" width="90" height="40" fill="#264653" stroke="#000000" stroke-width="1"/>
+  <!-- gap -->
+  <rect x="240" y="460" width="90" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <rect x="340" y="460" width="90" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1"/>
+  <rect x="440" y="460" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <rect x="540" y="460" width="90" height="40" fill="#000000" stroke="#000000" stroke-width="1"/>
+  <rect x="640" y="460" width="90" height="40" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 10 (y=510) - offset -->
+  <rect x="85" y="510" width="90" height="40" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <rect x="185" y="510" width="90" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+  <rect x="285" y="510" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <rect x="385" y="510" width="90" height="40" fill="#264653" stroke="#000000" stroke-width="1"/>
+  <!-- gap -->
+  <rect x="585" y="510" width="90" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <rect x="685" y="510" width="90" height="40" fill="#000000" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 11 (y=560) - even -->
+  <rect x="40" y="560" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <rect x="140" y="560" width="90" height="40" fill="#000000" stroke="#000000" stroke-width="1"/>
+  <rect x="240" y="560" width="90" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+  <rect x="340" y="560" width="90" height="40" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <rect x="440" y="560" width="90" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <!-- gap -->
+  <rect x="640" y="560" width="90" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 12 (y=610) - offset -->
+  <rect x="85" y="610" width="90" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1"/>
+  <!-- gap -->
+  <rect x="285" y="610" width="90" height="40" fill="#000000" stroke="#000000" stroke-width="1"/>
+  <rect x="385" y="610" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <rect x="485" y="610" width="90" height="40" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <rect x="585" y="610" width="90" height="40" fill="#264653" stroke="#000000" stroke-width="1"/>
+  <rect x="685" y="610" width="90" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 13 (y=660) - even -->
+  <rect x="40" y="660" width="90" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <rect x="140" y="660" width="90" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1"/>
+  <rect x="240" y="660" width="90" height="40" fill="#264653" stroke="#000000" stroke-width="1"/>
+  <rect x="340" y="660" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <!-- gap -->
+  <rect x="540" y="660" width="90" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+  <rect x="640" y="660" width="90" height="40" fill="#000000" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 14 (y=710) - offset -->
+  <rect x="85" y="710" width="90" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+  <rect x="185" y="710" width="90" height="40" fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <rect x="285" y="710" width="90" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <rect x="385" y="710" width="90" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1"/>
+  <rect x="485" y="710" width="90" height="40" fill="#264653" stroke="#000000" stroke-width="1"/>
+  <rect x="585" y="710" width="90" height="40" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <!-- gap at end -->
+
+  <!-- Label -->
+  <rect x="280" y="15" width="240" height="32" fill="#000000"/>
+  <text x="400" y="38" font-family="sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">BRICK WALL</text>
+</svg>

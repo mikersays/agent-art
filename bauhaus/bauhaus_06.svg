@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Staircase</title>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Background diagonal division -->
+  <polygon points="0,800 800,0 800,800" fill="#F5F0E8" opacity="0.4"/>
+
+  <!-- Ascending staircase blocks - main diagonal rhythm -->
+  <rect x="50" y="650" width="120" height="100" fill="#E63946"/>
+  <rect x="140" y="580" width="120" height="100" fill="#1D3557"/>
+  <rect x="230" y="510" width="120" height="100" fill="#F4D35E"/>
+  <rect x="320" y="440" width="120" height="100" fill="#000000"/>
+  <rect x="410" y="370" width="120" height="100" fill="#457B9D"/>
+  <rect x="500" y="300" width="120" height="100" fill="#E63946"/>
+  <rect x="590" y="230" width="120" height="100" fill="#1D3557"/>
+
+  <!-- Secondary staircase - thinner, offset -->
+  <rect x="80" y="700" width="80" height="30" fill="#F4D35E"/>
+  <rect x="170" y="640" width="80" height="30" fill="#A8DADC"/>
+  <rect x="260" y="580" width="80" height="30" fill="#E63946"/>
+  <rect x="350" y="520" width="80" height="30" fill="#F4D35E"/>
+  <rect x="440" y="460" width="80" height="30" fill="#000000"/>
+  <rect x="530" y="400" width="80" height="30" fill="#457B9D"/>
+  <rect x="620" y="340" width="80" height="30" fill="#A8DADC"/>
+
+  <!-- Vertical rhythm lines -->
+  <line x1="110" y1="650" x2="110" y2="750" stroke="#000000" stroke-width="2"/>
+  <line x1="200" y1="580" x2="200" y2="680" stroke="#000000" stroke-width="2"/>
+  <line x1="290" y1="510" x2="290" y2="610" stroke="#000000" stroke-width="2"/>
+  <line x1="380" y1="440" x2="380" y2="540" stroke="#000000" stroke-width="2"/>
+  <line x1="470" y1="370" x2="470" y2="470" stroke="#000000" stroke-width="2"/>
+  <line x1="560" y1="300" x2="560" y2="400" stroke="#000000" stroke-width="2"/>
+  <line x1="650" y1="230" x2="650" y2="330" stroke="#000000" stroke-width="2"/>
+
+  <!-- Horizontal connecting line -->
+  <line x1="50" y1="750" x2="710" y2="330" stroke="#000000" stroke-width="3"/>
+
+  <!-- Floating geometric accents -->
+  <circle cx="680" cy="150" r="40" fill="none" stroke="#E63946" stroke-width="3"/>
+  <circle cx="680" cy="150" r="20" fill="#F4D35E"/>
+  <rect x="60" y="80" width="60" height="60" fill="#1D3557"/>
+  <rect x="70" y="90" width="40" height="40" fill="none" stroke="#F4D35E" stroke-width="2"/>
+
+  <!-- Small accent triangles along the staircase -->
+  <polygon points="170,650 185,620 200,650" fill="#E63946"/>
+  <polygon points="350,510 365,480 380,510" fill="#F4D35E"/>
+  <polygon points="530,370 545,340 560,370" fill="#A8DADC"/>
+
+  <!-- Top architectural element -->
+  <rect x="600" y="100" width="150" height="8" fill="#000000"/>
+  <rect x="620" y="110" width="4" height="90" fill="#000000"/>
+  <rect x="730" y="110" width="4" height="90" fill="#000000"/>
+
+  <!-- Bottom left accent -->
+  <circle cx="40" cy="760" r="15" fill="#457B9D"/>
+  <circle cx="40" cy="760" r="8" fill="#FFFFFF"/>
+
+  <!-- Diagonal shadow lines for depth -->
+  <line x1="170" y1="680" x2="220" y2="680" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="260" y1="610" x2="310" y2="610" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="350" y1="540" x2="400" y2="540" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="440" y1="470" x2="490" y2="470" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="530" y1="400" x2="580" y2="400" stroke="#000000" stroke-width="1" opacity="0.3"/>
+
+  <!-- Border frame element -->
+  <rect x="20" y="20" width="760" height="760" fill="none" stroke="#000000" stroke-width="2"/>
+</svg>

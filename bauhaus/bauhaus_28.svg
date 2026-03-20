@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Rhythm and Blues</title>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Vertical bars - varying thickness and blue tones, creating musical rhythm -->
+  <!-- Measure 1: Strong downbeat -->
+  <rect x="30" y="50" width="24" height="500" fill="#1D3557" opacity="0.9"/>
+  <rect x="60" y="100" width="6" height="400" fill="#1D3557" opacity="0.5"/>
+  <rect x="72" y="120" width="3" height="360" fill="#2A9D8F" opacity="0.4"/>
+  <rect x="82" y="80" width="12" height="440" fill="#1D3557" opacity="0.7"/>
+  <rect x="100" y="150" width="4" height="300" fill="#2A9D8F" opacity="0.6"/>
+
+  <!-- Measure 2: Syncopated -->
+  <rect x="120" y="60" width="18" height="480" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="144" y="200" width="3" height="200" fill="#1D3557" opacity="0.3"/>
+  <rect x="154" y="90" width="8" height="420" fill="#1D3557" opacity="0.6"/>
+  <rect x="168" y="130" width="20" height="380" fill="#2A9D8F" opacity="0.5"/>
+  <rect x="194" y="70" width="5" height="460" fill="#1D3557" opacity="0.4"/>
+
+  <!-- Measure 3: Building intensity -->
+  <rect x="210" y="40" width="28" height="520" fill="#1D3557" opacity="0.95"/>
+  <rect x="244" y="110" width="10" height="380" fill="#2A9D8F" opacity="0.7"/>
+  <rect x="260" y="140" width="6" height="320" fill="#1D3557" opacity="0.45"/>
+  <rect x="272" y="80" width="14" height="440" fill="#2A9D8F" opacity="0.65"/>
+  <rect x="292" y="160" width="4" height="280" fill="#1D3557" opacity="0.35"/>
+
+  <!-- Measure 4: Climax - thick bars -->
+  <rect x="308" y="30" width="32" height="540" fill="#1D3557" opacity="1"/>
+  <rect x="346" y="60" width="16" height="480" fill="#2A9D8F" opacity="0.85"/>
+  <rect x="368" y="100" width="22" height="400" fill="#1D3557" opacity="0.75"/>
+  <rect x="396" y="50" width="8" height="500" fill="#2A9D8F" opacity="0.9"/>
+
+  <!-- Measure 5: Resolution -->
+  <rect x="416" y="90" width="12" height="420" fill="#1D3557" opacity="0.6"/>
+  <rect x="434" y="140" width="4" height="320" fill="#2A9D8F" opacity="0.4"/>
+  <rect x="444" y="70" width="18" height="460" fill="#1D3557" opacity="0.7"/>
+  <rect x="468" y="120" width="6" height="360" fill="#2A9D8F" opacity="0.5"/>
+  <rect x="480" y="160" width="3" height="280" fill="#1D3557" opacity="0.3"/>
+
+  <!-- Measure 6: Gentle fade -->
+  <rect x="498" y="110" width="14" height="380" fill="#2A9D8F" opacity="0.55"/>
+  <rect x="518" y="150" width="5" height="300" fill="#1D3557" opacity="0.4"/>
+  <rect x="530" y="80" width="20" height="440" fill="#1D3557" opacity="0.65"/>
+  <rect x="556" y="130" width="3" height="340" fill="#2A9D8F" opacity="0.35"/>
+  <rect x="566" y="170" width="10" height="260" fill="#1D3557" opacity="0.5"/>
+
+  <!-- Measure 7: Final notes -->
+  <rect x="590" y="100" width="16" height="400" fill="#2A9D8F" opacity="0.6"/>
+  <rect x="612" y="140" width="8" height="320" fill="#1D3557" opacity="0.45"/>
+  <rect x="626" y="60" width="24" height="480" fill="#1D3557" opacity="0.7"/>
+  <rect x="656" y="180" width="4" height="240" fill="#2A9D8F" opacity="0.3"/>
+  <rect x="668" y="90" width="12" height="420" fill="#1D3557" opacity="0.55"/>
+
+  <!-- Final bar -->
+  <rect x="700" y="50" width="30" height="500" fill="#1D3557" opacity="0.85"/>
+  <rect x="740" y="120" width="6" height="360" fill="#2A9D8F" opacity="0.4"/>
+  <rect x="755" y="80" width="16" height="440" fill="#1D3557" opacity="0.6"/>
+
+  <!-- Horizontal bars - cross-rhythms -->
+  <rect x="30" y="600" width="740" height="20" fill="#1D3557" opacity="0.8"/>
+  <rect x="80" y="630" width="640" height="6" fill="#2A9D8F" opacity="0.5"/>
+  <rect x="50" y="645" width="700" height="12" fill="#1D3557" opacity="0.6"/>
+  <rect x="120" y="665" width="560" height="4" fill="#2A9D8F" opacity="0.4"/>
+  <rect x="30" y="678" width="740" height="16" fill="#1D3557" opacity="0.7"/>
+  <rect x="200" y="702" width="400" height="3" fill="#2A9D8F" opacity="0.35"/>
+  <rect x="60" y="715" width="680" height="10" fill="#1D3557" opacity="0.5"/>
+  <rect x="150" y="735" width="500" height="6" fill="#2A9D8F" opacity="0.45"/>
+  <rect x="100" y="750" width="600" height="18" fill="#1D3557" opacity="0.65"/>
+
+  <!-- Accent dots - like musical notes -->
+  <circle cx="55" cy="580" r="6" fill="#1D3557" opacity="0.7"/>
+  <circle cx="225" cy="575" r="8" fill="#2A9D8F" opacity="0.6"/>
+  <circle cx="324" cy="578" r="5" fill="#1D3557" opacity="0.8"/>
+  <circle cx="410" cy="582" r="10" fill="#2A9D8F" opacity="0.5"/>
+  <circle cx="555" cy="576" r="7" fill="#1D3557" opacity="0.65"/>
+  <circle cx="715" cy="580" r="9" fill="#2A9D8F" opacity="0.55"/>
+</svg>

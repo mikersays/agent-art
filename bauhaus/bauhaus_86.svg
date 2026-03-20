@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Water below -->
+  <rect x="0" y="550" width="800" height="250" fill="#264653"/>
+  <rect x="0" y="580" width="800" height="30" fill="#1D3557" opacity="0.5"/>
+  <rect x="0" y="640" width="800" height="20" fill="#1D3557" opacity="0.4"/>
+  <rect x="0" y="700" width="800" height="15" fill="#1D3557" opacity="0.3"/>
+  <rect x="0" y="750" width="800" height="10" fill="#000000" opacity="0.3"/>
+
+  <!-- Left tower -->
+  <rect x="80" y="200" width="100" height="380" fill="#000000"/>
+  <rect x="90" y="210" width="80" height="60" fill="#6D2E46"/>
+  <rect x="95" y="280" width="30" height="40" fill="#F4D35E"/>
+  <rect x="100" y="180" width="60" height="30" fill="#000000"/>
+  <polygon points="100,180 130,140 160,180" fill="#E63946"/>
+
+  <!-- Right tower -->
+  <rect x="620" y="200" width="100" height="380" fill="#000000"/>
+  <rect x="630" y="210" width="80" height="60" fill="#6D2E46"/>
+  <rect x="675" y="280" width="30" height="40" fill="#F4D35E"/>
+  <rect x="640" y="180" width="60" height="30" fill="#000000"/>
+  <polygon points="640,180 670,140 700,180" fill="#E63946"/>
+
+  <!-- Drawbridge left deck panel (angled up) -->
+  <polygon points="180,500 180,480 400,380 400,400" fill="#DDA15E"/>
+  <polygon points="180,480 400,380 400,370 180,470" fill="#F4D35E"/>
+
+  <!-- Drawbridge right deck panel (angled up) -->
+  <polygon points="620,500 620,480 400,380 400,400" fill="#DDA15E"/>
+  <polygon points="620,480 400,380 400,370 620,470" fill="#F4D35E"/>
+
+  <!-- Geometric chains left -->
+  <line x1="130" y1="220" x2="300" y2="400" stroke="#FFFFFF" stroke-width="4"/>
+  <line x1="130" y1="220" x2="350" y2="390" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="220" cy="310" r="6" fill="#F4D35E"/>
+  <circle cx="260" cy="350" r="6" fill="#F4D35E"/>
+  <rect x="125" y="215" width="10" height="10" fill="#E63946"/>
+
+  <!-- Geometric chains right -->
+  <line x1="670" y1="220" x2="500" y2="400" stroke="#FFFFFF" stroke-width="4"/>
+  <line x1="670" y1="220" x2="450" y2="390" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="580" cy="310" r="6" fill="#F4D35E"/>
+  <circle cx="540" cy="350" r="6" fill="#F4D35E"/>
+  <rect x="665" y="215" width="10" height="10" fill="#E63946"/>
+
+  <!-- Bridge base/pier structures -->
+  <rect x="150" y="500" width="60" height="80" fill="#000000"/>
+  <rect x="590" y="500" width="60" height="80" fill="#000000"/>
+
+  <!-- Water reflections -->
+  <rect x="100" y="590" width="80" height="8" fill="#F4D35E" opacity="0.3"/>
+  <rect x="350" y="610" width="100" height="6" fill="#DDA15E" opacity="0.25"/>
+  <rect x="620" y="595" width="80" height="8" fill="#F4D35E" opacity="0.3"/>
+
+  <!-- Decorative Bauhaus geometric elements -->
+  <circle cx="400" cy="360" r="15" fill="#E63946"/>
+  <rect x="385" y="345" width="30" height="30" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="400" cy="550" r="40" fill="#1D3557" opacity="0.5"/>
+  <rect x="300" y="540" width="200" height="4" fill="#FFFFFF" opacity="0.2"/>
+</svg>

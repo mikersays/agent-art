@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Outer frame -->
+  <rect x="60" y="60" width="680" height="680" fill="none" stroke="#000000" stroke-width="12"/>
+  <rect x="50" y="50" width="700" height="700" fill="none" stroke="#333333" stroke-width="4"/>
+
+  <!-- Frame top decorative bar -->
+  <rect x="60" y="60" width="680" height="25" fill="#1D3557"/>
+  <rect x="60" y="715" width="680" height="25" fill="#1D3557"/>
+
+  <!-- Left vertical support -->
+  <rect x="60" y="60" width="25" height="680" fill="#333333"/>
+  <!-- Right vertical support -->
+  <rect x="715" y="60" width="25" height="680" fill="#333333"/>
+
+  <!-- Rod 1 - y=140 -->
+  <line x1="85" y1="140" x2="715" y2="140" stroke="#000000" stroke-width="6"/>
+  <!-- Beads on rod 1 -->
+  <circle cx="150" cy="140" r="22" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <circle cx="200" cy="140" r="22" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <circle cx="250" cy="140" r="22" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <circle cx="420" cy="140" r="18" fill="#333333" stroke="#000000" stroke-width="2"/>
+  <circle cx="460" cy="140" r="18" fill="#333333" stroke="#000000" stroke-width="2"/>
+  <circle cx="620" cy="140" r="15" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <circle cx="660" cy="140" r="15" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <circle cx="695" cy="140" r="15" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+
+  <!-- Rod 2 - y=230 -->
+  <line x1="85" y1="230" x2="715" y2="230" stroke="#000000" stroke-width="6"/>
+  <circle cx="130" cy="230" r="28" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <circle cx="195" cy="230" r="28" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <circle cx="380" cy="230" r="20" fill="#2A9D8F" stroke="#000000" stroke-width="2"/>
+  <circle cx="425" cy="230" r="20" fill="#2A9D8F" stroke="#000000" stroke-width="2"/>
+  <circle cx="470" cy="230" r="20" fill="#2A9D8F" stroke="#000000" stroke-width="2"/>
+  <circle cx="680" cy="230" r="14" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+
+  <!-- Rod 3 - y=320 -->
+  <line x1="85" y1="320" x2="715" y2="320" stroke="#000000" stroke-width="6"/>
+  <circle cx="140" cy="320" r="25" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <circle cx="300" cy="320" r="16" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <circle cx="340" cy="320" r="16" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <circle cx="500" cy="320" r="24" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <circle cx="555" cy="320" r="24" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <circle cx="690" cy="320" r="18" fill="#000000" stroke="#333333" stroke-width="2"/>
+
+  <!-- Rod 4 - y=410 -->
+  <line x1="85" y1="410" x2="715" y2="410" stroke="#000000" stroke-width="6"/>
+  <circle cx="120" cy="410" r="20" fill="#2A9D8F" stroke="#000000" stroke-width="2"/>
+  <circle cx="165" cy="410" r="20" fill="#2A9D8F" stroke="#000000" stroke-width="2"/>
+  <circle cx="210" cy="410" r="20" fill="#2A9D8F" stroke="#000000" stroke-width="2"/>
+  <circle cx="255" cy="410" r="20" fill="#2A9D8F" stroke="#000000" stroke-width="2"/>
+  <circle cx="500" cy="410" r="30" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <circle cx="680" cy="410" r="12" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+
+  <!-- Rod 5 - y=500 -->
+  <line x1="85" y1="500" x2="715" y2="500" stroke="#000000" stroke-width="6"/>
+  <circle cx="160" cy="500" r="32" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <circle cx="350" cy="500" r="15" fill="#333333" stroke="#000000" stroke-width="2"/>
+  <circle cx="385" cy="500" r="15" fill="#333333" stroke="#000000" stroke-width="2"/>
+  <circle cx="420" cy="500" r="15" fill="#333333" stroke="#000000" stroke-width="2"/>
+  <circle cx="455" cy="500" r="15" fill="#333333" stroke="#000000" stroke-width="2"/>
+  <circle cx="600" cy="500" r="22" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <circle cx="655" cy="500" r="22" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+
+  <!-- Rod 6 - y=590 -->
+  <line x1="85" y1="590" x2="715" y2="590" stroke="#000000" stroke-width="6"/>
+  <circle cx="130" cy="590" r="18" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <circle cx="175" cy="590" r="18" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <circle cx="220" cy="590" r="18" fill="#E76F51" stroke="#000000" stroke-width="2"/>
+  <circle cx="400" cy="590" r="26" fill="#1D3557" stroke="#000000" stroke-width="2"/>
+  <circle cx="460" cy="590" r="26" fill="#2A9D8F" stroke="#000000" stroke-width="2"/>
+  <circle cx="650" cy="590" r="20" fill="#E63946" stroke="#000000" stroke-width="2"/>
+  <circle cx="695" cy="590" r="20" fill="#E63946" stroke="#000000" stroke-width="2"/>
+
+  <!-- Rod 7 - y=670 -->
+  <line x1="85" y1="670" x2="715" y2="670" stroke="#000000" stroke-width="6"/>
+  <circle cx="140" cy="670" r="24" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <circle cx="195" cy="670" r="24" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <circle cx="250" cy="670" r="24" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <circle cx="450" cy="670" r="20" fill="#000000" stroke="#333333" stroke-width="2"/>
+  <circle cx="500" cy="670" r="20" fill="#000000" stroke="#333333" stroke-width="2"/>
+  <circle cx="650" cy="670" r="16" fill="#2A9D8F" stroke="#000000" stroke-width="2"/>
+  <circle cx="690" cy="670" r="16" fill="#2A9D8F" stroke="#000000" stroke-width="2"/>
+
+  <!-- Corner accents -->
+  <rect x="50" y="50" width="20" height="20" fill="#E63946"/>
+  <rect x="730" y="50" width="20" height="20" fill="#F4D35E"/>
+  <rect x="50" y="730" width="20" height="20" fill="#2A9D8F"/>
+  <rect x="730" y="730" width="20" height="20" fill="#E76F51"/>
+</svg>
