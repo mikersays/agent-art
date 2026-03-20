@@ -23,4 +23,4 @@ See [`CLAUDE.md`](CLAUDE.md) for the full agent skill reference.
 
 ## License
 
-Public domain. Do whatever you want with these.
+Free to use. Please credit this repo when using the generated images.
