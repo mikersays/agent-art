@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Ground plane -->
+  <rect x="0" y="650" width="800" height="150" fill="#1D3557"/>
+
+  <!-- Tower base -->
+  <rect x="330" y="350" width="140" height="300" fill="#000"/>
+
+  <!-- Tower shaft -->
+  <rect x="350" y="150" width="100" height="200" fill="#E63946"/>
+
+  <!-- Lookout platform -->
+  <rect x="310" y="120" width="180" height="40" fill="#000"/>
+  <rect x="320" y="110" width="160" height="15" fill="#1D3557"/>
+
+  <!-- Platform railing posts -->
+  <rect x="315" y="85" width="8" height="35" fill="#000"/>
+  <rect x="355" y="85" width="8" height="35" fill="#000"/>
+  <rect x="395" y="85" width="8" height="35" fill="#000"/>
+  <rect x="435" y="85" width="8" height="35" fill="#000"/>
+  <rect x="477" y="85" width="8" height="35" fill="#000"/>
+
+  <!-- Railing top bar -->
+  <rect x="315" y="82" width="170" height="6" fill="#000"/>
+
+  <!-- Flag pole -->
+  <rect x="396" y="30" width="6" height="55" fill="#000"/>
+
+  <!-- Flag -->
+  <polygon points="402,30 460,45 402,60" fill="#E63946"/>
+
+  <!-- Tower windows - geometric squares -->
+  <rect x="370" y="180" width="25" height="25" fill="#F4D35E"/>
+  <rect x="370" y="220" width="25" height="25" fill="#FFF"/>
+  <rect x="370" y="260" width="25" height="25" fill="#F4D35E"/>
+  <rect x="370" y="310" width="25" height="25" fill="#FFF"/>
+
+  <!-- Base windows - row 1 -->
+  <rect x="345" y="380" width="30" height="40" fill="#F4D35E"/>
+  <rect x="425" y="380" width="30" height="40" fill="#F4D35E"/>
+
+  <!-- Base windows - row 2 -->
+  <rect x="345" y="450" width="30" height="40" fill="#2A9D8F"/>
+  <rect x="425" y="450" width="30" height="40" fill="#2A9D8F"/>
+
+  <!-- Base windows - row 3 -->
+  <rect x="345" y="520" width="30" height="40" fill="#F4D35E"/>
+  <rect x="425" y="520" width="30" height="40" fill="#F4D35E"/>
+
+  <!-- Door -->
+  <rect x="375" y="590" width="50" height="60" fill="#E76F51"/>
+
+  <!-- Door knob -->
+  <circle cx="415" cy="625" r="4" fill="#000"/>
+
+  <!-- Decorative circle on tower -->
+  <circle cx="400" cy="160" r="12" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+
+  <!-- Ground details - geometric shapes -->
+  <rect x="100" y="680" width="80" height="40" fill="#2A9D8F"/>
+  <rect x="550" y="700" width="100" height="30" fill="#E76F51"/>
+  <circle cx="200" cy="720" r="20" fill="#E63946"/>
+
+  <!-- Shadow of tower -->
+  <polygon points="470,650 600,650 600,750 470,750" fill="#000" opacity="0.2"/>
+
+  <!-- Sun -->
+  <circle cx="650" cy="100" r="50" fill="#F4D35E"/>
+
+  <!-- Geometric cloud shapes -->
+  <rect x="80" y="80" width="60" height="20" rx="10" fill="#FFF"/>
+  <rect x="100" y="70" width="50" height="20" rx="10" fill="#FFF"/>
+
+  <!-- Bauhaus decorative triangle -->
+  <polygon points="300,650 330,600 360,650" fill="#E76F51"/>
+</svg>

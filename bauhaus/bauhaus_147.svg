@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Flame</title>
+  <!-- Background -->
+  <rect width="800" height="800" fill="#000"/>
+
+  <!-- Ground / ember base -->
+  <ellipse cx="400" cy="750" rx="200" ry="20" fill="#264653"/>
+  <ellipse cx="400" cy="740" rx="160" ry="12" fill="#A89F91"/>
+
+  <!-- Outermost flame layer - dark red teardrop -->
+  <path d="M400,80 Q520,300 520,500 Q520,650 400,700 Q280,650 280,500 Q280,300 400,80Z" fill="#E63946" opacity="0.9"/>
+
+  <!-- Second flame layer -->
+  <path d="M400,140 Q500,320 490,480 Q490,620 400,660 Q310,620 310,480 Q300,320 400,140Z" fill="#E63946" opacity="0.7"/>
+
+  <!-- Third layer - transitional warm -->
+  <path d="M400,200 Q475,350 470,470 Q465,580 400,620 Q335,580 330,470 Q325,350 400,200Z" fill="#E9C46A"/>
+
+  <!-- Fourth layer - yellow-orange -->
+  <path d="M400,270 Q455,380 450,460 Q445,550 400,580 Q355,550 350,460 Q345,380 400,270Z" fill="#F4D35E"/>
+
+  <!-- Inner bright core -->
+  <path d="M400,340 Q430,410 428,460 Q425,510 400,530 Q375,510 372,460 Q370,410 400,340Z" fill="#FFF" opacity="0.9"/>
+
+  <!-- Left flame lick -->
+  <path d="M340,400 Q300,300 310,200 Q320,280 350,350Z" fill="#E63946" opacity="0.6"/>
+  <path d="M345,420 Q310,340 320,260 Q330,320 355,390Z" fill="#E9C46A" opacity="0.5"/>
+
+  <!-- Right flame lick -->
+  <path d="M460,400 Q500,300 490,200 Q480,280 450,350Z" fill="#E63946" opacity="0.6"/>
+  <path d="M455,420 Q490,340 480,260 Q470,320 445,390Z" fill="#E9C46A" opacity="0.5"/>
+
+  <!-- Geometric triangle overlays - Bauhaus style -->
+  <polygon points="400,120 440,250 360,250" fill="#F4D35E" opacity="0.3"/>
+  <polygon points="400,220 460,380 340,380" fill="#E9C46A" opacity="0.25"/>
+  <polygon points="400,320 435,430 365,430" fill="#FFF" opacity="0.2"/>
+
+  <!-- Sparks / embers rising -->
+  <circle cx="350" cy="150" r="3" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="430" cy="120" r="2" fill="#E9C46A" opacity="0.7"/>
+  <circle cx="370" cy="100" r="2.5" fill="#E63946" opacity="0.6"/>
+  <circle cx="450" cy="170" r="2" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="320" cy="180" r="3" fill="#E63946" opacity="0.4"/>
+  <circle cx="410" cy="90" r="1.5" fill="#FFF" opacity="0.6"/>
+
+  <!-- Base embers -->
+  <circle cx="340" cy="720" r="4" fill="#E63946" opacity="0.7"/>
+  <circle cx="400" cy="710" r="5" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="460" cy="720" r="4" fill="#E63946" opacity="0.7"/>
+  <circle cx="370" cy="730" r="3" fill="#E9C46A" opacity="0.5"/>
+  <circle cx="430" cy="730" r="3" fill="#E9C46A" opacity="0.5"/>
+
+  <!-- Geometric side accents -->
+  <rect x="180" y="600" width="40" height="6" fill="#1D3557" opacity="0.5"/>
+  <rect x="580" y="600" width="40" height="6" fill="#1D3557" opacity="0.5"/>
+  <rect x="160" y="620" width="60" height="4" fill="#A89F91" opacity="0.4"/>
+  <rect x="580" y="620" width="60" height="4" fill="#A89F91" opacity="0.4"/>
+</svg>

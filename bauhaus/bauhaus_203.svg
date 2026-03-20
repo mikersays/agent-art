@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#457B9D"/>
+  <!-- Sky gradient effect -->
+  <rect x="0" y="0" width="800" height="300" fill="#1D3557"/>
+  <!-- Mountains background -->
+  <polygon points="0,500 200,200 400,450" fill="#1D3557"/>
+  <polygon points="150,500 400,150 650,500" fill="#000" opacity="0.6"/>
+  <polygon points="400,500 600,220 800,500" fill="#1D3557"/>
+  <polygon points="500,500 700,250 800,400 800,500" fill="#000" opacity="0.5"/>
+  <!-- Snow caps -->
+  <polygon points="350,180 400,150 450,180" fill="#FFF"/>
+  <polygon points="570,245 600,220 630,245" fill="#FFF"/>
+  <!-- Ground -->
+  <rect x="0" y="500" width="800" height="300" fill="#2A9D8F"/>
+  <!-- Rail bed / track going diagonal uphill -->
+  <polygon points="0,750 0,700 550,350 600,350 800,480 800,530" fill="#000" opacity="0.3"/>
+  <!-- Rail ties (cross pieces) -->
+  <rect x="50" y="700" width="60" height="12" fill="#E76F51" transform="rotate(-25,80,706)"/>
+  <rect x="130" y="660" width="60" height="12" fill="#E76F51" transform="rotate(-25,160,666)"/>
+  <rect x="210" y="620" width="60" height="12" fill="#E76F51" transform="rotate(-25,240,626)"/>
+  <rect x="290" y="580" width="60" height="12" fill="#E76F51" transform="rotate(-25,320,586)"/>
+  <rect x="370" y="540" width="60" height="12" fill="#E76F51" transform="rotate(-25,400,546)"/>
+  <rect x="450" y="500" width="60" height="12" fill="#E76F51" transform="rotate(-25,480,506)"/>
+  <rect x="530" y="460" width="60" height="12" fill="#E76F51" transform="rotate(-18,560,466)"/>
+  <!-- Rail lines -->
+  <line x1="0" y1="720" x2="560" y2="365" stroke="#000" stroke-width="4"/>
+  <line x1="0" y1="740" x2="580" y2="380" stroke="#000" stroke-width="4"/>
+  <!-- Cog teeth on rail -->
+  <polygon points="60,725 70,715 80,725" fill="#F4D35E"/>
+  <polygon points="110,700 120,690 130,700" fill="#F4D35E"/>
+  <polygon points="160,675 170,665 180,675" fill="#F4D35E"/>
+  <polygon points="210,650 220,640 230,650" fill="#F4D35E"/>
+  <polygon points="260,625 270,615 280,625" fill="#F4D35E"/>
+  <polygon points="310,600 320,590 330,600" fill="#F4D35E"/>
+  <polygon points="360,575 370,565 380,575" fill="#F4D35E"/>
+  <polygon points="410,550 420,540 430,550" fill="#F4D35E"/>
+  <polygon points="460,525 470,515 480,525" fill="#F4D35E"/>
+  <!-- Train car body -->
+  <g transform="rotate(-25,350,560)">
+    <rect x="280" y="520" width="140" height="70" fill="#E63946" rx="5"/>
+    <!-- Windows -->
+    <rect x="295" y="530" width="25" height="25" fill="#F4D35E" rx="2"/>
+    <rect x="330" y="530" width="25" height="25" fill="#F4D35E" rx="2"/>
+    <rect x="365" y="530" width="25" height="25" fill="#F4D35E" rx="2"/>
+    <!-- Roof -->
+    <rect x="275" y="515" width="150" height="10" fill="#000" rx="5"/>
+    <!-- Wheels -->
+    <circle cx="305" cy="595" r="12" fill="#000"/>
+    <circle cx="305" cy="595" r="5" fill="#FFF"/>
+    <circle cx="395" cy="595" r="12" fill="#000"/>
+    <circle cx="395" cy="595" r="5" fill="#FFF"/>
+    <!-- Cog wheel -->
+    <circle cx="350" cy="595" r="10" fill="#F4D35E"/>
+    <circle cx="350" cy="595" r="4" fill="#000"/>
+  </g>
+  <!-- Sun -->
+  <circle cx="680" cy="100" r="50" fill="#F4D35E"/>
+  <!-- Sun rays -->
+  <line x1="680" y1="30" x2="680" y2="10" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="730" y1="50" x2="750" y2="35" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="750" y1="100" x2="770" y2="100" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="630" y1="50" x2="610" y2="35" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="610" y1="100" x2="590" y2="100" stroke="#F4D35E" stroke-width="4"/>
+</svg>

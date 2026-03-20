@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Metronome Row</title>
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Base platform -->
+  <rect x="20" y="620" width="760" height="30" fill="#000"/>
+  <rect x="20" y="650" width="760" height="15" fill="#A89F91"/>
+
+  <!-- Metronome 1 - arm at -40deg -->
+  <g transform="translate(100, 400)">
+    <polygon points="-45,220 45,220 25,-180 -25,-180" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <rect x="-50" y="200" width="100" height="20" fill="#000"/>
+    <circle cx="0" cy="0" r="8" fill="#000"/>
+    <line x1="0" y1="0" x2="-80" y2="-200" stroke="#E63946" stroke-width="4"/>
+    <circle cx="-80" cy="-200" r="10" fill="#E63946"/>
+    <rect x="-15" y="100" width="30" height="40" fill="#F4D35E"/>
+    <circle cx="0" cy="220" r="6" fill="#E9C46A"/>
+  </g>
+
+  <!-- Metronome 2 - arm at -20deg -->
+  <g transform="translate(250, 400)">
+    <polygon points="-45,220 45,220 25,-180 -25,-180" fill="#264653" stroke="#000" stroke-width="2"/>
+    <rect x="-50" y="200" width="100" height="20" fill="#000"/>
+    <circle cx="0" cy="0" r="8" fill="#000"/>
+    <line x1="0" y1="0" x2="-40" y2="-210" stroke="#E63946" stroke-width="4"/>
+    <circle cx="-40" cy="-210" r="10" fill="#F4D35E"/>
+    <rect x="-15" y="100" width="30" height="40" fill="#E63946"/>
+    <circle cx="0" cy="220" r="6" fill="#E9C46A"/>
+  </g>
+
+  <!-- Metronome 3 - arm at 0deg (center) -->
+  <g transform="translate(400, 400)">
+    <polygon points="-45,220 45,220 25,-180 -25,-180" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <rect x="-50" y="200" width="100" height="20" fill="#000"/>
+    <circle cx="0" cy="0" r="8" fill="#000"/>
+    <line x1="0" y1="0" x2="0" y2="-220" stroke="#E63946" stroke-width="4"/>
+    <circle cx="0" cy="-220" r="10" fill="#E63946"/>
+    <rect x="-15" y="100" width="30" height="40" fill="#E9C46A"/>
+    <circle cx="0" cy="220" r="6" fill="#E9C46A"/>
+  </g>
+
+  <!-- Metronome 4 - arm at +20deg -->
+  <g transform="translate(550, 400)">
+    <polygon points="-45,220 45,220 25,-180 -25,-180" fill="#264653" stroke="#000" stroke-width="2"/>
+    <rect x="-50" y="200" width="100" height="20" fill="#000"/>
+    <circle cx="0" cy="0" r="8" fill="#000"/>
+    <line x1="0" y1="0" x2="40" y2="-210" stroke="#E63946" stroke-width="4"/>
+    <circle cx="40" cy="-210" r="10" fill="#F4D35E"/>
+    <rect x="-15" y="100" width="30" height="40" fill="#E63946"/>
+    <circle cx="0" cy="220" r="6" fill="#E9C46A"/>
+  </g>
+
+  <!-- Metronome 5 - arm at +40deg -->
+  <g transform="translate(700, 400)">
+    <polygon points="-45,220 45,220 25,-180 -25,-180" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <rect x="-50" y="200" width="100" height="20" fill="#000"/>
+    <circle cx="0" cy="0" r="8" fill="#000"/>
+    <line x1="0" y1="0" x2="80" y2="-200" stroke="#E63946" stroke-width="4"/>
+    <circle cx="80" cy="-200" r="10" fill="#E63946"/>
+    <rect x="-15" y="100" width="30" height="40" fill="#F4D35E"/>
+    <circle cx="0" cy="220" r="6" fill="#E9C46A"/>
+  </g>
+
+  <!-- Wave line connecting tips -->
+  <path d="M20,200 Q100,180 180,170 Q250,175 330,185 Q400,180 470,175 Q550,185 630,170 Q700,180 780,200" stroke="#F4D35E" stroke-width="3" fill="none" stroke-dasharray="8,4"/>
+
+  <!-- Decorative top bar -->
+  <rect x="50" y="40" width="700" height="8" fill="#E63946"/>
+  <rect x="50" y="55" width="700" height="4" fill="#000"/>
+
+  <!-- Small tick marks on base -->
+  <line x1="100" y1="665" x2="100" y2="680" stroke="#000" stroke-width="2"/>
+  <line x1="250" y1="665" x2="250" y2="680" stroke="#000" stroke-width="2"/>
+  <line x1="400" y1="665" x2="400" y2="680" stroke="#000" stroke-width="2"/>
+  <line x1="550" y1="665" x2="550" y2="680" stroke="#000" stroke-width="2"/>
+  <line x1="700" y1="665" x2="700" y2="680" stroke="#000" stroke-width="2"/>
+</svg>

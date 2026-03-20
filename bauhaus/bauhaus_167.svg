@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#000"/>
+
+  <!-- Outer eye shape (almond) -->
+  <ellipse cx="400" cy="400" rx="350" ry="200" fill="#FFF" stroke="#000" stroke-width="4"/>
+
+  <!-- Outermost iris ring -->
+  <circle cx="400" cy="400" r="180" fill="#1D3557"/>
+  <circle cx="400" cy="400" r="160" fill="#264653"/>
+  <circle cx="400" cy="400" r="140" fill="#1D3557"/>
+  <circle cx="400" cy="400" r="120" fill="#6D2E46"/>
+  <circle cx="400" cy="400" r="100" fill="#E63946"/>
+  <circle cx="400" cy="400" r="80" fill="#264653"/>
+  <circle cx="400" cy="400" r="60" fill="#1D3557"/>
+
+  <!-- Pupil -->
+  <circle cx="400" cy="400" r="40" fill="#000"/>
+  <!-- Pupil highlight -->
+  <circle cx="385" cy="385" r="12" fill="#FFF" opacity="0.7"/>
+
+  <!-- Radial fiber lines -->
+  <line x1="400" y1="220" x2="400" y2="340" stroke="#E9C46A" stroke-width="1.5" opacity="0.6"/>
+  <line x1="400" y1="460" x2="400" y2="580" stroke="#E9C46A" stroke-width="1.5" opacity="0.6"/>
+  <line x1="220" y1="400" x2="340" y2="400" stroke="#E9C46A" stroke-width="1.5" opacity="0.6"/>
+  <line x1="460" y1="400" x2="580" y2="400" stroke="#E9C46A" stroke-width="1.5" opacity="0.6"/>
+
+  <line x1="273" y1="273" x2="343" y2="343" stroke="#F4D35E" stroke-width="1" opacity="0.5"/>
+  <line x1="527" y1="273" x2="457" y2="343" stroke="#F4D35E" stroke-width="1" opacity="0.5"/>
+  <line x1="273" y1="527" x2="343" y2="457" stroke="#F4D35E" stroke-width="1" opacity="0.5"/>
+  <line x1="527" y1="527" x2="457" y2="457" stroke="#F4D35E" stroke-width="1" opacity="0.5"/>
+
+  <line x1="310" y1="240" x2="360" y2="345" stroke="#E9C46A" stroke-width="1" opacity="0.4"/>
+  <line x1="490" y1="240" x2="440" y2="345" stroke="#E9C46A" stroke-width="1" opacity="0.4"/>
+  <line x1="310" y1="560" x2="360" y2="455" stroke="#E9C46A" stroke-width="1" opacity="0.4"/>
+  <line x1="490" y1="560" x2="440" y2="455" stroke="#E9C46A" stroke-width="1" opacity="0.4"/>
+
+  <line x1="240" y1="310" x2="345" y2="360" stroke="#E9C46A" stroke-width="1" opacity="0.4"/>
+  <line x1="240" y1="490" x2="345" y2="440" stroke="#E9C46A" stroke-width="1" opacity="0.4"/>
+  <line x1="560" y1="310" x2="455" y2="360" stroke="#E9C46A" stroke-width="1" opacity="0.4"/>
+  <line x1="560" y1="490" x2="455" y2="440" stroke="#E9C46A" stroke-width="1" opacity="0.4"/>
+
+  <!-- Additional radial fibers for density -->
+  <line x1="250" y1="340" x2="348" y2="378" stroke="#F4D35E" stroke-width="0.8" opacity="0.35"/>
+  <line x1="250" y1="460" x2="348" y2="422" stroke="#F4D35E" stroke-width="0.8" opacity="0.35"/>
+  <line x1="550" y1="340" x2="452" y2="378" stroke="#F4D35E" stroke-width="0.8" opacity="0.35"/>
+  <line x1="550" y1="460" x2="452" y2="422" stroke="#F4D35E" stroke-width="0.8" opacity="0.35"/>
+  <line x1="340" y1="250" x2="378" y2="348" stroke="#F4D35E" stroke-width="0.8" opacity="0.35"/>
+  <line x1="460" y1="250" x2="422" y2="348" stroke="#F4D35E" stroke-width="0.8" opacity="0.35"/>
+  <line x1="340" y1="550" x2="378" y2="452" stroke="#F4D35E" stroke-width="0.8" opacity="0.35"/>
+  <line x1="460" y1="550" x2="422" y2="452" stroke="#F4D35E" stroke-width="0.8" opacity="0.35"/>
+
+  <!-- Upper and lower eyelid arcs -->
+  <path d="M50,400 Q400,100 750,400" fill="#000" stroke="#E63946" stroke-width="3"/>
+  <path d="M50,400 Q400,700 750,400" fill="#000" stroke="#E63946" stroke-width="3"/>
+
+  <!-- Corner accent triangles -->
+  <polygon points="0,0 100,0 0,100" fill="#E63946"/>
+  <polygon points="800,0 700,0 800,100" fill="#1D3557"/>
+  <polygon points="0,800 100,800 0,700" fill="#1D3557"/>
+  <polygon points="800,800 700,800 800,700" fill="#E63946"/>
+</svg>

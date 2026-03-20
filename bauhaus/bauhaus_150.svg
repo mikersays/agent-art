@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Ship Hull</title>
+  <!-- Background - sky -->
+  <rect width="800" height="400" fill="#FFF"/>
+  <!-- Background - water -->
+  <rect x="0" y="400" width="800" height="400" fill="#1D3557"/>
+
+  <!-- Waterline -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000" stroke-width="3"/>
+  <line x1="0" y1="404" x2="800" y2="404" stroke="#E63946" stroke-width="2"/>
+
+  <!-- Hull outer shell -->
+  <path d="M100,400 Q120,650 400,720 Q680,650 700,400Z" fill="#264653" stroke="#000" stroke-width="3"/>
+
+  <!-- Hull inner layer -->
+  <path d="M140,400 Q155,600 400,670 Q645,600 660,400Z" fill="#1D3557" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Keel (center bottom spine) -->
+  <line x1="400" y1="400" x2="400" y2="720" stroke="#000" stroke-width="8"/>
+  <line x1="400" y1="400" x2="400" y2="720" stroke="#E63946" stroke-width="4"/>
+
+  <!-- Keel foot -->
+  <polygon points="390,710 410,710 405,735 395,735" fill="#000"/>
+
+  <!-- Rib 1 - left -->
+  <path d="M180,400 Q190,520 400,560" fill="none" stroke="#E9C46A" stroke-width="4"/>
+  <!-- Rib 1 - right -->
+  <path d="M620,400 Q610,520 400,560" fill="none" stroke="#E9C46A" stroke-width="4"/>
+
+  <!-- Rib 2 - left -->
+  <path d="M200,400 Q210,560 400,610" fill="none" stroke="#F4D35E" stroke-width="4"/>
+  <!-- Rib 2 - right -->
+  <path d="M600,400 Q590,560 400,610" fill="none" stroke="#F4D35E" stroke-width="4"/>
+
+  <!-- Rib 3 - left -->
+  <path d="M230,400 Q240,590 400,650" fill="none" stroke="#E9C46A" stroke-width="4"/>
+  <!-- Rib 3 - right -->
+  <path d="M570,400 Q560,590 400,650" fill="none" stroke="#E9C46A" stroke-width="4"/>
+
+  <!-- Rib 4 - left (innermost) -->
+  <path d="M270,400 Q280,600 400,680" fill="none" stroke="#A89F91" stroke-width="3"/>
+  <!-- Rib 4 - right -->
+  <path d="M530,400 Q520,600 400,680" fill="none" stroke="#A89F91" stroke-width="3"/>
+
+  <!-- Deck line (top of hull at waterline) -->
+  <rect x="90" y="390" width="620" height="15" fill="#E9C46A" stroke="#000" stroke-width="2"/>
+
+  <!-- Deck planking lines -->
+  <line x1="100" y1="395" x2="700" y2="395" stroke="#000" stroke-width="0.5"/>
+  <line x1="100" y1="399" x2="700" y2="399" stroke="#000" stroke-width="0.5"/>
+
+  <!-- Above-water superstructure hint -->
+  <rect x="300" y="330" width="200" height="60" fill="#A89F91" stroke="#000" stroke-width="2"/>
+  <rect x="340" y="300" width="120" height="30" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <rect x="380" y="270" width="40" height="30" fill="#E63946" stroke="#000" stroke-width="2"/>
+
+  <!-- Mast -->
+  <line x1="400" y1="120" x2="400" y2="300" stroke="#000" stroke-width="4"/>
+  <circle cx="400" cy="120" r="6" fill="#E63946"/>
+
+  <!-- Flag -->
+  <polygon points="400,130 450,145 400,160" fill="#F4D35E" stroke="#000" stroke-width="1"/>
+
+  <!-- Water ripple lines -->
+  <path d="M0,420 Q50,415 100,420 Q150,425 200,420 Q250,415 300,420 Q350,425 400,420 Q450,415 500,420 Q550,425 600,420 Q650,415 700,420 Q750,425 800,420" fill="none" stroke="#FFF" stroke-width="1.5" opacity="0.4"/>
+  <path d="M0,450 Q60,443 120,450 Q180,457 240,450 Q300,443 360,450 Q420,457 480,450 Q540,443 600,450 Q660,457 720,450 Q780,443 800,450" fill="none" stroke="#FFF" stroke-width="1" opacity="0.3"/>
+  <path d="M0,490 Q70,483 140,490 Q210,497 280,490 Q350,483 420,490 Q490,497 560,490 Q630,483 700,490 Q770,497 800,490" fill="none" stroke="#FFF" stroke-width="1" opacity="0.2"/>
+
+  <!-- Port holes on hull -->
+  <circle cx="250" cy="420" r="8" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="330" cy="430" r="8" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="470" cy="430" r="8" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="550" cy="420" r="8" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+</svg>

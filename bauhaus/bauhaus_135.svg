@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Nautilus shell - logarithmic spiral built from quarter-circle arcs with colored chambers -->
+  <!-- The spiral is centered around approximately (420, 420), built outward -->
+
+  <!-- Outermost chamber (largest quarter-circle arc) -->
+  <path d="M420,420 L420,100 A320,320 0 0,1 740,420 Z" fill="#E63946" opacity="0.7"/>
+  <path d="M420,420 L420,100 A320,320 0 0,1 740,420" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Second chamber -->
+  <path d="M420,420 L740,420 A320,320 0 0,1 420,740 Z" fill="#1D3557" opacity="0.6"/>
+  <path d="M420,420 L740,420 A320,320 0 0,1 420,740" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Third chamber -->
+  <path d="M420,420 L420,740 A320,320 0 0,1 100,420 Z" fill="#F4D35E" opacity="0.7"/>
+  <path d="M420,420 L420,740 A320,320 0 0,1 100,420" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Fourth chamber (scaling down) -->
+  <path d="M420,420 L100,420 A200,200 0 0,1 420,220 Z" fill="#E76F51" opacity="0.6"/>
+  <path d="M420,420 L100,420 A200,200 0 0,1 420,220" fill="none" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Fifth chamber -->
+  <path d="M420,420 L420,220 A125,125 0 0,1 545,420 Z" fill="#A8DADC" opacity="0.7"/>
+  <path d="M420,420 L420,220 A125,125 0 0,1 545,420" fill="none" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Sixth chamber -->
+  <path d="M420,420 L545,420 A80,80 0 0,1 420,500 Z" fill="#E63946" opacity="0.5"/>
+  <path d="M420,420 L545,420 A80,80 0 0,1 420,500" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Seventh chamber -->
+  <path d="M420,420 L420,500 A50,50 0 0,1 370,420 Z" fill="#1D3557" opacity="0.5"/>
+  <path d="M420,420 L420,500 A50,50 0 0,1 370,420" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Eighth chamber -->
+  <path d="M420,420 L370,420 A32,32 0 0,1 420,388 Z" fill="#F4D35E" opacity="0.6"/>
+  <path d="M420,420 L370,420 A32,32 0 0,1 420,388" fill="none" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Ninth chamber -->
+  <path d="M420,420 L420,388 A20,20 0 0,1 440,420 Z" fill="#E76F51" opacity="0.5"/>
+  <path d="M420,420 L420,388 A20,20 0 0,1 440,420" fill="none" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Tenth (innermost) chamber -->
+  <path d="M420,420 L440,420 A12,12 0 0,1 420,432 Z" fill="#333" opacity="0.6"/>
+  <path d="M420,420 L440,420 A12,12 0 0,1 420,432" fill="none" stroke="#000" stroke-width="1"/>
+
+  <!-- Center point -->
+  <circle cx="420" cy="420" r="4" fill="#000"/>
+
+  <!-- Radial separator lines for chambers -->
+  <line x1="420" y1="420" x2="420" y2="100" stroke="#000" stroke-width="2"/>
+  <line x1="420" y1="420" x2="740" y2="420" stroke="#000" stroke-width="2"/>
+  <line x1="420" y1="420" x2="420" y2="740" stroke="#000" stroke-width="2"/>
+  <line x1="420" y1="420" x2="100" y2="420" stroke="#000" stroke-width="2"/>
+  <line x1="420" y1="420" x2="420" y2="220" stroke="#000" stroke-width="1.5"/>
+  <line x1="420" y1="420" x2="545" y2="420" stroke="#000" stroke-width="1.5"/>
+  <line x1="420" y1="420" x2="420" y2="500" stroke="#000" stroke-width="1.5"/>
+  <line x1="420" y1="420" x2="370" y2="420" stroke="#000" stroke-width="1"/>
+  <line x1="420" y1="420" x2="420" y2="388" stroke="#000" stroke-width="1"/>
+  <line x1="420" y1="420" x2="440" y2="420" stroke="#000" stroke-width="1"/>
+
+  <!-- Golden ratio reference dots along spiral -->
+  <circle cx="420" cy="100" r="5" fill="#E63946"/>
+  <circle cx="740" cy="420" r="5" fill="#1D3557"/>
+  <circle cx="420" cy="740" r="5" fill="#F4D35E"/>
+  <circle cx="100" cy="420" r="5" fill="#E76F51"/>
+  <circle cx="420" cy="220" r="4" fill="#A8DADC" stroke="#000" stroke-width="1"/>
+  <circle cx="545" cy="420" r="4" fill="#E63946" stroke="#000" stroke-width="1"/>
+
+  <!-- Decorative Bauhaus corner elements -->
+  <rect x="30" y="30" width="50" height="50" fill="#E63946" opacity="0.3"/>
+  <rect x="720" y="30" width="50" height="50" fill="#1D3557" opacity="0.3"/>
+  <rect x="30" y="720" width="50" height="50" fill="#F4D35E" opacity="0.3"/>
+  <rect x="720" y="720" width="50" height="50" fill="#333" opacity="0.3"/>
+
+  <!-- Border -->
+  <rect x="6" y="6" width="788" height="788" fill="none" stroke="#000" stroke-width="4"/>
+</svg>

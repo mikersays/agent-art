@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+  <!-- Top mounting bar -->
+  <rect x="50" y="60" width="700" height="16" rx="4" fill="#000"/>
+  <rect x="50" y="60" width="700" height="8" rx="4" fill="#457B9D"/>
+  <!-- Support brackets -->
+  <rect x="80" y="40" width="12" height="36" fill="#000"/>
+  <rect x="708" y="40" width="12" height="36" fill="#000"/>
+  <!-- Pendulum 1 - length 180 -->
+  <line x1="110" y1="68" x2="95" y2="248" stroke="#FFF" stroke-width="2.5"/>
+  <circle cx="95" cy="258" r="20" fill="#E63946"/>
+  <!-- Pendulum 2 - length 210 -->
+  <line x1="165" y1="68" x2="145" y2="278" stroke="#FFF" stroke-width="2.5"/>
+  <circle cx="145" cy="288" r="20" fill="#F4D35E"/>
+  <!-- Pendulum 3 - length 240 -->
+  <line x1="220" y1="68" x2="198" y2="308" stroke="#FFF" stroke-width="2.5"/>
+  <circle cx="198" cy="318" r="20" fill="#2A9D8F"/>
+  <!-- Pendulum 4 - length 270 -->
+  <line x1="275" y1="68" x2="258" y2="338" stroke="#FFF" stroke-width="2.5"/>
+  <circle cx="258" cy="348" r="20" fill="#E76F51"/>
+  <!-- Pendulum 5 - length 300 -->
+  <line x1="330" y1="68" x2="322" y2="368" stroke="#FFF" stroke-width="2.5"/>
+  <circle cx="322" cy="378" r="20" fill="#E63946"/>
+  <!-- Pendulum 6 - length 330 -->
+  <line x1="385" y1="68" x2="385" y2="398" stroke="#FFF" stroke-width="2.5"/>
+  <circle cx="385" cy="408" r="20" fill="#F4D35E"/>
+  <!-- Pendulum 7 - length 360 -->
+  <line x1="440" y1="68" x2="448" y2="428" stroke="#FFF" stroke-width="2.5"/>
+  <circle cx="448" cy="438" r="20" fill="#457B9D"/>
+  <!-- Pendulum 8 - length 390 -->
+  <line x1="495" y1="68" x2="510" y2="458" stroke="#FFF" stroke-width="2.5"/>
+  <circle cx="510" cy="468" r="20" fill="#2A9D8F"/>
+  <!-- Pendulum 9 - length 420 -->
+  <line x1="550" y1="68" x2="570" y2="488" stroke="#FFF" stroke-width="2.5"/>
+  <circle cx="570" cy="498" r="20" fill="#E76F51"/>
+  <!-- Pendulum 10 - length 450 -->
+  <line x1="605" y1="68" x2="628" y2="518" stroke="#FFF" stroke-width="2.5"/>
+  <circle cx="628" cy="528" r="20" fill="#E63946"/>
+  <!-- Pendulum 11 - length 480 -->
+  <line x1="660" y1="68" x2="682" y2="548" stroke="#FFF" stroke-width="2.5"/>
+  <circle cx="682" cy="558" r="20" fill="#F4D35E"/>
+  <!-- Pendulum 12 - length 510 -->
+  <line x1="715" y1="68" x2="732" y2="578" stroke="#FFF" stroke-width="2.5"/>
+  <circle cx="732" cy="588" r="20" fill="#2A9D8F"/>
+  <!-- Wave guide curve connecting bobs -->
+  <path d="M95,258 C120,273 130,288 145,288 C160,288 175,308 198,318 C220,328 240,338 258,348 C276,358 300,368 322,378 C344,388 365,398 385,408 C405,418 425,428 448,438 C470,448 490,458 510,468 C530,478 550,488 570,498 C590,508 610,518 628,528 C646,538 662,548 682,558 C702,568 715,578 732,588" fill="none" stroke="#F4D35E" stroke-width="2" stroke-dasharray="6,4" opacity="0.5"/>
+  <!-- Shadow/reflection on floor -->
+  <ellipse cx="400" cy="720" rx="320" ry="15" fill="#000" opacity="0.3"/>
+  <!-- Floor line -->
+  <line x1="40" y1="700" x2="760" y2="700" stroke="#457B9D" stroke-width="2"/>
+  <!-- Pivot dots at top -->
+  <circle cx="110" cy="68" r="4" fill="#F4D35E"/>
+  <circle cx="165" cy="68" r="4" fill="#F4D35E"/>
+  <circle cx="220" cy="68" r="4" fill="#F4D35E"/>
+  <circle cx="275" cy="68" r="4" fill="#F4D35E"/>
+  <circle cx="330" cy="68" r="4" fill="#F4D35E"/>
+  <circle cx="385" cy="68" r="4" fill="#F4D35E"/>
+  <circle cx="440" cy="68" r="4" fill="#F4D35E"/>
+  <circle cx="495" cy="68" r="4" fill="#F4D35E"/>
+  <circle cx="550" cy="68" r="4" fill="#F4D35E"/>
+  <circle cx="605" cy="68" r="4" fill="#F4D35E"/>
+  <circle cx="660" cy="68" r="4" fill="#F4D35E"/>
+  <circle cx="715" cy="68" r="4" fill="#F4D35E"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#000"/>
+  <!-- Outer turbine ring -->
+  <circle cx="400" cy="400" r="320" fill="none" stroke="#457B9D" stroke-width="12"/>
+  <circle cx="400" cy="400" r="280" fill="none" stroke="#1D3557" stroke-width="6"/>
+  <!-- Turbine blades - curved segments using arcs -->
+  <path d="M400,400 L400,120 A280,280 0 0,1 640,260 Z" fill="#E63946" opacity="0.85"/>
+  <path d="M400,400 L640,260 A280,280 0 0,1 680,400 Z" fill="#F4D35E" opacity="0.85"/>
+  <path d="M400,400 L680,400 A280,280 0 0,1 640,540 Z" fill="#2A9D8F" opacity="0.85"/>
+  <path d="M400,400 L640,540 A280,280 0 0,1 400,680 Z" fill="#E76F51" opacity="0.85"/>
+  <path d="M400,400 L400,680 A280,280 0 0,1 160,540 Z" fill="#457B9D" opacity="0.85"/>
+  <path d="M400,400 L160,540 A280,280 0 0,1 120,400 Z" fill="#E63946" opacity="0.85"/>
+  <path d="M400,400 L120,400 A280,280 0 0,1 160,260 Z" fill="#F4D35E" opacity="0.85"/>
+  <path d="M400,400 L160,260 A280,280 0 0,1 400,120 Z" fill="#1D3557" opacity="0.85"/>
+  <!-- Blade separator lines -->
+  <line x1="400" y1="400" x2="400" y2="120" stroke="#000" stroke-width="3"/>
+  <line x1="400" y1="400" x2="640" y2="260" stroke="#000" stroke-width="3"/>
+  <line x1="400" y1="400" x2="680" y2="400" stroke="#000" stroke-width="3"/>
+  <line x1="400" y1="400" x2="640" y2="540" stroke="#000" stroke-width="3"/>
+  <line x1="400" y1="400" x2="400" y2="680" stroke="#000" stroke-width="3"/>
+  <line x1="400" y1="400" x2="160" y2="540" stroke="#000" stroke-width="3"/>
+  <line x1="400" y1="400" x2="120" y2="400" stroke="#000" stroke-width="3"/>
+  <line x1="400" y1="400" x2="160" y2="260" stroke="#000" stroke-width="3"/>
+  <!-- Central hub -->
+  <circle cx="400" cy="400" r="60" fill="#1D3557" stroke="#F4D35E" stroke-width="4"/>
+  <circle cx="400" cy="400" r="35" fill="#E63946"/>
+  <circle cx="400" cy="400" r="15" fill="#000" stroke="#FFF" stroke-width="2"/>
+  <!-- Motion arcs -->
+  <path d="M100,100 A420,420 0 0,1 300,55" fill="none" stroke="#F4D35E" stroke-width="3" stroke-dasharray="8,6"/>
+  <path d="M700,100 A420,420 0 0,0 500,55" fill="none" stroke="#E63946" stroke-width="3" stroke-dasharray="8,6"/>
+  <path d="M100,700 A420,420 0 0,0 300,745" fill="none" stroke="#2A9D8F" stroke-width="3" stroke-dasharray="8,6"/>
+  <path d="M700,700 A420,420 0 0,1 500,745" fill="none" stroke="#E76F51" stroke-width="3" stroke-dasharray="8,6"/>
+  <!-- Speed dots -->
+  <circle cx="80" cy="200" r="5" fill="#F4D35E"/>
+  <circle cx="60" cy="250" r="4" fill="#F4D35E"/>
+  <circle cx="50" cy="300" r="3" fill="#F4D35E"/>
+  <circle cx="720" cy="200" r="5" fill="#E63946"/>
+  <circle cx="740" cy="250" r="4" fill="#E63946"/>
+  <circle cx="750" cy="300" r="3" fill="#E63946"/>
+</svg>

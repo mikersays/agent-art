@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#DDA15E"/>
+  <!-- Wall texture -->
+  <rect x="0" y="0" width="800" height="800" fill="#DDA15E" opacity="0.9"/>
+  <!-- Window frame outer -->
+  <rect x="150" y="100" width="500" height="650" rx="5" fill="#333"/>
+  <!-- Window recess -->
+  <rect x="165" y="115" width="470" height="620" rx="3" fill="#1D3557" opacity="0.3"/>
+  <!-- Main arch top -->
+  <path d="M180 400 L180 200 Q400 50, 620 200 L620 400" fill="#1D3557" opacity="0.4"/>
+  <!-- Arch frame -->
+  <path d="M180 400 L180 200 Q400 50, 620 200 L620 400" fill="none" stroke="#333" stroke-width="8"/>
+  <!-- Center arch divider (mullion) -->
+  <rect x="394" y="130" width="12" height="590" fill="#333"/>
+  <!-- Horizontal transom bar -->
+  <rect x="180" y="395" width="440" height="12" fill="#333"/>
+  <!-- Left panel lower -->
+  <rect x="180" y="407" width="214" height="310" fill="#A8DADC" opacity="0.6"/>
+  <!-- Right panel lower -->
+  <rect x="406" y="407" width="214" height="310" fill="#A8DADC" opacity="0.6"/>
+  <!-- Left arch glass - colored -->
+  <path d="M188 395 L188 210 Q400 70, 394 200 L394 395 Z" fill="#E63946" opacity="0.35"/>
+  <!-- Right arch glass - colored -->
+  <path d="M406 395 L406 200 Q400 70, 612 210 L612 395 Z" fill="#1D3557" opacity="0.35"/>
+  <!-- Tracery: small arch left -->
+  <path d="M188 395 L188 300 Q290 240, 394 300 L394 395" fill="none" stroke="#333" stroke-width="5"/>
+  <!-- Tracery: small arch right -->
+  <path d="M406 395 L406 300 Q510 240, 612 300 L612 395" fill="none" stroke="#333" stroke-width="5"/>
+  <!-- Tracery circle left -->
+  <circle cx="291" cy="220" r="40" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="291" cy="220" r="40" fill="none" stroke="#333" stroke-width="4"/>
+  <!-- Tracery circle right -->
+  <circle cx="509" cy="220" r="40" fill="#E63946" opacity="0.4"/>
+  <circle cx="509" cy="220" r="40" fill="none" stroke="#333" stroke-width="4"/>
+  <!-- Top rosette circle -->
+  <circle cx="400" cy="150" r="35" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="400" cy="150" r="35" fill="none" stroke="#333" stroke-width="4"/>
+  <!-- Inner rosette pattern -->
+  <circle cx="400" cy="150" r="18" fill="#E63946" opacity="0.5"/>
+  <circle cx="400" cy="150" r="8" fill="#FFF" opacity="0.7"/>
+  <!-- Tracery trefoil shapes -->
+  <circle cx="291" cy="220" r="18" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="509" cy="220" r="18" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- Lower window panes - left column -->
+  <rect x="188" y="415" width="95" height="140" fill="#A8DADC" opacity="0.5"/>
+  <rect x="188" y="415" width="95" height="140" fill="none" stroke="#333" stroke-width="3"/>
+  <rect x="295" y="415" width="95" height="140" fill="#F4D35E" opacity="0.3"/>
+  <rect x="295" y="415" width="95" height="140" fill="none" stroke="#333" stroke-width="3"/>
+  <!-- Lower window panes - right column -->
+  <rect x="410" y="415" width="95" height="140" fill="#E63946" opacity="0.25"/>
+  <rect x="410" y="415" width="95" height="140" fill="none" stroke="#333" stroke-width="3"/>
+  <rect x="517" y="415" width="95" height="140" fill="#1D3557" opacity="0.3"/>
+  <rect x="517" y="415" width="95" height="140" fill="none" stroke="#333" stroke-width="3"/>
+  <!-- Lower second row panes -->
+  <rect x="188" y="567" width="95" height="140" fill="#1D3557" opacity="0.3"/>
+  <rect x="188" y="567" width="95" height="140" fill="none" stroke="#333" stroke-width="3"/>
+  <rect x="295" y="567" width="95" height="140" fill="#A8DADC" opacity="0.5"/>
+  <rect x="295" y="567" width="95" height="140" fill="none" stroke="#333" stroke-width="3"/>
+  <rect x="410" y="567" width="95" height="140" fill="#F4D35E" opacity="0.3"/>
+  <rect x="410" y="567" width="95" height="140" fill="none" stroke="#333" stroke-width="3"/>
+  <rect x="517" y="567" width="95" height="140" fill="#E63946" opacity="0.25"/>
+  <rect x="517" y="567" width="95" height="140" fill="none" stroke="#333" stroke-width="3"/>
+  <!-- Sill -->
+  <rect x="140" y="720" width="520" height="20" fill="#333"/>
+  <rect x="135" y="735" width="530" height="12" fill="#000"/>
+  <!-- Decorative keystone -->
+  <polygon points="400,68 385,100 415,100" fill="#DDA15E"/>
+  <polygon points="400,68 385,100 415,100" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- Side columns -->
+  <rect x="155" y="120" width="20" height="615" fill="#333"/>
+  <rect x="625" y="120" width="20" height="615" fill="#333"/>
+  <!-- Column capitals -->
+  <rect x="148" y="110" width="34" height="15" fill="#333" rx="2"/>
+  <rect x="618" y="110" width="34" height="15" fill="#333" rx="2"/>
+</svg>

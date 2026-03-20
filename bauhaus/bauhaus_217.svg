@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Amphitheater II</title>
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Outer ring of seating -->
+  <circle cx="400" cy="400" r="370" fill="none" stroke="#DDA15E" stroke-width="30"/>
+  <circle cx="400" cy="400" r="340" fill="none" stroke="#333" stroke-width="4"/>
+  <circle cx="400" cy="400" r="355" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Second ring -->
+  <circle cx="400" cy="400" r="310" fill="none" stroke="#E76F51" stroke-width="25"/>
+  <circle cx="400" cy="400" r="295" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Third ring -->
+  <circle cx="400" cy="400" r="260" fill="none" stroke="#DDA15E" stroke-width="20"/>
+  <circle cx="400" cy="400" r="248" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Fourth ring -->
+  <circle cx="400" cy="400" r="220" fill="none" stroke="#E76F51" stroke-width="18"/>
+  <circle cx="400" cy="400" r="210" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Fifth ring -->
+  <circle cx="400" cy="400" r="185" fill="none" stroke="#DDA15E" stroke-width="16"/>
+  <circle cx="400" cy="400" r="176" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Inner ring -->
+  <circle cx="400" cy="400" r="155" fill="none" stroke="#333" stroke-width="14"/>
+  <circle cx="400" cy="400" r="147" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Stage / orchestra area -->
+  <circle cx="400" cy="400" r="120" fill="#F4D35E"/>
+  <circle cx="400" cy="400" r="80" fill="#E63946"/>
+  <circle cx="400" cy="400" r="40" fill="#000"/>
+  <circle cx="400" cy="400" r="12" fill="#FFF"/>
+
+  <!-- Radial aisles (8 aisles) -->
+  <line x1="400" y1="30" x2="400" y2="280" stroke="#1D3557" stroke-width="10"/>
+  <line x1="400" y1="520" x2="400" y2="770" stroke="#1D3557" stroke-width="10"/>
+  <line x1="30" y1="400" x2="280" y2="400" stroke="#1D3557" stroke-width="10"/>
+  <line x1="520" y1="400" x2="770" y2="400" stroke="#1D3557" stroke-width="10"/>
+
+  <line x1="138" y1="138" x2="312" y2="312" stroke="#1D3557" stroke-width="10"/>
+  <line x1="488" y1="488" x2="662" y2="662" stroke="#1D3557" stroke-width="10"/>
+  <line x1="662" y1="138" x2="488" y2="312" stroke="#1D3557" stroke-width="10"/>
+  <line x1="312" y1="488" x2="138" y2="662" stroke="#1D3557" stroke-width="10"/>
+
+  <!-- Entrance markers at outer ring -->
+  <rect x="393" y="22" width="14" height="20" fill="#FFF"/>
+  <rect x="393" y="758" width="14" height="20" fill="#FFF"/>
+  <rect x="22" y="393" width="20" height="14" fill="#FFF"/>
+  <rect x="758" y="393" width="20" height="14" fill="#FFF"/>
+
+  <!-- Diagonal entrance markers -->
+  <rect x="128" y="128" width="14" height="14" fill="#FFF" transform="rotate(45,135,135)"/>
+  <rect x="658" y="128" width="14" height="14" fill="#FFF" transform="rotate(45,665,135)"/>
+  <rect x="128" y="658" width="14" height="14" fill="#FFF" transform="rotate(45,135,665)"/>
+  <rect x="658" y="658" width="14" height="14" fill="#FFF" transform="rotate(45,665,665)"/>
+
+  <!-- Seat dots in outer ring -->
+  <circle cx="440" cy="45" r="4" fill="#FFF" opacity="0.5"/>
+  <circle cx="360" cy="45" r="4" fill="#FFF" opacity="0.5"/>
+  <circle cx="440" cy="755" r="4" fill="#FFF" opacity="0.5"/>
+  <circle cx="360" cy="755" r="4" fill="#FFF" opacity="0.5"/>
+  <circle cx="45" cy="440" r="4" fill="#FFF" opacity="0.5"/>
+  <circle cx="45" cy="360" r="4" fill="#FFF" opacity="0.5"/>
+  <circle cx="755" cy="440" r="4" fill="#FFF" opacity="0.5"/>
+  <circle cx="755" cy="360" r="4" fill="#FFF" opacity="0.5"/>
+</svg>

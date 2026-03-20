@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <!-- Background - pressed paper texture -->
+  <rect width="800" height="800" fill="#FFF"/>
+  <rect width="800" height="800" fill="#DDA15E" opacity="0.15"/>
+
+  <!-- Flower 1: Large center flower - red with yellow center -->
+  <ellipse cx="300" cy="280" rx="50" ry="25" fill="#E63946" transform="rotate(0, 300, 280)" opacity="0.85"/>
+  <ellipse cx="300" cy="280" rx="50" ry="25" fill="#E63946" transform="rotate(45, 300, 280)" opacity="0.85"/>
+  <ellipse cx="300" cy="280" rx="50" ry="25" fill="#E63946" transform="rotate(90, 300, 280)" opacity="0.85"/>
+  <ellipse cx="300" cy="280" rx="50" ry="25" fill="#E63946" transform="rotate(135, 300, 280)" opacity="0.85"/>
+  <circle cx="300" cy="280" r="20" fill="#F4D35E"/>
+  <circle cx="300" cy="280" r="10" fill="#DDA15E"/>
+
+  <!-- Flower 1 stem -->
+  <line x1="300" y1="330" x2="300" y2="480" stroke="#264653" stroke-width="5"/>
+  <!-- Leaves -->
+  <ellipse cx="280" cy="380" rx="25" ry="10" fill="#264653" transform="rotate(-30, 280, 380)"/>
+  <ellipse cx="320" cy="420" rx="25" ry="10" fill="#264653" transform="rotate(30, 320, 420)"/>
+
+  <!-- Flower 2: Blue flower top right -->
+  <ellipse cx="550" cy="200" rx="40" ry="18" fill="#1D3557" transform="rotate(0, 550, 200)" opacity="0.85"/>
+  <ellipse cx="550" cy="200" rx="40" ry="18" fill="#1D3557" transform="rotate(60, 550, 200)" opacity="0.85"/>
+  <ellipse cx="550" cy="200" rx="40" ry="18" fill="#1D3557" transform="rotate(120, 550, 200)" opacity="0.85"/>
+  <circle cx="550" cy="200" r="15" fill="#F4D35E"/>
+  <circle cx="550" cy="200" r="7" fill="#E63946"/>
+
+  <!-- Flower 2 stem -->
+  <line x1="550" y1="240" x2="530" y2="420" stroke="#264653" stroke-width="4"/>
+  <ellipse cx="520" cy="330" rx="20" ry="8" fill="#264653" transform="rotate(-45, 520, 330)"/>
+
+  <!-- Flower 3: Small burgundy daisy left -->
+  <circle cx="150" cy="450" r="18" fill="#6D2E46" opacity="0.8"/>
+  <circle cx="150" cy="415" r="15" fill="#6D2E46" opacity="0.8"/>
+  <circle cx="175" cy="430" r="15" fill="#6D2E46" opacity="0.8"/>
+  <circle cx="125" cy="430" r="15" fill="#6D2E46" opacity="0.8"/>
+  <circle cx="150" cy="465" r="15" fill="#6D2E46" opacity="0.8"/>
+  <circle cx="170" cy="460" r="15" fill="#6D2E46" opacity="0.8"/>
+  <circle cx="130" cy="460" r="15" fill="#6D2E46" opacity="0.8"/>
+  <circle cx="150" cy="445" r="12" fill="#DDA15E"/>
+
+  <!-- Flower 3 stem -->
+  <line x1="150" y1="480" x2="160" y2="600" stroke="#264653" stroke-width="4"/>
+
+  <!-- Flower 4: Yellow sunflower right -->
+  <ellipse cx="620" cy="450" rx="35" ry="14" fill="#F4D35E" transform="rotate(0, 620, 450)"/>
+  <ellipse cx="620" cy="450" rx="35" ry="14" fill="#F4D35E" transform="rotate(30, 620, 450)"/>
+  <ellipse cx="620" cy="450" rx="35" ry="14" fill="#F4D35E" transform="rotate(60, 620, 450)"/>
+  <ellipse cx="620" cy="450" rx="35" ry="14" fill="#F4D35E" transform="rotate(90, 620, 450)"/>
+  <ellipse cx="620" cy="450" rx="35" ry="14" fill="#F4D35E" transform="rotate(120, 620, 450)"/>
+  <ellipse cx="620" cy="450" rx="35" ry="14" fill="#F4D35E" transform="rotate(150, 620, 450)"/>
+  <circle cx="620" cy="450" r="22" fill="#6D2E46"/>
+  <circle cx="620" cy="450" r="12" fill="#000"/>
+
+  <!-- Flower 4 stem -->
+  <line x1="620" y1="490" x2="610" y2="650" stroke="#264653" stroke-width="5"/>
+  <ellipse cx="635" cy="550" rx="22" ry="9" fill="#264653" transform="rotate(25, 635, 550)"/>
+
+  <!-- Flower 5: Small geometric flower center-bottom -->
+  <circle cx="400" cy="580" r="12" fill="#E63946" transform="translate(0, -25)"/>
+  <circle cx="400" cy="580" r="12" fill="#E63946" transform="translate(0, 25)"/>
+  <circle cx="400" cy="580" r="12" fill="#E63946" transform="translate(25, 0)"/>
+  <circle cx="400" cy="580" r="12" fill="#E63946" transform="translate(-25, 0)"/>
+  <circle cx="400" cy="580" r="12" fill="#1D3557" transform="translate(18, -18)"/>
+  <circle cx="400" cy="580" r="12" fill="#1D3557" transform="translate(-18, -18)"/>
+  <circle cx="400" cy="580" r="12" fill="#1D3557" transform="translate(18, 18)"/>
+  <circle cx="400" cy="580" r="12" fill="#1D3557" transform="translate(-18, 18)"/>
+  <circle cx="400" cy="580" r="10" fill="#FFF"/>
+
+  <!-- Flower 5 stem -->
+  <line x1="400" y1="610" x2="400" y2="720" stroke="#264653" stroke-width="4"/>
+
+  <!-- Press frame borders - suggesting the press -->
+  <rect x="40" y="40" width="720" height="720" fill="none" stroke="#000" stroke-width="6"/>
+  <rect x="50" y="50" width="700" height="700" fill="none" stroke="#6D2E46" stroke-width="2"/>
+
+  <!-- Corner bolts of the press -->
+  <circle cx="55" cy="55" r="10" fill="#000"/>
+  <circle cx="745" cy="55" r="10" fill="#000"/>
+  <circle cx="55" cy="745" r="10" fill="#000"/>
+  <circle cx="745" cy="745" r="10" fill="#000"/>
+  <circle cx="55" cy="55" r="4" fill="#DDA15E"/>
+  <circle cx="745" cy="55" r="4" fill="#DDA15E"/>
+  <circle cx="55" cy="745" r="4" fill="#DDA15E"/>
+  <circle cx="745" cy="745" r="4" fill="#DDA15E"/>
+</svg>

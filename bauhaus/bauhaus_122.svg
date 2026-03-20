@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Two bold perpendicular crossing lines -->
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000" stroke-width="12"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000" stroke-width="12"/>
+  <!-- QUADRANT 1 (top-left): Circles composition -->
+  <circle cx="200" cy="200" r="120" fill="#E63946"/>
+  <circle cx="200" cy="200" r="80" fill="#FFF"/>
+  <circle cx="200" cy="200" r="45" fill="#1D3557"/>
+  <circle cx="120" cy="120" r="30" fill="#F4D35E"/>
+  <circle cx="300" cy="100" r="20" fill="#000"/>
+  <circle cx="80" cy="300" r="35" fill="#264653"/>
+  <!-- QUADRANT 2 (top-right): Rectangles/bars composition -->
+  <rect x="430" y="40" width="60" height="300" fill="#1D3557"/>
+  <rect x="520" y="80" width="60" height="260" fill="#E63946"/>
+  <rect x="610" y="120" width="60" height="220" fill="#F4D35E"/>
+  <rect x="700" y="160" width="60" height="180" fill="#000"/>
+  <rect x="450" y="300" width="300" height="20" fill="#6D2E46"/>
+  <rect x="450" y="50" width="300" height="20" fill="#264653"/>
+  <!-- QUADRANT 3 (bottom-left): Triangles composition -->
+  <polygon points="200,440 50,750 350,750" fill="#F4D35E"/>
+  <polygon points="200,500 120,700 280,700" fill="#000"/>
+  <polygon points="200,560 160,660 240,660" fill="#FFF"/>
+  <polygon points="60,430 60,550 150,550" fill="#E63946"/>
+  <polygon points="300,430 390,550 300,550" fill="#1D3557"/>
+  <polygon points="50,770 170,770 110,700" fill="#DDA15E"/>
+  <!-- QUADRANT 4 (bottom-right): Diagonal lines and diamonds -->
+  <line x1="420" y1="420" x2="790" y2="790" stroke="#E63946" stroke-width="8"/>
+  <line x1="420" y1="500" x2="710" y2="790" stroke="#1D3557" stroke-width="8"/>
+  <line x1="420" y1="580" x2="630" y2="790" stroke="#F4D35E" stroke-width="8"/>
+  <line x1="500" y1="420" x2="790" y2="710" stroke="#264653" stroke-width="8"/>
+  <line x1="580" y1="420" x2="790" y2="630" stroke="#6D2E46" stroke-width="8"/>
+  <polygon points="600,600 650,550 700,600 650,650" fill="#E63946"/>
+  <polygon points="500,700 530,670 560,700 530,730" fill="#F4D35E"/>
+  <rect x="700" y="440" width="50" height="50" fill="#000"/>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <title>Fan Vaulting</title>
+  <!-- Background -->
+  <rect width="800" height="800" fill="#1D3557"/>
+  <!-- Colored panels between ribs - Bottom-left fan -->
+  <path d="M0 800 L0 600 L120 680" fill="#E63946" opacity="0.8"/>
+  <path d="M0 800 L120 680 L200 600" fill="#F4D35E" opacity="0.8"/>
+  <path d="M0 800 L200 600 L300 560" fill="#2A9D8F" opacity="0.8"/>
+  <path d="M0 800 L300 560 L400 540" fill="#6D2E46" opacity="0.8"/>
+  <path d="M0 600 L0 400 L120 500" fill="#FFF" opacity="0.6"/>
+  <path d="M0 400 L120 500 L200 600" fill="#A8DADC" opacity="0.7"/>
+  <!-- Bottom-right fan -->
+  <path d="M800 800 L800 600 L680 680" fill="#F4D35E" opacity="0.8"/>
+  <path d="M800 800 L680 680 L600 600" fill="#E63946" opacity="0.8"/>
+  <path d="M800 800 L600 600 L500 560" fill="#A8DADC" opacity="0.8"/>
+  <path d="M800 800 L500 560 L400 540" fill="#2A9D8F" opacity="0.8"/>
+  <path d="M800 600 L800 400 L680 500" fill="#FFF" opacity="0.6"/>
+  <path d="M800 400 L680 500 L600 600" fill="#6D2E46" opacity="0.7"/>
+  <!-- Top-left fan -->
+  <path d="M0 0 L0 200 L120 120" fill="#2A9D8F" opacity="0.8"/>
+  <path d="M0 0 L120 120 L200 200" fill="#E63946" opacity="0.8"/>
+  <path d="M0 0 L200 200 L300 240" fill="#F4D35E" opacity="0.8"/>
+  <path d="M0 0 L300 240 L400 260" fill="#FFF" opacity="0.6"/>
+  <path d="M0 200 L0 400 L120 300" fill="#6D2E46" opacity="0.7"/>
+  <path d="M0 400 L120 300 L200 200" fill="#A8DADC" opacity="0.7"/>
+  <!-- Top-right fan -->
+  <path d="M800 0 L800 200 L680 120" fill="#F4D35E" opacity="0.8"/>
+  <path d="M800 0 L680 120 L600 200" fill="#2A9D8F" opacity="0.8"/>
+  <path d="M800 0 L600 200 L500 240" fill="#E63946" opacity="0.8"/>
+  <path d="M800 0 L500 240 L400 260" fill="#A8DADC" opacity="0.6"/>
+  <path d="M800 200 L800 400 L680 300" fill="#FFF" opacity="0.7"/>
+  <path d="M800 400 L680 300 L600 200" fill="#6D2E46" opacity="0.7"/>
+  <!-- Central keystone area -->
+  <polygon points="400,260 300,240 300,560 400,540" fill="#F4D35E" opacity="0.5"/>
+  <polygon points="400,260 500,240 500,560 400,540" fill="#E63946" opacity="0.5"/>
+  <!-- Radiating ribs from bottom-left corner -->
+  <line x1="0" y1="800" x2="0" y2="0" stroke="#000" stroke-width="4"/>
+  <line x1="0" y1="800" x2="200" y2="600" stroke="#000" stroke-width="3"/>
+  <line x1="0" y1="800" x2="300" y2="560" stroke="#000" stroke-width="3"/>
+  <line x1="0" y1="800" x2="400" y2="540" stroke="#000" stroke-width="3"/>
+  <line x1="0" y1="800" x2="120" y2="680" stroke="#000" stroke-width="2"/>
+  <!-- Radiating ribs from bottom-right corner -->
+  <line x1="800" y1="800" x2="800" y2="0" stroke="#000" stroke-width="4"/>
+  <line x1="800" y1="800" x2="600" y2="600" stroke="#000" stroke-width="3"/>
+  <line x1="800" y1="800" x2="500" y2="560" stroke="#000" stroke-width="3"/>
+  <line x1="800" y1="800" x2="400" y2="540" stroke="#000" stroke-width="3"/>
+  <line x1="800" y1="800" x2="680" y2="680" stroke="#000" stroke-width="2"/>
+  <!-- Radiating ribs from top-left corner -->
+  <line x1="0" y1="0" x2="200" y2="200" stroke="#000" stroke-width="3"/>
+  <line x1="0" y1="0" x2="300" y2="240" stroke="#000" stroke-width="3"/>
+  <line x1="0" y1="0" x2="400" y2="260" stroke="#000" stroke-width="3"/>
+  <line x1="0" y1="0" x2="120" y2="120" stroke="#000" stroke-width="2"/>
+  <!-- Radiating ribs from top-right corner -->
+  <line x1="800" y1="0" x2="600" y2="200" stroke="#000" stroke-width="3"/>
+  <line x1="800" y1="0" x2="500" y2="240" stroke="#000" stroke-width="3"/>
+  <line x1="800" y1="0" x2="400" y2="260" stroke="#000" stroke-width="3"/>
+  <line x1="800" y1="0" x2="680" y2="120" stroke="#000" stroke-width="2"/>
+  <!-- Horizontal/vertical edge ribs -->
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000" stroke-width="4"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000" stroke-width="4"/>
+  <!-- Transverse arcs connecting ribs -->
+  <path d="M0 400 Q200 350 400 400 Q600 350 800 400" fill="none" stroke="#F4D35E" stroke-width="3"/>
+  <path d="M120 680 Q260 620 400 540" fill="none" stroke="#FFF" stroke-width="2"/>
+  <path d="M680 680 Q540 620 400 540" fill="none" stroke="#FFF" stroke-width="2"/>
+  <path d="M120 120 Q260 180 400 260" fill="none" stroke="#FFF" stroke-width="2"/>
+  <path d="M680 120 Q540 180 400 260" fill="none" stroke="#FFF" stroke-width="2"/>
+  <!-- Central boss/keystone -->
+  <circle cx="400" cy="400" r="30" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+  <circle cx="400" cy="400" r="15" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <circle cx="400" cy="400" r="5" fill="#000"/>
+  <!-- Corner bosses -->
+  <circle cx="0" cy="0" r="20" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <circle cx="800" cy="0" r="20" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <circle cx="0" cy="800" r="20" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <circle cx="800" cy="800" r="20" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <!-- Secondary keystones at midpoints -->
+  <circle cx="400" cy="260" r="12" fill="#2A9D8F" stroke="#000" stroke-width="2"/>
+  <circle cx="400" cy="540" r="12" fill="#2A9D8F" stroke="#000" stroke-width="2"/>
+</svg>

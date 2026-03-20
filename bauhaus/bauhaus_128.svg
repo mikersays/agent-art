@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#F4D35E" opacity="0.15"/>
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Candelabra: Branching vertical form with multiple arms holding geometric flame shapes -->
+
+  <!-- Background warm tone -->
+  <rect width="800" height="800" fill="#A89F91" opacity="0.08"/>
+
+  <!-- Central vertical stem -->
+  <rect x="388" y="250" width="24" height="400" fill="#000" rx="4"/>
+
+  <!-- Base - ornamental -->
+  <ellipse cx="400" cy="680" rx="120" ry="20" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <ellipse cx="400" cy="670" rx="90" ry="15" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <rect x="380" y="650" width="40" height="30" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <polygon points="360,680 440,680 460,700 340,700" fill="#000"/>
+  <ellipse cx="400" cy="700" rx="130" ry="18" fill="#000" stroke="#A89F91" stroke-width="1"/>
+
+  <!-- Decorative knob on stem -->
+  <circle cx="400" cy="500" r="15" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <circle cx="400" cy="400" r="10" fill="#1D3557" stroke="#000" stroke-width="2"/>
+
+  <!-- Left arm 1 (lowest) -->
+  <path d="M 400,480 Q 300,480 250,420 Q 230,400 220,370" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  <!-- Left arm 1 candle holder -->
+  <rect x="208" y="355" width="24" height="15" fill="#A89F91" stroke="#000" stroke-width="1.5"/>
+  <!-- Left arm 1 flame -->
+  <ellipse cx="220" cy="330" rx="12" ry="25" fill="#F4D35E"/>
+  <ellipse cx="220" cy="325" rx="7" ry="18" fill="#E63946"/>
+  <ellipse cx="220" cy="320" rx="3" ry="10" fill="#FFF" opacity="0.7"/>
+
+  <!-- Right arm 1 (lowest) -->
+  <path d="M 400,480 Q 500,480 550,420 Q 570,400 580,370" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  <!-- Right arm 1 candle holder -->
+  <rect x="568" y="355" width="24" height="15" fill="#A89F91" stroke="#000" stroke-width="1.5"/>
+  <!-- Right arm 1 flame -->
+  <ellipse cx="580" cy="330" rx="12" ry="25" fill="#F4D35E"/>
+  <ellipse cx="580" cy="325" rx="7" ry="18" fill="#E63946"/>
+  <ellipse cx="580" cy="320" rx="3" ry="10" fill="#FFF" opacity="0.7"/>
+
+  <!-- Left arm 2 (middle) -->
+  <path d="M 400,400 Q 320,390 280,340 Q 260,310 250,280" fill="none" stroke="#000" stroke-width="5" stroke-linecap="round"/>
+  <rect x="238" y="265" width="24" height="15" fill="#A89F91" stroke="#000" stroke-width="1.5"/>
+  <ellipse cx="250" cy="240" rx="12" ry="25" fill="#F4D35E"/>
+  <ellipse cx="250" cy="235" rx="7" ry="18" fill="#E63946"/>
+  <ellipse cx="250" cy="230" rx="3" ry="10" fill="#FFF" opacity="0.7"/>
+
+  <!-- Right arm 2 (middle) -->
+  <path d="M 400,400 Q 480,390 520,340 Q 540,310 550,280" fill="none" stroke="#000" stroke-width="5" stroke-linecap="round"/>
+  <rect x="538" y="265" width="24" height="15" fill="#A89F91" stroke="#000" stroke-width="1.5"/>
+  <ellipse cx="550" cy="240" rx="12" ry="25" fill="#F4D35E"/>
+  <ellipse cx="550" cy="235" rx="7" ry="18" fill="#E63946"/>
+  <ellipse cx="550" cy="230" rx="3" ry="10" fill="#FFF" opacity="0.7"/>
+
+  <!-- Left arm 3 (highest, shorter) -->
+  <path d="M 400,330 Q 350,320 320,280 Q 310,260 310,240" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+  <rect x="298" y="225" width="24" height="12" fill="#A89F91" stroke="#000" stroke-width="1.5"/>
+  <ellipse cx="310" cy="202" rx="11" ry="22" fill="#F4D35E"/>
+  <ellipse cx="310" cy="198" rx="6" ry="16" fill="#E63946"/>
+  <ellipse cx="310" cy="193" rx="3" ry="9" fill="#FFF" opacity="0.7"/>
+
+  <!-- Right arm 3 (highest, shorter) -->
+  <path d="M 400,330 Q 450,320 480,280 Q 490,260 490,240" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+  <rect x="478" y="225" width="24" height="12" fill="#A89F91" stroke="#000" stroke-width="1.5"/>
+  <ellipse cx="490" cy="202" rx="11" ry="22" fill="#F4D35E"/>
+  <ellipse cx="490" cy="198" rx="6" ry="16" fill="#E63946"/>
+  <ellipse cx="490" cy="193" rx="3" ry="9" fill="#FFF" opacity="0.7"/>
+
+  <!-- Center top candle -->
+  <rect x="388" y="235" width="24" height="15" fill="#A89F91" stroke="#000" stroke-width="1.5"/>
+  <ellipse cx="400" cy="208" rx="14" ry="28" fill="#F4D35E"/>
+  <ellipse cx="400" cy="202" rx="8" ry="20" fill="#E63946"/>
+  <ellipse cx="400" cy="196" rx="4" ry="12" fill="#FFF" opacity="0.7"/>
+
+  <!-- Title -->
+  <circle cx="100" cy="100" r="40" fill="#1D3557"/>
+  <text x="100" y="107" font-family="sans-serif" font-size="18" fill="#FFF" text-anchor="middle" font-weight="bold">128</text>
+
+  <!-- Corner accents -->
+  <rect x="680" y="30" width="80" height="6" fill="#E63946"/>
+  <rect x="680" y="50" width="50" height="6" fill="#2A9D8F"/>
+  <rect x="30" y="750" width="80" height="6" fill="#F4D35E"/>
+  <rect x="30" y="770" width="50" height="6" fill="#1D3557"/>
+</svg>

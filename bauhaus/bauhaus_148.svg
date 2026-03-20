@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Anvil</title>
+  <!-- Background -->
+  <rect width="800" height="800" fill="#A89F91"/>
+
+  <!-- Floor -->
+  <rect x="0" y="650" width="800" height="150" fill="#264653"/>
+  <line x1="0" y1="650" x2="800" y2="650" stroke="#000" stroke-width="3"/>
+
+  <!-- Anvil base (wide bottom) -->
+  <rect x="250" y="580" width="300" height="70" fill="#1D3557" stroke="#000" stroke-width="3"/>
+
+  <!-- Anvil waist (narrower middle) -->
+  <rect x="290" y="500" width="220" height="80" fill="#1D3557" stroke="#000" stroke-width="3"/>
+
+  <!-- Anvil body (top face) -->
+  <polygon points="200,500 600,500 580,460 220,460" fill="#000" stroke="#000" stroke-width="2"/>
+
+  <!-- Anvil top surface highlight -->
+  <polygon points="220,460 580,460 560,450 240,450" fill="#A89F91" opacity="0.3"/>
+
+  <!-- Anvil horn (pointed left side) -->
+  <polygon points="200,500 100,480 100,470 200,460" fill="#000" stroke="#000" stroke-width="2"/>
+  <polygon points="100,470 100,480 80,475" fill="#1D3557" stroke="#000" stroke-width="2"/>
+
+  <!-- Anvil heel (right extension) -->
+  <rect x="580" y="455" width="60" height="50" fill="#000" stroke="#000" stroke-width="2"/>
+  <rect x="582" y="458" width="56" height="10" fill="#A89F91" opacity="0.2"/>
+
+  <!-- Hardy hole -->
+  <rect x="560" y="452" width="15" height="15" fill="#264653"/>
+
+  <!-- Pritchel hole -->
+  <circle cx="540" cy="460" r="5" fill="#264653"/>
+
+  <!-- Hammer above anvil -->
+  <g transform="translate(400, 250) rotate(-30)">
+    <!-- Hammer head -->
+    <rect x="-60" y="-25" width="120" height="50" rx="5" fill="#E63946" stroke="#000" stroke-width="3"/>
+    <!-- Hammer face -->
+    <rect x="50" y="-25" width="15" height="50" fill="#000" opacity="0.3"/>
+    <!-- Hammer peen -->
+    <polygon points="-60,-15 -75,0 -60,15" fill="#000" opacity="0.4"/>
+    <!-- Hammer handle -->
+    <rect x="-12" y="25" width="24" height="150" rx="4" fill="#E9C46A" stroke="#000" stroke-width="2"/>
+    <!-- Handle grip lines -->
+    <line x1="-10" y1="140" x2="10" y2="140" stroke="#000" stroke-width="1.5"/>
+    <line x1="-10" y1="150" x2="10" y2="150" stroke="#000" stroke-width="1.5"/>
+    <line x1="-10" y1="160" x2="10" y2="160" stroke="#000" stroke-width="1.5"/>
+  </g>
+
+  <!-- Sparks scattered around impact point -->
+  <polygon points="350,420 353,410 356,420 353,418" fill="#F4D35E"/>
+  <polygon points="320,400 324,390 328,400 324,396" fill="#F4D35E"/>
+  <polygon points="450,410 454,398 458,410 454,405" fill="#E63946"/>
+  <polygon points="480,430 483,420 486,430 483,426" fill="#F4D35E"/>
+  <polygon points="300,430 302,422 304,430 302,427" fill="#E9C46A"/>
+  <polygon points="500,400 503,390 506,400 503,396" fill="#F4D35E"/>
+
+  <!-- Small diamond sparks -->
+  <polygon points="280,380 285,375 290,380 285,385" fill="#F4D35E" opacity="0.8"/>
+  <polygon points="510,380 515,373 520,380 515,387" fill="#E63946" opacity="0.7"/>
+  <polygon points="340,370 344,363 348,370 344,377" fill="#FFF" opacity="0.6"/>
+  <polygon points="460,375 463,368 466,375 463,382" fill="#E9C46A" opacity="0.7"/>
+
+  <!-- Dot sparks -->
+  <circle cx="270" cy="360" r="3" fill="#F4D35E"/>
+  <circle cx="530" cy="370" r="2" fill="#F4D35E"/>
+  <circle cx="310" cy="350" r="2.5" fill="#E63946"/>
+  <circle cx="490" cy="355" r="2" fill="#FFF" opacity="0.7"/>
+
+  <!-- Decorative border lines -->
+  <line x1="40" y1="40" x2="760" y2="40" stroke="#000" stroke-width="4"/>
+  <line x1="40" y1="760" x2="760" y2="760" stroke="#000" stroke-width="4"/>
+</svg>

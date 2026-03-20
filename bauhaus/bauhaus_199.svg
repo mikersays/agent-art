@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#F4D35E"/>
+  <!-- Sky gradient effect -->
+  <rect x="0" y="0" width="800" height="300" fill="#1D3557"/>
+  <rect x="0" y="300" width="800" height="100" fill="#1D3557" fill-opacity="0.5"/>
+  <!-- Ground -->
+  <rect x="0" y="700" width="800" height="100" fill="#333"/>
+  <!-- Tier 5 - top (smallest) -->
+  <rect x="350" y="120" width="100" height="50" fill="#E63946"/>
+  <path d="M 330 120 Q 400 100 470 120" fill="none" stroke="#6D2E46" stroke-width="4"/>
+  <polygon points="330,120 400,95 470,120" fill="#6D2E46" fill-opacity="0.6"/>
+  <!-- Roof curve tier 5 -->
+  <path d="M 320 170 Q 330 155 350 170" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M 450 170 Q 470 155 480 170" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="320" y1="170" x2="480" y2="170" stroke="#000" stroke-width="3"/>
+  <!-- Spire on top -->
+  <line x1="400" y1="95" x2="400" y2="50" stroke="#DDA15E" stroke-width="4"/>
+  <circle cx="400" cy="45" r="8" fill="#F4D35E"/>
+  <!-- Tier 4 -->
+  <rect x="310" y="200" width="180" height="60" fill="#E63946"/>
+  <polygon points="290,200 400,170 510,200" fill="#6D2E46"/>
+  <path d="M 280 260 Q 295 240 310 260" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M 490 260 Q 505 240 520 260" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="280" y1="260" x2="520" y2="260" stroke="#000" stroke-width="3"/>
+  <!-- Tier 3 -->
+  <rect x="270" y="290" width="260" height="70" fill="#DDA15E"/>
+  <polygon points="245,290 400,260 555,290" fill="#6D2E46"/>
+  <path d="M 235 360 Q 255 335 270 360" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M 530 360 Q 545 335 565 360" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="235" y1="360" x2="565" y2="360" stroke="#000" stroke-width="3"/>
+  <!-- Windows tier 3 -->
+  <rect x="320" y="310" width="25" height="30" fill="#1D3557"/>
+  <rect x="388" y="310" width="25" height="30" fill="#1D3557"/>
+  <rect x="455" y="310" width="25" height="30" fill="#1D3557"/>
+  <!-- Tier 2 -->
+  <rect x="230" y="390" width="340" height="80" fill="#DDA15E"/>
+  <polygon points="200,390 400,360 600,390" fill="#6D2E46"/>
+  <path d="M 190 470 Q 215 440 230 470" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M 570 470 Q 585 440 610 470" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="190" y1="470" x2="610" y2="470" stroke="#000" stroke-width="3"/>
+  <!-- Windows tier 2 -->
+  <rect x="280" y="410" width="30" height="40" fill="#1D3557"/>
+  <rect x="340" y="410" width="30" height="40" fill="#1D3557"/>
+  <rect x="400" y="410" width="30" height="40" fill="#E63946"/>
+  <rect x="460" y="410" width="30" height="40" fill="#1D3557"/>
+  <!-- Tier 1 - base (largest) -->
+  <rect x="190" y="500" width="420" height="100" fill="#DDA15E"/>
+  <polygon points="155,500 400,470 645,500" fill="#6D2E46"/>
+  <path d="M 145 600 Q 170 570 190 600" fill="none" stroke="#000" stroke-width="4"/>
+  <path d="M 610 600 Q 630 570 655 600" fill="none" stroke="#000" stroke-width="4"/>
+  <line x1="145" y1="600" x2="655" y2="600" stroke="#000" stroke-width="4"/>
+  <!-- Windows tier 1 -->
+  <rect x="240" y="520" width="35" height="50" fill="#1D3557"/>
+  <rect x="310" y="520" width="35" height="50" fill="#1D3557"/>
+  <rect x="383" y="520" width="35" height="50" fill="#E63946"/>
+  <rect x="455" y="520" width="35" height="50" fill="#1D3557"/>
+  <rect x="525" y="520" width="35" height="50" fill="#1D3557"/>
+  <!-- Base platform -->
+  <rect x="150" y="600" width="500" height="30" fill="#333"/>
+  <!-- Steps -->
+  <rect x="180" y="630" width="440" height="20" fill="#333" fill-opacity="0.8"/>
+  <rect x="210" y="650" width="380" height="20" fill="#333" fill-opacity="0.6"/>
+  <rect x="240" y="670" width="320" height="30" fill="#333" fill-opacity="0.5"/>
+  <!-- Geometric ornaments - circles on roof peaks -->
+  <circle cx="400" cy="170" r="6" fill="#F4D35E"/>
+  <circle cx="400" cy="260" r="6" fill="#F4D35E"/>
+  <circle cx="400" cy="360" r="6" fill="#F4D35E"/>
+  <circle cx="400" cy="470" r="6" fill="#F4D35E"/>
+  <!-- Decorative vertical lines on walls -->
+  <line x1="400" y1="200" x2="400" y2="260" stroke="#000" stroke-width="1.5"/>
+  <line x1="400" y1="290" x2="400" y2="360" stroke="#000" stroke-width="1.5"/>
+  <line x1="400" y1="500" x2="400" y2="600" stroke="#000" stroke-width="1.5"/>
+</svg>

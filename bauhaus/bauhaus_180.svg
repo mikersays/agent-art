@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Funicular</title>
+  <rect width="800" height="800" fill="#A8DADC" opacity="0.3"/>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="400" fill="#FFF" opacity="0.5"/>
+
+  <!-- Mountain backdrop - large mountain -->
+  <polygon points="200,600 450,150 700,600" fill="#1D3557" opacity="0.7"/>
+  <!-- Mountain backdrop - medium mountain -->
+  <polygon points="0,650 200,250 450,650" fill="#1D3557" opacity="0.5"/>
+  <!-- Mountain backdrop - right mountain -->
+  <polygon points="500,600 680,280 800,550" fill="#333" opacity="0.6"/>
+  <!-- Snow caps -->
+  <polygon points="450,150 420,220 480,220" fill="#FFF" opacity="0.8"/>
+  <polygon points="200,250 175,310 225,310" fill="#FFF" opacity="0.6"/>
+  <polygon points="680,280 660,330 700,330" fill="#FFF" opacity="0.7"/>
+
+  <!-- Ground -->
+  <rect x="0" y="600" width="800" height="200" fill="#DDA15E" opacity="0.4"/>
+
+  <!-- Diagonal track -->
+  <line x1="100" y1="650" x2="700" y2="200" stroke="#000" stroke-width="8"/>
+  <line x1="110" y1="660" x2="710" y2="210" stroke="#333" stroke-width="4"/>
+
+  <!-- Track cross ties -->
+  <line x1="150" y1="610" x2="170" y2="640" stroke="#333" stroke-width="3"/>
+  <line x1="210" y1="570" x2="230" y2="600" stroke="#333" stroke-width="3"/>
+  <line x1="270" y1="530" x2="290" y2="560" stroke="#333" stroke-width="3"/>
+  <line x1="330" y1="490" x2="350" y2="520" stroke="#333" stroke-width="3"/>
+  <line x1="390" y1="450" x2="410" y2="480" stroke="#333" stroke-width="3"/>
+  <line x1="450" y1="410" x2="470" y2="440" stroke="#333" stroke-width="3"/>
+  <line x1="510" y1="370" x2="530" y2="400" stroke="#333" stroke-width="3"/>
+  <line x1="570" y1="330" x2="590" y2="360" stroke="#333" stroke-width="3"/>
+  <line x1="630" y1="290" x2="650" y2="320" stroke="#333" stroke-width="3"/>
+
+  <!-- Cable lines -->
+  <line x1="80" y1="640" x2="720" y2="180" stroke="#000" stroke-width="2" stroke-dasharray="8,4"/>
+  <line x1="120" y1="665" x2="720" y2="220" stroke="#000" stroke-width="2" stroke-dasharray="8,4"/>
+
+  <!-- Cable car 1 (lower, going up) - Red -->
+  <g transform="translate(250, 510) rotate(-33)">
+    <rect x="-40" y="-50" width="80" height="60" rx="5" fill="#E63946" stroke="#000" stroke-width="3"/>
+    <!-- Windows -->
+    <rect x="-30" y="-42" width="20" height="20" fill="#A8DADC" stroke="#000" stroke-width="1"/>
+    <rect x="10" y="-42" width="20" height="20" fill="#A8DADC" stroke="#000" stroke-width="1"/>
+    <!-- Roof -->
+    <rect x="-45" y="-55" width="90" height="8" rx="3" fill="#333"/>
+    <!-- Cable attachment -->
+    <line x1="0" y1="-55" x2="0" y2="-75" stroke="#000" stroke-width="3"/>
+    <circle cx="0" cy="-78" r="5" fill="#000"/>
+    <!-- Wheels -->
+    <circle cx="-25" cy="12" r="6" fill="#333" stroke="#000" stroke-width="2"/>
+    <circle cx="25" cy="12" r="6" fill="#333" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- Cable car 2 (upper, going down) - Yellow -->
+  <g transform="translate(550, 320) rotate(-33)">
+    <rect x="-40" y="-50" width="80" height="60" rx="5" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+    <!-- Windows -->
+    <rect x="-30" y="-42" width="20" height="20" fill="#A8DADC" stroke="#000" stroke-width="1"/>
+    <rect x="10" y="-42" width="20" height="20" fill="#A8DADC" stroke="#000" stroke-width="1"/>
+    <!-- Roof -->
+    <rect x="-45" y="-55" width="90" height="8" rx="3" fill="#333"/>
+    <!-- Cable attachment -->
+    <line x1="0" y1="-55" x2="0" y2="-75" stroke="#000" stroke-width="3"/>
+    <circle cx="0" cy="-78" r="5" fill="#000"/>
+    <!-- Wheels -->
+    <circle cx="-25" cy="12" r="6" fill="#333" stroke="#000" stroke-width="2"/>
+    <circle cx="25" cy="12" r="6" fill="#333" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- Top station -->
+  <rect x="680" y="160" width="80" height="70" fill="#333" stroke="#000" stroke-width="3"/>
+  <polygon points="675,160 760,160 720,130" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <rect x="700" y="190" width="20" height="40" fill="#DDA15E"/>
+
+  <!-- Bottom station -->
+  <rect x="50" y="640" width="80" height="60" fill="#333" stroke="#000" stroke-width="3"/>
+  <polygon points="45,640 135,640 90,615" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <rect x="70" y="660" width="20" height="40" fill="#DDA15E"/>
+
+  <!-- Sun -->
+  <circle cx="100" cy="100" r="50" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="100" cy="100" r="35" fill="#F4D35E"/>
+
+  <!-- Sun rays -->
+  <line x1="100" y1="30" x2="100" y2="10" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="160" y1="60" x2="175" y2="45" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="170" y1="100" x2="190" y2="100" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="160" y1="140" x2="175" y2="155" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="40" y1="60" x2="25" y2="45" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="30" y1="100" x2="10" y2="100" stroke="#F4D35E" stroke-width="4"/>
+
+  <!-- Geometric trees -->
+  <polygon points="750,550 770,480 790,550" fill="#1D3557" opacity="0.6"/>
+  <rect x="766" y="550" width="8" height="20" fill="#333"/>
+  <polygon points="20,560 40,500 60,560" fill="#1D3557" opacity="0.5"/>
+  <rect x="36" y="560" width="8" height="20" fill="#333"/>
+</svg>

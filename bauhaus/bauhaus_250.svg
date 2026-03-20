@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Magnum Opus</title>
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Background grid pattern -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  <!-- Large background shapes with transparency -->
+  <circle cx="200" cy="200" r="180" fill="#E63946" opacity="0.15"/>
+  <circle cx="600" cy="200" r="160" fill="#1D3557" opacity="0.15"/>
+  <circle cx="400" cy="600" r="200" fill="#F4D35E" opacity="0.12"/>
+  <rect x="50" y="350" width="300" height="300" fill="#457B9D" opacity="0.1"/>
+  <rect x="450" y="400" width="300" height="350" fill="#264653" opacity="0.1"/>
+  <!-- Large geometric foundations -->
+  <rect x="100" y="100" width="200" height="200" fill="#E63946" opacity="0.7" stroke="#000" stroke-width="2"/>
+  <circle cx="600" cy="200" r="100" fill="#1D3557" opacity="0.8" stroke="#000" stroke-width="2"/>
+  <polygon points="400,50 480,200 320,200" fill="#F4D35E" opacity="0.85" stroke="#000" stroke-width="2"/>
+  <!-- Overlapping mid-layer shapes -->
+  <rect x="250" y="250" width="150" height="150" fill="#457B9D" opacity="0.7" stroke="#000" stroke-width="2"/>
+  <circle cx="350" cy="350" r="60" fill="#E9C46A" opacity="0.8"/>
+  <rect x="500" y="300" width="120" height="180" fill="#264653" opacity="0.75" stroke="#000" stroke-width="2"/>
+  <polygon points="150,400 250,400 200,320" fill="#F4D35E" opacity="0.8"/>
+  <!-- Arc elements -->
+  <path d="M100,500 A150,150 0 0,1 400,500" fill="none" stroke="#E63946" stroke-width="4"/>
+  <path d="M400,500 A150,150 0 0,1 700,500" fill="none" stroke="#1D3557" stroke-width="4"/>
+  <path d="M200,300 A100,100 0 0,0 200,500" fill="none" stroke="#F4D35E" stroke-width="3"/>
+  <path d="M600,300 A100,100 0 0,1 600,500" fill="none" stroke="#E9C46A" stroke-width="3"/>
+  <!-- Central composition - overlapping circles and squares -->
+  <rect x="330" y="330" width="140" height="140" fill="#000" opacity="0.8"/>
+  <circle cx="400" cy="400" r="80" fill="#E63946" opacity="0.7"/>
+  <rect x="360" y="360" width="80" height="80" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="400" cy="400" r="35" fill="#1D3557" opacity="0.9"/>
+  <circle cx="400" cy="400" r="15" fill="#FFF"/>
+  <polygon points="400,355 435,400 400,445 365,400" fill="#E9C46A" opacity="0.6" stroke="#000" stroke-width="1"/>
+  <!-- Lower section - horizontal bars -->
+  <rect x="50" y="550" width="700" height="20" fill="#E63946" opacity="0.6"/>
+  <rect x="50" y="580" width="700" height="15" fill="#F4D35E" opacity="0.5"/>
+  <rect x="50" y="605" width="700" height="10" fill="#1D3557" opacity="0.6"/>
+  <rect x="50" y="625" width="700" height="8" fill="#264653" opacity="0.5"/>
+  <!-- Scattered triangles -->
+  <polygon points="80,650 130,650 105,610" fill="#E63946" opacity="0.8" stroke="#000" stroke-width="1"/>
+  <polygon points="200,680 260,680 230,640" fill="#1D3557" opacity="0.7"/>
+  <polygon points="350,700 400,700 375,660" fill="#F4D35E" opacity="0.8" stroke="#000" stroke-width="1"/>
+  <polygon points="500,680 560,680 530,640" fill="#457B9D" opacity="0.7"/>
+  <polygon points="650,650 710,650 680,610" fill="#264653" opacity="0.8" stroke="#000" stroke-width="1"/>
+  <!-- Scattered circles -->
+  <circle cx="100" cy="750" r="25" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="250" cy="740" r="18" fill="#E63946" opacity="0.8"/>
+  <circle cx="400" cy="750" r="30" fill="#457B9D" opacity="0.6" stroke="#000" stroke-width="2"/>
+  <circle cx="550" cy="740" r="20" fill="#E9C46A" stroke="#000" stroke-width="1"/>
+  <circle cx="700" cy="750" r="25" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <!-- Small accent squares -->
+  <rect x="680" y="100" width="30" height="30" fill="#E63946" transform="rotate(45,695,115)"/>
+  <rect x="50" y="50" width="25" height="25" fill="#F4D35E"/>
+  <rect x="720" y="50" width="25" height="25" fill="#1D3557"/>
+  <rect x="50" y="720" width="25" height="25" fill="#264653"/>
+  <rect x="720" y="720" width="25" height="25" fill="#E63946"/>
+  <!-- Diagonal lines -->
+  <line x1="0" y1="0" x2="200" y2="200" stroke="#000" stroke-width="2" opacity="0.3"/>
+  <line x1="800" y1="0" x2="600" y2="200" stroke="#000" stroke-width="2" opacity="0.3"/>
+  <line x1="0" y1="800" x2="200" y2="600" stroke="#000" stroke-width="2" opacity="0.3"/>
+  <line x1="800" y1="800" x2="600" y2="600" stroke="#000" stroke-width="2" opacity="0.3"/>
+  <!-- Cross-hatching in corner -->
+  <line x1="650" y1="550" x2="750" y2="550" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <line x1="650" y1="560" x2="750" y2="560" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <line x1="650" y1="570" x2="750" y2="570" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <line x1="650" y1="550" x2="650" y2="580" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <line x1="670" y1="550" x2="670" y2="580" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <line x1="690" y1="550" x2="690" y2="580" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <line x1="710" y1="550" x2="710" y2="580" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <line x1="730" y1="550" x2="730" y2="580" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <line x1="750" y1="550" x2="750" y2="580" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <!-- Concentric arcs top-right -->
+  <path d="M800,0 A200,200 0 0,0 600,0" fill="none" stroke="#E63946" stroke-width="2" opacity="0.4"/>
+  <path d="M800,0 A250,250 0 0,0 550,0" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.35"/>
+  <path d="M800,0 A300,300 0 0,0 500,0" fill="none" stroke="#1D3557" stroke-width="2" opacity="0.3"/>
+  <!-- Concentric arcs bottom-left -->
+  <path d="M0,800 A200,200 0 0,0 200,800" fill="none" stroke="#457B9D" stroke-width="2" opacity="0.4"/>
+  <path d="M0,800 A250,250 0 0,0 250,800" fill="none" stroke="#E9C46A" stroke-width="2" opacity="0.35"/>
+  <path d="M0,800 A300,300 0 0,0 300,800" fill="none" stroke="#264653" stroke-width="2" opacity="0.3"/>
+  <!-- Additional mid-section geometric elements -->
+  <rect x="450" y="100" width="40" height="80" fill="#E9C46A" opacity="0.6"/>
+  <circle cx="150" cy="500" r="35" fill="#264653" opacity="0.5" stroke="#E9C46A" stroke-width="2"/>
+  <polygon points="650,400 700,450 600,450" fill="#F4D35E" opacity="0.7" stroke="#000" stroke-width="1"/>
+  <rect x="700" y="300" width="60" height="60" fill="#E63946" opacity="0.4"/>
+  <circle cx="730" cy="330" r="20" fill="#FFF" opacity="0.5"/>
+  <!-- Bauhaus-style stepped form -->
+  <rect x="30" y="300" width="80" height="20" fill="#000" opacity="0.6"/>
+  <rect x="40" y="280" width="60" height="20" fill="#000" opacity="0.5"/>
+  <rect x="50" y="260" width="40" height="20" fill="#000" opacity="0.4"/>
+  <!-- Small decorative dots -->
+  <circle cx="300" cy="500" r="5" fill="#E63946"/>
+  <circle cx="320" cy="510" r="4" fill="#1D3557"/>
+  <circle cx="340" cy="500" r="5" fill="#F4D35E"/>
+  <circle cx="360" cy="510" r="4" fill="#457B9D"/>
+  <circle cx="380" cy="500" r="5" fill="#264653"/>
+  <circle cx="420" cy="500" r="5" fill="#E9C46A"/>
+  <circle cx="440" cy="510" r="4" fill="#E63946"/>
+  <circle cx="460" cy="500" r="5" fill="#1D3557"/>
+  <circle cx="480" cy="510" r="4" fill="#F4D35E"/>
+  <circle cx="500" cy="500" r="5" fill="#000"/>
+  <!-- Final border -->
+  <rect x="3" y="3" width="794" height="794" fill="none" stroke="#000" stroke-width="6"/>
+</svg>

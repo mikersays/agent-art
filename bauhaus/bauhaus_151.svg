@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#F4D35E"/>
+  <!-- Background pattern stripes -->
+  <rect x="0" y="0" width="800" height="100" fill="#1D3557" opacity="0.3"/>
+  <rect x="0" y="200" width="800" height="100" fill="#2A9D8F" opacity="0.3"/>
+  <rect x="0" y="400" width="800" height="100" fill="#E63946" opacity="0.3"/>
+  <rect x="0" y="600" width="800" height="100" fill="#6D2E46" opacity="0.3"/>
+  <!-- Perforated screen panel -->
+  <defs>
+    <mask id="perf">
+      <rect width="800" height="800" fill="white"/>
+      <!-- Row 1 -->
+      <circle cx="100" cy="100" r="35" fill="black"/>
+      <circle cx="200" cy="100" r="35" fill="black"/>
+      <circle cx="300" cy="100" r="35" fill="black"/>
+      <circle cx="400" cy="100" r="35" fill="black"/>
+      <circle cx="500" cy="100" r="35" fill="black"/>
+      <circle cx="600" cy="100" r="35" fill="black"/>
+      <circle cx="700" cy="100" r="35" fill="black"/>
+      <!-- Row 2 -->
+      <circle cx="100" cy="200" r="35" fill="black"/>
+      <circle cx="200" cy="200" r="35" fill="black"/>
+      <circle cx="300" cy="200" r="35" fill="black"/>
+      <circle cx="400" cy="200" r="35" fill="black"/>
+      <circle cx="500" cy="200" r="35" fill="black"/>
+      <circle cx="600" cy="200" r="35" fill="black"/>
+      <circle cx="700" cy="200" r="35" fill="black"/>
+      <!-- Row 3 -->
+      <circle cx="100" cy="300" r="35" fill="black"/>
+      <circle cx="200" cy="300" r="35" fill="black"/>
+      <circle cx="300" cy="300" r="35" fill="black"/>
+      <circle cx="400" cy="300" r="35" fill="black"/>
+      <circle cx="500" cy="300" r="35" fill="black"/>
+      <circle cx="600" cy="300" r="35" fill="black"/>
+      <circle cx="700" cy="300" r="35" fill="black"/>
+      <!-- Row 4 -->
+      <circle cx="100" cy="400" r="35" fill="black"/>
+      <circle cx="200" cy="400" r="35" fill="black"/>
+      <circle cx="300" cy="400" r="35" fill="black"/>
+      <circle cx="400" cy="400" r="35" fill="black"/>
+      <circle cx="500" cy="400" r="35" fill="black"/>
+      <circle cx="600" cy="400" r="35" fill="black"/>
+      <circle cx="700" cy="400" r="35" fill="black"/>
+      <!-- Row 5 -->
+      <circle cx="100" cy="500" r="35" fill="black"/>
+      <circle cx="200" cy="500" r="35" fill="black"/>
+      <circle cx="300" cy="500" r="35" fill="black"/>
+      <circle cx="400" cy="500" r="35" fill="black"/>
+      <circle cx="500" cy="500" r="35" fill="black"/>
+      <circle cx="600" cy="500" r="35" fill="black"/>
+      <circle cx="700" cy="500" r="35" fill="black"/>
+      <!-- Row 6 -->
+      <circle cx="100" cy="600" r="35" fill="black"/>
+      <circle cx="200" cy="600" r="35" fill="black"/>
+      <circle cx="300" cy="600" r="35" fill="black"/>
+      <circle cx="400" cy="600" r="35" fill="black"/>
+      <circle cx="500" cy="600" r="35" fill="black"/>
+      <circle cx="600" cy="600" r="35" fill="black"/>
+      <circle cx="700" cy="600" r="35" fill="black"/>
+      <!-- Row 7 -->
+      <circle cx="100" cy="700" r="35" fill="black"/>
+      <circle cx="200" cy="700" r="35" fill="black"/>
+      <circle cx="300" cy="700" r="35" fill="black"/>
+      <circle cx="400" cy="700" r="35" fill="black"/>
+      <circle cx="500" cy="700" r="35" fill="black"/>
+      <circle cx="600" cy="700" r="35" fill="black"/>
+      <circle cx="700" cy="700" r="35" fill="black"/>
+    </mask>
+  </defs>
+  <!-- Main screen panel with perforations -->
+  <rect x="50" y="50" width="700" height="700" fill="#E63946" mask="url(#perf)"/>
+  <!-- Decorative border lines -->
+  <rect x="50" y="50" width="700" height="700" fill="none" stroke="#000" stroke-width="4"/>
+  <rect x="40" y="40" width="720" height="720" fill="none" stroke="#1D3557" stroke-width="2"/>
+  <!-- Corner accents -->
+  <rect x="50" y="50" width="40" height="40" fill="#000"/>
+  <rect x="710" y="50" width="40" height="40" fill="#000"/>
+  <rect x="50" y="710" width="40" height="40" fill="#000"/>
+  <rect x="710" y="710" width="40" height="40" fill="#000"/>
+  <!-- Additional overlay colored rectangles behind perforations -->
+  <rect x="150" y="150" width="200" height="200" fill="#1D3557" mask="url(#perf)" opacity="0.7"/>
+  <rect x="450" y="350" width="200" height="200" fill="#2A9D8F" mask="url(#perf)" opacity="0.7"/>
+  <rect x="150" y="500" width="250" height="150" fill="#6D2E46" mask="url(#perf)" opacity="0.6"/>
+</svg>

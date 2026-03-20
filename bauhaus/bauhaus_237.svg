@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+  <!-- Outer ring background -->
+  <circle cx="400" cy="400" r="350" fill="#000"/>
+  <!-- Wire frame ring -->
+  <circle cx="400" cy="400" r="350" fill="none" stroke="#333" stroke-width="3"/>
+  <!-- 20 wedge segments using clip paths and rings -->
+  <!-- Wedge lines dividing into 20 segments (18 degrees each) -->
+  <line x1="400" y1="400" x2="400" y2="50" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="508.5" y2="64.7" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="609.7" y2="118.6" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="693.4" y2="206.6" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="746.4" y2="318.4" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="750" y2="400" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="746.4" y2="481.6" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="693.4" y2="593.4" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="609.7" y2="681.4" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="508.5" y2="735.3" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="400" y2="750" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="291.5" y2="735.3" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="190.3" y2="681.4" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="106.6" y2="593.4" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="53.6" y2="481.6" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="50" y2="400" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="53.6" y2="318.4" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="106.6" y2="206.6" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="190.3" y2="118.6" stroke="#DDA15E" stroke-width="2"/>
+  <line x1="400" y1="400" x2="291.5" y2="64.7" stroke="#DDA15E" stroke-width="2"/>
+  <!-- Concentric rings with alternating colors -->
+  <!-- Ring 1 outermost -->
+  <circle cx="400" cy="400" r="350" fill="none" stroke="#E63946" stroke-width="45"/>
+  <!-- Ring 2 -->
+  <circle cx="400" cy="400" r="300" fill="none" stroke="#FFF" stroke-width="15"/>
+  <!-- Ring 3 -->
+  <circle cx="400" cy="400" r="280" fill="none" stroke="#333" stroke-width="25"/>
+  <!-- Ring 4 -->
+  <circle cx="400" cy="400" r="250" fill="none" stroke="#F4D35E" stroke-width="30"/>
+  <!-- Ring 5 -->
+  <circle cx="400" cy="400" r="225" fill="none" stroke="#000" stroke-width="20"/>
+  <!-- Ring 6 -->
+  <circle cx="400" cy="400" r="205" fill="none" stroke="#A8DADC" stroke-width="20"/>
+  <!-- Ring 7 -->
+  <circle cx="400" cy="400" r="185" fill="none" stroke="#E63946" stroke-width="20"/>
+  <!-- Ring 8 -->
+  <circle cx="400" cy="400" r="160" fill="none" stroke="#FFF" stroke-width="15"/>
+  <!-- Ring 9 -->
+  <circle cx="400" cy="400" r="140" fill="none" stroke="#1D3557" stroke-width="20"/>
+  <!-- Ring 10 -->
+  <circle cx="400" cy="400" r="120" fill="none" stroke="#F4D35E" stroke-width="20"/>
+  <!-- Ring 11 -->
+  <circle cx="400" cy="400" r="100" fill="none" stroke="#333" stroke-width="20"/>
+  <!-- Ring 12 -->
+  <circle cx="400" cy="400" r="80" fill="none" stroke="#DDA15E" stroke-width="15"/>
+  <!-- Ring 13 -->
+  <circle cx="400" cy="400" r="60" fill="none" stroke="#E63946" stroke-width="20"/>
+  <!-- Ring 14 inner -->
+  <circle cx="400" cy="400" r="40" fill="none" stroke="#A8DADC" stroke-width="20"/>
+  <!-- Bullseye center -->
+  <circle cx="400" cy="400" r="25" fill="#E63946"/>
+  <circle cx="400" cy="400" r="12" fill="#F4D35E"/>
+  <circle cx="400" cy="400" r="5" fill="#000"/>
+  <!-- Number markers around edge -->
+  <text x="400" y="38" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="16" font-weight="bold">20</text>
+  <text x="505" y="55" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="16" font-weight="bold">1</text>
+  <text x="615" y="110" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="16" font-weight="bold">18</text>
+  <text x="700" y="200" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="16" font-weight="bold">4</text>
+  <text x="760" y="315" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="16" font-weight="bold">13</text>
+  <text x="765" y="405" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="16" font-weight="bold">6</text>
+  <text x="755" y="495" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="16" font-weight="bold">10</text>
+  <text x="700" y="605" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="16" font-weight="bold">15</text>
+  <text x="615" y="695" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="16" font-weight="bold">2</text>
+  <text x="505" y="750" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="16" font-weight="bold">17</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#A8DADC" opacity="0.3"/>
+  <!-- Sky background gradient effect -->
+  <rect width="800" height="400" fill="#A8DADC" opacity="0.4"/>
+  <!-- Ground plane -->
+  <rect x="0" y="600" width="800" height="200" fill="#A89F91"/>
+  <rect x="0" y="590" width="800" height="15" fill="#000"/>
+  <!-- Circular base platform -->
+  <ellipse cx="400" cy="610" rx="180" ry="30" fill="#1D3557"/>
+  <ellipse cx="400" cy="610" rx="180" ry="30" fill="none" stroke="#000" stroke-width="3"/>
+  <ellipse cx="400" cy="605" rx="160" ry="22" fill="none" stroke="#A8DADC" stroke-width="1"/>
+  <!-- Derrick tower - main legs -->
+  <polygon points="320,600 340,140 345,140 360,600" fill="#000"/>
+  <polygon points="440,600 455,140 460,140 480,600" fill="#000"/>
+  <!-- Cross bracing lattice -->
+  <line x1="332" y1="550" x2="468" y2="500" stroke="#000" stroke-width="4"/>
+  <line x1="468" y1="550" x2="332" y2="500" stroke="#000" stroke-width="4"/>
+  <line x1="335" y1="450" x2="465" y2="400" stroke="#000" stroke-width="4"/>
+  <line x1="465" y1="450" x2="335" y2="400" stroke="#000" stroke-width="4"/>
+  <line x1="338" y1="350" x2="462" y2="300" stroke="#000" stroke-width="4"/>
+  <line x1="462" y1="350" x2="338" y2="300" stroke="#000" stroke-width="4"/>
+  <line x1="340" y1="250" x2="460" y2="200" stroke="#000" stroke-width="4"/>
+  <line x1="460" y1="250" x2="340" y2="200" stroke="#000" stroke-width="4"/>
+  <!-- Tower top crown block -->
+  <rect x="335" y="120" width="130" height="25" fill="#1D3557"/>
+  <rect x="335" y="120" width="130" height="25" fill="none" stroke="#000" stroke-width="3"/>
+  <rect x="385" y="90" width="30" height="35" fill="#E63946"/>
+  <rect x="385" y="90" width="30" height="35" fill="none" stroke="#000" stroke-width="2"/>
+  <!-- Pump beam (walking beam) -->
+  <line x1="180" y1="480" x2="400" y2="460" stroke="#000" stroke-width="14"/>
+  <line x1="180" y1="480" x2="400" y2="460" stroke="#E63946" stroke-width="8"/>
+  <!-- Pump beam pivot/samson post -->
+  <rect x="280" y="460" width="16" height="140" fill="#000"/>
+  <rect x="270" y="596" width="36" height="10" fill="#1D3557"/>
+  <!-- Horse head (pump end) -->
+  <path d="M 170 470 Q 170 500 190 510 L 190 560" stroke="#000" stroke-width="8" fill="none"/>
+  <circle cx="180" cy="475" r="15" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+  <!-- Counterweight -->
+  <rect x="380" y="455" width="40" height="30" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <rect x="385" y="460" width="30" height="20" fill="#000" opacity="0.3"/>
+  <!-- Pitman arm -->
+  <line x1="400" y1="485" x2="420" y2="580" stroke="#000" stroke-width="6"/>
+  <!-- Crank mechanism -->
+  <circle cx="420" cy="580" r="25" fill="none" stroke="#000" stroke-width="5"/>
+  <circle cx="420" cy="580" r="8" fill="#E63946"/>
+  <line x1="420" y1="555" x2="420" y2="605" stroke="#000" stroke-width="4"/>
+  <!-- Motor/engine housing -->
+  <rect x="440" y="560" width="60" height="40" fill="#A89F91" stroke="#000" stroke-width="3"/>
+  <rect x="450" y="570" width="15" height="20" fill="#000"/>
+  <rect x="475" y="570" width="15" height="20" fill="#1D3557"/>
+  <!-- Pipeline -->
+  <rect x="180" y="560" width="8" height="45" fill="#000"/>
+  <rect x="100" y="598" width="90" height="8" fill="#000"/>
+  <circle cx="100" cy="602" r="8" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <!-- Oil storage tank -->
+  <rect x="580" y="540" width="120" height="60" rx="10" fill="#A89F91" stroke="#000" stroke-width="3"/>
+  <rect x="600" y="530" width="80" height="15" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <circle cx="640" cy="570" r="12" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <!-- Pipeline to tank -->
+  <line x1="500" y1="602" x2="580" y2="580" stroke="#000" stroke-width="5"/>
+  <!-- Sun -->
+  <circle cx="680" cy="100" r="50" fill="#F4D35E"/>
+  <circle cx="680" cy="100" r="55" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.5"/>
+  <!-- Geometric cloud shapes -->
+  <rect x="60" y="80" width="100" height="30" rx="15" fill="#FFF" opacity="0.8"/>
+  <rect x="90" y="65" width="80" height="25" rx="12" fill="#FFF" opacity="0.6"/>
+  <!-- Derrick flag/pennant -->
+  <polygon points="400,90 400,60 430,75" fill="#E63946"/>
+  <!-- Ground details -->
+  <circle cx="550" cy="650" r="4" fill="#000" opacity="0.3"/>
+  <circle cx="250" cy="670" r="3" fill="#000" opacity="0.3"/>
+  <circle cx="150" cy="660" r="5" fill="#000" opacity="0.2"/>
+  <!-- Border -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000" stroke-width="6"/>
+</svg>

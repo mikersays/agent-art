@@ -23,7 +23,7 @@
 <body>
 <header>
   <h1>Bauhaus</h1>
-  <p>110 Geometric Compositions</p>
+  <p>250 Geometric Compositions</p>
 </header>
 <div class="gallery" id="gallery"></div>
 <div class="overlay" id="overlay" onclick="this.classList.remove('active')">
@@ -52,18 +52,46 @@ const titles = [
   "Pendulums in Sync","Mosaic","Antenna Array","Tightrope","Stained Glass",
   "Parachute","Dice","Viaduct","Carousel","Century Mark",
   "Ziggurat","Pulley System","Aqueduct","Barcode","Constellation",
-  "Ferris Wheel","Guilloche","Drawers","Rocket","Opus Finale"
+  "Ferris Wheel","Guilloche","Drawers","Rocket","Opus Finale",
+  "Watchtower","Pendulum Clock","Butterfly Wings","Rail Yard","Sundial Shadow",
+  "Venetian Mask","Turbine","Torii Gate","Puzzle Pieces","Pendulum Wave",
+  "Amphora","Crossroads","Chandelier","Fortress Wall","Dandelion",
+  "Accordion","Satellite Dish","Candelabra","Domino Chain","Mosaic Floor",
+  "Seismograph","Kite","DNA Helix","Bell Tower","Nautilus",
+  "Telescope","Catapult","Abacus Frame","Flower Press","Marionette",
+  "Suspension Cable","Snowflake","Kaleidoscope II","Paper Airplane","Scaffold Grid",
+  "Metronome Row","Flame","Anvil","Chevron Stack","Ship Hull",
+  "Perforated Screen","Zigzag Path","Canopy Tent","Torus","Rowing Oars",
+  "Megaphone","Atomic Model","Drawbridge Up","Tessellated Fish","Ventilation Grid",
+  "Waterfall","Panopticon","Crown Jewels","Tuning Fork","Tree Rings",
+  "Crane","Iris","Waffle Grid","Compass Needle","Hammock",
+  "Pinball","Rope Knot","Terrarium","Semaphore Tower","Tangram",
+  "Escalator","Zodiac Wheel","Plumb Line","Xylophone","Funicular",
+  "Drawers Open","Heliostat","Woven Basket","Signal Light","Fractal Tree",
+  "Portcullis","Gyroscope II","Shield","Sextant","Quilt",
+  "Typeface Study","Oil Derrick","Vinyl Record","Trebuchet","Mosaic Star",
+  "Astrolabe","Organ Pipes","Drawbridge Chains","Pagoda","Bicentennial",
+  "Armillary Sphere","Basket Weave","Cog Railway","Mandala","Pennant String",
+  "Orrery","Stacking Rings","Weather Vane","Scaffolding II","Prism Rainbow",
+  "Perforated Facade","Aerial View","Silo Cluster","Gear Train","Fan Vaulting",
+  "Drawloom","Amphitheater II","Moebius Strip","Semaphore Grid","Parquet Floor",
+  "Hot Air Balloon","Resonance","Totem Pole II","Trebuchet II","Crystalline",
+  "Cuckoo Clock","Anchor","Panopticon II","Spirograph","Rampart",
+  "Anemometer","Rosette","Abacus III","Stairwell","Trident",
+  "Suspension Bridge II","Dartboard","Venetian Window","Mill Wheel","Op Art Squares",
+  "Coat of Arms","Plumbing","Maypole","Geode","Ballast",
+  "Kaleidoscope III","Siege Tower","Magnetic Field","Crown Finale","Magnum Opus"
 ];
 function fileName(i) {
   if (i < 100) return `bauhaus_${String(i).padStart(2,'0')}.svg`;
   return `bauhaus_${i}.svg`;
 }
 const gallery = document.getElementById('gallery');
-for (let i = 1; i <= 110; i++) {
+for (let i = 1; i <= 250; i++) {
   const src = fileName(i);
   const card = document.createElement('div');
   card.className = 'card';
-  card.innerHTML = `<img src="${src}" onerror="this.parentElement.style.opacity='0.3'" alt="${titles[i-1]}"><div class="label">${String(i).padStart(2,'0')} &mdash; ${titles[i-1]}</div>`;
+  card.innerHTML = `<img src="${src}" onerror="this.parentElement.style.opacity='0.3'" alt="${titles[i-1]}"><div class="label">${String(i).padStart(3,'0')} &mdash; ${titles[i-1]}</div>`;
   card.onclick = () => { document.getElementById('overlay-img').src = src; document.getElementById('overlay').classList.add('active'); };
   gallery.appendChild(card);
 }

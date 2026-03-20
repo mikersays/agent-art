@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Tree Rings</title>
+  <rect width="800" height="800" fill="#1D3557"/>
+  <!-- Outermost bark -->
+  <ellipse cx="400" cy="400" rx="350" ry="340" fill="#000" stroke="#000" stroke-width="4"/>
+  <!-- Ring 1 - outermost sapwood -->
+  <ellipse cx="400" cy="400" rx="330" ry="320" fill="#457B9D" stroke="#000" stroke-width="2"/>
+  <!-- Ring 2 -->
+  <ellipse cx="398" cy="402" rx="300" ry="285" fill="#2A9D8F" stroke="#000" stroke-width="2"/>
+  <!-- Ring 3 -->
+  <ellipse cx="402" cy="398" rx="270" ry="260" fill="#FEFAE0" stroke="#000" stroke-width="2"/>
+  <!-- Ring 4 -->
+  <ellipse cx="396" cy="404" rx="245" ry="230" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <!-- Ring 5 -->
+  <ellipse cx="404" cy="396" rx="215" ry="205" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <!-- Ring 6 -->
+  <ellipse cx="398" cy="402" rx="185" ry="178" fill="#FEFAE0" stroke="#000" stroke-width="2"/>
+  <!-- Ring 7 -->
+  <ellipse cx="403" cy="397" rx="158" ry="150" fill="#2A9D8F" stroke="#000" stroke-width="2"/>
+  <!-- Ring 8 -->
+  <ellipse cx="397" cy="403" rx="130" ry="125" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <!-- Ring 9 -->
+  <ellipse cx="402" cy="398" rx="105" ry="100" fill="#457B9D" stroke="#000" stroke-width="2"/>
+  <!-- Ring 10 -->
+  <ellipse cx="398" cy="402" rx="80" ry="76" fill="#FEFAE0" stroke="#000" stroke-width="2"/>
+  <!-- Ring 11 -->
+  <ellipse cx="401" cy="399" rx="58" ry="54" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <!-- Ring 12 - heartwood -->
+  <ellipse cx="399" cy="401" rx="38" ry="35" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <!-- Pith center -->
+  <ellipse cx="400" cy="400" rx="18" ry="16" fill="#000"/>
+  <ellipse cx="400" cy="400" rx="10" ry="9" fill="#1D3557"/>
+  <!-- Radial cracks/rays -->
+  <line x1="400" y1="60" x2="400" y2="200" stroke="#000" stroke-width="1.5" opacity="0.6"/>
+  <line x1="400" y1="600" x2="400" y2="740" stroke="#000" stroke-width="1.5" opacity="0.6"/>
+  <line x1="60" y1="400" x2="180" y2="400" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <line x1="620" y1="400" x2="740" y2="400" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <line x1="160" y1="160" x2="260" y2="260" stroke="#000" stroke-width="1" opacity="0.4"/>
+  <line x1="540" y1="540" x2="640" y2="640" stroke="#000" stroke-width="1" opacity="0.4"/>
+  <!-- Knot hole -->
+  <ellipse cx="320" cy="300" rx="20" ry="25" fill="#000"/>
+  <ellipse cx="320" cy="300" rx="12" ry="15" fill="#1D3557" opacity="0.7"/>
+  <!-- Growth anomaly -->
+  <path d="M500,250 Q530,240 520,280" fill="none" stroke="#000" stroke-width="1.5" opacity="0.5"/>
+  <path d="M480,220 Q520,210 510,260" fill="none" stroke="#000" stroke-width="1" opacity="0.4"/>
+</svg>

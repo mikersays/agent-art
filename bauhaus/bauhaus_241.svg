@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Shield shape -->
+  <polygon points="400,720 150,380 150,120 650,120 650,380" fill="#1D3557" stroke="#000" stroke-width="4"/>
+  <!-- Shield quartering lines -->
+  <line x1="400" y1="120" x2="400" y2="720" stroke="#F4D35E" stroke-width="4"/>
+  <line x1="150" y1="300" x2="650" y2="300" stroke="#F4D35E" stroke-width="4"/>
+  <!-- Quarter 1: top-left - red triangle -->
+  <polygon points="250,160 350,160 300,260" fill="#E63946"/>
+  <rect x="260" y="220" width="80" height="40" fill="#F4D35E"/>
+  <!-- Quarter 2: top-right - teal circle -->
+  <circle cx="520" cy="210" r="60" fill="#2A9D8F"/>
+  <rect x="500" y="190" width="40" height="40" fill="#000"/>
+  <!-- Quarter 3: bottom-left - orange diamond -->
+  <polygon points="280,400 330,350 380,400 330,500" fill="#E76F51"/>
+  <circle cx="330" cy="420" r="20" fill="#FFF"/>
+  <!-- Quarter 4: bottom-right - burgundy cross -->
+  <rect x="480" y="340" width="80" height="30" fill="#6D2E46"/>
+  <rect x="505" y="320" width="30" height="80" fill="#6D2E46"/>
+  <circle cx="520" cy="450" r="25" fill="#F4D35E"/>
+  <!-- Crest on top -->
+  <polygon points="400,60 360,120 440,120" fill="#E63946" stroke="#000" stroke-width="3"/>
+  <circle cx="400" cy="90" r="15" fill="#F4D35E"/>
+  <rect x="370" y="50" width="60" height="10" fill="#000"/>
+  <!-- Left supporter: geometric lion -->
+  <rect x="60" y="400" width="70" height="100" fill="#E76F51"/>
+  <polygon points="60,400 95,340 130,400" fill="#E76F51"/>
+  <circle cx="85" cy="370" r="8" fill="#000"/>
+  <circle cx="105" cy="370" r="8" fill="#000"/>
+  <rect x="70" y="500" width="15" height="50" fill="#000"/>
+  <rect x="105" y="500" width="15" height="50" fill="#000"/>
+  <polygon points="60,450 30,430 60,410" fill="#E76F51"/>
+  <!-- Right supporter: geometric eagle -->
+  <polygon points="700,380 740,340 750,400 700,420" fill="#1D3557"/>
+  <rect x="680" y="400" width="70" height="80" fill="#2A9D8F"/>
+  <polygon points="680,400 715,350 750,400" fill="#2A9D8F"/>
+  <circle cx="710" cy="380" r="6" fill="#FFF"/>
+  <circle cx="730" cy="380" r="6" fill="#FFF"/>
+  <polygon points="750,420 790,390 780,430" fill="#1D3557"/>
+  <polygon points="680,420 640,390 650,430" fill="#1D3557"/>
+  <rect x="695" y="480" width="12" height="40" fill="#000"/>
+  <rect x="725" y="480" width="12" height="40" fill="#000"/>
+  <!-- Banner below shield -->
+  <polygon points="250,700 400,740 550,700 540,730 400,770 260,730" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <rect x="340" y="710" width="120" height="20" fill="#6D2E46" opacity="0.5"/>
+  <!-- Decorative elements -->
+  <circle cx="400" cy="500" r="30" fill="none" stroke="#F4D35E" stroke-width="3"/>
+  <polygon points="400,475 410,495 400,505 390,495" fill="#E63946"/>
+</svg>

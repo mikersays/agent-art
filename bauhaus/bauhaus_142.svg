@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <defs>
+    <!-- One arm of the snowflake -->
+    <g id="arm">
+      <!-- Main branch -->
+      <line x1="0" y1="0" x2="0" y2="-250" stroke="#FFF" stroke-width="4"/>
+      <!-- Sub-branches level 1 -->
+      <line x1="0" y1="-80" x2="-50" y2="-130" stroke="#FFF" stroke-width="3"/>
+      <line x1="0" y1="-80" x2="50" y2="-130" stroke="#FFF" stroke-width="3"/>
+      <!-- Sub-branches level 2 -->
+      <line x1="0" y1="-150" x2="-70" y2="-210" stroke="#FFF" stroke-width="2.5"/>
+      <line x1="0" y1="-150" x2="70" y2="-210" stroke="#FFF" stroke-width="2.5"/>
+      <!-- Sub-branches level 3 (small) -->
+      <line x1="0" y1="-200" x2="-35" y2="-240" stroke="#FFF" stroke-width="2"/>
+      <line x1="0" y1="-200" x2="35" y2="-240" stroke="#FFF" stroke-width="2"/>
+      <!-- Tip diamond -->
+      <polygon points="0,-250 -10,-265 0,-280 10,-265" fill="#F4D35E"/>
+      <!-- Node circles -->
+      <circle cx="0" cy="-80" r="5" fill="#E63946"/>
+      <circle cx="0" cy="-150" r="5" fill="#2A9D8F"/>
+      <circle cx="0" cy="-200" r="4" fill="#E76F51"/>
+    </g>
+  </defs>
+
+  <!-- Hexagonal core -->
+  <polygon points="400,370 426,385 426,415 400,430 374,415 374,385" fill="#E63946" stroke="#FFF" stroke-width="2"/>
+
+  <!-- Inner hexagon ring -->
+  <polygon points="400,355 435,375 435,425 400,445 365,425 365,375" fill="none" stroke="#F4D35E" stroke-width="2"/>
+
+  <!-- Outer hexagon ring -->
+  <polygon points="400,340 445,365 445,435 400,460 355,435 355,365" fill="none" stroke="#2A9D8F" stroke-width="1.5"/>
+
+  <!-- Six-fold symmetric arms -->
+  <use href="#arm" transform="translate(400,400) rotate(0)"/>
+  <use href="#arm" transform="translate(400,400) rotate(60)"/>
+  <use href="#arm" transform="translate(400,400) rotate(120)"/>
+  <use href="#arm" transform="translate(400,400) rotate(180)"/>
+  <use href="#arm" transform="translate(400,400) rotate(240)"/>
+  <use href="#arm" transform="translate(400,400) rotate(300)"/>
+
+  <!-- Connecting hexagonal rings between arms -->
+  <polygon points="400,300 440,323 440,368 400,390 360,368 360,323" fill="none" stroke="#457B9D" stroke-width="1.5"/>
+  <polygon points="400,270 460,305 460,375 400,410 340,375 340,305" fill="none" stroke="#E76F51" stroke-width="1"/>
+
+  <!-- Center dot -->
+  <circle cx="400" cy="400" r="10" fill="#FFF"/>
+  <circle cx="400" cy="400" r="5" fill="#1D3557"/>
+
+  <!-- Small decorative dots at sub-branch tips -->
+  <circle cx="400" cy="120" r="4" fill="#F4D35E"/>
+  <circle cx="400" cy="680" r="4" fill="#F4D35E"/>
+  <circle cx="157" cy="260" r="4" fill="#F4D35E"/>
+  <circle cx="643" cy="260" r="4" fill="#F4D35E"/>
+  <circle cx="157" cy="540" r="4" fill="#F4D35E"/>
+  <circle cx="643" cy="540" r="4" fill="#F4D35E"/>
+
+  <!-- Title -->
+  <text x="400" y="760" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#FFF">SNOWFLAKE</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Outer compass ring -->
+  <circle cx="400" cy="400" r="350" fill="none" stroke="#000" stroke-width="6"/>
+  <circle cx="400" cy="400" r="340" fill="none" stroke="#000" stroke-width="2"/>
+  <circle cx="400" cy="400" r="320" fill="none" stroke="#1D3557" stroke-width="1"/>
+
+  <!-- Degree tick marks (every 30 degrees = 12 major ticks) -->
+  <line x1="400" y1="55" x2="400" y2="85" stroke="#000" stroke-width="4"/>
+  <line x1="400" y1="715" x2="400" y2="745" stroke="#000" stroke-width="4"/>
+  <line x1="55" y1="400" x2="85" y2="400" stroke="#000" stroke-width="4"/>
+  <line x1="715" y1="400" x2="745" y2="400" stroke="#000" stroke-width="4"/>
+
+  <!-- 30-degree ticks -->
+  <line x1="575" y1="97" x2="560" y2="123" stroke="#000" stroke-width="3"/>
+  <line x1="703" y1="225" x2="677" y2="240" stroke="#000" stroke-width="3"/>
+  <line x1="703" y1="575" x2="677" y2="560" stroke="#000" stroke-width="3"/>
+  <line x1="575" y1="703" x2="560" y2="677" stroke="#000" stroke-width="3"/>
+  <line x1="225" y1="703" x2="240" y2="677" stroke="#000" stroke-width="3"/>
+  <line x1="97" y1="575" x2="123" y2="560" stroke="#000" stroke-width="3"/>
+  <line x1="97" y1="225" x2="123" y2="240" stroke="#000" stroke-width="3"/>
+  <line x1="225" y1="97" x2="240" y2="123" stroke="#000" stroke-width="3"/>
+
+  <!-- Minor ticks (every 15 degrees, 8 additional) -->
+  <line x1="490" y1="65" x2="485" y2="90" stroke="#000" stroke-width="1.5"/>
+  <line x1="645" y1="155" x2="628" y2="175" stroke="#000" stroke-width="1.5"/>
+  <line x1="735" y1="310" x2="710" y2="315" stroke="#000" stroke-width="1.5"/>
+  <line x1="735" y1="490" x2="710" y2="485" stroke="#000" stroke-width="1.5"/>
+  <line x1="645" y1="645" x2="628" y2="625" stroke="#000" stroke-width="1.5"/>
+  <line x1="490" y1="735" x2="485" y2="710" stroke="#000" stroke-width="1.5"/>
+  <line x1="310" y1="735" x2="315" y2="710" stroke="#000" stroke-width="1.5"/>
+  <line x1="155" y1="645" x2="175" y2="628" stroke="#000" stroke-width="1.5"/>
+  <line x1="65" y1="490" x2="90" y2="485" stroke="#000" stroke-width="1.5"/>
+  <line x1="65" y1="310" x2="90" y2="315" stroke="#000" stroke-width="1.5"/>
+  <line x1="155" y1="155" x2="175" y2="175" stroke="#000" stroke-width="1.5"/>
+  <line x1="310" y1="65" x2="315" y2="90" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Cardinal direction labels -->
+  <text x="400" y="115" font-family="sans-serif" font-weight="bold" font-size="36" fill="#E63946" text-anchor="middle">N</text>
+  <text x="400" y="720" font-family="sans-serif" font-weight="bold" font-size="30" fill="#000" text-anchor="middle">S</text>
+  <text x="110" y="410" font-family="sans-serif" font-weight="bold" font-size="30" fill="#000" text-anchor="middle">W</text>
+  <text x="690" y="410" font-family="sans-serif" font-weight="bold" font-size="30" fill="#000" text-anchor="middle">E</text>
+
+  <!-- Inner decorative rings -->
+  <circle cx="400" cy="400" r="280" fill="none" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="400" cy="400" r="200" fill="none" stroke="#264653" stroke-width="1.5"/>
+  <circle cx="400" cy="400" r="40" fill="#000"/>
+
+  <!-- Compass needle - diamond shape pointing North (red) -->
+  <polygon points="400,120 420,400 400,380 380,400" fill="#E63946"/>
+  <!-- South needle half -->
+  <polygon points="400,680 420,400 400,420 380,400" fill="#1D3557"/>
+
+  <!-- Needle side facets for 3D -->
+  <polygon points="400,120 420,400 400,400" fill="#E63946" opacity="0.8"/>
+  <polygon points="400,120 380,400 400,400" fill="#6D2E46" opacity="0.6"/>
+  <polygon points="400,680 420,400 400,400" fill="#1D3557" opacity="0.8"/>
+  <polygon points="400,680 380,400 400,400" fill="#264653" opacity="0.6"/>
+
+  <!-- Center pin -->
+  <circle cx="400" cy="400" r="12" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="400" cy="400" r="5" fill="#000"/>
+
+  <!-- Decorative corner squares -->
+  <rect x="10" y="10" width="50" height="50" fill="#E63946"/>
+  <rect x="740" y="10" width="50" height="50" fill="#1D3557"/>
+  <rect x="10" y="740" width="50" height="50" fill="#1D3557"/>
+  <rect x="740" y="740" width="50" height="50" fill="#F4D35E"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Magnetic Field</title>
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Two magnetic pole circles -->
+  <circle cx="250" cy="400" r="50" fill="#E63946" stroke="#000" stroke-width="3"/>
+  <circle cx="550" cy="400" r="50" fill="#1D3557" stroke="#000" stroke-width="3"/>
+  <!-- N and S labels -->
+  <text x="250" y="408" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="28" font-weight="bold">N</text>
+  <text x="550" y="408" text-anchor="middle" fill="#FFF" font-family="sans-serif" font-size="28" font-weight="bold">S</text>
+  <!-- Iron filing field lines - curved paths between poles -->
+  <!-- Top field lines -->
+  <path d="M300,400 C350,300 450,300 500,400" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.8"/>
+  <path d="M300,400 C340,260 460,260 500,400" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.75"/>
+  <path d="M300,400 C330,200 470,200 500,400" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.7"/>
+  <path d="M300,400 C320,140 480,140 500,400" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.65"/>
+  <path d="M300,400 C310,80 490,80 500,400" fill="none" stroke="#457B9D" stroke-width="1.2" opacity="0.6"/>
+  <path d="M300,400 C300,30 500,30 500,400" fill="none" stroke="#457B9D" stroke-width="1" opacity="0.5"/>
+  <!-- Bottom field lines (mirror) -->
+  <path d="M300,400 C350,500 450,500 500,400" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.8"/>
+  <path d="M300,400 C340,540 460,540 500,400" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.75"/>
+  <path d="M300,400 C330,600 470,600 500,400" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.7"/>
+  <path d="M300,400 C320,660 480,660 500,400" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.65"/>
+  <path d="M300,400 C310,720 490,720 500,400" fill="none" stroke="#457B9D" stroke-width="1.2" opacity="0.6"/>
+  <path d="M300,400 C300,770 500,770 500,400" fill="none" stroke="#457B9D" stroke-width="1" opacity="0.5"/>
+  <!-- Outer wrapping field lines -->
+  <path d="M250,350 C200,200 100,150 50,400 C100,650 200,600 250,450" fill="none" stroke="#E9C46A" stroke-width="1.2" opacity="0.6"/>
+  <path d="M550,350 C600,200 700,150 750,400 C700,650 600,600 550,450" fill="none" stroke="#E9C46A" stroke-width="1.2" opacity="0.6"/>
+  <path d="M250,350 C180,100 50,80 20,400 C50,720 180,700 250,450" fill="none" stroke="#E9C46A" stroke-width="1" opacity="0.45"/>
+  <path d="M550,350 C620,100 750,80 780,400 C750,720 620,700 550,450" fill="none" stroke="#E9C46A" stroke-width="1" opacity="0.45"/>
+  <!-- Straight field lines through center -->
+  <line x1="300" y1="400" x2="500" y2="400" stroke="#000" stroke-width="2" opacity="0.9"/>
+  <line x1="300" y1="390" x2="500" y2="390" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <line x1="300" y1="410" x2="500" y2="410" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <!-- Directional arrows on field lines -->
+  <polygon points="400,295 405,305 395,305" fill="#264653" opacity="0.8"/>
+  <polygon points="400,505 405,495 395,495" fill="#264653" opacity="0.8"/>
+  <polygon points="400,395 410,400 400,405" fill="#000" opacity="0.7"/>
+  <polygon points="400,195 405,205 395,205" fill="#264653" opacity="0.7"/>
+  <polygon points="400,605 405,595 395,595" fill="#264653" opacity="0.7"/>
+  <!-- Scattered iron filing dots for texture -->
+  <circle cx="350" cy="320" r="2" fill="#000" opacity="0.4"/>
+  <circle cx="370" cy="310" r="1.5" fill="#000" opacity="0.4"/>
+  <circle cx="430" cy="310" r="1.5" fill="#000" opacity="0.4"/>
+  <circle cx="450" cy="320" r="2" fill="#000" opacity="0.4"/>
+  <circle cx="350" cy="480" r="2" fill="#000" opacity="0.4"/>
+  <circle cx="370" cy="490" r="1.5" fill="#000" opacity="0.4"/>
+  <circle cx="430" cy="490" r="1.5" fill="#000" opacity="0.4"/>
+  <circle cx="450" cy="480" r="2" fill="#000" opacity="0.4"/>
+  <circle cx="150" cy="400" r="2" fill="#000" opacity="0.3"/>
+  <circle cx="650" cy="400" r="2" fill="#000" opacity="0.3"/>
+  <circle cx="400" cy="150" r="2" fill="#000" opacity="0.3"/>
+  <circle cx="400" cy="650" r="2" fill="#000" opacity="0.3"/>
+  <!-- Pole glow rings -->
+  <circle cx="250" cy="400" r="60" fill="none" stroke="#E63946" stroke-width="1" opacity="0.3"/>
+  <circle cx="250" cy="400" r="70" fill="none" stroke="#E63946" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="550" cy="400" r="60" fill="none" stroke="#1D3557" stroke-width="1" opacity="0.3"/>
+  <circle cx="550" cy="400" r="70" fill="none" stroke="#1D3557" stroke-width="0.5" opacity="0.2"/>
+  <!-- Border frame -->
+  <rect x="5" y="5" width="790" height="790" fill="none" stroke="#000" stroke-width="2"/>
+</svg>

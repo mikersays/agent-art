@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+  <!-- Geometric texture background -->
+  <g fill="#000" fill-opacity="0.15">
+    <rect x="0" y="0" width="80" height="80"/>
+    <rect x="160" y="0" width="80" height="80"/>
+    <rect x="320" y="0" width="80" height="80"/>
+    <rect x="480" y="0" width="80" height="80"/>
+    <rect x="640" y="0" width="80" height="80"/>
+    <rect x="80" y="80" width="80" height="80"/>
+    <rect x="240" y="80" width="80" height="80"/>
+    <rect x="400" y="80" width="80" height="80"/>
+    <rect x="560" y="80" width="80" height="80"/>
+    <rect x="720" y="80" width="80" height="80"/>
+  </g>
+  <!-- Chain link 1 - top left -->
+  <ellipse cx="200" cy="150" rx="70" ry="40" fill="none" stroke="#DDA15E" stroke-width="14"/>
+  <ellipse cx="200" cy="150" rx="70" ry="40" fill="none" stroke="#F4D35E" stroke-width="4"/>
+  <!-- Chain link 2 - interlocking -->
+  <ellipse cx="200" cy="220" rx="40" ry="70" fill="none" stroke="#333" stroke-width="14"/>
+  <ellipse cx="200" cy="220" rx="40" ry="70" fill="none" stroke="#DDA15E" stroke-width="4"/>
+  <!-- Chain link 3 -->
+  <ellipse cx="200" cy="320" rx="70" ry="40" fill="none" stroke="#DDA15E" stroke-width="14"/>
+  <ellipse cx="200" cy="320" rx="70" ry="40" fill="none" stroke="#F4D35E" stroke-width="4"/>
+  <!-- Chain link 4 -->
+  <ellipse cx="200" cy="390" rx="40" ry="70" fill="none" stroke="#333" stroke-width="14"/>
+  <ellipse cx="200" cy="390" rx="40" ry="70" fill="none" stroke="#DDA15E" stroke-width="4"/>
+  <!-- Chain link 5 -->
+  <ellipse cx="200" cy="490" rx="70" ry="40" fill="none" stroke="#DDA15E" stroke-width="14"/>
+  <ellipse cx="200" cy="490" rx="70" ry="40" fill="none" stroke="#F4D35E" stroke-width="4"/>
+  <!-- Chain link 6 -->
+  <ellipse cx="200" cy="560" rx="40" ry="70" fill="none" stroke="#333" stroke-width="14"/>
+  <ellipse cx="200" cy="560" rx="40" ry="70" fill="none" stroke="#DDA15E" stroke-width="4"/>
+  <!-- Chain link 7 -->
+  <ellipse cx="200" cy="660" rx="70" ry="40" fill="none" stroke="#DDA15E" stroke-width="14"/>
+  <ellipse cx="200" cy="660" rx="70" ry="40" fill="none" stroke="#F4D35E" stroke-width="4"/>
+  <!-- Second chain - right side -->
+  <ellipse cx="500" cy="100" rx="40" ry="70" fill="none" stroke="#6D2E46" stroke-width="14"/>
+  <ellipse cx="500" cy="100" rx="40" ry="70" fill="none" stroke="#E63946" stroke-width="4"/>
+  <ellipse cx="500" cy="200" rx="70" ry="40" fill="none" stroke="#333" stroke-width="14"/>
+  <ellipse cx="500" cy="200" rx="70" ry="40" fill="none" stroke="#DDA15E" stroke-width="4"/>
+  <ellipse cx="500" cy="270" rx="40" ry="70" fill="none" stroke="#6D2E46" stroke-width="14"/>
+  <ellipse cx="500" cy="270" rx="40" ry="70" fill="none" stroke="#E63946" stroke-width="4"/>
+  <ellipse cx="500" cy="370" rx="70" ry="40" fill="none" stroke="#333" stroke-width="14"/>
+  <ellipse cx="500" cy="370" rx="70" ry="40" fill="none" stroke="#DDA15E" stroke-width="4"/>
+  <ellipse cx="500" cy="440" rx="40" ry="70" fill="none" stroke="#6D2E46" stroke-width="14"/>
+  <ellipse cx="500" cy="440" rx="40" ry="70" fill="none" stroke="#E63946" stroke-width="4"/>
+  <ellipse cx="500" cy="540" rx="70" ry="40" fill="none" stroke="#333" stroke-width="14"/>
+  <ellipse cx="500" cy="540" rx="70" ry="40" fill="none" stroke="#DDA15E" stroke-width="4"/>
+  <ellipse cx="500" cy="610" rx="40" ry="70" fill="none" stroke="#6D2E46" stroke-width="14"/>
+  <ellipse cx="500" cy="610" rx="40" ry="70" fill="none" stroke="#E63946" stroke-width="4"/>
+  <ellipse cx="500" cy="710" rx="70" ry="40" fill="none" stroke="#333" stroke-width="14"/>
+  <ellipse cx="500" cy="710" rx="70" ry="40" fill="none" stroke="#DDA15E" stroke-width="4"/>
+  <!-- Connecting horizontal chain between the two vertical chains -->
+  <ellipse cx="310" cy="320" rx="70" ry="30" fill="none" stroke="#E63946" stroke-width="10"/>
+  <ellipse cx="310" cy="320" rx="70" ry="30" fill="none" stroke="#FFF" stroke-width="2"/>
+  <ellipse cx="390" cy="370" rx="70" ry="30" fill="none" stroke="#E63946" stroke-width="10"/>
+  <ellipse cx="390" cy="370" rx="70" ry="30" fill="none" stroke="#FFF" stroke-width="2"/>
+  <!-- Anchor points - top -->
+  <rect x="170" y="60" width="60" height="20" rx="4" fill="#333"/>
+  <rect x="470" y="10" width="60" height="20" rx="4" fill="#333"/>
+  <!-- Highlight reflections on links -->
+  <ellipse cx="195" cy="145" rx="30" ry="12" fill="none" stroke="#FFF" stroke-width="1" stroke-opacity="0.3"/>
+  <ellipse cx="495" cy="195" rx="30" ry="12" fill="none" stroke="#FFF" stroke-width="1" stroke-opacity="0.3"/>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Drawloom</title>
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Loom frame -->
+  <rect x="100" y="50" width="40" height="700" fill="#000" rx="4"/>
+  <rect x="660" y="50" width="40" height="700" fill="#000" rx="4"/>
+  <rect x="100" y="50" width="600" height="30" fill="#333"/>
+  <rect x="100" y="720" width="600" height="30" fill="#333"/>
+
+  <!-- Heddle bar -->
+  <rect x="120" y="140" width="560" height="12" fill="#DDA15E"/>
+  <rect x="120" y="380" width="560" height="12" fill="#DDA15E"/>
+
+  <!-- Warp threads (vertical) -->
+  <line x1="170" y1="80" x2="170" y2="720" stroke="#000" stroke-width="2"/>
+  <line x1="200" y1="80" x2="200" y2="720" stroke="#333" stroke-width="2"/>
+  <line x1="230" y1="80" x2="230" y2="720" stroke="#000" stroke-width="2"/>
+  <line x1="260" y1="80" x2="260" y2="720" stroke="#333" stroke-width="2"/>
+  <line x1="290" y1="80" x2="290" y2="720" stroke="#000" stroke-width="2"/>
+  <line x1="320" y1="80" x2="320" y2="720" stroke="#333" stroke-width="2"/>
+  <line x1="350" y1="80" x2="350" y2="720" stroke="#000" stroke-width="2"/>
+  <line x1="380" y1="80" x2="380" y2="720" stroke="#333" stroke-width="2"/>
+  <line x1="410" y1="80" x2="410" y2="720" stroke="#000" stroke-width="2"/>
+  <line x1="440" y1="80" x2="440" y2="720" stroke="#333" stroke-width="2"/>
+  <line x1="470" y1="80" x2="470" y2="720" stroke="#000" stroke-width="2"/>
+  <line x1="500" y1="80" x2="500" y2="720" stroke="#333" stroke-width="2"/>
+  <line x1="530" y1="80" x2="530" y2="720" stroke="#000" stroke-width="2"/>
+  <line x1="560" y1="80" x2="560" y2="720" stroke="#333" stroke-width="2"/>
+  <line x1="590" y1="80" x2="590" y2="720" stroke="#000" stroke-width="2"/>
+  <line x1="620" y1="80" x2="620" y2="720" stroke="#333" stroke-width="2"/>
+
+  <!-- Weft rows - woven pattern in progress (bottom half) -->
+  <!-- Red weft rows -->
+  <rect x="155" y="420" width="490" height="8" fill="#E63946" rx="1"/>
+  <rect x="155" y="460" width="490" height="8" fill="#E63946" rx="1"/>
+  <rect x="155" y="500" width="490" height="8" fill="#E63946" rx="1"/>
+  <rect x="155" y="580" width="490" height="8" fill="#E63946" rx="1"/>
+  <rect x="155" y="660" width="490" height="8" fill="#E63946" rx="1"/>
+
+  <!-- Blue weft rows -->
+  <rect x="155" y="440" width="490" height="8" fill="#1D3557" rx="1"/>
+  <rect x="155" y="480" width="490" height="8" fill="#1D3557" rx="1"/>
+  <rect x="155" y="560" width="490" height="8" fill="#1D3557" rx="1"/>
+  <rect x="155" y="640" width="490" height="8" fill="#1D3557" rx="1"/>
+
+  <!-- Yellow weft rows -->
+  <rect x="155" y="520" width="490" height="8" fill="#F4D35E" rx="1"/>
+  <rect x="155" y="540" width="490" height="8" fill="#F4D35E" rx="1"/>
+  <rect x="155" y="600" width="490" height="8" fill="#F4D35E" rx="1"/>
+  <rect x="155" y="620" width="490" height="8" fill="#F4D35E" rx="1"/>
+  <rect x="155" y="680" width="490" height="8" fill="#F4D35E" rx="1"/>
+  <rect x="155" y="700" width="490" height="8" fill="#DDA15E" rx="1"/>
+
+  <!-- Shuttle at current weft position -->
+  <rect x="300" y="410" width="120" height="18" fill="#E76F51" rx="8"/>
+  <polygon points="300,419 280,419 300,410" fill="#E76F51"/>
+  <polygon points="420,419 440,419 420,410" fill="#E76F51"/>
+
+  <!-- Heddle eyes on heddle bar -->
+  <circle cx="170" cy="146" r="5" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="230" cy="146" r="5" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="290" cy="146" r="5" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="350" cy="146" r="5" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="410" cy="146" r="5" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="470" cy="146" r="5" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="530" cy="146" r="5" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="590" cy="146" r="5" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Treadle connections at bottom -->
+  <line x1="200" y1="750" x2="250" y2="780" stroke="#333" stroke-width="3"/>
+  <line x1="400" y1="750" x2="400" y2="785" stroke="#333" stroke-width="3"/>
+  <line x1="600" y1="750" x2="550" y2="780" stroke="#333" stroke-width="3"/>
+  <rect x="220" y="775" width="60" height="15" fill="#DDA15E" rx="3"/>
+  <rect x="370" y="780" width="60" height="15" fill="#DDA15E" rx="3"/>
+  <rect x="520" y="775" width="60" height="15" fill="#DDA15E" rx="3"/>
+
+  <!-- Warp beam roller at top -->
+  <ellipse cx="400" cy="55" rx="260" ry="10" fill="none" stroke="#DDA15E" stroke-width="4"/>
+
+  <!-- Cloth beam roller at bottom -->
+  <ellipse cx="400" cy="745" rx="260" ry="10" fill="none" stroke="#DDA15E" stroke-width="4"/>
+</svg>

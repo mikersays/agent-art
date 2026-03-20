@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Tower 1 -->
+  <rect x="80" y="200" width="30" height="450" fill="#000"/>
+  <rect x="75" y="180" width="40" height="30" fill="#1D3557"/>
+  <rect x="70" y="650" width="50" height="20" fill="#000"/>
+
+  <!-- Tower 2 -->
+  <rect x="280" y="250" width="30" height="400" fill="#000"/>
+  <rect x="275" y="230" width="40" height="30" fill="#1D3557"/>
+  <rect x="270" y="650" width="50" height="20" fill="#000"/>
+
+  <!-- Tower 3 -->
+  <rect x="480" y="220" width="30" height="430" fill="#000"/>
+  <rect x="475" y="200" width="40" height="30" fill="#1D3557"/>
+  <rect x="470" y="650" width="50" height="20" fill="#000"/>
+
+  <!-- Tower 4 -->
+  <rect x="680" y="240" width="30" height="410" fill="#000"/>
+  <rect x="675" y="220" width="40" height="30" fill="#1D3557"/>
+  <rect x="670" y="650" width="50" height="20" fill="#000"/>
+
+  <!-- Catenary cable 1 (between towers 1-2) -->
+  <path d="M95,200 Q190,420 295,260" fill="none" stroke="#E63946" stroke-width="4"/>
+  <!-- Suspender lines cable 1 -->
+  <line x1="130" y1="260" x2="130" y2="650" stroke="#E63946" stroke-width="1.5"/>
+  <line x1="160" y1="310" x2="160" y2="650" stroke="#E63946" stroke-width="1.5"/>
+  <line x1="190" y1="350" x2="190" y2="650" stroke="#E63946" stroke-width="1.5"/>
+  <line x1="220" y1="370" x2="220" y2="650" stroke="#E63946" stroke-width="1.5"/>
+  <line x1="250" y1="340" x2="250" y2="650" stroke="#E63946" stroke-width="1.5"/>
+
+  <!-- Catenary cable 2 (between towers 2-3) -->
+  <path d="M295,260 Q390,480 495,230" fill="none" stroke="#F4D35E" stroke-width="4"/>
+  <!-- Suspender lines cable 2 -->
+  <line x1="330" y1="320" x2="330" y2="650" stroke="#F4D35E" stroke-width="1.5"/>
+  <line x1="360" y1="380" x2="360" y2="650" stroke="#F4D35E" stroke-width="1.5"/>
+  <line x1="390" y1="420" x2="390" y2="650" stroke="#F4D35E" stroke-width="1.5"/>
+  <line x1="420" y1="400" x2="420" y2="650" stroke="#F4D35E" stroke-width="1.5"/>
+  <line x1="450" y1="340" x2="450" y2="650" stroke="#F4D35E" stroke-width="1.5"/>
+
+  <!-- Catenary cable 3 (between towers 3-4) -->
+  <path d="M495,230 Q590,460 695,250" fill="none" stroke="#2A9D8F" stroke-width="4"/>
+  <!-- Suspender lines cable 3 -->
+  <line x1="530" y1="290" x2="530" y2="650" stroke="#2A9D8F" stroke-width="1.5"/>
+  <line x1="560" y1="350" x2="560" y2="650" stroke="#2A9D8F" stroke-width="1.5"/>
+  <line x1="590" y1="400" x2="590" y2="650" stroke="#2A9D8F" stroke-width="1.5"/>
+  <line x1="620" y1="380" x2="620" y2="650" stroke="#2A9D8F" stroke-width="1.5"/>
+  <line x1="650" y1="320" x2="650" y2="650" stroke="#2A9D8F" stroke-width="1.5"/>
+
+  <!-- Upper catenary cable spanning all -->
+  <path d="M95,190 Q200,100 295,240 Q400,80 495,210 Q600,90 695,230" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Ground line -->
+  <line x1="40" y1="670" x2="760" y2="670" stroke="#000" stroke-width="3"/>
+
+  <!-- Decorative circles at tower tops -->
+  <circle cx="95" cy="180" r="8" fill="#E76F51"/>
+  <circle cx="295" cy="230" r="8" fill="#E76F51"/>
+  <circle cx="495" cy="200" r="8" fill="#E76F51"/>
+  <circle cx="695" cy="220" r="8" fill="#E76F51"/>
+
+  <!-- Title block -->
+  <rect x="250" y="720" width="300" height="40" fill="#1D3557"/>
+  <text x="400" y="747" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#FFF">SUSPENSION CABLE</text>
+
+  <!-- Additional horizontal cable -->
+  <path d="M95,350 Q200,500 295,380 Q400,520 495,360 Q600,510 695,370" fill="none" stroke="#457B9D" stroke-width="3"/>
+</svg>

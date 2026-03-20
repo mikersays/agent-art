@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+  <!-- Satellite Dish: Large parabolic arc with focus point, support structure, signal waves -->
+
+  <!-- Stars in background -->
+  <circle cx="100" cy="80" r="2" fill="#FFF" opacity="0.6"/>
+  <circle cx="250" cy="50" r="1.5" fill="#FFF" opacity="0.5"/>
+  <circle cx="680" cy="120" r="2" fill="#FFF" opacity="0.7"/>
+  <circle cx="720" cy="60" r="1.5" fill="#FFF" opacity="0.4"/>
+  <circle cx="550" cy="40" r="2" fill="#FFF" opacity="0.6"/>
+  <circle cx="150" cy="150" r="1" fill="#FFF" opacity="0.5"/>
+  <circle cx="50" cy="200" r="1.5" fill="#FFF" opacity="0.4"/>
+
+  <!-- Ground plane -->
+  <polygon points="0,700 800,700 800,800 0,800" fill="#000" opacity="0.4"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#A89F91" stroke-width="2"/>
+
+  <!-- Main parabolic dish -->
+  <path d="M 150,550 Q 400,150 650,550" fill="none" stroke="#A89F91" stroke-width="6"/>
+  <path d="M 150,550 Q 400,200 650,550" fill="#A89F91" opacity="0.15"/>
+  <!-- Dish surface lines -->
+  <path d="M 200,520 Q 400,220 600,520" fill="none" stroke="#FFF" stroke-width="1" opacity="0.3"/>
+  <path d="M 250,490 Q 400,260 550,490" fill="none" stroke="#FFF" stroke-width="1" opacity="0.3"/>
+  <path d="M 300,460 Q 400,300 500,460" fill="none" stroke="#FFF" stroke-width="1" opacity="0.3"/>
+
+  <!-- Dish rim highlight -->
+  <path d="M 150,550 Q 400,145 650,550" fill="none" stroke="#FFF" stroke-width="2" opacity="0.5"/>
+
+  <!-- Support struts from dish to focus point -->
+  <line x1="200" y1="530" x2="400" y2="350" stroke="#E9C46A" stroke-width="3"/>
+  <line x1="400" y1="480" x2="400" y2="350" stroke="#E9C46A" stroke-width="3"/>
+  <line x1="600" y1="530" x2="400" y2="350" stroke="#E9C46A" stroke-width="3"/>
+
+  <!-- Focus point / receiver -->
+  <circle cx="400" cy="350" r="15" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <circle cx="400" cy="350" r="7" fill="#F4D35E"/>
+  <circle cx="400" cy="350" r="3" fill="#FFF"/>
+
+  <!-- Signal waves emanating from focus point -->
+  <path d="M 370,320 Q 350,280 370,240" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.9"/>
+  <path d="M 355,310 Q 325,255 355,200" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.7"/>
+  <path d="M 340,300 Q 300,230 340,160" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.5"/>
+  <path d="M 325,290 Q 275,205 325,120" fill="none" stroke="#F4D35E" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Pedestal / base support -->
+  <rect x="380" y="550" width="40" height="120" fill="#A89F91" stroke="#000" stroke-width="2"/>
+  <polygon points="350,670 450,670 430,700 370,700" fill="#A89F91" stroke="#000" stroke-width="2"/>
+
+  <!-- Base platform -->
+  <ellipse cx="400" cy="700" rx="80" ry="15" fill="#000" stroke="#A89F91" stroke-width="2"/>
+
+  <!-- Pivot mechanism -->
+  <circle cx="400" cy="555" r="12" fill="#000" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="400" cy="555" r="5" fill="#E9C46A"/>
+
+  <!-- Decorative Bauhaus geometric elements -->
+  <rect x="50" y="650" width="60" height="8" fill="#E63946"/>
+  <rect x="690" y="650" width="60" height="8" fill="#2A9D8F"/>
+  <circle cx="80" cy="680" r="10" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="720" cy="680" r="10" fill="#E63946" opacity="0.8"/>
+
+  <!-- Title -->
+  <circle cx="700" cy="200" r="45" fill="#000" opacity="0.6"/>
+  <text x="700" y="207" font-family="sans-serif" font-size="18" fill="#FFF" text-anchor="middle" font-weight="bold">127</text>
+
+  <!-- Corner brackets -->
+  <polyline points="20,40 20,20 40,20" fill="none" stroke="#F4D35E" stroke-width="3"/>
+  <polyline points="760,20 780,20 780,40" fill="none" stroke="#E63946" stroke-width="3"/>
+  <polyline points="20,760 20,780 40,780" fill="none" stroke="#2A9D8F" stroke-width="3"/>
+  <polyline points="760,780 780,780 780,760" fill="none" stroke="#F4D35E" stroke-width="3"/>
+</svg>

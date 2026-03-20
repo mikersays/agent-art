@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Ground line -->
+  <line x1="50" y1="750" x2="750" y2="750" stroke="#000" stroke-width="4"/>
+  <!-- Bottom row: large heavy blocks -->
+  <polygon points="100,750 250,750 260,650 90,650" fill="#1D3557"/>
+  <polygon points="250,750 430,750 440,640 240,640" fill="#000"/>
+  <polygon points="430,750 620,750 630,660 420,660" fill="#1D3557"/>
+  <polygon points="620,750 740,750 730,670 630,670" fill="#6D2E46"/>
+  <!-- Second row -->
+  <polygon points="130,650 300,650 290,560 140,560" fill="#E76F51"/>
+  <polygon points="300,650 480,640 470,555 290,565" fill="#2A9D8F"/>
+  <polygon points="480,650 660,660 640,570 470,560" fill="#E63946"/>
+  <!-- Third row -->
+  <polygon points="180,560 340,555 330,480 190,485" fill="#F4D35E"/>
+  <polygon points="340,560 530,555 520,475 330,480" fill="#6D2E46"/>
+  <polygon points="530,565 620,570 610,490 520,485" fill="#E76F51"/>
+  <!-- Fourth row -->
+  <polygon points="220,480 390,478 380,410 230,415" fill="#2A9D8F"/>
+  <polygon points="390,480 560,478 545,415 380,418" fill="#1D3557"/>
+  <!-- Fifth row -->
+  <polygon points="270,415 440,410 425,350 280,355" fill="#E63946"/>
+  <polygon points="440,415 530,415 520,355 430,355" fill="#F4D35E"/>
+  <!-- Sixth row -->
+  <polygon points="310,355 470,350 455,300 320,305" fill="#000"/>
+  <!-- Top block / capstone -->
+  <polygon points="350,305 430,300 420,250 360,255" fill="#E63946"/>
+  <!-- Apex stone -->
+  <polygon points="375,255 410,250 400,210 380,215" fill="#F4D35E"/>
+  <!-- Shadow details on blocks -->
+  <line x1="250" y1="750" x2="260" y2="650" stroke="#FFF" stroke-width="1" opacity="0.3"/>
+  <line x1="430" y1="750" x2="440" y2="640" stroke="#FFF" stroke-width="1" opacity="0.3"/>
+  <line x1="300" y1="650" x2="290" y2="560" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <line x1="340" y1="555" x2="330" y2="480" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <!-- Stability weight indicators (circles) -->
+  <circle cx="400" cy="700" r="20" fill="none" stroke="#F4D35E" stroke-width="3"/>
+  <circle cx="300" cy="610" r="12" fill="none" stroke="#FFF" stroke-width="2"/>
+  <circle cx="500" cy="520" r="10" fill="none" stroke="#FFF" stroke-width="2"/>
+  <!-- Center of gravity line -->
+  <line x1="400" y1="200" x2="400" y2="760" stroke="#E63946" stroke-width="1" stroke-dasharray="8,6" opacity="0.5"/>
+  <!-- Small balancing pebbles -->
+  <polygon points="90,745 110,745 105,730 95,730" fill="#2A9D8F"/>
+  <polygon points="700,745 730,745 725,725 705,725" fill="#E76F51"/>
+</svg>

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <defs>
+    <clipPath id="canvas">
+      <rect x="0" y="0" width="800" height="800"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#canvas)">
+    <!-- Horizontal strips (under) - Row 1 -->
+    <rect x="0" y="0" width="160" height="50" fill="#E63946"/>
+    <rect x="160" y="0" width="160" height="50" fill="#1D3557"/>
+    <rect x="320" y="0" width="160" height="50" fill="#E63946"/>
+    <rect x="480" y="0" width="160" height="50" fill="#1D3557"/>
+    <rect x="640" y="0" width="160" height="50" fill="#E63946"/>
+    <!-- Vertical strips over row 1 -->
+    <rect x="80" y="0" width="50" height="100" fill="#F4D35E"/>
+    <rect x="240" y="0" width="50" height="100" fill="#2A9D8F"/>
+    <rect x="400" y="0" width="50" height="100" fill="#F4D35E"/>
+    <rect x="560" y="0" width="50" height="100" fill="#2A9D8F"/>
+    <rect x="720" y="0" width="50" height="100" fill="#F4D35E"/>
+    <!-- Horizontal strips - Row 2 -->
+    <rect x="0" y="100" width="160" height="50" fill="#457B9D"/>
+    <rect x="160" y="100" width="160" height="50" fill="#E76F51"/>
+    <rect x="320" y="100" width="160" height="50" fill="#457B9D"/>
+    <rect x="480" y="100" width="160" height="50" fill="#E76F51"/>
+    <rect x="640" y="100" width="160" height="50" fill="#457B9D"/>
+    <!-- Vertical strips over row 2 -->
+    <rect x="0" y="50" width="50" height="100" fill="#000"/>
+    <rect x="160" y="50" width="50" height="100" fill="#E63946"/>
+    <rect x="320" y="50" width="50" height="100" fill="#000"/>
+    <rect x="480" y="50" width="50" height="100" fill="#E63946"/>
+    <rect x="640" y="50" width="50" height="100" fill="#000"/>
+    <!-- Horizontal strips - Row 3 -->
+    <rect x="0" y="200" width="160" height="50" fill="#E63946"/>
+    <rect x="160" y="200" width="160" height="50" fill="#1D3557"/>
+    <rect x="320" y="200" width="160" height="50" fill="#E63946"/>
+    <rect x="480" y="200" width="160" height="50" fill="#1D3557"/>
+    <rect x="640" y="200" width="160" height="50" fill="#E63946"/>
+    <!-- Vertical strips over row 3 -->
+    <rect x="80" y="200" width="50" height="100" fill="#F4D35E"/>
+    <rect x="240" y="200" width="50" height="100" fill="#2A9D8F"/>
+    <rect x="400" y="200" width="50" height="100" fill="#F4D35E"/>
+    <rect x="560" y="200" width="50" height="100" fill="#2A9D8F"/>
+    <rect x="720" y="200" width="50" height="100" fill="#F4D35E"/>
+    <!-- Horizontal strips - Row 4 -->
+    <rect x="0" y="300" width="160" height="50" fill="#457B9D"/>
+    <rect x="160" y="300" width="160" height="50" fill="#E76F51"/>
+    <rect x="320" y="300" width="160" height="50" fill="#457B9D"/>
+    <rect x="480" y="300" width="160" height="50" fill="#E76F51"/>
+    <rect x="640" y="300" width="160" height="50" fill="#457B9D"/>
+    <!-- Vertical strips over row 4 -->
+    <rect x="0" y="250" width="50" height="100" fill="#000"/>
+    <rect x="160" y="250" width="50" height="100" fill="#E63946"/>
+    <rect x="320" y="250" width="50" height="100" fill="#000"/>
+    <rect x="480" y="250" width="50" height="100" fill="#E63946"/>
+    <rect x="640" y="250" width="50" height="100" fill="#000"/>
+    <!-- Horizontal strips - Row 5 -->
+    <rect x="0" y="400" width="160" height="50" fill="#E63946"/>
+    <rect x="160" y="400" width="160" height="50" fill="#1D3557"/>
+    <rect x="320" y="400" width="160" height="50" fill="#E63946"/>
+    <rect x="480" y="400" width="160" height="50" fill="#1D3557"/>
+    <rect x="640" y="400" width="160" height="50" fill="#E63946"/>
+    <!-- Vertical strips over row 5 -->
+    <rect x="80" y="400" width="50" height="100" fill="#F4D35E"/>
+    <rect x="240" y="400" width="50" height="100" fill="#2A9D8F"/>
+    <rect x="400" y="400" width="50" height="100" fill="#F4D35E"/>
+    <rect x="560" y="400" width="50" height="100" fill="#2A9D8F"/>
+    <rect x="720" y="400" width="50" height="100" fill="#F4D35E"/>
+    <!-- Horizontal strips - Row 6 -->
+    <rect x="0" y="500" width="160" height="50" fill="#457B9D"/>
+    <rect x="160" y="500" width="160" height="50" fill="#E76F51"/>
+    <rect x="320" y="500" width="160" height="50" fill="#457B9D"/>
+    <rect x="480" y="500" width="160" height="50" fill="#E76F51"/>
+    <rect x="640" y="500" width="160" height="50" fill="#457B9D"/>
+    <!-- Vertical strips over row 6 -->
+    <rect x="0" y="450" width="50" height="100" fill="#000"/>
+    <rect x="160" y="450" width="50" height="100" fill="#E63946"/>
+    <rect x="320" y="450" width="50" height="100" fill="#000"/>
+    <rect x="480" y="450" width="50" height="100" fill="#E63946"/>
+    <rect x="640" y="450" width="50" height="100" fill="#000"/>
+    <!-- Horizontal strips - Row 7 -->
+    <rect x="0" y="600" width="160" height="50" fill="#E63946"/>
+    <rect x="160" y="600" width="160" height="50" fill="#1D3557"/>
+    <rect x="320" y="600" width="160" height="50" fill="#E63946"/>
+    <rect x="480" y="600" width="160" height="50" fill="#1D3557"/>
+    <rect x="640" y="600" width="160" height="50" fill="#E63946"/>
+    <!-- Vertical strips over row 7 -->
+    <rect x="80" y="600" width="50" height="100" fill="#F4D35E"/>
+    <rect x="240" y="600" width="50" height="100" fill="#2A9D8F"/>
+    <rect x="400" y="600" width="50" height="100" fill="#F4D35E"/>
+    <rect x="560" y="600" width="50" height="100" fill="#2A9D8F"/>
+    <rect x="720" y="600" width="50" height="100" fill="#F4D35E"/>
+    <!-- Horizontal strips - Row 8 -->
+    <rect x="0" y="700" width="160" height="50" fill="#457B9D"/>
+    <rect x="160" y="700" width="160" height="50" fill="#E76F51"/>
+    <rect x="320" y="700" width="160" height="50" fill="#457B9D"/>
+    <rect x="480" y="700" width="160" height="50" fill="#E76F51"/>
+    <rect x="640" y="700" width="160" height="50" fill="#457B9D"/>
+    <!-- Vertical strips over row 8 -->
+    <rect x="0" y="650" width="50" height="100" fill="#000"/>
+    <rect x="160" y="650" width="50" height="100" fill="#E63946"/>
+    <rect x="320" y="650" width="50" height="100" fill="#000"/>
+    <rect x="480" y="650" width="50" height="100" fill="#E63946"/>
+    <rect x="640" y="650" width="50" height="100" fill="#000"/>
+    <!-- Shadow/depth lines for weave effect -->
+    <line x1="0" y1="50" x2="800" y2="50" stroke="#000" stroke-width="1" opacity="0.2"/>
+    <line x1="0" y1="150" x2="800" y2="150" stroke="#000" stroke-width="1" opacity="0.2"/>
+    <line x1="0" y1="250" x2="800" y2="250" stroke="#000" stroke-width="1" opacity="0.2"/>
+    <line x1="0" y1="350" x2="800" y2="350" stroke="#000" stroke-width="1" opacity="0.2"/>
+    <line x1="0" y1="450" x2="800" y2="450" stroke="#000" stroke-width="1" opacity="0.2"/>
+    <line x1="0" y1="550" x2="800" y2="550" stroke="#000" stroke-width="1" opacity="0.2"/>
+    <line x1="0" y1="650" x2="800" y2="650" stroke="#000" stroke-width="1" opacity="0.2"/>
+    <line x1="0" y1="750" x2="800" y2="750" stroke="#000" stroke-width="1" opacity="0.2"/>
+  </g>
+</svg>

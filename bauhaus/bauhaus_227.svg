@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Bauhaus Anchor -->
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Mooring ring at top -->
+  <circle cx="400" cy="100" r="40" fill="none" stroke="#000" stroke-width="8"/>
+  <circle cx="400" cy="100" r="25" fill="none" stroke="#1D3557" stroke-width="4"/>
+
+  <!-- Cross bar (stock) -->
+  <rect x="240" y="160" width="320" height="24" fill="#000" rx="4"/>
+  <rect x="240" y="155" width="30" height="34" fill="#1D3557" rx="3"/>
+  <rect x="530" y="155" width="30" height="34" fill="#1D3557" rx="3"/>
+
+  <!-- Main shank (vertical bar) -->
+  <rect x="385" y="130" width="30" height="420" fill="#000"/>
+
+  <!-- Shank center stripe -->
+  <rect x="395" y="140" width="10" height="400" fill="#1D3557"/>
+
+  <!-- Crown (bottom junction) -->
+  <ellipse cx="400" cy="540" rx="50" ry="20" fill="#264653" stroke="#000" stroke-width="3"/>
+
+  <!-- Left arm (fluke) -->
+  <path d="M400,540 Q300,580 220,520 L200,530 Q300,620 400,560" fill="#1D3557" stroke="#000" stroke-width="3"/>
+
+  <!-- Left fluke tip (arrow) -->
+  <polygon points="200,530 170,500 180,545 150,555 200,540" fill="#E63946" stroke="#000" stroke-width="2"/>
+
+  <!-- Right arm (fluke) -->
+  <path d="M400,540 Q500,580 580,520 L600,530 Q500,620 400,560" fill="#1D3557" stroke="#000" stroke-width="3"/>
+
+  <!-- Right fluke tip (arrow) -->
+  <polygon points="600,530 630,500 620,545 650,555 600,540" fill="#E63946" stroke="#000" stroke-width="2"/>
+
+  <!-- Decorative band on shank -->
+  <rect x="380" y="250" width="40" height="15" fill="#F4D35E" stroke="#000" stroke-width="1"/>
+  <rect x="380" y="350" width="40" height="15" fill="#F4D35E" stroke="#000" stroke-width="1"/>
+  <rect x="380" y="450" width="40" height="15" fill="#F4D35E" stroke="#000" stroke-width="1"/>
+
+  <!-- Chain links from ring -->
+  <ellipse cx="400" cy="140" rx="12" ry="8" fill="none" stroke="#000" stroke-width="4" transform="rotate(90,400,140)"/>
+
+  <!-- Rope coil (left side) -->
+  <circle cx="150" cy="650" r="60" fill="none" stroke="#E76F51" stroke-width="8"/>
+  <circle cx="150" cy="650" r="45" fill="none" stroke="#E76F51" stroke-width="8"/>
+  <circle cx="150" cy="650" r="30" fill="none" stroke="#E76F51" stroke-width="8"/>
+  <circle cx="150" cy="650" r="15" fill="#E76F51"/>
+
+  <!-- Rope connecting coil to anchor -->
+  <path d="M210,650 Q300,650 385,540" fill="none" stroke="#E76F51" stroke-width="6"/>
+
+  <!-- Chain links (right decorative) -->
+  <ellipse cx="650" cy="200" rx="15" ry="10" fill="none" stroke="#000" stroke-width="4"/>
+  <ellipse cx="650" cy="225" rx="10" ry="15" fill="none" stroke="#000" stroke-width="4"/>
+  <ellipse cx="650" cy="250" rx="15" ry="10" fill="none" stroke="#000" stroke-width="4"/>
+  <ellipse cx="650" cy="275" rx="10" ry="15" fill="none" stroke="#000" stroke-width="4"/>
+  <ellipse cx="650" cy="300" rx="15" ry="10" fill="none" stroke="#000" stroke-width="4"/>
+  <ellipse cx="650" cy="325" rx="10" ry="15" fill="none" stroke="#000" stroke-width="4"/>
+
+  <!-- Geometric accents - triangles -->
+  <polygon points="100,150 130,150 115,120" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <polygon points="670,450 700,450 685,420" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+
+  <!-- Bauhaus circles -->
+  <circle cx="700" cy="700" r="40" fill="#E63946" opacity="0.7"/>
+  <circle cx="100" cy="300" r="25" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="680" cy="120" r="20" fill="#6D2E46" opacity="0.7"/>
+
+  <!-- Geometric rectangles -->
+  <rect x="80" cy="450" y="450" width="60" height="8" fill="#264653"/>
+  <rect x="660" y="550" width="60" height="8" fill="#264653"/>
+
+  <!-- Water line decoration -->
+  <path d="M50,750 Q100,730 150,750 Q200,770 250,750 Q300,730 350,750 Q400,770 450,750 Q500,730 550,750 Q600,770 650,750 Q700,730 750,750" fill="none" stroke="#1D3557" stroke-width="4"/>
+  <path d="M50,770 Q100,750 150,770 Q200,790 250,770 Q300,750 350,770 Q400,790 450,770 Q500,750 550,770 Q600,790 650,770 Q700,750 750,770" fill="none" stroke="#1D3557" stroke-width="3" opacity="0.5"/>
+
+  <!-- Compass star accent -->
+  <polygon points="700,650 710,670 730,670 715,682 720,700 700,690 680,700 685,682 670,670 690,670" fill="#F4D35E" stroke="#000" stroke-width="1"/>
+</svg>

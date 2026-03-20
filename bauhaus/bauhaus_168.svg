@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <!-- 3D depth shadow for cells -->
+    <linearGradient id="depth" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="#F4D35E" opacity="0.15"/>
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Base grid: 8x8, each cell 90px with 10px gutters, offset 35px -->
+  <!-- Grid lines - horizontal -->
+  <line x1="35" y1="35" x2="765" y2="35" stroke="#000" stroke-width="4"/>
+  <line x1="35" y1="126" x2="765" y2="126" stroke="#000" stroke-width="4"/>
+  <line x1="35" y1="217" x2="765" y2="217" stroke="#000" stroke-width="4"/>
+  <line x1="35" y1="308" x2="765" y2="308" stroke="#000" stroke-width="4"/>
+  <line x1="35" y1="399" x2="765" y2="399" stroke="#000" stroke-width="4"/>
+  <line x1="35" y1="490" x2="765" y2="490" stroke="#000" stroke-width="4"/>
+  <line x1="35" y1="581" x2="765" y2="581" stroke="#000" stroke-width="4"/>
+  <line x1="35" y1="672" x2="765" y2="672" stroke="#000" stroke-width="4"/>
+  <line x1="35" y1="763" x2="765" y2="763" stroke="#000" stroke-width="4"/>
+
+  <!-- Grid lines - vertical -->
+  <line x1="35" y1="35" x2="35" y2="763" stroke="#000" stroke-width="4"/>
+  <line x1="126" y1="35" x2="126" y2="763" stroke="#000" stroke-width="4"/>
+  <line x1="217" y1="35" x2="217" y2="763" stroke="#000" stroke-width="4"/>
+  <line x1="308" y1="35" x2="308" y2="763" stroke="#000" stroke-width="4"/>
+  <line x1="399" y1="35" x2="399" y2="763" stroke="#000" stroke-width="4"/>
+  <line x1="490" y1="35" x2="490" y2="763" stroke="#000" stroke-width="4"/>
+  <line x1="581" y1="35" x2="581" y2="763" stroke="#000" stroke-width="4"/>
+  <line x1="672" y1="35" x2="672" y2="763" stroke="#000" stroke-width="4"/>
+  <line x1="763" y1="35" x2="763" y2="763" stroke="#000" stroke-width="4"/>
+
+  <!-- Colored cells with 3D depth effect -->
+  <!-- Row 1 -->
+  <rect x="37" y="37" width="87" height="87" fill="#E63946"/>
+  <rect x="37" y="37" width="87" height="87" fill="url(#depth)"/>
+
+  <rect x="310" y="37" width="87" height="87" fill="#1D3557"/>
+  <rect x="310" y="37" width="87" height="87" fill="url(#depth)"/>
+
+  <rect x="674" y="37" width="87" height="87" fill="#F4D35E"/>
+  <rect x="674" y="37" width="87" height="87" fill="url(#depth)"/>
+
+  <!-- Row 2 -->
+  <rect x="128" y="128" width="87" height="87" fill="#264653"/>
+  <rect x="128" y="128" width="87" height="87" fill="url(#depth)"/>
+
+  <rect x="492" y="128" width="87" height="87" fill="#E63946"/>
+  <rect x="492" y="128" width="87" height="87" fill="url(#depth)"/>
+
+  <!-- Row 3 -->
+  <rect x="219" y="219" width="87" height="87" fill="#6D2E46"/>
+  <rect x="219" y="219" width="87" height="87" fill="url(#depth)"/>
+
+  <rect x="583" y="219" width="87" height="87" fill="#F4D35E"/>
+  <rect x="583" y="219" width="87" height="87" fill="url(#depth)"/>
+
+  <!-- Row 4 -->
+  <rect x="37" y="310" width="87" height="87" fill="#E9C46A"/>
+  <rect x="37" y="310" width="87" height="87" fill="url(#depth)"/>
+
+  <rect x="401" y="310" width="87" height="87" fill="#1D3557"/>
+  <rect x="401" y="310" width="87" height="87" fill="url(#depth)"/>
+
+  <rect x="674" y="310" width="87" height="87" fill="#E63946"/>
+  <rect x="674" y="310" width="87" height="87" fill="url(#depth)"/>
+
+  <!-- Row 5 -->
+  <rect x="128" y="401" width="87" height="87" fill="#F4D35E"/>
+  <rect x="128" y="401" width="87" height="87" fill="url(#depth)"/>
+
+  <rect x="310" y="401" width="87" height="87" fill="#264653"/>
+  <rect x="310" y="401" width="87" height="87" fill="url(#depth)"/>
+
+  <!-- Row 6 -->
+  <rect x="492" y="492" width="87" height="87" fill="#6D2E46"/>
+  <rect x="492" y="492" width="87" height="87" fill="url(#depth)"/>
+
+  <rect x="37" y="492" width="87" height="87" fill="#1D3557"/>
+  <rect x="37" y="492" width="87" height="87" fill="url(#depth)"/>
+
+  <!-- Row 7 -->
+  <rect x="219" y="583" width="87" height="87" fill="#E63946"/>
+  <rect x="219" y="583" width="87" height="87" fill="url(#depth)"/>
+
+  <rect x="674" y="583" width="87" height="87" fill="#264653"/>
+  <rect x="674" y="583" width="87" height="87" fill="url(#depth)"/>
+
+  <!-- Row 8 -->
+  <rect x="401" y="674" width="87" height="87" fill="#F4D35E"/>
+  <rect x="401" y="674" width="87" height="87" fill="url(#depth)"/>
+
+  <rect x="583" y="674" width="87" height="87" fill="#E63946"/>
+  <rect x="583" y="674" width="87" height="87" fill="url(#depth)"/>
+
+  <!-- 3D shadow edges on select cells for depth -->
+  <path d="M124,37 L132,29 L132,116 L124,124 Z" fill="#000" opacity="0.25"/>
+  <path d="M37,124 L29,132 L116,132 L124,124 Z" fill="#000" opacity="0.15"/>
+
+  <path d="M397,37 L405,29 L405,116 L397,124 Z" fill="#000" opacity="0.25"/>
+  <path d="M761,37 L769,29 L769,116 L761,124 Z" fill="#000" opacity="0.25"/>
+</svg>

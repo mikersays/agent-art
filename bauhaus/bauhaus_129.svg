@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Domino Chain: Curved chain of standing dominos viewed from above, dots visible -->
+
+  <!-- Surface / table -->
+  <rect width="800" height="800" fill="#2A9D8F" opacity="0.12"/>
+
+  <!-- Table edge lines -->
+  <rect x="40" y="40" width="720" height="720" fill="none" stroke="#A89F91" stroke-width="1" rx="10"/>
+
+  <!-- Domino 1 - top left, angled -->
+  <g transform="translate(120,150) rotate(-30)">
+    <rect x="-25" y="-50" width="50" height="100" rx="5" fill="#FFF" stroke="#000" stroke-width="3"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#000" stroke-width="2"/>
+    <circle cx="0" cy="-25" r="5" fill="#E63946"/>
+    <circle cx="-10" cy="20" r="5" fill="#1D3557"/>
+    <circle cx="10" cy="20" r="5" fill="#1D3557"/>
+    <circle cx="0" cy="35" r="5" fill="#1D3557"/>
+  </g>
+
+  <!-- Domino 2 -->
+  <g transform="translate(200,220) rotate(-10)">
+    <rect x="-25" y="-50" width="50" height="100" rx="5" fill="#FFF" stroke="#000" stroke-width="3"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#000" stroke-width="2"/>
+    <circle cx="-10" cy="-30" r="5" fill="#F4D35E"/>
+    <circle cx="10" cy="-30" r="5" fill="#F4D35E"/>
+    <circle cx="0" cy="20" r="5" fill="#E63946"/>
+    <circle cx="-10" cy="35" r="5" fill="#E63946"/>
+    <circle cx="10" cy="35" r="5" fill="#E63946"/>
+  </g>
+
+  <!-- Domino 3 -->
+  <g transform="translate(290,280) rotate(10)">
+    <rect x="-25" y="-50" width="50" height="100" rx="5" fill="#FFF" stroke="#000" stroke-width="3"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#000" stroke-width="2"/>
+    <circle cx="-10" cy="-35" r="5" fill="#2A9D8F"/>
+    <circle cx="10" cy="-35" r="5" fill="#2A9D8F"/>
+    <circle cx="0" cy="-20" r="5" fill="#2A9D8F"/>
+    <circle cx="-10" cy="20" r="5" fill="#1D3557"/>
+    <circle cx="10" cy="20" r="5" fill="#1D3557"/>
+  </g>
+
+  <!-- Domino 4 -->
+  <g transform="translate(380,330) rotate(30)">
+    <rect x="-25" y="-50" width="50" height="100" rx="5" fill="#FFF" stroke="#000" stroke-width="3"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#000" stroke-width="2"/>
+    <circle cx="0" cy="-25" r="5" fill="#F4D35E"/>
+    <circle cx="-10" cy="15" r="5" fill="#E63946"/>
+    <circle cx="10" cy="15" r="5" fill="#E63946"/>
+    <circle cx="-10" cy="35" r="5" fill="#E63946"/>
+    <circle cx="10" cy="35" r="5" fill="#E63946"/>
+  </g>
+
+  <!-- Domino 5 -->
+  <g transform="translate(460,410) rotate(50)">
+    <rect x="-25" y="-50" width="50" height="100" rx="5" fill="#FFF" stroke="#000" stroke-width="3"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#000" stroke-width="2"/>
+    <circle cx="-10" cy="-35" r="5" fill="#1D3557"/>
+    <circle cx="10" cy="-20" r="5" fill="#1D3557"/>
+    <circle cx="-10" cy="-20" r="5" fill="#1D3557"/>
+    <circle cx="10" cy="-35" r="5" fill="#1D3557"/>
+    <circle cx="0" cy="-27" r="5" fill="#1D3557"/>
+    <circle cx="0" cy="25" r="5" fill="#2A9D8F"/>
+  </g>
+
+  <!-- Domino 6 -->
+  <g transform="translate(520,510) rotate(70)">
+    <rect x="-25" y="-50" width="50" height="100" rx="5" fill="#FFF" stroke="#000" stroke-width="3"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#000" stroke-width="2"/>
+    <circle cx="-10" cy="-35" r="5" fill="#E63946"/>
+    <circle cx="10" cy="-35" r="5" fill="#E63946"/>
+    <circle cx="-10" cy="-20" r="5" fill="#E63946"/>
+    <circle cx="10" cy="-20" r="5" fill="#E63946"/>
+    <circle cx="0" cy="20" r="5" fill="#F4D35E"/>
+    <circle cx="-10" cy="35" r="5" fill="#F4D35E"/>
+    <circle cx="10" cy="35" r="5" fill="#F4D35E"/>
+  </g>
+
+  <!-- Domino 7 -->
+  <g transform="translate(560,620) rotate(95)">
+    <rect x="-25" y="-50" width="50" height="100" rx="5" fill="#FFF" stroke="#000" stroke-width="3"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#000" stroke-width="2"/>
+    <circle cx="0" cy="-30" r="5" fill="#2A9D8F"/>
+    <circle cx="-10" cy="-15" r="5" fill="#2A9D8F"/>
+    <circle cx="10" cy="-15" r="5" fill="#2A9D8F"/>
+    <circle cx="0" cy="20" r="5" fill="#1D3557"/>
+    <circle cx="0" cy="35" r="5" fill="#1D3557"/>
+  </g>
+
+  <!-- Curved guide path (decorative, shows the chain curve) -->
+  <path d="M 120,150 Q 200,220 290,280 Q 380,340 460,410 Q 520,480 540,560 Q 560,620 570,680" fill="none" stroke="#E9C46A" stroke-width="2" stroke-dasharray="8,6" opacity="0.5"/>
+
+  <!-- Shadow under dominos -->
+  <ellipse cx="130" cy="170" rx="30" ry="8" fill="#000" opacity="0.1" transform="rotate(-30,130,170)"/>
+  <ellipse cx="200" cy="240" rx="30" ry="8" fill="#000" opacity="0.1" transform="rotate(-10,200,240)"/>
+  <ellipse cx="290" cy="300" rx="30" ry="8" fill="#000" opacity="0.1" transform="rotate(10,290,300)"/>
+
+  <!-- Title -->
+  <circle cx="700" cy="100" r="45" fill="#1D3557"/>
+  <text x="700" y="107" font-family="sans-serif" font-size="18" fill="#FFF" text-anchor="middle" font-weight="bold">129</text>
+
+  <!-- Corner elements -->
+  <rect x="30" y="30" width="25" height="25" fill="#E63946" opacity="0.8"/>
+  <rect x="745" y="30" width="25" height="25" fill="#F4D35E" opacity="0.8"/>
+  <rect x="30" y="745" width="25" height="25" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="745" y="745" width="25" height="25" fill="#1D3557" opacity="0.8"/>
+</svg>

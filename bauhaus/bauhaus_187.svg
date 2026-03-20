@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Bauhaus Gyroscope II - Three intersecting ring planes at 60-degree angles with central sphere -->
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Shadow base ellipse -->
+  <ellipse cx="400" cy="650" rx="200" ry="30" fill="#000" opacity="0.15"/>
+
+  <!-- Ring 1 - vertical plane (0 degrees) - Red -->
+  <ellipse cx="400" cy="400" rx="250" ry="250" fill="none" stroke="#E63946" stroke-width="14" opacity="0.85"/>
+  <ellipse cx="400" cy="400" rx="250" ry="250" fill="none" stroke="#000" stroke-width="2" opacity="0.3"/>
+
+  <!-- Ring 2 - tilted 60 degrees - Blue -->
+  <g transform="rotate(60, 400, 400)">
+    <ellipse cx="400" cy="400" rx="250" ry="80" fill="none" stroke="#1D3557" stroke-width="14" opacity="0.85"/>
+    <ellipse cx="400" cy="400" rx="250" ry="80" fill="none" stroke="#000" stroke-width="2" opacity="0.3"/>
+  </g>
+
+  <!-- Ring 3 - tilted -60 degrees - Yellow -->
+  <g transform="rotate(-60, 400, 400)">
+    <ellipse cx="400" cy="400" rx="250" ry="80" fill="none" stroke="#F4D35E" stroke-width="14" opacity="0.85"/>
+    <ellipse cx="400" cy="400" rx="250" ry="80" fill="none" stroke="#000" stroke-width="2" opacity="0.3"/>
+  </g>
+
+  <!-- Central sphere - gradient effect via concentric circles -->
+  <circle cx="400" cy="400" r="60" fill="#E76F51"/>
+  <circle cx="400" cy="400" r="48" fill="#E63946"/>
+  <circle cx="400" cy="400" r="35" fill="#E76F51"/>
+  <circle cx="400" cy="400" r="20" fill="#F4D35E"/>
+  <circle cx="390" cy="388" r="10" fill="#FFF" opacity="0.5"/>
+
+  <!-- Axis lines through center -->
+  <line x1="400" y1="130" x2="400" y2="280" stroke="#000" stroke-width="3"/>
+  <line x1="400" y1="520" x2="400" y2="670" stroke="#000" stroke-width="3"/>
+
+  <!-- Axis endpoints - small circles -->
+  <circle cx="400" cy="130" r="8" fill="#264653"/>
+  <circle cx="400" cy="670" r="8" fill="#264653"/>
+
+  <!-- Intersection accent dots at ring crossings -->
+  <circle cx="400" cy="150" r="6" fill="#E63946"/>
+  <circle cx="400" cy="650" r="6" fill="#E63946"/>
+  <circle cx="180" cy="280" r="6" fill="#1D3557"/>
+  <circle cx="620" cy="520" r="6" fill="#1D3557"/>
+  <circle cx="620" cy="280" r="6" fill="#F4D35E"/>
+  <circle cx="180" cy="520" r="6" fill="#F4D35E"/>
+
+  <!-- Decorative geometric accents - corner squares -->
+  <rect x="40" y="40" width="50" height="50" fill="#000"/>
+  <rect x="710" y="40" width="50" height="50" fill="#E63946"/>
+  <rect x="40" y="710" width="50" height="50" fill="#1D3557"/>
+  <rect x="710" y="710" width="50" height="50" fill="#F4D35E"/>
+
+  <!-- Small orbital dots suggesting motion -->
+  <circle cx="250" cy="160" r="5" fill="#E9C46A"/>
+  <circle cx="550" cy="640" r="5" fill="#E9C46A"/>
+  <circle cx="160" cy="450" r="5" fill="#E76F51"/>
+  <circle cx="640" cy="350" r="5" fill="#E76F51"/>
+
+  <!-- Outer frame lines -->
+  <line x1="20" y1="20" x2="780" y2="20" stroke="#000" stroke-width="3"/>
+  <line x1="20" y1="780" x2="780" y2="780" stroke="#000" stroke-width="3"/>
+  <line x1="20" y1="20" x2="20" y2="780" stroke="#000" stroke-width="3"/>
+  <line x1="780" y1="20" x2="780" y2="780" stroke="#000" stroke-width="3"/>
+</svg>

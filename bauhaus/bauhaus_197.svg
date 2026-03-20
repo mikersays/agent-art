@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#333"/>
+  <!-- Floor / base platform -->
+  <rect x="40" y="680" width="720" height="60" fill="#000"/>
+  <rect x="40" y="680" width="720" height="6" fill="#DDA15E"/>
+  <!-- Pipe 1 - tallest -->
+  <rect x="80" y="80" width="50" height="600" fill="#DDA15E"/>
+  <rect x="80" y="80" width="50" height="20" rx="25" fill="#F4D35E"/>
+  <rect x="90" y="100" width="30" height="580" fill="#6D2E46"/>
+  <line x1="105" y1="100" x2="105" y2="680" stroke="#FFF" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Pipe 2 -->
+  <rect x="150" y="140" width="50" height="540" fill="#DDA15E"/>
+  <rect x="150" y="140" width="50" height="20" rx="25" fill="#F4D35E"/>
+  <rect x="160" y="160" width="30" height="520" fill="#E63946"/>
+  <line x1="175" y1="160" x2="175" y2="680" stroke="#FFF" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Pipe 3 -->
+  <rect x="220" y="200" width="50" height="480" fill="#DDA15E"/>
+  <rect x="220" y="200" width="50" height="20" rx="25" fill="#F4D35E"/>
+  <rect x="230" y="220" width="30" height="460" fill="#1D3557"/>
+  <line x1="245" y1="220" x2="245" y2="680" stroke="#FFF" stroke-width="1" stroke-opacity="0.2"/>
+  <!-- Pipe 4 -->
+  <rect x="290" y="160" width="50" height="520" fill="#DDA15E"/>
+  <rect x="290" y="160" width="50" height="20" rx="25" fill="#F4D35E"/>
+  <rect x="300" y="180" width="30" height="500" fill="#6D2E46"/>
+  <line x1="315" y1="180" x2="315" y2="680" stroke="#FFF" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Pipe 5 - center tallest -->
+  <rect x="360" y="50" width="60" height="630" fill="#DDA15E"/>
+  <rect x="360" y="50" width="60" height="24" rx="30" fill="#F4D35E"/>
+  <rect x="372" y="74" width="36" height="606" fill="#E63946"/>
+  <line x1="390" y1="74" x2="390" y2="680" stroke="#FFF" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Pipe 6 -->
+  <rect x="440" y="180" width="50" height="500" fill="#DDA15E"/>
+  <rect x="440" y="180" width="50" height="20" rx="25" fill="#F4D35E"/>
+  <rect x="450" y="200" width="30" height="480" fill="#1D3557"/>
+  <line x1="465" y1="200" x2="465" y2="680" stroke="#FFF" stroke-width="1" stroke-opacity="0.2"/>
+  <!-- Pipe 7 -->
+  <rect x="510" y="240" width="50" height="440" fill="#DDA15E"/>
+  <rect x="510" y="240" width="50" height="20" rx="25" fill="#F4D35E"/>
+  <rect x="520" y="260" width="30" height="420" fill="#6D2E46"/>
+  <line x1="535" y1="260" x2="535" y2="680" stroke="#FFF" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Pipe 8 -->
+  <rect x="580" y="300" width="50" height="380" fill="#DDA15E"/>
+  <rect x="580" y="300" width="50" height="20" rx="25" fill="#F4D35E"/>
+  <rect x="590" y="320" width="30" height="360" fill="#E63946"/>
+  <line x1="605" y1="320" x2="605" y2="680" stroke="#FFF" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Pipe 9 -->
+  <rect x="650" y="350" width="50" height="330" fill="#DDA15E"/>
+  <rect x="650" y="350" width="50" height="20" rx="25" fill="#F4D35E"/>
+  <rect x="660" y="370" width="30" height="310" fill="#1D3557"/>
+  <line x1="675" y1="370" x2="675" y2="680" stroke="#FFF" stroke-width="1" stroke-opacity="0.2"/>
+  <!-- Ornate geometric pipe fronts - diamond patterns -->
+  <polygon points="105,640 115,620 105,600 95,620" fill="#F4D35E" fill-opacity="0.5"/>
+  <polygon points="175,640 185,620 175,600 165,620" fill="#F4D35E" fill-opacity="0.5"/>
+  <polygon points="390,640 402,615 390,590 378,615" fill="#F4D35E" fill-opacity="0.5"/>
+  <polygon points="535,640 545,620 535,600 525,620" fill="#F4D35E" fill-opacity="0.5"/>
+  <!-- Horizontal decorative bar across pipes -->
+  <rect x="60" y="660" width="680" height="8" fill="#F4D35E"/>
+  <rect x="60" y="660" width="680" height="2" fill="#FFF"/>
+  <!-- Top ornamental arches between pipes -->
+  <path d="M 105 80 Q 140 60 175 140" fill="none" stroke="#FFF" stroke-width="1.5" stroke-opacity="0.4"/>
+  <path d="M 315 160 Q 350 100 390 50" fill="none" stroke="#FFF" stroke-width="1.5" stroke-opacity="0.4"/>
+  <!-- Small circles at pipe tops -->
+  <circle cx="105" cy="80" r="4" fill="#FFF"/>
+  <circle cx="175" cy="140" r="4" fill="#FFF"/>
+  <circle cx="245" cy="200" r="4" fill="#FFF"/>
+  <circle cx="315" cy="160" r="4" fill="#FFF"/>
+  <circle cx="390" cy="50" r="5" fill="#FFF"/>
+  <circle cx="465" cy="180" r="4" fill="#FFF"/>
+  <circle cx="535" cy="240" r="4" fill="#FFF"/>
+  <circle cx="605" cy="300" r="4" fill="#FFF"/>
+  <circle cx="675" cy="350" r="4" fill="#FFF"/>
+</svg>

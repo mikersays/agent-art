@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Clock housing - large rectangle -->
+  <rect x="250" y="50" width="300" height="400" rx="10" fill="#1D3557"/>
+
+  <!-- Clock face - outer ring -->
+  <circle cx="400" cy="250" r="160" fill="#FFF" stroke="#000" stroke-width="6"/>
+
+  <!-- Clock face - inner ring -->
+  <circle cx="400" cy="250" r="140" fill="#FEFAE0" stroke="#000" stroke-width="2"/>
+
+  <!-- Hour marks - geometric rectangles (12 positions) -->
+  <!-- 12 o'clock -->
+  <rect x="395" y="100" width="10" height="30" fill="#E63946"/>
+  <!-- 1 -->
+  <rect x="458" y="112" width="10" height="25" fill="#000" transform="rotate(30,463,124)"/>
+  <!-- 2 -->
+  <rect x="502" y="152" width="10" height="25" fill="#000" transform="rotate(60,507,164)"/>
+  <!-- 3 o'clock -->
+  <rect x="520" y="245" width="30" height="10" fill="#E63946"/>
+  <!-- 4 -->
+  <rect x="502" y="328" width="10" height="25" fill="#000" transform="rotate(120,507,340)"/>
+  <!-- 5 -->
+  <rect x="458" y="368" width="10" height="25" fill="#000" transform="rotate(150,463,380)"/>
+  <!-- 6 o'clock -->
+  <rect x="395" y="370" width="10" height="30" fill="#E63946"/>
+  <!-- 7 -->
+  <rect x="332" y="368" width="10" height="25" fill="#000" transform="rotate(210,337,380)"/>
+  <!-- 8 -->
+  <rect x="288" y="328" width="10" height="25" fill="#000" transform="rotate(240,293,340)"/>
+  <!-- 9 o'clock -->
+  <rect x="250" y="245" width="30" height="10" fill="#E63946"/>
+  <!-- 10 -->
+  <rect x="288" y="152" width="10" height="25" fill="#000" transform="rotate(300,293,164)"/>
+  <!-- 11 -->
+  <rect x="332" y="112" width="10" height="25" fill="#000" transform="rotate(330,337,124)"/>
+
+  <!-- Hour hand -->
+  <rect x="396" y="175" width="8" height="80" fill="#000" transform="rotate(-30,400,250)"/>
+
+  <!-- Minute hand -->
+  <rect x="397" y="130" width="6" height="125" fill="#E63946" transform="rotate(60,400,250)"/>
+
+  <!-- Center dot -->
+  <circle cx="400" cy="250" r="10" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+
+  <!-- Pendulum rod -->
+  <rect x="397" y="450" width="6" height="200" fill="#000" transform="rotate(15,400,450)"/>
+
+  <!-- Pendulum bob -->
+  <circle cx="452" cy="650" r="40" fill="#E63946" stroke="#000" stroke-width="3"/>
+  <circle cx="452" cy="650" r="25" fill="#F4D35E"/>
+  <circle cx="452" cy="650" r="10" fill="#E76F51"/>
+
+  <!-- Clock top decoration - triangle -->
+  <polygon points="400,20 330,50 470,50" fill="#E63946"/>
+
+  <!-- Clock housing bottom -->
+  <rect x="280" y="440" width="240" height="15" fill="#000"/>
+
+  <!-- Housing side decorations -->
+  <rect x="255" y="100" width="15" height="30" fill="#F4D35E"/>
+  <rect x="530" y="100" width="15" height="30" fill="#F4D35E"/>
+  <rect x="255" y="350" width="15" height="30" fill="#2A9D8F"/>
+  <rect x="530" y="350" width="15" height="30" fill="#2A9D8F"/>
+
+  <!-- Floor line -->
+  <rect x="0" y="750" width="800" height="50" fill="#1D3557"/>
+
+  <!-- Decorative geometric elements -->
+  <rect x="100" y="300" width="40" height="40" fill="#E76F51" transform="rotate(45,120,320)"/>
+  <rect x="660" y="300" width="40" height="40" fill="#2A9D8F" transform="rotate(45,680,320)"/>
+  <circle cx="120" cy="500" r="20" fill="#F4D35E"/>
+  <circle cx="680" cy="500" r="20" fill="#E63946"/>
+</svg>

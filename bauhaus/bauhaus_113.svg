@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Left upper wing - large triangle -->
+  <polygon points="400,200 120,380 400,380" fill="#E63946"/>
+  <!-- Left upper wing - medium triangle -->
+  <polygon points="400,230 180,370 400,370" fill="#E76F51"/>
+  <!-- Left upper wing - small triangle -->
+  <polygon points="400,260 240,360 400,360" fill="#F4D35E"/>
+
+  <!-- Right upper wing - large triangle (mirrored) -->
+  <polygon points="400,200 680,380 400,380" fill="#E63946"/>
+  <!-- Right upper wing - medium triangle -->
+  <polygon points="400,230 620,370 400,370" fill="#E76F51"/>
+  <!-- Right upper wing - small triangle -->
+  <polygon points="400,260 560,360 400,360" fill="#F4D35E"/>
+
+  <!-- Left lower wing - large triangle -->
+  <polygon points="400,420 100,550 400,550" fill="#2A9D8F"/>
+  <!-- Left lower wing - medium triangle -->
+  <polygon points="400,440 170,540 400,540" fill="#F4D35E"/>
+  <!-- Left lower wing - small triangle -->
+  <polygon points="400,460 240,530 400,530" fill="#FFF"/>
+
+  <!-- Right lower wing - large triangle (mirrored) -->
+  <polygon points="400,420 700,550 400,550" fill="#2A9D8F"/>
+  <!-- Right lower wing - medium triangle -->
+  <polygon points="400,440 630,540 400,540" fill="#F4D35E"/>
+  <!-- Right lower wing - small triangle -->
+  <polygon points="400,460 560,530 400,530" fill="#FFF"/>
+
+  <!-- Body - central rectangle -->
+  <rect x="390" y="180" width="20" height="420" fill="#000"/>
+
+  <!-- Head - circle -->
+  <circle cx="400" cy="170" r="30" fill="#000"/>
+  <circle cx="400" cy="170" r="18" fill="#F4D35E"/>
+  <circle cx="400" cy="170" r="8" fill="#E63946"/>
+
+  <!-- Antennae -->
+  <line x1="385" y1="145" x2="350" y2="110" stroke="#FFF" stroke-width="3"/>
+  <line x1="415" y1="145" x2="450" y2="110" stroke="#FFF" stroke-width="3"/>
+  <circle cx="350" cy="110" r="6" fill="#E63946"/>
+  <circle cx="450" cy="110" r="6" fill="#E63946"/>
+
+  <!-- Wing spots - left -->
+  <circle cx="280" cy="340" r="15" fill="#FFF" opacity="0.6"/>
+  <circle cx="250" cy="500" r="12" fill="#E63946" opacity="0.7"/>
+
+  <!-- Wing spots - right (mirrored) -->
+  <circle cx="520" cy="340" r="15" fill="#FFF" opacity="0.6"/>
+  <circle cx="550" cy="500" r="12" fill="#E63946" opacity="0.7"/>
+
+  <!-- Tail -->
+  <polygon points="390,600 400,650 410,600" fill="#E76F51"/>
+
+  <!-- Wing edge circles - left -->
+  <circle cx="120" cy="380" r="10" fill="#F4D35E"/>
+  <circle cx="100" cy="550" r="10" fill="#E63946"/>
+
+  <!-- Wing edge circles - right -->
+  <circle cx="680" cy="380" r="10" fill="#F4D35E"/>
+  <circle cx="700" cy="550" r="10" fill="#E63946"/>
+
+  <!-- Decorative corner elements -->
+  <rect x="30" y="30" width="50" height="50" fill="#F4D35E" opacity="0.4"/>
+  <rect x="720" y="30" width="50" height="50" fill="#E63946" opacity="0.4"/>
+  <rect x="30" y="720" width="50" height="50" fill="#2A9D8F" opacity="0.4"/>
+  <rect x="720" y="720" width="50" height="50" fill="#E76F51" opacity="0.4"/>
+</svg>

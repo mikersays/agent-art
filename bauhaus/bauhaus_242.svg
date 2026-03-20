@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Main vertical pipes -->
+  <rect x="96" y="50" width="28" height="300" fill="#1D3557"/>
+  <rect x="376" y="100" width="28" height="500" fill="#000"/>
+  <rect x="596" y="50" width="28" height="400" fill="#1D3557"/>
+  <!-- Main horizontal pipes -->
+  <rect x="110" y="200" width="280" height="28" fill="#2A9D8F"/>
+  <rect x="390" y="350" width="220" height="28" fill="#2A9D8F"/>
+  <rect x="200" y="500" width="410" height="28" fill="#1D3557"/>
+  <!-- Elbow connectors (right angles) -->
+  <rect x="96" y="340" width="28" height="28" fill="#000"/>
+  <rect x="96" y="340" width="120" height="28" fill="#E76F51"/>
+  <rect x="596" y="440" width="28" height="88" fill="#000"/>
+  <rect x="596" y="500" width="28" height="28" fill="#6D2E46"/>
+  <!-- Valve circles -->
+  <circle cx="250" cy="214" r="30" fill="none" stroke="#E63946" stroke-width="5"/>
+  <line x1="250" y1="190" x2="250" y2="238" stroke="#E63946" stroke-width="4"/>
+  <circle cx="500" cy="364" r="30" fill="none" stroke="#E63946" stroke-width="5"/>
+  <line x1="476" y1="364" x2="524" y2="364" stroke="#E63946" stroke-width="4"/>
+  <circle cx="390" cy="514" r="28" fill="none" stroke="#E76F51" stroke-width="5"/>
+  <line x1="390" y1="490" x2="390" y2="538" stroke="#E76F51" stroke-width="4"/>
+  <!-- Fixtures: Faucet top-left -->
+  <rect x="50" y="50" width="60" height="40" rx="5" fill="#E63946"/>
+  <rect x="70" y="30" width="20" height="20" fill="#000"/>
+  <circle cx="80" cy="30" r="10" fill="#F4D35E"/>
+  <!-- Fixture: Tank right -->
+  <rect x="660" y="80" width="100" height="140" rx="10" fill="#6D2E46" stroke="#000" stroke-width="3"/>
+  <rect x="680" y="100" width="60" height="60" fill="#E63946" opacity="0.4"/>
+  <line x1="610" y1="150" x2="660" y2="150" stroke="#2A9D8F" stroke-width="10"/>
+  <!-- Fixture: Sink bottom -->
+  <rect x="140" y="620" width="160" height="80" rx="20" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+  <rect x="210" y="580" width="20" height="40" fill="#000"/>
+  <circle cx="220" cy="660" r="12" fill="#000"/>
+  <!-- Pipe from sink up -->
+  <rect x="206" y="528" width="28" height="60" fill="#2A9D8F"/>
+  <!-- Fixture: Boiler bottom-right -->
+  <circle cx="620" cy="660" r="70" fill="#E76F51" stroke="#000" stroke-width="3"/>
+  <circle cx="620" cy="660" r="40" fill="#F4D35E"/>
+  <circle cx="620" cy="660" r="15" fill="#E63946"/>
+  <rect x="606" y="528" width="28" height="62" fill="#000"/>
+  <!-- Small diagonal connector pipes -->
+  <rect x="110" y="490" width="100" height="10" fill="#6D2E46" transform="rotate(-5,160,495)"/>
+  <!-- Drip elements -->
+  <circle cx="80" cy="100" r="5" fill="#2A9D8F"/>
+  <circle cx="80" cy="118" r="4" fill="#2A9D8F"/>
+  <circle cx="80" cy="133" r="3" fill="#2A9D8F"/>
+  <!-- Pressure gauge -->
+  <circle cx="390" cy="200" r="30" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <line x1="390" y1="200" x2="390" y2="175" stroke="#E63946" stroke-width="3"/>
+  <circle cx="390" cy="200" r="5" fill="#000"/>
+  <!-- Extra pipe segments -->
+  <rect x="130" y="640" width="10" height="80" fill="#1D3557"/>
+  <rect x="290" y="640" width="10" height="80" fill="#1D3557"/>
+  <!-- T-junction -->
+  <rect x="376" y="580" width="28" height="100" fill="#E76F51"/>
+  <rect x="376" y="580" width="150" height="28" fill="#E76F51"/>
+</svg>

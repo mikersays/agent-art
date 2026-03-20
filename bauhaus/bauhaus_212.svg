@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <title>Aerial View</title>
+  <!-- Background - ground -->
+  <rect width="800" height="800" fill="#A8DADC"/>
+  <!-- Street grid - horizontal -->
+  <rect x="0" y="0" width="800" height="20" fill="#000"/>
+  <rect x="0" y="175" width="800" height="18" fill="#000"/>
+  <rect x="0" y="348" width="800" height="18" fill="#000"/>
+  <rect x="0" y="521" width="800" height="18" fill="#000"/>
+  <rect x="0" y="694" width="800" height="18" fill="#000"/>
+  <!-- Street grid - vertical -->
+  <rect x="0" y="0" width="20" height="800" fill="#000"/>
+  <rect x="195" y="0" width="18" height="800" fill="#000"/>
+  <rect x="390" y="0" width="18" height="800" fill="#000"/>
+  <rect x="585" y="0" width="18" height="800" fill="#000"/>
+  <rect x="780" y="0" width="20" height="800" fill="#000"/>
+  <!-- Row 1, Col 1: Red rooftop -->
+  <rect x="28" y="28" width="158" height="138" fill="#E63946"/>
+  <line x1="28" y1="28" x2="186" y2="166" stroke="#6D2E46" stroke-width="2"/>
+  <line x1="186" y1="28" x2="28" y2="166" stroke="#6D2E46" stroke-width="2"/>
+  <!-- Row 1, Col 2: Yellow rooftop -->
+  <rect x="222" y="28" width="158" height="138" fill="#F4D35E"/>
+  <rect x="260" y="60" width="82" height="74" fill="#000" opacity="0.15"/>
+  <!-- Row 1, Col 3: Teal rooftop -->
+  <rect x="417" y="28" width="158" height="138" fill="#2A9D8F"/>
+  <circle cx="496" cy="97" r="40" fill="#1D3557" opacity="0.3"/>
+  <!-- Row 1, Col 4: White rooftop -->
+  <rect x="612" y="28" width="158" height="138" fill="#FFF"/>
+  <rect x="640" y="50" width="100" height="94" fill="#A8DADC"/>
+  <!-- Row 2, Col 1: Blue rooftop -->
+  <rect x="28" y="201" width="158" height="138" fill="#1D3557"/>
+  <rect x="50" y="230" width="50" height="80" fill="#A8DADC" opacity="0.3"/>
+  <!-- Row 2, Col 2: Burgundy rooftop large -->
+  <rect x="222" y="201" width="353" height="138" fill="#6D2E46"/>
+  <line x1="222" y1="270" x2="575" y2="270" stroke="#000" stroke-width="2"/>
+  <rect x="350" y="220" width="80" height="100" fill="#E63946" opacity="0.4"/>
+  <!-- Row 2, Col 4: Yellow rooftop -->
+  <rect x="612" y="201" width="158" height="138" fill="#F4D35E"/>
+  <line x1="612" y1="201" x2="770" y2="339" stroke="#000" stroke-width="2"/>
+  <line x1="770" y1="201" x2="612" y2="339" stroke="#000" stroke-width="2"/>
+  <!-- Row 3, Col 1: White large -->
+  <rect x="28" y="374" width="353" height="138" fill="#FFF"/>
+  <rect x="100" y="400" width="200" height="86" fill="#E63946" opacity="0.2"/>
+  <circle cx="200" cy="443" r="30" fill="#F4D35E" opacity="0.5"/>
+  <!-- Row 3, Col 3: Teal rooftop -->
+  <rect x="417" y="374" width="158" height="138" fill="#2A9D8F"/>
+  <rect x="440" y="395" width="110" height="96" fill="#1D3557" opacity="0.25"/>
+  <!-- Row 3, Col 4: Red rooftop -->
+  <rect x="612" y="374" width="158" height="138" fill="#E63946"/>
+  <circle cx="691" cy="443" r="35" fill="#F4D35E" opacity="0.4"/>
+  <!-- Row 4, Col 1: Blue rooftop -->
+  <rect x="28" y="547" width="158" height="138" fill="#1D3557"/>
+  <rect x="55" y="570" width="104" height="92" fill="#2A9D8F" opacity="0.3"/>
+  <!-- Row 4, Col 2: Yellow rooftop -->
+  <rect x="222" y="547" width="158" height="138" fill="#F4D35E"/>
+  <rect x="250" y="575" width="100" height="82" fill="#000" opacity="0.12"/>
+  <!-- Row 4, Col 3: Burgundy rooftop -->
+  <rect x="417" y="547" width="158" height="138" fill="#6D2E46"/>
+  <line x1="417" y1="547" x2="575" y2="685" stroke="#E63946" stroke-width="2"/>
+  <!-- Row 4, Col 4: White rooftop -->
+  <rect x="612" y="547" width="158" height="138" fill="#FFF"/>
+  <rect x="635" y="570" width="112" height="92" fill="#1D3557" opacity="0.15"/>
+  <!-- Intersection dots (parks/trees) -->
+  <circle cx="205" cy="183" r="6" fill="#2A9D8F"/>
+  <circle cx="400" cy="183" r="6" fill="#2A9D8F"/>
+  <circle cx="595" cy="356" r="6" fill="#2A9D8F"/>
+  <circle cx="205" cy="530" r="6" fill="#2A9D8F"/>
+</svg>

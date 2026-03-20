@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#A8DADC"/>
+  <!-- Sky gradient feel -->
+  <rect x="0" y="0" width="800" height="400" fill="#1D3557" opacity="0.15"/>
+  <!-- Water below -->
+  <rect x="0" y="550" width="800" height="250" fill="#1D3557" opacity="0.3"/>
+  <!-- Left tower -->
+  <rect x="180" y="200" width="40" height="350" fill="#333"/>
+  <rect x="170" y="190" width="60" height="30" fill="#000"/>
+  <rect x="175" y="220" width="50" height="10" fill="#DDA15E"/>
+  <!-- Right tower -->
+  <rect x="580" y="200" width="40" height="350" fill="#333"/>
+  <rect x="570" y="190" width="60" height="30" fill="#000"/>
+  <rect x="575" y="220" width="50" height="10" fill="#DDA15E"/>
+  <!-- Bridge deck -->
+  <rect x="50" y="420" width="700" height="25" fill="#333"/>
+  <rect x="50" y="445" width="700" height="8" fill="#000"/>
+  <!-- Deck railing -->
+  <rect x="50" y="410" width="700" height="5" fill="#DDA15E"/>
+  <!-- Main cable left side -->
+  <path d="M195 195 Q 100 410, 50 420" stroke="#000" stroke-width="5" fill="none"/>
+  <!-- Main cable right side -->
+  <path d="M605 195 Q 700 410, 750 420" stroke="#000" stroke-width="5" fill="none"/>
+  <!-- Main cable center left -->
+  <path d="M195 195 Q 300 380, 400 400" stroke="#000" stroke-width="5" fill="none"/>
+  <!-- Main cable center right -->
+  <path d="M605 195 Q 500 380, 400 400" stroke="#000" stroke-width="5" fill="none"/>
+  <!-- Vertical suspenders left outer -->
+  <line x1="80" y1="417" x2="80" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="100" y1="416" x2="100" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="120" y1="414" x2="120" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="140" y1="411" x2="140" y2="410" stroke="#E63946" stroke-width="2"/>
+  <!-- Suspenders left of left tower -->
+  <line x1="70" y1="419" x2="70" y2="410" stroke="#E63946" stroke-width="2"/>
+  <!-- Suspenders between towers -->
+  <line x1="230" y1="370" x2="230" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="260" y1="360" x2="260" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="290" y1="355" x2="290" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="320" y1="370" x2="320" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="350" y1="385" x2="350" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="380" y1="395" x2="380" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="400" y1="400" x2="400" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="420" y1="395" x2="420" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="450" y1="385" x2="450" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="480" y1="370" x2="480" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="510" y1="355" x2="510" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="540" y1="360" x2="540" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="570" y1="370" x2="570" y2="410" stroke="#E63946" stroke-width="2"/>
+  <!-- Suspenders right outer -->
+  <line x1="640" y1="414" x2="640" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="670" y1="416" x2="670" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="700" y1="417" x2="700" y2="410" stroke="#E63946" stroke-width="2"/>
+  <line x1="730" y1="419" x2="730" y2="410" stroke="#E63946" stroke-width="2"/>
+  <!-- Tower cross beams -->
+  <rect x="185" y="280" width="30" height="6" fill="#DDA15E"/>
+  <rect x="185" y="340" width="30" height="6" fill="#DDA15E"/>
+  <rect x="585" y="280" width="30" height="6" fill="#DDA15E"/>
+  <rect x="585" y="340" width="30" height="6" fill="#DDA15E"/>
+  <!-- Anchor points -->
+  <polygon points="30,460 70,460 50,420" fill="#000"/>
+  <polygon points="730,460 770,460 750,420" fill="#000"/>
+  <!-- Water waves -->
+  <path d="M0 580 Q 50 570, 100 580 T 200 580 T 300 580 T 400 580 T 500 580 T 600 580 T 700 580 T 800 580" stroke="#1D3557" stroke-width="3" fill="none"/>
+  <path d="M0 610 Q 50 600, 100 610 T 200 610 T 300 610 T 400 610 T 500 610 T 600 610 T 700 610 T 800 610" stroke="#1D3557" stroke-width="2" fill="none"/>
+  <path d="M0 640 Q 50 630, 100 640 T 200 640 T 300 640 T 400 640 T 500 640 T 600 640 T 700 640 T 800 640" stroke="#1D3557" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- Reflection of towers -->
+  <rect x="185" y="460" width="30" height="80" fill="#333" opacity="0.2"/>
+  <rect x="585" y="460" width="30" height="80" fill="#333" opacity="0.2"/>
+  <!-- Sun circle -->
+  <circle cx="650" cy="100" r="45" fill="#F4D35E"/>
+  <!-- Bauhaus geometric accent -->
+  <circle cx="650" cy="100" r="20" fill="#DDA15E"/>
+  <!-- Ground / shore -->
+  <rect x="0" y="460" width="80" height="40" fill="#DDA15E"/>
+  <rect x="720" y="460" width="80" height="40" fill="#DDA15E"/>
+</svg>

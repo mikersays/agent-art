@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#A8DADC" opacity="0.3"/>
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Sky background -->
+  <rect width="800" height="500" fill="#A8DADC" opacity="0.2"/>
+  <!-- Ground -->
+  <rect y="650" width="800" height="150" fill="#333" opacity="0.1"/>
+  <!-- Large red kite -->
+  <polygon points="300,100 380,250 300,400 220,250" fill="none" stroke="#E63946" stroke-width="3"/>
+  <polygon points="300,100 380,250 300,250" fill="#E63946" opacity="0.8"/>
+  <polygon points="300,250 220,250 300,400" fill="#E63946" opacity="0.5"/>
+  <!-- Crossed sticks for red kite -->
+  <line x1="300" y1="100" x2="300" y2="400" stroke="#000" stroke-width="2"/>
+  <line x1="220" y1="250" x2="380" y2="250" stroke="#000" stroke-width="2"/>
+  <!-- Blue kite (smaller, higher) -->
+  <polygon points="550,50 610,150 550,250 490,150" fill="none" stroke="#1D3557" stroke-width="3"/>
+  <polygon points="550,50 610,150 550,150" fill="#1D3557" opacity="0.8"/>
+  <polygon points="550,150 490,150 550,250" fill="#1D3557" opacity="0.5"/>
+  <line x1="550" y1="50" x2="550" y2="250" stroke="#000" stroke-width="2"/>
+  <line x1="490" y1="150" x2="610" y2="150" stroke="#000" stroke-width="2"/>
+  <!-- Yellow kite (small, right side) -->
+  <polygon points="650,180 690,260 650,340 610,260" fill="none" stroke="#F4D35E" stroke-width="2.5"/>
+  <polygon points="650,180 690,260 650,260" fill="#F4D35E" opacity="0.9"/>
+  <polygon points="650,260 610,260 650,340" fill="#E76F51" opacity="0.6"/>
+  <line x1="650" y1="180" x2="650" y2="340" stroke="#000" stroke-width="1.5"/>
+  <line x1="610" y1="260" x2="690" y2="260" stroke="#000" stroke-width="1.5"/>
+  <!-- String from red kite -->
+  <line x1="300" y1="400" x2="200" y2="750" stroke="#000" stroke-width="1.5"/>
+  <!-- Tail of red kite - geometric shapes -->
+  <rect x="286" y="420" width="28" height="28" fill="#F4D35E" transform="rotate(45,300,434)"/>
+  <circle cx="280" cy="490" r="12" fill="#1D3557"/>
+  <polygon points="300,540 315,565 285,565" fill="#E63946"/>
+  <rect x="288" y="585" width="24" height="24" fill="#E76F51"/>
+  <circle cx="275" cy="640" r="10" fill="#F4D35E"/>
+  <polygon points="265,680 280,700 250,700" fill="#333"/>
+  <!-- String from blue kite -->
+  <line x1="550" y1="250" x2="500" y2="750" stroke="#000" stroke-width="1.5"/>
+  <!-- Tail of blue kite -->
+  <rect x="540" y="270" width="20" height="20" fill="#E63946" transform="rotate(45,550,280)"/>
+  <circle cx="545" cy="320" r="9" fill="#F4D35E"/>
+  <polygon points="540,355 552,375 528,375" fill="#E76F51"/>
+  <rect x="532" y="395" width="18" height="18" fill="#1D3557"/>
+  <circle cx="528" cy="445" r="8" fill="#E63946"/>
+  <!-- String from yellow kite -->
+  <line x1="650" y1="340" x2="620" y2="750" stroke="#000" stroke-width="1.2"/>
+  <!-- Tail of yellow kite -->
+  <circle cx="645" cy="370" r="8" fill="#1D3557"/>
+  <polygon points="642,400 652,420 632,420" fill="#E63946"/>
+  <rect x="635" y="440" width="16" height="16" fill="#F4D35E"/>
+  <!-- Small decorative kite in background -->
+  <polygon points="130,200 155,250 130,300 105,250" fill="#E76F51" opacity="0.3"/>
+  <line x1="130" y1="200" x2="130" y2="300" stroke="#333" stroke-width="1" opacity="0.3"/>
+  <line x1="105" y1="250" x2="155" y2="250" stroke="#333" stroke-width="1" opacity="0.3"/>
+  <!-- Wind lines -->
+  <line x1="50" y1="150" x2="150" y2="145" stroke="#333" stroke-width="1" opacity="0.3"/>
+  <line x1="70" y1="180" x2="160" y2="175" stroke="#333" stroke-width="1" opacity="0.3"/>
+  <line x1="400" y1="100" x2="480" y2="95" stroke="#333" stroke-width="1" opacity="0.3"/>
+  <!-- Border -->
+  <rect x="8" y="8" width="784" height="784" fill="none" stroke="#000" stroke-width="4"/>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Crown Finale</title>
+  <rect width="800" height="800" fill="#1D3557"/>
+  <!-- Radiant background rays -->
+  <polygon points="400,400 300,0 500,0" fill="#F4D35E" opacity="0.15"/>
+  <polygon points="400,400 0,200 0,0" fill="#E9C46A" opacity="0.1"/>
+  <polygon points="400,400 800,0 800,200" fill="#E9C46A" opacity="0.1"/>
+  <polygon points="400,400 0,400 0,200" fill="#F4D35E" opacity="0.08"/>
+  <polygon points="400,400 800,200 800,400" fill="#F4D35E" opacity="0.08"/>
+  <polygon points="400,400 100,0 300,0" fill="#E9C46A" opacity="0.12"/>
+  <polygon points="400,400 500,0 700,0" fill="#E9C46A" opacity="0.12"/>
+  <polygon points="400,400 0,0 100,0" fill="#F4D35E" opacity="0.06"/>
+  <polygon points="400,400 700,0 800,0" fill="#F4D35E" opacity="0.06"/>
+  <!-- Crown base / ermine band -->
+  <rect x="180" y="450" width="440" height="60" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <!-- Ermine spots on band -->
+  <polygon points="210,460 215,480 205,480" fill="#000"/>
+  <polygon points="250,465 255,485 245,485" fill="#000"/>
+  <polygon points="290,460 295,480 285,480" fill="#000"/>
+  <polygon points="340,465 345,485 335,485" fill="#000"/>
+  <polygon points="390,460 395,480 385,480" fill="#000"/>
+  <polygon points="440,465 445,485 435,485" fill="#000"/>
+  <polygon points="490,460 495,480 485,480" fill="#000"/>
+  <polygon points="540,465 545,485 535,485" fill="#000"/>
+  <polygon points="580,460 585,480 575,480" fill="#000"/>
+  <!-- Crown body -->
+  <rect x="180" y="350" width="440" height="100" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+  <!-- Decorative band on crown body -->
+  <rect x="180" y="380" width="440" height="15" fill="#E9C46A" stroke="#000" stroke-width="1"/>
+  <!-- Five crown points -->
+  <polygon points="200,350 240,350 220,220" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+  <polygon points="310,350 350,350 330,180" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+  <polygon points="380,350 420,350 400,150" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+  <polygon points="450,350 490,350 470,180" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+  <polygon points="560,350 600,350 580,220" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+  <!-- Jewels at crown point tips -->
+  <circle cx="220" cy="230" r="12" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <circle cx="330" cy="190" r="14" fill="#457B9D" stroke="#000" stroke-width="2"/>
+  <circle cx="400" cy="160" r="16" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <circle cx="470" cy="190" r="14" fill="#457B9D" stroke="#000" stroke-width="2"/>
+  <circle cx="580" cy="230" r="12" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <!-- Jewel facet highlights -->
+  <circle cx="218" cy="227" r="4" fill="#FFF" opacity="0.6"/>
+  <circle cx="328" cy="187" r="5" fill="#FFF" opacity="0.6"/>
+  <circle cx="398" cy="157" r="5" fill="#FFF" opacity="0.6"/>
+  <circle cx="468" cy="187" r="5" fill="#FFF" opacity="0.6"/>
+  <circle cx="578" cy="227" r="4" fill="#FFF" opacity="0.6"/>
+  <!-- Jewels on crown body -->
+  <circle cx="260" cy="370" r="10" fill="#264653" stroke="#E9C46A" stroke-width="2"/>
+  <rect x="340" y="360" width="20" height="20" fill="#E63946" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="400" cy="420" r="12" fill="#457B9D" stroke="#E9C46A" stroke-width="2"/>
+  <rect x="440" y="360" width="20" height="20" fill="#E63946" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="540" cy="370" r="10" fill="#264653" stroke="#E9C46A" stroke-width="2"/>
+  <!-- Arch decorations between points -->
+  <path d="M240,350 C260,310 310,310 310,350" fill="none" stroke="#E9C46A" stroke-width="2"/>
+  <path d="M350,350 C360,300 390,300 380,350" fill="none" stroke="#E9C46A" stroke-width="2"/>
+  <path d="M420,350 C430,300 460,300 450,350" fill="none" stroke="#E9C46A" stroke-width="2"/>
+  <path d="M490,350 C510,310 550,310 560,350" fill="none" stroke="#E9C46A" stroke-width="2"/>
+  <!-- Crown shadow -->
+  <ellipse cx="400" cy="520" rx="230" ry="15" fill="#000" opacity="0.3"/>
+  <!-- Decorative base platform -->
+  <rect x="150" y="510" width="500" height="20" fill="#264653" stroke="#000" stroke-width="2"/>
+  <rect x="170" y="530" width="460" height="10" fill="#457B9D"/>
+  <!-- Stars around crown -->
+  <polygon points="100,150 105,165 120,165 108,175 113,190 100,180 87,190 92,175 80,165 95,165" fill="#F4D35E" opacity="0.7"/>
+  <polygon points="700,150 705,165 720,165 708,175 713,190 700,180 687,190 692,175 680,165 695,165" fill="#F4D35E" opacity="0.7"/>
+  <polygon points="100,600 105,615 120,615 108,625 113,640 100,630 87,640 92,625 80,615 95,615" fill="#F4D35E" opacity="0.5"/>
+  <polygon points="700,600 705,615 720,615 708,625 713,640 700,630 687,640 692,625 680,615 695,615" fill="#F4D35E" opacity="0.5"/>
+</svg>

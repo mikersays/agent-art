@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Totem pole body -->
+  <rect x="300" y="50" width="200" height="700" fill="#457B9D" opacity="0.15"/>
+
+  <!-- === Face 1 (top) - Triangular geometric mask === -->
+  <rect x="310" y="60" width="180" height="105" fill="#1D3557"/>
+  <polygon points="400,65 340,130 460,130" fill="#E63946"/>
+  <!-- Eyes -->
+  <circle cx="370" cy="110" r="12" fill="#F4D35E"/>
+  <circle cx="430" cy="110" r="12" fill="#F4D35E"/>
+  <circle cx="370" cy="110" r="5" fill="#000"/>
+  <circle cx="430" cy="110" r="5" fill="#000"/>
+  <!-- Mouth -->
+  <rect x="375" y="140" width="50" height="8" fill="#FFF"/>
+  <line x1="388" y1="140" x2="388" y2="148" stroke="#1D3557" stroke-width="2"/>
+  <line x1="400" y1="140" x2="400" y2="148" stroke="#1D3557" stroke-width="2"/>
+  <line x1="412" y1="140" x2="412" y2="148" stroke="#1D3557" stroke-width="2"/>
+  <!-- Horns -->
+  <polygon points="310,60 330,60 310,90" fill="#E63946"/>
+  <polygon points="490,60 470,60 490,90" fill="#E63946"/>
+
+  <!-- === Face 2 - Circular owl mask === -->
+  <rect x="310" y="170" width="180" height="105" fill="#2A9D8F"/>
+  <!-- Big round eyes -->
+  <circle cx="365" cy="215" r="25" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <circle cx="435" cy="215" r="25" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <circle cx="365" cy="215" r="10" fill="#000"/>
+  <circle cx="435" cy="215" r="10" fill="#000"/>
+  <!-- Beak -->
+  <polygon points="400,235 388,255 412,255" fill="#F4D35E"/>
+  <!-- Brow line -->
+  <line x1="330" y1="195" x2="370" y2="190" stroke="#000" stroke-width="3"/>
+  <line x1="470" y1="195" x2="430" y2="190" stroke="#000" stroke-width="3"/>
+  <!-- Wing decorations -->
+  <polygon points="310,180 310,265 330,222" fill="#1D3557"/>
+  <polygon points="490,180 490,265 470,222" fill="#1D3557"/>
+
+  <!-- === Face 3 - Diamond-eyed mask === -->
+  <rect x="310" y="280" width="180" height="105" fill="#E63946"/>
+  <!-- Diamond eyes -->
+  <polygon points="365,305 345,325 365,345 385,325" fill="#FFF"/>
+  <polygon points="435,305 415,325 435,345 455,325" fill="#FFF"/>
+  <polygon points="365,315 355,325 365,335 375,325" fill="#000"/>
+  <polygon points="435,315 425,325 435,335 445,325" fill="#000"/>
+  <!-- Wide grin -->
+  <path d="M360,360 Q400,385 440,360" stroke="#000" stroke-width="3" fill="none"/>
+  <!-- Forehead symbol -->
+  <rect x="388" y="290" width="24" height="12" fill="#F4D35E"/>
+  <!-- Cheek lines -->
+  <line x1="320" y1="330" x2="345" y2="325" stroke="#000" stroke-width="2"/>
+  <line x1="480" y1="330" x2="455" y2="325" stroke="#000" stroke-width="2"/>
+
+  <!-- === Face 4 - Half-circle zen mask === -->
+  <rect x="310" y="390" width="180" height="105" fill="#F4D35E"/>
+  <!-- Half-moon eyes -->
+  <path d="M350,430 Q365,415 380,430" fill="#1D3557"/>
+  <path d="M420,430 Q435,415 450,430" fill="#1D3557"/>
+  <!-- Small circle mouth -->
+  <circle cx="400" cy="465" r="10" fill="#000"/>
+  <circle cx="400" cy="465" r="5" fill="#E63946"/>
+  <!-- Horizontal nose -->
+  <line x1="390" y1="448" x2="410" y2="448" stroke="#000" stroke-width="2.5"/>
+  <!-- Ear accents -->
+  <circle cx="315" cy="430" r="10" fill="#E63946"/>
+  <circle cx="485" cy="430" r="10" fill="#E63946"/>
+
+  <!-- === Face 5 - Cross-eyed geometric mask === -->
+  <rect x="310" y="500" width="180" height="105" fill="#000"/>
+  <!-- Cross eyes -->
+  <line x1="355" y1="530" x2="375" y2="550" stroke="#FFF" stroke-width="3"/>
+  <line x1="375" y1="530" x2="355" y2="550" stroke="#FFF" stroke-width="3"/>
+  <line x1="425" y1="530" x2="445" y2="550" stroke="#FFF" stroke-width="3"/>
+  <line x1="445" y1="530" x2="425" y2="550" stroke="#FFF" stroke-width="3"/>
+  <!-- Rectangle mouth -->
+  <rect x="370" y="570" width="60" height="15" fill="#E63946"/>
+  <!-- Zigzag crown -->
+  <polyline points="310,505 330,515 350,505 370,515 390,505 410,515 430,505 450,515 470,505 490,515" stroke="#F4D35E" stroke-width="3" fill="none"/>
+  <!-- Nose dot -->
+  <circle cx="400" cy="558" r="4" fill="#2A9D8F"/>
+
+  <!-- === Face 6 (bottom) - Spiral-eyed mask === -->
+  <rect x="310" y="610" width="180" height="105" fill="#457B9D"/>
+  <!-- Spiral eyes -->
+  <circle cx="365" cy="650" r="18" fill="#FEFAE0"/>
+  <path d="M365,650 Q365,640 375,640 Q385,640 385,650 Q385,660 365,660 Q355,660 355,650 Q355,638 370,635" stroke="#000" stroke-width="2" fill="none"/>
+  <circle cx="435" cy="650" r="18" fill="#FEFAE0"/>
+  <path d="M435,650 Q435,640 445,640 Q455,640 455,650 Q455,660 435,660 Q425,660 425,650 Q425,638 440,635" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Tongue out -->
+  <path d="M385,690 Q400,710 415,690" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <!-- Nose triangle -->
+  <polygon points="400,665 393,680 407,680" fill="#F4D35E"/>
+  <!-- Chin decoration -->
+  <rect x="380" y="705" width="40" height="5" fill="#000"/>
+
+  <!-- Divider lines between faces -->
+  <line x1="305" y1="170" x2="495" y2="170" stroke="#000" stroke-width="4"/>
+  <line x1="305" y1="280" x2="495" y2="280" stroke="#000" stroke-width="4"/>
+  <line x1="305" y1="390" x2="495" y2="390" stroke="#000" stroke-width="4"/>
+  <line x1="305" y1="500" x2="495" y2="500" stroke="#000" stroke-width="4"/>
+  <line x1="305" y1="610" x2="495" y2="610" stroke="#000" stroke-width="4"/>
+
+  <!-- Outer border of pole -->
+  <rect x="305" y="50" width="190" height="670" fill="none" stroke="#000" stroke-width="4"/>
+
+  <!-- Base -->
+  <rect x="280" y="720" width="240" height="30" fill="#000"/>
+  <rect x="260" y="740" width="280" height="20" fill="#1D3557"/>
+</svg>

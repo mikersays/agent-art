@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="500" fill="#FFF" opacity="0.15"/>
+  <!-- Castle wall left -->
+  <rect x="0" y="300" width="250" height="500" fill="#333" stroke="#000" stroke-width="3"/>
+  <!-- Castle wall right -->
+  <rect x="550" y="300" width="250" height="500" fill="#333" stroke="#000" stroke-width="3"/>
+  <!-- Battlements left -->
+  <rect x="0" y="280" width="50" height="40" fill="#333" stroke="#000" stroke-width="2"/>
+  <rect x="70" y="280" width="50" height="40" fill="#333" stroke="#000" stroke-width="2"/>
+  <rect x="140" y="280" width="50" height="40" fill="#333" stroke="#000" stroke-width="2"/>
+  <rect x="210" y="280" width="40" height="40" fill="#333" stroke="#000" stroke-width="2"/>
+  <!-- Battlements right -->
+  <rect x="550" y="280" width="40" height="40" fill="#333" stroke="#000" stroke-width="2"/>
+  <rect x="610" y="280" width="50" height="40" fill="#333" stroke="#000" stroke-width="2"/>
+  <rect x="680" y="280" width="50" height="40" fill="#333" stroke="#000" stroke-width="2"/>
+  <rect x="750" y="280" width="50" height="40" fill="#333" stroke="#000" stroke-width="2"/>
+  <!-- Gate opening -->
+  <rect x="250" y="400" width="300" height="400" fill="#000" stroke="#333" stroke-width="2"/>
+  <!-- Drawbridge in raised position -->
+  <rect x="250" y="400" width="300" height="20" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+  <polygon points="250,420 250,700 550,420" fill="#DDA15E" stroke="#000" stroke-width="3"/>
+  <!-- Drawbridge planks -->
+  <line x1="260" y1="420" x2="260" y2="690" stroke="#000" stroke-width="1.5" opacity="0.5"/>
+  <line x1="300" y1="420" x2="300" y2="640" stroke="#000" stroke-width="1.5" opacity="0.5"/>
+  <line x1="340" y1="420" x2="340" y2="580" stroke="#000" stroke-width="1.5" opacity="0.5"/>
+  <line x1="380" y1="420" x2="380" y2="520" stroke="#000" stroke-width="1.5" opacity="0.5"/>
+  <line x1="420" y1="420" x2="420" y2="470" stroke="#000" stroke-width="1.5" opacity="0.5"/>
+  <!-- Chains left -->
+  <line x1="260" y1="300" x2="260" y2="420" stroke="#F4D35E" stroke-width="4"/>
+  <circle cx="260" cy="320" r="6" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="260" cy="340" r="6" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="260" cy="360" r="6" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="260" cy="380" r="6" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <!-- Chains right -->
+  <line x1="540" y1="300" x2="540" y2="420" stroke="#F4D35E" stroke-width="4"/>
+  <circle cx="540" cy="320" r="6" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="540" cy="340" r="6" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="540" cy="360" r="6" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="540" cy="380" r="6" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <!-- Chain pulleys -->
+  <circle cx="260" cy="305" r="10" fill="#E76F51" stroke="#000" stroke-width="2"/>
+  <circle cx="540" cy="305" r="10" fill="#E76F51" stroke="#000" stroke-width="2"/>
+  <!-- Window slits -->
+  <rect x="100" y="380" width="15" height="60" fill="#000" rx="3"/>
+  <rect x="680" y="380" width="15" height="60" fill="#000" rx="3"/>
+  <!-- Accent flag on tower -->
+  <line x1="125" y1="200" x2="125" y2="280" stroke="#000" stroke-width="3"/>
+  <polygon points="125,200 175,215 125,230" fill="#E63946" stroke="#000" stroke-width="1"/>
+  <!-- Moat water -->
+  <rect x="0" y="750" width="800" height="50" fill="#1D3557" opacity="0.6"/>
+  <line x1="0" y1="760" x2="800" y2="760" stroke="#FFF" stroke-width="1" opacity="0.3"/>
+  <line x1="0" y1="775" x2="800" y2="775" stroke="#FFF" stroke-width="1" opacity="0.2"/>
+</svg>

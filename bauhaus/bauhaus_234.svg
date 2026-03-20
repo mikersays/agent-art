@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Stairwell</title>
+  <rect width="800" height="800" fill="#A89F91" opacity="0.15"/>
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Outermost square spiral layer 1 -->
+  <rect x="50" y="50" width="700" height="700" fill="#1D3557"/>
+  <rect x="50" y="50" width="700" height="50" fill="#1D3557"/>
+
+  <!-- Steps on outer ring - top -->
+  <rect x="50" y="50" width="87.5" height="50" fill="#1D3557" stroke="#000" stroke-width="1"/>
+  <rect x="137.5" y="50" width="87.5" height="50" fill="#1D3557" stroke="#000" stroke-width="1" opacity="0.9"/>
+  <rect x="225" y="50" width="87.5" height="50" fill="#1D3557" stroke="#000" stroke-width="1" opacity="0.8"/>
+  <rect x="312.5" y="50" width="87.5" height="50" fill="#1D3557" stroke="#000" stroke-width="1" opacity="0.7"/>
+  <rect x="400" y="50" width="87.5" height="50" fill="#1D3557" stroke="#000" stroke-width="1" opacity="0.6"/>
+  <rect x="487.5" y="50" width="87.5" height="50" fill="#1D3557" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <rect x="575" y="50" width="87.5" height="50" fill="#1D3557" stroke="#000" stroke-width="1" opacity="0.4"/>
+  <rect x="662.5" y="50" width="87.5" height="50" fill="#1D3557" stroke="#000" stroke-width="1" opacity="0.3"/>
+
+  <!-- Steps on outer ring - right -->
+  <rect x="700" y="100" width="50" height="87.5" fill="#E63946" stroke="#000" stroke-width="1"/>
+  <rect x="700" y="187.5" width="50" height="87.5" fill="#E63946" stroke="#000" stroke-width="1" opacity="0.9"/>
+  <rect x="700" y="275" width="50" height="87.5" fill="#E63946" stroke="#000" stroke-width="1" opacity="0.8"/>
+  <rect x="700" y="362.5" width="50" height="87.5" fill="#E63946" stroke="#000" stroke-width="1" opacity="0.7"/>
+  <rect x="700" y="450" width="50" height="87.5" fill="#E63946" stroke="#000" stroke-width="1" opacity="0.6"/>
+  <rect x="700" y="537.5" width="50" height="87.5" fill="#E63946" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <rect x="700" y="625" width="50" height="87.5" fill="#E63946" stroke="#000" stroke-width="1" opacity="0.4"/>
+
+  <!-- Steps on outer ring - bottom -->
+  <rect x="662.5" y="700" width="87.5" height="50" fill="#F4D35E" stroke="#000" stroke-width="1"/>
+  <rect x="575" y="700" width="87.5" height="50" fill="#F4D35E" stroke="#000" stroke-width="1" opacity="0.9"/>
+  <rect x="487.5" y="700" width="87.5" height="50" fill="#F4D35E" stroke="#000" stroke-width="1" opacity="0.8"/>
+  <rect x="400" y="700" width="87.5" height="50" fill="#F4D35E" stroke="#000" stroke-width="1" opacity="0.7"/>
+  <rect x="312.5" y="700" width="87.5" height="50" fill="#F4D35E" stroke="#000" stroke-width="1" opacity="0.6"/>
+  <rect x="225" y="700" width="87.5" height="50" fill="#F4D35E" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <rect x="137.5" y="700" width="87.5" height="50" fill="#F4D35E" stroke="#000" stroke-width="1" opacity="0.4"/>
+
+  <!-- Steps on outer ring - left -->
+  <rect x="50" y="625" width="50" height="87.5" fill="#2A9D8F" stroke="#000" stroke-width="1"/>
+  <rect x="50" y="537.5" width="50" height="87.5" fill="#2A9D8F" stroke="#000" stroke-width="1" opacity="0.9"/>
+  <rect x="50" y="450" width="50" height="87.5" fill="#2A9D8F" stroke="#000" stroke-width="1" opacity="0.8"/>
+  <rect x="50" y="362.5" width="50" height="87.5" fill="#2A9D8F" stroke="#000" stroke-width="1" opacity="0.7"/>
+  <rect x="50" y="275" width="50" height="87.5" fill="#2A9D8F" stroke="#000" stroke-width="1" opacity="0.6"/>
+  <rect x="50" y="187.5" width="50" height="87.5" fill="#2A9D8F" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <rect x="50" y="100" width="50" height="87.5" fill="#2A9D8F" stroke="#000" stroke-width="1" opacity="0.4"/>
+
+  <!-- Second spiral layer -->
+  <rect x="150" y="150" width="500" height="500" fill="#FFF" stroke="#000" stroke-width="2"/>
+
+  <!-- Inner steps - top -->
+  <rect x="150" y="150" width="100" height="50" fill="#1D3557" stroke="#000" stroke-width="1" opacity="0.8"/>
+  <rect x="250" y="150" width="100" height="50" fill="#1D3557" stroke="#000" stroke-width="1" opacity="0.6"/>
+  <rect x="350" y="150" width="100" height="50" fill="#1D3557" stroke="#000" stroke-width="1" opacity="0.4"/>
+  <rect x="450" y="150" width="100" height="50" fill="#1D3557" stroke="#000" stroke-width="1" opacity="0.3"/>
+  <rect x="550" y="150" width="100" height="50" fill="#1D3557" stroke="#000" stroke-width="1" opacity="0.2"/>
+
+  <!-- Inner steps - right -->
+  <rect x="600" y="200" width="50" height="100" fill="#E63946" stroke="#000" stroke-width="1" opacity="0.7"/>
+  <rect x="600" y="300" width="50" height="100" fill="#E63946" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <rect x="600" y="400" width="50" height="100" fill="#E63946" stroke="#000" stroke-width="1" opacity="0.4"/>
+  <rect x="600" y="500" width="50" height="100" fill="#E63946" stroke="#000" stroke-width="1" opacity="0.3"/>
+
+  <!-- Inner steps - bottom -->
+  <rect x="500" y="600" width="100" height="50" fill="#F4D35E" stroke="#000" stroke-width="1" opacity="0.7"/>
+  <rect x="350" y="600" width="150" height="50" fill="#F4D35E" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <rect x="200" y="600" width="150" height="50" fill="#F4D35E" stroke="#000" stroke-width="1" opacity="0.3"/>
+
+  <!-- Inner steps - left -->
+  <rect x="150" y="450" width="50" height="100" fill="#2A9D8F" stroke="#000" stroke-width="1" opacity="0.6"/>
+  <rect x="150" y="300" width="50" height="150" fill="#2A9D8F" stroke="#000" stroke-width="1" opacity="0.4"/>
+  <rect x="150" y="200" width="50" height="100" fill="#2A9D8F" stroke="#000" stroke-width="1" opacity="0.3"/>
+
+  <!-- Third spiral layer -->
+  <rect x="250" y="250" width="300" height="300" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <rect x="250" y="250" width="150" height="40" fill="#E9C46A" stroke="#000" stroke-width="1" opacity="0.6"/>
+  <rect x="400" y="250" width="150" height="40" fill="#E9C46A" stroke="#000" stroke-width="1" opacity="0.4"/>
+  <rect x="510" y="290" width="40" height="130" fill="#A89F91" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <rect x="350" y="510" width="200" height="40" fill="#E9C46A" stroke="#000" stroke-width="1" opacity="0.4"/>
+  <rect x="250" y="380" width="40" height="170" fill="#A89F91" stroke="#000" stroke-width="1" opacity="0.4"/>
+
+  <!-- Center void - the deep well -->
+  <rect x="330" y="330" width="140" height="140" fill="#000"/>
+  <rect x="350" y="350" width="100" height="100" fill="#1D3557" opacity="0.5"/>
+  <rect x="370" y="370" width="60" height="60" fill="#000"/>
+  <circle cx="400" cy="400" r="15" fill="#E63946" opacity="0.8"/>
+
+  <!-- Railing dots along edges -->
+  <circle cx="100" cy="100" r="5" fill="#000"/>
+  <circle cx="700" cy="100" r="5" fill="#000"/>
+  <circle cx="700" cy="700" r="5" fill="#000"/>
+  <circle cx="100" cy="700" r="5" fill="#000"/>
+</svg>

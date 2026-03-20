@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <defs>
+    <clipPath id="frame">
+      <rect x="40" y="40" width="720" height="720"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <!-- Row 1 - fish swimming right -->
+    <polygon points="40,80 160,40 160,120" fill="#E63946" stroke="#000" stroke-width="2"/>
+    <ellipse cx="120" cy="80" rx="50" ry="30" fill="#E63946" stroke="#000" stroke-width="2"/>
+    <circle cx="140" cy="74" r="4" fill="#FFF"/>
+    <polygon points="200,80 320,40 320,120" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <ellipse cx="280" cy="80" rx="50" ry="30" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <circle cx="300" cy="74" r="4" fill="#FFF"/>
+    <polygon points="360,80 480,40 480,120" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+    <ellipse cx="440" cy="80" rx="50" ry="30" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+    <circle cx="460" cy="74" r="4" fill="#000"/>
+    <polygon points="520,80 640,40 640,120" fill="#E76F51" stroke="#000" stroke-width="2"/>
+    <ellipse cx="600" cy="80" rx="50" ry="30" fill="#E76F51" stroke="#000" stroke-width="2"/>
+    <circle cx="620" cy="74" r="4" fill="#FFF"/>
+    <polygon points="680,80 800,40 800,120" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+    <ellipse cx="760" cy="80" rx="50" ry="30" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+    <circle cx="780" cy="74" r="4" fill="#000"/>
+    <!-- Row 2 - fish swimming left (offset) -->
+    <ellipse cx="80" cy="180" rx="50" ry="30" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <polygon points="120,180 0,140 0,220" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <circle cx="60" cy="174" r="4" fill="#FFF"/>
+    <ellipse cx="240" cy="180" rx="50" ry="30" fill="#E76F51" stroke="#000" stroke-width="2"/>
+    <polygon points="280,180 160,140 160,220" fill="#E76F51" stroke="#000" stroke-width="2"/>
+    <circle cx="220" cy="174" r="4" fill="#FFF"/>
+    <ellipse cx="400" cy="180" rx="50" ry="30" fill="#333" stroke="#000" stroke-width="2"/>
+    <polygon points="440,180 320,140 320,220" fill="#333" stroke="#000" stroke-width="2"/>
+    <circle cx="380" cy="174" r="4" fill="#FFF"/>
+    <ellipse cx="560" cy="180" rx="50" ry="30" fill="#E63946" stroke="#000" stroke-width="2"/>
+    <polygon points="600,180 480,140 480,220" fill="#E63946" stroke="#000" stroke-width="2"/>
+    <circle cx="540" cy="174" r="4" fill="#FFF"/>
+    <ellipse cx="720" cy="180" rx="50" ry="30" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+    <polygon points="760,180 640,140 640,220" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+    <circle cx="700" cy="174" r="4" fill="#000"/>
+    <!-- Row 3 - right -->
+    <polygon points="40,280 160,240 160,320" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+    <ellipse cx="120" cy="280" rx="50" ry="30" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+    <circle cx="140" cy="274" r="4" fill="#000"/>
+    <polygon points="200,280 320,240 320,320" fill="#E63946" stroke="#000" stroke-width="2"/>
+    <ellipse cx="280" cy="280" rx="50" ry="30" fill="#E63946" stroke="#000" stroke-width="2"/>
+    <circle cx="300" cy="274" r="4" fill="#FFF"/>
+    <polygon points="360,280 480,240 480,320" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <ellipse cx="440" cy="280" rx="50" ry="30" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <circle cx="460" cy="274" r="4" fill="#FFF"/>
+    <polygon points="520,280 640,240 640,320" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+    <ellipse cx="600" cy="280" rx="50" ry="30" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+    <circle cx="620" cy="274" r="4" fill="#000"/>
+    <polygon points="680,280 800,240 800,320" fill="#333" stroke="#000" stroke-width="2"/>
+    <ellipse cx="760" cy="280" rx="50" ry="30" fill="#333" stroke="#000" stroke-width="2"/>
+    <circle cx="780" cy="274" r="4" fill="#FFF"/>
+    <!-- Row 4 - left -->
+    <ellipse cx="80" cy="380" rx="50" ry="30" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+    <polygon points="120,380 0,340 0,420" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+    <circle cx="60" cy="374" r="4" fill="#000"/>
+    <ellipse cx="240" cy="380" rx="50" ry="30" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+    <polygon points="280,380 160,340 160,420" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+    <circle cx="220" cy="374" r="4" fill="#000"/>
+    <ellipse cx="400" cy="380" rx="50" ry="30" fill="#E63946" stroke="#000" stroke-width="2"/>
+    <polygon points="440,380 320,340 320,420" fill="#E63946" stroke="#000" stroke-width="2"/>
+    <circle cx="380" cy="374" r="4" fill="#FFF"/>
+    <ellipse cx="560" cy="380" rx="50" ry="30" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <polygon points="600,380 480,340 480,420" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <circle cx="540" cy="374" r="4" fill="#FFF"/>
+    <ellipse cx="720" cy="380" rx="50" ry="30" fill="#E76F51" stroke="#000" stroke-width="2"/>
+    <polygon points="760,380 640,340 640,420" fill="#E76F51" stroke="#000" stroke-width="2"/>
+    <circle cx="700" cy="374" r="4" fill="#FFF"/>
+    <!-- Row 5 - right -->
+    <polygon points="40,480 160,440 160,520" fill="#333" stroke="#000" stroke-width="2"/>
+    <ellipse cx="120" cy="480" rx="50" ry="30" fill="#333" stroke="#000" stroke-width="2"/>
+    <circle cx="140" cy="474" r="4" fill="#FFF"/>
+    <polygon points="200,480 320,440 320,520" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+    <ellipse cx="280" cy="480" rx="50" ry="30" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+    <circle cx="300" cy="474" r="4" fill="#000"/>
+    <polygon points="360,480 480,440 480,520" fill="#E76F51" stroke="#000" stroke-width="2"/>
+    <ellipse cx="440" cy="480" rx="50" ry="30" fill="#E76F51" stroke="#000" stroke-width="2"/>
+    <circle cx="460" cy="474" r="4" fill="#FFF"/>
+    <polygon points="520,480 640,440 640,520" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+    <ellipse cx="600" cy="480" rx="50" ry="30" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+    <circle cx="620" cy="474" r="4" fill="#000"/>
+    <polygon points="680,480 800,440 800,520" fill="#E63946" stroke="#000" stroke-width="2"/>
+    <ellipse cx="760" cy="480" rx="50" ry="30" fill="#E63946" stroke="#000" stroke-width="2"/>
+    <circle cx="780" cy="474" r="4" fill="#FFF"/>
+    <!-- Row 6 - left -->
+    <ellipse cx="80" cy="580" rx="50" ry="30" fill="#E76F51" stroke="#000" stroke-width="2"/>
+    <polygon points="120,580 0,540 0,620" fill="#E76F51" stroke="#000" stroke-width="2"/>
+    <circle cx="60" cy="574" r="4" fill="#FFF"/>
+    <ellipse cx="240" cy="580" rx="50" ry="30" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <polygon points="280,580 160,540 160,620" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <circle cx="220" cy="574" r="4" fill="#FFF"/>
+    <ellipse cx="400" cy="580" rx="50" ry="30" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+    <polygon points="440,580 320,540 320,620" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+    <circle cx="380" cy="574" r="4" fill="#000"/>
+    <ellipse cx="560" cy="580" rx="50" ry="30" fill="#333" stroke="#000" stroke-width="2"/>
+    <polygon points="600,580 480,540 480,620" fill="#333" stroke="#000" stroke-width="2"/>
+    <circle cx="540" cy="574" r="4" fill="#FFF"/>
+    <ellipse cx="720" cy="580" rx="50" ry="30" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+    <polygon points="760,580 640,540 640,620" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+    <circle cx="700" cy="574" r="4" fill="#000"/>
+    <!-- Row 7 - right -->
+    <polygon points="40,680 160,640 160,720" fill="#E76F51" stroke="#000" stroke-width="2"/>
+    <ellipse cx="120" cy="680" rx="50" ry="30" fill="#E76F51" stroke="#000" stroke-width="2"/>
+    <circle cx="140" cy="674" r="4" fill="#FFF"/>
+    <polygon points="200,680 320,640 320,720" fill="#333" stroke="#000" stroke-width="2"/>
+    <ellipse cx="280" cy="680" rx="50" ry="30" fill="#333" stroke="#000" stroke-width="2"/>
+    <circle cx="300" cy="674" r="4" fill="#FFF"/>
+    <polygon points="360,680 480,640 480,720" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+    <ellipse cx="440" cy="680" rx="50" ry="30" fill="#DDA15E" stroke="#000" stroke-width="2"/>
+    <circle cx="460" cy="674" r="4" fill="#000"/>
+    <polygon points="520,680 640,640 640,720" fill="#E63946" stroke="#000" stroke-width="2"/>
+    <ellipse cx="600" cy="680" rx="50" ry="30" fill="#E63946" stroke="#000" stroke-width="2"/>
+    <circle cx="620" cy="674" r="4" fill="#FFF"/>
+    <polygon points="680,680 800,640 800,720" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <ellipse cx="760" cy="680" rx="50" ry="30" fill="#1D3557" stroke="#000" stroke-width="2"/>
+    <circle cx="780" cy="674" r="4" fill="#FFF"/>
+  </g>
+  <!-- Frame border -->
+  <rect x="40" y="40" width="720" height="720" fill="none" stroke="#000" stroke-width="5"/>
+</svg>

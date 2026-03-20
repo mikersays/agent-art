@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Pinball machine outer frame -->
+  <rect x="150" y="50" width="500" height="700" rx="30" fill="#000" stroke="#F4D35E" stroke-width="6"/>
+  <rect x="170" y="70" width="460" height="660" rx="20" fill="#1D3557" stroke="#A89F91" stroke-width="2"/>
+
+  <!-- Playing field background -->
+  <rect x="190" y="90" width="420" height="620" rx="15" fill="#000" stroke="#F4D35E" stroke-width="1"/>
+
+  <!-- Top arch -->
+  <path d="M190 300 Q400 60 610 300" fill="none" stroke="#E63946" stroke-width="4"/>
+
+  <!-- Bumpers - large circles -->
+  <circle cx="320" cy="280" r="40" fill="#E63946" stroke="#F4D35E" stroke-width="3"/>
+  <circle cx="480" cy="280" r="40" fill="#2A9D8F" stroke="#F4D35E" stroke-width="3"/>
+  <circle cx="400" cy="200" r="35" fill="#E76F51" stroke="#FFF" stroke-width="3"/>
+
+  <!-- Bumper inner details -->
+  <circle cx="320" cy="280" r="20" fill="#F4D35E"/>
+  <circle cx="480" cy="280" r="20" fill="#F4D35E"/>
+  <circle cx="400" cy="200" r="17" fill="#FFF"/>
+
+  <!-- Small bumpers -->
+  <circle cx="280" cy="400" r="22" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="520" cy="400" r="22" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="400" cy="380" r="18" fill="#E63946" stroke="#FFF" stroke-width="2"/>
+
+  <!-- Lanes - vertical lines -->
+  <line x1="350" y1="100" x2="350" y2="250" stroke="#2A9D8F" stroke-width="3"/>
+  <line x1="450" y1="100" x2="450" y2="250" stroke="#2A9D8F" stroke-width="3"/>
+  <line x1="370" y1="100" x2="370" y2="230" stroke="#A89F91" stroke-width="2"/>
+  <line x1="430" y1="100" x2="430" y2="230" stroke="#A89F91" stroke-width="2"/>
+
+  <!-- Diagonal lanes -->
+  <line x1="210" y1="350" x2="270" y2="500" stroke="#E76F51" stroke-width="3"/>
+  <line x1="590" y1="350" x2="530" y2="500" stroke="#E76F51" stroke-width="3"/>
+
+  <!-- Slingshot triangles -->
+  <polygon points="250,520 290,600 210,600" fill="#E63946" stroke="#FFF" stroke-width="2"/>
+  <polygon points="550,520 590,600 510,600" fill="#E63946" stroke="#FFF" stroke-width="2"/>
+
+  <!-- Flippers - triangular shapes at bottom -->
+  <polygon points="280,650 380,660 300,680" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+  <polygon points="520,650 420,660 500,680" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+
+  <!-- Flipper pivot points -->
+  <circle cx="280" cy="655" r="8" fill="#FFF"/>
+  <circle cx="520" cy="655" r="8" fill="#FFF"/>
+
+  <!-- Ball drain -->
+  <rect x="370" y="690" width="60" height="20" fill="#000" stroke="#A89F91" stroke-width="1"/>
+
+  <!-- Ball -->
+  <circle cx="400" cy="450" r="12" fill="#A89F91" stroke="#FFF" stroke-width="2"/>
+  <circle cx="398" cy="447" r="4" fill="#FFF" opacity="0.6"/>
+
+  <!-- Score indicators at top -->
+  <circle cx="250" cy="120" r="10" fill="#F4D35E"/>
+  <circle cx="400" cy="110" r="10" fill="#E63946"/>
+  <circle cx="550" cy="120" r="10" fill="#2A9D8F"/>
+
+  <!-- Rail guides -->
+  <path d="M200 600 Q200 700 300 700" fill="none" stroke="#A89F91" stroke-width="3"/>
+  <path d="M600 600 Q600 700 500 700" fill="none" stroke="#A89F91" stroke-width="3"/>
+
+  <!-- Rollover targets -->
+  <rect x="340" y="320" width="8" height="30" fill="#2A9D8F" rx="3"/>
+  <rect x="396" y="310" width="8" height="30" fill="#E76F51" rx="3"/>
+  <rect x="452" y="320" width="8" height="30" fill="#2A9D8F" rx="3"/>
+
+  <!-- Orbit paths -->
+  <path d="M220 200 Q220 100 400 100 Q580 100 580 200" fill="none" stroke="#F4D35E" stroke-width="2" stroke-dasharray="8,4"/>
+
+  <!-- Pop bumper rings -->
+  <circle cx="320" cy="280" r="48" fill="none" stroke="#E63946" stroke-width="1" stroke-dasharray="4,4"/>
+  <circle cx="480" cy="280" r="48" fill="none" stroke="#2A9D8F" stroke-width="1" stroke-dasharray="4,4"/>
+</svg>

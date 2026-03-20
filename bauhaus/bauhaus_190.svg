@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Bauhaus Quilt - Patchwork grid of squares with different geometric patterns -->
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Outer border -->
+  <rect x="50" y="50" width="700" height="700" fill="none" stroke="#000" stroke-width="6"/>
+
+  <!-- Grid: 5x5 patches, each 140x140 -->
+
+  <!-- Row 1 -->
+  <!-- R1C1: Concentric circles -->
+  <rect x="50" y="50" width="140" height="140" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <circle cx="120" cy="120" r="55" fill="none" stroke="#FFF" stroke-width="4"/>
+  <circle cx="120" cy="120" r="35" fill="none" stroke="#F4D35E" stroke-width="4"/>
+  <circle cx="120" cy="120" r="15" fill="#000"/>
+
+  <!-- R1C2: Diagonal stripes -->
+  <rect x="190" y="50" width="140" height="140" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <line x1="190" y1="90" x2="230" y2="50" stroke="#000" stroke-width="4"/>
+  <line x1="190" y1="130" x2="270" y2="50" stroke="#000" stroke-width="4"/>
+  <line x1="190" y1="170" x2="310" y2="50" stroke="#000" stroke-width="4"/>
+  <line x1="190" y1="190" x2="330" y2="70" stroke="#000" stroke-width="4"/>
+  <line x1="210" y1="190" x2="330" y2="110" stroke="#000" stroke-width="4"/>
+  <line x1="250" y1="190" x2="330" y2="150" stroke="#000" stroke-width="4"/>
+
+  <!-- R1C3: Triangle -->
+  <rect x="330" y="50" width="140" height="140" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <polygon points="400,65 460,175 340,175" fill="#E63946" stroke="#FFF" stroke-width="3"/>
+
+  <!-- R1C4: Checkerboard -->
+  <rect x="470" y="50" width="140" height="140" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <rect x="470" y="50" width="35" height="35" fill="#000"/>
+  <rect x="540" y="50" width="35" height="35" fill="#000"/>
+  <rect x="505" y="85" width="35" height="35" fill="#000"/>
+  <rect x="575" y="85" width="35" height="35" fill="#000"/>
+  <rect x="470" y="120" width="35" height="35" fill="#000"/>
+  <rect x="540" y="120" width="35" height="35" fill="#000"/>
+  <rect x="505" y="155" width="35" height="35" fill="#000"/>
+
+  <!-- R1C5: Plus/Cross -->
+  <rect x="610" y="50" width="140" height="140" fill="#264653" stroke="#000" stroke-width="2"/>
+  <rect x="660" y="70" width="40" height="100" fill="#F4D35E"/>
+  <rect x="630" y="100" width="100" height="40" fill="#F4D35E"/>
+
+  <!-- Row 2 -->
+  <!-- R2C1: Diamond -->
+  <rect x="50" y="190" width="140" height="140" fill="#E76F51" stroke="#000" stroke-width="2"/>
+  <polygon points="120,200 180,260 120,320 60,260" fill="#FFF" stroke="#000" stroke-width="3"/>
+
+  <!-- R2C2: Quarter circles -->
+  <rect x="190" y="190" width="140" height="140" fill="#264653" stroke="#000" stroke-width="2"/>
+  <path d="M190 190 A140 140 0 0 1 330 330" fill="none" stroke="#E63946" stroke-width="5"/>
+  <path d="M330 190 A140 140 0 0 0 190 330" fill="none" stroke="#F4D35E" stroke-width="5"/>
+
+  <!-- R2C3: Horizontal bars -->
+  <rect x="330" y="190" width="140" height="140" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <rect x="340" y="200" width="120" height="18" fill="#E63946"/>
+  <rect x="340" y="230" width="120" height="18" fill="#1D3557"/>
+  <rect x="340" y="260" width="120" height="18" fill="#F4D35E"/>
+  <rect x="340" y="290" width="120" height="18" fill="#E76F51"/>
+
+  <!-- R2C4: Spiral square -->
+  <rect x="470" y="190" width="140" height="140" fill="#E9C46A" stroke="#000" stroke-width="2"/>
+  <rect x="485" y="205" width="110" height="110" fill="none" stroke="#1D3557" stroke-width="3"/>
+  <rect x="500" y="220" width="80" height="80" fill="none" stroke="#E63946" stroke-width="3"/>
+  <rect x="515" y="235" width="50" height="50" fill="none" stroke="#000" stroke-width="3"/>
+  <rect x="530" y="250" width="20" height="20" fill="#1D3557"/>
+
+  <!-- R2C5: Star/Asterisk -->
+  <rect x="610" y="190" width="140" height="140" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <line x1="680" y1="205" x2="680" y2="315" stroke="#FFF" stroke-width="4"/>
+  <line x1="625" y1="260" x2="735" y2="260" stroke="#FFF" stroke-width="4"/>
+  <line x1="640" y1="215" x2="720" y2="305" stroke="#FFF" stroke-width="4"/>
+  <line x1="720" y1="215" x2="640" y2="305" stroke="#FFF" stroke-width="4"/>
+
+  <!-- Row 3 -->
+  <!-- R3C1: Zigzag -->
+  <rect x="50" y="330" width="140" height="140" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <polyline points="60,400 85,360 110,400 135,360 160,400 185,360" fill="none" stroke="#F4D35E" stroke-width="4"/>
+  <polyline points="60,440 85,400 110,440 135,400 160,440 185,400" fill="none" stroke="#E63946" stroke-width="4"/>
+
+  <!-- R3C2: Circle in square -->
+  <rect x="190" y="330" width="140" height="140" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="260" cy="400" r="55" fill="#E63946"/>
+  <rect x="235" y="375" width="50" height="50" fill="#000"/>
+
+  <!-- R3C3: Center piece - large Bauhaus eye -->
+  <rect x="330" y="330" width="140" height="140" fill="#000" stroke="#F4D35E" stroke-width="3"/>
+  <circle cx="400" cy="400" r="50" fill="#FFF"/>
+  <circle cx="400" cy="400" r="30" fill="#1D3557"/>
+  <circle cx="400" cy="400" r="12" fill="#E63946"/>
+  <circle cx="395" cy="395" r="5" fill="#FFF"/>
+
+  <!-- R3C4: Arrow pointing right -->
+  <rect x="470" y="330" width="140" height="140" fill="#E76F51" stroke="#000" stroke-width="2"/>
+  <polygon points="560,400 520,365 520,385 490,385 490,415 520,415 520,435" fill="#FFF" stroke="#000" stroke-width="2"/>
+
+  <!-- R3C5: Dots grid -->
+  <rect x="610" y="330" width="140" height="140" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <circle cx="640" cy="360" r="8" fill="#E63946"/>
+  <circle cx="680" cy="360" r="8" fill="#1D3557"/>
+  <circle cx="720" cy="360" r="8" fill="#F4D35E"/>
+  <circle cx="640" cy="400" r="8" fill="#264653"/>
+  <circle cx="680" cy="400" r="8" fill="#E76F51"/>
+  <circle cx="720" cy="400" r="8" fill="#E63946"/>
+  <circle cx="640" cy="440" r="8" fill="#F4D35E"/>
+  <circle cx="680" cy="440" r="8" fill="#000"/>
+  <circle cx="720" cy="440" r="8" fill="#1D3557"/>
+
+  <!-- Row 4 -->
+  <!-- R4C1: Half-and-half -->
+  <rect x="50" y="470" width="140" height="140" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <polygon points="50,470 190,470 50,610" fill="#E63946"/>
+  <polygon points="190,610 50,610 190,470" fill="#1D3557"/>
+
+  <!-- R4C2: Nested triangles -->
+  <rect x="190" y="470" width="140" height="140" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <polygon points="260,485 320,595 200,595" fill="none" stroke="#FFF" stroke-width="3"/>
+  <polygon points="260,510 300,580 220,580" fill="none" stroke="#F4D35E" stroke-width="3"/>
+
+  <!-- R4C3: Grid of lines -->
+  <rect x="330" y="470" width="140" height="140" fill="#E9C46A" stroke="#000" stroke-width="2"/>
+  <line x1="365" y1="470" x2="365" y2="610" stroke="#000" stroke-width="2"/>
+  <line x1="400" y1="470" x2="400" y2="610" stroke="#000" stroke-width="2"/>
+  <line x1="435" y1="470" x2="435" y2="610" stroke="#000" stroke-width="2"/>
+  <line x1="330" y1="505" x2="470" y2="505" stroke="#000" stroke-width="2"/>
+  <line x1="330" y1="540" x2="470" y2="540" stroke="#000" stroke-width="2"/>
+  <line x1="330" y1="575" x2="470" y2="575" stroke="#000" stroke-width="2"/>
+
+  <!-- R4C4: Semicircle -->
+  <rect x="470" y="470" width="140" height="140" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <path d="M490 560 A50 50 0 0 1 590 560" fill="#F4D35E" stroke="#FFF" stroke-width="3"/>
+  <circle cx="540" cy="520" r="15" fill="#E63946"/>
+
+  <!-- R4C5: Hexagon -->
+  <rect x="610" y="470" width="140" height="140" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <polygon points="680,485 730,515 730,555 680,585 630,555 630,515" fill="#264653" stroke="#000" stroke-width="3"/>
+
+  <!-- Row 5 -->
+  <!-- R5C1: Waves -->
+  <rect x="50" y="610" width="140" height="140" fill="#264653" stroke="#000" stroke-width="2"/>
+  <path d="M55 660 Q85 640 120 660 Q155 680 185 660" fill="none" stroke="#FFF" stroke-width="3"/>
+  <path d="M55 690 Q85 670 120 690 Q155 710 185 690" fill="none" stroke="#E9C46A" stroke-width="3"/>
+  <path d="M55 720 Q85 700 120 720 Q155 740 185 720" fill="none" stroke="#E63946" stroke-width="3"/>
+
+  <!-- R5C2: Bullseye -->
+  <rect x="190" y="610" width="140" height="140" fill="#000" stroke="#000" stroke-width="2"/>
+  <circle cx="260" cy="680" r="55" fill="#E63946"/>
+  <circle cx="260" cy="680" r="40" fill="#000"/>
+  <circle cx="260" cy="680" r="25" fill="#F4D35E"/>
+  <circle cx="260" cy="680" r="10" fill="#000"/>
+
+  <!-- R5C3: Pinwheel -->
+  <rect x="330" y="610" width="140" height="140" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <polygon points="400,680 370,630 400,640" fill="#E63946"/>
+  <polygon points="400,680 430,630 400,640" fill="#1D3557"/>
+  <polygon points="400,680 450,700 430,680" fill="#F4D35E"/>
+  <polygon points="400,680 450,720 430,680" fill="#264653"/>
+  <polygon points="400,680 430,740 400,720" fill="#E76F51"/>
+  <polygon points="400,680 370,740 400,720" fill="#E9C46A"/>
+  <polygon points="400,680 350,720 370,680" fill="#E63946"/>
+  <polygon points="400,680 350,700 370,680" fill="#000"/>
+
+  <!-- R5C4: Stacked rectangles -->
+  <rect x="470" y="610" width="140" height="140" fill="#E76F51" stroke="#000" stroke-width="2"/>
+  <rect x="490" y="625" width="100" height="25" fill="#FFF" opacity="0.8"/>
+  <rect x="500" y="660" width="80" height="25" fill="#F4D35E"/>
+  <rect x="510" y="695" width="60" height="25" fill="#1D3557"/>
+  <rect x="520" y="730" width="40" height="15" fill="#000"/>
+
+  <!-- R5C5: Heart from geometry -->
+  <rect x="610" y="610" width="140" height="140" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <circle cx="660" cy="660" r="20" fill="#E63946"/>
+  <circle cx="700" cy="660" r="20" fill="#E63946"/>
+  <polygon points="640,670 680,720 720,670" fill="#E63946"/>
+</svg>

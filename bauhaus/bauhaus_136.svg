@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <!-- Background: dark night sky -->
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Star field -->
+  <circle cx="50" cy="60" r="3" fill="#FFF"/>
+  <circle cx="150" cy="30" r="2" fill="#F4D35E"/>
+  <circle cx="250" cy="80" r="3" fill="#FFF"/>
+  <circle cx="680" cy="50" r="2" fill="#FFF"/>
+  <circle cx="720" cy="120" r="3" fill="#F4D35E"/>
+  <circle cx="600" cy="40" r="2" fill="#FFF"/>
+  <circle cx="100" cy="150" r="2" fill="#F4D35E"/>
+  <circle cx="500" cy="90" r="3" fill="#FFF"/>
+  <circle cx="350" cy="45" r="2" fill="#FFF"/>
+  <circle cx="750" cy="200" r="2" fill="#F4D35E"/>
+  <circle cx="50" cy="300" r="2" fill="#FFF"/>
+  <circle cx="700" cy="300" r="3" fill="#FFF"/>
+
+  <!-- Telescope tube - main barrel -->
+  <rect x="250" y="250" width="300" height="60" rx="5" fill="#000" transform="rotate(-30, 400, 280)"/>
+  <!-- Tube highlight band -->
+  <rect x="320" y="258" width="40" height="44" rx="3" fill="#6D2E46" transform="rotate(-30, 400, 280)"/>
+  <rect x="430" y="258" width="20" height="44" rx="3" fill="#DDA15E" transform="rotate(-30, 400, 280)"/>
+
+  <!-- Front lens (objective) - concentric circles -->
+  <circle cx="268" cy="148" r="45" fill="#264653"/>
+  <circle cx="268" cy="148" r="35" fill="#1D3557"/>
+  <circle cx="268" cy="148" r="25" fill="#264653"/>
+  <circle cx="268" cy="148" r="15" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="268" cy="148" r="8" fill="#FFF" opacity="0.4"/>
+
+  <!-- Rear eyepiece - concentric circles -->
+  <circle cx="530" cy="400" r="30" fill="#000"/>
+  <circle cx="530" cy="400" r="22" fill="#264653"/>
+  <circle cx="530" cy="400" r="14" fill="#1D3557"/>
+  <circle cx="530" cy="400" r="7" fill="#FFF" opacity="0.3"/>
+
+  <!-- Tripod mount point -->
+  <circle cx="400" cy="340" r="15" fill="#DDA15E"/>
+  <circle cx="400" cy="340" r="8" fill="#000"/>
+
+  <!-- Tripod legs -->
+  <!-- Left leg -->
+  <line x1="400" y1="340" x2="200" y2="720" stroke="#000" stroke-width="12"/>
+  <line x1="200" y1="720" x2="180" y2="720" stroke="#000" stroke-width="16"/>
+  <!-- Center leg -->
+  <line x1="400" y1="340" x2="420" y2="720" stroke="#000" stroke-width="12"/>
+  <line x1="420" y1="720" x2="400" y2="720" stroke="#000" stroke-width="16"/>
+  <!-- Right leg -->
+  <line x1="400" y1="340" x2="600" y2="720" stroke="#000" stroke-width="12"/>
+  <line x1="600" y1="720" x2="620" y2="720" stroke="#000" stroke-width="16"/>
+
+  <!-- Tripod cross brace -->
+  <line x1="280" y1="560" x2="520" y2="560" stroke="#6D2E46" stroke-width="6"/>
+  <line x1="340" y1="560" x2="415" y2="560" stroke="#DDA15E" stroke-width="6"/>
+
+  <!-- Tripod feet -->
+  <rect x="175" y="715" width="35" height="10" rx="3" fill="#DDA15E"/>
+  <rect x="395" y="715" width="35" height="10" rx="3" fill="#DDA15E"/>
+  <rect x="595" y="715" width="35" height="10" rx="3" fill="#DDA15E"/>
+
+  <!-- Decorative star burst top-right -->
+  <polygon points="700,180 710,200 730,200 715,215 720,235 700,225 680,235 685,215 670,200 690,200" fill="#F4D35E"/>
+
+  <!-- Ground line -->
+  <rect x="0" y="730" width="800" height="70" fill="#264653"/>
+  <rect x="0" y="730" width="800" height="5" fill="#DDA15E"/>
+</svg>

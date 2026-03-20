@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Bauhaus Shield - Heraldic shield divided into geometric quarters with different symbols -->
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#264653"/>
+
+  <!-- Shield shape -->
+  <path d="M400 720 Q200 620 150 450 L150 150 L400 100 L650 150 L650 450 Q600 620 400 720Z" fill="#1D3557" stroke="#000" stroke-width="6"/>
+
+  <!-- Shield border highlight -->
+  <path d="M400 700 Q220 610 175 450 L175 170 L400 125 L625 170 L625 450 Q580 610 400 700Z" fill="none" stroke="#F4D35E" stroke-width="4"/>
+
+  <!-- Vertical divider -->
+  <line x1="400" y1="125" x2="400" y2="700" stroke="#F4D35E" stroke-width="4"/>
+
+  <!-- Horizontal divider -->
+  <line x1="175" y1="370" x2="625" y2="370" stroke="#F4D35E" stroke-width="4"/>
+
+  <!-- Quarter 1 (top-left) - Circle/Sun symbol -->
+  <rect x="185" y="175" width="210" height="190" fill="#E63946" opacity="0.3"/>
+  <circle cx="290" cy="270" r="60" fill="#E63946" stroke="#000" stroke-width="3"/>
+  <circle cx="290" cy="270" r="35" fill="#F4D35E"/>
+  <circle cx="290" cy="270" r="15" fill="#E63946"/>
+  <!-- Sun rays -->
+  <line x1="290" y1="195" x2="290" y2="210" stroke="#F4D35E" stroke-width="3"/>
+  <line x1="290" y1="330" x2="290" y2="345" stroke="#F4D35E" stroke-width="3"/>
+  <line x1="215" y1="270" x2="230" y2="270" stroke="#F4D35E" stroke-width="3"/>
+  <line x1="350" y1="270" x2="365" y2="270" stroke="#F4D35E" stroke-width="3"/>
+
+  <!-- Quarter 2 (top-right) - Triangle/Mountain symbol -->
+  <rect x="405" y="175" width="215" height="190" fill="#1D3557" opacity="0.5"/>
+  <polygon points="510,195 570,340 450,340" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <polygon points="510,240 545,320 475,320" fill="#264653"/>
+  <line x1="450" y1="340" x2="570" y2="340" stroke="#E9C46A" stroke-width="3"/>
+
+  <!-- Quarter 3 (bottom-left) - Diamond/Rhombus symbol -->
+  <path d="M185 375 L395 375 L395 580 Q300 540 220 480 L185 450Z" fill="#000" opacity="0.3"/>
+  <polygon points="290,400 350,480 290,560 230,480" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+  <polygon points="290,430 325,480 290,530 255,480" fill="#E76F51"/>
+  <circle cx="290" cy="480" r="10" fill="#FFF"/>
+
+  <!-- Quarter 4 (bottom-right) - Cross/Plus symbol -->
+  <path d="M405 375 L620 375 L620 450 Q580 540 400 630 L405 375Z" fill="#E63946" opacity="0.2"/>
+  <rect x="490" y="405" width="40" height="140" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <rect x="460" y="445" width="100" height="40" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <circle cx="510" cy="465" r="12" fill="#E63946"/>
+
+  <!-- Shield top crest accent -->
+  <polygon points="400,80 420,100 380,100" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+
+  <!-- Corner flourishes -->
+  <circle cx="160" cy="155" r="12" fill="#E9C46A" stroke="#000" stroke-width="2"/>
+  <circle cx="640" cy="155" r="12" fill="#E9C46A" stroke="#000" stroke-width="2"/>
+
+  <!-- Decorative bottom point -->
+  <circle cx="400" cy="720" r="10" fill="#E63946" stroke="#F4D35E" stroke-width="3"/>
+
+  <!-- Background pattern elements -->
+  <rect x="30" y="30" width="40" height="40" fill="#E76F51" opacity="0.6"/>
+  <rect x="730" y="30" width="40" height="40" fill="#E76F51" opacity="0.6"/>
+  <rect x="30" y="730" width="40" height="40" fill="#E76F51" opacity="0.6"/>
+  <rect x="730" y="730" width="40" height="40" fill="#E76F51" opacity="0.6"/>
+</svg>

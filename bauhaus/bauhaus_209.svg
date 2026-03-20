@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Scaffolding II - Dense grid with geometric stick figure workers -->
+  <!-- Sky -->
+  <rect width="800" height="600" fill="#1D3557" opacity="0.06"/>
+  <!-- Ground -->
+  <rect y="720" width="800" height="80" fill="#264653"/>
+  <!-- Scaffolding vertical poles -->
+  <rect x="80" y="100" width="6" height="620" fill="#000"/>
+  <rect x="180" y="100" width="6" height="620" fill="#000"/>
+  <rect x="280" y="100" width="6" height="620" fill="#000"/>
+  <rect x="380" y="100" width="6" height="620" fill="#000"/>
+  <rect x="480" y="100" width="6" height="620" fill="#000"/>
+  <rect x="580" y="100" width="6" height="620" fill="#000"/>
+  <rect x="680" y="100" width="6" height="620" fill="#000"/>
+  <!-- Horizontal platforms - Level 1 (bottom) -->
+  <rect x="80" y="650" width="606" height="5" fill="#A89F91"/>
+  <!-- Level 2 -->
+  <rect x="80" y="540" width="606" height="5" fill="#A89F91"/>
+  <!-- Level 3 -->
+  <rect x="80" y="430" width="606" height="5" fill="#A89F91"/>
+  <!-- Level 4 -->
+  <rect x="80" y="320" width="606" height="5" fill="#A89F91"/>
+  <!-- Level 5 -->
+  <rect x="80" y="210" width="606" height="5" fill="#A89F91"/>
+  <!-- Level 6 (top) -->
+  <rect x="80" y="100" width="606" height="5" fill="#A89F91"/>
+  <!-- Cross braces (X patterns) between verticals -->
+  <!-- Bay 1 -->
+  <line x1="83" y1="650" x2="183" y2="540" stroke="#A89F91" stroke-width="2"/>
+  <line x1="183" y1="650" x2="83" y2="540" stroke="#A89F91" stroke-width="2"/>
+  <line x1="83" y1="430" x2="183" y2="320" stroke="#A89F91" stroke-width="2"/>
+  <line x1="183" y1="430" x2="83" y2="320" stroke="#A89F91" stroke-width="2"/>
+  <!-- Bay 2 -->
+  <line x1="183" y1="540" x2="283" y2="430" stroke="#A89F91" stroke-width="2"/>
+  <line x1="283" y1="540" x2="183" y2="430" stroke="#A89F91" stroke-width="2"/>
+  <line x1="183" y1="320" x2="283" y2="210" stroke="#A89F91" stroke-width="2"/>
+  <line x1="283" y1="320" x2="183" y2="210" stroke="#A89F91" stroke-width="2"/>
+  <!-- Bay 3 -->
+  <line x1="283" y1="650" x2="383" y2="540" stroke="#A89F91" stroke-width="2"/>
+  <line x1="383" y1="650" x2="283" y2="540" stroke="#A89F91" stroke-width="2"/>
+  <line x1="283" y1="430" x2="383" y2="320" stroke="#A89F91" stroke-width="2"/>
+  <!-- Bay 4 -->
+  <line x1="383" y1="540" x2="483" y2="430" stroke="#A89F91" stroke-width="2"/>
+  <line x1="483" y1="540" x2="383" y2="430" stroke="#A89F91" stroke-width="2"/>
+  <line x1="383" y1="320" x2="483" y2="210" stroke="#A89F91" stroke-width="2"/>
+  <!-- Bay 5 -->
+  <line x1="483" y1="650" x2="583" y2="540" stroke="#A89F91" stroke-width="2"/>
+  <line x1="583" y1="650" x2="483" y2="540" stroke="#A89F91" stroke-width="2"/>
+  <line x1="483" y1="210" x2="583" y2="100" stroke="#A89F91" stroke-width="2"/>
+  <!-- Bay 6 -->
+  <line x1="583" y1="430" x2="683" y2="320" stroke="#A89F91" stroke-width="2"/>
+  <line x1="683" y1="430" x2="583" y2="320" stroke="#A89F91" stroke-width="2"/>
+  <!-- Worker 1 - on level 2 platform, standing -->
+  <!-- Head -->
+  <circle cx="230" cy="520" r="8" fill="#F4D35E"/>
+  <!-- Body -->
+  <line x1="230" y1="528" x2="230" y2="540" stroke="#E63946" stroke-width="3"/>
+  <!-- Arms (one raised holding beam) -->
+  <line x1="230" y1="532" x2="218" y2="525" stroke="#E63946" stroke-width="2"/>
+  <line x1="230" y1="532" x2="245" y2="520" stroke="#E63946" stroke-width="2"/>
+  <!-- Worker 2 - on level 3, bending -->
+  <circle cx="430" cy="410" r="8" fill="#F4D35E"/>
+  <line x1="430" y1="418" x2="430" y2="430" stroke="#1D3557" stroke-width="3"/>
+  <line x1="430" y1="422" x2="418" y2="428" stroke="#1D3557" stroke-width="2"/>
+  <line x1="430" y1="422" x2="445" y2="415" stroke="#1D3557" stroke-width="2"/>
+  <!-- Worker 3 - on level 4, carrying plank -->
+  <circle cx="330" cy="300" r="8" fill="#F4D35E"/>
+  <line x1="330" y1="308" x2="330" y2="320" stroke="#E63946" stroke-width="3"/>
+  <line x1="330" y1="312" x2="315" y2="305" stroke="#E63946" stroke-width="2"/>
+  <line x1="330" y1="312" x2="350" y2="305" stroke="#E63946" stroke-width="2"/>
+  <!-- Plank being carried -->
+  <rect x="310" y="302" width="45" height="4" fill="#E9C46A"/>
+  <!-- Worker 4 - on level 5 (high up) -->
+  <circle cx="530" cy="190" r="8" fill="#F4D35E"/>
+  <line x1="530" y1="198" x2="530" y2="210" stroke="#264653" stroke-width="3"/>
+  <line x1="530" y1="202" x2="518" y2="208" stroke="#264653" stroke-width="2"/>
+  <line x1="530" y1="202" x2="542" y2="195" stroke="#264653" stroke-width="2"/>
+  <!-- Worker 5 - climbing between levels -->
+  <circle cx="583" cy="470" r="8" fill="#F4D35E"/>
+  <line x1="583" y1="478" x2="583" y2="492" stroke="#E63946" stroke-width="3"/>
+  <line x1="583" y1="482" x2="578" y2="475" stroke="#E63946" stroke-width="2"/>
+  <line x1="583" y1="492" x2="578" y2="500" stroke="#E63946" stroke-width="2"/>
+  <line x1="583" y1="492" x2="588" y2="500" stroke="#E63946" stroke-width="2"/>
+  <!-- Loose planks/materials -->
+  <rect x="120" y="645" width="50" height="5" fill="#E9C46A"/>
+  <rect x="600" y="645" width="60" height="5" fill="#E9C46A"/>
+  <rect x="400" y="535" width="40" height="5" fill="#E9C46A"/>
+</svg>

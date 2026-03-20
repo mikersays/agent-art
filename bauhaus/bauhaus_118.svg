@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Sky gradient area -->
+  <rect x="0" y="0" width="800" height="500" fill="#1D3557"/>
+  <!-- Sun circle -->
+  <circle cx="600" cy="150" r="70" fill="#E63946"/>
+  <circle cx="600" cy="150" r="50" fill="#E76F51"/>
+  <!-- Torii gate - main pillars -->
+  <rect x="200" y="200" width="40" height="400" fill="#E63946"/>
+  <rect x="560" y="200" width="40" height="400" fill="#E63946"/>
+  <!-- Torii gate - inner pillars -->
+  <rect x="270" y="280" width="30" height="320" fill="#E63946"/>
+  <rect x="500" y="280" width="30" height="320" fill="#E63946"/>
+  <!-- Top crossbar (kasagi) - curved -->
+  <path d="M160,220 Q400,160 640,220 L640,250 Q400,190 160,250 Z" fill="#E63946"/>
+  <!-- Second crossbar -->
+  <rect x="200" y="280" width="400" height="25" fill="#E63946"/>
+  <!-- Crossbar end caps -->
+  <rect x="180" y="275" width="30" height="35" rx="4" fill="#000"/>
+  <rect x="590" y="275" width="30" height="35" rx="4" fill="#000"/>
+  <!-- Ground / landscape -->
+  <rect x="0" y="500" width="800" height="300" fill="#2A9D8F"/>
+  <!-- Path leading to gate -->
+  <polygon points="350,500 450,500 500,800 300,800" fill="#F4D35E"/>
+  <!-- Stone steps -->
+  <rect x="330" y="520" width="140" height="12" rx="3" fill="#457B9D"/>
+  <rect x="320" y="550" width="160" height="12" rx="3" fill="#457B9D"/>
+  <rect x="310" y="580" width="180" height="12" rx="3" fill="#457B9D"/>
+  <!-- Geometric trees left -->
+  <polygon points="80,380 120,500 40,500" fill="#2A9D8F"/>
+  <polygon points="80,340 110,420 50,420" fill="#000"/>
+  <rect x="72" y="500" width="16" height="40" fill="#E76F51"/>
+  <!-- Geometric trees right -->
+  <polygon points="700,380 740,500 660,500" fill="#2A9D8F"/>
+  <polygon points="700,340 730,420 670,420" fill="#000"/>
+  <rect x="692" y="500" width="16" height="40" fill="#E76F51"/>
+  <!-- Clouds - geometric -->
+  <circle cx="150" cy="120" r="30" fill="#FFF" opacity="0.6"/>
+  <circle cx="185" cy="120" r="25" fill="#FFF" opacity="0.6"/>
+  <circle cx="130" cy="120" r="20" fill="#FFF" opacity="0.6"/>
+  <!-- Mountain silhouettes -->
+  <polygon points="0,500 150,350 300,500" fill="#457B9D"/>
+  <polygon points="500,500 680,320 800,500" fill="#457B9D"/>
+  <!-- Decorative circles on pillars -->
+  <circle cx="220" cy="350" r="10" fill="#F4D35E"/>
+  <circle cx="580" cy="350" r="10" fill="#F4D35E"/>
+  <!-- Stars -->
+  <circle cx="300" cy="80" r="3" fill="#F4D35E"/>
+  <circle cx="450" cy="60" r="3" fill="#F4D35E"/>
+  <circle cx="350" cy="130" r="2" fill="#F4D35E"/>
+  <circle cx="500" cy="100" r="2" fill="#F4D35E"/>
+</svg>

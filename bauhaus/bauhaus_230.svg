@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Bauhaus Rampart -->
+  <!-- Background - sky -->
+  <rect width="800" height="800" fill="#FFF"/>
+  <rect width="800" height="400" fill="#1D3557" opacity="0.08"/>
+
+  <!-- Moat -->
+  <rect x="0" y="620" width="800" height="60" fill="#1D3557" opacity="0.4"/>
+  <path d="M0,620 Q50,610 100,620 Q150,630 200,620 Q250,610 300,620 Q350,630 400,620 Q450,610 500,620 Q550,630 600,620 Q650,610 700,620 Q750,630 800,620" fill="none" stroke="#1D3557" stroke-width="3"/>
+  <path d="M0,650 Q50,640 100,650 Q150,660 200,650 Q250,640 300,650 Q350,660 400,650 Q450,640 500,650 Q550,660 600,650 Q650,640 700,650 Q750,660 800,650" fill="none" stroke="#1D3557" stroke-width="2" opacity="0.5"/>
+
+  <!-- Ground below moat -->
+  <rect x="0" y="680" width="800" height="120" fill="#264653" opacity="0.3"/>
+
+  <!-- Main curtain wall -->
+  <rect x="50" y="350" width="700" height="270" fill="#6D2E46" stroke="#000" stroke-width="3"/>
+
+  <!-- Wall texture - horizontal lines -->
+  <line x1="50" y1="400" x2="750" y2="400" stroke="#000" stroke-width="1" opacity="0.3"/>
+  <line x1="50" y1="450" x2="750" y2="450" stroke="#000" stroke-width="1" opacity="0.3"/>
+  <line x1="50" y1="500" x2="750" y2="500" stroke="#000" stroke-width="1" opacity="0.3"/>
+  <line x1="50" y1="550" x2="750" y2="550" stroke="#000" stroke-width="1" opacity="0.3"/>
+
+  <!-- Battlements (merlons) along top -->
+  <rect x="50" y="330" width="40" height="40" fill="#6D2E46" stroke="#000" stroke-width="2"/>
+  <rect x="120" y="330" width="40" height="40" fill="#6D2E46" stroke="#000" stroke-width="2"/>
+  <rect x="190" y="330" width="40" height="40" fill="#6D2E46" stroke="#000" stroke-width="2"/>
+  <rect x="260" y="330" width="40" height="40" fill="#6D2E46" stroke="#000" stroke-width="2"/>
+  <rect x="330" y="330" width="40" height="40" fill="#6D2E46" stroke="#000" stroke-width="2"/>
+  <rect x="430" y="330" width="40" height="40" fill="#6D2E46" stroke="#000" stroke-width="2"/>
+  <rect x="500" y="330" width="40" height="40" fill="#6D2E46" stroke="#000" stroke-width="2"/>
+  <rect x="570" y="330" width="40" height="40" fill="#6D2E46" stroke="#000" stroke-width="2"/>
+  <rect x="640" y="330" width="40" height="40" fill="#6D2E46" stroke="#000" stroke-width="2"/>
+  <rect x="710" y="330" width="40" height="40" fill="#6D2E46" stroke="#000" stroke-width="2"/>
+
+  <!-- Left bastion (angular projection) -->
+  <polygon points="50,400 -20,450 -20,580 50,620 50,400" fill="#264653" stroke="#000" stroke-width="3"/>
+  <polygon points="50,400 0,370 -20,450 50,400" fill="#264653" stroke="#000" stroke-width="2"/>
+
+  <!-- Right bastion -->
+  <polygon points="750,400 820,450 820,580 750,620 750,400" fill="#264653" stroke="#000" stroke-width="3"/>
+  <polygon points="750,400 800,370 820,450 750,400" fill="#264653" stroke="#000" stroke-width="2"/>
+
+  <!-- Central bastion (larger, protruding) -->
+  <polygon points="320,450 280,480 280,600 520,600 520,480 480,450 320,450" fill="#E63946" stroke="#000" stroke-width="3"/>
+
+  <!-- Gate in central bastion -->
+  <rect x="360" y="510" width="80" height="90" fill="#000" rx="40" ry="0"/>
+  <path d="M360,510 Q400,470 440,510" fill="#000" stroke="#000" stroke-width="2"/>
+
+  <!-- Portcullis lines -->
+  <line x1="375" y1="485" x2="375" y2="600" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="400" y1="475" x2="400" y2="600" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="425" y1="485" x2="425" y2="600" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="360" y1="530" x2="440" y2="530" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="360" y1="560" x2="440" y2="560" stroke="#F4D35E" stroke-width="2"/>
+
+  <!-- Corner towers -->
+  <rect x="30" y="280" width="50" height="90" fill="#1D3557" stroke="#000" stroke-width="3"/>
+  <rect x="20" y="270" width="70" height="20" fill="#000"/>
+  <rect x="720" y="280" width="50" height="90" fill="#1D3557" stroke="#000" stroke-width="3"/>
+  <rect x="710" y="270" width="70" height="20" fill="#000"/>
+
+  <!-- Tower battlements -->
+  <rect x="20" y="255" width="15" height="20" fill="#1D3557" stroke="#000" stroke-width="1"/>
+  <rect x="45" y="255" width="15" height="20" fill="#1D3557" stroke="#000" stroke-width="1"/>
+  <rect x="70" y="255" width="15" height="20" fill="#1D3557" stroke="#000" stroke-width="1"/>
+  <rect x="710" y="255" width="15" height="20" fill="#1D3557" stroke="#000" stroke-width="1"/>
+  <rect x="735" y="255" width="15" height="20" fill="#1D3557" stroke="#000" stroke-width="1"/>
+  <rect x="760" y="255" width="15" height="20" fill="#1D3557" stroke="#000" stroke-width="1"/>
+
+  <!-- Arrow slits -->
+  <rect x="140" y="420" width="6" height="30" fill="#000"/>
+  <rect x="220" y="420" width="6" height="30" fill="#000"/>
+  <rect x="580" y="420" width="6" height="30" fill="#000"/>
+  <rect x="660" y="420" width="6" height="30" fill="#000"/>
+
+  <!-- Flags on towers -->
+  <line x1="55" y1="255" x2="55" y2="200" stroke="#000" stroke-width="2"/>
+  <polygon points="55,200 95,215 55,230" fill="#E63946"/>
+  <line x1="745" y1="255" x2="745" y2="200" stroke="#000" stroke-width="2"/>
+  <polygon points="745,200 785,215 745,230" fill="#F4D35E"/>
+
+  <!-- Decorative Bauhaus circles -->
+  <circle cx="400" cy="150" r="50" fill="#E63946" opacity="0.2"/>
+  <circle cx="400" cy="150" r="30" fill="#F4D35E" opacity="0.3"/>
+  <circle cx="400" cy="150" r="12" fill="#000" opacity="0.4"/>
+
+  <!-- Bridge over moat -->
+  <rect x="360" y="600" width="80" height="25" fill="#E76F51" stroke="#000" stroke-width="2"/>
+  <line x1="360" y1="600" x2="340" y2="580" stroke="#000" stroke-width="2"/>
+  <line x1="440" y1="600" x2="460" y2="580" stroke="#000" stroke-width="2"/>
+</svg>

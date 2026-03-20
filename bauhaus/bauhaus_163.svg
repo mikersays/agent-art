@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Crown Jewels</title>
+  <rect width="800" height="800" fill="#1D3557"/>
+  <!-- Display shelf -->
+  <rect x="50" y="600" width="700" height="20" fill="#000"/>
+  <rect x="40" y="620" width="720" height="10" fill="#457B9D"/>
+  <rect x="60" y="500" width="680" height="8" fill="#000" opacity="0.6"/>
+  <!-- Large central diamond -->
+  <polygon points="400,180 460,300 400,380 340,300" fill="#E63946" stroke="#000" stroke-width="3"/>
+  <polygon points="400,180 460,300 400,260" fill="#FFF" opacity="0.3"/>
+  <line x1="400" y1="180" x2="400" y2="380" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <line x1="340" y1="300" x2="460" y2="300" stroke="#000" stroke-width="1" opacity="0.5"/>
+  <!-- Left ruby circle gem -->
+  <circle cx="180" cy="320" r="60" fill="#E63946" stroke="#000" stroke-width="3"/>
+  <circle cx="180" cy="320" r="40" fill="#E63946" stroke="#FFF" stroke-width="1" opacity="0.5"/>
+  <circle cx="180" cy="320" r="20" fill="#FFF" opacity="0.2"/>
+  <line x1="120" y1="320" x2="240" y2="320" stroke="#000" stroke-width="1" opacity="0.4"/>
+  <line x1="180" y1="260" x2="180" y2="380" stroke="#000" stroke-width="1" opacity="0.4"/>
+  <!-- Right sapphire circle gem -->
+  <circle cx="620" cy="320" r="55" fill="#457B9D" stroke="#000" stroke-width="3"/>
+  <circle cx="620" cy="320" r="35" fill="#457B9D" stroke="#FFF" stroke-width="1" opacity="0.5"/>
+  <circle cx="620" cy="320" r="15" fill="#FFF" opacity="0.2"/>
+  <line x1="565" y1="320" x2="675" y2="320" stroke="#000" stroke-width="1" opacity="0.4"/>
+  <!-- Left hexagon emerald -->
+  <polygon points="150,500 190,475 230,500 230,540 190,565 150,540" fill="#2A9D8F" stroke="#000" stroke-width="3"/>
+  <polygon points="160,505 190,485 220,505 220,535 190,555 160,535" fill="#2A9D8F" stroke="#FFF" stroke-width="1" opacity="0.4"/>
+  <circle cx="190" cy="520" r="10" fill="#FFF" opacity="0.15"/>
+  <!-- Right hexagon amber -->
+  <polygon points="570,500 610,475 650,500 650,540 610,565 570,540" fill="#F4D35E" stroke="#000" stroke-width="3"/>
+  <polygon points="580,505 610,485 640,505 640,535 610,555 580,535" fill="#F4D35E" stroke="#FFF" stroke-width="1" opacity="0.4"/>
+  <circle cx="610" cy="520" r="10" fill="#FFF" opacity="0.15"/>
+  <!-- Center bottom diamond -->
+  <polygon points="400,440 440,510 400,580 360,510" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <polygon points="400,440 440,510 400,490" fill="#FFF" opacity="0.25"/>
+  <!-- Small accent gems -->
+  <polygon points="300,460 320,440 340,460 320,480" fill="#FEFAE0" stroke="#000" stroke-width="2"/>
+  <polygon points="480,460 500,440 520,460 500,480" fill="#FEFAE0" stroke="#000" stroke-width="2"/>
+  <!-- Pedestal columns -->
+  <rect x="80" y="630" width="30" height="120" fill="#000"/>
+  <rect x="690" y="630" width="30" height="120" fill="#000"/>
+  <rect x="380" y="630" width="40" height="120" fill="#000"/>
+  <!-- Crown outline above central diamond -->
+  <polyline points="320,170 340,120 370,150 400,100 430,150 460,120 480,170" fill="none" stroke="#F4D35E" stroke-width="3"/>
+  <circle cx="340" cy="115" r="6" fill="#F4D35E"/>
+  <circle cx="400" cy="95" r="8" fill="#E63946"/>
+  <circle cx="460" cy="115" r="6" fill="#F4D35E"/>
+  <!-- Sparkle lines -->
+  <line x1="140" y1="260" x2="160" y2="250" stroke="#FFF" stroke-width="2" opacity="0.6"/>
+  <line x1="650" y1="270" x2="670" y2="260" stroke="#FFF" stroke-width="2" opacity="0.6"/>
+  <line x1="390" y1="430" x2="380" y2="415" stroke="#FFF" stroke-width="1.5" opacity="0.5"/>
+</svg>

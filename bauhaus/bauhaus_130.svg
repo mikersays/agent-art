@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#A89F91" opacity="0.2"/>
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Mosaic Floor: Geometric tile floor pattern in perspective, with colored tile groups -->
+
+  <!-- Sky/wall background -->
+  <rect x="0" y="0" width="800" height="300" fill="#1D3557" opacity="0.15"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#A89F91" stroke-width="2"/>
+
+  <!-- Perspective floor grid - converging lines to vanishing point at (400, 300) -->
+  <!-- Horizontal perspective lines -->
+  <line x1="0" y1="350" x2="800" y2="350" stroke="#A89F91" stroke-width="0.8"/>
+  <line x1="0" y1="410" x2="800" y2="410" stroke="#A89F91" stroke-width="0.8"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#A89F91" stroke-width="1"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#A89F91" stroke-width="1"/>
+  <line x1="0" y1="650" x2="800" y2="650" stroke="#A89F91" stroke-width="1.2"/>
+  <line x1="0" y1="750" x2="800" y2="750" stroke="#A89F91" stroke-width="1.5"/>
+
+  <!-- Vertical converging lines -->
+  <line x1="400" y1="300" x2="0" y2="800" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="400" y1="300" x2="100" y2="800" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="400" y1="300" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="400" y1="300" x2="300" y2="800" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="400" y1="300" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="400" y1="300" x2="500" y2="800" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="400" y1="300" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="400" y1="300" x2="700" y2="800" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="400" y1="300" x2="800" y2="800" stroke="#A89F91" stroke-width="0.5"/>
+
+  <!-- Colored tile group 1: Red diamond pattern (center near) -->
+  <polygon points="400,650 450,600 500,650 450,700" fill="#E63946" stroke="#000" stroke-width="1.5"/>
+  <polygon points="350,650 400,600 450,650 400,700" fill="#E63946" stroke="#000" stroke-width="1.5"/>
+  <polygon points="400,600 450,550 500,600 450,650" fill="#E63946" opacity="0.7" stroke="#000" stroke-width="1"/>
+
+  <!-- Colored tile group 2: Blue tiles (left side) -->
+  <polygon points="100,650 160,600 220,650 160,700" fill="#1D3557" stroke="#000" stroke-width="1.5"/>
+  <polygon points="160,700 220,650 280,700 220,750" fill="#1D3557" stroke="#000" stroke-width="1.5"/>
+  <polygon points="100,750 160,700 220,750 160,800" fill="#1D3557" opacity="0.7" stroke="#000" stroke-width="1"/>
+
+  <!-- Colored tile group 3: Yellow tiles (right side) -->
+  <polygon points="580,650 630,610 680,650 630,690" fill="#F4D35E" stroke="#000" stroke-width="1.5"/>
+  <polygon points="630,690 680,650 730,690 680,730" fill="#F4D35E" stroke="#000" stroke-width="1.5"/>
+  <polygon points="680,730 730,690 780,730 730,770" fill="#F4D35E" opacity="0.8" stroke="#000" stroke-width="1"/>
+
+  <!-- Colored tile group 4: Teal tiles (center far) -->
+  <polygon points="370,450 400,425 430,450 400,475" fill="#2A9D8F" stroke="#000" stroke-width="1"/>
+  <polygon points="340,475 370,450 400,475 370,500" fill="#2A9D8F" stroke="#000" stroke-width="1"/>
+  <polygon points="400,475 430,450 460,475 430,500" fill="#2A9D8F" stroke="#000" stroke-width="1"/>
+  <polygon points="370,500 400,475 430,500 400,525" fill="#2A9D8F" opacity="0.7" stroke="#000" stroke-width="1"/>
+
+  <!-- Colored tile group 5: Coral/warm tiles (far left) -->
+  <polygon points="250,450 280,425 310,450 280,475" fill="#E9C46A" stroke="#000" stroke-width="1"/>
+  <polygon points="220,475 250,450 280,475 250,500" fill="#E9C46A" stroke="#000" stroke-width="1"/>
+
+  <!-- Colored tile group 6: Mixed far right -->
+  <polygon points="500,430 525,410 550,430 525,450" fill="#E63946" opacity="0.6" stroke="#000" stroke-width="1"/>
+  <polygon points="525,450 550,430 575,450 550,470" fill="#F4D35E" opacity="0.6" stroke="#000" stroke-width="1"/>
+
+  <!-- White accent tiles scattered -->
+  <polygon points="300,560 340,530 380,560 340,590" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <polygon points="460,560 500,530 540,560 500,590" fill="#FFF" stroke="#000" stroke-width="1"/>
+
+  <!-- Black accent tiles -->
+  <polygon points="200,600 230,575 260,600 230,625" fill="#000" stroke="#A89F91" stroke-width="1"/>
+  <polygon points="550,600 580,575 610,600 580,625" fill="#000" stroke="#A89F91" stroke-width="1"/>
+
+  <!-- Wall decorative elements (Bauhaus style) -->
+  <circle cx="200" cy="150" r="50" fill="none" stroke="#E63946" stroke-width="3"/>
+  <circle cx="200" cy="150" r="25" fill="#E63946" opacity="0.3"/>
+  <rect x="550" y="100" width="100" height="100" fill="none" stroke="#1D3557" stroke-width="3"/>
+  <rect x="575" y="125" width="50" height="50" fill="#1D3557" opacity="0.3"/>
+
+  <!-- Title -->
+  <circle cx="400" cy="60" r="40" fill="#000"/>
+  <text x="400" y="67" font-family="sans-serif" font-size="18" fill="#FFF" text-anchor="middle" font-weight="bold">130</text>
+
+  <!-- Bottom border decoration -->
+  <rect x="0" y="790" width="160" height="10" fill="#E63946"/>
+  <rect x="160" y="790" width="160" height="10" fill="#1D3557"/>
+  <rect x="320" y="790" width="160" height="10" fill="#F4D35E"/>
+  <rect x="480" y="790" width="160" height="10" fill="#2A9D8F"/>
+  <rect x="640" y="790" width="160" height="10" fill="#000"/>
+</svg>

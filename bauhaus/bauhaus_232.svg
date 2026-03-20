@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Rosette</title>
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Background geometric frame -->
+  <rect x="50" y="50" width="700" height="700" fill="none" stroke="#000" stroke-width="4"/>
+  <rect x="60" y="60" width="680" height="680" fill="none" stroke="#A89F91" stroke-width="1"/>
+
+  <!-- Central circle of the flower of life -->
+  <circle cx="400" cy="400" r="100" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Six surrounding circles forming flower of life -->
+  <circle cx="400" cy="300" r="100" fill="none" stroke="#000" stroke-width="3"/>
+  <circle cx="486.6" cy="350" r="100" fill="none" stroke="#000" stroke-width="3"/>
+  <circle cx="486.6" cy="450" r="100" fill="none" stroke="#000" stroke-width="3"/>
+  <circle cx="400" cy="500" r="100" fill="none" stroke="#000" stroke-width="3"/>
+  <circle cx="313.4" cy="450" r="100" fill="none" stroke="#000" stroke-width="3"/>
+  <circle cx="313.4" cy="350" r="100" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Colored petals at intersections - upper -->
+  <ellipse cx="443" cy="325" rx="30" ry="50" transform="rotate(30,443,325)" fill="#E63946" opacity="0.7"/>
+  <ellipse cx="357" cy="325" rx="30" ry="50" transform="rotate(-30,357,325)" fill="#1D3557" opacity="0.7"/>
+
+  <!-- Colored petals - middle -->
+  <ellipse cx="486" cy="400" rx="30" ry="50" transform="rotate(90,486,400)" fill="#F4D35E" opacity="0.7"/>
+  <ellipse cx="314" cy="400" rx="30" ry="50" transform="rotate(90,314,400)" fill="#2A9D8F" opacity="0.7"/>
+
+  <!-- Colored petals - lower -->
+  <ellipse cx="443" cy="475" rx="30" ry="50" transform="rotate(-30,443,475)" fill="#E9C46A" opacity="0.7"/>
+  <ellipse cx="357" cy="475" rx="30" ry="50" transform="rotate(30,357,475)" fill="#E63946" opacity="0.6"/>
+
+  <!-- Inner petal shapes -->
+  <path d="M400 340 Q430 370 400 400 Q370 370 400 340Z" fill="#F4D35E" opacity="0.8"/>
+  <path d="M440 360 Q440 400 400 400 Q420 370 440 360Z" fill="#1D3557" opacity="0.6"/>
+  <path d="M360 360 Q360 400 400 400 Q380 370 360 360Z" fill="#E63946" opacity="0.6"/>
+  <path d="M400 460 Q430 430 400 400 Q370 430 400 460Z" fill="#2A9D8F" opacity="0.8"/>
+  <path d="M440 440 Q440 400 400 400 Q420 430 440 440Z" fill="#E9C46A" opacity="0.6"/>
+  <path d="M360 440 Q360 400 400 400 Q380 430 360 440Z" fill="#F4D35E" opacity="0.6"/>
+
+  <!-- Center dot -->
+  <circle cx="400" cy="400" r="15" fill="#000"/>
+  <circle cx="400" cy="400" r="8" fill="#E63946"/>
+
+  <!-- Outer decorative ring -->
+  <circle cx="400" cy="400" r="180" fill="none" stroke="#A89F91" stroke-width="2" stroke-dasharray="10,5"/>
+  <circle cx="400" cy="400" r="200" fill="none" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Corner decorations - top left -->
+  <circle cx="120" cy="120" r="40" fill="#1D3557" opacity="0.3"/>
+  <circle cx="120" cy="120" r="20" fill="#E63946" opacity="0.5"/>
+
+  <!-- Corner decorations - top right -->
+  <circle cx="680" cy="120" r="40" fill="#F4D35E" opacity="0.3"/>
+  <circle cx="680" cy="120" r="20" fill="#2A9D8F" opacity="0.5"/>
+
+  <!-- Corner decorations - bottom left -->
+  <circle cx="120" cy="680" r="40" fill="#2A9D8F" opacity="0.3"/>
+  <circle cx="120" cy="680" r="20" fill="#F4D35E" opacity="0.5"/>
+
+  <!-- Corner decorations - bottom right -->
+  <circle cx="680" cy="680" r="40" fill="#E63946" opacity="0.3"/>
+  <circle cx="680" cy="680" r="20" fill="#1D3557" opacity="0.5"/>
+
+  <!-- Border bands -->
+  <rect x="50" y="50" width="700" height="8" fill="#E63946"/>
+  <rect x="50" y="742" width="700" height="8" fill="#1D3557"/>
+  <rect x="50" y="50" width="8" height="700" fill="#F4D35E"/>
+  <rect x="742" y="50" width="8" height="700" fill="#2A9D8F"/>
+</svg>

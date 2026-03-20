@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <defs>
+    <clipPath id="star-clip">
+      <polygon points="400,100 462,262 635,262 496,362 545,530 400,435 255,530 304,362 165,262 338,262"/>
+    </clipPath>
+  </defs>
+  <!-- Background geometric pattern -->
+  <circle cx="400" cy="400" r="380" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
+  <circle cx="400" cy="400" r="350" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <!-- Eight-pointed star from two overlapping squares -->
+  <!-- Square 1 - axis-aligned -->
+  <rect x="188" y="188" width="424" height="424" fill="#1D3557" opacity="0.85" transform="rotate(0 400 400)"/>
+  <!-- Square 2 - rotated 45 degrees -->
+  <rect x="188" y="188" width="424" height="424" fill="#E63946" opacity="0.7" transform="rotate(45 400 400)"/>
+  <!-- Inner overlapping creates the star points - fill the visible triangular sections -->
+  <!-- Top triangle section -->
+  <polygon points="400,100 338,262 462,262" fill="#F4D35E"/>
+  <!-- Top-right triangle -->
+  <polygon points="462,262 635,262 556,156" fill="#2A9D8F"/>
+  <!-- Right triangle -->
+  <polygon points="635,262 538,338 538,462" fill="#A8DADC"/>
+  <!-- Bottom-right triangle -->
+  <polygon points="538,462 635,538 556,644" fill="#F4D35E"/>
+  <!-- Bottom triangle -->
+  <polygon points="462,538 400,700 338,538" fill="#2A9D8F"/>
+  <!-- Bottom-left triangle -->
+  <polygon points="338,538 165,538 244,644" fill="#A8DADC"/>
+  <!-- Left triangle -->
+  <polygon points="165,538 262,462 262,338" fill="#F4D35E"/>
+  <!-- Top-left triangle -->
+  <polygon points="262,338 165,262 244,156" fill="#E63946" opacity="0.9"/>
+  <!-- Central octagon -->
+  <polygon points="338,262 462,262 538,338 538,462 462,538 338,538 262,462 262,338" fill="#A89F91" opacity="0.6"/>
+  <!-- Inner star pattern -->
+  <polygon points="400,280 430,360 510,340 450,400 510,460 430,440 400,520 370,440 290,460 350,400 290,340 370,360" fill="#000" opacity="0.15"/>
+  <!-- Central circle -->
+  <circle cx="400" cy="400" r="60" fill="#E63946"/>
+  <circle cx="400" cy="400" r="55" fill="none" stroke="#F4D35E" stroke-width="3"/>
+  <circle cx="400" cy="400" r="40" fill="#1D3557"/>
+  <circle cx="400" cy="400" r="25" fill="#F4D35E"/>
+  <circle cx="400" cy="400" r="10" fill="#000"/>
+  <!-- Decorative lines radiating from center -->
+  <line x1="400" y1="100" x2="400" y2="280" stroke="#000" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="520" x2="400" y2="700" stroke="#000" stroke-width="2" opacity="0.3"/>
+  <line x1="188" y1="400" x2="340" y2="400" stroke="#000" stroke-width="2" opacity="0.3"/>
+  <line x1="460" y1="400" x2="612" y2="400" stroke="#000" stroke-width="2" opacity="0.3"/>
+  <!-- Diagonal radiating lines -->
+  <line x1="250" y1="150" x2="345" y2="290" stroke="#000" stroke-width="1.5" opacity="0.2"/>
+  <line x1="550" y1="150" x2="455" y2="290" stroke="#000" stroke-width="1.5" opacity="0.2"/>
+  <line x1="250" y1="650" x2="345" y2="510" stroke="#000" stroke-width="1.5" opacity="0.2"/>
+  <line x1="550" y1="650" x2="455" y2="510" stroke="#000" stroke-width="1.5" opacity="0.2"/>
+  <!-- Corner accents -->
+  <rect x="30" y="30" width="60" height="60" fill="#E63946"/>
+  <rect x="710" y="30" width="60" height="60" fill="#1D3557"/>
+  <rect x="30" y="710" width="60" height="60" fill="#F4D35E"/>
+  <rect x="710" y="710" width="60" height="60" fill="#2A9D8F"/>
+  <!-- Small decorative circles at star points -->
+  <circle cx="400" cy="100" r="8" fill="#000"/>
+  <circle cx="635" cy="262" r="8" fill="#000"/>
+  <circle cx="635" cy="538" r="8" fill="#000"/>
+  <circle cx="400" cy="700" r="8" fill="#000"/>
+  <circle cx="165" cy="538" r="8" fill="#000"/>
+  <circle cx="165" cy="262" r="8" fill="#000"/>
+  <!-- Outer frame -->
+  <rect x="10" y="10" width="780" height="780" fill="none" stroke="#000" stroke-width="4"/>
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000" stroke-width="8"/>
+</svg>

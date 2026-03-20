@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#264653"/>
+  <!-- Stem -->
+  <line x1="400" y1="800" x2="400" y2="400" stroke="#264653" stroke-width="0"/>
+  <rect x="396" y="400" width="8" height="400" fill="#000"/>
+  <!-- Leaf on stem -->
+  <path d="M400,600 Q360,560 370,520 Q400,540 400,600Z" fill="#264653" stroke="#000" stroke-width="2"/>
+  <!-- Center of dandelion -->
+  <circle cx="400" cy="400" r="20" fill="#F4D35E"/>
+  <circle cx="400" cy="400" r="12" fill="#DDA15E"/>
+  <!-- Radial burst lines with seed circles - ring 1 (inner, short) -->
+  <line x1="400" y1="400" x2="400" y2="280" stroke="#FFF" stroke-width="1.5"/>
+  <circle cx="400" cy="275" r="6" fill="#FFF"/>
+  <line x1="400" y1="400" x2="485" y2="315" stroke="#FFF" stroke-width="1.5"/>
+  <circle cx="488" cy="312" r="6" fill="#FFF"/>
+  <line x1="400" y1="400" x2="520" y2="400" stroke="#FFF" stroke-width="1.5"/>
+  <circle cx="525" cy="400" r="6" fill="#FFF"/>
+  <line x1="400" y1="400" x2="485" y2="485" stroke="#FFF" stroke-width="1.5"/>
+  <circle cx="488" cy="488" r="6" fill="#FFF"/>
+  <line x1="400" y1="400" x2="315" y2="485" stroke="#FFF" stroke-width="1.5"/>
+  <circle cx="312" cy="488" r="6" fill="#FFF"/>
+  <line x1="400" y1="400" x2="280" y2="400" stroke="#FFF" stroke-width="1.5"/>
+  <circle cx="275" cy="400" r="6" fill="#FFF"/>
+  <line x1="400" y1="400" x2="315" y2="315" stroke="#FFF" stroke-width="1.5"/>
+  <circle cx="312" cy="312" r="6" fill="#FFF"/>
+  <!-- Ring 2 (longer spokes) -->
+  <line x1="400" y1="400" x2="430" y2="240" stroke="#FFF" stroke-width="1"/>
+  <circle cx="432" cy="235" r="5" fill="#E63946"/>
+  <line x1="400" y1="400" x2="510" y2="280" stroke="#FFF" stroke-width="1"/>
+  <circle cx="514" cy="276" r="5" fill="#E63946"/>
+  <line x1="400" y1="400" x2="550" y2="350" stroke="#FFF" stroke-width="1"/>
+  <circle cx="555" cy="347" r="5" fill="#E63946"/>
+  <line x1="400" y1="400" x2="550" y2="450" stroke="#FFF" stroke-width="1"/>
+  <circle cx="555" cy="453" r="5" fill="#E63946"/>
+  <line x1="400" y1="400" x2="510" y2="520" stroke="#FFF" stroke-width="1"/>
+  <circle cx="514" cy="524" r="5" fill="#E63946"/>
+  <line x1="400" y1="400" x2="370" y2="240" stroke="#FFF" stroke-width="1"/>
+  <circle cx="368" cy="235" r="5" fill="#E63946"/>
+  <line x1="400" y1="400" x2="290" y2="280" stroke="#FFF" stroke-width="1"/>
+  <circle cx="286" cy="276" r="5" fill="#E63946"/>
+  <line x1="400" y1="400" x2="250" y2="350" stroke="#FFF" stroke-width="1"/>
+  <circle cx="245" cy="347" r="5" fill="#E63946"/>
+  <line x1="400" y1="400" x2="250" y2="450" stroke="#FFF" stroke-width="1"/>
+  <circle cx="245" cy="453" r="5" fill="#E63946"/>
+  <line x1="400" y1="400" x2="290" y2="520" stroke="#FFF" stroke-width="1"/>
+  <circle cx="286" cy="524" r="5" fill="#E63946"/>
+  <!-- Ring 3 (outermost, longest) -->
+  <line x1="400" y1="400" x2="400" y2="180" stroke="#FFF" stroke-width="0.8"/>
+  <circle cx="400" cy="175" r="4" fill="#F4D35E"/>
+  <line x1="400" y1="400" x2="560" y2="240" stroke="#FFF" stroke-width="0.8"/>
+  <circle cx="564" cy="236" r="4" fill="#F4D35E"/>
+  <line x1="400" y1="400" x2="600" y2="400" stroke="#FFF" stroke-width="0.8"/>
+  <circle cx="605" cy="400" r="4" fill="#F4D35E"/>
+  <line x1="400" y1="400" x2="240" y2="240" stroke="#FFF" stroke-width="0.8"/>
+  <circle cx="236" cy="236" r="4" fill="#F4D35E"/>
+  <line x1="400" y1="400" x2="200" y2="400" stroke="#FFF" stroke-width="0.8"/>
+  <circle cx="195" cy="400" r="4" fill="#F4D35E"/>
+  <line x1="400" y1="400" x2="460" y2="180" stroke="#FFF" stroke-width="0.8"/>
+  <circle cx="463" cy="175" r="4" fill="#F4D35E"/>
+  <line x1="400" y1="400" x2="340" y2="180" stroke="#FFF" stroke-width="0.8"/>
+  <circle cx="337" cy="175" r="4" fill="#F4D35E"/>
+  <line x1="400" y1="400" x2="560" y2="560" stroke="#FFF" stroke-width="0.8"/>
+  <circle cx="564" cy="564" r="4" fill="#F4D35E"/>
+  <line x1="400" y1="400" x2="240" y2="560" stroke="#FFF" stroke-width="0.8"/>
+  <circle cx="236" cy="564" r="4" fill="#F4D35E"/>
+  <!-- A few floating seed wisps drifting away -->
+  <line x1="150" y1="200" x2="160" y2="180" stroke="#FFF" stroke-width="0.5"/>
+  <circle cx="160" cy="177" r="3" fill="#FFF" opacity="0.6"/>
+  <line x1="620" y1="150" x2="630" y2="130" stroke="#FFF" stroke-width="0.5"/>
+  <circle cx="630" cy="127" r="3" fill="#FFF" opacity="0.6"/>
+  <line x1="100" y1="350" x2="90" y2="340" stroke="#FFF" stroke-width="0.5"/>
+  <circle cx="88" cy="337" r="3" fill="#FFF" opacity="0.6"/>
+</svg>

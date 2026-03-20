@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Background grid pattern -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Tangram pieces arranged to form a running figure / abstract human -->
+
+  <!-- Piece 1: Large triangle (left leg) - red -->
+  <polygon points="350,500 450,600 250,600" fill="#E63946" stroke="#000" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Piece 2: Large triangle (right leg / stride) - blue -->
+  <polygon points="450,600 550,500 550,700" fill="#1D3557" stroke="#000" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Piece 3: Medium triangle (torso) - teal -->
+  <polygon points="350,350 450,350 400,500" fill="#2A9D8F" stroke="#000" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Piece 4: Small triangle (left arm) - yellow -->
+  <polygon points="300,350 350,350 300,300" fill="#F4D35E" stroke="#000" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Piece 5: Small triangle (right arm raised) - orange -->
+  <polygon points="450,350 500,280 500,350" fill="#E76F51" stroke="#000" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Piece 6: Square (head) - red, rotated 45 degrees -->
+  <rect x="375" y="245" width="50" height="50" fill="#E63946" stroke="#000" stroke-width="3" transform="rotate(45, 400, 270)"/>
+
+  <!-- Piece 7: Parallelogram (connecting torso to legs) - warm gray -->
+  <polygon points="350,500 450,500 500,600 400,600" fill="#A89F91" stroke="#000" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Decorative frame -->
+  <rect x="100" y="100" width="600" height="600" fill="none" stroke="#000" stroke-width="4"/>
+  <rect x="110" y="110" width="580" height="580" fill="none" stroke="#A89F91" stroke-width="1"/>
+
+  <!-- Corner accents -->
+  <rect x="100" y="100" width="30" height="30" fill="#000"/>
+  <rect x="670" y="100" width="30" height="30" fill="#000"/>
+  <rect x="100" y="670" width="30" height="30" fill="#000"/>
+  <rect x="670" y="670" width="30" height="30" fill="#000"/>
+
+  <!-- Title block at bottom -->
+  <rect x="250" y="730" width="300" height="40" fill="#000"/>
+  <rect x="255" y="735" width="290" height="30" fill="#1D3557"/>
+
+  <!-- Bauhaus circle mark -->
+  <circle cx="150" cy="150" r="20" fill="none" stroke="#E63946" stroke-width="3"/>
+  <circle cx="150" cy="150" r="10" fill="#E63946"/>
+
+  <!-- Scattered tangram reference pieces (small, decorative) -->
+  <polygon points="660,150 680,150 680,170" fill="#F4D35E" opacity="0.5"/>
+  <polygon points="140,660 160,640 160,660" fill="#2A9D8F" opacity="0.5"/>
+  <rect x="650" y="650" width="15" height="15" fill="#E76F51" opacity="0.5" transform="rotate(45,657,657)"/>
+
+  <!-- Shadow beneath figure -->
+  <ellipse cx="420" cy="620" rx="120" ry="10" fill="#000" opacity="0.1"/>
+</svg>

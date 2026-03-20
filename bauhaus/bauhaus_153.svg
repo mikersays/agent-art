@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#A8DADC"/>
+  <!-- Sky/ground division -->
+  <rect x="0" y="550" width="800" height="250" fill="#F4D35E" opacity="0.4"/>
+  <!-- Ground line -->
+  <line x1="0" y1="650" x2="800" y2="650" stroke="#000" stroke-width="3"/>
+  <!-- Tent 1 - Red fabric -->
+  <polygon points="50,650 175,350 300,650" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <polygon points="50,650 175,350 175,650" fill="#E63946" opacity="0.8"/>
+  <polygon points="175,650 175,350 300,650" fill="#6D2E46" opacity="0.7"/>
+  <!-- Tent 1 pole -->
+  <line x1="175" y1="340" x2="175" y2="660" stroke="#000" stroke-width="5"/>
+  <circle cx="175" cy="340" r="6" fill="#000"/>
+  <!-- Tent 2 - Blue fabric -->
+  <polygon points="220,650 370,300 520,650" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <polygon points="220,650 370,300 370,650" fill="#1D3557" opacity="0.9"/>
+  <polygon points="370,650 370,300 520,650" fill="#1D3557" opacity="0.6"/>
+  <!-- Tent 2 pole -->
+  <line x1="370" y1="290" x2="370" y2="660" stroke="#000" stroke-width="5"/>
+  <circle cx="370" cy="290" r="6" fill="#000"/>
+  <!-- Tent 3 - Yellow fabric -->
+  <polygon points="430,650 555,380 680,650" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <polygon points="430,650 555,380 555,650" fill="#F4D35E" opacity="0.9"/>
+  <polygon points="555,650 555,380 680,650" fill="#F4D35E" opacity="0.6"/>
+  <!-- Tent 3 pole -->
+  <line x1="555" y1="370" x2="555" y2="660" stroke="#000" stroke-width="5"/>
+  <circle cx="555" cy="370" r="6" fill="#000"/>
+  <!-- Tent 4 - Teal fabric -->
+  <polygon points="600,650 720,320 800,650" fill="#2A9D8F" stroke="#000" stroke-width="2"/>
+  <polygon points="600,650 720,320 720,650" fill="#2A9D8F" opacity="0.9"/>
+  <polygon points="720,650 720,320 800,650" fill="#2A9D8F" opacity="0.5"/>
+  <!-- Tent 4 pole -->
+  <line x1="720" y1="310" x2="720" y2="660" stroke="#000" stroke-width="5"/>
+  <circle cx="720" cy="310" r="6" fill="#000"/>
+  <!-- Guy ropes -->
+  <line x1="175" y1="350" x2="50" y2="650" stroke="#000" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="175" y1="350" x2="300" y2="650" stroke="#000" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="370" y1="300" x2="520" y2="650" stroke="#000" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="555" y1="380" x2="430" y2="650" stroke="#000" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <!-- Ground stakes -->
+  <polygon points="47,650 53,650 50,670" fill="#000"/>
+  <polygon points="297,650 303,650 300,670" fill="#000"/>
+  <polygon points="517,650 523,650 520,670" fill="#000"/>
+  <polygon points="427,650 433,650 430,670" fill="#000"/>
+  <polygon points="677,650 683,650 680,670" fill="#000"/>
+  <!-- Decorative banner between tent peaks -->
+  <polyline points="175,370 270,420 370,320 460,430 555,400" fill="none" stroke="#6D2E46" stroke-width="2"/>
+  <!-- Small pennant flags -->
+  <polygon points="270,420 280,410 280,430" fill="#E63946"/>
+  <polygon points="460,430 470,420 470,440" fill="#1D3557"/>
+  <!-- Ground texture -->
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000" stroke-width="1" opacity="0.3"/>
+  <line x1="0" y1="750" x2="800" y2="750" stroke="#000" stroke-width="1" opacity="0.2"/>
+</svg>

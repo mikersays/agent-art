@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#000"/>
+
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="400" cy="400" r="340"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#circleClip)">
+    <!-- Eight-fold symmetry: 8 segments of 45 degrees each -->
+    <!-- Segment 1: 0 deg -->
+    <polygon points="400,400 740,400 640,260" fill="#E63946"/>
+    <polygon points="400,400 640,260 540,140" fill="#1D3557"/>
+    <!-- Segment 2: 45 deg -->
+    <polygon points="400,400 640,260 400,60" fill="#F4D35E"/>
+    <polygon points="400,400 540,140 400,60" fill="#2A9D8F"/>
+    <!-- Segment 3: 90 deg -->
+    <polygon points="400,400 400,60 260,160" fill="#E63946" opacity="0.85"/>
+    <polygon points="400,400 260,160 160,260" fill="#457B9D"/>
+    <!-- Segment 4: 135 deg -->
+    <polygon points="400,400 160,260 60,400" fill="#E76F51"/>
+    <polygon points="400,400 260,160 60,400" fill="#F4D35E" opacity="0.7"/>
+    <!-- Segment 5: 180 deg -->
+    <polygon points="400,400 60,400 160,540" fill="#1D3557" opacity="0.9"/>
+    <polygon points="400,400 160,540 260,640" fill="#E63946"/>
+    <!-- Segment 6: 225 deg -->
+    <polygon points="400,400 260,640 400,740" fill="#2A9D8F"/>
+    <polygon points="400,400 160,540 400,740" fill="#457B9D" opacity="0.8"/>
+    <!-- Segment 7: 270 deg -->
+    <polygon points="400,400 400,740 540,640" fill="#F4D35E" opacity="0.9"/>
+    <polygon points="400,400 540,640 640,540" fill="#E76F51" opacity="0.85"/>
+    <!-- Segment 8: 315 deg -->
+    <polygon points="400,400 640,540 740,400" fill="#2A9D8F" opacity="0.8"/>
+    <polygon points="400,400 540,640 740,400" fill="#1D3557" opacity="0.85"/>
+
+    <!-- Inner ring of triangles -->
+    <polygon points="400,400 460,340 400,280" fill="#FFF" opacity="0.3"/>
+    <polygon points="400,400 340,340 400,280" fill="#000" opacity="0.4"/>
+    <polygon points="400,400 340,340 280,400" fill="#FFF" opacity="0.3"/>
+    <polygon points="400,400 340,460 280,400" fill="#000" opacity="0.4"/>
+    <polygon points="400,400 340,460 400,520" fill="#FFF" opacity="0.3"/>
+    <polygon points="400,400 460,460 400,520" fill="#000" opacity="0.4"/>
+    <polygon points="400,400 460,460 520,400" fill="#FFF" opacity="0.3"/>
+    <polygon points="400,400 460,340 520,400" fill="#000" opacity="0.4"/>
+  </g>
+
+  <!-- Concentric circle outlines -->
+  <circle cx="400" cy="400" r="340" fill="none" stroke="#FFF" stroke-width="3"/>
+  <circle cx="400" cy="400" r="240" fill="none" stroke="#FFF" stroke-width="2"/>
+  <circle cx="400" cy="400" r="140" fill="none" stroke="#FFF" stroke-width="1.5"/>
+  <circle cx="400" cy="400" r="60" fill="none" stroke="#FFF" stroke-width="1"/>
+
+  <!-- Radial lines -->
+  <line x1="400" y1="60" x2="400" y2="740" stroke="#FFF" stroke-width="1" opacity="0.5"/>
+  <line x1="60" y1="400" x2="740" y2="400" stroke="#FFF" stroke-width="1" opacity="0.5"/>
+  <line x1="160" y1="160" x2="640" y2="640" stroke="#FFF" stroke-width="1" opacity="0.5"/>
+  <line x1="640" y1="160" x2="160" y2="640" stroke="#FFF" stroke-width="1" opacity="0.5"/>
+
+  <!-- Center circle -->
+  <circle cx="400" cy="400" r="15" fill="#F4D35E"/>
+  <circle cx="400" cy="400" r="7" fill="#000"/>
+
+  <!-- Title -->
+  <text x="400" y="775" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#FFF">KALEIDOSCOPE II</text>
+</svg>

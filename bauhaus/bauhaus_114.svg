@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background - sky -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Ground -->
+  <rect x="0" y="600" width="800" height="200" fill="#1D3557"/>
+
+  <!-- Rail tracks - horizontal lines -->
+  <line x1="0" y1="650" x2="800" y2="650" stroke="#000" stroke-width="4"/>
+  <line x1="0" y1="658" x2="800" y2="658" stroke="#000" stroke-width="4"/>
+
+  <line x1="0" y1="710" x2="800" y2="710" stroke="#000" stroke-width="4"/>
+  <line x1="0" y1="718" x2="800" y2="718" stroke="#000" stroke-width="4"/>
+
+  <line x1="0" y1="760" x2="800" y2="760" stroke="#000" stroke-width="4"/>
+  <line x1="0" y1="768" x2="800" y2="768" stroke="#000" stroke-width="4"/>
+
+  <!-- Track ties - top track -->
+  <rect x="50" y="646" width="8" height="16" fill="#000" opacity="0.5"/>
+  <rect x="100" y="646" width="8" height="16" fill="#000" opacity="0.5"/>
+  <rect x="150" y="646" width="8" height="16" fill="#000" opacity="0.5"/>
+  <rect x="200" y="646" width="8" height="16" fill="#000" opacity="0.5"/>
+  <rect x="250" y="646" width="8" height="16" fill="#000" opacity="0.5"/>
+  <rect x="300" y="646" width="8" height="16" fill="#000" opacity="0.5"/>
+  <rect x="500" y="646" width="8" height="16" fill="#000" opacity="0.5"/>
+  <rect x="550" y="646" width="8" height="16" fill="#000" opacity="0.5"/>
+  <rect x="700" y="646" width="8" height="16" fill="#000" opacity="0.5"/>
+  <rect x="750" y="646" width="8" height="16" fill="#000" opacity="0.5"/>
+
+  <!-- Train car 1 - top track (red locomotive) -->
+  <rect x="340" y="620" width="150" height="35" fill="#E63946"/>
+  <rect x="340" y="615" width="40" height="8" fill="#000"/>
+  <circle cx="365" cy="658" r="8" fill="#000"/>
+  <circle cx="395" cy="658" r="8" fill="#000"/>
+  <circle cx="465" cy="658" r="8" fill="#000"/>
+  <rect x="350" y="628" width="15" height="15" fill="#F4D35E"/>
+  <rect x="380" y="628" width="15" height="15" fill="#F4D35E"/>
+  <!-- Smokestack -->
+  <rect x="355" y="600" width="15" height="20" fill="#000"/>
+
+  <!-- Train car 2 - top track (cargo) -->
+  <rect x="500" y="622" width="120" height="32" fill="#2A9D8F"/>
+  <circle cx="525" cy="658" r="8" fill="#000"/>
+  <circle cx="595" cy="658" r="8" fill="#000"/>
+
+  <!-- Train car 3 - middle track (tanker) -->
+  <rect x="80" y="685" width="130" height="28" rx="14" fill="#E76F51"/>
+  <circle cx="110" cy="718" r="8" fill="#000"/>
+  <circle cx="180" cy="718" r="8" fill="#000"/>
+
+  <!-- Train car 4 - middle track (box car) -->
+  <rect x="400" y="682" width="140" height="32" fill="#F4D35E"/>
+  <rect x="460" y="688" width="20" height="20" fill="#1D3557"/>
+  <circle cx="425" cy="718" r="8" fill="#000"/>
+  <circle cx="515" cy="718" r="8" fill="#000"/>
+
+  <!-- Train car 5 - bottom track (flat car) -->
+  <rect x="250" y="745" width="160" height="18" fill="#000"/>
+  <rect x="270" y="725" width="30" height="20" fill="#E63946"/>
+  <rect x="310" y="730" width="40" height="15" fill="#2A9D8F"/>
+  <rect x="360" y="720" width="30" height="25" fill="#F4D35E"/>
+  <circle cx="280" cy="768" r="8" fill="#000"/>
+  <circle cx="380" cy="768" r="8" fill="#000"/>
+
+  <!-- Signal tower -->
+  <rect x="680" y="500" width="15" height="150" fill="#000"/>
+  <circle cx="687" cy="510" r="12" fill="#E63946"/>
+  <circle cx="687" cy="540" r="12" fill="#F4D35E"/>
+
+  <!-- Sun -->
+  <circle cx="150" cy="100" r="60" fill="#F4D35E"/>
+
+  <!-- Geometric clouds -->
+  <rect x="300" y="80" width="80" height="25" rx="12" fill="#FFF"/>
+  <rect x="500" y="120" width="100" height="25" rx="12" fill="#FFF"/>
+
+  <!-- Power lines -->
+  <line x1="50" y1="400" x2="750" y2="400" stroke="#000" stroke-width="2"/>
+  <rect x="200" y="400" width="6" height="200" fill="#000"/>
+  <rect x="600" y="400" width="6" height="200" fill="#000"/>
+</svg>

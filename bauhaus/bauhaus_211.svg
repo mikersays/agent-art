@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <title>Perforated Facade</title>
+  <!-- Background -->
+  <rect width="800" height="800" fill="#A8DADC"/>
+  <!-- Building facade -->
+  <rect x="80" y="60" width="640" height="700" fill="#1D3557"/>
+  <!-- Facade border trim -->
+  <rect x="80" y="60" width="640" height="12" fill="#000"/>
+  <rect x="80" y="748" width="640" height="12" fill="#000"/>
+  <rect x="80" y="60" width="12" height="700" fill="#000"/>
+  <rect x="708" y="60" width="12" height="700" fill="#000"/>
+  <!-- Row 1: circular windows -->
+  <circle cx="180" cy="150" r="35" fill="#FFF"/>
+  <circle cx="300" cy="150" r="35" fill="#F4D35E"/>
+  <circle cx="420" cy="150" r="35" fill="#FFF"/>
+  <circle cx="540" cy="150" r="35" fill="#E63946"/>
+  <circle cx="660" cy="150" r="35" fill="#FFF"/>
+  <!-- Row 2: square windows -->
+  <rect x="148" y="225" width="64" height="64" fill="#F4D35E"/>
+  <rect x="268" y="225" width="64" height="64" fill="#FFF"/>
+  <rect x="388" y="225" width="64" height="64" fill="#2A9D8F"/>
+  <rect x="508" y="225" width="64" height="64" fill="#FFF"/>
+  <rect x="628" y="225" width="64" height="64" fill="#F4D35E"/>
+  <!-- Row 3: circular windows -->
+  <circle cx="180" cy="360" r="30" fill="#E63946"/>
+  <circle cx="300" cy="360" r="30" fill="#FFF"/>
+  <circle cx="420" cy="360" r="30" fill="#F4D35E"/>
+  <circle cx="540" cy="360" r="30" fill="#FFF"/>
+  <circle cx="660" cy="360" r="30" fill="#2A9D8F"/>
+  <!-- Row 4: mixed windows - small squares -->
+  <rect x="155" y="420" width="50" height="50" fill="#FFF"/>
+  <rect x="275" y="420" width="50" height="50" fill="#6D2E46"/>
+  <rect x="395" y="420" width="50" height="50" fill="#FFF"/>
+  <rect x="515" y="420" width="50" height="50" fill="#E63946"/>
+  <rect x="635" y="420" width="50" height="50" fill="#FFF"/>
+  <!-- Row 5: circular windows large -->
+  <circle cx="180" cy="540" r="40" fill="#2A9D8F"/>
+  <circle cx="300" cy="540" r="40" fill="#FFF"/>
+  <circle cx="420" cy="540" r="40" fill="#6D2E46"/>
+  <circle cx="540" cy="540" r="40" fill="#FFF"/>
+  <circle cx="660" cy="540" r="40" fill="#F4D35E"/>
+  <!-- Row 6: rectangular windows (tall) -->
+  <rect x="155" y="610" width="50" height="80" fill="#FFF"/>
+  <rect x="275" y="610" width="50" height="80" fill="#E63946"/>
+  <rect x="395" y="610" width="50" height="80" fill="#FFF"/>
+  <rect x="515" y="610" width="50" height="80" fill="#F4D35E"/>
+  <rect x="635" y="610" width="50" height="80" fill="#FFF"/>
+  <!-- Horizontal divider lines -->
+  <line x1="92" y1="195" x2="708" y2="195" stroke="#000" stroke-width="3"/>
+  <line x1="92" y1="305" x2="708" y2="305" stroke="#000" stroke-width="3"/>
+  <line x1="92" y1="400" x2="708" y2="400" stroke="#000" stroke-width="3"/>
+  <line x1="92" y1="490" x2="708" y2="490" stroke="#000" stroke-width="3"/>
+  <line x1="92" y1="595" x2="708" y2="595" stroke="#000" stroke-width="3"/>
+  <!-- Door at bottom center -->
+  <rect x="370" y="700" width="60" height="60" fill="#000"/>
+  <circle cx="420" cy="730" r="4" fill="#F4D35E"/>
+</svg>

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Parquet Floor</title>
+  <rect width="800" height="800" fill="#DDA15E"/>
+
+  <!-- Herringbone parquet pattern - each "plank" is a parallelogram -->
+  <!-- Row 0 - top -->
+  <polygon points="0,0 40,0 80,40 40,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+  <polygon points="40,0 80,0 120,40 80,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="80,0 120,0 160,40 120,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+  <polygon points="120,0 160,0 200,40 160,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="160,0 200,0 240,40 200,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+  <polygon points="200,0 240,0 280,40 240,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="240,0 280,0 320,40 280,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+  <polygon points="280,0 320,0 360,40 320,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="320,0 360,0 400,40 360,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+  <polygon points="360,0 400,0 440,40 400,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="400,0 440,0 480,40 440,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+  <polygon points="440,0 480,0 520,40 480,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="480,0 520,0 560,40 520,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+  <polygon points="520,0 560,0 600,40 560,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="560,0 600,0 640,40 600,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+  <polygon points="600,0 640,0 680,40 640,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="640,0 680,0 720,40 680,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+  <polygon points="680,0 720,0 760,40 720,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="720,0 760,0 800,40 760,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+  <polygon points="760,0 800,0 800,40 800,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Row 1 - reverse chevron -->
+  <polygon points="0,40 40,40 0,80" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="80,40 40,40 0,80 40,80" fill="#000" stroke="#333" stroke-width="0.5"/>
+  <polygon points="80,40 120,40 80,80 40,80" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="120,40 160,40 120,80 80,80" fill="#000" stroke="#333" stroke-width="0.5"/>
+  <polygon points="160,40 200,40 160,80 120,80" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="200,40 240,40 200,80 160,80" fill="#000" stroke="#333" stroke-width="0.5"/>
+  <polygon points="240,40 280,40 240,80 200,80" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="280,40 320,40 280,80 240,80" fill="#000" stroke="#333" stroke-width="0.5"/>
+  <polygon points="320,40 360,40 320,80 280,80" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="360,40 400,40 360,80 320,80" fill="#000" stroke="#333" stroke-width="0.5"/>
+  <polygon points="400,40 440,40 400,80 360,80" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="440,40 480,40 440,80 400,80" fill="#000" stroke="#333" stroke-width="0.5"/>
+  <polygon points="480,40 520,40 480,80 440,80" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="520,40 560,40 520,80 480,80" fill="#000" stroke="#333" stroke-width="0.5"/>
+  <polygon points="560,40 600,40 560,80 520,80" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="600,40 640,40 600,80 560,80" fill="#000" stroke="#333" stroke-width="0.5"/>
+  <polygon points="640,40 680,40 640,80 600,80" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="680,40 720,40 680,80 640,80" fill="#000" stroke="#333" stroke-width="0.5"/>
+  <polygon points="720,40 760,40 720,80 680,80" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+  <polygon points="760,40 800,40 760,80 720,80" fill="#000" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Repeating chevron pattern using rect+transform for efficiency -->
+  <!-- Rows 2-19 via repeating groups -->
+  <g id="chevronA">
+    <polygon points="0,0 40,0 80,40 40,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+    <polygon points="40,0 80,0 120,40 80,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="80,0 120,0 160,40 120,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+    <polygon points="120,0 160,0 200,40 160,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="160,0 200,0 240,40 200,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+    <polygon points="200,0 240,0 280,40 240,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="240,0 280,0 320,40 280,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+    <polygon points="280,0 320,0 360,40 320,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="320,0 360,0 400,40 360,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+    <polygon points="360,0 400,0 440,40 400,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="400,0 440,0 480,40 440,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+    <polygon points="440,0 480,0 520,40 480,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="480,0 520,0 560,40 520,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+    <polygon points="520,0 560,0 600,40 560,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="560,0 600,0 640,40 600,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+    <polygon points="600,0 640,0 680,40 640,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="640,0 680,0 720,40 680,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+    <polygon points="680,0 720,0 760,40 720,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="720,0 760,0 800,40 760,40" fill="#E76F51" stroke="#333" stroke-width="0.5"/>
+    <polygon points="760,0 800,0 800,40 800,40" fill="#DDA15E" stroke="#333" stroke-width="0.5"/>
+  </g>
+
+  <g id="chevronB">
+    <polygon points="0,0 40,0 0,40" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="80,0 40,0 0,40 40,40" fill="#000" stroke="#333" stroke-width="0.5"/>
+    <polygon points="80,0 120,0 80,40 40,40" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="120,0 160,0 120,40 80,40" fill="#000" stroke="#333" stroke-width="0.5"/>
+    <polygon points="160,0 200,0 160,40 120,40" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="200,0 240,0 200,40 160,40" fill="#000" stroke="#333" stroke-width="0.5"/>
+    <polygon points="240,0 280,0 240,40 200,40" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="280,0 320,0 280,40 240,40" fill="#000" stroke="#333" stroke-width="0.5"/>
+    <polygon points="320,0 360,0 320,40 280,40" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="360,0 400,0 360,40 320,40" fill="#000" stroke="#333" stroke-width="0.5"/>
+    <polygon points="400,0 440,0 400,40 360,40" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="440,0 480,0 440,40 400,40" fill="#000" stroke="#333" stroke-width="0.5"/>
+    <polygon points="480,0 520,0 480,40 440,40" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="520,0 560,0 520,40 480,40" fill="#000" stroke="#333" stroke-width="0.5"/>
+    <polygon points="560,0 600,0 560,40 520,40" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="600,0 640,0 600,40 560,40" fill="#000" stroke="#333" stroke-width="0.5"/>
+    <polygon points="640,0 680,0 640,40 600,40" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="680,0 720,0 680,40 640,40" fill="#000" stroke="#333" stroke-width="0.5"/>
+    <polygon points="720,0 760,0 720,40 680,40" fill="#F4D35E" stroke="#333" stroke-width="0.5"/>
+    <polygon points="760,0 800,0 760,40 720,40" fill="#000" stroke="#333" stroke-width="0.5"/>
+  </g>
+
+  <!-- Repeat the two-row chevron pattern down the canvas -->
+  <use href="#chevronA" y="80"/>
+  <use href="#chevronB" y="120"/>
+  <use href="#chevronA" y="160"/>
+  <use href="#chevronB" y="200"/>
+  <use href="#chevronA" y="240"/>
+  <use href="#chevronB" y="280"/>
+  <use href="#chevronA" y="320"/>
+  <use href="#chevronB" y="360"/>
+  <use href="#chevronA" y="400"/>
+  <use href="#chevronB" y="440"/>
+  <use href="#chevronA" y="480"/>
+  <use href="#chevronB" y="520"/>
+  <use href="#chevronA" y="560"/>
+  <use href="#chevronB" y="600"/>
+  <use href="#chevronA" y="640"/>
+  <use href="#chevronB" y="680"/>
+  <use href="#chevronA" y="720"/>
+  <use href="#chevronB" y="760"/>
+
+  <!-- Subtle border -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000" stroke-width="4"/>
+
+  <!-- Corner accent squares in Bauhaus style -->
+  <rect x="10" y="10" width="30" height="30" fill="#E63946" opacity="0.7"/>
+  <rect x="760" y="10" width="30" height="30" fill="#1D3557" opacity="0.7"/>
+  <rect x="10" y="760" width="30" height="30" fill="#1D3557" opacity="0.7"/>
+  <rect x="760" y="760" width="30" height="30" fill="#E63946" opacity="0.7"/>
+</svg>

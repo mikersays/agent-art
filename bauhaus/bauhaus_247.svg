@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Siege Tower</title>
+  <rect width="800" height="800" fill="#F4D35E"/>
+  <!-- Ground -->
+  <rect x="0" y="700" width="800" height="100" fill="#264653"/>
+  <rect x="0" y="690" width="800" height="15" fill="#457B9D"/>
+  <!-- Tower body - tall rectangle -->
+  <rect x="250" y="100" width="300" height="600" fill="#1D3557" stroke="#000" stroke-width="4"/>
+  <!-- Tower internal structure / levels -->
+  <line x1="250" y1="220" x2="550" y2="220" stroke="#E9C46A" stroke-width="3"/>
+  <line x1="250" y1="340" x2="550" y2="340" stroke="#E9C46A" stroke-width="3"/>
+  <line x1="250" y1="460" x2="550" y2="460" stroke="#E9C46A" stroke-width="3"/>
+  <line x1="250" y1="580" x2="550" y2="580" stroke="#E9C46A" stroke-width="3"/>
+  <!-- Vertical structural beams -->
+  <line x1="350" y1="100" x2="350" y2="700" stroke="#E9C46A" stroke-width="2"/>
+  <line x1="450" y1="100" x2="450" y2="700" stroke="#E9C46A" stroke-width="2"/>
+  <!-- Top battlement -->
+  <rect x="240" y="80" width="40" height="40" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <rect x="300" y="80" width="40" height="40" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <rect x="360" y="80" width="40" height="40" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <rect x="420" y="80" width="40" height="40" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <rect x="480" y="80" width="40" height="40" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <rect x="540" y="80" width="20" height="40" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <!-- Ladder left side -->
+  <line x1="270" y1="220" x2="270" y2="700" stroke="#E63946" stroke-width="3"/>
+  <line x1="310" y1="220" x2="310" y2="700" stroke="#E63946" stroke-width="3"/>
+  <line x1="270" y1="260" x2="310" y2="260" stroke="#E63946" stroke-width="2"/>
+  <line x1="270" y1="300" x2="310" y2="300" stroke="#E63946" stroke-width="2"/>
+  <line x1="270" y1="380" x2="310" y2="380" stroke="#E63946" stroke-width="2"/>
+  <line x1="270" y1="420" x2="310" y2="420" stroke="#E63946" stroke-width="2"/>
+  <line x1="270" y1="500" x2="310" y2="500" stroke="#E63946" stroke-width="2"/>
+  <line x1="270" y1="540" x2="310" y2="540" stroke="#E63946" stroke-width="2"/>
+  <line x1="270" y1="620" x2="310" y2="620" stroke="#E63946" stroke-width="2"/>
+  <line x1="270" y1="660" x2="310" y2="660" stroke="#E63946" stroke-width="2"/>
+  <!-- Shields on tower face -->
+  <circle cx="400" cy="170" r="25" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <line x1="400" y1="145" x2="400" y2="195" stroke="#FFF" stroke-width="2"/>
+  <line x1="375" y1="170" x2="425" y2="170" stroke="#FFF" stroke-width="2"/>
+  <circle cx="400" cy="290" r="25" fill="#457B9D" stroke="#000" stroke-width="2"/>
+  <line x1="400" y1="265" x2="400" y2="315" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="375" y1="290" x2="425" y2="290" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="400" cy="410" r="25" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <line x1="400" y1="385" x2="400" y2="435" stroke="#FFF" stroke-width="2"/>
+  <line x1="375" y1="410" x2="425" y2="410" stroke="#FFF" stroke-width="2"/>
+  <circle cx="400" cy="530" r="25" fill="#457B9D" stroke="#000" stroke-width="2"/>
+  <line x1="400" y1="505" x2="400" y2="555" stroke="#F4D35E" stroke-width="2"/>
+  <line x1="375" y1="530" x2="425" y2="530" stroke="#F4D35E" stroke-width="2"/>
+  <!-- Wheels -->
+  <circle cx="300" cy="720" r="30" fill="#000" stroke="#E9C46A" stroke-width="3"/>
+  <circle cx="300" cy="720" r="8" fill="#E9C46A"/>
+  <line x1="300" y1="690" x2="300" y2="750" stroke="#E9C46A" stroke-width="2"/>
+  <line x1="270" y1="720" x2="330" y2="720" stroke="#E9C46A" stroke-width="2"/>
+  <circle cx="500" cy="720" r="30" fill="#000" stroke="#E9C46A" stroke-width="3"/>
+  <circle cx="500" cy="720" r="8" fill="#E9C46A"/>
+  <line x1="500" y1="690" x2="500" y2="750" stroke="#E9C46A" stroke-width="2"/>
+  <line x1="470" y1="720" x2="530" y2="720" stroke="#E9C46A" stroke-width="2"/>
+  <!-- Axle -->
+  <line x1="300" y1="720" x2="500" y2="720" stroke="#000" stroke-width="4"/>
+  <!-- Arrow slits -->
+  <rect x="490" y="150" width="8" height="30" fill="#000"/>
+  <rect x="490" y="270" width="8" height="30" fill="#000"/>
+  <rect x="490" y="390" width="8" height="30" fill="#000"/>
+  <rect x="490" y="510" width="8" height="30" fill="#000"/>
+  <!-- Flag on top -->
+  <line x1="400" y1="30" x2="400" y2="100" stroke="#000" stroke-width="3"/>
+  <polygon points="400,30 460,50 400,70" fill="#E63946"/>
+  <!-- Diagonal cross braces -->
+  <line x1="250" y1="580" x2="350" y2="700" stroke="#E9C46A" stroke-width="2" opacity="0.6"/>
+  <line x1="350" y1="580" x2="250" y2="700" stroke="#E9C46A" stroke-width="2" opacity="0.6"/>
+  <line x1="450" y1="580" x2="550" y2="700" stroke="#E9C46A" stroke-width="2" opacity="0.6"/>
+  <line x1="550" y1="580" x2="450" y2="700" stroke="#E9C46A" stroke-width="2" opacity="0.6"/>
+</svg>

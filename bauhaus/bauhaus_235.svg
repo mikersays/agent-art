@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Trident</title>
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Background subtle pattern -->
+  <rect x="350" y="50" width="100" height="750" fill="#A89F91" opacity="0.06"/>
+
+  <!-- Handle - main shaft -->
+  <rect x="380" y="400" width="40" height="340" fill="#000"/>
+
+  <!-- Handle decorative bands -->
+  <rect x="375" y="420" width="50" height="12" rx="2" fill="#E63946"/>
+  <rect x="375" y="445" width="50" height="8" rx="2" fill="#F4D35E"/>
+  <rect x="375" y="465" width="50" height="12" rx="2" fill="#1D3557"/>
+  <rect x="375" y="490" width="50" height="8" rx="2" fill="#2A9D8F"/>
+  <rect x="375" y="510" width="50" height="12" rx="2" fill="#E63946"/>
+  <rect x="375" y="535" width="50" height="8" rx="2" fill="#F4D35E"/>
+  <rect x="375" y="555" width="50" height="12" rx="2" fill="#1D3557"/>
+
+  <!-- Handle ornate geometric section -->
+  <rect x="370" y="580" width="60" height="40" fill="#A89F91"/>
+  <rect x="375" y="585" width="50" height="30" fill="#000"/>
+  <circle cx="400" cy="600" r="10" fill="#E63946"/>
+  <circle cx="400" cy="600" r="5" fill="#F4D35E"/>
+
+  <!-- Handle grip section -->
+  <rect x="375" y="630" width="50" height="80" rx="5" fill="#A89F91"/>
+  <line x1="380" y1="640" x2="420" y2="640" stroke="#000" stroke-width="1.5"/>
+  <line x1="380" y1="650" x2="420" y2="650" stroke="#000" stroke-width="1.5"/>
+  <line x1="380" y1="660" x2="420" y2="660" stroke="#000" stroke-width="1.5"/>
+  <line x1="380" y1="670" x2="420" y2="670" stroke="#000" stroke-width="1.5"/>
+  <line x1="380" y1="680" x2="420" y2="680" stroke="#000" stroke-width="1.5"/>
+  <line x1="380" y1="690" x2="420" y2="690" stroke="#000" stroke-width="1.5"/>
+  <line x1="380" y1="700" x2="420" y2="700" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Pommel -->
+  <circle cx="400" cy="740" r="22" fill="#1D3557"/>
+  <circle cx="400" cy="740" r="12" fill="#E63946"/>
+  <circle cx="400" cy="740" r="5" fill="#F4D35E"/>
+
+  <!-- Cross guard / neck -->
+  <rect x="340" y="390" width="120" height="20" rx="4" fill="#000"/>
+  <rect x="345" y="394" width="110" height="12" rx="3" fill="#1D3557"/>
+  <rect x="360" y="396" width="80" height="8" rx="2" fill="#E63946"/>
+
+  <!-- Neck to prongs transition -->
+  <polygon points="340,390 280,350 290,340 360,380" fill="#000"/>
+  <polygon points="460,390 520,350 510,340 440,380" fill="#000"/>
+  <rect x="385" y="340" width="30" height="60" fill="#000"/>
+
+  <!-- Left prong -->
+  <rect x="260" y="80" width="30" height="270" fill="#1D3557"/>
+  <polygon points="260,350 290,350 290,340 260,340" fill="#1D3557"/>
+  <!-- Left prong tip -->
+  <polygon points="275,80 250,60 260,50 275,30 290,50 300,60 285,80" fill="#E63946"/>
+  <polygon points="270,50 280,30 275,20 265,40" fill="#F4D35E" opacity="0.7"/>
+
+  <!-- Center prong -->
+  <rect x="385" y="60" width="30" height="280" fill="#000"/>
+  <!-- Center prong tip -->
+  <polygon points="400,60 375,40 385,25 400,5 415,25 425,40 400,60" fill="#E63946"/>
+  <polygon points="395,30 405,10 400,5 390,20" fill="#F4D35E" opacity="0.7"/>
+
+  <!-- Right prong -->
+  <rect x="510" y="80" width="30" height="270" fill="#1D3557"/>
+  <!-- Right prong tip -->
+  <polygon points="525,80 500,60 510,50 525,30 540,50 550,60 535,80" fill="#E63946"/>
+  <polygon points="520,50 530,30 525,20 515,40" fill="#F4D35E" opacity="0.7"/>
+
+  <!-- Prong decorative bands -->
+  <rect x="255" y="150" width="40" height="8" fill="#F4D35E"/>
+  <rect x="255" y="200" width="40" height="8" fill="#2A9D8F"/>
+  <rect x="255" y="250" width="40" height="8" fill="#E9C46A"/>
+
+  <rect x="380" y="130" width="40" height="8" fill="#F4D35E"/>
+  <rect x="380" y="180" width="40" height="8" fill="#2A9D8F"/>
+  <rect x="380" y="230" width="40" height="8" fill="#E9C46A"/>
+
+  <rect x="505" y="150" width="40" height="8" fill="#F4D35E"/>
+  <rect x="505" y="200" width="40" height="8" fill="#2A9D8F"/>
+  <rect x="505" y="250" width="40" height="8" fill="#E9C46A"/>
+
+  <!-- Connecting arcs between prongs -->
+  <path d="M290 300 Q340 380 385 340" fill="none" stroke="#000" stroke-width="5"/>
+  <path d="M415 340 Q460 380 510 300" fill="none" stroke="#000" stroke-width="5"/>
+  <path d="M290 310 Q340 370 385 345" fill="none" stroke="#E63946" stroke-width="2"/>
+  <path d="M415 345 Q460 370 510 310" fill="none" stroke="#E63946" stroke-width="2"/>
+
+  <!-- Side decorative geometric shapes -->
+  <rect x="140" y="200" width="40" height="40" fill="#F4D35E" opacity="0.4" transform="rotate(45,160,220)"/>
+  <rect x="620" y="200" width="40" height="40" fill="#2A9D8F" opacity="0.4" transform="rotate(45,640,220)"/>
+
+  <!-- Bottom decorative line -->
+  <line x1="200" y1="770" x2="600" y2="770" stroke="#000" stroke-width="3"/>
+  <line x1="250" y1="780" x2="550" y2="780" stroke="#E63946" stroke-width="2"/>
+</svg>

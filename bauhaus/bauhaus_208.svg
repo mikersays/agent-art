@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#F4D35E" opacity="0.15"/>
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Weather Vane -->
+  <!-- Sky background -->
+  <rect width="800" height="500" fill="#1D3557" opacity="0.08"/>
+  <!-- Ornamental base - tiered -->
+  <rect x="350" y="720" width="100" height="20" rx="2" fill="#000"/>
+  <rect x="360" y="700" width="80" height="20" fill="#264653"/>
+  <rect x="370" y="685" width="60" height="15" fill="#000"/>
+  <!-- Decorative scrollwork on base -->
+  <path d="M350 720 Q330 730 340 740 L460 740 Q470 730 450 720" fill="#264653"/>
+  <circle cx="400" cy="730" r="5" fill="#A89F91"/>
+  <!-- Main vertical post -->
+  <rect x="394" y="280" width="12" height="405" fill="#000"/>
+  <!-- Post cross-bands -->
+  <rect x="388" y="450" width="24" height="6" fill="#A89F91"/>
+  <rect x="388" y="550" width="24" height="6" fill="#A89F91"/>
+  <rect x="388" y="650" width="24" height="6" fill="#A89F91"/>
+  <!-- Directional cross arms -->
+  <rect x="320" y="370" width="160" height="4" fill="#000"/>
+  <rect x="398" y="310" width="4" height="80" fill="#000"/>
+  <!-- Directional letters -->
+  <text x="310" y="382" font-family="sans-serif" font-size="28" font-weight="bold" fill="#E63946" text-anchor="end">W</text>
+  <text x="490" y="382" font-family="sans-serif" font-size="28" font-weight="bold" fill="#E63946" text-anchor="start">E</text>
+  <text x="400" y="305" font-family="sans-serif" font-size="28" font-weight="bold" fill="#E63946" text-anchor="middle">N</text>
+  <text x="400" y="420" font-family="sans-serif" font-size="28" font-weight="bold" fill="#E63946" text-anchor="middle">S</text>
+  <!-- Arrow vane - pointing NE -->
+  <!-- Vane shaft -->
+  <line x1="280" y1="310" x2="520" y2="200" stroke="#000" stroke-width="5"/>
+  <!-- Arrow head (pointing right/east-ish) -->
+  <polygon points="520,200 490,180 495,198 480,205 495,208 490,225" fill="#E63946"/>
+  <!-- Arrow tail feathers -->
+  <polygon points="280,310 295,335 290,310 295,285" fill="#264653"/>
+  <polygon points="295,318 310,340 305,315 310,292 295,302" fill="#1D3557"/>
+  <!-- Pivot point / bearing -->
+  <circle cx="400" cy="280" r="10" fill="#A89F91" stroke="#000" stroke-width="2"/>
+  <circle cx="400" cy="280" r="4" fill="#000"/>
+  <!-- Ornamental finial on top of pivot -->
+  <polygon points="400,240 393,265 407,265" fill="#F4D35E" stroke="#000" stroke-width="1"/>
+  <circle cx="400" cy="238" r="6" fill="#F4D35E" stroke="#000" stroke-width="1"/>
+  <!-- Rooster silhouette on vane (simplified geometric) -->
+  <circle cx="440" cy="215" r="12" fill="#000"/>
+  <polygon points="440,203 435,190 445,190" fill="#E63946"/>
+  <rect x="438" y="225" width="4" height="10" fill="#000"/>
+  <polygon points="428,220 418,225 428,228" fill="#000"/>
+  <!-- Small decorative elements -->
+  <circle cx="340" cy="372" r="3" fill="#F4D35E"/>
+  <circle cx="460" cy="372" r="3" fill="#F4D35E"/>
+  <circle cx="400" cy="330" r="3" fill="#F4D35E"/>
+  <circle cx="400" cy="400" r="3" fill="#F4D35E"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Chevron Stack</title>
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Outer border frame -->
+  <rect x="10" y="10" width="780" height="780" fill="none" stroke="#000" stroke-width="6"/>
+  <rect x="20" y="20" width="760" height="760" fill="none" stroke="#A89F91" stroke-width="2"/>
+
+  <!-- Chevron 1 (top) - Red -->
+  <polygon points="400,60 550,140 540,160 400,85 260,160 250,140" fill="#E63946" stroke="#000" stroke-width="2"/>
+
+  <!-- Chevron 2 - Blue -->
+  <polygon points="400,130 560,215 550,235 400,155 250,235 240,215" fill="#1D3557" stroke="#000" stroke-width="2"/>
+
+  <!-- Chevron 3 - Yellow -->
+  <polygon points="400,200 570,290 560,310 400,225 240,310 230,290" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+
+  <!-- Chevron 4 - Forest -->
+  <polygon points="400,270 580,365 570,385 400,295 230,385 220,365" fill="#264653" stroke="#000" stroke-width="2"/>
+
+  <!-- Chevron 5 - Red -->
+  <polygon points="400,340 590,440 580,460 400,365 220,460 210,440" fill="#E63946" stroke="#000" stroke-width="2"/>
+
+  <!-- Chevron 6 - Coral/Gold -->
+  <polygon points="400,410 600,515 590,535 400,435 210,535 200,515" fill="#E9C46A" stroke="#000" stroke-width="2"/>
+
+  <!-- Chevron 7 - Blue -->
+  <polygon points="400,480 610,590 600,610 400,505 200,610 190,590" fill="#1D3557" stroke="#000" stroke-width="2"/>
+
+  <!-- Chevron 8 - Black -->
+  <polygon points="400,550 620,665 610,685 400,575 190,685 180,665" fill="#000"/>
+
+  <!-- Chevron 9 (bottom) - Warm Gray -->
+  <polygon points="400,620 630,740 620,760 400,645 180,760 170,740" fill="#A89F91" stroke="#000" stroke-width="2"/>
+
+  <!-- Center vertical line accent -->
+  <line x1="400" y1="50" x2="400" y2="770" stroke="#000" stroke-width="1" stroke-dasharray="6,8" opacity="0.3"/>
+
+  <!-- Small decorative circles at chevron tips -->
+  <circle cx="400" cy="60" r="5" fill="#000"/>
+  <circle cx="400" cy="130" r="5" fill="#FFF" stroke="#000" stroke-width="1.5"/>
+  <circle cx="400" cy="200" r="5" fill="#000"/>
+  <circle cx="400" cy="270" r="5" fill="#FFF" stroke="#000" stroke-width="1.5"/>
+  <circle cx="400" cy="340" r="5" fill="#000"/>
+  <circle cx="400" cy="410" r="5" fill="#FFF" stroke="#000" stroke-width="1.5"/>
+  <circle cx="400" cy="480" r="5" fill="#F4D35E"/>
+  <circle cx="400" cy="550" r="5" fill="#E63946"/>
+  <circle cx="400" cy="620" r="5" fill="#000"/>
+
+  <!-- Side accent bars left -->
+  <rect x="40" y="200" width="8" height="40" fill="#E63946"/>
+  <rect x="40" y="260" width="8" height="40" fill="#1D3557"/>
+  <rect x="40" y="320" width="8" height="40" fill="#F4D35E"/>
+
+  <!-- Side accent bars right -->
+  <rect x="752" y="200" width="8" height="40" fill="#E63946"/>
+  <rect x="752" y="260" width="8" height="40" fill="#1D3557"/>
+  <rect x="752" y="320" width="8" height="40" fill="#F4D35E"/>
+</svg>

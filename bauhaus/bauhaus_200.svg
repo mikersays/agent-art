@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#000"/>
+  <!-- Radial burst background -->
+  <g stroke="#333" stroke-width="2">
+    <line x1="400" y1="400" x2="0" y2="0"/>
+    <line x1="400" y1="400" x2="200" y2="0"/>
+    <line x1="400" y1="400" x2="400" y2="0"/>
+    <line x1="400" y1="400" x2="600" y2="0"/>
+    <line x1="400" y1="400" x2="800" y2="0"/>
+    <line x1="400" y1="400" x2="800" y2="200"/>
+    <line x1="400" y1="400" x2="800" y2="400"/>
+    <line x1="400" y1="400" x2="800" y2="600"/>
+    <line x1="400" y1="400" x2="800" y2="800"/>
+    <line x1="400" y1="400" x2="600" y2="800"/>
+    <line x1="400" y1="400" x2="400" y2="800"/>
+    <line x1="400" y1="400" x2="200" y2="800"/>
+    <line x1="400" y1="400" x2="0" y2="800"/>
+    <line x1="400" y1="400" x2="0" y2="600"/>
+    <line x1="400" y1="400" x2="0" y2="400"/>
+    <line x1="400" y1="400" x2="0" y2="200"/>
+  </g>
+  <!-- Celebration circles -->
+  <circle cx="400" cy="400" r="360" fill="none" stroke="#6D2E46" stroke-width="4"/>
+  <circle cx="400" cy="400" r="340" fill="none" stroke="#E63946" stroke-width="2"/>
+  <circle cx="400" cy="400" r="300" fill="none" stroke="#F4D35E" stroke-width="3"/>
+  <circle cx="400" cy="400" r="280" fill="none" stroke="#DDA15E" stroke-width="1"/>
+  <!-- Large geometric "2" -->
+  <path d="M 140 280 Q 140 200 210 200 L 270 200 Q 320 200 320 250 Q 320 300 270 320 L 180 370 L 140 400 L 140 420 L 320 420" fill="none" stroke="#E63946" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Fill for "2" -->
+  <path d="M 140 280 Q 140 200 210 200 L 270 200 Q 320 200 320 250 Q 320 300 270 320 L 180 370 L 140 400 L 140 420 L 320 420" fill="none" stroke="#F4D35E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- First "0" -->
+  <ellipse cx="420" cy="310" rx="60" ry="110" fill="none" stroke="#1D3557" stroke-width="16"/>
+  <ellipse cx="420" cy="310" rx="60" ry="110" fill="none" stroke="#FFF" stroke-width="4"/>
+  <!-- Second "0" -->
+  <ellipse cx="570" cy="310" rx="60" ry="110" fill="none" stroke="#1D3557" stroke-width="16"/>
+  <ellipse cx="570" cy="310" rx="60" ry="110" fill="none" stroke="#FFF" stroke-width="4"/>
+  <!-- Decorative triangles around the numbers -->
+  <polygon points="400,80 415,110 385,110" fill="#E63946"/>
+  <polygon points="400,520 415,490 385,490" fill="#E63946"/>
+  <polygon points="100,400 130,385 130,415" fill="#F4D35E"/>
+  <polygon points="700,400 670,385 670,415" fill="#F4D35E"/>
+  <!-- Corner decorations - all palette colors -->
+  <rect x="20" y="20" width="80" height="80" fill="#E63946"/>
+  <rect x="700" y="20" width="80" height="80" fill="#1D3557"/>
+  <rect x="20" y="700" width="80" height="80" fill="#F4D35E"/>
+  <rect x="700" y="700" width="80" height="80" fill="#6D2E46"/>
+  <!-- Geometric diamonds inside corners -->
+  <polygon points="60,30 90,60 60,90 30,60" fill="#000"/>
+  <polygon points="740,30 770,60 740,90 710,60" fill="#FFF"/>
+  <polygon points="60,710 90,740 60,770 30,740" fill="#000"/>
+  <polygon points="740,710 770,740 740,770 710,740" fill="#FFF"/>
+  <!-- Celebration confetti elements -->
+  <rect x="150" y="550" width="20" height="8" fill="#E63946" transform="rotate(30 160 554)"/>
+  <rect x="250" y="580" width="20" height="8" fill="#F4D35E" transform="rotate(-20 260 584)"/>
+  <rect x="500" y="530" width="20" height="8" fill="#1D3557" transform="rotate(45 510 534)"/>
+  <rect x="600" y="560" width="20" height="8" fill="#DDA15E" transform="rotate(-35 610 564)"/>
+  <rect x="350" y="570" width="20" height="8" fill="#FFF" transform="rotate(15 360 574)"/>
+  <rect x="650" y="500" width="20" height="8" fill="#6D2E46" transform="rotate(-50 660 504)"/>
+  <!-- Star bursts -->
+  <polygon points="200,140 206,156 224,156 210,166 216,182 200,172 184,182 190,166 176,156 194,156" fill="#F4D35E"/>
+  <polygon points="650,150 656,166 674,166 660,176 666,192 650,182 634,192 640,176 626,166 644,166" fill="#DDA15E"/>
+  <polygon points="150,650 156,666 174,666 160,676 166,692 150,682 134,692 140,676 126,666 144,666" fill="#FFF"/>
+  <polygon points="650,650 656,666 674,666 660,676 666,692 650,682 634,692 640,676 626,666 644,666" fill="#E63946"/>
+  <!-- Horizontal celebration banner -->
+  <rect x="100" y="460" width="600" height="40" fill="#6D2E46" rx="5"/>
+  <rect x="100" y="460" width="600" height="4" fill="#DDA15E"/>
+  <rect x="100" y="496" width="600" height="4" fill="#DDA15E"/>
+  <!-- Sand colored accent circles -->
+  <circle cx="200" cy="480" r="10" fill="#DDA15E"/>
+  <circle cx="300" cy="480" r="10" fill="#F4D35E"/>
+  <circle cx="400" cy="480" r="10" fill="#FFF"/>
+  <circle cx="500" cy="480" r="10" fill="#E63946"/>
+  <circle cx="600" cy="480" r="10" fill="#1D3557"/>
+  <!-- Charcoal geometric base bar -->
+  <rect x="50" y="750" width="700" height="30" fill="#333"/>
+  <rect x="50" y="750" width="700" height="3" fill="#DDA15E"/>
+</svg>

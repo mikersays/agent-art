@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Outer frame -->
+  <rect x="80" y="80" width="640" height="640" fill="none" stroke="#000" stroke-width="8"/>
+  <!-- Inner frame -->
+  <rect x="100" y="100" width="600" height="600" fill="#333" stroke="#000" stroke-width="3"/>
+  <!-- Background panel -->
+  <rect x="110" y="110" width="580" height="580" fill="#1D3557"/>
+  <!-- Louver slats - angled parallel rectangles -->
+  <rect x="110" y="115" width="580" height="28" fill="#333" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="155" width="580" height="28" fill="#333" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="195" width="580" height="28" fill="#DDA15E" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="235" width="580" height="28" fill="#333" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="275" width="580" height="28" fill="#333" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="315" width="580" height="28" fill="#E63946" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="355" width="580" height="28" fill="#333" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="395" width="580" height="28" fill="#333" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="435" width="580" height="28" fill="#F4D35E" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="475" width="580" height="28" fill="#333" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="515" width="580" height="28" fill="#333" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="555" width="580" height="28" fill="#E76F51" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="595" width="580" height="28" fill="#333" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <rect x="110" y="635" width="580" height="28" fill="#333" stroke="#000" stroke-width="1" transform="skewY(-5)"/>
+  <!-- Vertical support bars -->
+  <rect x="108" y="80" width="12" height="640" fill="#000"/>
+  <rect x="395" y="80" width="10" height="640" fill="#000"/>
+  <rect x="680" y="80" width="12" height="640" fill="#000"/>
+  <!-- Frame corner accents -->
+  <rect x="60" y="60" width="40" height="40" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <rect x="700" y="60" width="40" height="40" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <rect x="60" y="700" width="40" height="40" fill="#1D3557" stroke="#000" stroke-width="2"/>
+  <rect x="700" y="700" width="40" height="40" fill="#E76F51" stroke="#000" stroke-width="2"/>
+  <!-- Mounting screws -->
+  <circle cx="90" cy="90" r="6" fill="#DDA15E" stroke="#000" stroke-width="1.5"/>
+  <circle cx="710" cy="90" r="6" fill="#DDA15E" stroke="#000" stroke-width="1.5"/>
+  <circle cx="90" cy="710" r="6" fill="#DDA15E" stroke="#000" stroke-width="1.5"/>
+  <circle cx="710" cy="710" r="6" fill="#DDA15E" stroke="#000" stroke-width="1.5"/>
+  <!-- Screw cross marks -->
+  <line x1="87" y1="90" x2="93" y2="90" stroke="#000" stroke-width="1"/>
+  <line x1="90" y1="87" x2="90" y2="93" stroke="#000" stroke-width="1"/>
+  <line x1="707" y1="90" x2="713" y2="90" stroke="#000" stroke-width="1"/>
+  <line x1="710" y1="87" x2="710" y2="93" stroke="#000" stroke-width="1"/>
+</svg>

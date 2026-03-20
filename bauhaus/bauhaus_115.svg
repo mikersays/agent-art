@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Concentric rings -->
+  <circle cx="400" cy="450" r="300" fill="none" stroke="#1D3557" stroke-width="3"/>
+  <circle cx="400" cy="450" r="250" fill="none" stroke="#1D3557" stroke-width="2.5"/>
+  <circle cx="400" cy="450" r="200" fill="none" stroke="#1D3557" stroke-width="2"/>
+  <circle cx="400" cy="450" r="150" fill="none" stroke="#000" stroke-width="2"/>
+  <circle cx="400" cy="450" r="100" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="400" cy="450" r="50" fill="none" stroke="#000" stroke-width="1"/>
+
+  <!-- Shadow triangles radiating from gnomon -->
+  <!-- Shadow 1 - long, pointing right -->
+  <polygon points="400,450 700,350 680,420" fill="#1D3557" opacity="0.3"/>
+  <!-- Shadow 2 - pointing upper right -->
+  <polygon points="400,450 620,200 580,260" fill="#000" opacity="0.2"/>
+  <!-- Shadow 3 - pointing right-down -->
+  <polygon points="400,450 700,550 680,480" fill="#1D3557" opacity="0.25"/>
+  <!-- Shadow 4 - pointing lower right -->
+  <polygon points="400,450 600,700 560,660" fill="#000" opacity="0.15"/>
+  <!-- Shadow 5 - pointing left -->
+  <polygon points="400,450 120,400 140,470" fill="#2A9D8F" opacity="0.2"/>
+  <!-- Shadow 6 - pointing upper left -->
+  <polygon points="400,450 200,220 240,270" fill="#E63946" opacity="0.15"/>
+  <!-- Shadow 7 - pointing down-left -->
+  <polygon points="400,450 180,650 220,620" fill="#E76F51" opacity="0.2"/>
+  <!-- Shadow 8 - pointing straight down -->
+  <polygon points="400,450 370,750 430,750" fill="#000" opacity="0.25"/>
+
+  <!-- Gnomon - central vertical element -->
+  <rect x="394" y="200" width="12" height="250" fill="#000"/>
+  <!-- Gnomon top - triangle -->
+  <polygon points="400,120 380,200 420,200" fill="#E63946"/>
+  <!-- Gnomon base -->
+  <circle cx="400" cy="450" r="15" fill="#000"/>
+  <circle cx="400" cy="450" r="8" fill="#F4D35E"/>
+
+  <!-- Hour markers on outer ring -->
+  <circle cx="400" cy="150" r="8" fill="#E63946"/>
+  <circle cx="550" cy="190" r="8" fill="#F4D35E"/>
+  <circle cx="660" cy="300" r="8" fill="#E76F51"/>
+  <circle cx="700" cy="450" r="8" fill="#E63946"/>
+  <circle cx="660" cy="600" r="8" fill="#2A9D8F"/>
+  <circle cx="550" cy="710" r="8" fill="#F4D35E"/>
+  <circle cx="400" cy="750" r="8" fill="#E63946"/>
+  <circle cx="250" cy="710" r="8" fill="#E76F51"/>
+  <circle cx="140" cy="600" r="8" fill="#F4D35E"/>
+  <circle cx="100" cy="450" r="8" fill="#2A9D8F"/>
+  <circle cx="140" cy="300" r="8" fill="#E63946"/>
+  <circle cx="250" cy="190" r="8" fill="#E76F51"/>
+
+  <!-- Decorative ring segments -->
+  <path d="M 400 250 A 200 200 0 0 1 600 450" fill="none" stroke="#E63946" stroke-width="4"/>
+  <path d="M 400 650 A 200 200 0 0 1 200 450" fill="none" stroke="#F4D35E" stroke-width="4"/>
+
+  <!-- Additional geometric accents -->
+  <rect x="50" y="50" width="40" height="40" fill="#E63946"/>
+  <rect x="710" y="50" width="40" height="40" fill="#1D3557"/>
+  <rect x="50" y="710" width="40" height="40" fill="#2A9D8F"/>
+  <rect x="710" y="710" width="40" height="40" fill="#F4D35E"/>
+
+  <!-- Title area accent line -->
+  <line x1="200" y1="80" x2="600" y2="80" stroke="#000" stroke-width="2"/>
+</svg>

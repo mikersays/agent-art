@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Plumb Line</title>
+  <rect width="800" height="800" fill="#DDA15E" opacity="0.15"/>
+  <rect width="800" height="800" fill="#FFF" opacity="0.7"/>
+
+  <!-- Geometric brickwork background -->
+  <!-- Row 1 -->
+  <rect x="0" y="500" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="120" y="500" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="240" y="500" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="360" y="500" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="480" y="500" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="600" y="500" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="720" y="500" width="80" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+
+  <!-- Row 2 offset -->
+  <rect x="-60" y="550" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="60" y="550" width="120" height="50" fill="#DDA15E" opacity="0.1" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="180" y="550" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="300" y="550" width="120" height="50" fill="#DDA15E" opacity="0.1" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="420" y="550" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="540" y="550" width="120" height="50" fill="#DDA15E" opacity="0.1" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="660" y="550" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+
+  <!-- Row 3 -->
+  <rect x="0" y="600" width="120" height="50" fill="#DDA15E" opacity="0.15" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="120" y="600" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="240" y="600" width="120" height="50" fill="#DDA15E" opacity="0.15" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="360" y="600" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="480" y="600" width="120" height="50" fill="#DDA15E" opacity="0.15" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="600" y="600" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="720" y="600" width="80" height="50" fill="#DDA15E" opacity="0.15" stroke="#DDA15E" stroke-width="2"/>
+
+  <!-- Row 4 offset -->
+  <rect x="-60" y="650" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="60" y="650" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="180" y="650" width="120" height="50" fill="#DDA15E" opacity="0.2" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="300" y="650" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="420" y="650" width="120" height="50" fill="#DDA15E" opacity="0.2" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="540" y="650" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="660" y="650" width="120" height="50" fill="#DDA15E" opacity="0.2" stroke="#DDA15E" stroke-width="2"/>
+
+  <!-- Row 5 -->
+  <rect x="0" y="700" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="120" y="700" width="120" height="50" fill="#DDA15E" opacity="0.25" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="240" y="700" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="360" y="700" width="120" height="50" fill="#DDA15E" opacity="0.25" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="480" y="700" width="120" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="600" y="700" width="120" height="50" fill="#DDA15E" opacity="0.25" stroke="#DDA15E" stroke-width="2"/>
+  <rect x="720" y="700" width="80" height="50" fill="none" stroke="#DDA15E" stroke-width="2"/>
+
+  <!-- Horizontal level lines -->
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#1D3557" stroke-width="3" opacity="0.5"/>
+  <line x1="150" y1="300" x2="650" y2="300" stroke="#1D3557" stroke-width="2" opacity="0.4"/>
+  <line x1="200" y1="400" x2="600" y2="400" stroke="#1D3557" stroke-width="2" opacity="0.3"/>
+
+  <!-- Level indicators (small marks on horizontal lines) -->
+  <line x1="100" y1="195" x2="100" y2="205" stroke="#1D3557" stroke-width="3"/>
+  <line x1="700" y1="195" x2="700" y2="205" stroke="#1D3557" stroke-width="3"/>
+  <circle cx="400" cy="200" r="5" fill="#1D3557"/>
+
+  <!-- Main plumb line - vertical -->
+  <line x1="400" y1="60" x2="400" y2="680" stroke="#E63946" stroke-width="5"/>
+
+  <!-- Top anchor point -->
+  <rect x="370" y="50" width="60" height="20" fill="#000" stroke="#000" stroke-width="2"/>
+  <circle cx="400" cy="60" r="8" fill="#333"/>
+
+  <!-- String marks along plumb line -->
+  <circle cx="400" cy="150" r="4" fill="#000"/>
+  <circle cx="400" cy="250" r="4" fill="#000"/>
+  <circle cx="400" cy="350" r="4" fill="#000"/>
+  <circle cx="400" cy="450" r="4" fill="#000"/>
+  <circle cx="400" cy="550" r="4" fill="#000"/>
+
+  <!-- Triangular weight at bottom -->
+  <polygon points="400,620 360,720 440,720" fill="#E63946" stroke="#000" stroke-width="3"/>
+  <polygon points="400,640 375,710 425,710" fill="#1D3557" opacity="0.5"/>
+  <circle cx="400" cy="680" r="6" fill="#F4D35E"/>
+
+  <!-- Decorative corner elements -->
+  <rect x="30" y="30" width="80" height="10" fill="#000"/>
+  <rect x="30" y="30" width="10" height="80" fill="#000"/>
+  <rect x="690" y="30" width="80" height="10" fill="#000"/>
+  <rect x="760" y="30" width="10" height="80" fill="#000"/>
+
+  <!-- Side geometric accents -->
+  <rect x="50" y="180" width="30" height="30" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <rect x="720" y="180" width="30" height="30" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="65" cy="350" r="15" fill="#A8DADC" stroke="#000" stroke-width="2"/>
+  <circle cx="735" cy="350" r="15" fill="#A8DADC" stroke="#000" stroke-width="2"/>
+</svg>

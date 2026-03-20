@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#1D3557"/>
+  <!-- Vinyl record body -->
+  <circle cx="380" cy="420" r="320" fill="#000"/>
+  <circle cx="380" cy="420" r="318" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
+  <!-- Outer groove rings -->
+  <circle cx="380" cy="420" r="310" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="300" fill="none" stroke="#222" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="290" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="280" fill="none" stroke="#222" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="270" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="260" fill="none" stroke="#222" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="250" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="240" fill="none" stroke="#222" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="230" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="220" fill="none" stroke="#222" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="210" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="200" fill="none" stroke="#222" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="190" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="180" fill="none" stroke="#222" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="170" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="160" fill="none" stroke="#222" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="150" fill="none" stroke="#333" stroke-width="0.5"/>
+  <circle cx="380" cy="420" r="140" fill="none" stroke="#222" stroke-width="0.5"/>
+  <!-- Groove highlight reflection -->
+  <path d="M 200 280 A 220 220 0 0 1 500 230" stroke="#A89F91" stroke-width="1" fill="none" opacity="0.15"/>
+  <path d="M 180 320 A 240 240 0 0 1 520 250" stroke="#A89F91" stroke-width="2" fill="none" opacity="0.1"/>
+  <!-- Label area -->
+  <circle cx="380" cy="420" r="110" fill="#E63946"/>
+  <circle cx="380" cy="420" r="108" fill="none" stroke="#000" stroke-width="1"/>
+  <!-- Label geometric design - Bauhaus style -->
+  <circle cx="380" cy="420" r="90" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <rect x="340" y="370" width="80" height="14" fill="#000" opacity="0.6"/>
+  <rect x="350" y="392" width="60" height="8" fill="#000" opacity="0.4"/>
+  <rect x="340" y="440" width="80" height="10" fill="#000" opacity="0.5"/>
+  <rect x="355" y="458" width="50" height="6" fill="#000" opacity="0.3"/>
+  <!-- Label triangle decoration -->
+  <polygon points="380,340 400,365 360,365" fill="#F4D35E"/>
+  <!-- Label circle accent -->
+  <circle cx="380" cy="420" r="15" fill="#000"/>
+  <!-- Spindle hole -->
+  <circle cx="380" cy="420" r="5" fill="#1D3557"/>
+  <!-- Tonearm base -->
+  <circle cx="700" cy="120" r="35" fill="#A89F91"/>
+  <circle cx="700" cy="120" r="33" fill="none" stroke="#000" stroke-width="2"/>
+  <circle cx="700" cy="120" r="12" fill="#000"/>
+  <circle cx="700" cy="120" r="6" fill="#A89F91"/>
+  <!-- Tonearm -->
+  <line x1="700" y1="120" x2="580" y2="300" stroke="#A89F91" stroke-width="8"/>
+  <line x1="700" y1="120" x2="580" y2="300" stroke="#000" stroke-width="2"/>
+  <!-- Tonearm head shell -->
+  <rect x="565" y="295" width="35" height="14" rx="2" fill="#A89F91" stroke="#000" stroke-width="1.5" transform="rotate(-35 582 302)"/>
+  <!-- Cartridge -->
+  <rect x="555" y="300" width="16" height="8" rx="1" fill="#E63946" transform="rotate(-35 563 304)"/>
+  <!-- Stylus -->
+  <line x1="548" y1="308" x2="544" y2="315" stroke="#000" stroke-width="2"/>
+  <circle cx="544" cy="316" r="2" fill="#F4D35E"/>
+  <!-- Tonearm rest -->
+  <rect x="730" y="200" width="8" height="30" fill="#A89F91"/>
+  <rect x="725" y="195" width="18" height="8" rx="2" fill="#000"/>
+  <!-- Anti-skate weight -->
+  <line x1="700" y1="120" x2="720" y2="170" stroke="#000" stroke-width="1.5"/>
+  <circle cx="720" cy="175" r="6" fill="#000"/>
+  <!-- Turntable platter edge -->
+  <circle cx="380" cy="420" r="325" fill="none" stroke="#A89F91" stroke-width="4"/>
+  <!-- Speed indicator dots -->
+  <circle cx="90" cy="700" r="6" fill="#F4D35E"/>
+  <circle cx="115" cy="700" r="6" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <!-- Power indicator -->
+  <rect x="60" y="740" width="30" height="6" rx="3" fill="#2A9D8F"/>
+  <!-- Border frame -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000" stroke-width="8"/>
+</svg>

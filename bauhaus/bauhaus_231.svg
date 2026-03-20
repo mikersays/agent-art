@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Anemometer</title>
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Sky background gradient feel -->
+  <rect x="0" y="0" width="800" height="500" fill="#1D3557" opacity="0.08"/>
+
+  <!-- Ground base -->
+  <rect x="200" y="650" width="400" height="30" rx="4" fill="#A89F91"/>
+  <rect x="250" y="640" width="300" height="20" rx="3" fill="#000"/>
+
+  <!-- Central post -->
+  <rect x="388" y="300" width="24" height="350" fill="#000"/>
+  <rect x="383" y="290" width="34" height="20" rx="3" fill="#1D3557"/>
+
+  <!-- Post details - bands -->
+  <rect x="385" y="400" width="30" height="6" fill="#E63946"/>
+  <rect x="385" y="500" width="30" height="6" fill="#F4D35E"/>
+  <rect x="385" y="580" width="30" height="6" fill="#2A9D8F"/>
+
+  <!-- Central hub -->
+  <circle cx="400" cy="280" r="30" fill="#1D3557"/>
+  <circle cx="400" cy="280" r="20" fill="#000"/>
+  <circle cx="400" cy="280" r="8" fill="#E63946"/>
+
+  <!-- Arm 1 - top right -->
+  <line x1="400" y1="280" x2="560" y2="160" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  <!-- Cup 1 -->
+  <circle cx="570" cy="150" r="35" fill="#E63946"/>
+  <path d="M545 150 Q570 115 595 150" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <ellipse cx="570" cy="150" rx="35" ry="20" fill="#E63946" opacity="0.8"/>
+  <path d="M540 155 Q570 185 600 155" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Arm 2 - left -->
+  <line x1="400" y1="280" x2="220" y2="200" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  <!-- Cup 2 -->
+  <circle cx="210" cy="190" r="35" fill="#F4D35E"/>
+  <ellipse cx="210" cy="190" rx="35" ry="20" fill="#F4D35E" opacity="0.8"/>
+  <path d="M180 195 Q210 225 240 195" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Arm 3 - bottom -->
+  <line x1="400" y1="280" x2="320" y2="420" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  <!-- Cup 3 -->
+  <circle cx="310" cy="430" r="35" fill="#2A9D8F"/>
+  <ellipse cx="310" cy="430" rx="35" ry="20" fill="#2A9D8F" opacity="0.8"/>
+  <path d="M280 435 Q310 465 340 435" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Arm 4 - bottom right -->
+  <line x1="400" y1="280" x2="540" y2="380" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  <!-- Cup 4 -->
+  <circle cx="550" cy="390" r="35" fill="#E9C46A"/>
+  <ellipse cx="550" cy="390" rx="35" ry="20" fill="#E9C46A" opacity="0.8"/>
+  <path d="M520 395 Q550 425 580 395" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Wind direction arrow - large -->
+  <polygon points="680,100 720,130 710,125 710,200 690,200 690,125 680,130" fill="#E63946"/>
+  <rect x="693" y="200" width="14" height="40" fill="#000"/>
+  <polygon points="685,240 715,240 700,270" fill="#1D3557"/>
+
+  <!-- Wind direction arrow - small -->
+  <polygon points="100,350 130,370 125,365 125,420 115,420 115,365 110,370" fill="#2A9D8F" opacity="0.7"/>
+
+  <!-- Motion arc lines -->
+  <path d="M300 180 Q400 100 520 160" fill="none" stroke="#A89F91" stroke-width="2" stroke-dasharray="8,4"/>
+  <path d="M250 300 Q400 450 550 300" fill="none" stroke="#A89F91" stroke-width="2" stroke-dasharray="8,4"/>
+
+  <!-- Wind streaks -->
+  <line x1="50" y1="150" x2="150" y2="150" stroke="#1D3557" stroke-width="3" opacity="0.4"/>
+  <line x1="30" y1="180" x2="120" y2="180" stroke="#1D3557" stroke-width="2" opacity="0.3"/>
+  <line x1="60" y1="210" x2="130" y2="210" stroke="#1D3557" stroke-width="2" opacity="0.3"/>
+  <line x1="650" y1="450" x2="750" y2="450" stroke="#E63946" stroke-width="2" opacity="0.3"/>
+  <line x1="670" y1="480" x2="760" y2="480" stroke="#E63946" stroke-width="2" opacity="0.3"/>
+
+  <!-- Decorative geometric elements -->
+  <rect x="40" y="680" width="60" height="60" fill="#F4D35E" opacity="0.5"/>
+  <rect x="700" y="680" width="60" height="60" fill="#E63946" opacity="0.5"/>
+  <circle cx="70" cy="710" r="15" fill="#000" opacity="0.3"/>
+  <circle cx="730" cy="710" r="15" fill="#000" opacity="0.3"/>
+
+  <!-- Title band -->
+  <rect x="0" y="760" width="800" height="40" fill="#000"/>
+  <rect x="0" y="760" width="200" height="40" fill="#E63946"/>
+  <rect x="600" y="760" width="200" height="40" fill="#1D3557"/>
+</svg>

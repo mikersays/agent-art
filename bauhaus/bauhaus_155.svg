@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#A8DADC"/>
+  <!-- Water area -->
+  <rect x="0" y="500" width="800" height="300" fill="#1D3557"/>
+  <!-- Water ripples - geometric zigzag lines -->
+  <polyline points="0,540 40,530 80,540 120,530 160,540 200,530 240,540 280,530 320,540 360,530 400,540 440,530 480,540 520,530 560,540 600,530 640,540 680,530 720,540 760,530 800,540" fill="none" stroke="#2A9D8F" stroke-width="3"/>
+  <polyline points="0,580 50,570 100,580 150,570 200,580 250,570 300,580 350,570 400,580 450,570 500,580 550,570 600,580 650,570 700,580 750,570 800,580" fill="none" stroke="#A8DADC" stroke-width="2" opacity="0.5"/>
+  <polyline points="0,620 60,610 120,620 180,610 240,620 300,610 360,620 420,610 480,620 540,610 600,620 660,610 720,620 780,610" fill="none" stroke="#2A9D8F" stroke-width="2" opacity="0.4"/>
+  <polyline points="0,660 45,652 90,660 135,652 180,660 225,652 270,660 315,652 360,660 405,652 450,660 495,652 540,660 585,652 630,660 675,652 720,660 765,652 800,660" fill="none" stroke="#FFF" stroke-width="1.5" opacity="0.3"/>
+  <polyline points="0,700 55,693 110,700 165,693 220,700 275,693 330,700 385,693 440,700 495,693 550,700 605,693 660,700 715,693 770,700 800,693" fill="none" stroke="#A8DADC" stroke-width="1" opacity="0.2"/>
+  <!-- Oar 1 - pulled back position -->
+  <line x1="80" y1="150" x2="280" y2="520" stroke="#6D2E46" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="260,490 300,550 270,555 235,500" fill="#E63946"/>
+  <rect x="70" y="140" width="30" height="15" rx="3" fill="#000" transform="rotate(63 85 147)"/>
+  <!-- Oar 2 - mid stroke -->
+  <line x1="220" y1="120" x2="380" y2="510" stroke="#6D2E46" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="362,482 398,540 370,548 338,495" fill="#E63946"/>
+  <rect x="210" y="110" width="30" height="15" rx="3" fill="#000" transform="rotate(63 225 117)"/>
+  <!-- Oar 3 - forward position -->
+  <line x1="360" y1="180" x2="500" y2="510" stroke="#6D2E46" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="484,483 516,538 490,545 460,496" fill="#E63946"/>
+  <rect x="350" y="170" width="30" height="15" rx="3" fill="#000" transform="rotate(67 365 177)"/>
+  <!-- Oar 4 - catch position -->
+  <line x1="500" y1="100" x2="660" y2="505" stroke="#6D2E46" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="644,478 678,532 650,540 620,490" fill="#E63946"/>
+  <rect x="490" y="90" width="30" height="15" rx="3" fill="#000" transform="rotate(64 505 97)"/>
+  <!-- Oar 5 - recovery position -->
+  <line x1="640" y1="200" x2="760" y2="500" stroke="#6D2E46" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="746,474 776,526 750,534 722,486" fill="#E63946"/>
+  <rect x="630" y="190" width="30" height="15" rx="3" fill="#000" transform="rotate(68 645 197)"/>
+  <!-- Boat hull - geometric -->
+  <polygon points="30,500 770,500 720,530 80,530" fill="#000"/>
+  <line x1="30" y1="500" x2="770" y2="500" stroke="#F4D35E" stroke-width="3"/>
+  <!-- Oarlock mounts on gunwale -->
+  <circle cx="130" cy="500" r="6" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="270" cy="500" r="6" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="410" cy="500" r="6" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="550" cy="500" r="6" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <circle cx="690" cy="500" r="6" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <!-- Geometric splash elements at water entry points -->
+  <polygon points="275,520 285,505 295,520" fill="#FFF" opacity="0.6"/>
+  <polygon points="375,515 385,502 395,515" fill="#FFF" opacity="0.5"/>
+  <polygon points="495,518 505,503 515,518" fill="#FFF" opacity="0.6"/>
+  <polygon points="655,515 665,500 675,515" fill="#FFF" opacity="0.5"/>
+  <!-- Concentric ripple circles in water -->
+  <circle cx="290" cy="540" r="20" fill="none" stroke="#FFF" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="290" cy="540" r="35" fill="none" stroke="#FFF" stroke-width="1" opacity="0.2"/>
+  <circle cx="510" cy="535" r="18" fill="none" stroke="#FFF" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="510" cy="535" r="30" fill="none" stroke="#FFF" stroke-width="1" opacity="0.2"/>
+</svg>

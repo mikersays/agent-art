@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#FFF"/>
+  <!-- Ground -->
+  <rect x="0" y="620" width="800" height="180" fill="#A89F91"/>
+  <line x1="0" y1="620" x2="800" y2="620" stroke="#000" stroke-width="3"/>
+  <!-- Frame base - A-frame structure -->
+  <!-- Left support -->
+  <polygon points="180,620 220,620 250,380 210,380" fill="#1D3557"/>
+  <polygon points="180,620 220,620 250,380 210,380" fill="none" stroke="#000" stroke-width="2"/>
+  <!-- Right support -->
+  <polygon points="480,620 520,620 490,380 450,380" fill="#1D3557"/>
+  <polygon points="480,620 520,620 490,380 450,380" fill="none" stroke="#000" stroke-width="2"/>
+  <!-- Cross brace on frame -->
+  <line x1="200" y1="540" x2="500" y2="540" stroke="#000" stroke-width="6"/>
+  <line x1="195" y1="480" x2="505" y2="480" stroke="#000" stroke-width="4"/>
+  <!-- Diagonal braces -->
+  <line x1="210" y1="620" x2="490" y2="480" stroke="#000" stroke-width="3"/>
+  <line x1="490" y1="620" x2="210" y2="480" stroke="#000" stroke-width="3"/>
+  <!-- Axle/pivot point -->
+  <circle cx="350" cy="385" r="15" fill="#E63946" stroke="#000" stroke-width="3"/>
+  <circle cx="350" cy="385" r="5" fill="#000"/>
+  <!-- Horizontal beam support at pivot -->
+  <rect x="210" y="375" width="280" height="18" fill="#A89F91" stroke="#000" stroke-width="2"/>
+  <!-- Throwing arm (long beam) -->
+  <line x1="120" y1="320" x2="580" y2="450" stroke="#000" stroke-width="14"/>
+  <line x1="120" y1="320" x2="580" y2="450" stroke="#F4D35E" stroke-width="8"/>
+  <!-- Counterweight -->
+  <rect x="540" y="440" width="80" height="60" rx="5" fill="#1D3557" stroke="#000" stroke-width="3"/>
+  <rect x="550" y="450" width="25" height="40" fill="#000" opacity="0.3"/>
+  <rect x="585" y="450" width="25" height="40" fill="#000" opacity="0.2"/>
+  <!-- Counterweight chains -->
+  <line x1="560" y1="440" x2="570" y2="450" stroke="#000" stroke-width="3"/>
+  <line x1="600" y1="440" x2="590" y2="450" stroke="#000" stroke-width="3"/>
+  <!-- Sling attachment point -->
+  <circle cx="130" cy="325" r="6" fill="#000"/>
+  <!-- Sling ropes -->
+  <line x1="130" y1="325" x2="80" y2="280" stroke="#000" stroke-width="3"/>
+  <line x1="130" y1="325" x2="100" y2="240" stroke="#000" stroke-width="3"/>
+  <!-- Sling pouch -->
+  <path d="M 80 280 Q 70 260 100 240" stroke="#A89F91" stroke-width="5" fill="none"/>
+  <path d="M 80 280 Q 85 270 100 240" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Projectile -->
+  <circle cx="85" cy="255" r="18" fill="#E63946" stroke="#000" stroke-width="2"/>
+  <circle cx="80" cy="250" r="4" fill="#FFF" opacity="0.4"/>
+  <!-- Trigger mechanism -->
+  <rect x="200" y="395" width="40" height="8" fill="#000"/>
+  <line x1="220" y1="403" x2="220" y2="430" stroke="#000" stroke-width="4"/>
+  <circle cx="220" cy="435" r="8" fill="#F4D35E" stroke="#000" stroke-width="2"/>
+  <!-- Wheel at base (for mobility) -->
+  <circle cx="200" cy="625" r="20" fill="none" stroke="#000" stroke-width="5"/>
+  <circle cx="200" cy="625" r="5" fill="#000"/>
+  <circle cx="500" cy="625" r="20" fill="none" stroke="#000" stroke-width="5"/>
+  <circle cx="500" cy="625" r="5" fill="#000"/>
+  <!-- Wheel spokes -->
+  <line x1="200" y1="605" x2="200" y2="645" stroke="#000" stroke-width="2"/>
+  <line x1="180" y1="625" x2="220" y2="625" stroke="#000" stroke-width="2"/>
+  <line x1="500" y1="605" x2="500" y2="645" stroke="#000" stroke-width="2"/>
+  <line x1="480" y1="625" x2="520" y2="625" stroke="#000" stroke-width="2"/>
+  <!-- Motion arc indicator -->
+  <path d="M 80 250 Q 30 150 120 80" stroke="#E63946" stroke-width="3" fill="none" stroke-dasharray="8,6"/>
+  <polygon points="115,85 125,75 130,90" fill="#E63946"/>
+  <!-- Trajectory dots -->
+  <circle cx="140" cy="70" r="4" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="170" cy="55" r="4" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="205" cy="48" r="4" fill="#F4D35E" opacity="0.4"/>
+  <!-- Ground texture -->
+  <line x1="100" y1="680" x2="130" y2="680" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="700" x2="440" y2="700" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <line x1="600" y1="670" x2="650" y2="670" stroke="#000" stroke-width="1" opacity="0.2"/>
+  <!-- Bauhaus decorative corner marks -->
+  <rect x="20" y="20" width="40" height="6" fill="#E63946"/>
+  <rect x="20" y="20" width="6" height="40" fill="#E63946"/>
+  <rect x="740" y="20" width="40" height="6" fill="#1D3557"/>
+  <rect x="774" y="20" width="6" height="40" fill="#1D3557"/>
+  <!-- Border -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000" stroke-width="5"/>
+</svg>

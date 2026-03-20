@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <rect width="800" height="800" fill="#A8DADC"/>
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="350" fill="#A8DADC"/>
+  <!-- Ground -->
+  <rect x="0" y="550" width="800" height="250" fill="#DDA15E"/>
+  <rect x="0" y="540" width="800" height="20" fill="#333" opacity="0.3"/>
+  <!-- Mill building -->
+  <rect x="450" y="200" width="280" height="350" fill="#E63946" opacity="0.8"/>
+  <rect x="450" y="200" width="280" height="350" fill="none" stroke="#333" stroke-width="4"/>
+  <!-- Roof -->
+  <polygon points="440,200 730,200 590,120" fill="#333"/>
+  <polygon points="440,200 730,200 590,120" fill="none" stroke="#000" stroke-width="3"/>
+  <!-- Mill windows -->
+  <rect x="490" y="260" width="50" height="60" fill="#F4D35E" opacity="0.7"/>
+  <rect x="490" y="260" width="50" height="60" fill="none" stroke="#333" stroke-width="3"/>
+  <rect x="570" y="260" width="50" height="60" fill="#F4D35E" opacity="0.7"/>
+  <rect x="570" y="260" width="50" height="60" fill="none" stroke="#333" stroke-width="3"/>
+  <rect x="650" y="260" width="50" height="60" fill="#F4D35E" opacity="0.7"/>
+  <rect x="650" y="260" width="50" height="60" fill="none" stroke="#333" stroke-width="3"/>
+  <!-- Mill door -->
+  <rect x="555" y="420" width="70" height="130" fill="#333"/>
+  <rect x="555" y="420" width="70" height="130" fill="none" stroke="#000" stroke-width="3"/>
+  <circle cx="615" cy="485" r="4" fill="#DDA15E"/>
+  <!-- Lower windows -->
+  <rect x="490" y="380" width="40" height="40" fill="#F4D35E" opacity="0.5"/>
+  <rect x="490" y="380" width="40" height="40" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="650" y="380" width="40" height="40" fill="#F4D35E" opacity="0.5"/>
+  <rect x="650" y="380" width="40" height="40" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- Wheel axle mount on building -->
+  <rect x="430" y="360" width="30" height="20" fill="#333"/>
+  <!-- WATER WHEEL -->
+  <!-- Wheel outer rim -->
+  <circle cx="320" cy="420" r="150" fill="none" stroke="#333" stroke-width="12"/>
+  <circle cx="320" cy="420" r="140" fill="none" stroke="#DDA15E" stroke-width="6"/>
+  <!-- Wheel inner rim -->
+  <circle cx="320" cy="420" r="100" fill="none" stroke="#333" stroke-width="6"/>
+  <!-- Hub -->
+  <circle cx="320" cy="420" r="25" fill="#333"/>
+  <circle cx="320" cy="420" r="12" fill="#000"/>
+  <circle cx="320" cy="420" r="5" fill="#DDA15E"/>
+  <!-- Spokes -->
+  <line x1="320" y1="270" x2="320" y2="570" stroke="#333" stroke-width="5"/>
+  <line x1="170" y1="420" x2="470" y2="420" stroke="#333" stroke-width="5"/>
+  <line x1="214" y1="314" x2="426" y2="526" stroke="#333" stroke-width="5"/>
+  <line x1="426" y1="314" x2="214" y2="526" stroke="#333" stroke-width="5"/>
+  <!-- Paddle segments on wheel -->
+  <rect x="305" y="265" width="30" height="25" fill="#E63946" transform="rotate(0,320,420)" opacity="0.8"/>
+  <rect x="305" y="265" width="30" height="25" fill="none" stroke="#333" stroke-width="2" transform="rotate(0,320,420)"/>
+  <rect x="305" y="265" width="30" height="25" fill="#F4D35E" transform="rotate(45,320,420)" opacity="0.8"/>
+  <rect x="305" y="265" width="30" height="25" fill="none" stroke="#333" stroke-width="2" transform="rotate(45,320,420)"/>
+  <rect x="305" y="265" width="30" height="25" fill="#E63946" transform="rotate(90,320,420)" opacity="0.8"/>
+  <rect x="305" y="265" width="30" height="25" fill="none" stroke="#333" stroke-width="2" transform="rotate(90,320,420)"/>
+  <rect x="305" y="265" width="30" height="25" fill="#F4D35E" transform="rotate(135,320,420)" opacity="0.8"/>
+  <rect x="305" y="265" width="30" height="25" fill="none" stroke="#333" stroke-width="2" transform="rotate(135,320,420)"/>
+  <rect x="305" y="265" width="30" height="25" fill="#E63946" transform="rotate(180,320,420)" opacity="0.8"/>
+  <rect x="305" y="265" width="30" height="25" fill="none" stroke="#333" stroke-width="2" transform="rotate(180,320,420)"/>
+  <rect x="305" y="265" width="30" height="25" fill="#F4D35E" transform="rotate(225,320,420)" opacity="0.8"/>
+  <rect x="305" y="265" width="30" height="25" fill="none" stroke="#333" stroke-width="2" transform="rotate(225,320,420)"/>
+  <rect x="305" y="265" width="30" height="25" fill="#E63946" transform="rotate(270,320,420)" opacity="0.8"/>
+  <rect x="305" y="265" width="30" height="25" fill="none" stroke="#333" stroke-width="2" transform="rotate(270,320,420)"/>
+  <rect x="305" y="265" width="30" height="25" fill="#F4D35E" transform="rotate(315,320,420)" opacity="0.8"/>
+  <rect x="305" y="265" width="30" height="25" fill="none" stroke="#333" stroke-width="2" transform="rotate(315,320,420)"/>
+  <!-- Water channel / race -->
+  <rect x="0" y="530" width="500" height="30" fill="#1D3557" opacity="0.6"/>
+  <!-- Water flow wavy lines -->
+  <path d="M0 535 Q30 528, 60 535 T120 535 T180 535 T240 535 T300 535" stroke="#A8DADC" stroke-width="3" fill="none"/>
+  <path d="M0 545 Q30 538, 60 545 T120 545 T180 545 T240 545 T300 545 T360 545 T420 545" stroke="#A8DADC" stroke-width="2" fill="none"/>
+  <path d="M0 552 Q30 546, 60 552 T120 552 T180 552 T240 552 T300 552 T360 552" stroke="#FFF" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- Splash near wheel -->
+  <path d="M200 520 Q210 500, 220 520" stroke="#A8DADC" stroke-width="2" fill="none"/>
+  <path d="M230 515 Q240 495, 250 515" stroke="#FFF" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- Chimney -->
+  <rect x="630" y="90" width="30" height="35" fill="#333"/>
+  <rect x="625" y="82" width="40" height="12" fill="#000"/>
+  <!-- Smoke -->
+  <circle cx="645" cy="65" r="10" fill="#333" opacity="0.3"/>
+  <circle cx="655" cy="45" r="14" fill="#333" opacity="0.2"/>
+  <circle cx="648" cy="25" r="10" fill="#333" opacity="0.15"/>
+</svg>

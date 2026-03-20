@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFF"/>
+
+  <!-- Outer frame -->
+  <rect x="100" y="60" width="600" height="680" rx="8" fill="#000" stroke="#000" stroke-width="4"/>
+  <!-- Inner frame -->
+  <rect x="115" y="75" width="570" height="650" rx="4" fill="#DDA15E"/>
+
+  <!-- Frame top bar -->
+  <rect x="100" y="60" width="600" height="30" rx="8" fill="#6D2E46"/>
+  <!-- Frame bottom bar -->
+  <rect x="100" y="710" width="600" height="30" rx="8" fill="#6D2E46"/>
+
+  <!-- Rod wires - 10 horizontal rows -->
+  <!-- Row 1 -->
+  <line x1="130" y1="130" x2="670" y2="130" stroke="#000" stroke-width="4"/>
+  <!-- Row 2 -->
+  <line x1="130" y1="190" x2="670" y2="190" stroke="#000" stroke-width="4"/>
+  <!-- Row 3 -->
+  <line x1="130" y1="250" x2="670" y2="250" stroke="#000" stroke-width="4"/>
+  <!-- Row 4 -->
+  <line x1="130" y1="310" x2="670" y2="310" stroke="#000" stroke-width="4"/>
+  <!-- Row 5 -->
+  <line x1="130" y1="370" x2="670" y2="370" stroke="#000" stroke-width="4"/>
+  <!-- Row 6 -->
+  <line x1="130" y1="430" x2="670" y2="430" stroke="#000" stroke-width="4"/>
+  <!-- Row 7 -->
+  <line x1="130" y1="490" x2="670" y2="490" stroke="#000" stroke-width="4"/>
+  <!-- Row 8 -->
+  <line x1="130" y1="550" x2="670" y2="550" stroke="#000" stroke-width="4"/>
+  <!-- Row 9 -->
+  <line x1="130" y1="610" x2="670" y2="610" stroke="#000" stroke-width="4"/>
+  <!-- Row 10 -->
+  <line x1="130" y1="670" x2="670" y2="670" stroke="#000" stroke-width="4"/>
+
+  <!-- Divider bar (separating upper 2 from lower 8, like a real abacus) -->
+  <rect x="115" y="218" width="570" height="8" fill="#264653"/>
+
+  <!-- Row 1 beads: 3 left, 7 right -->
+  <circle cx="175" cy="130" r="18" fill="#E63946"/>
+  <circle cx="215" cy="130" r="18" fill="#E63946"/>
+  <circle cx="255" cy="130" r="18" fill="#E63946"/>
+  <circle cx="435" cy="130" r="18" fill="#E63946"/>
+  <circle cx="475" cy="130" r="18" fill="#E63946"/>
+  <circle cx="515" cy="130" r="18" fill="#E63946"/>
+  <circle cx="555" cy="130" r="18" fill="#E63946"/>
+  <circle cx="595" cy="130" r="18" fill="#E63946"/>
+  <circle cx="635" cy="130" r="18" fill="#E63946"/>
+  <circle cx="655" cy="130" r="18" fill="#E63946"/>
+
+  <!-- Row 2 beads: 5 left, 5 right -->
+  <circle cx="175" cy="190" r="18" fill="#1D3557"/>
+  <circle cx="215" cy="190" r="18" fill="#1D3557"/>
+  <circle cx="255" cy="190" r="18" fill="#1D3557"/>
+  <circle cx="295" cy="190" r="18" fill="#1D3557"/>
+  <circle cx="335" cy="190" r="18" fill="#1D3557"/>
+  <circle cx="475" cy="190" r="18" fill="#1D3557"/>
+  <circle cx="515" cy="190" r="18" fill="#1D3557"/>
+  <circle cx="555" cy="190" r="18" fill="#1D3557"/>
+  <circle cx="595" cy="190" r="18" fill="#1D3557"/>
+  <circle cx="635" cy="190" r="18" fill="#1D3557"/>
+
+  <!-- Row 3 beads: 7 left, 3 right -->
+  <circle cx="175" cy="250" r="18" fill="#F4D35E"/>
+  <circle cx="215" cy="250" r="18" fill="#F4D35E"/>
+  <circle cx="255" cy="250" r="18" fill="#F4D35E"/>
+  <circle cx="295" cy="250" r="18" fill="#F4D35E"/>
+  <circle cx="335" cy="250" r="18" fill="#F4D35E"/>
+  <circle cx="375" cy="250" r="18" fill="#F4D35E"/>
+  <circle cx="415" cy="250" r="18" fill="#F4D35E"/>
+  <circle cx="575" cy="250" r="18" fill="#F4D35E"/>
+  <circle cx="615" cy="250" r="18" fill="#F4D35E"/>
+  <circle cx="655" cy="250" r="18" fill="#F4D35E"/>
+
+  <!-- Row 4 beads: 2 left, 8 right -->
+  <circle cx="175" cy="310" r="18" fill="#E63946"/>
+  <circle cx="215" cy="310" r="18" fill="#E63946"/>
+  <circle cx="395" cy="310" r="18" fill="#E63946"/>
+  <circle cx="435" cy="310" r="18" fill="#E63946"/>
+  <circle cx="475" cy="310" r="18" fill="#E63946"/>
+  <circle cx="515" cy="310" r="18" fill="#E63946"/>
+  <circle cx="555" cy="310" r="18" fill="#E63946"/>
+  <circle cx="595" cy="310" r="18" fill="#E63946"/>
+  <circle cx="635" cy="310" r="18" fill="#E63946"/>
+  <circle cx="655" cy="310" r="18" fill="#E63946"/>
+
+  <!-- Row 5 beads: 4 left, 6 right -->
+  <circle cx="175" cy="370" r="18" fill="#264653"/>
+  <circle cx="215" cy="370" r="18" fill="#264653"/>
+  <circle cx="255" cy="370" r="18" fill="#264653"/>
+  <circle cx="295" cy="370" r="18" fill="#264653"/>
+  <circle cx="455" cy="370" r="18" fill="#264653"/>
+  <circle cx="495" cy="370" r="18" fill="#264653"/>
+  <circle cx="535" cy="370" r="18" fill="#264653"/>
+  <circle cx="575" cy="370" r="18" fill="#264653"/>
+  <circle cx="615" cy="370" r="18" fill="#264653"/>
+  <circle cx="655" cy="370" r="18" fill="#264653"/>
+
+  <!-- Row 6 beads: 6 left, 4 right -->
+  <circle cx="175" cy="430" r="18" fill="#6D2E46"/>
+  <circle cx="215" cy="430" r="18" fill="#6D2E46"/>
+  <circle cx="255" cy="430" r="18" fill="#6D2E46"/>
+  <circle cx="295" cy="430" r="18" fill="#6D2E46"/>
+  <circle cx="335" cy="430" r="18" fill="#6D2E46"/>
+  <circle cx="375" cy="430" r="18" fill="#6D2E46"/>
+  <circle cx="535" cy="430" r="18" fill="#6D2E46"/>
+  <circle cx="575" cy="430" r="18" fill="#6D2E46"/>
+  <circle cx="615" cy="430" r="18" fill="#6D2E46"/>
+  <circle cx="655" cy="430" r="18" fill="#6D2E46"/>
+
+  <!-- Row 7 beads: 1 left, 9 right -->
+  <circle cx="175" cy="490" r="18" fill="#1D3557"/>
+  <circle cx="335" cy="490" r="18" fill="#1D3557"/>
+  <circle cx="375" cy="490" r="18" fill="#1D3557"/>
+  <circle cx="415" cy="490" r="18" fill="#1D3557"/>
+  <circle cx="455" cy="490" r="18" fill="#1D3557"/>
+  <circle cx="495" cy="490" r="18" fill="#1D3557"/>
+  <circle cx="535" cy="490" r="18" fill="#1D3557"/>
+  <circle cx="575" cy="490" r="18" fill="#1D3557"/>
+  <circle cx="615" cy="490" r="18" fill="#1D3557"/>
+  <circle cx="655" cy="490" r="18" fill="#1D3557"/>
+
+  <!-- Row 8 beads: 8 left, 2 right -->
+  <circle cx="175" cy="550" r="18" fill="#F4D35E"/>
+  <circle cx="215" cy="550" r="18" fill="#F4D35E"/>
+  <circle cx="255" cy="550" r="18" fill="#F4D35E"/>
+  <circle cx="295" cy="550" r="18" fill="#F4D35E"/>
+  <circle cx="335" cy="550" r="18" fill="#F4D35E"/>
+  <circle cx="375" cy="550" r="18" fill="#F4D35E"/>
+  <circle cx="415" cy="550" r="18" fill="#F4D35E"/>
+  <circle cx="455" cy="550" r="18" fill="#F4D35E"/>
+  <circle cx="615" cy="550" r="18" fill="#F4D35E"/>
+  <circle cx="655" cy="550" r="18" fill="#F4D35E"/>
+
+  <!-- Row 9 beads: 9 left, 1 right -->
+  <circle cx="175" cy="610" r="18" fill="#E63946"/>
+  <circle cx="215" cy="610" r="18" fill="#E63946"/>
+  <circle cx="255" cy="610" r="18" fill="#E63946"/>
+  <circle cx="295" cy="610" r="18" fill="#E63946"/>
+  <circle cx="335" cy="610" r="18" fill="#E63946"/>
+  <circle cx="375" cy="610" r="18" fill="#E63946"/>
+  <circle cx="415" cy="610" r="18" fill="#E63946"/>
+  <circle cx="455" cy="610" r="18" fill="#E63946"/>
+  <circle cx="495" cy="610" r="18" fill="#E63946"/>
+  <circle cx="655" cy="610" r="18" fill="#264653"/>
+
+  <!-- Row 10 beads: 5 left, 5 right -->
+  <circle cx="175" cy="670" r="18" fill="#264653"/>
+  <circle cx="215" cy="670" r="18" fill="#264653"/>
+  <circle cx="255" cy="670" r="18" fill="#264653"/>
+  <circle cx="295" cy="670" r="18" fill="#264653"/>
+  <circle cx="335" cy="670" r="18" fill="#264653"/>
+  <circle cx="495" cy="670" r="18" fill="#264653"/>
+  <circle cx="535" cy="670" r="18" fill="#264653"/>
+  <circle cx="575" cy="670" r="18" fill="#264653"/>
+  <circle cx="615" cy="670" r="18" fill="#264653"/>
+  <circle cx="655" cy="670" r="18" fill="#264653"/>
+
+  <!-- Frame legs -->
+  <rect x="130" y="740" width="25" height="40" fill="#6D2E46"/>
+  <rect x="645" y="740" width="25" height="40" fill="#6D2E46"/>
+</svg>
