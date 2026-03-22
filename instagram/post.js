@@ -237,8 +237,13 @@ async function main() {
     throw new Error(`SVG not found: ${getSvgFilename(nextIndex)} in ${BAUHAUS_DIR}`);
   }
 
-  const title = TITLES[nextIndex];
-  if (!title) throw new Error(`No title for index ${nextIndex}`);
+  // For pieces 1-250 use hardcoded titles; for 251+ read from SVG <title> tag
+  let title = TITLES[nextIndex];
+  if (!title) {
+    const svgContent = fs.readFileSync(svgPath, 'utf8');
+    const titleMatch = svgContent.match(/<title>(.*?)<\/title>/i);
+    title = titleMatch ? titleMatch[1] : `No. ${nextIndex}`;
+  }
 
   console.log(`\n📋 Next post: #${nextIndex} — ${title}`);
   console.log(`📁 SVG: ${svgPath}\n`);
