@@ -67,297 +67,38 @@ const TITLES = [
   "Siege Tower","Magnetic Field","Crown Finale","Magnum Opus"
 ];
 
-// ── Bauhaus principles (rotate by index) ─────────────────────────────────
-const PRINCIPLES = [
-  "Form follows function.",
-  "Art and craft are one.",
-  "Less is more.",
-  "The eye is the window to the mind.",
-  "Structure is freedom.",
-];
-
-// ── Evocative descriptions keyed loosely to title themes ─────────────────
-// We generate these dynamically based on the title.
-function getDescription(index, title) {
-  // Deterministic but varied short descriptions
-  const descriptions = {
-    "Composition with Circles": "Circles nest and orbit in silent dialogue, each radius a deliberate decision. Pure geometry, pure intention.",
-    "Grid Study": "The grid is not a cage — it is a compass. Every intersection a choice, every line a commitment.",
-    "Triangle Harmony": "Three points in perfect tension, a form that cannot be simplified further. The triangle speaks in absolutes.",
-    "Concentric Forms": "Ring within ring, each layer a deeper truth. The center holds still while the world radiates outward.",
-    "Diagonal Tension": "The diagonal refuses to rest. It cuts across the static world and introduces kinetic energy into still space.",
-    "Staircase": "Each step is both destination and departure. Rhythm made physical, ascent made visible.",
-    "Radial Burst": "From a single origin, all lines flee toward the infinite — a controlled explosion of pure direction.",
-    "Color Blocks": "Primary masses in conversation. The colors do not blend; they argue, agree, and coexist.",
-    "Arch Study": "The arch resolves opposing forces into a single elegant gesture. Compression becomes grace.",
-    "Point and Line to Plane": "Klee's lesson made manifest: from the smallest mark, entire worlds unfold.",
-    "Weaving Pattern": "Over and under, warp and weft — the loom as logic, the textile as theorem.",
-    "Mechanical Ballet": "Gears perform their choreography without rehearsal. Every rotation is a pas de deux of cause and effect.",
-    "Typography Grid": "Letters submit to the grid and gain power from it. The page becomes architecture.",
-    "Golden Section": "Nature's own proportion, borrowed by the workshop. Beauty with a mathematical spine.",
-    "Shadow Play": "Light defines the form; shadow reveals the volume. The unseen half completes the whole.",
-    "Clock Tower": "Time given a body. Each hand a vector, each face a plane awaiting its moment.",
-    "Suprematist Homage": "After Malevich, the square floats free. Color liberated from representation.",
-    "Industrial Rhythm": "The factory floor has its own music — stamping, turning, repeating in faithful time.",
-    "Color Theory": "Itten's wheel made manifest. Contrast, harmony, and temperature dance in measured steps.",
-    "Architectural Plan": "The building before the building. Lines that will one day hold sky.",
-    "Tessellation": "No space wasted, no gap permitted. The plane is conquered by a single repeating truth.",
-    "Suspension Bridge": "Cables sing under tension, towers rise from bedrock. Engineering as lyric poetry.",
-    "Dance Notation": "Movement frozen into symbol — the body's arc rendered as line and angle.",
-    "Spectrum Analysis": "The invisible made visible, frequency by frequency. Light confesses its hidden structure.",
-    "Nested Frames": "Frame within frame, each boundary a new context. Where does the picture end?",
-    "Photomontage Abstract": "Reality cut apart and reassembled more honestly than it ever was whole.",
-    "Furniture Study": "The chair is not decoration — it is a problem solved in three dimensions.",
-    "Rhythm and Blues": "Two forces in counterpoint. The blue retreats; the rhythm advances. Neither wins.",
-    "Eye of the Bauhaus": "The school watches back. A lens focused on the intersection of seeing and making.",
-    "Final Composition": "Every element earned its place. Nothing more to add; nothing left to remove.",
-    "Pendulum Motion": "The arc of the pendulum inscribes certainty. Physics made geometric, time made visible.",
-    "Cityscape": "Rectangles stack into skyline. The city is a composition only altitude can read.",
-    "Spiral Staircase": "Ascent as rotation. The eye climbs in a helix toward a vanishing point of light.",
-    "Chess Board": "The battlefield of pure logic. Sixty-four squares, infinite possibility, absolute rules.",
-    "Signal Flags": "Color at a distance is language. The semaphore alphabet speaks in bold primary strokes.",
-    "Counterweight": "Balance achieved not by sameness but by exact opposition. Mass speaks to mass across a fulcrum.",
-    "Map Fragment": "A piece of the territory — borders, contours, the geometry of somewhere specific.",
-    "Propeller": "The spiral blade converts rotation to thrust. Motion made purposeful through form.",
-    "Domino Effect": "One fall initiates all falls. Causality made tangible and beautiful.",
-    "Kaleidoscope": "Symmetry multiplied until it becomes hypnotic. The fragment becomes the whole.",
-    "Orbit": "The ellipse of inevitability. Gravity described as a path, attraction as geometry.",
-    "Brick Wall": "Each unit identical; the whole, irreducible. The wall is more than the sum of its bricks.",
-    "Sound Wave": "Pressure made visible — the ear's experience translated for the eye to understand.",
-    "Compass Rose": "All directions at once, emanating from a single still center. Navigation made beautiful.",
-    "Totem": "Stacked symbols ascending toward meaning. Vertical accumulation as cultural grammar.",
-    "Scaffolding": "The structure beneath the structure. Temporary geometry that makes permanence possible.",
-    "Abacus": "The original digital computer — beads in binary, calculation made tangible.",
-    "Labyrinth": "One path, infinite confusion. The maze is a meditative argument with direction.",
-    "Semaphore": "The body becomes code. Arms extended at angles transmit meaning across vast distances.",
-    "Prism": "White light confesses its components. The prism is an honest instrument.",
-    "Molecule": "Bonds between atoms, angles of attachment — chemistry drawn as a diagram of belonging.",
-    "Venetian Blinds": "Horizontal slats parse the light into measured intervals. The window becomes a rhythm.",
-    "Target Practice": "Concentric rings converging on a center — the geometry of intention and precision.",
-    "Origami": "The fold as construction method. A single sheet, transformed without addition or subtraction.",
-    "Metronome": "The tick is the teacher. Time divided into equal, democratic intervals.",
-    "Typewriter Keys": "A grid of letters, each in its fixed place, awaiting the finger's command.",
-    "Windmill": "The wind made workable. Rotation harvested from the invisible and put to use.",
-    "Circuit Board": "Copper pathways carry invisible current. The board is a map of electrical intention.",
-    "Hourglass": "Sand as clock. The narrow neck is the present — everything else is past or future.",
-    "Grand Finale": "All the forms return for their final bow. The composition resolves into silence.",
-    "Rotating Squares": "The square spins and becomes something else. Rotation reveals hidden symmetries.",
-    "Bauhaus Poster": "The manifesto compressed into a single image. Typography, geometry, purpose.",
-    "Piano Keys": "Black and white in strict alternation, each gap precisely measured. Music before sound.",
-    "Sundial": "The shadow is the hand. Light becomes clock; the gnomon points toward noon.",
-    "Suspension": "Gravity acknowledged and elegantly deferred. The hanging form is a negotiation.",
-    "Elevation": "The building seen from the side, all depth removed. Architecture as pure drawing.",
-    "Gears Interlocking": "Tooth meets tooth in perfect mechanical sympathy. Torque transfers through geometry.",
-    "Ripple": "One point of contact, infinite rings of consequence. Disturbance made visible.",
-    "Flagpole": "The vertical absolute. A line drawn between earth and sky, claiming the space between.",
-    "Cross Section": "The interior revealed. The cut exposes what enclosure hides.",
-    "Lattice": "The grid made three-dimensional, projected flat. Depth implied by diagonal.",
-    "Lighthouse": "A point of light that defines the darkness around it. The beacon is a form.",
-    "Pulse": "The heartbeat as waveform. Life's rhythm abstracted into peaks and valleys.",
-    "Bookshelf": "Rectangles ranked by height. The library is a composition waiting to be read.",
-    "Canopy": "The curve that shelters. Geometry in service of protection.",
-    "Pinwheel": "Wind made visible in rotation. The playful cousin of the turbine and the fan.",
-    "Amphitheater": "The semicircle of attention. All sight lines converge on a single point of presence.",
-    "Periscope": "Mirrors redirect the eye around obstacles. The invisible becomes navigable.",
-    "Dominos Arranged": "The patience of arrangement before the cascade. Potential energy given beautiful form.",
-    "Bauhaus Garden": "Nature submitted to the grid, then set gently free. Order and growth in dialogue.",
-    "Trapeze": "The arc of trust. A body suspended between two fixed points, momentarily free.",
-    "Honeycomb": "The hexagon is nature's most efficient answer. The bee solved the packing problem first.",
-    "Lever and Fulcrum": "One point transforms all force. Archimedes' diagram made permanent.",
-    "Crown": "Radial points ascending from a base ring. Authority made geometric.",
-    "Wavelength": "Distance between crests — the measure of light, sound, water. Energy has a period.",
-    "Drawbridge": "The hinge as drama. A road that chooses when to be a road.",
-    "Pixel Grid": "The raster reveals itself. Zoomed to its atomic unit, the image becomes pure geometry.",
-    "Gyroscope": "Rotation that resists change of direction. Stability achieved through spinning.",
-    "Lantern": "Light contained and directed by form. The shade is not decoration — it is function.",
-    "Erosion": "Time's mark on form. Subtraction as creative force; the worn edge as truth.",
-    "Pendulums in Sync": "Individual periods finding common rhythm. Synchrony emerging from chaos.",
-    "Mosaic": "A thousand small truths composing a single large image. The fragment serves the whole.",
-    "Antenna Array": "Receivers arrayed for maximum gain. The geometry of listening.",
-    "Tightrope": "One dimension of travel, the rest negotiated through balance. The line between.",
-    "Stained Glass": "Color held in lead tracery. The window as painting painted with light.",
-    "Parachute": "The canopy that slows descent. Fabric geometry engineered for controlled falling.",
-    "Dice": "Six faces, each a claim. The cube democratizes chance.",
-    "Viaduct": "Arches multiplied into infrastructure. Roman logic extended across the valley.",
-    "Carousel": "Rotation with cargo. The circle carries and returns what it takes.",
-    "Century Mark": "One hundred — the decimal milestone. The grid counts its own accomplishment.",
-    "Ziggurat": "Platforms stacked in diminishing sequence toward the sky. Sacred geometry in clay.",
-    "Pulley System": "Rope over wheel, force redirected. Mechanical advantage made elegant.",
-    "Aqueduct": "Gradient engineered across distance. Water finds its level through human patience.",
-    "Barcode": "Data encoded in the width of silence between lines. The machine reads what the eye misses.",
-    "Constellation": "Dots joined by imagination into myth. The map we drew across the night.",
-    "Ferris Wheel": "The circle made inhabitable. Rotation offers vantage in exchange for surrender.",
-    "Guilloche": "Engraved interlocking curves that defeat duplication. Security through complexity.",
-    "Drawers": "The rectangle repeated and stacked. Storage as architecture; organization as form.",
-    "Rocket": "Mass concentrated into a point, aimed at escape velocity. Geometry as ambition.",
-    "Opus Finale": "The great work completed. Form and function, reconciled at last.",
-    "Watchtower": "Height as strategy. The elevated point commands its radius of vision.",
-    "Pendulum Clock": "Oscillation counted and accumulated into hours. The swing of certainty.",
-    "Butterfly Wings": "Bilateral symmetry in flight. Nature's Rorschach, engineered for lift.",
-    "Rail Yard": "Parallel lines branching at precise angles. The grammar of directed motion.",
-    "Sundial Shadow": "The shadow moves; the stone does not. The sun writes its diary in dark lines.",
-    "Venetian Mask": "Symmetry conceals identity while revealing character. The mask is an honest face.",
-    "Turbine": "Curved blades extract energy from flow. The wind's work, geometrically harvested.",
-    "Torii Gate": "Two uprights, two crossbeams — a threshold between the mundane and the sacred.",
-    "Puzzle Pieces": "Interlocking forms that know exactly where they belong. Geometry as belonging.",
-    "Pendulum Wave": "Multiple pendulums, different periods, generating collective patterns from individual motion.",
-    "Amphora": "The vessel that remembers its contents. Form evolved over millennia through use.",
-    "Crossroads": "The X at the center of everything. Where all paths intersect, all choices collapse.",
-    "Chandelier": "Light distributed downward from a radial center. Illumination made ceremonial.",
-    "Fortress Wall": "Thick, low, and patient. The wall is a form that believes in duration.",
-    "Dandelion": "Radial seeds awaiting wind. Dispersal designed as a perfect sphere.",
-    "Accordion": "Folded air made musical. The bellows expand and contract like mechanical breathing.",
-    "Satellite Dish": "The parabola focuses signal from the sky. Geometry that listens.",
-    "Candelabra": "Branches of light ascending from a common trunk. The family tree of flame.",
-    "Domino Chain": "Topology of cause and effect. The line between standing and fallen.",
-    "Mosaic Floor": "Ten thousand tiles beneath ten thousand feet, patiently holding their pattern.",
-    "Seismograph": "The earth's trembling transcribed. Geology made legible through the moving needle.",
-    "Kite": "Diamond balanced against the wind. Flight without wings, tethered to ground.",
-    "DNA Helix": "The blueprint coiled around itself. Information stored in the geometry of the spiral.",
-    "Bell Tower": "Height and hollow, together producing resonance. The tower is an instrument.",
-    "Nautilus": "The living logarithm. Growth that never forgets its own proportion.",
-    "Telescope": "Lenses aligned to bring the distant close. Geometry as a tool for curiosity.",
-    "Catapult": "Potential energy stored in tension, released in an arc. Physics made wood and rope.",
-    "Abacus Frame": "The empty frame awaits calculation. Structure before function.",
-    "Flower Press": "The specimen between two planes, dried to perfect flatness. Nature made archivable.",
-    "Marionette": "Joints and strings, geometry in motion. The puppet's dance is a kinematic diagram.",
-    "Suspension Cable": "The catenary curve, loaded and patient. Math made structural.",
-    "Snowflake": "Hexagonal symmetry that never repeats. Six-fold form, infinitely varied.",
-    "Kaleidoscope II": "The second mirror changes everything. Symmetry doubled is not merely symmetry — it transcends.",
-    "Paper Airplane": "One fold at a time, the flat sheet learns to glide. Origami's utilitarian cousin.",
-    "Scaffold Grid": "The temporary skeleton of construction. Order imposed before beauty begins.",
-    "Metronome Row": "A line of tickers, each at its own tempo, together generating complex rhythm.",
-    "Flame": "The teardrop of combustion. A form with no hard edge, always consuming itself.",
-    "Anvil": "Mass concentrated into service. The anvil's geometry is the geometry of resistance.",
-    "Chevron Stack": "The V repeated until it becomes a forest of arrows, all pointing the same direction.",
-    "Ship Hull": "The form that parts water with minimum resistance. Beauty born of hydrodynamics.",
-    "Perforated Screen": "The surface that is also an absence. Pattern through subtraction.",
-    "Zigzag Path": "The path that refuses the straight line but still arrives. Deviation as method.",
-    "Canopy Tent": "The tensioned membrane overhead. Geometry sheltering geometry.",
-    "Torus": "The donut of mathematics. A closed surface with no inside, no outside — only through.",
-    "Rowing Oars": "Parallel levers in the hands of synchronized bodies. Propulsion through coordination.",
-    "Megaphone": "The cone that amplifies. Form borrowed from acoustics to serve communication.",
-    "Atomic Model": "Nucleus and orbiting shell — Bohr's diagram as clean geometry.",
-    "Drawbridge Up": "The road in its vertical state. Infrastructure that changes its own topology.",
-    "Tessellated Fish": "Escher's lesson: one form can tile the world if it knows its neighbors.",
-    "Ventilation Grid": "The grid that breathes. Regularity in service of invisible circulation.",
-    "Waterfall": "The vertical river. Gravity made visible as cascading form.",
-    "Panopticon": "The circle of surveillance. Bentham's architecture of the seen.",
-    "Crown Jewels": "Facets cut to maximize brilliance. Geometry in service of radiance.",
-    "Tuning Fork": "Two tines vibrating in sympathy. Resonance given a handle.",
-    "Tree Rings": "Concentric time. Each ring a year, each year a circle grown outward.",
-    "Crane": "The cantilever that reaches. Engineering's long arm, balanced by counterweight.",
-    "Iris": "The aperture of the eye — concentric muscle controlling the admission of light.",
-    "Waffle Grid": "The grid made three-dimensional and edible. Structure and surface, unified.",
-    "Compass Needle": "The form that knows north. A pointer of magnetic certainty.",
-    "Hammock": "The catenary at rest. Two trees, one curve, the body in the center.",
-    "Pinball": "Gravity and bumpers in negotiation. Chance made kinetic and geometric.",
-    "Rope Knot": "Topology made tangible. The trefoil knot is a form that cannot be undone.",
-    "Terrarium": "A small ecosystem in a geometric container. Nature bounded by glass and intention.",
-    "Semaphore Tower": "High on the hill, arms extended. The visual telegraph predated electricity.",
-    "Tangram": "Seven pieces, infinite arrangements. The ancient puzzle of form and fit.",
-    "Escalator": "The staircase set in continuous motion. Steps that carry the patient traveler.",
-    "Zodiac Wheel": "Twelve sectors of the ecliptic circle. The sky divided for human narrative.",
-    "Plumb Line": "The weight on a string that defines true vertical. Gravity as instrument.",
-    "Xylophone": "Graduated bars in a row — the keyboard of the percussion world.",
-    "Funicular": "Two cars on one cable, ascending and descending in perfect counterbalance.",
-    "Drawers Open": "The interior made exterior. The closed rectangle reveals its hidden compartments.",
-    "Heliostat": "The mirror that tracks the sun. Reflection engineered to follow the source.",
-    "Woven Basket": "Over, under, over, under — the logic of weaving, enacted in three dimensions.",
-    "Signal Light": "The semaphore of the rails. Color and position communicate passage and danger.",
-    "Fractal Tree": "Branches that contain their own branching. Self-similarity at every scale.",
-    "Portcullis": "The iron grid that falls to bar the gate. Defense encoded in vertical bars.",
-    "Gyroscope II": "Still spinning, still stable. The second gyroscope confirms the first law.",
-    "Shield": "The geometry of protection. Heraldic form hardened against impact.",
-    "Sextant": "Angles measured against the horizon. Navigation by the geometry of sky and sea.",
-    "Quilt": "Fragments arranged into warmth. The pattern is both practical and profound.",
-    "Typeface Study": "The letterform under examination. Serif, counter, bowl — anatomy of the written word.",
-    "Oil Derrick": "The lattice tower over the hidden resource. Industrial geometry piercing the earth.",
-    "Vinyl Record": "Concentric grooves carrying compressed sound. The circle that sings.",
-    "Trebuchet": "Counterweight, arm, sling — the physics of siege rendered in elegant leverage.",
-    "Mosaic Star": "Points radiating from a center, tiled outward. The star repeated until it becomes pavement.",
-    "Astrolabe": "The sky folded flat. Circles within circles mapping the celestial sphere.",
-    "Organ Pipes": "Columns of air at precise lengths. Pitch is the physics of the vertical.",
-    "Drawbridge Chains": "The links that hold the road suspended. Each chain a line of controlled force.",
-    "Pagoda": "Tiered roofs ascending in diminishing sequence. The sky met gradually, respectfully.",
-    "Bicentennial": "Two hundred — the double century marked in form. The grid honors its own milestone.",
-    "Armillary Sphere": "Rings nested at angles, modeling the celestial mechanics. A universe in wire.",
-    "Basket Weave": "The classic interlace, flat and infinite. Weaving reduced to its essential pattern.",
-    "Cog Railway": "The toothed rail that makes the impossible grade possible. The mountain yields to the gear.",
-    "Mandala": "The sacred circle, filled with symmetrical meaning. Meditation made visible.",
-    "Pennant String": "Triangles on a line, fluttering between poles. Celebration made geometric.",
-    "Orrery": "The solar system in miniature. Planetary motion mechanized and made holdable.",
-    "Stacking Rings": "Each ring smaller than the last. The tower narrows toward its inevitable point.",
-    "Weather Vane": "The arrow that finds the wind's direction. The pivot makes all angles equal.",
-    "Scaffolding II": "The second scaffold, more elaborate. Structure supporting structure in recursive patience.",
-    "Prism Rainbow": "The spectrum extracted from white. Seven colors hidden in one, revealed by glass.",
-    "Perforated Facade": "The building that is also a screen. The hole is as important as the wall.",
-    "Aerial View": "The city from above — all depth removed, all plan revealed. Geometry unmasked.",
-    "Silo Cluster": "Cylinders gathered in productive proximity. Storage made monumental.",
-    "Gear Train": "A sequence of gears transmitting and transforming torque. Mechanical logic in chain.",
-    "Fan Vaulting": "Gothic ribs spreading from capital to ceiling. Structure as exuberant geometry.",
-    "Drawloom": "The mechanized weaver's tool. Pattern punched in advance and then patiently executed.",
-    "Amphitheater II": "The second bowl of attention. More rows, wider arcs, a larger audience for the form.",
-    "Moebius Strip": "One surface, one edge — the topology that cannot be oriented. The inside is the outside.",
-    "Semaphore Grid": "Multiple semaphores in array. The message multiplied across the visual field.",
-    "Parquet Floor": "Geometric tile laid in interlocking herringbone. The floor as composition.",
-    "Hot Air Balloon": "The envelope of heated air, lifting its basket. Buoyancy through containment.",
-    "Resonance": "Frequencies finding their matching forms. The bridge and the note that unmade it.",
-    "Totem Pole II": "The second column of carved meaning rises. Each face a chapter of the story.",
-    "Trebuchet II": "The second siege engine, refined. The arc of the arm is longer, the counterweight heavier.",
-    "Crystalline": "The lattice of atoms made visible. Crystal structure as geometry at molecular scale.",
-    "Cuckoo Clock": "The clockwork that rewards punctuality with a small wooden bird.",
-    "Anchor": "The heavy form that holds the floating form in place. Resistance as purpose.",
-    "Panopticon II": "The second circle of surveillance. The eye in the center sees further now.",
-    "Spirograph": "Circles rolling inside circles, tracing curves too complex for a free hand.",
-    "Rampart": "The defensive embankment, geometric in plan. The angle of deflection calculated in advance.",
-    "Anemometer": "Cups rotating in the wind, measuring what they catch. Speed made angular.",
-    "Rosette": "Petals arrayed in radial symmetry. The flower as geometric proof.",
-    "Abacus III": "The third abacus — more columns, more beads, more precision. Calculation deepened.",
-    "Stairwell": "The staircase viewed from above — a spiral that organizes vertical travel.",
-    "Trident": "Three tines from one handle. The sea's weapon is also a geometric argument.",
-    "Suspension Bridge II": "The second span. More cable, more tower, more distance held in tension.",
-    "Dartboard": "Concentric rings scored by proximity to center. The target as pure geometry.",
-    "Venetian Window": "The arched window divided by a column into three lights. Light regulated by form.",
-    "Mill Wheel": "Water turns wood turns stone turns grain. The circle in service of transformation.",
-    "Op Art Squares": "Squares that vibrate. The eye cannot hold them still — they insist on motion.",
-    "Coat of Arms": "Heraldic geometry encoding lineage and claim. The shield as visual biography.",
-    "Plumbing": "Pipes joining at angles, carrying water through the wall's hidden logic.",
-    "Maypole": "Ribbons braiding around the vertical axis. Dance made into textile.",
-    "Geode": "Crystal interior hidden in dull exterior. The hollow rock's secret geometry.",
-    "Ballast": "The heavy thing in the bottom of the boat that makes stability possible.",
-    "Kaleidoscope III": "The third mirror added. Now the symmetry has no edge — it tiles infinity.",
-    "Siege Tower": "The mobile scaffold that brings the attacker level with the defender.",
-    "Magnetic Field": "Iron filings reveal the invisible lines of force. The field made seeable.",
-    "Crown Finale": "The final crown. Points ascending in the last regal gesture before the end.",
-    "Magnum Opus": "Two hundred and fifty compositions. The great work, complete at last — form, function, and beauty made whole."
-  };
-
-  return descriptions[title] || `A study in geometric form, exploring the visual language of ${title.toLowerCase()} through Bauhaus principles of clarity and purpose.`;
-}
-
 // ── Caption generator ─────────────────────────────────────────────────────
 function generateCaption(index, title) {
-  const principle = PRINCIPLES[(index - 1) % PRINCIPLES.length];
-  const description = getDescription(index, title);
-  const hashtags = '#bauhaus #generativeart #geometricart #abstractart #svgart #agentart #bauhaus.machina #dailyart #constructivism #modernism';
-
-  const body = `${principle} No. ${index} — ${title}. ${description}`;
-  return `${body}\n\n${hashtags}`;
+  const hashtags = '#bauhaus #generativeart #geometricart #abstractart #svgart #agentart #bauhausmachina #dailyart #constructivism #modernism';
+  return `${title}\n\n${hashtags}`;
 }
 
 // ── SVG → PNG ─────────────────────────────────────────────────────────────
+// Output: 1080×1350 (4:5 Instagram portrait ratio)
+// Layout: artwork centered at 980×980 on black canvas, 50px black border all sides
 async function convertSvgToPng(svgPath, outPath) {
-  const paddedIndex = String(TITLES.indexOf(TITLES.find((_, i) => i > 0 && svgPath.includes(String(i).padStart(3, '0'))))).padStart(3, '0');
-  
-  await sharp(svgPath)
-    .resize(800, 800, { fit: 'contain', background: '#FEFAE0' })
-    .extend({ top: 140, bottom: 140, left: 140, right: 140, background: '#FEFAE0' })
-    .flatten({ background: '#FEFAE0' })
+  const CANVAS_W = 1080;
+  const CANVAS_H = 1350;
+  const ART_SIZE = 980; // artwork area (square, centered horizontally)
+  const ART_TOP  = Math.floor((CANVAS_H - ART_SIZE) / 2); // vertically centered
+  const ART_LEFT = Math.floor((CANVAS_W - ART_SIZE) / 2);
+  const BORDER   = '#000000';
+
+  // Render SVG into ART_SIZE square, then composite onto black canvas
+  const artBuffer = await sharp(svgPath)
+    .resize(ART_SIZE, ART_SIZE, { fit: 'contain', background: BORDER })
+    .flatten({ background: BORDER })
+    .png()
+    .toBuffer();
+
+  await sharp({
+    create: { width: CANVAS_W, height: CANVAS_H, channels: 3, background: BORDER }
+  })
+    .composite([{ input: artBuffer, top: ART_TOP, left: ART_LEFT }])
     .png()
     .toFile(outPath);
 
-  console.log(`✅ PNG written to ${outPath}`);
+  console.log(`✅ PNG written to ${outPath} (${CANVAS_W}×${CANVAS_H}, black border)`);
 }
 
 // ── Upload to Imgur ───────────────────────────────────────────────────────
