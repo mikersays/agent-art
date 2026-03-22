@@ -1,59 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Cream background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-  <!-- Sand-colored horizontal bands behind hanging forms -->
-  <rect x="0" y="160" width="800" height="40" fill="#DDA15E" opacity="0.15"/>
-  <rect x="0" y="300" width="800" height="50" fill="#DDA15E" opacity="0.12"/>
-  <rect x="0" y="460" width="800" height="35" fill="#DDA15E" opacity="0.18"/>
-  <rect x="0" y="580" width="800" height="30" fill="#DDA15E" opacity="0.1"/>
-  <!-- Ground: teal and forest shapes at bottom -->
-  <rect x="0" y="700" width="350" height="100" fill="#264653" opacity="0.7"/>
-  <rect x="350" y="720" width="450" height="80" fill="#2A9D8F" opacity="0.6"/>
-  <circle cx="200" cy="710" r="35" fill="#2A9D8F" opacity="0.5"/>
-  <polygon points="500,700 560,660 620,700" fill="#264653" opacity="0.65"/>
-  <rect x="650" y="690" width="60" height="30" fill="#264653" opacity="0.5"/>
-  <!-- Hanging lines from top edge -->
-  <!-- Main line 1: to red circle -->
-  <line x1="180" y1="0" x2="180" y2="200" stroke="#000000" stroke-width="1"/>
-  <!-- Main line 2: to blue rectangle -->
-  <line x1="400" y1="0" x2="400" y2="350" stroke="#000000" stroke-width="1"/>
-  <!-- Main line 3: to yellow triangle -->
-  <line x1="600" y1="0" x2="600" y2="500" stroke="#000000" stroke-width="1"/>
-  <!-- Cross-connection lines between shapes -->
-  <line x1="180" y1="220" x2="400" y2="350" stroke="#000000" stroke-width="1" opacity="0.6"/>
-  <line x1="400" y1="380" x2="600" y2="500" stroke="#000000" stroke-width="1" opacity="0.6"/>
-  <line x1="180" y1="230" x2="600" y2="490" stroke="#000000" stroke-width="0.5" opacity="0.3"/>
-  <!-- Secondary hanging lines for smaller shapes -->
-  <line x1="100" y1="0" x2="100" y2="280" stroke="#000000" stroke-width="1" opacity="0.7"/>
-  <line x1="300" y1="0" x2="300" y2="150" stroke="#000000" stroke-width="1" opacity="0.7"/>
-  <line x1="500" y1="0" x2="500" y2="420" stroke="#000000" stroke-width="1" opacity="0.7"/>
-  <line x1="700" y1="0" x2="700" y2="320" stroke="#000000" stroke-width="1" opacity="0.7"/>
-  <!-- Sub-connections -->
-  <line x1="100" y1="300" x2="180" y2="200" stroke="#000000" stroke-width="0.8" opacity="0.5"/>
-  <line x1="300" y1="170" x2="400" y2="350" stroke="#000000" stroke-width="0.8" opacity="0.5"/>
-  <line x1="500" y1="440" x2="600" y2="500" stroke="#000000" stroke-width="0.8" opacity="0.5"/>
-  <line x1="700" y1="340" x2="600" y2="510" stroke="#000000" stroke-width="0.8" opacity="0.5"/>
-  <!-- Red circle (main shape 1) -->
-  <circle cx="180" cy="220" r="40" fill="#E63946" opacity="0.9"/>
-  <!-- Blue rectangle (main shape 2) -->
-  <rect x="365" y="350" width="70" height="50" fill="#1D3557" opacity="0.85"/>
-  <!-- Yellow triangle (main shape 3) -->
-  <polygon points="600,500 560,570 640,570" fill="#F4D35E" opacity="0.9"/>
-  <!-- Smaller hanging shapes -->
-  <circle cx="100" cy="295" r="22" fill="#E76F51" opacity="0.8"/>
-  <rect x="285" y="150" width="30" height="30" fill="#457B9D" opacity="0.75"/>
-  <polygon points="500,430 480,460 520,460" fill="#E9C46A" opacity="0.8"/>
-  <circle cx="700" cy="335" r="25" fill="#A8DADC" opacity="0.75"/>
-  <!-- Tiny accent shapes along lines -->
-  <circle cx="180" cy="100" r="5" fill="#000000" opacity="0.4"/>
-  <circle cx="400" cy="170" r="4" fill="#000000" opacity="0.35"/>
-  <circle cx="600" cy="250" r="5" fill="#000000" opacity="0.4"/>
-  <rect x="97" y="140" width="6" height="6" fill="#6D2E46" opacity="0.6"/>
-  <rect x="497" y="210" width="6" height="6" fill="#6D2E46" opacity="0.6"/>
-  <!-- Warm gray small connector dots -->
-  <circle cx="290" cy="260" r="3" fill="#A89F91" opacity="0.5"/>
-  <circle cx="550" cy="450" r="3" fill="#A89F91" opacity="0.5"/>
-  <!-- Corner accents -->
-  <rect x="10" y="10" width="8" height="8" fill="#A89F91" opacity="0.3"/>
-  <rect x="782" y="10" width="8" height="8" fill="#A89F91" opacity="0.3"/>
+  <title>Broadcast</title>
+  <rect x="0" y="0" width="800" height="800" fill="#457B9D" opacity="1.00"/>
+  <polygon points="511,379 768.0,379.0 752.5010035419784,466.89917683469685" fill="#6D2E46" opacity="0.94"/>
+  <polygon points="511,379 752.5010035419784,466.89917683469685 707.8734218815773,544.1964156894405" fill="#FFFFFF" opacity="0.69"/>
+  <polygon points="511,379 707.8734218815773,544.1964156894405 639.5,601.5685287726008" fill="#F4D35E" opacity="0.75"/>
+  <polygon points="511,379 639.5,601.5685287726008 555.6275816604011,632.0955925241375" fill="#000000" opacity="0.77"/>
+  <polygon points="511,379 555.6275816604011,632.0955925241375 466.3724183395989,632.0955925241375" fill="#E76F51" opacity="0.67"/>
+  <polygon points="511,379 466.3724183395989,632.0955925241375 382.50000000000006,601.5685287726008" fill="#FFFFFF" opacity="0.71"/>
+  <polygon points="511,379 382.50000000000006,601.5685287726008 314.1265781184227,544.1964156894406" fill="#E63946" opacity="0.82"/>
+  <polygon points="511,379 314.1265781184227,544.1964156894406 269.49899645802157,466.8991768346969" fill="#457B9D" opacity="0.98"/>
+  <polygon points="511,379 269.49899645802157,466.8991768346969 254.0,379.00000000000006" fill="#E76F51" opacity="0.57"/>
+  <polygon points="511,379 254.0,379.00000000000006 269.49899645802157,291.10082316530315" fill="#000000" opacity="0.99"/>
+  <polygon points="511,379 269.49899645802157,291.10082316530315 314.1265781184227,213.80358431055942" fill="#E63946" opacity="0.58"/>
+  <polygon points="511,379 314.1265781184227,213.80358431055942 382.4999999999999,156.43147122739933" fill="#457B9D" opacity="0.96"/>
+  <polygon points="511,379 382.4999999999999,156.43147122739933 466.3724183395989,125.90440747586254" fill="#000000" opacity="0.67"/>
+  <polygon points="511,379 466.3724183395989,125.90440747586254 555.627581660401,125.90440747586251" fill="#000000" opacity="1.00"/>
+  <polygon points="511,379 555.627581660401,125.90440747586251 639.5,156.43147122739927" fill="#E63946" opacity="0.84"/>
+  <polygon points="511,379 639.5,156.43147122739927 707.8734218815773,213.80358431055933" fill="#FFFFFF" opacity="0.82"/>
+  <polygon points="511,379 707.8734218815773,213.80358431055933 752.5010035419784,291.10082316530315" fill="#6D2E46" opacity="0.68"/>
+  <polygon points="511,379 752.5010035419784,291.10082316530315 768.0,378.99999999999994" fill="#457B9D" opacity="0.68"/>
+  <circle cx="511" cy="379" r="40" fill="none" opacity="1.00" stroke="#000000" stroke-width="1.7202372949021674"/>
+  <circle cx="511" cy="379" r="105" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.283828993716941"/>
+  <circle cx="511" cy="379" r="170" fill="none" opacity="1.00" stroke="#000000" stroke-width="1.6607106847792932"/>
+  <circle cx="511" cy="379" r="235" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.8307305627782071"/>
+  <circle cx="511" cy="379" r="29" fill="#E63946" opacity="1.00"/>
+  <circle cx="40" cy="40" r="26" fill="#F4D35E" opacity="0.99"/>
+  <circle cx="760" cy="40" r="14" fill="#1D3557" opacity="0.74"/>
+  <circle cx="40" cy="760" r="30" fill="#1D3557" opacity="0.95"/>
+  <circle cx="760" cy="760" r="10" fill="#1D3557" opacity="0.96"/>
 </svg>

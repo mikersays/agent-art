@@ -1,67 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-  <!-- Subtle grid -->
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
-  <!-- Orbital path 1 - large, centered at 350,350 -->
-  <ellipse cx="350" cy="350" rx="280" ry="150" fill="none" stroke="#1D3557" stroke-width="2" opacity="0.7" transform="rotate(-20,350,350)"/>
-  <!-- Orbital path 2 - centered at 450,400 -->
-  <ellipse cx="450" cy="400" rx="220" ry="120" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.6" transform="rotate(35,450,400)"/>
-  <!-- Orbital path 3 - centered at 300,450 -->
-  <ellipse cx="300" cy="450" rx="250" ry="100" fill="none" stroke="#1D3557" stroke-width="2.5" opacity="0.55" transform="rotate(-50,300,450)"/>
-  <!-- Orbital path 4 - centered at 500,300 -->
-  <ellipse cx="500" cy="300" rx="200" ry="80" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.5" transform="rotate(15,500,300)"/>
-  <!-- Orbital path 5 - small, centered at 400,500 -->
-  <ellipse cx="400" cy="500" rx="160" ry="70" fill="none" stroke="#1D3557" stroke-width="2" opacity="0.45" transform="rotate(-10,400,500)"/>
-  <!-- Orbital path 6 - centered at 350,250 -->
-  <ellipse cx="350" cy="250" rx="180" ry="90" fill="none" stroke="#000000" stroke-width="1" opacity="0.4" transform="rotate(60,350,250)"/>
-  <!-- Orbital path 7 - wide -->
-  <ellipse cx="420" cy="380" rx="350" ry="180" fill="none" stroke="#457B9D" stroke-width="1.5" opacity="0.3" transform="rotate(-5,420,380)"/>
-  <!-- Center nodes (orbital foci) -->
-  <circle cx="350" cy="350" r="12" fill="#1D3557" opacity="0.8"/>
-  <circle cx="450" cy="400" r="10" fill="#000000" opacity="0.7"/>
-  <circle cx="300" cy="450" r="8" fill="#1D3557" opacity="0.6"/>
-  <circle cx="500" cy="300" r="9" fill="#000000" opacity="0.65"/>
-  <!-- Planets on orbital path 1 -->
-  <circle cx="140" cy="230" r="18" fill="#E63946" opacity="0.9"/>
-  <circle cx="580" cy="390" r="14" fill="#F4D35E" opacity="0.85"/>
-  <circle cx="350" cy="200" r="10" fill="#2A9D8F" opacity="0.8"/>
-  <!-- Planets on orbital path 2 -->
-  <circle cx="280" cy="310" r="16" fill="#F4D35E" opacity="0.85"/>
-  <circle cx="620" cy="480" r="12" fill="#E63946" opacity="0.8"/>
-  <circle cx="450" cy="280" r="8" fill="#2A9D8F" opacity="0.75"/>
-  <!-- Planets on orbital path 3 -->
-  <circle cx="120" cy="350" r="20" fill="#2A9D8F" opacity="0.85"/>
-  <circle cx="480" cy="530" r="13" fill="#E63946" opacity="0.8"/>
-  <!-- Planets on orbital path 4 -->
-  <circle cx="680" cy="260" r="15" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="330" cy="330" r="9" fill="#E63946" opacity="0.7"/>
-  <!-- Planets on orbital path 5 -->
-  <circle cx="260" cy="480" r="11" fill="#F4D35E" opacity="0.8"/>
-  <circle cx="540" cy="510" r="17" fill="#2A9D8F" opacity="0.75"/>
-  <!-- Planets on orbital path 6 -->
-  <circle cx="220" cy="180" r="14" fill="#E63946" opacity="0.7"/>
-  <circle cx="450" cy="150" r="10" fill="#F4D35E" opacity="0.75"/>
-  <!-- Small moons / detail circles -->
-  <circle cx="155" cy="220" r="5" fill="#A8DADC" opacity="0.7"/>
-  <circle cx="595" cy="385" r="4" fill="#A8DADC" opacity="0.6"/>
-  <circle cx="130" cy="340" r="6" fill="#E9C46A" opacity="0.65"/>
-  <circle cx="690" cy="255" r="5" fill="#E9C46A" opacity="0.6"/>
-  <circle cx="545" cy="505" r="5" fill="#A8DADC" opacity="0.55"/>
-  <circle cx="270" cy="475" r="4" fill="#E9C46A" opacity="0.6"/>
-  <!-- Intersection accent marks - small shapes where orbits cross -->
-  <rect x="345" y="195" width="10" height="10" fill="#E76F51" opacity="0.6" transform="rotate(45,350,200)"/>
-  <rect x="275" y="305" width="8" height="8" fill="#E76F51" opacity="0.55" transform="rotate(45,279,309)"/>
-  <rect x="475" y="525" width="8" height="8" fill="#E76F51" opacity="0.5" transform="rotate(45,479,529)"/>
-  <!-- Corner accents -->
-  <rect x="15" y="15" width="30" height="30" fill="#1D3557" opacity="0.25"/>
-  <rect x="755" y="755" width="30" height="30" fill="#E63946" opacity="0.25"/>
-  <circle cx="775" cy="30" r="10" fill="#F4D35E" opacity="0.3"/>
-  <circle cx="25" cy="775" r="10" fill="#2A9D8F" opacity="0.3"/>
-  <!-- Distant tiny planets for depth -->
-  <circle cx="700" cy="100" r="4" fill="#1D3557" opacity="0.4"/>
-  <circle cx="80" cy="650" r="3" fill="#E63946" opacity="0.35"/>
-  <circle cx="720" cy="650" r="5" fill="#F4D35E" opacity="0.4"/>
-  <circle cx="100" cy="100" r="4" fill="#2A9D8F" opacity="0.35"/>
+  <title>Ice Shelf</title>
+  <rect x="0" y="0" width="800" height="800" fill="#264653" opacity="1.00"/>
+  <rect x="0" y="722" width="800" height="78" fill="#000000" opacity="0.90"/>
+  <rect x="0" y="0" width="800" height="115" fill="#1D3557" opacity="0.73"/>
+  <rect x="8" y="115" width="90" height="571" fill="#2A9D8F" opacity="0.91"/>
+  <line x1="8" y1="115" x2="8" y2="722" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="76" y="115" width="90" height="605" fill="#FEFAE0" opacity="0.94"/>
+  <line x1="76" y1="115" x2="76" y2="722" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="164" y="115" width="90" height="582" fill="#2A9D8F" opacity="0.82"/>
+  <line x1="164" y1="115" x2="164" y2="722" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="247" y="115" width="90" height="570" fill="#E9C46A" opacity="0.96"/>
+  <line x1="247" y1="115" x2="247" y2="722" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="322" y="115" width="90" height="596" fill="#FFFFFF" opacity="0.83"/>
+  <line x1="322" y1="115" x2="322" y2="722" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="394" y="115" width="90" height="582" fill="#FEFAE0" opacity="0.78"/>
+  <line x1="394" y1="115" x2="394" y2="722" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="483" y="115" width="90" height="600" fill="#A8DADC" opacity="0.89"/>
+  <line x1="483" y1="115" x2="483" y2="722" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="564" y="115" width="90" height="606" fill="#E63946" opacity="0.92"/>
+  <line x1="564" y1="115" x2="564" y2="722" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="647" y="115" width="90" height="569" fill="#A8DADC" opacity="0.90"/>
+  <line x1="647" y1="115" x2="647" y2="722" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="723" y="115" width="90" height="601" fill="#2A9D8F" opacity="0.82"/>
+  <line x1="723" y1="115" x2="723" y2="722" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="143" y="370" width="26" height="26" fill="#E63946" opacity="0.51"/>
+  <rect x="643" y="720" width="38" height="38" fill="#F4D35E" opacity="0.58"/>
+  <rect x="590" y="543" width="37" height="37" fill="#E63946" opacity="0.51"/>
+  <rect x="359" y="480" width="18" height="18" fill="#F4D35E" opacity="0.75"/>
+  <rect x="592" y="714" width="26" height="26" fill="#F4D35E" opacity="0.72"/>
+  <line x1="0" y1="675" x2="800" y2="675" stroke="#000000" stroke-width="0.6213310540311935" opacity="0.40"/>
+  <line x1="0" y1="586" x2="800" y2="586" stroke="#000000" stroke-width="1.5134210075547851" opacity="0.28"/>
+  <line x1="0" y1="433" x2="800" y2="433" stroke="#000000" stroke-width="1.76405727731323" opacity="0.57"/>
+  <line x1="0" y1="179" x2="800" y2="179" stroke="#000000" stroke-width="1.8350324098813655" opacity="0.36"/>
+  <line x1="0" y1="374" x2="800" y2="374" stroke="#FFFFFF" stroke-width="1.0566741319150916" opacity="0.45"/>
+  <line x1="0" y1="690" x2="800" y2="690" stroke="#000000" stroke-width="1.7466757870797416" opacity="0.46"/>
+  <line x1="0" y1="119" x2="800" y2="119" stroke="#000000" stroke-width="1.8843927811314356" opacity="0.48"/>
+  <line x1="0" y1="228" x2="800" y2="228" stroke="#000000" stroke-width="0.8295631840992135" opacity="0.50"/>
+  <line x1="0" y1="331" x2="800" y2="331" stroke="#FFFFFF" stroke-width="1.1152314654612685" opacity="0.41"/>
+  <line x1="0" y1="622" x2="800" y2="622" stroke="#FFFFFF" stroke-width="1.0935862982669677" opacity="0.20"/>
+  <line x1="0" y1="294" x2="800" y2="294" stroke="#000000" stroke-width="0.5123081999430595" opacity="0.21"/>
 </svg>

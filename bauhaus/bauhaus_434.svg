@@ -1,78 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#1D3557"/>
-
-  <!-- Wave band 1 - Cream, top -->
-  <path d="M0,60 C100,20 200,100 300,60 C400,20 500,100 600,60 C700,20 800,100 800,60 L800,130 C700,170 600,90 500,130 C400,170 300,90 200,130 C100,170 0,90 0,130 Z" fill="#FEFAE0"/>
-
-  <!-- Wave band 2 - Teal -->
-  <path d="M0,160 C100,120 200,200 300,160 C400,120 500,200 600,160 C700,120 800,200 800,160 L800,230 C700,270 600,190 500,230 C400,270 300,190 200,230 C100,270 0,190 0,230 Z" fill="#2A9D8F"/>
-
-  <!-- Wave band 3 - Sand -->
-  <path d="M0,260 C100,220 200,300 300,260 C400,220 500,300 600,260 C700,220 800,300 800,260 L800,330 C700,370 600,290 500,330 C400,370 300,290 200,330 C100,370 0,290 0,330 Z" fill="#DDA15E"/>
-
-  <!-- Wave band 4 - Light Blue -->
-  <path d="M0,360 C100,320 200,400 300,360 C400,320 500,400 600,360 C700,320 800,400 800,360 L800,430 C700,470 600,390 500,430 C400,470 300,390 200,430 C100,470 0,390 0,430 Z" fill="#A8DADC"/>
-
-  <!-- Wave band 5 - Cream again -->
-  <path d="M0,460 C100,420 200,500 300,460 C400,420 500,500 600,460 C700,420 800,500 800,460 L800,530 C700,570 600,490 500,530 C400,570 300,490 200,530 C100,570 0,490 0,530 Z" fill="#FEFAE0"/>
-
-  <!-- Wave band 6 - Teal -->
-  <path d="M0,560 C100,520 200,600 300,560 C400,520 500,600 600,560 C700,520 800,600 800,560 L800,630 C700,670 600,590 500,630 C400,670 300,590 200,630 C100,670 0,590 0,630 Z" fill="#2A9D8F"/>
-
-  <!-- Wave band 7 - Sand -->
-  <path d="M0,660 C100,620 200,700 300,660 C400,620 500,700 600,660 C700,620 800,700 800,660 L800,730 C700,770 600,690 500,730 C400,770 300,690 200,730 C100,770 0,690 0,730 Z" fill="#DDA15E"/>
-
-  <!-- Wave band 8 - Light Blue bottom -->
-  <path d="M0,760 C100,720 200,800 300,760 C400,720 500,800 600,760 C700,720 800,800 800,760 L800,800 L0,800 Z" fill="#A8DADC"/>
-
-  <!-- Circles at wave peaks (top of each band) -->
-  <!-- Band 1 peaks at x=50,250,450,650 y~20 -->
-  <circle cx="50"  cy="30"  r="10" fill="#F4D35E"/>
-  <circle cx="250" cy="30"  r="10" fill="#E63946"/>
-  <circle cx="450" cy="30"  r="10" fill="#F4D35E"/>
-  <circle cx="650" cy="30"  r="10" fill="#E63946"/>
-
-  <!-- Band 2 peaks at y~120 -->
-  <circle cx="150" cy="128" r="10" fill="#E63946"/>
-  <circle cx="350" cy="128" r="10" fill="#F4D35E"/>
-  <circle cx="550" cy="128" r="10" fill="#E63946"/>
-  <circle cx="750" cy="128" r="10" fill="#F4D35E"/>
-
-  <!-- Band 3 peaks at y~220 -->
-  <circle cx="50"  cy="228" r="10" fill="#F4D35E"/>
-  <circle cx="250" cy="228" r="10" fill="#E63946"/>
-  <circle cx="450" cy="228" r="10" fill="#F4D35E"/>
-  <circle cx="650" cy="228" r="10" fill="#E63946"/>
-
-  <!-- Band 4 peaks at y~320 -->
-  <circle cx="150" cy="328" r="10" fill="#E63946"/>
-  <circle cx="350" cy="328" r="10" fill="#F4D35E"/>
-  <circle cx="550" cy="328" r="10" fill="#E63946"/>
-  <circle cx="750" cy="328" r="10" fill="#F4D35E"/>
-
-  <!-- Band 5 peaks at y~420 -->
-  <circle cx="50"  cy="428" r="10" fill="#F4D35E"/>
-  <circle cx="250" cy="428" r="10" fill="#E63946"/>
-  <circle cx="450" cy="428" r="10" fill="#F4D35E"/>
-  <circle cx="650" cy="428" r="10" fill="#E63946"/>
-
-  <!-- Band 6 peaks at y~520 -->
-  <circle cx="150" cy="528" r="10" fill="#E63946"/>
-  <circle cx="350" cy="528" r="10" fill="#F4D35E"/>
-  <circle cx="550" cy="528" r="10" fill="#E63946"/>
-  <circle cx="750" cy="528" r="10" fill="#F4D35E"/>
-
-  <!-- Band 7 peaks at y~620 -->
-  <circle cx="50"  cy="628" r="10" fill="#F4D35E"/>
-  <circle cx="250" cy="628" r="10" fill="#E63946"/>
-  <circle cx="450" cy="628" r="10" fill="#F4D35E"/>
-  <circle cx="650" cy="628" r="10" fill="#E63946"/>
-
-  <!-- Vertical accent lines -->
-  <line x1="80"  y1="0" x2="80"  y2="800" stroke="#FFFFFF" stroke-width="1.5" opacity="0.15"/>
-  <line x1="200" y1="0" x2="200" y2="800" stroke="#FFFFFF" stroke-width="1.5" opacity="0.15"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#FFFFFF" stroke-width="2" opacity="0.2"/>
-  <line x1="600" y1="0" x2="600" y2="800" stroke="#FFFFFF" stroke-width="1.5" opacity="0.15"/>
-  <line x1="720" y1="0" x2="720" y2="800" stroke="#FFFFFF" stroke-width="1.5" opacity="0.15"/>
+  <title>Golden Ratio</title>
+  <rect x="0" y="0" width="800" height="800" fill="#000000" opacity="1.00"/>
+  <circle cx="168" cy="238" r="283" fill="#E76F51" opacity="0.47"/>
+  <circle cx="646" cy="689" r="220" fill="#E76F51" opacity="0.45"/>
+  <circle cx="689" cy="415" r="144" fill="#E63946" opacity="0.56"/>
+  <circle cx="669" cy="561" r="174" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.527762950551596"/>
+  <circle cx="100" cy="455" r="109" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="3.1706115177470724"/>
+  <circle cx="551" cy="433" r="151" fill="none" opacity="1.00" stroke="#000000" stroke-width="3.4909281757723494"/>
+  <circle cx="151" cy="518" r="149" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="2.009915458819556"/>
+  <circle cx="322" cy="587" r="119" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.6115124362679802"/>
+  <circle cx="214" cy="344" r="15" fill="#F4D35E" opacity="0.79"/>
+  <circle cx="14" cy="337" r="11" fill="#1D3557" opacity="0.96"/>
+  <circle cx="0" cy="734" r="5" fill="#F4D35E" opacity="0.81"/>
+  <circle cx="422" cy="608" r="11" fill="#E63946" opacity="0.70"/>
+  <circle cx="500" cy="751" r="13" fill="#1D3557" opacity="0.74"/>
+  <circle cx="546" cy="142" r="17" fill="#F4D35E" opacity="0.84"/>
+  <circle cx="47" cy="757" r="16" fill="#F4D35E" opacity="0.84"/>
+  <circle cx="27" cy="635" r="11" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="177" cy="551" r="8" fill="#1D3557" opacity="0.89"/>
+  <circle cx="23" cy="396" r="4" fill="#F4D35E" opacity="0.84"/>
+  <circle cx="244" cy="438" r="16" fill="#E63946" opacity="0.97"/>
+  <circle cx="378" cy="615" r="5" fill="#E63946" opacity="0.72"/>
+  <circle cx="110" cy="357" r="8" fill="#1D3557" opacity="0.72"/>
+  <line x1="93" y1="31" x2="710" y2="764" stroke="#000000" stroke-width="1.501807439716717" opacity="0.20"/>
+  <line x1="770" y1="400" x2="687" y2="571" stroke="#000000" stroke-width="2.5268054040825296" opacity="0.20"/>
+  <line x1="157" y1="556" x2="541" y2="103" stroke="#000000" stroke-width="1.1736789232812401" opacity="0.20"/>
+  <line x1="158" y1="722" x2="365" y2="299" stroke="#000000" stroke-width="1.3745418645292877" opacity="0.20"/>
+  <line x1="775" y1="698" x2="482" y2="739" stroke="#000000" stroke-width="2.4675274837474817" opacity="0.20"/>
 </svg>

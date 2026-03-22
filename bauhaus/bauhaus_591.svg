@@ -1,66 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Structural grid lines -->
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-
-  <!-- Big blue rectangle -->
-  <rect x="250" y="180" width="380" height="420" fill="#1D3557" opacity="0.6"/>
-
-  <!-- Big red circle -->
-  <circle cx="320" cy="350" r="200" fill="#E63946" opacity="0.55"/>
-
-  <!-- Big yellow triangle -->
-  <polygon points="500,150 700,600 300,600" fill="#F4D35E" opacity="0.5"/>
-
-  <!-- Intersection accent shapes - where red circle meets blue rect -->
-  <circle cx="350" cy="300" r="15" fill="#6D2E46" opacity="0.8"/>
-  <rect x="280" y="340" width="20" height="20" fill="#000000" opacity="0.7"/>
-  <circle cx="400" cy="250" r="10" fill="#FFFFFF" opacity="0.9"/>
-
-  <!-- Intersection accent shapes - where yellow triangle meets blue rect -->
-  <rect x="480" y="320" width="18" height="18" fill="#264653" opacity="0.7"/>
-  <circle cx="550" cy="450" r="12" fill="#E76F51" opacity="0.8"/>
-  <polygon points="520,380 535,360 550,380" fill="#000000" opacity="0.6"/>
-
-  <!-- Intersection accent shapes - where red circle meets yellow triangle -->
-  <circle cx="380" cy="500" r="14" fill="#2A9D8F" opacity="0.8"/>
-  <rect x="350" y="540" width="16" height="16" fill="#DDA15E" opacity="0.7"/>
-
-  <!-- Triple intersection center accent -->
-  <circle cx="400" cy="380" r="8" fill="#000000" opacity="0.9"/>
-  <circle cx="400" cy="380" r="22" fill="none" stroke="#000000" stroke-width="2" opacity="0.6"/>
-  <circle cx="400" cy="380" r="36" fill="none" stroke="#000000" stroke-width="1" opacity="0.3"/>
-
-  <!-- Thin structural lines radiating from center -->
-  <line x1="400" y1="380" x2="150" y2="100" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="400" y1="380" x2="700" y2="120" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="400" y1="380" x2="100" y2="650" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="400" y1="380" x2="720" y2="700" stroke="#000000" stroke-width="1" opacity="0.15"/>
-
-  <!-- Corner accents -->
-  <rect x="20" y="20" width="40" height="40" fill="#1D3557" opacity="0.3"/>
-  <circle cx="770" cy="40" r="18" fill="#E63946" opacity="0.3"/>
-  <polygon points="20,780 60,780 40,740" fill="#F4D35E" opacity="0.3"/>
-  <rect x="740" y="740" width="40" height="40" fill="#2A9D8F" opacity="0.3"/>
-
-  <!-- Small scattered shapes for texture -->
-  <circle cx="150" cy="150" r="6" fill="#E76F51" opacity="0.5"/>
-  <rect x="650" y="200" width="10" height="10" fill="#457B9D" opacity="0.5"/>
-  <circle cx="680" cy="680" r="8" fill="#A8DADC" opacity="0.5"/>
-  <rect x="100" y="600" width="12" height="12" fill="#E9C46A" opacity="0.5"/>
-  <circle cx="200" cy="700" r="5" fill="#6D2E46" opacity="0.5"/>
-  <rect x="600" y="100" width="8" height="8" fill="#000000" opacity="0.4"/>
-
-  <!-- Additional boundary shapes at overlap edges -->
-  <circle cx="260" cy="260" r="7" fill="#FFFFFF" opacity="0.7"/>
-  <circle cx="520" cy="220" r="6" fill="#DDA15E" opacity="0.7"/>
-  <rect x="610" y="500" width="14" height="14" fill="#E63946" opacity="0.4"/>
-  <circle cx="450" cy="560" r="9" fill="#1D3557" opacity="0.5"/>
+  <title>Moduli Space</title>
+  <rect x="0" y="0" width="800" height="800" fill="#1D3557" opacity="1.00"/>
+  <rect x="0" y="396" width="800" height="113" fill="#F4D35E" opacity="0.94"/>
+  <rect x="290" y="0" width="113" height="800" fill="#2A9D8F" opacity="0.97"/>
+  <rect x="0" y="0" width="290" height="396" fill="#FEFAE0" opacity="0.51"/>
+  <rect x="0" y="508" width="290" height="292" fill="#E76F51" opacity="0.57"/>
+  <rect x="311" y="417" width="71" height="71" fill="#F4D35E" opacity="1.00"/>
+  <circle cx="346" cy="452" r="100" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="2.2947476890899035"/>
+  <circle cx="346" cy="452" r="200" fill="none" opacity="1.00" stroke="#000000" stroke-width="2.051422194834171"/>
+  <circle cx="346" cy="452" r="300" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.9116365925948722"/>
+  <circle cx="737" cy="310" r="20" fill="#1D3557" opacity="0.91"/>
+  <circle cx="166" cy="1" r="17" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="281" cy="37" r="8" fill="#1D3557" opacity="0.67"/>
+  <circle cx="160" cy="341" r="10" fill="#F4D35E" opacity="0.86"/>
+  <circle cx="212" cy="75" r="15" fill="#F4D35E" opacity="0.92"/>
+  <circle cx="590" cy="218" r="9" fill="#E63946" opacity="0.95"/>
+  <circle cx="266" cy="423" r="8" fill="#E63946" opacity="0.73"/>
+  <circle cx="186" cy="371" r="9" fill="#E63946" opacity="0.67"/>
+  <circle cx="15" cy="147" r="20" fill="#E63946" opacity="0.73"/>
+  <circle cx="185" cy="46" r="11" fill="#E63946" opacity="0.85"/>
+  <circle cx="154" cy="498" r="12" fill="#E63946" opacity="0.99"/>
+  <circle cx="662" cy="421" r="8" fill="#1D3557" opacity="0.66"/>
 </svg>

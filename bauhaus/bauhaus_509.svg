@@ -1,39 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FFFFFF"/>
-  <!-- Subtle grid lines -->
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
-  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
-  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
-  <!-- Large overlapping rotated rectangles -->
-  <rect x="80" y="100" width="400" height="300" fill="#1D3557" opacity="0.55" transform="rotate(12 280 250)"/>
-  <rect x="250" y="200" width="380" height="280" fill="#E63946" opacity="0.5" transform="rotate(-8 440 340)"/>
-  <rect x="150" y="350" width="350" height="250" fill="#FEFAE0" opacity="0.7" transform="rotate(18 325 475)"/>
-  <rect x="350" y="80" width="320" height="350" fill="#457B9D" opacity="0.5" transform="rotate(-15 510 255)"/>
-  <rect x="100" y="450" width="450" height="220" fill="#1D3557" opacity="0.45" transform="rotate(10 325 560)"/>
-  <rect x="400" y="400" width="300" height="300" fill="#E63946" opacity="0.5" transform="rotate(-20 550 550)"/>
-  <rect x="50" y="50" width="250" height="200" fill="#FEFAE0" opacity="0.6" transform="rotate(25 175 150)"/>
-  <rect x="500" y="500" width="250" height="200" fill="#457B9D" opacity="0.55" transform="rotate(15 625 600)"/>
-  <!-- Thin orange accent lines -->
-  <line x1="100" y1="50" x2="700" y2="150" stroke="#E76F51" stroke-width="1.5" opacity="0.7"/>
-  <line x1="50" y1="400" x2="750" y2="350" stroke="#E76F51" stroke-width="1" opacity="0.6"/>
-  <line x1="200" y1="700" x2="650" y2="600" stroke="#E76F51" stroke-width="1.5" opacity="0.65"/>
-  <line x1="500" y1="50" x2="600" y2="750" stroke="#E76F51" stroke-width="0.8" opacity="0.5"/>
-  <!-- Small black squares at corners of planes -->
-  <rect x="78" y="98" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(12 83 103)"/>
-  <rect x="248" y="198" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(-8 253 203)"/>
-  <rect x="620" y="470" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(-8 625 475)"/>
-  <rect x="148" y="348" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(18 153 353)"/>
-  <rect x="660" y="420" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(-15 665 425)"/>
-  <rect x="98" y="448" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(10 103 453)"/>
-  <rect x="690" y="690" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(-20 695 695)"/>
-  <rect x="48" y="48" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(25 53 53)"/>
-  <rect x="740" y="690" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(15 745 695)"/>
-  <!-- Additional small accent squares -->
-  <rect x="350" y="200" width="8" height="8" fill="#000000" opacity="0.6"/>
-  <rect x="550" y="550" width="8" height="8" fill="#000000" opacity="0.6"/>
-  <rect x="180" y="600" width="8" height="8" fill="#000000" opacity="0.6"/>
+  <title>Antiphase Domain</title>
+  <rect x="0" y="0" width="800" height="800" fill="#457B9D" opacity="1.00"/>
+  <circle cx="191" cy="223" r="296" fill="#2A9D8F" opacity="0.68"/>
+  <circle cx="699" cy="369" r="268" fill="#FFFFFF" opacity="0.56"/>
+  <circle cx="461" cy="205" r="113" fill="#F4D35E" opacity="0.43"/>
+  <circle cx="327" cy="498" r="269" fill="#6D2E46" opacity="0.39"/>
+  <circle cx="243" cy="143" r="255" fill="#6D2E46" opacity="0.33"/>
+  <circle cx="241" cy="320" r="287" fill="#E76F51" opacity="0.50"/>
+  <circle cx="612" cy="333" r="147" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="3.9337926454738703"/>
+  <circle cx="326" cy="645" r="120" fill="none" opacity="1.00" stroke="#000000" stroke-width="3.761270575592538"/>
+  <circle cx="426" cy="381" r="81" fill="none" opacity="1.00" stroke="#000000" stroke-width="1.2228553617520654"/>
+  <circle cx="224" cy="154" r="7" fill="#1D3557" opacity="0.76"/>
+  <circle cx="92" cy="428" r="16" fill="#F4D35E" opacity="0.70"/>
+  <circle cx="691" cy="792" r="12" fill="#1D3557" opacity="0.77"/>
+  <circle cx="387" cy="172" r="16" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="693" cy="661" r="11" fill="#E63946" opacity="0.92"/>
+  <circle cx="503" cy="500" r="5" fill="#1D3557" opacity="0.97"/>
+  <circle cx="785" cy="437" r="13" fill="#F4D35E" opacity="0.90"/>
+  <circle cx="70" cy="50" r="16" fill="#1D3557" opacity="0.88"/>
+  <circle cx="81" cy="757" r="3" fill="#F4D35E" opacity="0.79"/>
+  <circle cx="381" cy="135" r="8" fill="#F4D35E" opacity="0.98"/>
+  <circle cx="719" cy="120" r="5" fill="#1D3557" opacity="0.74"/>
+  <circle cx="214" cy="94" r="17" fill="#F4D35E" opacity="0.76"/>
+  <circle cx="201" cy="604" r="13" fill="#1D3557" opacity="0.77"/>
+  <circle cx="326" cy="78" r="18" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="318" cy="238" r="8" fill="#1D3557" opacity="0.89"/>
+  <circle cx="324" cy="615" r="9" fill="#1D3557" opacity="0.96"/>
+  <circle cx="249" cy="644" r="3" fill="#F4D35E" opacity="0.91"/>
+  <circle cx="591" cy="239" r="9" fill="#E63946" opacity="0.91"/>
+  <circle cx="748" cy="292" r="7" fill="#E63946" opacity="0.89"/>
+  <circle cx="271" cy="480" r="10" fill="#F4D35E" opacity="0.82"/>
+  <circle cx="214" cy="186" r="7" fill="#F4D35E" opacity="0.80"/>
+  <circle cx="289" cy="240" r="4" fill="#1D3557" opacity="0.74"/>
+  <circle cx="287" cy="316" r="18" fill="#1D3557" opacity="0.90"/>
+  <line x1="519" y1="594" x2="11" y2="33" stroke="#000000" stroke-width="1.4517577079585589" opacity="0.20"/>
+  <line x1="299" y1="241" x2="194" y2="353" stroke="#000000" stroke-width="2.1660800134116487" opacity="0.20"/>
+  <line x1="393" y1="216" x2="16" y2="776" stroke="#000000" stroke-width="1.868843330165329" opacity="0.20"/>
 </svg>

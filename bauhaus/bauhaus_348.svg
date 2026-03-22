@@ -1,53 +1,71 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Cream background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-  <!-- Black ground plane at bottom -->
-  <rect x="0" y="650" width="800" height="150" fill="#000000"/>
-  <!-- Flanking walls - left -->
-  <rect x="50" y="200" width="120" height="450" fill="#E76F51" opacity="0.85"/>
-  <rect x="0" y="250" width="60" height="400" fill="#6D2E46" opacity="0.7"/>
-  <!-- Flanking walls - right -->
-  <rect x="630" y="200" width="120" height="450" fill="#6D2E46" opacity="0.85"/>
-  <rect x="740" y="250" width="60" height="400" fill="#E76F51" opacity="0.7"/>
-  <!-- Sand-colored fill inside arch area -->
-  <rect x="170" y="300" width="460" height="350" fill="#DDA15E" opacity="0.1"/>
-  <!-- The Archway - deep blue -->
-  <path d="M 220 650 L 220 350 A 180 180 0 0 1 580 350 L 580 650" fill="none" stroke="#1D3557" stroke-width="8"/>
-  <!-- Inner arch echo -->
-  <path d="M 260 650 L 260 370 A 140 140 0 0 1 540 370 L 540 650" fill="none" stroke="#457B9D" stroke-width="3" opacity="0.5"/>
-  <!-- Interior scene under arch - yellow rectangles -->
-  <rect x="300" y="520" width="60" height="130" fill="#F4D35E" opacity="0.8"/>
-  <rect x="420" y="550" width="80" height="100" fill="#F4D35E" opacity="0.6"/>
-  <rect x="350" y="580" width="40" height="70" fill="#E9C46A" opacity="0.7"/>
-  <!-- Interior - red circles -->
-  <circle cx="400" cy="480" r="25" fill="#E63946" opacity="0.8"/>
-  <circle cx="320" cy="550" r="12" fill="#E63946" opacity="0.6"/>
-  <circle cx="480" cy="520" r="15" fill="#E63946" opacity="0.7"/>
-  <!-- Interior - teal triangles -->
-  <polygon points="370,600 355,640 385,640" fill="#2A9D8F" opacity="0.8"/>
-  <polygon points="450,570 438,600 462,600" fill="#2A9D8F" opacity="0.7"/>
-  <polygon points="280,590 268,620 292,620" fill="#2A9D8F" opacity="0.65"/>
-  <!-- Above arch - open cream space with forest dots -->
-  <circle cx="300" cy="180" r="4" fill="#264653" opacity="0.7"/>
-  <circle cx="350" cy="150" r="3" fill="#264653" opacity="0.6"/>
-  <circle cx="420" cy="130" r="5" fill="#264653" opacity="0.7"/>
-  <circle cx="480" cy="160" r="3" fill="#264653" opacity="0.5"/>
-  <circle cx="530" cy="140" r="4" fill="#264653" opacity="0.65"/>
-  <circle cx="250" cy="160" r="3" fill="#264653" opacity="0.55"/>
-  <circle cx="400" cy="100" r="4" fill="#264653" opacity="0.6"/>
-  <circle cx="550" cy="120" r="3" fill="#264653" opacity="0.5"/>
-  <circle cx="200" cy="120" r="3" fill="#264653" opacity="0.45"/>
-  <circle cx="600" cy="150" r="4" fill="#264653" opacity="0.5"/>
-  <circle cx="460" cy="80" r="3" fill="#264653" opacity="0.4"/>
-  <circle cx="330" cy="100" r="2" fill="#264653" opacity="0.5"/>
-  <!-- Steel blue accent lines -->
-  <line x1="170" y1="650" x2="630" y2="650" stroke="#457B9D" stroke-width="2" opacity="0.6"/>
-  <line x1="200" y1="200" x2="600" y2="200" stroke="#457B9D" stroke-width="1" opacity="0.4"/>
-  <line x1="400" y1="170" x2="400" y2="200" stroke="#457B9D" stroke-width="1" opacity="0.3"/>
-  <!-- Keystone accent at top of arch -->
-  <polygon points="400,170 390,190 410,190" fill="#1D3557" opacity="0.8"/>
-  <!-- Small accent shapes on ground plane -->
-  <rect x="100" y="680" width="20" height="20" fill="#FFFFFF" opacity="0.3"/>
-  <rect x="680" y="700" width="15" height="15" fill="#FFFFFF" opacity="0.25"/>
-  <circle cx="400" cy="700" r="8" fill="#A89F91" opacity="0.4"/>
+  <title>Watchtower Grid</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="50" y1="0" x2="50" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="150" y1="0" x2="150" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="250" y1="0" x2="250" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="350" y1="0" x2="350" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="450" y1="0" x2="450" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="550" y1="0" x2="550" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="650" y1="0" x2="650" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="750" y1="0" x2="750" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="50" x2="800" y2="50" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="150" x2="800" y2="150" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="250" x2="800" y2="250" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="350" x2="800" y2="350" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="450" x2="800" y2="450" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="550" x2="800" y2="550" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="650" x2="800" y2="650" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="750" x2="800" y2="750" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <polygon points="640.0,434.0 621.7435120963642,454.0268840560683 629.5026999976565,479.9916763464612 604.3648334221227,490.114082167286 600.0899189970257,516.8741371416112 573.0495365205802,515.0871981112177 557.5872189993694,537.3423586912733 534.0,524.0 510.4127810006307,537.3423586912733 494.9504634794198,515.0871981112177 467.9100810029742,516.8741371416111 463.6351665778773,490.114082167286 438.4973000023436,479.9916763464612 446.25648790363584,454.0268840560683 428.0,434.0 446.25648790363584,413.9731159439317 438.49730000234354,388.00832365353887 463.6351665778773,377.885917832714 467.9100810029742,351.12586285838887 494.95046347941974,352.91280188878227 510.41278100063073,330.6576413087267 534.0,344.0 557.5872189993693,330.6576413087267 573.0495365205802,352.91280188878227 600.0899189970257,351.1258628583888 604.3648334221227,377.885917832714 629.5026999976565,388.0083236535388 621.7435120963642,413.97311594393176" fill="#E63946" opacity="0.70"/>
+  <circle cx="534" cy="434" r="80" fill="#FFFFFF" opacity="1.00"/>
+  <circle cx="534" cy="434" r="13" fill="#E63946" opacity="1.00"/>
+  <line x1="599" y1="706" x2="559" y2="688" stroke="#264653" stroke-width="18.49692748914779" opacity="0.70"/>
+  <circle cx="599" cy="706" r="12" fill="#F4D35E" opacity="1.00"/>
+  <circle cx="559" cy="688" r="5" fill="#1D3557" opacity="1.00"/>
+  <line x1="84" y1="155" x2="343" y2="158" stroke="#264653" stroke-width="15.670808515236223" opacity="0.99"/>
+  <circle cx="84" cy="155" r="7" fill="#1D3557" opacity="1.00"/>
+  <circle cx="343" cy="158" r="10" fill="#1D3557" opacity="1.00"/>
+  <line x1="279" y1="672" x2="532" y2="668" stroke="#A89F91" stroke-width="12.35284372456796" opacity="1.00"/>
+  <circle cx="279" cy="672" r="9" fill="#1D3557" opacity="1.00"/>
+  <circle cx="532" cy="668" r="7" fill="#E63946" opacity="1.00"/>
+  <circle cx="73" cy="104" r="9" fill="#A89F91" opacity="1.00"/>
+  <circle cx="73" cy="272" r="9" fill="#000000" opacity="1.00"/>
+  <circle cx="73" cy="440" r="4" fill="#000000" opacity="1.00"/>
+  <circle cx="73" cy="608" r="8" fill="#A89F91" opacity="1.00"/>
+  <circle cx="187" cy="92" r="6" fill="#000000" opacity="1.00"/>
+  <circle cx="187" cy="674" r="10" fill="#A89F91" opacity="1.00"/>
+  <circle cx="301" cy="79" r="7" fill="#A89F91" opacity="1.00"/>
+  <circle cx="301" cy="401" r="8" fill="#000000" opacity="1.00"/>
+  <circle cx="301" cy="562" r="6" fill="#A89F91" opacity="1.00"/>
+  <circle cx="415" cy="110" r="10" fill="#000000" opacity="1.00"/>
+  <circle cx="415" cy="233" r="8" fill="#000000" opacity="1.00"/>
+  <circle cx="415" cy="479" r="7" fill="#A89F91" opacity="1.00"/>
+  <circle cx="415" cy="602" r="6" fill="#A89F91" opacity="1.00"/>
+  <circle cx="529" cy="476" r="8" fill="#A89F91" opacity="1.00"/>
+  <circle cx="529" cy="651" r="7" fill="#000000" opacity="1.00"/>
+  <circle cx="643" cy="237" r="8" fill="#A89F91" opacity="1.00"/>
+  <circle cx="643" cy="344" r="5" fill="#A89F91" opacity="1.00"/>
+  <circle cx="643" cy="772" r="4" fill="#000000" opacity="1.00"/>
+  <circle cx="757" cy="290" r="4" fill="#A89F91" opacity="1.00"/>
+  <circle cx="757" cy="626" r="9" fill="#A89F91" opacity="1.00"/>
+  <circle cx="757" cy="794" r="7" fill="#A89F91" opacity="1.00"/>
 </svg>

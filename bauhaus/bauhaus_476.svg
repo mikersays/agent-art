@@ -1,61 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background: forest green -->
-  <rect x="0" y="0" width="800" height="800" fill="#264653"/>
-  <!-- Steel blue sky elements -->
-  <rect x="0" y="0" width="800" height="180" fill="#457B9D" opacity="0.4"/>
-  <rect x="0" y="0" width="400" height="90" fill="#457B9D" opacity="0.25"/>
-  <rect x="500" y="40" width="300" height="60" fill="#A8DADC" opacity="0.2"/>
-  <!-- Warm gray ground -->
-  <rect x="0" y="680" width="800" height="120" fill="#A89F91"/>
-  <rect x="0" y="660" width="800" height="30" fill="#A89F91" opacity="0.5"/>
-  <!-- Flag 1: Red flag with diagonal split and circle -->
-  <line x1="120" y1="150" x2="120" y2="680" stroke="#000000" stroke-width="2.5"/>
-  <rect x="125" y="170" width="130" height="95" fill="#E63946"/>
-  <polygon points="125,170 255,170 255,265" fill="#F4D35E" opacity="0.6"/>
-  <circle cx="190" cy="220" r="18" fill="#FFFFFF" opacity="0.7"/>
-  <circle cx="120" cy="165" r="6" fill="#FFFFFF"/>
-  <!-- Flag 2: Blue flag with stripes -->
-  <line x1="260" y1="200" x2="260" y2="680" stroke="#000000" stroke-width="2"/>
-  <rect x="265" y="220" width="120" height="100" fill="#1D3557"/>
-  <rect x="265" y="245" width="120" height="12" fill="#FFFFFF" opacity="0.5"/>
-  <rect x="265" y="270" width="120" height="12" fill="#F4D35E" opacity="0.6"/>
-  <rect x="265" y="295" width="120" height="12" fill="#FFFFFF" opacity="0.4"/>
-  <circle cx="260" cy="215" r="5.5" fill="#FFFFFF"/>
-  <!-- Flag 3: Yellow flag with circle and diagonal -->
-  <line x1="430" y1="120" x2="430" y2="680" stroke="#000000" stroke-width="3"/>
-  <rect x="435" y="140" width="140" height="110" fill="#F4D35E"/>
-  <polygon points="435,140 575,250 435,250" fill="#E63946" opacity="0.55"/>
-  <circle cx="505" cy="185" r="22" fill="#1D3557" opacity="0.7"/>
-  <circle cx="505" cy="185" r="10" fill="#F4D35E"/>
-  <circle cx="430" cy="135" r="6" fill="#FFFFFF"/>
-  <!-- Flag 4: Teal flag with geometric subdivisions -->
-  <line x1="580" y1="180" x2="580" y2="680" stroke="#000000" stroke-width="2.5"/>
-  <rect x="460" y="195" width="115" height="90" fill="#2A9D8F"/>
-  <rect x="460" y="195" width="57" height="45" fill="#FFFFFF" opacity="0.35"/>
-  <rect x="517" y="240" width="58" height="45" fill="#000000" opacity="0.3"/>
-  <circle cx="500" cy="240" r="14" fill="#E76F51" opacity="0.8"/>
-  <circle cx="580" cy="175" r="5.5" fill="#FFFFFF"/>
-  <!-- Flag 5: Orange flag with stripes and circle -->
-  <line x1="680" y1="230" x2="680" y2="680" stroke="#000000" stroke-width="2"/>
-  <rect x="685" y="250" width="100" height="80" fill="#E76F51"/>
-  <line x1="685" y1="265" x2="785" y2="265" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
-  <line x1="685" y1="290" x2="785" y2="290" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
-  <circle cx="735" cy="290" r="16" fill="#F4D35E" opacity="0.75"/>
-  <circle cx="680" cy="245" r="5" fill="#FFFFFF"/>
-  <!-- Small accent flag: burgundy pennant -->
-  <line x1="50" y1="300" x2="50" y2="680" stroke="#000000" stroke-width="1.5"/>
-  <polygon points="55,320 110,345 55,370" fill="#6D2E46"/>
-  <circle cx="50" cy="315" r="4.5" fill="#FFFFFF"/>
-  <!-- Ground texture details -->
-  <rect x="80" y="700" width="60" height="8" fill="#264653" opacity="0.3"/>
-  <rect x="300" y="710" width="90" height="6" fill="#264653" opacity="0.25"/>
-  <rect x="550" y="695" width="70" height="10" fill="#264653" opacity="0.2"/>
-  <!-- Decorative elements -->
-  <circle cx="350" cy="500" r="8" fill="#F4D35E" opacity="0.3"/>
-  <circle cx="620" cy="450" r="6" fill="#E63946" opacity="0.25"/>
-  <rect x="200" y="400" width="20" height="20" fill="#2A9D8F" opacity="0.2"/>
-  <line x1="0" y1="680" x2="800" y2="680" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
-  <!-- Thin structural lines -->
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <title>Lattice Points</title>
+  <rect x="0" y="0" width="800" height="800" fill="#000000" opacity="1.00"/>
+  <circle cx="218" cy="425" r="455" fill="#E9C46A" opacity="0.65"/>
+  <circle cx="218" cy="425" r="540" fill="#2A9D8F" opacity="0.82"/>
+  <circle cx="218" cy="425" r="352" fill="#E9C46A" opacity="0.52"/>
+  <circle cx="218" cy="425" r="380" fill="#2A9D8F" opacity="1.00"/>
+  <circle cx="218" cy="425" r="396" fill="#FFFFFF" opacity="0.47"/>
+  <circle cx="218" cy="425" r="248" fill="#FFFFFF" opacity="0.54"/>
+  <circle cx="218" cy="425" r="308" fill="#E63946" opacity="0.63"/>
+  <circle cx="218" cy="425" r="204" fill="#A8DADC" opacity="0.72"/>
+  <circle cx="218" cy="425" r="140" fill="#FFFFFF" opacity="0.42"/>
+  <circle cx="218" cy="425" r="100" fill="#2A9D8F" opacity="0.99"/>
+  <circle cx="218" cy="425" r="123" fill="#E9C46A" opacity="0.41"/>
+  <circle cx="218" cy="425" r="66" fill="#2A9D8F" opacity="0.83"/>
+  <circle cx="218" cy="425" r="39" fill="#457B9D" opacity="0.58"/>
+  <line x1="218" y1="425" x2="598.0" y2="425.0" stroke="#000000" stroke-width="0.6482439276034112" opacity="0.10"/>
+  <line x1="218" y1="425" x2="517.4440863705543" y2="658.9513606237501" stroke="#000000" stroke-width="0.9758785252045422" opacity="0.10"/>
+  <line x1="218" y1="425" x2="309.9303203278737" y2="793.7123759848787" stroke="#000000" stroke-width="0.9501799684137702" opacity="0.10"/>
+  <line x1="218" y1="425" x2="63.440075631195896" y2="772.1472739041883" stroke="#000000" stroke-width="1.474944129051458" opacity="0.10"/>
+  <line x1="218" y1="425" x2="-117.52008528639226" y2="603.3991938586385" stroke="#000000" stroke-width="1.1879480435935648" opacity="0.10"/>
+  <line x1="218" y1="425" x2="-156.22694614463904" y2="359.0136924865664" stroke="#000000" stroke-width="1.1852267143903457" opacity="0.10"/>
+  <line x1="218" y1="425" x2="-36.269630416366084" y2="142.60496631859013" stroke="#000000" stroke-width="0.9608608332114096" opacity="0.10"/>
+  <line x1="218" y1="425" x2="191.49253997723227" y2="45.92566090126678" stroke="#000000" stroke-width="1.0483698444797287" opacity="0.10"/>
+  <line x1="218" y1="425" x2="430.4933033188839" y2="109.96572242908417" stroke="#000000" stroke-width="0.8637674799675263" opacity="0.10"/>
+  <line x1="218" y1="425" x2="579.4014761921583" y2="307.5735421375199" stroke="#000000" stroke-width="1.3716395630283849" opacity="0.10"/>
+  <circle cx="81" cy="290" r="8" fill="#1D3557" opacity="0.54"/>
+  <circle cx="385" cy="636" r="22" fill="#1D3557" opacity="0.52"/>
+  <circle cx="246" cy="139" r="15" fill="#E63946" opacity="0.81"/>
+  <circle cx="715" cy="397" r="5" fill="#E63946" opacity="0.88"/>
+  <circle cx="680" cy="775" r="11" fill="#F4D35E" opacity="0.74"/>
+  <circle cx="791" cy="528" r="7" fill="#1D3557" opacity="0.72"/>
+  <circle cx="439" cy="656" r="30" fill="#F4D35E" opacity="0.68"/>
+  <circle cx="252" cy="486" r="6" fill="#1D3557" opacity="0.43"/>
+  <circle cx="679" cy="254" r="26" fill="#E63946" opacity="0.63"/>
+  <circle cx="208" cy="221" r="26" fill="#1D3557" opacity="0.58"/>
+  <circle cx="610" cy="712" r="22" fill="#1D3557" opacity="0.48"/>
+  <circle cx="218" cy="305" r="30" fill="#E63946" opacity="0.55"/>
+  <rect x="0" y="751" width="49" height="49" fill="#A8DADC" opacity="1.00"/>
+  <rect x="0" y="0" width="40" height="40" fill="#A8DADC" opacity="1.00"/>
+  <rect x="0" y="773" width="27" height="27" fill="#E76F51" opacity="1.00"/>
+  <rect x="0" y="760" width="40" height="40" fill="#FFFFFF" opacity="1.00"/>
+  <circle cx="218" cy="425" r="488" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="2.780248845055663"/>
+  <circle cx="218" cy="425" r="510" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.212320728487344"/>
+  <circle cx="218" cy="425" r="515" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.9035669335688787"/>
 </svg>

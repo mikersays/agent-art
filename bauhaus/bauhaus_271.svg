@@ -1,71 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FEFAE0"/>
-  <!-- Background grid lines at low opacity -->
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <!-- Large dominant triangle 1 - Blue -->
-  <polygon points="120,680 520,680 320,280" fill="#1D3557" opacity="0.85"/>
-  <!-- Large dominant triangle 2 - Red -->
-  <polygon points="380,150 750,550 480,600" fill="#E63946" opacity="0.7"/>
-  <!-- Medium triangle - Yellow -->
-  <polygon points="50,100 250,100 150,300" fill="#F4D35E" opacity="0.8"/>
-  <!-- Medium triangle - Teal pointing down -->
-  <polygon points="550,120 700,120 625,300" fill="#2A9D8F" opacity="0.65"/>
-  <!-- Medium triangle - Orange -->
-  <polygon points="600,500 780,700 500,680" fill="#E76F51" opacity="0.7"/>
-  <!-- Outlined triangle 1 -->
-  <polygon points="200,350 400,350 300,180" fill="none" stroke="#000000" stroke-width="2.5" opacity="0.6"/>
-  <!-- Outlined triangle 2 -->
-  <polygon points="450,400 650,550 400,580" fill="none" stroke="#E63946" stroke-width="2" opacity="0.5"/>
-  <!-- Small triangles cluster - top right -->
-  <polygon points="620,60 660,60 640,25" fill="#F4D35E" opacity="0.9"/>
-  <polygon points="680,80 720,80 700,45" fill="#E63946" opacity="0.8"/>
-  <polygon points="710,50 740,50 725,20" fill="#1D3557" opacity="0.7"/>
-  <!-- Small triangles - left side -->
-  <polygon points="30,400 70,400 50,360" fill="#2A9D8F" opacity="0.8"/>
-  <polygon points="60,480 100,480 80,440" fill="#E63946" opacity="0.7"/>
-  <polygon points="20,550 60,550 40,510" fill="#F4D35E" opacity="0.85"/>
-  <!-- Small inverted triangles -->
-  <polygon points="300,600 340,600 320,640" fill="#000000" opacity="0.6"/>
-  <polygon points="500,300 530,300 515,340" fill="#E76F51" opacity="0.75"/>
-  <polygon points="160,500 190,500 175,540" fill="#1D3557" opacity="0.7"/>
-  <!-- Tiny accent triangles scattered -->
-  <polygon points="740,350 760,350 750,330" fill="#E63946" opacity="0.9"/>
-  <polygon points="100,700 120,700 110,680" fill="#2A9D8F" opacity="0.8"/>
-  <polygon points="400,100 420,100 410,80" fill="#000000" opacity="0.5"/>
-  <polygon points="550,750 570,750 560,730" fill="#F4D35E" opacity="0.85"/>
-  <polygon points="700,650 720,650 710,630" fill="#1D3557" opacity="0.7"/>
-  <!-- Medium outlined triangle - bottom left -->
-  <polygon points="30,750 180,750 105,620" fill="none" stroke="#1D3557" stroke-width="2" opacity="0.5"/>
-  <!-- Filled triangle overlapping -->
-  <polygon points="250,450 380,520 270,560" fill="#F4D35E" opacity="0.5"/>
-  <!-- Right-pointing triangles -->
-  <polygon points="650,400 650,450 700,425" fill="#E63946" opacity="0.8"/>
-  <polygon points="680,300 680,340 720,320" fill="#000000" opacity="0.6"/>
-  <!-- Left-pointing triangles -->
-  <polygon points="180,200 180,240 140,220" fill="#2A9D8F" opacity="0.75"/>
-  <polygon points="350,700 350,740 310,720" fill="#E76F51" opacity="0.7"/>
-  <!-- Large background outlined triangle -->
-  <polygon points="100,50 700,750 50,700" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
-  <!-- Overlapping medium triangle -->
-  <polygon points="450,200 580,350 400,320" fill="#1D3557" opacity="0.35"/>
-  <!-- Small black accent triangles -->
-  <polygon points="520,620 550,620 535,590" fill="#000000" opacity="0.7"/>
-  <polygon points="760,200 790,200 775,170" fill="#000000" opacity="0.5"/>
-  <!-- Corner accent shapes -->
-  <polygon points="10,10 40,10 25,40" fill="#E63946" opacity="0.6"/>
-  <polygon points="760,760 790,760 775,790" fill="#1D3557" opacity="0.6"/>
-  <polygon points="760,10 790,10 775,40" fill="#F4D35E" opacity="0.5"/>
-  <polygon points="10,760 40,760 25,790" fill="#2A9D8F" opacity="0.5"/>
-  <!-- Additional scattered small triangles for density -->
-  <polygon points="480,480 510,480 495,450" fill="#E63946" opacity="0.55"/>
-  <polygon points="220,650 250,650 235,620" fill="#F4D35E" opacity="0.6"/>
-  <polygon points="600,180 625,180 612,155" fill="#E76F51" opacity="0.65"/>
-  <polygon points="340,380 360,380 350,355" fill="#2A9D8F" opacity="0.7"/>
-  <polygon points="130,150 150,150 140,125" fill="#000000" opacity="0.45"/>
+  <title>Broken Circle</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0" opacity="1.00"/>
+  <rect x="0" y="0" width="800" height="11" fill="#1D3557" opacity="0.82"/>
+  <rect x="0" y="34" width="800" height="17" fill="#000000" opacity="0.36"/>
+  <rect x="0" y="68" width="800" height="3" fill="#000000" opacity="0.36"/>
+  <rect x="0" y="102" width="800" height="8" fill="#1D3557" opacity="0.98"/>
+  <rect x="0" y="136" width="800" height="31" fill="#000000" opacity="0.54"/>
+  <rect x="0" y="170" width="800" height="2" fill="#000000" opacity="0.35"/>
+  <rect x="0" y="204" width="800" height="15" fill="#1D3557" opacity="0.87"/>
+  <rect x="0" y="238" width="800" height="24" fill="#000000" opacity="0.32"/>
+  <rect x="0" y="272" width="800" height="18" fill="#000000" opacity="0.41"/>
+  <rect x="0" y="306" width="800" height="5" fill="#000000" opacity="0.56"/>
+  <rect x="0" y="340" width="800" height="25" fill="#FEFAE0" opacity="0.35"/>
+  <rect x="0" y="374" width="800" height="32" fill="#000000" opacity="0.44"/>
+  <rect x="0" y="408" width="800" height="26" fill="#FEFAE0" opacity="0.51"/>
+  <rect x="0" y="442" width="800" height="23" fill="#000000" opacity="0.63"/>
+  <rect x="0" y="476" width="800" height="31" fill="#1D3557" opacity="0.83"/>
+  <rect x="0" y="510" width="800" height="19" fill="#000000" opacity="0.52"/>
+  <rect x="0" y="544" width="800" height="13" fill="#FEFAE0" opacity="0.34"/>
+  <rect x="0" y="578" width="800" height="17" fill="#FEFAE0" opacity="0.58"/>
+  <rect x="0" y="612" width="800" height="28" fill="#1D3557" opacity="0.83"/>
+  <rect x="0" y="646" width="800" height="5" fill="#FEFAE0" opacity="0.45"/>
+  <rect x="0" y="680" width="800" height="28" fill="#1D3557" opacity="0.78"/>
+  <rect x="0" y="714" width="800" height="24" fill="#FEFAE0" opacity="0.57"/>
+  <rect x="0" y="748" width="800" height="22" fill="#000000" opacity="0.45"/>
+  <line x1="0" y1="529" x2="800" y2="529" stroke="#000000" stroke-width="4.835883448868183" opacity="1.00"/>
+  <line x1="0" y1="252" x2="800" y2="252" stroke="#000000" stroke-width="5.955355868309795" opacity="1.00"/>
+  <line x1="0" y1="61" x2="800" y2="61" stroke="#000000" stroke-width="3.7567596410758597" opacity="1.00"/>
+  <line x1="0" y1="337" x2="800" y2="337" stroke="#000000" stroke-width="3.8373320616775173" opacity="1.00"/>
+  <line x1="0" y1="262" x2="800" y2="262" stroke="#FFFFFF" stroke-width="6.868665296944394" opacity="1.00"/>
+  <line x1="211" y1="0" x2="211" y2="800" stroke="#E63946" stroke-width="2.530588256024252" opacity="0.47"/>
+  <line x1="757" y1="0" x2="757" y2="800" stroke="#E63946" stroke-width="3.1212119176461552" opacity="0.44"/>
+  <line x1="494" y1="0" x2="494" y2="800" stroke="#1D3557" stroke-width="5.2422619055792605" opacity="0.78"/>
+  <line x1="383" y1="0" x2="383" y2="800" stroke="#F4D35E" stroke-width="2.0917203829523503" opacity="0.63"/>
+  <line x1="278" y1="0" x2="278" y2="800" stroke="#F4D35E" stroke-width="4.337503461490305" opacity="0.76"/>
+  <line x1="626" y1="0" x2="626" y2="800" stroke="#E63946" stroke-width="3.4996739921506737" opacity="0.43"/>
+  <line x1="593" y1="0" x2="593" y2="800" stroke="#E63946" stroke-width="2.5912183131460864" opacity="0.53"/>
+  <circle cx="703" cy="759" r="14" fill="#F4D35E" opacity="0.80"/>
+  <circle cx="612" cy="63" r="5" fill="#F4D35E" opacity="0.81"/>
+  <circle cx="364" cy="489" r="18" fill="#1D3557" opacity="0.86"/>
+  <circle cx="262" cy="128" r="6" fill="#E63946" opacity="0.96"/>
+  <circle cx="365" cy="108" r="15" fill="#F4D35E" opacity="0.91"/>
 </svg>

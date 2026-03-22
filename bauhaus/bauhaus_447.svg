@@ -1,74 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background: Dark industrial -->
-  <rect width="800" height="800" fill="#1a1a1a"/>
-
-  <!-- Heavy horizontal bars -->
-  <rect x="0" y="60" width="800" height="18" fill="#457B9D" opacity="0.8"/>
-  <rect x="0" y="720" width="800" height="18" fill="#457B9D" opacity="0.8"/>
-  <rect x="0" y="390" width="800" height="12" fill="#A89F91" opacity="0.5"/>
-
-  <!-- Heavy vertical bars -->
-  <rect x="60" y="0" width="18" height="800" fill="#457B9D" opacity="0.8"/>
-  <rect x="722" y="0" width="18" height="800" fill="#457B9D" opacity="0.8"/>
-  <rect x="395" y="0" width="10" height="800" fill="#A89F91" opacity="0.4"/>
-
-  <!-- Large gear-like circles with crosshairs -->
-  <!-- Gear 1: top-left quadrant -->
-  <circle cx="220" cy="230" r="120" fill="#2a2a2a" stroke="#A89F91" stroke-width="6"/>
-  <circle cx="220" cy="230" r="90" fill="none" stroke="#457B9D" stroke-width="3"/>
-  <circle cx="220" cy="230" r="55" fill="#333333" stroke="#A89F91" stroke-width="4"/>
-  <circle cx="220" cy="230" r="20" fill="#A89F91"/>
-  <!-- Crosshair lines through gear 1 -->
-  <line x1="100" y1="230" x2="340" y2="230" stroke="#A89F91" stroke-width="3"/>
-  <line x1="220" y1="110" x2="220" y2="350" stroke="#A89F91" stroke-width="3"/>
-  <!-- Gear teeth suggestions -->
-  <rect x="212" y="100" width="16" height="20" fill="#457B9D"/>
-  <rect x="212" y="340" width="16" height="20" fill="#457B9D"/>
-  <rect x="98" y="222" width="20" height="16" fill="#457B9D"/>
-  <rect x="340" y="222" width="20" height="16" fill="#457B9D"/>
-
-  <!-- Gear 2: bottom-right quadrant -->
-  <circle cx="580" cy="570" r="140" fill="#2a2a2a" stroke="#A89F91" stroke-width="6"/>
-  <circle cx="580" cy="570" r="105" fill="none" stroke="#457B9D" stroke-width="3"/>
-  <circle cx="580" cy="570" r="65" fill="#333333" stroke="#A89F91" stroke-width="4"/>
-  <circle cx="580" cy="570" r="25" fill="#A89F91"/>
-  <!-- Crosshair lines through gear 2 -->
-  <line x1="438" y1="570" x2="722" y2="570" stroke="#A89F91" stroke-width="3"/>
-  <line x1="580" y1="428" x2="580" y2="712" stroke="#A89F91" stroke-width="3"/>
-  <!-- Gear teeth -->
-  <rect x="572" y="420" width="16" height="22" fill="#457B9D"/>
-  <rect x="572" y="712" width="16" height="22" fill="#457B9D"/>
-  <rect x="436" y="562" width="22" height="16" fill="#457B9D"/>
-  <rect x="720" y="562" width="22" height="16" fill="#457B9D"/>
-
-  <!-- Thick rectangular bars (machine-like) -->
-  <rect x="330" y="100" width="140" height="30" fill="#A89F91" opacity="0.9"/>
-  <rect x="330" y="670" width="140" height="30" fill="#A89F91" opacity="0.9"/>
-  <rect x="100" y="430" width="30" height="120" fill="#A89F91" opacity="0.9"/>
-  <rect x="670" y="250" width="30" height="120" fill="#A89F91" opacity="0.9"/>
-
-  <!-- Warning/accent elements: Red -->
-  <rect x="330" y="60" width="140" height="22" fill="#E63946" opacity="0.9"/>
-  <rect x="338" y="62" width="14" height="18" fill="#F4D35E"/>
-  <rect x="360" y="62" width="14" height="18" fill="#F4D35E"/>
-  <rect x="382" y="62" width="14" height="18" fill="#F4D35E"/>
-  <rect x="404" y="62" width="14" height="18" fill="#F4D35E"/>
-  <rect x="426" y="62" width="14" height="18" fill="#F4D35E"/>
-  <rect x="448" y="62" width="14" height="18" fill="#F4D35E"/>
-
-  <!-- Triangular brackets (structural) -->
-  <polygon points="130,130 160,130 130,160" fill="#E63946"/>
-  <polygon points="670,130 640,130 670,160" fill="#E63946"/>
-  <polygon points="130,670 160,670 130,640" fill="#E63946"/>
-  <polygon points="670,670 640,670 670,640" fill="#E63946"/>
-
-  <!-- Small yellow warning indicators -->
-  <circle cx="400" cy="400" r="18" fill="#F4D35E"/>
-  <circle cx="400" cy="400" r="10" fill="#1a1a1a"/>
-  <circle cx="400" cy="400" r="4" fill="#F4D35E"/>
-
-  <!-- Connecting rods/bars -->
-  <rect x="340" y="225" width="130" height="10" fill="#457B9D" opacity="0.7"/>
-  <rect x="435" y="225" width="10" height="150" fill="#457B9D" opacity="0.7"/>
-  <rect x="340" y="565" width="10" height="-150" fill="#457B9D" opacity="0.7"/>
+  <title>Vector Field</title>
+  <rect x="0" y="0" width="800" height="800" fill="#1D3557" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#FEFAE0" stroke-width="1.9894205563840277" opacity="0.10"/>
+  <line x1="80" y1="0" x2="80" y2="800" stroke="#E9C46A" stroke-width="1.0920135321863977" opacity="0.10"/>
+  <line x1="160" y1="0" x2="160" y2="800" stroke="#2A9D8F" stroke-width="1.0442372909487587" opacity="0.10"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#FFFFFF" stroke-width="1.8135213580789706" opacity="0.10"/>
+  <line x1="320" y1="0" x2="320" y2="800" stroke="#FFFFFF" stroke-width="0.9054382540292325" opacity="0.10"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#E76F51" stroke-width="0.5421634366437014" opacity="0.10"/>
+  <line x1="480" y1="0" x2="480" y2="800" stroke="#2A9D8F" stroke-width="1.3315493632476056" opacity="0.10"/>
+  <line x1="560" y1="0" x2="560" y2="800" stroke="#E63946" stroke-width="0.7919379670130877" opacity="0.10"/>
+  <line x1="640" y1="0" x2="640" y2="800" stroke="#E63946" stroke-width="1.5685753857444027" opacity="0.10"/>
+  <line x1="720" y1="0" x2="720" y2="800" stroke="#E9C46A" stroke-width="1.2522964993988257" opacity="0.10"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#F4D35E" stroke-width="1.229819099001109" opacity="0.10"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#E9C46A" stroke-width="0.5510898473985535" opacity="0.10"/>
+  <line x1="0" y1="56" x2="800" y2="56" stroke="#A8DADC" stroke-width="1.1462852507981114" opacity="0.10"/>
+  <line x1="0" y1="112" x2="800" y2="112" stroke="#E9C46A" stroke-width="1.1725159108858612" opacity="0.10"/>
+  <line x1="0" y1="168" x2="800" y2="168" stroke="#A8DADC" stroke-width="1.1734150215083206" opacity="0.10"/>
+  <line x1="0" y1="224" x2="800" y2="224" stroke="#E63946" stroke-width="0.855183416343652" opacity="0.10"/>
+  <line x1="0" y1="280" x2="800" y2="280" stroke="#2A9D8F" stroke-width="1.7712196036472125" opacity="0.10"/>
+  <line x1="0" y1="336" x2="800" y2="336" stroke="#E9C46A" stroke-width="1.5867256488018615" opacity="0.10"/>
+  <line x1="0" y1="392" x2="800" y2="392" stroke="#A8DADC" stroke-width="1.244703257784228" opacity="0.10"/>
+  <line x1="0" y1="448" x2="800" y2="448" stroke="#2A9D8F" stroke-width="1.6593747680927349" opacity="0.10"/>
+  <line x1="0" y1="504" x2="800" y2="504" stroke="#F4D35E" stroke-width="0.8389229833736791" opacity="0.10"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#E76F51" stroke-width="1.5038500143979925" opacity="0.10"/>
+  <line x1="0" y1="616" x2="800" y2="616" stroke="#2A9D8F" stroke-width="1.4408965490770558" opacity="0.10"/>
+  <line x1="0" y1="672" x2="800" y2="672" stroke="#FFFFFF" stroke-width="1.1114624261341641" opacity="0.10"/>
+  <line x1="0" y1="728" x2="800" y2="728" stroke="#E76F51" stroke-width="1.2786966345544575" opacity="0.10"/>
+  <line x1="0" y1="784" x2="800" y2="784" stroke="#FEFAE0" stroke-width="0.9643047934606934" opacity="0.10"/>
+  <circle cx="572" cy="433" r="236" fill="#F4D35E" opacity="0.90"/>
+  <circle cx="572" cy="433" r="266" fill="none" opacity="1.00" stroke="#000000" stroke-width="2.911124636339376"/>
+  <circle cx="572" cy="433" r="296" fill="none" opacity="1.00" stroke="#000000" stroke-width="1.836171414394686"/>
+  <circle cx="572" cy="433" r="326" fill="none" opacity="1.00" stroke="#000000" stroke-width="1.8502550810642997"/>
+  <rect x="251" y="665" width="28" height="28" fill="#E9C46A" opacity="0.46"/>
+  <rect x="82" y="343" width="41" height="41" fill="#F4D35E" opacity="0.37"/>
+  <rect x="779" y="88" width="10" height="10" fill="#F4D35E" opacity="0.61"/>
+  <rect x="527" y="300" width="23" height="23" fill="#E63946" opacity="0.37"/>
+  <rect x="687" y="236" width="43" height="43" fill="#E76F51" opacity="0.50"/>
+  <rect x="163" y="423" width="14" height="14" fill="#F4D35E" opacity="0.56"/>
+  <rect x="602" y="279" width="33" height="33" fill="#A8DADC" opacity="0.63"/>
+  <rect x="65" y="112" width="12" height="12" fill="#E76F51" opacity="0.63"/>
+  <rect x="78" y="564" width="43" height="43" fill="#FEFAE0" opacity="0.44"/>
+  <rect x="494" y="526" width="19" height="19" fill="#A8DADC" opacity="0.64"/>
+  <rect x="229" y="541" width="46" height="46" fill="#A8DADC" opacity="0.48"/>
+  <rect x="735" y="643" width="39" height="39" fill="#F4D35E" opacity="0.70"/>
+  <rect x="237" y="431" width="16" height="16" fill="#E76F51" opacity="0.42"/>
+  <circle cx="244" cy="707" r="5" fill="#A8DADC" opacity="0.63"/>
+  <circle cx="268" cy="162" r="16" fill="#E76F51" opacity="0.42"/>
+  <circle cx="560" cy="692" r="7" fill="#FFFFFF" opacity="0.49"/>
+  <circle cx="54" cy="312" r="23" fill="#E76F51" opacity="0.64"/>
+  <circle cx="681" cy="345" r="9" fill="#FEFAE0" opacity="0.65"/>
+  <rect x="0" y="0" width="800" height="18" fill="#E63946" opacity="1.00"/>
+  <rect x="0" y="782" width="800" height="18" fill="#1D3557" opacity="1.00"/>
 </svg>

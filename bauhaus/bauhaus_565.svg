@@ -1,103 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Frame border -->
-  <rect x="40" y="40" width="720" height="720" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
-  <rect x="50" y="50" width="700" height="700" fill="none" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
-
-  <!-- Horizontal RED bars (weaving over/under) -->
-  <!-- Bar H1 -->
-  <rect x="60" y="120" width="680" height="45" fill="#E63946" opacity="0.75"/>
-  <!-- Bar H2 -->
-  <rect x="60" y="230" width="680" height="45" fill="#E63946" opacity="0.7"/>
-  <!-- Bar H3 -->
-  <rect x="60" y="340" width="680" height="45" fill="#E63946" opacity="0.75"/>
-  <!-- Bar H4 -->
-  <rect x="60" y="450" width="680" height="45" fill="#E63946" opacity="0.7"/>
-  <!-- Bar H5 -->
-  <rect x="60" y="560" width="680" height="45" fill="#E63946" opacity="0.75"/>
-  <!-- Bar H6 -->
-  <rect x="60" y="670" width="680" height="45" fill="#E63946" opacity="0.7"/>
-
-  <!-- Vertical BLUE bars (weaving - some segments on top) -->
-  <!-- Bar V1 - full under, segments over -->
-  <rect x="110" y="60" width="45" height="680" fill="#1D3557" opacity="0.7"/>
-  <!-- Over segments for V1 (over H2, H4, H6) -->
-  <rect x="108" y="228" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-  <rect x="108" y="448" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-  <rect x="108" y="668" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-
-  <!-- Bar V2 -->
-  <rect x="230" y="60" width="45" height="680" fill="#1D3557" opacity="0.7"/>
-  <!-- Over segments for V2 (over H1, H3, H5) -->
-  <rect x="228" y="118" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-  <rect x="228" y="338" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-  <rect x="228" y="558" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-
-  <!-- Bar V3 -->
-  <rect x="350" y="60" width="45" height="680" fill="#1D3557" opacity="0.7"/>
-  <!-- Over segments for V3 (over H2, H4, H6) -->
-  <rect x="348" y="228" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-  <rect x="348" y="448" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-  <rect x="348" y="668" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-
-  <!-- Bar V4 -->
-  <rect x="470" y="60" width="45" height="680" fill="#1D3557" opacity="0.7"/>
-  <!-- Over segments for V4 (over H1, H3, H5) -->
-  <rect x="468" y="118" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-  <rect x="468" y="338" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-  <rect x="468" y="558" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-
-  <!-- Bar V5 -->
-  <rect x="590" y="60" width="45" height="680" fill="#1D3557" opacity="0.7"/>
-  <!-- Over segments for V5 (over H2, H4, H6) -->
-  <rect x="588" y="228" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-  <rect x="588" y="448" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-  <rect x="588" y="668" width="49" height="49" fill="#1D3557" opacity="0.85"/>
-
-  <!-- Yellow circles at intersection points (checkerboard pattern) -->
-  <!-- Row 1 intersections (H1 with V2, V4) -->
-  <circle cx="252" cy="142" r="10" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="492" cy="142" r="10" fill="#F4D35E" opacity="0.9"/>
-  <!-- Row 1 intersections (H1 with V1, V3, V5) -->
-  <circle cx="132" cy="142" r="7" fill="#E9C46A" opacity="0.6"/>
-  <circle cx="372" cy="142" r="7" fill="#E9C46A" opacity="0.6"/>
-  <circle cx="612" cy="142" r="7" fill="#E9C46A" opacity="0.6"/>
-
-  <!-- Row 2 intersections -->
-  <circle cx="132" cy="252" r="10" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="372" cy="252" r="10" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="612" cy="252" r="10" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="252" cy="252" r="7" fill="#E9C46A" opacity="0.6"/>
-  <circle cx="492" cy="252" r="7" fill="#E9C46A" opacity="0.6"/>
-
-  <!-- Row 3 intersections -->
-  <circle cx="252" cy="362" r="10" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="492" cy="362" r="10" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="132" cy="362" r="7" fill="#E9C46A" opacity="0.6"/>
-  <circle cx="372" cy="362" r="7" fill="#E9C46A" opacity="0.6"/>
-  <circle cx="612" cy="362" r="7" fill="#E9C46A" opacity="0.6"/>
-
-  <!-- Row 4 intersections -->
-  <circle cx="132" cy="472" r="10" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="372" cy="472" r="10" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="612" cy="472" r="10" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="252" cy="472" r="7" fill="#E9C46A" opacity="0.6"/>
-  <circle cx="492" cy="472" r="7" fill="#E9C46A" opacity="0.6"/>
-
-  <!-- Row 5 intersections -->
-  <circle cx="252" cy="582" r="10" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="492" cy="582" r="10" fill="#F4D35E" opacity="0.9"/>
-
-  <!-- Row 6 intersections -->
-  <circle cx="132" cy="692" r="10" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="372" cy="692" r="10" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="612" cy="692" r="10" fill="#F4D35E" opacity="0.9"/>
-
-  <!-- Corner accent squares -->
-  <rect x="55" y="55" width="15" height="15" fill="#000000" opacity="0.25"/>
-  <rect x="730" y="55" width="15" height="15" fill="#000000" opacity="0.25"/>
-  <rect x="55" y="730" width="15" height="15" fill="#000000" opacity="0.25"/>
-  <rect x="730" y="730" width="15" height="15" fill="#000000" opacity="0.25"/>
+  <title>Universal Cover</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0" opacity="1.00"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <rect x="61" y="114" width="72" height="686" fill="#E76F51" opacity="0.86"/>
+  <rect x="61" y="114" width="72" height="8" fill="#1D3557" opacity="1.00"/>
+  <rect x="138" y="307" width="72" height="493" fill="#F4D35E" opacity="0.84"/>
+  <rect x="138" y="307" width="72" height="9" fill="#E63946" opacity="1.00"/>
+  <rect x="213" y="599" width="70" height="201" fill="#F4D35E" opacity="0.84"/>
+  <rect x="213" y="599" width="70" height="7" fill="#E63946" opacity="1.00"/>
+  <rect x="291" y="204" width="70" height="596" fill="#E63946" opacity="0.72"/>
+  <rect x="291" y="204" width="70" height="19" fill="#E63946" opacity="1.00"/>
+  <rect x="364" y="292" width="72" height="508" fill="#000000" opacity="0.76"/>
+  <rect x="364" y="292" width="72" height="7" fill="#F4D35E" opacity="1.00"/>
+  <rect x="440" y="253" width="68" height="547" fill="#E76F51" opacity="0.97"/>
+  <rect x="440" y="253" width="68" height="18" fill="#F4D35E" opacity="1.00"/>
+  <rect x="522" y="660" width="65" height="140" fill="#1D3557" opacity="0.74"/>
+  <rect x="522" y="660" width="65" height="10" fill="#F4D35E" opacity="1.00"/>
+  <rect x="598" y="417" width="69" height="383" fill="#6D2E46" opacity="0.87"/>
+  <rect x="598" y="417" width="69" height="16" fill="#1D3557" opacity="1.00"/>
+  <rect x="671" y="641" width="72" height="159" fill="#000000" opacity="0.82"/>
+  <rect x="671" y="641" width="72" height="20" fill="#1D3557" opacity="1.00"/>
+  <line x1="0" y1="462" x2="800" y2="462" stroke="#000000" stroke-width="2" opacity="0.40"/>
+  <circle cx="652" cy="13" r="24" fill="#E63946" opacity="0.92"/>
+  <circle cx="746" cy="173" r="7" fill="#1D3557" opacity="0.64"/>
+  <circle cx="475" cy="310" r="13" fill="#1D3557" opacity="0.81"/>
+  <circle cx="279" cy="262" r="9" fill="#E63946" opacity="0.91"/>
+  <circle cx="664" cy="189" r="20" fill="#1D3557" opacity="0.89"/>
+  <circle cx="167" cy="47" r="23" fill="#F4D35E" opacity="0.89"/>
 </svg>

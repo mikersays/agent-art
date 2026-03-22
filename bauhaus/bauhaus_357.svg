@@ -1,51 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FFFFFF"/>
-  <!-- Largest circle - Forest green, dominant, top-left -->
-  <circle cx="220" cy="210" r="180" fill="#264653" opacity="0.9"/>
-  <!-- Large circle - Blue, right side -->
-  <circle cx="580" cy="350" r="140" fill="#1D3557" opacity="0.85"/>
-  <!-- Large circle - Red, bottom area -->
-  <circle cx="350" cy="600" r="130" fill="#E63946" opacity="0.8"/>
-  <!-- Medium circles -->
-  <circle cx="680" cy="150" r="95" fill="#F4D35E" opacity="0.85"/>
-  <circle cx="150" cy="550" r="85" fill="#457B9D" opacity="0.75"/>
-  <circle cx="620" cy="620" r="100" fill="#1D3557" opacity="0.7"/>
-  <circle cx="450" cy="160" r="70" fill="#E63946" opacity="0.75"/>
-  <!-- Medium-small circles -->
-  <circle cx="100" cy="380" r="55" fill="#F4D35E" opacity="0.8"/>
-  <circle cx="730" cy="480" r="50" fill="#2A9D8F" opacity="0.85"/>
-  <circle cx="300" cy="420" r="45" fill="#E76F51" opacity="0.7"/>
-  <circle cx="500" cy="500" r="48" fill="#F4D35E" opacity="0.75"/>
-  <circle cx="180" cy="730" r="52" fill="#2A9D8F" opacity="0.8"/>
-  <!-- Small circles filling gaps -->
-  <circle cx="50" cy="150" r="30" fill="#E76F51" opacity="0.8"/>
-  <circle cx="400" cy="50" r="28" fill="#2A9D8F" opacity="0.7"/>
-  <circle cx="750" cy="30" r="22" fill="#E63946" opacity="0.6"/>
-  <circle cx="50" cy="50" r="25" fill="#E63946" opacity="0.7"/>
-  <circle cx="760" cy="760" r="30" fill="#F4D35E" opacity="0.8"/>
-  <circle cx="450" cy="760" r="28" fill="#264653" opacity="0.75"/>
-  <circle cx="680" cy="750" r="24" fill="#E76F51" opacity="0.7"/>
-  <circle cx="50" cy="680" r="20" fill="#000000" opacity="0.5"/>
-  <!-- Smallest circles for texture -->
-  <circle cx="320" cy="300" r="15" fill="#FEFAE0" opacity="0.9"/>
-  <circle cx="550" cy="230" r="18" fill="#A8DADC" opacity="0.8"/>
-  <circle cx="170" cy="450" r="16" fill="#FEFAE0" opacity="0.7"/>
-  <circle cx="500" cy="680" r="20" fill="#A8DADC" opacity="0.75"/>
-  <circle cx="700" cy="320" r="15" fill="#E9C46A" opacity="0.8"/>
-  <circle cx="260" cy="100" r="17" fill="#A8DADC" opacity="0.6"/>
-  <circle cx="80" cy="280" r="15" fill="#2A9D8F" opacity="0.7"/>
-  <circle cx="600" cy="80" r="18" fill="#E76F51" opacity="0.65"/>
-  <circle cx="380" cy="520" r="15" fill="#000000" opacity="0.4"/>
-  <circle cx="250" cy="680" r="22" fill="#E9C46A" opacity="0.7"/>
-  <circle cx="530" cy="120" r="15" fill="#DDA15E" opacity="0.8"/>
-  <circle cx="720" cy="580" r="18" fill="#FEFAE0" opacity="0.85"/>
-  <!-- Tiny accent circles -->
-  <circle cx="340" cy="180" r="8" fill="#000000" opacity="0.5"/>
-  <circle cx="480" cy="430" r="10" fill="#000000" opacity="0.35"/>
-  <circle cx="140" cy="170" r="9" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="640" cy="430" r="10" fill="#FEFAE0" opacity="0.7"/>
-  <circle cx="100" cy="760" r="15" fill="#457B9D" opacity="0.6"/>
-  <circle cx="760" cy="250" r="15" fill="#DDA15E" opacity="0.7"/>
-  <circle cx="400" cy="350" r="12" fill="#E63946" opacity="0.5"/>
+  <title>Dynamo</title>
+  <rect x="0" y="0" width="800" height="800" fill="#1D3557" opacity="1.00"/>
+  <rect x="130" y="265" width="378" height="378" fill="#E9C46A" opacity="0.72"/>
+  <rect x="144" y="279" width="351" height="351" fill="#FEFAE0" opacity="0.53"/>
+  <rect x="157" y="292" width="324" height="324" fill="#E63946" opacity="0.74" transform="rotate(48 319 454)"/>
+  <rect x="171" y="306" width="297" height="297" fill="#2A9D8F" opacity="0.73" transform="rotate(77 319 454)"/>
+  <rect x="184" y="319" width="270" height="270" fill="#E76F51" opacity="0.83" transform="rotate(130 319 454)"/>
+  <rect x="198" y="333" width="243" height="243" fill="#F4D35E" opacity="0.73" transform="rotate(135 319 454)"/>
+  <rect x="211" y="346" width="216" height="216" fill="#F4D35E" opacity="0.76" transform="rotate(88 319 454)"/>
+  <rect x="225" y="360" width="189" height="189" fill="#E76F51" opacity="0.58"/>
+  <rect x="238" y="373" width="162" height="162" fill="#A8DADC" opacity="0.91"/>
+  <rect x="252" y="387" width="135" height="135" fill="#E76F51" opacity="0.54" transform="rotate(15 319 454)"/>
+  <rect x="265" y="400" width="108" height="108" fill="#FEFAE0" opacity="0.99"/>
+  <rect x="279" y="414" width="81" height="81" fill="#2A9D8F" opacity="0.82" transform="rotate(12 319 454)"/>
+  <rect x="292" y="427" width="54" height="54" fill="#E63946" opacity="0.62" transform="rotate(10 319 454)"/>
+  <rect x="306" y="441" width="27" height="27" fill="#E9C46A" opacity="0.66"/>
+  <line x1="-105.26406871192853" y1="29.735931288071527" x2="743.2640687119285" y2="878.2640687119285" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="743.2640687119285" y1="29.73593128807147" x2="-105.26406871192847" y2="878.2640687119285" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="319" y1="0" x2="319" y2="800" stroke="#000000" stroke-width="1" opacity="0.10"/>
+  <line x1="0" y1="454" x2="800" y2="454" stroke="#000000" stroke-width="1" opacity="0.10"/>
+  <circle cx="406" cy="83" r="18" fill="#F4D35E" opacity="0.99"/>
+  <circle cx="691" cy="692" r="19" fill="#E63946" opacity="0.81"/>
+  <circle cx="592" cy="748" r="19" fill="#F4D35E" opacity="0.65"/>
+  <circle cx="562" cy="593" r="7" fill="#E63946" opacity="1.00"/>
+  <circle cx="593" cy="385" r="5" fill="#F4D35E" opacity="0.97"/>
+  <circle cx="442" cy="23" r="7" fill="#E63946" opacity="0.99"/>
+  <circle cx="287" cy="125" r="14" fill="#F4D35E" opacity="0.69"/>
+  <circle cx="112" cy="94" r="17" fill="#E63946" opacity="0.67"/>
+  <circle cx="530" cy="559" r="13" fill="#E63946" opacity="0.84"/>
+  <circle cx="517" cy="373" r="7" fill="#1D3557" opacity="0.97"/>
+  <circle cx="732" cy="615" r="19" fill="#F4D35E" opacity="0.91"/>
 </svg>

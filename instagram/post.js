@@ -12,10 +12,28 @@ const DIR          = __dirname;
 const REPO_ROOT    = path.resolve(DIR, '..');
 const BAUHAUS_DIR  = path.join(REPO_ROOT, 'bauhaus');
 const STATE_FILE   = path.join(DIR, 'state.json');
+const LOCK_FILE    = path.join(DIR, '.post.lock');
 const LOG_FILE     = path.join(DIR, 'log.json');
 const TMP_PNG      = path.join(DIR, 'tmp_post.png');
 const ARCHIVE_DIR  = path.join(DIR, 'archive');
 const CREDS_FILE   = '/home/momo/.openclaw/workspace/secrets/bauhaus-ig.json';
+
+// ── Lock file (prevents double-posting if crons overlap) ─────────────────
+function acquireLock() {
+  if (fs.existsSync(LOCK_FILE)) {
+    const lockAge = Date.now() - fs.statSync(LOCK_FILE).mtimeMs;
+    if (lockAge < 10 * 60 * 1000) { // 10 min max run time
+      console.error('❌ Another post is already running (lock file exists). Exiting.');
+      process.exit(1);
+    }
+    console.warn('⚠️  Stale lock file found (>10min old), removing and continuing.');
+  }
+  fs.writeFileSync(LOCK_FILE, String(process.pid));
+}
+
+function releaseLock() {
+  if (fs.existsSync(LOCK_FILE)) fs.unlinkSync(LOCK_FILE);
+}
 
 // ── Titles (1-indexed) ────────────────────────────────────────────────────
 const TITLES = [
@@ -192,6 +210,8 @@ async function postToInstagram(igUserId, token, imageUrl, caption) {
 async function main() {
   const dryRun = process.argv.includes('--dry-run');
   if (dryRun) console.log('🔍 DRY RUN MODE — no actual Instagram post will be made\n');
+
+  if (!dryRun) acquireLock();
 
   // Load state
   const state = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8'));

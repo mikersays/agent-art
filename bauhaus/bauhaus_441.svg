@@ -1,64 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background: Forest green -->
-  <rect width="800" height="800" fill="#264653"/>
-
-  <!-- Structural grid lines -->
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#FFFFFF" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#FFFFFF" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#FFFFFF" stroke-width="0.5" opacity="0.1"/>
-  <line x1="200" y1="0" x2="200" y2="800" stroke="#FFFFFF" stroke-width="0.5" opacity="0.1"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#FFFFFF" stroke-width="0.5" opacity="0.1"/>
-  <line x1="600" y1="0" x2="600" y2="800" stroke="#FFFFFF" stroke-width="0.5" opacity="0.1"/>
-
-  <!-- Large Blue crescent: two circles, blue behind, forest in front to cut -->
-  <circle cx="200" cy="220" r="170" fill="#1D3557"/>
-  <circle cx="260" cy="190" r="170" fill="#264653"/>
-
-  <!-- Large Red crescent -->
-  <circle cx="590" cy="580" r="160" fill="#E63946"/>
-  <circle cx="640" cy="545" r="160" fill="#264653"/>
-
-  <!-- Medium Teal crescent -->
-  <circle cx="580" cy="200" r="110" fill="#2A9D8F"/>
-  <circle cx="630" cy="175" r="110" fill="#264653"/>
-
-  <!-- Medium Orange crescent -->
-  <circle cx="200" cy="580" r="105" fill="#E76F51"/>
-  <circle cx="245" cy="548" r="105" fill="#264653"/>
-
-  <!-- Smaller Steel Blue crescent -->
-  <circle cx="400" cy="400" r="80" fill="#457B9D"/>
-  <circle cx="435" cy="375" r="80" fill="#264653"/>
-
-  <!-- Small Burgundy crescent -->
-  <circle cx="680" cy="390" r="60" fill="#6D2E46"/>
-  <circle cx="705" cy="370" r="60" fill="#264653"/>
-
-  <!-- Small Warm Gray crescent -->
-  <circle cx="120" cy="400" r="55" fill="#A89F91"/>
-  <circle cx="145" cy="380" r="55" fill="#264653"/>
-
-  <!-- Yellow accent circles -->
-  <circle cx="400" cy="130" r="22" fill="#F4D35E"/>
-  <circle cx="130" cy="680" r="18" fill="#F4D35E"/>
-  <circle cx="670" cy="700" r="25" fill="#F4D35E"/>
-  <circle cx="710" cy="130" r="14" fill="#F4D35E"/>
-  <circle cx="50" cy="50" r="16" fill="#F4D35E"/>
-  <circle cx="750" cy="400" r="12" fill="#F4D35E" opacity="0.8"/>
-  <circle cx="400" cy="760" r="20" fill="#F4D35E"/>
-  <circle cx="330" cy="310" r="10" fill="#F4D35E" opacity="0.9"/>
-
-  <!-- Corner accent squares -->
-  <rect x="10" y="10" width="30" height="30" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.6"/>
-  <rect x="760" y="760" width="30" height="30" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.6"/>
-
-  <!-- Small accent shapes for texture -->
-  <circle cx="500" cy="680" r="8" fill="#A8DADC" opacity="0.7"/>
-  <circle cx="310" cy="690" r="6" fill="#FEFAE0" opacity="0.6"/>
-  <circle cx="480" cy="60" r="9" fill="#E9C46A" opacity="0.8"/>
-  <circle cx="60" cy="490" r="7" fill="#DDA15E" opacity="0.7"/>
-
-  <!-- Thin structural lines for tension -->
-  <line x1="60" y1="0" x2="60" y2="800" stroke="#FFFFFF" stroke-width="1" opacity="0.07"/>
-  <line x1="740" y1="0" x2="740" y2="800" stroke="#FFFFFF" stroke-width="1" opacity="0.07"/>
+  <title>Fractal Boundary</title>
+  <rect x="0" y="0" width="800" height="800" fill="#1D3557" opacity="1.00"/>
+  <rect x="0" y="232" width="800" height="139" fill="#E63946" opacity="0.85"/>
+  <rect x="395" y="0" width="139" height="800" fill="#E9C46A" opacity="0.81"/>
+  <rect x="0" y="0" width="395" height="232" fill="#FFFFFF" opacity="0.57"/>
+  <rect x="533" y="0" width="267" height="232" fill="#FFFFFF" opacity="0.41"/>
+  <rect x="533" y="370" width="267" height="430" fill="#E63946" opacity="0.39"/>
+  <rect x="426" y="263" width="76" height="76" fill="#E63946" opacity="1.00"/>
+  <circle cx="228" cy="305" r="13" fill="#F4D35E" opacity="0.97"/>
+  <circle cx="675" cy="253" r="20" fill="#1D3557" opacity="0.89"/>
+  <circle cx="122" cy="613" r="10" fill="#F4D35E" opacity="0.96"/>
+  <circle cx="443" cy="175" r="20" fill="#F4D35E" opacity="0.79"/>
+  <circle cx="347" cy="350" r="11" fill="#E63946" opacity="0.97"/>
+  <circle cx="275" cy="234" r="10" fill="#F4D35E" opacity="0.89"/>
+  <circle cx="169" cy="160" r="12" fill="#F4D35E" opacity="0.76"/>
 </svg>

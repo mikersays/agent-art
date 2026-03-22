@@ -1,81 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Background grid lines -->
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="0" x2="800" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="800" y1="0" x2="0" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-
-  <!-- Outermost concentric ring -->
-  <circle cx="400" cy="400" r="340" fill="none" stroke="#264653" stroke-width="2" opacity="0.2"/>
-  <circle cx="400" cy="400" r="300" fill="none" stroke="#1D3557" stroke-width="1.5" opacity="0.25"/>
-  <circle cx="400" cy="400" r="260" fill="none" stroke="#457B9D" stroke-width="1" opacity="0.3"/>
-  <circle cx="400" cy="400" r="220" fill="none" stroke="#000000" stroke-width="2" opacity="0.15"/>
-  <circle cx="400" cy="400" r="180" fill="none" stroke="#1D3557" stroke-width="1.5" opacity="0.3"/>
-
-  <!-- 8 directional black lines -->
-  <line x1="400" y1="50" x2="400" y2="750" stroke="#000000" stroke-width="2" opacity="0.6"/>
-  <line x1="50" y1="400" x2="750" y2="400" stroke="#000000" stroke-width="2" opacity="0.6"/>
-  <line x1="153" y1="153" x2="647" y2="647" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
-  <line x1="647" y1="153" x2="153" y2="647" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
-
-  <!-- North triangle - Red -->
-  <polygon points="400,100 340,260 460,260" fill="#E63946" opacity="0.85"/>
-  <!-- South triangle - Blue -->
-  <polygon points="400,700 340,540 460,540" fill="#1D3557" opacity="0.85"/>
-  <!-- East triangle - Red -->
-  <polygon points="700,400 540,340 540,460" fill="#E63946" opacity="0.85"/>
-  <!-- West triangle - Blue -->
-  <polygon points="100,400 260,340 260,460" fill="#1D3557" opacity="0.85"/>
-
-  <!-- NE triangle - Blue -->
-  <polygon points="612,188 490,290 570,370" fill="#1D3557" opacity="0.75"/>
-  <!-- SW triangle - Red -->
-  <polygon points="188,612 310,510 230,430" fill="#E63946" opacity="0.75"/>
-  <!-- NW triangle - Blue -->
-  <polygon points="188,188 310,290 230,370" fill="#1D3557" opacity="0.75"/>
-  <!-- SE triangle - Red -->
-  <polygon points="612,612 490,510 570,430" fill="#E63946" opacity="0.75"/>
-
-  <!-- Teal accents at N and S tips -->
-  <circle cx="400" cy="95" r="8" fill="#2A9D8F" opacity="0.9"/>
-  <circle cx="400" cy="705" r="8" fill="#2A9D8F" opacity="0.9"/>
-
-  <!-- Orange accents at E and W tips -->
-  <circle cx="705" cy="400" r="8" fill="#E76F51" opacity="0.9"/>
-  <circle cx="95" cy="400" r="8" fill="#E76F51" opacity="0.9"/>
-
-  <!-- Teal accents at diagonal tips -->
-  <circle cx="618" cy="182" r="6" fill="#2A9D8F" opacity="0.85"/>
-  <circle cx="182" cy="618" r="6" fill="#2A9D8F" opacity="0.85"/>
-
-  <!-- Orange accents at diagonal tips -->
-  <circle cx="182" cy="182" r="6" fill="#E76F51" opacity="0.85"/>
-  <circle cx="618" cy="618" r="6" fill="#E76F51" opacity="0.85"/>
-
-  <!-- Inner concentric rings -->
-  <circle cx="400" cy="400" r="130" fill="none" stroke="#000000" stroke-width="2" opacity="0.35"/>
-  <circle cx="400" cy="400" r="90" fill="none" stroke="#1D3557" stroke-width="1.5" opacity="0.4"/>
-
-  <!-- Center yellow circle -->
-  <circle cx="400" cy="400" r="55" fill="#F4D35E" opacity="0.95"/>
-  <circle cx="400" cy="400" r="40" fill="#F4D35E" opacity="1"/>
-  <circle cx="400" cy="400" r="55" fill="none" stroke="#000000" stroke-width="2" opacity="0.5"/>
-
-  <!-- Small corner accent squares -->
-  <rect x="30" y="30" width="20" height="20" fill="#E63946" opacity="0.4"/>
-  <rect x="750" y="30" width="20" height="20" fill="#1D3557" opacity="0.4"/>
-  <rect x="30" y="750" width="20" height="20" fill="#1D3557" opacity="0.4"/>
-  <rect x="750" y="750" width="20" height="20" fill="#E63946" opacity="0.4"/>
-
-  <!-- Additional small decorative circles along rings -->
-  <circle cx="400" cy="140" r="5" fill="#000000" opacity="0.4"/>
-  <circle cx="400" cy="660" r="5" fill="#000000" opacity="0.4"/>
-  <circle cx="140" cy="400" r="5" fill="#000000" opacity="0.4"/>
-  <circle cx="660" cy="400" r="5" fill="#000000" opacity="0.4"/>
-
-  <!-- Thin accent ring -->
-  <circle cx="400" cy="400" r="15" fill="none" stroke="#E63946" stroke-width="1" opacity="0.7"/>
+  <title>Circuit Path</title>
+  <rect x="0" y="0" width="800" height="800" fill="#1D3557" opacity="1.00"/>
+  <rect x="0" y="477" width="800" height="135" fill="#1D3557" opacity="1.00"/>
+  <rect x="388" y="0" width="135" height="800" fill="#E63946" opacity="0.95"/>
+  <rect x="0" y="0" width="388" height="477" fill="#E9C46A" opacity="0.57"/>
+  <rect x="522" y="0" width="278" height="477" fill="#A8DADC" opacity="0.44"/>
+  <rect x="0" y="611" width="388" height="189" fill="#FFFFFF" opacity="0.31"/>
+  <rect x="522" y="611" width="278" height="189" fill="#FEFAE0" opacity="0.40"/>
+  <rect x="427" y="516" width="56" height="56" fill="#E63946" opacity="1.00"/>
+  <circle cx="455" cy="544" r="100" fill="none" opacity="1.00" stroke="#000000" stroke-width="2.2033352756241307"/>
+  <circle cx="455" cy="544" r="300" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="2.116507264748047"/>
+  <circle cx="385" cy="659" r="15" fill="#1D3557" opacity="0.94"/>
+  <circle cx="532" cy="154" r="10" fill="#E63946" opacity="0.79"/>
+  <circle cx="217" cy="494" r="18" fill="#F4D35E" opacity="0.93"/>
+  <circle cx="438" cy="327" r="10" fill="#E63946" opacity="0.67"/>
+  <circle cx="798" cy="195" r="10" fill="#E63946" opacity="0.92"/>
+  <circle cx="743" cy="400" r="9" fill="#F4D35E" opacity="0.82"/>
+  <circle cx="666" cy="397" r="13" fill="#1D3557" opacity="0.94"/>
+  <circle cx="176" cy="634" r="8" fill="#1D3557" opacity="0.63"/>
+  <circle cx="287" cy="252" r="18" fill="#E63946" opacity="0.83"/>
+  <circle cx="261" cy="260" r="15" fill="#1D3557" opacity="0.84"/>
+  <circle cx="264" cy="351" r="12" fill="#E63946" opacity="0.72"/>
+  <circle cx="210" cy="561" r="6" fill="#E63946" opacity="0.67"/>
+  <circle cx="440" cy="557" r="18" fill="#1D3557" opacity="0.87"/>
 </svg>

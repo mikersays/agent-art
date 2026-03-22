@@ -1,78 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Radiating lines from upper-left focal point (150, 150) -->
-  <line x1="150" y1="150" x2="800" y2="0" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="800" y2="80" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="800" y2="160" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="800" y2="250" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="800" y2="350" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="800" y2="460" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="800" y2="580" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="800" y2="700" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="800" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="700" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="550" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="400" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="250" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="100" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="0" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="0" y2="600" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="150" y1="150" x2="0" y2="400" stroke="#000000" stroke-width="1" opacity="0.15"/>
-
-  <!-- Radiating lines from lower-right focal point (650, 650) -->
-  <line x1="650" y1="650" x2="0" y2="800" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="0" y2="700" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="0" y2="580" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="0" y2="450" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="0" y2="320" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="0" y2="180" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="0" y2="50" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="0" y2="0" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="100" y2="0" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="250" y2="0" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="400" y2="0" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="550" y2="0" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="700" y2="0" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="800" y2="0" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="800" y2="200" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="650" y1="650" x2="800" y2="400" stroke="#000000" stroke-width="1" opacity="0.15"/>
-
-  <!-- Large red circle near upper-left focal point -->
-  <circle cx="180" cy="180" r="110" fill="#E63946" opacity="0.75"/>
-  <circle cx="180" cy="180" r="110" fill="none" stroke="#000000" stroke-width="2"/>
-
-  <!-- Large blue rectangle near lower-right focal point -->
-  <rect x="540" y="540" width="220" height="220" fill="#1D3557" opacity="0.75"/>
-  <rect x="540" y="540" width="220" height="220" fill="none" stroke="#000000" stroke-width="2"/>
-
-  <!-- Yellow triangles at edges -->
-  <polygon points="0,0 80,0 0,80" fill="#F4D35E" opacity="0.8"/>
-  <polygon points="800,800 720,800 800,720" fill="#F4D35E" opacity="0.8"/>
-  <polygon points="800,0 800,70 730,0" fill="#F4D35E" opacity="0.6"/>
-  <polygon points="0,800 0,730 70,800" fill="#F4D35E" opacity="0.6"/>
-  <polygon points="400,0 440,0 420,50" fill="#F4D35E" opacity="0.5"/>
-  <polygon points="0,400 0,440 50,420" fill="#F4D35E" opacity="0.5"/>
-  <polygon points="800,400 800,440 750,420" fill="#F4D35E" opacity="0.5"/>
-  <polygon points="400,800 440,800 420,750" fill="#F4D35E" opacity="0.5"/>
-
-  <!-- Connecting line between focal points -->
-  <line x1="150" y1="150" x2="650" y2="650" stroke="#000000" stroke-width="3" opacity="0.3"/>
-
-  <!-- Small accent shapes at intersections -->
-  <circle cx="400" cy="400" r="15" fill="#2A9D8F" opacity="0.7"/>
-  <circle cx="400" cy="400" r="6" fill="#000000"/>
-  <rect x="280" y="280" width="20" height="20" fill="#E76F51" opacity="0.7"/>
-  <rect x="500" y="500" width="20" height="20" fill="#E76F51" opacity="0.7"/>
-
-  <!-- Additional tension elements -->
-  <circle cx="150" cy="150" r="5" fill="#000000"/>
-  <circle cx="650" cy="650" r="5" fill="#000000"/>
-  <circle cx="150" cy="150" r="20" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
-  <circle cx="650" cy="650" r="20" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
-
-  <!-- Steel blue accent arcs -->
-  <path d="M 100 300 A 180 180 0 0 0 300 100" fill="none" stroke="#457B9D" stroke-width="2" opacity="0.4"/>
-  <path d="M 500 700 A 180 180 0 0 0 700 500" fill="none" stroke="#457B9D" stroke-width="2" opacity="0.4"/>
+  <title>Cell Division</title>
+  <rect x="0" y="0" width="800" height="800" fill="#000000" opacity="1.00"/>
+  <rect x="-34" y="39" width="624" height="624" fill="#E9C46A" opacity="0.76"/>
+  <circle cx="278" cy="351" r="222" fill="#F4D35E" opacity="0.55"/>
+  <rect x="47" y="120" width="462" height="462" fill="#A8DADC" opacity="0.53"/>
+  <circle cx="278" cy="351" r="160" fill="#A8DADC" opacity="0.69"/>
+  <rect x="103" y="176" width="351" height="351" fill="#457B9D" opacity="0.79"/>
+  <circle cx="278" cy="351" r="152" fill="#FFFFFF" opacity="0.58"/>
+  <rect x="166" y="239" width="224" height="224" fill="#2A9D8F" opacity="0.90"/>
+  <circle cx="278" cy="351" r="99" fill="#F4D35E" opacity="0.52"/>
+  <rect x="201" y="274" width="155" height="155" fill="#2A9D8F" opacity="0.69"/>
+  <circle cx="278" cy="351" r="60" fill="#E63946" opacity="0.72"/>
+  <rect x="236" y="309" width="84" height="84" fill="#A8DADC" opacity="0.82"/>
+  <circle cx="278" cy="351" r="47" fill="#F4D35E" opacity="0.62"/>
+  <rect x="256" y="329" width="44" height="44" fill="#F4D35E" opacity="0.51"/>
+  <line x1="278" y1="351" x2="678.0" y2="351.0" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="278" y1="351" x2="579.8838320891089" y2="613.4236115962029" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="278" y1="351" x2="333.6692403840262" y2="747.1072274966282" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="278" y1="351" x2="60.144385993989175" y2="686.4682271781696" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="278" y1="351" x2="-106.50467837532756" y2="461.25494232679966" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="278" y1="351" x2="-84.52311481466" y2="181.9526953037203" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="278" y1="351" x2="115.30534276967995" y2="-14.41818305704038" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="278" y1="351" x2="394.9486818890947" y2="-31.52190238521416" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="278" y1="351" x2="617.2192384625704" y2="139.032294306718" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="755" cy="423" r="6" fill="#E63946" opacity="0.85"/>
+  <circle cx="534" cy="687" r="14" fill="#E63946" opacity="0.85"/>
+  <circle cx="767" cy="502" r="4" fill="#F4D35E" opacity="0.94"/>
+  <circle cx="672" cy="147" r="7" fill="#E63946" opacity="0.97"/>
+  <circle cx="160" cy="527" r="7" fill="#F4D35E" opacity="0.97"/>
+  <circle cx="717" cy="493" r="17" fill="#1D3557" opacity="0.85"/>
+  <circle cx="114" cy="623" r="7" fill="#F4D35E" opacity="0.61"/>
+  <circle cx="56" cy="676" r="12" fill="#F4D35E" opacity="0.77"/>
+  <circle cx="296" cy="177" r="17" fill="#1D3557" opacity="0.98"/>
+  <circle cx="272" cy="414" r="6" fill="#1D3557" opacity="0.90"/>
+  <circle cx="774" cy="730" r="14" fill="#F4D35E" opacity="0.84"/>
+  <circle cx="577" cy="12" r="8" fill="#1D3557" opacity="0.77"/>
+  <circle cx="384" cy="796" r="20" fill="#F4D35E" opacity="0.64"/>
+  <circle cx="460" cy="170" r="13" fill="#E63946" opacity="0.77"/>
+  <rect x="0" y="0" width="800" height="26" fill="#F4D35E" opacity="0.81"/>
+  <rect x="0" y="774" width="800" height="26" fill="#F4D35E" opacity="0.67"/>
+  <rect x="0" y="0" width="26" height="800" fill="#F4D35E" opacity="0.69"/>
+  <rect x="774" y="0" width="26" height="800" fill="#F4D35E" opacity="0.89"/>
 </svg>

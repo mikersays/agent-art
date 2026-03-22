@@ -1,48 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FEFAE0"/>
-  <!-- Subtle concentric circles at low opacity -->
-  <circle cx="400" cy="400" r="380" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <circle cx="400" cy="400" r="320" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.12"/>
-  <circle cx="400" cy="400" r="260" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <circle cx="400" cy="400" r="200" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
-  <circle cx="400" cy="400" r="140" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <circle cx="400" cy="400" r="80" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.12"/>
-  <!-- Radiating lines from center -->
-  <line x1="400" y1="400" x2="400" y2="30" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="400" y1="400" x2="670" y2="80" stroke="#1D3557" stroke-width="1.2" opacity="0.6"/>
-  <line x1="400" y1="400" x2="770" y2="250" stroke="#000000" stroke-width="1" opacity="0.5"/>
-  <line x1="400" y1="400" x2="780" y2="400" stroke="#1D3557" stroke-width="1.5" opacity="0.65"/>
-  <line x1="400" y1="400" x2="700" y2="620" stroke="#000000" stroke-width="1.2" opacity="0.55"/>
-  <line x1="400" y1="400" x2="550" y2="760" stroke="#1D3557" stroke-width="1" opacity="0.5"/>
-  <line x1="400" y1="400" x2="400" y2="780" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="400" y1="400" x2="200" y2="740" stroke="#1D3557" stroke-width="1.2" opacity="0.6"/>
-  <line x1="400" y1="400" x2="50" y2="600" stroke="#000000" stroke-width="1" opacity="0.5"/>
-  <line x1="400" y1="400" x2="30" y2="400" stroke="#1D3557" stroke-width="1.5" opacity="0.65"/>
-  <line x1="400" y1="400" x2="80" y2="150" stroke="#000000" stroke-width="1.2" opacity="0.55"/>
-  <line x1="400" y1="400" x2="220" y2="50" stroke="#1D3557" stroke-width="1" opacity="0.5"/>
-  <!-- Radiating triangles pointing outward -->
-  <polygon points="400,400 370,120 430,120" fill="#E63946" opacity="0.75"/>
-  <polygon points="400,400 640,140 680,200" fill="#E76F51" opacity="0.65"/>
-  <polygon points="400,400 720,300 740,370" fill="#F4D35E" opacity="0.7"/>
-  <polygon points="400,400 730,450 710,520" fill="#E63946" opacity="0.6"/>
-  <polygon points="400,400 630,660 570,700" fill="#E76F51" opacity="0.7"/>
-  <polygon points="400,400 440,740 360,740" fill="#F4D35E" opacity="0.75"/>
-  <polygon points="400,400 170,680 120,620" fill="#E63946" opacity="0.65"/>
-  <polygon points="400,400 60,490 50,420" fill="#E76F51" opacity="0.6"/>
-  <polygon points="400,400 80,210 130,150" fill="#F4D35E" opacity="0.7"/>
-  <polygon points="400,400 260,80 320,50" fill="#E63946" opacity="0.65"/>
-  <!-- Small circles at tips of lines -->
-  <circle cx="400" cy="30" r="6" fill="#E63946" opacity="0.9"/>
-  <circle cx="780" cy="400" r="6" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="400" cy="780" r="6" fill="#E63946" opacity="0.9"/>
-  <circle cx="30" cy="400" r="6" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="670" cy="80" r="5" fill="#1D3557" opacity="0.8"/>
-  <circle cx="700" cy="620" r="5" fill="#1D3557" opacity="0.8"/>
-  <circle cx="200" cy="740" r="5" fill="#E76F51" opacity="0.8"/>
-  <circle cx="80" cy="150" r="5" fill="#E76F51" opacity="0.8"/>
-  <!-- Central focal point -->
-  <circle cx="400" cy="400" r="25" fill="#1D3557" opacity="0.9"/>
-  <circle cx="400" cy="400" r="15" fill="#E63946" opacity="0.95"/>
-  <circle cx="400" cy="400" r="6" fill="#F4D35E"/>
+  <title>Twin Boundary</title>
+  <rect x="0" y="0" width="800" height="800" fill="#264653" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="80" y1="0" x2="80" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="160" y1="0" x2="160" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="320" y1="0" x2="320" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="480" y1="0" x2="480" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="560" y1="0" x2="560" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="640" y1="0" x2="640" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="720" y1="0" x2="720" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <polygon points="432.6949641030846,617.5820532942645 261.29203854871724,683.377471914439 290.01299734819816,502.0404747912966" fill="#E9C46A" opacity="0.42"/>
+  <polygon points="457.58937208917934,620.3805551391898 233.73284060693462,362.8630735719401 568.6777873038861,297.75637128887" fill="#E76F51" opacity="0.74"/>
+  <polygon points="422.50380749100543,618.2832699297887 419.4809620246337,791.4619707139395 271.01523048436087,702.2547593562716" fill="#FFFFFF" opacity="0.62"/>
+  <polygon points="756.418920364369,357.5802664909505 676.8117163492449,536.3809741766149 561.7693632863861,378.03875933243455" fill="#E9C46A" opacity="0.52"/>
+  <polygon points="559.9104549910559,196.4547678531382 513.8804054103273,338.1206936631073 414.2091395986168,227.42453848375456" fill="#FFFFFF" opacity="0.42"/>
+  <polygon points="159.69723987679336,521.3064486660495 -57.017822835817185,345.81405112852286 203.32058295902385,245.8795002054277" fill="#E9C46A" opacity="0.81"/>
+  <polygon points="135.62954330681424,605.7793349817683 201.66351693700608,504.09593256717983 256.7069397561797,612.124732451052" fill="#E63946" opacity="0.45"/>
+  <polygon points="359.13709669570335,496.8882776686969 204.38272571075873,312.4592000777321 441.4801775935379,270.65252225357096" fill="#E76F51" opacity="0.57"/>
+  <polygon points="522.4434168392836,757.5803709732437 327.493643271155,708.9739332747719 467.06293988956145,564.4456957519844" fill="#FEFAE0" opacity="0.83"/>
+  <line x1="470" y1="133" x2="733" y2="97" stroke="#1D3557" stroke-width="5.505375339465234" opacity="0.90"/>
+  <line x1="51" y1="322" x2="680" y2="574" stroke="#000000" stroke-width="4.099818023542214" opacity="0.59"/>
+  <line x1="102" y1="558" x2="165" y2="721" stroke="#1D3557" stroke-width="5.658673877944889" opacity="0.60"/>
+  <line x1="92" y1="41" x2="436" y2="211" stroke="#F4D35E" stroke-width="5.094515915309319" opacity="0.59"/>
+  <line x1="14" y1="709" x2="768" y2="565" stroke="#F4D35E" stroke-width="2.652440685023717" opacity="0.57"/>
+  <circle cx="766" cy="766" r="17" fill="#F4D35E" opacity="1.00"/>
+  <circle cx="48" cy="752" r="24" fill="#1D3557" opacity="1.00"/>
+  <circle cx="746" cy="746" r="27" fill="#F4D35E" opacity="1.00"/>
+  <circle cx="759" cy="759" r="20" fill="#E63946" opacity="1.00"/>
 </svg>

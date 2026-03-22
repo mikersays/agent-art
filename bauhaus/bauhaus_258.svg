@@ -1,62 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FEFAE0"/>
-  <!-- Subtle grid -->
-  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
-  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
-  <!-- Large overlapping rectangles at various angles -->
-  <!-- Plane 1: Red, 15 degrees -->
-  <rect x="120" y="150" width="350" height="250" fill="#E63946" opacity="0.4" transform="rotate(15,295,275)"/>
-  <!-- Plane 2: Blue, 30 degrees -->
-  <rect x="280" y="200" width="380" height="220" fill="#1D3557" opacity="0.35" transform="rotate(-30,470,310)"/>
-  <!-- Plane 3: Yellow, 45 degrees -->
-  <rect x="200" y="350" width="300" height="280" fill="#F4D35E" opacity="0.45" transform="rotate(45,350,490)"/>
-  <!-- Plane 4: Steel Blue, -15 degrees -->
-  <rect x="350" y="100" width="280" height="320" fill="#457B9D" opacity="0.3" transform="rotate(-15,490,260)"/>
-  <!-- Plane 5: Teal, 60 degrees -->
-  <rect x="100" y="400" width="260" height="200" fill="#2A9D8F" opacity="0.35" transform="rotate(60,230,500)"/>
-  <!-- Plane 6: Red small, -45 degrees -->
-  <rect x="450" y="420" width="250" height="180" fill="#E63946" opacity="0.3" transform="rotate(-45,575,510)"/>
-  <!-- Plane 7: Blue small, 20 degrees -->
-  <rect x="500" y="300" width="200" height="300" fill="#1D3557" opacity="0.25" transform="rotate(20,600,450)"/>
-  <!-- Plane 8: Yellow thin, 70 degrees -->
-  <rect x="50" y="100" width="180" height="400" fill="#F4D35E" opacity="0.3" transform="rotate(70,140,300)"/>
-  <!-- Small accent plane -->
-  <rect x="550" y="550" width="160" height="120" fill="#E76F51" opacity="0.35" transform="rotate(30,630,610)"/>
-  <!-- Black dots at approximate intersection points -->
-  <circle cx="320" cy="250" r="5" fill="#000000" opacity="0.85"/>
-  <circle cx="420" cy="300" r="5" fill="#000000" opacity="0.85"/>
-  <circle cx="350" cy="380" r="5" fill="#000000" opacity="0.85"/>
-  <circle cx="480" cy="350" r="5" fill="#000000" opacity="0.85"/>
-  <circle cx="280" cy="420" r="5" fill="#000000" opacity="0.8"/>
-  <circle cx="520" cy="450" r="5" fill="#000000" opacity="0.8"/>
-  <circle cx="200" cy="320" r="5" fill="#000000" opacity="0.8"/>
-  <circle cx="400" cy="480" r="5" fill="#000000" opacity="0.85"/>
-  <circle cx="560" cy="300" r="4" fill="#000000" opacity="0.75"/>
-  <circle cx="300" cy="530" r="4" fill="#000000" opacity="0.75"/>
-  <circle cx="450" cy="220" r="4" fill="#000000" opacity="0.75"/>
-  <circle cx="380" cy="160" r="4" fill="#000000" opacity="0.7"/>
-  <circle cx="240" cy="480" r="4" fill="#000000" opacity="0.7"/>
-  <circle cx="600" cy="520" r="4" fill="#000000" opacity="0.7"/>
-  <!-- Structural edge lines -->
-  <line x1="50" y1="50" x2="750" y2="50" stroke="#000000" stroke-width="2" opacity="0.15"/>
-  <line x1="50" y1="750" x2="750" y2="750" stroke="#000000" stroke-width="2" opacity="0.15"/>
-  <line x1="50" y1="50" x2="50" y2="750" stroke="#000000" stroke-width="2" opacity="0.15"/>
-  <line x1="750" y1="50" x2="750" y2="750" stroke="#000000" stroke-width="2" opacity="0.15"/>
-  <!-- Diagonal reference lines -->
-  <line x1="50" y1="50" x2="750" y2="750" stroke="#000000" stroke-width="1" opacity="0.08"/>
-  <line x1="750" y1="50" x2="50" y2="750" stroke="#000000" stroke-width="1" opacity="0.08"/>
-  <!-- Corner accents -->
-  <rect x="20" y="20" width="18" height="18" fill="#1D3557" opacity="0.6"/>
-  <rect x="762" y="20" width="18" height="18" fill="#E63946" opacity="0.6"/>
-  <rect x="762" y="762" width="18" height="18" fill="#F4D35E" opacity="0.6"/>
-  <rect x="20" y="762" width="18" height="18" fill="#2A9D8F" opacity="0.6"/>
-  <!-- Small accent shapes -->
-  <circle cx="680" cy="120" r="8" fill="#E63946" opacity="0.6"/>
-  <circle cx="120" cy="680" r="8" fill="#1D3557" opacity="0.6"/>
-  <rect x="690" y="680" width="12" height="12" fill="#F4D35E" opacity="0.5" transform="rotate(45,696,686)"/>
+  <title>Atomic Dance</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="80" y1="0" x2="80" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="160" y1="0" x2="160" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="320" y1="0" x2="320" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="480" y1="0" x2="480" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="560" y1="0" x2="560" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="640" y1="0" x2="640" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="720" y1="0" x2="720" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <polygon points="608.3208017424644,232.45802685695043 593.4544419572857,516.1250699668923 355.22475630024985,361.41690317615723" fill="#264653" opacity="0.45"/>
+  <polygon points="330.2083107173048,581.0449346510726 564.7851333222841,461.5220736722955 551.0065559604111,724.4329916766319" fill="#6D2E46" opacity="0.68"/>
+  <polygon points="-70.4599113188765,629.318306087523 196.39915823013496,542.6105382726621 138.06075308874154,817.0711556398148" fill="#E63946" opacity="0.67"/>
+  <polygon points="-46.313546279160065,224.33765868003965 162.75407960219917,238.95709123852157 45.55946667696087,412.70525008143875" fill="#F4D35E" opacity="0.84"/>
+  <polygon points="81.21981563439094,796.1029759882888 151.96374378688245,663.0529980493386 231.81644057872666,790.8440259623725" fill="#F4D35E" opacity="0.63"/>
+  <polygon points="790.9619240492675,426.07605857212087 797.0076149820109,772.4334601404224 494.03046096872174,604.4904812874565" fill="#E76F51" opacity="0.81"/>
+  <polygon points="673.4099616597273,95.70281388728311 749.4902120669101,38.372233060115775 761.0998262733626,132.9249530526011" fill="#F4D35E" opacity="0.42"/>
+  <polygon points="444.5124486877763,404.69696676917886 319.80043876625376,495.30554573019145 303.68711254596985,341.9974875006297" fill="#1D3557" opacity="0.42"/>
+  <polygon points="758.5633840036878,454.48940863849225 569.8188603469999,278.48229290276413 816.6177556493122,203.02829845874362" fill="#E76F51" opacity="0.73"/>
+  <polygon points="245.64256933287334,607.433281380495 276.04772978994157,451.0122910448629 396.3097008771851,555.5544275746421" fill="#2A9D8F" opacity="0.73"/>
+  <polygon points="-19.969262078590845,668.7979856674332 150.6044443118978,638.721239031346 91.36481776669305,801.4807753012208" fill="#000000" opacity="0.76"/>
+  <polygon points="179.4901818322193,513.401931707129 339.30101763936256,750.3312392201977 54.20880052841818,770.2668290726733" fill="#1D3557" opacity="0.51"/>
+  <polygon points="156.33649874791303,12.418593386029158 377.07177849832993,84.13983343042018 204.5917227537571,239.4415731835506" fill="#264653" opacity="0.42"/>
+  <polygon points="303.9768496637715,735.6527657784671 73.71421261367175,863.2894297067211 78.3089377225568,600.0578045148118" fill="#6D2E46" opacity="0.85"/>
+  <polygon points="255.9322794224579,789.5693004145819 12.101122714830097,637.2066835473848 265.966597862712,502.22401603803326" fill="#E63946" opacity="0.81"/>
+  <line x1="456" y1="128" x2="759" y2="166" stroke="#000000" stroke-width="2.28325343645785" opacity="0.54"/>
+  <line x1="68" y1="267" x2="675" y2="490" stroke="#1D3557" stroke-width="2.5769434441055568" opacity="0.91"/>
+  <line x1="628" y1="591" x2="620" y2="236" stroke="#E63946" stroke-width="2.561806854146344" opacity="0.67"/>
+  <line x1="265" y1="274" x2="542" y2="666" stroke="#E63946" stroke-width="2.6275775351642277" opacity="0.80"/>
+  <line x1="190" y1="621" x2="100" y2="175" stroke="#1D3557" stroke-width="4.737805346857728" opacity="0.65"/>
+  <line x1="792" y1="127" x2="476" y2="746" stroke="#000000" stroke-width="3.3721903068245216" opacity="0.72"/>
+  <line x1="592" y1="161" x2="28" y2="604" stroke="#E63946" stroke-width="3.7862131129529466" opacity="0.90"/>
+  <line x1="524" y1="223" x2="525" y2="570" stroke="#000000" stroke-width="3.2753932909520174" opacity="0.92"/>
+  <circle cx="60" cy="740" r="30" fill="#E63946" opacity="1.00"/>
+  <circle cx="42" cy="758" r="21" fill="#E63946" opacity="1.00"/>
+  <circle cx="48" cy="48" r="24" fill="#1D3557" opacity="1.00"/>
+  <circle cx="770" cy="30" r="15" fill="#E63946" opacity="1.00"/>
 </svg>

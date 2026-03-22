@@ -1,66 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Dark sky background -->
-  <rect width="800" height="800" fill="#1D3557"/>
-
-  <!-- Ground plane -->
-  <rect x="0" y="520" width="800" height="280" fill="#264653"/>
-
-  <!-- Observatory dome - large semicircle -->
-  <path d="M 150 520 A 250 250 0 0 1 650 520" fill="#457B9D" opacity="0.9"/>
-
-  <!-- Dome outline -->
-  <path d="M 150 520 A 250 250 0 0 1 650 520" fill="none" stroke="#000000" stroke-width="3" opacity="0.6"/>
-
-  <!-- Dome interior shading -->
-  <path d="M 200 520 A 200 200 0 0 1 600 520" fill="#1D3557" opacity="0.3"/>
-
-  <!-- Circular lens opening in dome -->
-  <circle cx="420" cy="380" r="55" fill="#1D3557" opacity="0.9"/>
-  <circle cx="420" cy="380" r="50" fill="#264653" opacity="0.7"/>
-  <circle cx="420" cy="380" r="38" fill="#1D3557"/>
-  <circle cx="420" cy="380" r="20" fill="#F4D35E" opacity="0.6"/>
-  <circle cx="420" cy="380" r="8" fill="#FFFFFF" opacity="0.8"/>
-
-  <!-- Lens cross-hairs -->
-  <line x1="420" y1="325" x2="420" y2="435" stroke="#F4D35E" stroke-width="1" opacity="0.5"/>
-  <line x1="365" y1="380" x2="475" y2="380" stroke="#F4D35E" stroke-width="1" opacity="0.5"/>
-
-  <!-- Structural elements below dome -->
-  <rect x="150" y="520" width="500" height="60" fill="#264653" opacity="0.8"/>
-  <rect x="180" y="520" width="40" height="180" fill="#457B9D" opacity="0.7"/>
-  <rect x="580" y="520" width="40" height="180" fill="#457B9D" opacity="0.7"/>
-  <rect x="370" y="520" width="60" height="200" fill="#457B9D" opacity="0.6"/>
-
-  <!-- Door -->
-  <rect x="380" y="600" width="40" height="80" fill="#000000" opacity="0.7"/>
-  <path d="M 380 600 A 20 20 0 0 1 420 600" fill="#000000" opacity="0.7"/>
-
-  <!-- Base platform -->
-  <rect x="120" y="700" width="560" height="20" fill="#A89F91" opacity="0.6"/>
-
-  <!-- Stars - small circles -->
-  <circle cx="80" cy="60" r="3" fill="#FFFFFF" opacity="0.9"/>
-  <circle cx="200" cy="100" r="2" fill="#FFFFFF" opacity="0.7"/>
-  <circle cx="350" cy="50" r="2.5" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="500" cy="80" r="3" fill="#F4D35E" opacity="0.7"/>
-  <circle cx="680" cy="45" r="2" fill="#FFFFFF" opacity="0.9"/>
-  <circle cx="720" cy="150" r="2.5" fill="#FFFFFF" opacity="0.6"/>
-  <circle cx="50" cy="200" r="2" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="750" cy="300" r="3" fill="#F4D35E" opacity="0.5"/>
-  <circle cx="130" cy="300" r="1.5" fill="#FFFFFF" opacity="0.7"/>
-  <circle cx="660" cy="200" r="2" fill="#FFFFFF" opacity="0.8"/>
-
-  <!-- Star polygons -->
-  <polygon points="600,120 603,128 612,128 605,133 608,142 600,137 592,142 595,133 588,128 597,128" fill="#F4D35E" opacity="0.8"/>
-  <polygon points="100,140 102,146 109,146 104,150 106,156 100,152 94,156 96,150 91,146 98,146" fill="#FFFFFF" opacity="0.7"/>
-
-  <!-- Yellow accent details on dome -->
-  <rect x="280" y="500" width="20" height="6" fill="#F4D35E" opacity="0.7"/>
-  <rect x="500" y="500" width="20" height="6" fill="#F4D35E" opacity="0.7"/>
-  <circle cx="340" cy="460" r="4" fill="#F4D35E" opacity="0.6"/>
-  <circle cx="510" cy="440" r="4" fill="#F4D35E" opacity="0.6"/>
-
-  <!-- Structural lines on ground -->
-  <line x1="0" y1="580" x2="800" y2="580" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
-  <line x1="0" y1="650" x2="800" y2="650" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <title>Index Theorem</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0" opacity="1.00"/>
+  <line x1="334" y1="0" x2="1134" y2="800" stroke="#FFFFFF" stroke-width="1.8733459154883034" opacity="0.73"/>
+  <line x1="391" y1="0" x2="1191" y2="800" stroke="#1D3557" stroke-width="3.605997044528221" opacity="0.73"/>
+  <line x1="172" y1="0" x2="972" y2="800" stroke="#F4D35E" stroke-width="6.996492872288271" opacity="0.52"/>
+  <line x1="265" y1="0" x2="1065" y2="800" stroke="#6D2E46" stroke-width="4.978220250343663" opacity="0.86"/>
+  <line x1="-243" y1="0" x2="557" y2="800" stroke="#264653" stroke-width="7.371160044501249" opacity="0.86"/>
+  <line x1="24" y1="0" x2="824" y2="800" stroke="#6D2E46" stroke-width="6.301945460578811" opacity="0.43"/>
+  <line x1="290" y1="0" x2="1090" y2="800" stroke="#000000" stroke-width="4.432546052526827" opacity="0.51"/>
+  <line x1="362" y1="0" x2="1162" y2="800" stroke="#000000" stroke-width="6.5476087793028706" opacity="0.52"/>
+  <line x1="130" y1="0" x2="930" y2="800" stroke="#6D2E46" stroke-width="5.707103227552461" opacity="0.42"/>
+  <line x1="-30" y1="0" x2="770" y2="800" stroke="#000000" stroke-width="3.9309631820856414" opacity="0.45"/>
+  <line x1="-42" y1="0" x2="758" y2="800" stroke="#264653" stroke-width="1.8028575996427871" opacity="0.37"/>
+  <line x1="-13" y1="0" x2="787" y2="800" stroke="#6D2E46" stroke-width="3.6937947844382526" opacity="0.41"/>
+  <line x1="-44" y1="0" x2="756" y2="800" stroke="#FFFFFF" stroke-width="4.272013223410462" opacity="0.45"/>
+  <line x1="145" y1="0" x2="945" y2="800" stroke="#6D2E46" stroke-width="3.897687104430572" opacity="0.86"/>
+  <line x1="-136" y1="0" x2="664" y2="800" stroke="#E63946" stroke-width="2.061911510949223" opacity="0.70"/>
+  <line x1="474" y1="0" x2="-326" y2="800" stroke="#FFFFFF" stroke-width="1.4092329910376316" opacity="0.15"/>
+  <line x1="303" y1="0" x2="-497" y2="800" stroke="#FFFFFF" stroke-width="1.8840461500630055" opacity="0.15"/>
+  <line x1="642" y1="0" x2="-158" y2="800" stroke="#FFFFFF" stroke-width="1.9300327675137858" opacity="0.15"/>
+  <line x1="590" y1="0" x2="-210" y2="800" stroke="#000000" stroke-width="0.7673353044983486" opacity="0.15"/>
+  <line x1="302" y1="0" x2="-498" y2="800" stroke="#FFFFFF" stroke-width="1.2090790944512273" opacity="0.15"/>
+  <line x1="393" y1="0" x2="-407" y2="800" stroke="#FFFFFF" stroke-width="1.0521805517295801" opacity="0.15"/>
+  <line x1="23" y1="0" x2="-777" y2="800" stroke="#FFFFFF" stroke-width="0.7898636480093308" opacity="0.15"/>
+  <line x1="314" y1="0" x2="-486" y2="800" stroke="#000000" stroke-width="0.6505719249559861" opacity="0.15"/>
+  <polygon points="762,163 285,559 136,596" fill="#F4D35E" opacity="0.46"/>
+  <polygon points="215,383 466,127 294,404" fill="#1D3557" opacity="0.40"/>
+  <polygon points="353,355 426,744 792,640" fill="#E63946" opacity="0.47"/>
+  <rect x="288" y="80" width="113" height="61" fill="#2A9D8F" opacity="0.74"/>
+  <rect x="33" y="231" width="28" height="38" fill="#000000" opacity="0.67"/>
+  <rect x="346" y="222" width="74" height="111" fill="#F4D35E" opacity="0.55"/>
+  <rect x="545" y="255" width="67" height="65" fill="#6D2E46" opacity="0.60"/>
+  <rect x="44" y="528" width="23" height="88" fill="#F4D35E" opacity="0.55"/>
+  <rect x="171" y="495" width="31" height="46" fill="#E76F51" opacity="0.61"/>
+  <rect x="453" y="37" width="98" height="116" fill="#264653" opacity="0.74"/>
+  <circle cx="522" cy="427" r="8" fill="#1D3557" opacity="0.78"/>
+  <circle cx="663" cy="697" r="11" fill="#E63946" opacity="0.84"/>
+  <circle cx="263" cy="697" r="11" fill="#1D3557" opacity="0.96"/>
+  <circle cx="31" cy="180" r="20" fill="#E63946" opacity="0.85"/>
+  <circle cx="375" cy="752" r="17" fill="#1D3557" opacity="0.78"/>
+  <circle cx="225" cy="198" r="16" fill="#1D3557" opacity="0.96"/>
 </svg>

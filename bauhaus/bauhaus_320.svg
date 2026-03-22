@@ -1,57 +1,81 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- White background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
-  <!-- Fragment regions - irregular polygons with different fills -->
-  <!-- Large center-ish fragments -->
-  <polygon points="300,250 500,200 550,400 400,450 280,380" fill="#1D3557" opacity="0.5"/>
-  <polygon points="350,100 550,80 550,200 500,200 300,250 280,180" fill="#F4D35E" opacity="0.45"/>
-  <polygon points="550,80 750,100 700,300 550,400 500,200" fill="#2A9D8F" opacity="0.4"/>
-  <polygon points="100,50 350,100 280,180 300,250 280,380 150,350 80,200" fill="#A8DADC" opacity="0.5"/>
-  <polygon points="0,0 100,50 80,200 0,180" fill="#FEFAE0" opacity="0.7"/>
-  <polygon points="100,50 350,100 550,80 750,100 800,0 0,0" fill="#E9C46A" opacity="0.3"/>
-  <!-- Mid-level fragments -->
-  <polygon points="280,380 400,450 350,580 200,550 150,350" fill="#E76F51" opacity="0.45"/>
-  <polygon points="400,450 550,400 650,500 580,620 350,580" fill="#457B9D" opacity="0.5"/>
-  <polygon points="550,400 700,300 780,350 750,520 650,500" fill="#DDA15E" opacity="0.4"/>
-  <polygon points="700,300 750,100 800,100 800,350 780,350" fill="#6D2E46" opacity="0.5"/>
-  <!-- Lower fragments -->
-  <polygon points="0,180 80,200 150,350 200,550 100,600 0,500" fill="#264653" opacity="0.45"/>
-  <polygon points="200,550 350,580 300,700 150,720 100,600" fill="#F4D35E" opacity="0.5"/>
-  <polygon points="350,580 580,620 550,750 300,700" fill="#1D3557" opacity="0.35"/>
-  <polygon points="580,620 650,500 750,520 780,650 700,760 550,750" fill="#E63946" opacity="0.4"/>
-  <polygon points="750,520 800,350 800,700 780,650" fill="#2A9D8F" opacity="0.55"/>
-  <!-- Bottom fragments -->
-  <polygon points="0,500 100,600 150,720 50,800 0,800" fill="#A89F91" opacity="0.5"/>
-  <polygon points="150,720 300,700 350,800 50,800" fill="#E76F51" opacity="0.35"/>
-  <polygon points="300,700 550,750 500,800 350,800" fill="#FEFAE0" opacity="0.6"/>
-  <polygon points="550,750 700,760 750,800 500,800" fill="#457B9D" opacity="0.45"/>
-  <polygon points="700,760 780,650 800,700 800,800 750,800" fill="#DDA15E" opacity="0.5"/>
-  <!-- Black fragment boundary lines -->
-  <polyline points="300,250 500,200 550,400 400,450 280,380 300,250" fill="none" stroke="#000000" stroke-width="2"/>
-  <polyline points="350,100 550,80 500,200 300,250 280,180 350,100" fill="none" stroke="#000000" stroke-width="2"/>
-  <polyline points="550,80 750,100 700,300 550,400 500,200 550,80" fill="none" stroke="#000000" stroke-width="2"/>
-  <polyline points="100,50 350,100 280,180 300,250 280,380 150,350 80,200 100,50" fill="none" stroke="#000000" stroke-width="2"/>
-  <polyline points="280,380 400,450 350,580 200,550 150,350 280,380" fill="none" stroke="#000000" stroke-width="2"/>
-  <polyline points="400,450 550,400 650,500 580,620 350,580 400,450" fill="none" stroke="#000000" stroke-width="2"/>
-  <polyline points="550,400 700,300 780,350 750,520 650,500 550,400" fill="none" stroke="#000000" stroke-width="2"/>
-  <polyline points="200,550 350,580 300,700 150,720 100,600 200,550" fill="none" stroke="#000000" stroke-width="2"/>
-  <polyline points="350,580 580,620 550,750 300,700 350,580" fill="none" stroke="#000000" stroke-width="2"/>
-  <polyline points="580,620 650,500 750,520 780,650 700,760 550,750 580,620" fill="none" stroke="#000000" stroke-width="2"/>
-  <line x1="0" y1="180" x2="80" y2="200" stroke="#000000" stroke-width="2"/>
-  <line x1="0" y1="500" x2="100" y2="600" stroke="#000000" stroke-width="2"/>
-  <line x1="150" y1="720" x2="50" y2="800" stroke="#000000" stroke-width="2"/>
-  <line x1="750" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="2"/>
-  <line x1="800" y1="350" x2="780" y2="350" stroke="#000000" stroke-width="2"/>
-  <line x1="800" y1="700" x2="780" y2="650" stroke="#000000" stroke-width="2"/>
-  <!-- Bold red triangle overlapping several regions -->
-  <polygon points="350,300 550,550 150,550" fill="#E63946" opacity="0.65" stroke="#E63946" stroke-width="1"/>
-  <!-- Warm gray shadow offsets -->
-  <polygon points="355,308 555,558 155,558" fill="#A89F91" opacity="0.2" transform="translate(8,8)"/>
-  <!-- Internal shapes within fragments -->
-  <circle cx="450" cy="320" r="18" fill="#FFFFFF" opacity="0.6"/>
-  <circle cx="650" cy="400" r="12" fill="#000000" opacity="0.3"/>
-  <rect x="120" y="280" width="25" height="25" fill="#F4D35E" opacity="0.5"/>
-  <circle cx="300" cy="640" r="14" fill="#FEFAE0" opacity="0.7"/>
-  <rect x="620" y="580" width="20" height="30" fill="#000000" opacity="0.25"/>
-  <circle cx="180" cy="480" r="10" fill="#E9C46A" opacity="0.6"/>
+  <title>Partition Wall</title>
+  <rect x="0" y="0" width="800" height="800" fill="#000000" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="80" y1="0" x2="80" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="160" y1="0" x2="160" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="320" y1="0" x2="320" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="480" y1="0" x2="480" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="560" y1="0" x2="560" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="640" y1="0" x2="640" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="720" y1="0" x2="720" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="546" y1="334" x2="655" y2="315" stroke="#FFFFFF" stroke-width="3.3869880336085854" opacity="0.72"/>
+  <line x1="546" y1="334" x2="731" y2="206" stroke="#E9C46A" stroke-width="2.4016624229796726" opacity="0.49"/>
+  <line x1="546" y1="334" x2="434" y2="512" stroke="#457B9D" stroke-width="2.1763323446261813" opacity="0.43"/>
+  <line x1="546" y1="334" x2="333" y2="484" stroke="#F4D35E" stroke-width="3.1611072446065442" opacity="0.73"/>
+  <line x1="546" y1="334" x2="747" y2="618" stroke="#A8DADC" stroke-width="3.123575681151893" opacity="0.78"/>
+  <line x1="655" y1="315" x2="473" y2="227" stroke="#457B9D" stroke-width="2.8853199730132593" opacity="0.79"/>
+  <line x1="655" y1="315" x2="731" y2="206" stroke="#2A9D8F" stroke-width="1.4778337940005066" opacity="0.44"/>
+  <line x1="655" y1="315" x2="434" y2="512" stroke="#457B9D" stroke-width="3.233980311050299" opacity="0.44"/>
+  <line x1="655" y1="315" x2="643" y2="452" stroke="#E76F51" stroke-width="2.6183798098841295" opacity="0.62"/>
+  <line x1="473" y1="227" x2="434" y2="512" stroke="#F4D35E" stroke-width="2.107834934131702" opacity="0.56"/>
+  <line x1="473" y1="227" x2="158" y2="315" stroke="#E76F51" stroke-width="3.2047737756024897" opacity="0.52"/>
+  <line x1="146" y1="726" x2="333" y2="484" stroke="#E9C46A" stroke-width="1.733426486397489" opacity="0.68"/>
+  <line x1="146" y1="726" x2="190" y2="414" stroke="#F4D35E" stroke-width="2.5587443794843363" opacity="0.68"/>
+  <line x1="714" y1="284" x2="643" y2="452" stroke="#E63946" stroke-width="3.226766578299512" opacity="0.73"/>
+  <line x1="434" y1="512" x2="158" y2="315" stroke="#E63946" stroke-width="3.2824546377468233" opacity="0.73"/>
+  <line x1="434" y1="512" x2="333" y2="484" stroke="#F4D35E" stroke-width="3.5412258970220014" opacity="0.58"/>
+  <line x1="434" y1="512" x2="319" y2="682" stroke="#E63946" stroke-width="2.889348287236624" opacity="0.46"/>
+  <line x1="434" y1="512" x2="190" y2="414" stroke="#F4D35E" stroke-width="3.869573018485955" opacity="0.41"/>
+  <line x1="434" y1="512" x2="643" y2="452" stroke="#E63946" stroke-width="3.5784528920093712" opacity="0.59"/>
+  <line x1="158" y1="315" x2="333" y2="484" stroke="#FFFFFF" stroke-width="1.2548093045145459" opacity="0.68"/>
+  <line x1="333" y1="484" x2="190" y2="414" stroke="#2A9D8F" stroke-width="1.8061611716797994" opacity="0.78"/>
+  <line x1="747" y1="618" x2="700" y2="556" stroke="#2A9D8F" stroke-width="2.4759574247392733" opacity="0.72"/>
+  <line x1="190" y1="414" x2="285" y2="579" stroke="#FFFFFF" stroke-width="1.708557771360857" opacity="0.61"/>
+  <circle cx="546" cy="334" r="20" fill="#F4D35E" opacity="1.00"/>
+  <circle cx="546" cy="334" r="25" fill="none" opacity="1.00" stroke="#F4D35E" stroke-width="1.5"/>
+  <circle cx="655" cy="315" r="22" fill="#1D3557" opacity="1.00"/>
+  <circle cx="655" cy="315" r="27" fill="none" opacity="1.00" stroke="#1D3557" stroke-width="1.5"/>
+  <circle cx="531" cy="167" r="22" fill="#E63946" opacity="1.00"/>
+  <circle cx="531" cy="167" r="27" fill="none" opacity="1.00" stroke="#E63946" stroke-width="1.5"/>
+  <circle cx="473" cy="227" r="9" fill="#F4D35E" opacity="1.00"/>
+  <circle cx="473" cy="227" r="14" fill="none" opacity="1.00" stroke="#F4D35E" stroke-width="1.5"/>
+  <circle cx="731" cy="206" r="20" fill="#1D3557" opacity="1.00"/>
+  <circle cx="731" cy="206" r="25" fill="none" opacity="1.00" stroke="#1D3557" stroke-width="1.5"/>
+  <circle cx="146" cy="726" r="12" fill="#1D3557" opacity="1.00"/>
+  <circle cx="146" cy="726" r="17" fill="none" opacity="1.00" stroke="#1D3557" stroke-width="1.5"/>
+  <circle cx="714" cy="284" r="22" fill="#E63946" opacity="1.00"/>
+  <circle cx="714" cy="284" r="27" fill="none" opacity="1.00" stroke="#E63946" stroke-width="1.5"/>
+  <circle cx="434" cy="512" r="24" fill="#F4D35E" opacity="1.00"/>
+  <circle cx="434" cy="512" r="29" fill="none" opacity="1.00" stroke="#F4D35E" stroke-width="1.5"/>
+  <circle cx="158" cy="315" r="21" fill="#F4D35E" opacity="1.00"/>
+  <circle cx="158" cy="315" r="26" fill="none" opacity="1.00" stroke="#F4D35E" stroke-width="1.5"/>
+  <circle cx="333" cy="484" r="23" fill="#F4D35E" opacity="1.00"/>
+  <circle cx="333" cy="484" r="28" fill="none" opacity="1.00" stroke="#F4D35E" stroke-width="1.5"/>
+  <circle cx="747" cy="618" r="20" fill="#1D3557" opacity="1.00"/>
+  <circle cx="747" cy="618" r="25" fill="none" opacity="1.00" stroke="#1D3557" stroke-width="1.5"/>
+  <circle cx="319" cy="682" r="25" fill="#E63946" opacity="1.00"/>
+  <circle cx="319" cy="682" r="30" fill="none" opacity="1.00" stroke="#E63946" stroke-width="1.5"/>
+  <circle cx="190" cy="414" r="20" fill="#F4D35E" opacity="1.00"/>
+  <circle cx="190" cy="414" r="25" fill="none" opacity="1.00" stroke="#F4D35E" stroke-width="1.5"/>
+  <circle cx="700" cy="556" r="11" fill="#E63946" opacity="1.00"/>
+  <circle cx="700" cy="556" r="16" fill="none" opacity="1.00" stroke="#E63946" stroke-width="1.5"/>
+  <circle cx="285" cy="579" r="24" fill="#E63946" opacity="1.00"/>
+  <circle cx="285" cy="579" r="29" fill="none" opacity="1.00" stroke="#E63946" stroke-width="1.5"/>
+  <circle cx="643" cy="452" r="24" fill="#E63946" opacity="1.00"/>
+  <circle cx="643" cy="452" r="29" fill="none" opacity="1.00" stroke="#E63946" stroke-width="1.5"/>
 </svg>

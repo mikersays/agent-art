@@ -1,62 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Sky background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-  <!-- Thin horizontal lines throughout -->
-  <line x1="0" y1="80" x2="800" y2="80" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
-  <line x1="0" y1="160" x2="800" y2="160" stroke="#A89F91" stroke-width="0.5" opacity="0.12"/>
-  <line x1="0" y1="240" x2="800" y2="240" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="320" x2="800" y2="320" stroke="#A89F91" stroke-width="0.5" opacity="0.12"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
-  <line x1="0" y1="480" x2="800" y2="480" stroke="#A89F91" stroke-width="0.5" opacity="0.12"/>
-  <line x1="0" y1="560" x2="800" y2="560" stroke="#A89F91" stroke-width="0.7" opacity="0.18"/>
-  <line x1="0" y1="620" x2="800" y2="620" stroke="#A89F91" stroke-width="0.7" opacity="0.15"/>
-  <line x1="0" y1="680" x2="800" y2="680" stroke="#A89F91" stroke-width="0.7" opacity="0.18"/>
-  <line x1="0" y1="740" x2="800" y2="740" stroke="#A89F91" stroke-width="0.7" opacity="0.15"/>
-  <!-- Bottom third: landscape blocks -->
-  <rect x="0" y="580" width="800" height="220" fill="#264653" opacity="0.85"/>
-  <rect x="0" y="620" width="350" height="180" fill="#2A9D8F" opacity="0.7"/>
-  <rect x="300" y="650" width="500" height="150" fill="#264653" opacity="0.6"/>
-  <rect x="500" y="600" width="300" height="80" fill="#2A9D8F" opacity="0.5"/>
-  <rect x="0" y="700" width="200" height="100" fill="#264653" opacity="0.9"/>
-  <rect x="600" y="720" width="200" height="80" fill="#2A9D8F" opacity="0.8"/>
-  <!-- Red accent block in landscape -->
-  <rect x="150" y="640" width="60" height="100" fill="#E63946" opacity="0.7"/>
-  <!-- Orange accent block -->
-  <rect x="450" y="670" width="80" height="50" fill="#E76F51" opacity="0.65"/>
-  <!-- Large yellow sun circle -->
-  <circle cx="520" cy="320" r="140" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="520" cy="320" r="110" fill="#F4D35E" opacity="0.3"/>
-  <!-- Sun inner ring -->
-  <circle cx="520" cy="320" r="60" fill="#E9C46A" opacity="0.5"/>
-  <!-- Scattered sky shapes - light blue -->
-  <circle cx="120" cy="100" r="18" fill="#A8DADC" opacity="0.5"/>
-  <circle cx="250" cy="150" r="12" fill="#A8DADC" opacity="0.4"/>
-  <circle cx="680" cy="120" r="15" fill="#A8DADC" opacity="0.45"/>
-  <circle cx="380" cy="80" r="10" fill="#FEFAE0" opacity="0.6"/>
-  <circle cx="90" cy="220" r="8" fill="#A8DADC" opacity="0.35"/>
-  <circle cx="700" cy="230" r="14" fill="#A8DADC" opacity="0.4"/>
-  <rect x="180" y="190" width="20" height="20" fill="#A8DADC" opacity="0.3"/>
-  <rect x="600" y="80" width="15" height="15" fill="#FEFAE0" opacity="0.5"/>
-  <!-- Red and orange accents in upper area -->
-  <circle cx="320" cy="200" r="10" fill="#E63946" opacity="0.6"/>
-  <circle cx="150" cy="300" r="7" fill="#E76F51" opacity="0.55"/>
-  <rect x="650" y="190" width="25" height="8" fill="#E63946" opacity="0.5"/>
-  <rect x="50" y="350" width="30" height="10" fill="#E76F51" opacity="0.45"/>
-  <!-- Horizontal layering lines in middle zone -->
-  <line x1="0" y1="500" x2="400" y2="500" stroke="#264653" stroke-width="2" opacity="0.4"/>
-  <line x1="350" y1="530" x2="800" y2="530" stroke="#2A9D8F" stroke-width="2" opacity="0.35"/>
-  <line x1="100" y1="555" x2="700" y2="555" stroke="#264653" stroke-width="1.5" opacity="0.3"/>
-  <!-- Depth layers - translucent shapes -->
-  <rect x="0" y="450" width="800" height="30" fill="#2A9D8F" opacity="0.1"/>
-  <rect x="0" y="510" width="800" height="20" fill="#264653" opacity="0.12"/>
-  <!-- Small detail shapes -->
-  <polygon points="740,660 755,640 770,660" fill="#E63946" opacity="0.6"/>
-  <polygon points="60,590 75,570 90,590" fill="#F4D35E" opacity="0.7"/>
-  <circle cx="400" cy="750" r="5" fill="#E76F51" opacity="0.6"/>
-  <circle cx="300" cy="770" r="4" fill="#F4D35E" opacity="0.5"/>
-  <!-- Corner accents -->
-  <rect x="15" y="15" width="30" height="30" fill="#264653" opacity="0.25"/>
-  <rect x="755" y="15" width="30" height="30" fill="#E63946" opacity="0.2"/>
-  <!-- Reflection of sun on landscape -->
-  <ellipse cx="520" cy="610" rx="80" ry="12" fill="#F4D35E" opacity="0.25"/>
+  <title>Tidal Pattern</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0" opacity="1.00"/>
+  <line x1="175" y1="0" x2="975" y2="800" stroke="#FFFFFF" stroke-width="5.732512835846832" opacity="0.40"/>
+  <line x1="321" y1="0" x2="1121" y2="800" stroke="#E76F51" stroke-width="7.36203515997963" opacity="0.71"/>
+  <line x1="-149" y1="0" x2="651" y2="800" stroke="#1D3557" stroke-width="3.113507730633172" opacity="0.38"/>
+  <line x1="37" y1="0" x2="837" y2="800" stroke="#E76F51" stroke-width="2.041057358649839" opacity="0.58"/>
+  <line x1="241" y1="0" x2="1041" y2="800" stroke="#264653" stroke-width="2.47329323040277" opacity="0.38"/>
+  <line x1="-60" y1="0" x2="740" y2="800" stroke="#000000" stroke-width="7.673449618139271" opacity="0.57"/>
+  <line x1="-111" y1="0" x2="689" y2="800" stroke="#1D3557" stroke-width="6.842035183481427" opacity="0.69"/>
+  <line x1="273" y1="0" x2="1073" y2="800" stroke="#000000" stroke-width="7.827545360247502" opacity="0.70"/>
+  <line x1="369" y1="0" x2="1169" y2="800" stroke="#E76F51" stroke-width="5.459214509839089" opacity="0.48"/>
+  <line x1="-196" y1="0" x2="604" y2="800" stroke="#6D2E46" stroke-width="7.50773013929796" opacity="0.90"/>
+  <line x1="-217" y1="0" x2="583" y2="800" stroke="#E63946" stroke-width="3.9555632357570536" opacity="0.62"/>
+  <line x1="-274" y1="0" x2="526" y2="800" stroke="#264653" stroke-width="2.6635003354140054" opacity="0.36"/>
+  <line x1="-250" y1="0" x2="550" y2="800" stroke="#2A9D8F" stroke-width="4.171837864127618" opacity="0.61"/>
+  <line x1="735" y1="0" x2="-65" y2="800" stroke="#FFFFFF" stroke-width="1.1130167223460052" opacity="0.15"/>
+  <line x1="44" y1="0" x2="-756" y2="800" stroke="#000000" stroke-width="0.6538931439034456" opacity="0.15"/>
+  <line x1="715" y1="0" x2="-85" y2="800" stroke="#000000" stroke-width="1.0481223867743181" opacity="0.15"/>
+  <line x1="401" y1="0" x2="-399" y2="800" stroke="#FFFFFF" stroke-width="1.785579060218903" opacity="0.15"/>
+  <line x1="341" y1="0" x2="-459" y2="800" stroke="#FFFFFF" stroke-width="1.3659543313744495" opacity="0.15"/>
+  <line x1="491" y1="0" x2="-309" y2="800" stroke="#FFFFFF" stroke-width="1.9626277048662244" opacity="0.15"/>
+  <line x1="257" y1="0" x2="-543" y2="800" stroke="#000000" stroke-width="1.142505577267809" opacity="0.15"/>
+  <polygon points="159,754 727,319 109,90" fill="#1D3557" opacity="0.70"/>
+  <polygon points="457,307 602,284 91,284" fill="#F4D35E" opacity="0.68"/>
+  <rect x="566" y="587" width="117" height="113" fill="#E63946" opacity="0.78"/>
+  <rect x="98" y="450" width="85" height="81" fill="#2A9D8F" opacity="0.85"/>
+  <rect x="104" y="9" width="117" height="29" fill="#000000" opacity="0.64"/>
+  <rect x="363" y="325" width="113" height="82" fill="#2A9D8F" opacity="0.51"/>
+  <rect x="38" y="546" width="116" height="101" fill="#F4D35E" opacity="0.74"/>
+  <rect x="447" y="187" width="43" height="60" fill="#E63946" opacity="0.88"/>
+  <rect x="285" y="555" width="66" height="118" fill="#1D3557" opacity="0.77"/>
+  <rect x="214" y="293" width="88" height="43" fill="#1D3557" opacity="0.83"/>
+  <circle cx="500" cy="359" r="22" fill="#E63946" opacity="0.91"/>
+  <circle cx="522" cy="420" r="23" fill="#E63946" opacity="0.97"/>
+  <circle cx="51" cy="586" r="23" fill="#1D3557" opacity="0.72"/>
+  <circle cx="273" cy="703" r="22" fill="#1D3557" opacity="0.69"/>
+  <circle cx="476" cy="769" r="14" fill="#1D3557" opacity="0.88"/>
+  <circle cx="478" cy="791" r="10" fill="#E63946" opacity="0.60"/>
+  <circle cx="597" cy="418" r="18" fill="#E63946" opacity="0.61"/>
+  <circle cx="284" cy="456" r="20" fill="#F4D35E" opacity="0.69"/>
+  <circle cx="191" cy="475" r="8" fill="#F4D35E" opacity="0.67"/>
+  <circle cx="761" cy="633" r="9" fill="#E63946" opacity="0.86"/>
+  <circle cx="330" cy="261" r="18" fill="#E63946" opacity="0.87"/>
+  <circle cx="782" cy="652" r="15" fill="#E63946" opacity="0.86"/>
+  <circle cx="690" cy="270" r="24" fill="#E63946" opacity="0.94"/>
+  <circle cx="266" cy="473" r="18" fill="#1D3557" opacity="0.89"/>
 </svg>

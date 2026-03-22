@@ -1,57 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Black background -->
-  <rect x="0" y="0" width="800" height="800" fill="#000000"/>
-  <!-- Warm gray connecting lines network -->
-  <line x1="95" y1="120" x2="230" y2="85" stroke="#A89F91" stroke-width="0.5" opacity="0.4"/>
-  <line x1="230" y1="85" x2="400" y2="150" stroke="#A89F91" stroke-width="0.5" opacity="0.4"/>
-  <line x1="400" y1="150" x2="580" y2="95" stroke="#A89F91" stroke-width="0.5" opacity="0.4"/>
-  <line x1="580" y1="95" x2="700" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.4"/>
-  <line x1="700" y1="200" x2="650" y2="370" stroke="#A89F91" stroke-width="0.5" opacity="0.4"/>
-  <line x1="650" y1="370" x2="720" y2="520" stroke="#A89F91" stroke-width="0.5" opacity="0.4"/>
-  <line x1="150" y1="300" x2="300" y2="250" stroke="#A89F91" stroke-width="0.5" opacity="0.35"/>
-  <line x1="300" y1="250" x2="450" y2="350" stroke="#A89F91" stroke-width="0.5" opacity="0.35"/>
-  <line x1="450" y1="350" x2="550" y2="500" stroke="#A89F91" stroke-width="0.5" opacity="0.35"/>
-  <line x1="100" y1="500" x2="250" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
-  <line x1="250" y1="600" x2="450" y2="550" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
-  <line x1="450" y1="550" x2="600" y2="680" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
-  <line x1="300" y1="700" x2="500" y2="720" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
-  <line x1="95" y1="120" x2="150" y2="300" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
-  <line x1="150" y1="300" x2="100" y2="500" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
-  <!-- Anchor shapes (larger) -->
-  <circle cx="400" cy="400" r="35" fill="#457B9D" opacity="0.5"/>
-  <rect x="80" y="380" width="60" height="60" fill="#1D3557" opacity="0.5"/>
-  <circle cx="650" cy="600" r="40" fill="#264653" opacity="0.4"/>
-  <!-- Bold red circle at edge -->
-  <circle cx="60" cy="740" r="45" fill="#E63946" opacity="0.9"/>
-  <!-- Scattered seeds - white/cream shapes -->
-  <circle cx="95" cy="120" r="7" fill="#FFFFFF" opacity="0.9"/>
-  <rect x="222" y="78" width="12" height="12" fill="#FEFAE0" opacity="0.85"/>
-  <polygon points="400,140 393,155 407,155" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="580" cy="95" r="9" fill="#FEFAE0" opacity="0.85"/>
-  <rect x="694" y="194" width="10" height="10" fill="#FFFFFF" opacity="0.8"/>
-  <!-- Colored seeds -->
-  <circle cx="150" cy="300" r="8" fill="#E63946" opacity="0.8"/>
-  <polygon points="300,243 292,258 308,258" fill="#F4D35E" opacity="0.85"/>
-  <rect x="443" y="343" width="11" height="11" fill="#2A9D8F" opacity="0.8"/>
-  <circle cx="650" cy="370" r="6" fill="#E76F51" opacity="0.85"/>
-  <polygon points="720,515 712,528 728,528" fill="#E9C46A" opacity="0.8"/>
-  <rect x="95" y="495" width="9" height="9" fill="#A8DADC" opacity="0.85"/>
-  <circle cx="250" cy="600" r="10" fill="#DDA15E" opacity="0.8"/>
-  <polygon points="450,543 442,558 458,558" fill="#F4D35E" opacity="0.85"/>
-  <rect x="545" y="495" width="8" height="8" fill="#6D2E46" opacity="0.8"/>
-  <circle cx="600" cy="680" r="7" fill="#FFFFFF" opacity="0.85"/>
-  <polygon points="300,695 292,710 308,710" fill="#2A9D8F" opacity="0.8"/>
-  <rect x="495" y="715" width="10" height="10" fill="#E76F51" opacity="0.8"/>
-  <circle cx="180" cy="190" r="5" fill="#F4D35E" opacity="0.9"/>
-  <polygon points="500,220 494,232 506,232" fill="#A8DADC" opacity="0.8"/>
-  <rect x="340" y="470" width="7" height="7" fill="#FFFFFF" opacity="0.75"/>
-  <circle cx="750" cy="400" r="6" fill="#E9C46A" opacity="0.8"/>
-  <polygon points="200,450 194,462 206,462" fill="#E63946" opacity="0.75"/>
-  <rect x="520" y="300" width="8" height="8" fill="#FEFAE0" opacity="0.8"/>
-  <circle cx="420" cy="650" r="5" fill="#457B9D" opacity="0.8"/>
-  <polygon points="680,130 674,142 686,142" fill="#DDA15E" opacity="0.75"/>
-  <rect x="55" y="250" width="6" height="6" fill="#2A9D8F" opacity="0.8"/>
-  <circle cx="350" cy="80" r="4" fill="#6D2E46" opacity="0.8"/>
-  <circle cx="730" cy="720" r="5" fill="#A8DADC" opacity="0.7"/>
-  <polygon points="160,680 153,694 167,694" fill="#FEFAE0" opacity="0.8"/>
+  <title>Flux</title>
+  <rect x="0" y="0" width="800" height="800" fill="#457B9D" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="1.2940549090959754" opacity="0.10"/>
+  <line x1="63" y1="0" x2="63" y2="800" stroke="#2A9D8F" stroke-width="1.7709817676795456" opacity="0.10"/>
+  <line x1="126" y1="0" x2="126" y2="800" stroke="#2A9D8F" stroke-width="1.5691593690906456" opacity="0.10"/>
+  <line x1="189" y1="0" x2="189" y2="800" stroke="#6D2E46" stroke-width="1.0130135131266702" opacity="0.10"/>
+  <line x1="252" y1="0" x2="252" y2="800" stroke="#6D2E46" stroke-width="0.8529459209407457" opacity="0.10"/>
+  <line x1="315" y1="0" x2="315" y2="800" stroke="#E76F51" stroke-width="0.6213960197990447" opacity="0.10"/>
+  <line x1="378" y1="0" x2="378" y2="800" stroke="#F4D35E" stroke-width="1.5640842765114462" opacity="0.10"/>
+  <line x1="441" y1="0" x2="441" y2="800" stroke="#E63946" stroke-width="1.5742120062017613" opacity="0.10"/>
+  <line x1="504" y1="0" x2="504" y2="800" stroke="#000000" stroke-width="1.7537576868142242" opacity="0.10"/>
+  <line x1="567" y1="0" x2="567" y2="800" stroke="#2A9D8F" stroke-width="1.2204341952884217" opacity="0.10"/>
+  <line x1="630" y1="0" x2="630" y2="800" stroke="#F4D35E" stroke-width="1.7876629841897467" opacity="0.10"/>
+  <line x1="693" y1="0" x2="693" y2="800" stroke="#E76F51" stroke-width="0.7463513527466009" opacity="0.10"/>
+  <line x1="756" y1="0" x2="756" y2="800" stroke="#F4D35E" stroke-width="1.5382720641047603" opacity="0.10"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#FFFFFF" stroke-width="1.9045864266918504" opacity="0.10"/>
+  <line x1="0" y1="92" x2="800" y2="92" stroke="#000000" stroke-width="0.5308401673738186" opacity="0.10"/>
+  <line x1="0" y1="184" x2="800" y2="184" stroke="#E76F51" stroke-width="1.013197435096203" opacity="0.10"/>
+  <line x1="0" y1="276" x2="800" y2="276" stroke="#E63946" stroke-width="1.8135776731899054" opacity="0.10"/>
+  <line x1="0" y1="368" x2="800" y2="368" stroke="#000000" stroke-width="0.89940032050113" opacity="0.10"/>
+  <line x1="0" y1="460" x2="800" y2="460" stroke="#E63946" stroke-width="0.5319692398204443" opacity="0.10"/>
+  <line x1="0" y1="552" x2="800" y2="552" stroke="#6D2E46" stroke-width="0.7720468972748455" opacity="0.10"/>
+  <line x1="0" y1="644" x2="800" y2="644" stroke="#E76F51" stroke-width="0.7324279846061519" opacity="0.10"/>
+  <line x1="0" y1="736" x2="800" y2="736" stroke="#E63946" stroke-width="1.1822672989001568" opacity="0.10"/>
+  <rect x="365" y="20" width="329" height="374" fill="#F4D35E" opacity="0.85"/>
+  <rect x="375" y="30" width="309" height="354" fill="none" opacity="1.00"/>
+  <rect x="48" y="427" width="21" height="21" fill="#E63946" opacity="0.31"/>
+  <rect x="714" y="402" width="21" height="21" fill="#E76F51" opacity="0.65"/>
+  <rect x="481" y="260" width="21" height="21" fill="#6D2E46" opacity="0.65"/>
+  <rect x="196" y="495" width="24" height="24" fill="#FFFFFF" opacity="0.59"/>
+  <rect x="255" y="276" width="29" height="29" fill="#6D2E46" opacity="0.63"/>
+  <rect x="619" y="445" width="25" height="25" fill="#FFFFFF" opacity="0.46"/>
+  <rect x="733" y="545" width="17" height="17" fill="#000000" opacity="0.64"/>
+  <circle cx="698" cy="759" r="13" fill="#000000" opacity="0.57"/>
+  <circle cx="194" cy="189" r="9" fill="#000000" opacity="0.45"/>
+  <circle cx="16" cy="670" r="7" fill="#000000" opacity="0.63"/>
+  <rect x="0" y="0" width="800" height="9" fill="#F4D35E" opacity="1.00"/>
+  <rect x="0" y="791" width="800" height="9" fill="#1D3557" opacity="1.00"/>
 </svg>

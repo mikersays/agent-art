@@ -1,48 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Dark forest background -->
-  <rect x="0" y="0" width="800" height="800" fill="#264653"/>
-  <!-- Subtle structural lines -->
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#FFFFFF" stroke-width="0.5" opacity="0.05"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#FFFFFF" stroke-width="0.5" opacity="0.05"/>
-  <!-- Large blue rectangle - sliding left -->
-  <rect x="30" y="180" width="420" height="260" fill="#1D3557" opacity="0.95"/>
-  <!-- Large red rectangle - sliding right -->
-  <rect x="350" y="340" width="420" height="260" fill="#E63946" opacity="0.9"/>
-  <!-- Overlap zone accent -->
-  <rect x="350" y="340" width="100" height="100" fill="#6D2E46" opacity="0.6"/>
-  <!-- Fracture lines -->
-  <line x1="320" y1="150" x2="480" y2="650" stroke="#FEFAE0" stroke-width="1.5" opacity="0.4"/>
-  <line x1="340" y1="140" x2="500" y2="660" stroke="#FEFAE0" stroke-width="0.8" opacity="0.25"/>
-  <line x1="360" y1="160" x2="460" y2="640" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
-  <line x1="300" y1="200" x2="520" y2="600" stroke="#FEFAE0" stroke-width="0.5" opacity="0.2"/>
-  <line x1="380" y1="170" x2="440" y2="630" stroke="#A89F91" stroke-width="0.7" opacity="0.2"/>
-  <!-- Geometric debris in the gap zone -->
-  <!-- Triangles -->
-  <polygon points="390,280 420,240 450,280" fill="#F4D35E" opacity="0.85"/>
-  <polygon points="460,620 480,580 500,620" fill="#F4D35E" opacity="0.7"/>
-  <polygon points="340,500 370,460 400,500" fill="#E76F51" opacity="0.75"/>
-  <polygon points="500,310 520,280 540,310" fill="#2A9D8F" opacity="0.8"/>
-  <!-- Small circles debris -->
-  <circle cx="420" cy="450" r="15" fill="#F4D35E" opacity="0.8"/>
-  <circle cx="370" cy="380" r="10" fill="#2A9D8F" opacity="0.7"/>
-  <circle cx="460" cy="520" r="12" fill="#E76F51" opacity="0.75"/>
-  <circle cx="500" cy="400" r="8" fill="#FEFAE0" opacity="0.6"/>
-  <circle cx="440" cy="350" r="6" fill="#E9C46A" opacity="0.7"/>
-  <circle cx="480" cy="480" r="9" fill="#A8DADC" opacity="0.5"/>
-  <!-- Small rectangle debris -->
-  <rect x="410" y="550" width="25" height="15" fill="#E76F51" opacity="0.7" transform="rotate(25 422 557)"/>
-  <rect x="350" y="430" width="20" height="12" fill="#F4D35E" opacity="0.65" transform="rotate(-15 360 436)"/>
-  <rect x="470" y="360" width="18" height="30" fill="#2A9D8F" opacity="0.6" transform="rotate(40 479 375)"/>
-  <rect x="430" y="270" width="15" height="15" fill="#FEFAE0" opacity="0.5" transform="rotate(10 437 277)"/>
-  <!-- Horizontal motion lines on rectangles -->
-  <line x1="30" y1="310" x2="200" y2="310" stroke="#A8DADC" stroke-width="2" opacity="0.3"/>
-  <line x1="600" y1="470" x2="770" y2="470" stroke="#E9C46A" stroke-width="2" opacity="0.3"/>
-  <!-- Corner accents -->
-  <circle cx="60" cy="60" r="12" fill="#F4D35E" opacity="0.5"/>
-  <circle cx="740" cy="740" r="12" fill="#2A9D8F" opacity="0.5"/>
-  <rect x="700" y="50" width="40" height="8" fill="#E63946" opacity="0.4"/>
-  <rect x="60" y="720" width="40" height="8" fill="#1D3557" opacity="0.4"/>
-  <!-- Additional structural accents -->
-  <line x1="30" y1="180" x2="30" y2="440" stroke="#FEFAE0" stroke-width="1" opacity="0.3"/>
-  <line x1="770" y1="340" x2="770" y2="600" stroke="#FEFAE0" stroke-width="1" opacity="0.3"/>
+  <title>Gaussian Curvature</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#6D2E46" stroke-width="1.6625083683408866" opacity="0.10"/>
+  <line x1="65" y1="0" x2="65" y2="800" stroke="#264653" stroke-width="1.238253989944372" opacity="0.10"/>
+  <line x1="130" y1="0" x2="130" y2="800" stroke="#000000" stroke-width="0.5271861956533501" opacity="0.10"/>
+  <line x1="195" y1="0" x2="195" y2="800" stroke="#264653" stroke-width="1.7510713736335464" opacity="0.10"/>
+  <line x1="260" y1="0" x2="260" y2="800" stroke="#E76F51" stroke-width="1.4161611641274834" opacity="0.10"/>
+  <line x1="325" y1="0" x2="325" y2="800" stroke="#E63946" stroke-width="0.6021596203319992" opacity="0.10"/>
+  <line x1="390" y1="0" x2="390" y2="800" stroke="#F4D35E" stroke-width="1.6141692184863028" opacity="0.10"/>
+  <line x1="455" y1="0" x2="455" y2="800" stroke="#F4D35E" stroke-width="1.303272505005718" opacity="0.10"/>
+  <line x1="520" y1="0" x2="520" y2="800" stroke="#000000" stroke-width="1.9931381902409737" opacity="0.10"/>
+  <line x1="585" y1="0" x2="585" y2="800" stroke="#1D3557" stroke-width="1.1746095934236302" opacity="0.10"/>
+  <line x1="650" y1="0" x2="650" y2="800" stroke="#E63946" stroke-width="1.1725049151331302" opacity="0.10"/>
+  <line x1="715" y1="0" x2="715" y2="800" stroke="#E63946" stroke-width="1.8555694888660366" opacity="0.10"/>
+  <line x1="780" y1="0" x2="780" y2="800" stroke="#F4D35E" stroke-width="1.9954435845036753" opacity="0.10"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#E63946" stroke-width="1.2641251595699656" opacity="0.10"/>
+  <line x1="0" y1="77" x2="800" y2="77" stroke="#E76F51" stroke-width="1.695290600702409" opacity="0.10"/>
+  <line x1="0" y1="154" x2="800" y2="154" stroke="#2A9D8F" stroke-width="1.45044273426497" opacity="0.10"/>
+  <line x1="0" y1="231" x2="800" y2="231" stroke="#E63946" stroke-width="1.1570480832411432" opacity="0.10"/>
+  <line x1="0" y1="308" x2="800" y2="308" stroke="#6D2E46" stroke-width="0.66967460945295" opacity="0.10"/>
+  <line x1="0" y1="385" x2="800" y2="385" stroke="#264653" stroke-width="0.7971873836695729" opacity="0.10"/>
+  <line x1="0" y1="462" x2="800" y2="462" stroke="#E76F51" stroke-width="0.9044776392361364" opacity="0.10"/>
+  <line x1="0" y1="539" x2="800" y2="539" stroke="#6D2E46" stroke-width="1.699632925132942" opacity="0.10"/>
+  <line x1="0" y1="616" x2="800" y2="616" stroke="#2A9D8F" stroke-width="0.8290733036993487" opacity="0.10"/>
+  <line x1="0" y1="693" x2="800" y2="693" stroke="#264653" stroke-width="0.7143302157260625" opacity="0.10"/>
+  <line x1="0" y1="770" x2="800" y2="770" stroke="#1D3557" stroke-width="1.9858777940120798" opacity="0.10"/>
+  <polygon points="393,171 570,436 216,436" fill="#1D3557" opacity="0.85"/>
+  <rect x="562" y="613" width="37" height="37" fill="#6D2E46" opacity="0.55"/>
+  <rect x="395" y="443" width="41" height="41" fill="#264653" opacity="0.45"/>
+  <rect x="448" y="63" width="32" height="32" fill="#F4D35E" opacity="0.35"/>
+  <rect x="10" y="8" width="20" height="20" fill="#264653" opacity="0.49"/>
+  <rect x="627" y="94" width="23" height="23" fill="#000000" opacity="0.44"/>
+  <circle cx="638" cy="712" r="14" fill="#2A9D8F" opacity="0.67"/>
+  <circle cx="438" cy="117" r="22" fill="#E76F51" opacity="0.60"/>
+  <circle cx="608" cy="677" r="21" fill="#264653" opacity="0.41"/>
+  <rect x="0" y="0" width="800" height="8" fill="#F4D35E" opacity="1.00"/>
+  <rect x="0" y="792" width="800" height="8" fill="#1D3557" opacity="1.00"/>
 </svg>

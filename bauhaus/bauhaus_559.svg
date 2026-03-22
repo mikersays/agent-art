@@ -1,64 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Subtle background grid -->
-  <line x1="100" y1="0" x2="100" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="300" y1="0" x2="300" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="500" y1="0" x2="500" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="700" y1="0" x2="700" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="100" x2="800" y2="100" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="300" x2="800" y2="300" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="500" x2="800" y2="500" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="700" x2="800" y2="700" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-
-  <!-- Flag 1 - Red, tilted left -->
-  <line x1="120" y1="700" x2="150" y2="200" stroke="#000000" stroke-width="2.5" opacity="0.8"/>
-  <rect x="152" y="200" width="110" height="70" fill="#E63946" opacity="0.85" transform="rotate(-5, 152, 200)"/>
-  <circle cx="120" cy="700" r="6" fill="#000000" opacity="0.7"/>
-
-  <!-- Flag 2 - Blue, upright -->
-  <line x1="260" y1="720" x2="270" y2="150" stroke="#000000" stroke-width="2.5" opacity="0.8"/>
-  <rect x="272" y="150" width="100" height="65" fill="#1D3557" opacity="0.85"/>
-  <circle cx="260" cy="720" r="6" fill="#000000" opacity="0.7"/>
-
-  <!-- Flag 3 - Yellow, tilted right -->
-  <line x1="420" y1="680" x2="440" y2="100" stroke="#000000" stroke-width="2.5" opacity="0.8"/>
-  <rect x="442" y="100" width="120" height="75" fill="#F4D35E" opacity="0.9" transform="rotate(8, 442, 100)"/>
-  <circle cx="420" cy="680" r="6" fill="#000000" opacity="0.7"/>
-
-  <!-- Flag 4 - Red, shorter pole -->
-  <line x1="540" y1="710" x2="555" y2="280" stroke="#000000" stroke-width="2" opacity="0.75"/>
-  <rect x="557" y="280" width="90" height="55" fill="#E63946" opacity="0.75" transform="rotate(-10, 557, 280)"/>
-  <circle cx="540" cy="710" r="5" fill="#000000" opacity="0.7"/>
-
-  <!-- Flag 5 - Blue, tallest -->
-  <line x1="670" y1="730" x2="690" y2="80" stroke="#000000" stroke-width="3" opacity="0.8"/>
-  <rect x="692" y="80" width="95" height="60" fill="#1D3557" opacity="0.8" transform="rotate(3, 692, 80)"/>
-  <circle cx="670" cy="730" r="7" fill="#000000" opacity="0.7"/>
-
-  <!-- Flag 6 - Yellow, mid-height, between others -->
-  <line x1="190" y1="740" x2="200" y2="350" stroke="#000000" stroke-width="2" opacity="0.7"/>
-  <rect x="202" y="350" width="85" height="50" fill="#F4D35E" opacity="0.8" transform="rotate(12, 202, 350)"/>
-  <circle cx="190" cy="740" r="5" fill="#000000" opacity="0.6"/>
-
-  <!-- Flag 7 - Red, small, background -->
-  <line x1="350" y1="750" x2="360" y2="400" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
-  <rect x="362" y="400" width="70" height="45" fill="#E63946" opacity="0.5" transform="rotate(-7, 362, 400)"/>
-  <circle cx="350" cy="750" r="4" fill="#000000" opacity="0.5"/>
-
-  <!-- Ground line -->
-  <line x1="40" y1="760" x2="760" y2="760" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
-
-  <!-- Small accent shapes -->
-  <rect x="60" y="600" width="20" height="20" fill="#2A9D8F" opacity="0.3" transform="rotate(45, 70, 610)"/>
-  <rect x="730" y="550" width="18" height="18" fill="#E76F51" opacity="0.3" transform="rotate(30, 739, 559)"/>
-  <circle cx="480" cy="500" r="8" fill="#457B9D" opacity="0.25"/>
-  <circle cx="320" cy="620" r="10" fill="#DDA15E" opacity="0.2"/>
+  <title>Theorema Egregium</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0" opacity="1.00"/>
+  <circle cx="174" cy="361" r="143" fill="#6D2E46" opacity="0.61"/>
+  <circle cx="691" cy="385" r="299" fill="#6D2E46" opacity="0.42"/>
+  <circle cx="176" cy="290" r="260" fill="#6D2E46" opacity="0.63"/>
+  <circle cx="263" cy="656" r="157" fill="#264653" opacity="0.52"/>
+  <circle cx="385" cy="506" r="292" fill="#E76F51" opacity="0.37"/>
+  <circle cx="179" cy="599" r="223" fill="#264653" opacity="0.39"/>
+  <circle cx="605" cy="566" r="200" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="2.129965819718824"/>
+  <circle cx="492" cy="192" r="143" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.6788182600515156"/>
+  <circle cx="354" cy="520" r="64" fill="none" opacity="1.00" stroke="#000000" stroke-width="3.1477923892973854"/>
+  <circle cx="609" cy="564" r="108" fill="none" opacity="1.00" stroke="#000000" stroke-width="2.5822480268288617"/>
+  <circle cx="784" cy="341" r="16" fill="#F4D35E" opacity="0.76"/>
+  <circle cx="369" cy="247" r="7" fill="#E63946" opacity="0.82"/>
+  <circle cx="465" cy="490" r="20" fill="#E63946" opacity="0.73"/>
+  <circle cx="593" cy="731" r="3" fill="#1D3557" opacity="0.74"/>
+  <circle cx="81" cy="373" r="17" fill="#E63946" opacity="0.77"/>
+  <circle cx="684" cy="608" r="6" fill="#F4D35E" opacity="0.79"/>
+  <circle cx="222" cy="785" r="20" fill="#F4D35E" opacity="0.99"/>
+  <circle cx="191" cy="614" r="10" fill="#E63946" opacity="0.79"/>
+  <circle cx="147" cy="573" r="9" fill="#E63946" opacity="0.78"/>
+  <circle cx="418" cy="327" r="14" fill="#1D3557" opacity="0.99"/>
+  <circle cx="247" cy="27" r="14" fill="#E63946" opacity="0.93"/>
+  <circle cx="358" cy="793" r="20" fill="#F4D35E" opacity="0.92"/>
+  <circle cx="118" cy="188" r="11" fill="#F4D35E" opacity="0.99"/>
+  <circle cx="794" cy="170" r="18" fill="#1D3557" opacity="0.98"/>
+  <circle cx="135" cy="798" r="16" fill="#1D3557" opacity="0.81"/>
+  <circle cx="538" cy="100" r="9" fill="#1D3557" opacity="0.78"/>
+  <circle cx="427" cy="478" r="11" fill="#1D3557" opacity="0.78"/>
+  <circle cx="508" cy="185" r="4" fill="#F4D35E" opacity="0.88"/>
+  <circle cx="206" cy="80" r="3" fill="#E63946" opacity="0.82"/>
+  <circle cx="171" cy="422" r="9" fill="#E63946" opacity="0.89"/>
+  <circle cx="483" cy="358" r="5" fill="#1D3557" opacity="0.95"/>
+  <line x1="313" y1="241" x2="361" y2="712" stroke="#000000" stroke-width="2.5802174432063607" opacity="0.20"/>
+  <line x1="405" y1="152" x2="415" y2="339" stroke="#000000" stroke-width="1.1139521941527502" opacity="0.20"/>
+  <line x1="335" y1="409" x2="545" y2="19" stroke="#000000" stroke-width="1.538780040403842" opacity="0.20"/>
+  <line x1="575" y1="751" x2="204" y2="581" stroke="#000000" stroke-width="1.83104925885452" opacity="0.20"/>
+  <line x1="777" y1="305" x2="365" y2="389" stroke="#000000" stroke-width="2.4896869367903784" opacity="0.20"/>
+  <line x1="386" y1="768" x2="23" y2="384" stroke="#000000" stroke-width="2.145416619384544" opacity="0.20"/>
 </svg>

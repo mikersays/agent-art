@@ -1,79 +1,78 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-  <!-- Warm gray background panel -->
-  <rect x="40" y="40" width="720" height="720" fill="#A89F91" opacity="0.3"/>
-
-  <!-- Suspension bar at top -->
-  <rect x="60" y="60" width="680" height="6" fill="#000000" opacity="0.9"/>
-
-  <!-- Hanging lines -->
-  <line x1="120" y1="66" x2="120" y2="220" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="250" y1="66" x2="250" y2="380" stroke="#000000" stroke-width="1" opacity="0.6"/>
-  <line x1="370" y1="66" x2="370" y2="170" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="480" y1="66" x2="480" y2="450" stroke="#000000" stroke-width="1" opacity="0.65"/>
-  <line x1="580" y1="66" x2="580" y2="300" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="670" y1="66" x2="670" y2="520" stroke="#000000" stroke-width="1" opacity="0.6"/>
-  <line x1="180" y1="66" x2="180" y2="550" stroke="#000000" stroke-width="0.8" opacity="0.5"/>
-  <line x1="430" y1="66" x2="430" y2="280" stroke="#000000" stroke-width="1" opacity="0.6"/>
-
-  <!-- Suspended circle - large blue -->
-  <circle cx="120" cy="260" r="40" fill="#1D3557" stroke="#000000" stroke-width="1.5" opacity="0.85"/>
-
-  <!-- Suspended triangle - red -->
-  <polygon points="250,380 220,440 280,440" fill="#E63946" stroke="#000000" stroke-width="1.5" opacity="0.8"/>
-
-  <!-- Suspended rectangle - yellow -->
-  <rect x="345" y="170" width="50" height="80" fill="#F4D35E" stroke="#000000" stroke-width="1.5" opacity="0.85"/>
-
-  <!-- Suspended large circle - red -->
-  <circle cx="480" cy="510" r="55" fill="#E63946" stroke="#000000" stroke-width="2" opacity="0.75"/>
-  <!-- Yellow highlight inside -->
-  <circle cx="480" cy="500" r="20" fill="#F4D35E" stroke="none" opacity="0.6"/>
-
-  <!-- Suspended rectangle - blue -->
-  <rect x="555" y="300" width="50" height="120" fill="#1D3557" stroke="#000000" stroke-width="1.5" opacity="0.8"/>
-
-  <!-- Suspended small circle - yellow -->
-  <circle cx="670" cy="555" r="30" fill="#F4D35E" stroke="#000000" stroke-width="1.5" opacity="0.85"/>
-
-  <!-- Suspended triangle - blue, small -->
-  <polygon points="180,550 160,600 200,600" fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.7"/>
-
-  <!-- Suspended diamond - teal -->
-  <polygon points="430,280 455,320 430,360 405,320" fill="#2A9D8F" stroke="#000000" stroke-width="1.5" opacity="0.75"/>
-
-  <!-- Additional dangling elements for depth -->
-  <!-- Small red circle high up -->
-  <line x1="320" y1="66" x2="320" y2="130" stroke="#000000" stroke-width="0.8" opacity="0.5"/>
-  <circle cx="320" cy="145" r="15" fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.65"/>
-
-  <!-- Small blue rectangle low -->
-  <line x1="710" y1="66" x2="710" y2="350" stroke="#000000" stroke-width="0.8" opacity="0.5"/>
-  <rect x="695" y="350" width="30" height="50" fill="#457B9D" stroke="#000000" stroke-width="1" opacity="0.7"/>
-
-  <!-- Extra thin line with small yellow square -->
-  <line x1="90" y1="66" x2="90" y2="430" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
-  <rect x="78" y="430" width="24" height="24" fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.6"/>
-
-  <!-- Horizontal accent line -->
-  <line x1="60" y1="680" x2="740" y2="680" stroke="#000000" stroke-width="2" opacity="0.15"/>
-  <line x1="60" y1="700" x2="740" y2="700" stroke="#1D3557" stroke-width="1" opacity="0.1"/>
-
-  <!-- Shadow ellipses on ground -->
-  <ellipse cx="120" cy="700" rx="35" ry="6" fill="#000000" opacity="0.08"/>
-  <ellipse cx="250" cy="700" rx="28" ry="5" fill="#000000" opacity="0.08"/>
-  <ellipse cx="480" cy="700" rx="50" ry="7" fill="#000000" opacity="0.1"/>
-  <ellipse cx="580" cy="700" rx="25" ry="5" fill="#000000" opacity="0.08"/>
-  <ellipse cx="670" cy="700" rx="30" ry="5" fill="#000000" opacity="0.08"/>
-
-  <!-- Corner accents -->
-  <rect x="60" y="60" width="12" height="12" fill="#E63946" opacity="0.5"/>
-  <rect x="728" y="60" width="12" height="12" fill="#1D3557" opacity="0.5"/>
-  <circle cx="72" cy="728" r="8" fill="#F4D35E" opacity="0.4"/>
-  <circle cx="728" cy="728" r="8" fill="#2A9D8F" opacity="0.4"/>
-
-  <!-- Subtle diagonal accent -->
-  <line x1="650" y1="150" x2="720" y2="220" stroke="#E63946" stroke-width="1" opacity="0.2"/>
-  <line x1="80" y1="650" x2="150" y2="580" stroke="#1D3557" stroke-width="1" opacity="0.2"/>
+  <title>Harbor Light</title>
+  <rect x="0" y="0" width="800" height="800" fill="#264653" opacity="1.00"/>
+  <rect x="0" y="0" width="474" height="499" fill="#E63946" opacity="0.76"/>
+  <circle cx="677" cy="172" r="60" fill="#FEFAE0" opacity="0.72"/>
+  <circle cx="615" cy="323" r="67" fill="#FEFAE0" opacity="0.76"/>
+  <circle cx="650" cy="281" r="49" fill="#FEFAE0" opacity="0.77"/>
+  <circle cx="509" cy="366" r="29" fill="#FEFAE0" opacity="0.45"/>
+  <circle cx="735" cy="47" r="63" fill="#FEFAE0" opacity="0.79"/>
+  <line x1="0" y1="499" x2="474" y2="973" stroke="#FFFFFF" stroke-width="10.142712089084506" opacity="0.84"/>
+  <line x1="0" y1="531" x2="474" y2="1005" stroke="#FFFFFF" stroke-width="7.710788208872831" opacity="0.79"/>
+  <line x1="0" y1="563" x2="474" y2="1037" stroke="#FFFFFF" stroke-width="10.146389719517657" opacity="0.53"/>
+  <line x1="0" y1="595" x2="474" y2="1069" stroke="#FFFFFF" stroke-width="12.867979348572344" opacity="0.70"/>
+  <line x1="0" y1="627" x2="474" y2="1101" stroke="#FFFFFF" stroke-width="14.156097663979509" opacity="0.75"/>
+  <line x1="0" y1="659" x2="474" y2="1133" stroke="#FFFFFF" stroke-width="12.161860396143904" opacity="0.58"/>
+  <line x1="0" y1="691" x2="474" y2="1165" stroke="#FFFFFF" stroke-width="12.856057700969062" opacity="0.82"/>
+  <rect x="475" y="538" width="36" height="36" fill="#E76F51" opacity="0.65"/>
+  <rect x="475" y="576" width="36" height="36" fill="#E76F51" opacity="0.67"/>
+  <rect x="475" y="614" width="36" height="36" fill="#E76F51" opacity="0.63"/>
+  <rect x="475" y="652" width="36" height="36" fill="#E76F51" opacity="0.69"/>
+  <rect x="475" y="690" width="36" height="36" fill="#E76F51" opacity="0.97"/>
+  <rect x="475" y="766" width="36" height="36" fill="#E76F51" opacity="0.80"/>
+  <rect x="513" y="500" width="36" height="36" fill="#E76F51" opacity="0.74"/>
+  <rect x="513" y="576" width="36" height="36" fill="#E76F51" opacity="0.72"/>
+  <rect x="513" y="652" width="36" height="36" fill="#E76F51" opacity="0.94"/>
+  <rect x="513" y="766" width="36" height="36" fill="#E76F51" opacity="0.65"/>
+  <rect x="551" y="500" width="36" height="36" fill="#E76F51" opacity="0.57"/>
+  <rect x="551" y="538" width="36" height="36" fill="#E76F51" opacity="0.85"/>
+  <rect x="551" y="576" width="36" height="36" fill="#E76F51" opacity="0.80"/>
+  <rect x="551" y="690" width="36" height="36" fill="#E76F51" opacity="0.91"/>
+  <rect x="551" y="728" width="36" height="36" fill="#E76F51" opacity="0.81"/>
+  <rect x="589" y="538" width="36" height="36" fill="#E76F51" opacity="0.54"/>
+  <rect x="589" y="576" width="36" height="36" fill="#E76F51" opacity="0.84"/>
+  <rect x="589" y="614" width="36" height="36" fill="#E76F51" opacity="0.68"/>
+  <rect x="589" y="652" width="36" height="36" fill="#E76F51" opacity="0.75"/>
+  <rect x="589" y="690" width="36" height="36" fill="#E76F51" opacity="0.95"/>
+  <rect x="589" y="766" width="36" height="36" fill="#E76F51" opacity="0.67"/>
+  <rect x="627" y="538" width="36" height="36" fill="#E76F51" opacity="0.60"/>
+  <rect x="627" y="576" width="36" height="36" fill="#E76F51" opacity="0.57"/>
+  <rect x="627" y="614" width="36" height="36" fill="#E76F51" opacity="0.66"/>
+  <rect x="627" y="690" width="36" height="36" fill="#E76F51" opacity="0.71"/>
+  <rect x="627" y="728" width="36" height="36" fill="#E76F51" opacity="0.92"/>
+  <rect x="627" y="766" width="36" height="36" fill="#E76F51" opacity="0.94"/>
+  <rect x="665" y="538" width="36" height="36" fill="#E76F51" opacity="0.78"/>
+  <rect x="665" y="614" width="36" height="36" fill="#E76F51" opacity="0.97"/>
+  <rect x="665" y="652" width="36" height="36" fill="#E76F51" opacity="0.72"/>
+  <rect x="703" y="500" width="36" height="36" fill="#E76F51" opacity="0.61"/>
+  <rect x="703" y="538" width="36" height="36" fill="#E76F51" opacity="0.85"/>
+  <rect x="703" y="614" width="36" height="36" fill="#E76F51" opacity="0.79"/>
+  <rect x="703" y="690" width="36" height="36" fill="#E76F51" opacity="0.98"/>
+  <rect x="703" y="728" width="36" height="36" fill="#E76F51" opacity="0.97"/>
+  <rect x="741" y="538" width="36" height="36" fill="#E76F51" opacity="0.69"/>
+  <rect x="741" y="576" width="36" height="36" fill="#E76F51" opacity="0.84"/>
+  <rect x="741" y="614" width="36" height="36" fill="#E76F51" opacity="0.83"/>
+  <rect x="741" y="690" width="36" height="36" fill="#E76F51" opacity="0.51"/>
+  <rect x="741" y="766" width="36" height="36" fill="#E76F51" opacity="0.90"/>
+  <rect x="779" y="500" width="36" height="36" fill="#E76F51" opacity="0.92"/>
+  <rect x="779" y="576" width="36" height="36" fill="#E76F51" opacity="0.74"/>
+  <rect x="779" y="614" width="36" height="36" fill="#E76F51" opacity="0.83"/>
+  <rect x="779" y="652" width="36" height="36" fill="#E76F51" opacity="0.53"/>
+  <rect x="779" y="690" width="36" height="36" fill="#E76F51" opacity="0.93"/>
+  <rect x="779" y="728" width="36" height="36" fill="#E76F51" opacity="0.85"/>
+  <rect x="779" y="766" width="36" height="36" fill="#E76F51" opacity="0.82"/>
+  <line x1="474" y1="0" x2="474" y2="800" stroke="#000000" stroke-width="4.2417818277166575" opacity="1.00"/>
+  <line x1="0" y1="499" x2="800" y2="499" stroke="#000000" stroke-width="2.5651841183029136" opacity="1.00"/>
+  <circle cx="474" cy="499" r="39" fill="#F4D35E" opacity="1.00"/>
+  <rect x="767" y="378" width="12" height="12" fill="#F4D35E" opacity="1.00"/>
+  <rect x="364" y="626" width="5" height="5" fill="#1D3557" opacity="1.00"/>
+  <rect x="467" y="155" width="16" height="16" fill="#F4D35E" opacity="1.00"/>
+  <rect x="540" y="487" width="16" height="16" fill="#F4D35E" opacity="1.00"/>
+  <rect x="612" y="264" width="5" height="5" fill="#1D3557" opacity="1.00"/>
+  <rect x="574" y="661" width="17" height="17" fill="#E63946" opacity="1.00"/>
+  <rect x="151" y="636" width="20" height="20" fill="#F4D35E" opacity="1.00"/>
+  <rect x="444" y="350" width="9" height="9" fill="#E63946" opacity="1.00"/>
+  <rect x="507" y="724" width="6" height="6" fill="#E63946" opacity="1.00"/>
+  <rect x="618" y="681" width="13" height="13" fill="#E63946" opacity="1.00"/>
+  <rect x="557" y="660" width="6" height="6" fill="#1D3557" opacity="1.00"/>
 </svg>

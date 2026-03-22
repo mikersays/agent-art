@@ -1,67 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-  <!-- Background grid lines -->
-  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-  <!-- Staircase steps - diagonal from top-left to bottom-right -->
-  <!-- Step 1 - Blue -->
-  <rect x="40" y="60" width="120" height="60" fill="#1D3557" opacity="0.85" stroke="#000000" stroke-width="2"/>
-  <!-- Step 2 - Red -->
-  <rect x="130" y="120" width="120" height="60" fill="#E63946" opacity="0.85" stroke="#000000" stroke-width="2"/>
-  <!-- Step 3 - Yellow -->
-  <rect x="220" y="180" width="120" height="60" fill="#F4D35E" opacity="0.85" stroke="#000000" stroke-width="2"/>
-  <!-- Step 4 - Teal -->
-  <rect x="310" y="240" width="120" height="60" fill="#2A9D8F" opacity="0.85" stroke="#000000" stroke-width="2"/>
-  <!-- Step 5 - Blue -->
-  <rect x="400" y="300" width="120" height="60" fill="#1D3557" opacity="0.85" stroke="#000000" stroke-width="2"/>
-  <!-- Step 6 - Red -->
-  <rect x="490" y="360" width="120" height="60" fill="#E63946" opacity="0.85" stroke="#000000" stroke-width="2"/>
-  <!-- Step 7 - Yellow -->
-  <rect x="580" y="420" width="120" height="60" fill="#F4D35E" opacity="0.85" stroke="#000000" stroke-width="2"/>
-  <!-- Step 8 - Teal -->
-  <rect x="670" y="480" width="120" height="60" fill="#2A9D8F" opacity="0.85" stroke="#000000" stroke-width="2"/>
-  <!-- Vertical risers connecting steps -->
-  <rect x="130" y="60" width="10" height="60" fill="#000000" opacity="0.6"/>
-  <rect x="220" y="120" width="10" height="60" fill="#000000" opacity="0.6"/>
-  <rect x="310" y="180" width="10" height="60" fill="#000000" opacity="0.6"/>
-  <rect x="400" y="240" width="10" height="60" fill="#000000" opacity="0.6"/>
-  <rect x="490" y="300" width="10" height="60" fill="#000000" opacity="0.6"/>
-  <rect x="580" y="360" width="10" height="60" fill="#000000" opacity="0.6"/>
-  <rect x="670" y="420" width="10" height="60" fill="#000000" opacity="0.6"/>
-  <!-- Triangular shadows under each step -->
-  <polygon points="40,120 160,120 40,160" fill="#000000" opacity="0.15"/>
-  <polygon points="130,180 250,180 130,220" fill="#000000" opacity="0.15"/>
-  <polygon points="220,240 340,240 220,280" fill="#000000" opacity="0.15"/>
-  <polygon points="310,300 430,300 310,340" fill="#000000" opacity="0.15"/>
-  <polygon points="400,360 520,360 400,400" fill="#000000" opacity="0.15"/>
-  <polygon points="490,420 610,420 490,460" fill="#000000" opacity="0.15"/>
-  <polygon points="580,480 700,480 580,520" fill="#000000" opacity="0.15"/>
-  <polygon points="670,540 790,540 670,580" fill="#000000" opacity="0.15"/>
-  <!-- Circles rolling down the stairs -->
-  <circle cx="100" cy="45" r="22" fill="#E63946" opacity="0.8" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="280" cy="165" r="18" fill="#F4D35E" opacity="0.8" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="460" cy="285" r="25" fill="#1D3557" opacity="0.8" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="640" cy="405" r="20" fill="#2A9D8F" opacity="0.8" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="750" cy="465" r="15" fill="#E63946" opacity="0.7" stroke="#000000" stroke-width="1.5"/>
-  <!-- Orange accent elements -->
-  <rect x="50" y="680" width="80" height="40" fill="#E76F51" opacity="0.7"/>
-  <rect x="700" y="100" width="60" height="30" fill="#E76F51" opacity="0.65"/>
-  <circle cx="680" cy="650" r="30" fill="#E76F51" opacity="0.55"/>
-  <!-- Additional stair-like forms below main staircase -->
-  <rect x="100" y="600" width="80" height="30" fill="#1D3557" opacity="0.35"/>
-  <rect x="160" y="630" width="80" height="30" fill="#E63946" opacity="0.35"/>
-  <rect x="220" y="660" width="80" height="30" fill="#F4D35E" opacity="0.35"/>
-  <rect x="280" y="690" width="80" height="30" fill="#2A9D8F" opacity="0.35"/>
-  <!-- Corner accents -->
-  <rect x="15" y="750" width="30" height="30" fill="#000000" opacity="0.25"/>
-  <rect x="755" y="15" width="30" height="30" fill="#000000" opacity="0.25"/>
-  <!-- Small detail shapes -->
-  <circle cx="370" cy="165" r="5" fill="#E76F51" opacity="0.8"/>
-  <circle cx="550" cy="345" r="5" fill="#E76F51" opacity="0.8"/>
-  <circle cx="190" cy="105" r="4" fill="#F4D35E" opacity="0.9"/>
+  <title>Harvest Moon</title>
+  <rect x="0" y="0" width="800" height="800" fill="#1D3557" opacity="1.00"/>
+  <polygon points="422,563 779.0,563.0 772.5485449227863,630.5626942366664" fill="#E63946" opacity="0.66"/>
+  <polygon points="422,563 772.5485449227863,630.5626942366664 753.427352086738,695.683496670737" fill="#1D3557" opacity="0.68"/>
+  <polygon points="422,563 753.427352086738,695.683496670737 722.3275112207317,756.0087718316483" fill="#FEFAE0" opacity="0.80"/>
+  <polygon points="422,563 722.3275112207317,756.0087718316483 680.37305160351,809.358207099114" fill="#1D3557" opacity="0.73"/>
+  <polygon points="422,563 680.37305160351,809.358207099114 629.0803167169178,853.8036148819699" fill="#FEFAE0" opacity="0.71"/>
+  <polygon points="422,563 629.0803167169178,853.8036148819699 570.3031596416735,887.7386223415631" fill="#1D3557" opacity="0.59"/>
+  <polygon points="422,563 570.3031596416735,887.7386223415631 506.16593997686556,909.9367298915043" fill="#A8DADC" opacity="0.75"/>
+  <polygon points="422,563 506.16593997686556,909.9367298915043 438.986743949076,919.5956400883338" fill="#1D3557" opacity="0.91"/>
+  <polygon points="422,563 438.986743949076,919.5956400883338 371.1936027364372,916.366254751493" fill="#2A9D8F" opacity="0.51"/>
+  <polygon points="422,563 371.1936027364372,916.366254751493 305.2367370956805,900.3652922811366" fill="#1D3557" opacity="0.92"/>
+  <polygon points="422,563 305.2367370956805,900.3652922811366 243.50000000000009,872.1710691510445" fill="#FFFFFF" opacity="0.91"/>
+  <polygon points="422,563 243.50000000000009,872.1710691510445 188.21471798153325,832.8025980444702" fill="#000000" opacity="0.56"/>
+  <polygon points="422,563 188.21471798153325,832.8025980444702 141.37904517682495,783.6827580807562" fill="#A8DADC" opacity="0.75"/>
+  <polygon points="422,563 141.37904517682495,783.6827580807562 104.68574483019233,726.5868682566855" fill="#FFFFFF" opacity="0.76"/>
+  <polygon points="422,563 104.68574483019233,726.5868682566855 79.46100841962448,663.5785227923906" fill="#F4D35E" opacity="0.77"/>
+  <polygon points="422,563 79.46100841962448,663.5785227923906 66.61652364140878,596.9350074595933" fill="#000000" opacity="0.95"/>
+  <polygon points="422,563 66.61652364140878,596.9350074595933 66.61652364140878,529.0649925404068" fill="#F4D35E" opacity="0.73"/>
+  <polygon points="422,563 66.61652364140878,529.0649925404068 79.46100841962442,462.42147720760954" fill="#FFFFFF" opacity="0.91"/>
+  <polygon points="422,563 79.46100841962442,462.42147720760954 104.68574483019233,399.4131317433145" fill="#2A9D8F" opacity="0.80"/>
+  <polygon points="422,563 104.68574483019233,399.4131317433145 141.3790451768249,342.3172419192439" fill="#1D3557" opacity="1.00"/>
+  <polygon points="422,563 141.3790451768249,342.3172419192439 188.21471798153317,293.1974019555298" fill="#FEFAE0" opacity="0.54"/>
+  <polygon points="422,563 188.21471798153317,293.1974019555298 243.49999999999983,253.8289308489555" fill="#1D3557" opacity="0.75"/>
+  <polygon points="422,563 243.49999999999983,253.8289308489555 305.2367370956804,225.6347077188634" fill="#E9C46A" opacity="0.91"/>
+  <polygon points="422,563 305.2367370956804,225.6347077188634 371.1936027364372,209.633745248507" fill="#FFFFFF" opacity="0.54"/>
+  <polygon points="422,563 371.1936027364372,209.633745248507 438.986743949076,206.40435991166618" fill="#E63946" opacity="0.80"/>
+  <polygon points="422,563 438.986743949076,206.40435991166618 506.1659399768653,216.06327010849554" fill="#000000" opacity="0.64"/>
+  <polygon points="422,563 506.1659399768653,216.06327010849554 570.3031596416736,238.26137765843697" fill="#E9C46A" opacity="0.65"/>
+  <polygon points="422,563 570.3031596416736,238.26137765843697 629.0803167169177,272.1963851180301" fill="#000000" opacity="0.70"/>
+  <polygon points="422,563 629.0803167169177,272.1963851180301 680.37305160351,316.641792900886" fill="#E9C46A" opacity="0.78"/>
+  <polygon points="422,563 680.37305160351,316.641792900886 722.3275112207316,369.9912281683514" fill="#FFFFFF" opacity="0.91"/>
+  <polygon points="422,563 722.3275112207316,369.9912281683514 753.427352086738,430.3165033292632" fill="#E76F51" opacity="0.73"/>
+  <polygon points="422,563 753.427352086738,430.3165033292632 772.5485449227863,495.43730576333337" fill="#FFFFFF" opacity="0.84"/>
+  <polygon points="422,563 772.5485449227863,495.43730576333337 779.0,562.9999999999999" fill="#E76F51" opacity="0.62"/>
+  <circle cx="422" cy="563" r="40" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.5221612579025783"/>
+  <circle cx="422" cy="563" r="103" fill="none" opacity="1.00" stroke="#000000" stroke-width="1.1314719935015682"/>
+  <circle cx="422" cy="563" r="166" fill="none" opacity="1.00" stroke="#000000" stroke-width="1.6629807824305818"/>
+  <circle cx="422" cy="563" r="229" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.7077822597160586"/>
+  <circle cx="422" cy="563" r="292" fill="none" opacity="1.00" stroke="#000000" stroke-width="1.4090488815981392"/>
+  <circle cx="422" cy="563" r="355" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.3416322457893508"/>
+  <circle cx="422" cy="563" r="41" fill="#E63946" opacity="1.00"/>
+  <circle cx="40" cy="40" r="13" fill="#E63946" opacity="0.89"/>
+  <circle cx="760" cy="40" r="22" fill="#E63946" opacity="0.77"/>
+  <circle cx="40" cy="760" r="22" fill="#1D3557" opacity="0.75"/>
+  <circle cx="760" cy="760" r="18" fill="#E63946" opacity="0.96"/>
 </svg>

@@ -1,108 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Brick pattern - Row 1 (y=0, offset=0) -->
-  <rect x="2" y="2" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="162" y="2" width="156" height="56" fill="#E63946" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="322" y="2" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="482" y="2" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="642" y="2" width="156" height="56" fill="#1D3557" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Row 2 (y=60, offset=80) -->
-  <rect x="-78" y="62" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="82" y="62" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="242" y="62" width="156" height="56" fill="#F4D35E" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="402" y="62" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="562" y="62" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="722" y="62" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Row 3 (y=120, offset=0) -->
-  <rect x="2" y="122" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="162" y="122" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="322" y="122" width="156" height="56" fill="#1D3557" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="482" y="122" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="642" y="122" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Row 4 (y=180, offset=80) -->
-  <rect x="-78" y="182" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="82" y="182" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="242" y="182" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="402" y="182" width="156" height="56" fill="#E63946" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="562" y="182" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="722" y="182" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Row 5 (y=240, offset=0) -->
-  <rect x="2" y="242" width="156" height="56" fill="#F4D35E" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="162" y="242" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="322" y="242" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="482" y="242" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="642" y="242" width="156" height="56" fill="#E63946" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Row 6 (y=300, offset=80) -->
-  <rect x="-78" y="302" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="82" y="302" width="156" height="56" fill="#1D3557" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="242" y="302" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="402" y="302" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="562" y="302" width="156" height="56" fill="#F4D35E" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="722" y="302" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Row 7 (y=360, offset=0) -->
-  <rect x="2" y="362" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="162" y="362" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="322" y="362" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="482" y="362" width="156" height="56" fill="#1D3557" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="642" y="362" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Row 8 (y=420, offset=80) -->
-  <rect x="-78" y="422" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="82" y="422" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="242" y="422" width="156" height="56" fill="#E63946" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="402" y="422" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="562" y="422" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="722" y="422" width="156" height="56" fill="#F4D35E" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Row 9 (y=480, offset=0) -->
-  <rect x="2" y="482" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="162" y="482" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="322" y="482" width="156" height="56" fill="#F4D35E" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="482" y="482" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="642" y="482" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Row 10 (y=540, offset=80) -->
-  <rect x="-78" y="542" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="82" y="542" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="242" y="542" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="402" y="542" width="156" height="56" fill="#1D3557" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="562" y="542" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="722" y="542" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Row 11 (y=600, offset=0) -->
-  <rect x="2" y="602" width="156" height="56" fill="#1D3557" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="162" y="602" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="322" y="602" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="482" y="602" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="642" y="602" width="156" height="56" fill="#F4D35E" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Row 12 (y=660, offset=80) -->
-  <rect x="-78" y="662" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="82" y="662" width="156" height="56" fill="#E63946" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="242" y="662" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="402" y="662" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="562" y="662" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="722" y="662" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Row 13 (y=720, offset=0) -->
-  <rect x="2" y="722" width="156" height="56" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="162" y="722" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="322" y="722" width="156" height="56" fill="#E63946" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="482" y="722" width="156" height="56" fill="#A89F91" stroke="#000000" stroke-width="2" opacity="0.8"/>
-  <rect x="642" y="722" width="156" height="56" fill="#1D3557" stroke="#000000" stroke-width="2" opacity="0.8"/>
-
-  <!-- Large teal circle overlay -->
-  <circle cx="420" cy="380" r="220" fill="#2A9D8F" opacity="0.6"/>
-
-  <!-- Inner accent on the circle -->
-  <circle cx="420" cy="380" r="222" fill="none" stroke="#000000" stroke-width="3" opacity="0.3"/>
-  <circle cx="420" cy="380" r="80" fill="none" stroke="#FEFAE0" stroke-width="1.5" opacity="0.4"/>
+  <title>Observation Deck</title>
+  <rect x="0" y="0" width="800" height="800" fill="#457B9D" opacity="1.00"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <rect x="59" y="138" width="110" height="662" fill="#E76F51" opacity="0.76"/>
+  <rect x="59" y="138" width="110" height="16" fill="#E63946" opacity="1.00"/>
+  <rect x="172" y="625" width="107" height="175" fill="#E63946" opacity="0.81"/>
+  <rect x="172" y="625" width="107" height="19" fill="#1D3557" opacity="1.00"/>
+  <rect x="286" y="269" width="104" height="531" fill="#E63946" opacity="0.79"/>
+  <rect x="286" y="269" width="104" height="14" fill="#E63946" opacity="1.00"/>
+  <rect x="408" y="641" width="112" height="159" fill="#E63946" opacity="0.82"/>
+  <rect x="408" y="641" width="112" height="7" fill="#1D3557" opacity="1.00"/>
+  <rect x="520" y="667" width="106" height="133" fill="#E76F51" opacity="0.79"/>
+  <rect x="520" y="667" width="106" height="8" fill="#E63946" opacity="1.00"/>
+  <rect x="635" y="195" width="110" height="605" fill="#6D2E46" opacity="0.87"/>
+  <rect x="635" y="195" width="110" height="9" fill="#E63946" opacity="1.00"/>
+  <line x1="0" y1="229" x2="800" y2="229" stroke="#000000" stroke-width="2" opacity="0.40"/>
+  <circle cx="500" cy="782" r="16" fill="#F4D35E" opacity="0.76"/>
+  <circle cx="736" cy="583" r="18" fill="#1D3557" opacity="0.87"/>
+  <circle cx="232" cy="338" r="22" fill="#F4D35E" opacity="0.88"/>
+  <circle cx="466" cy="195" r="24" fill="#F4D35E" opacity="0.96"/>
+  <circle cx="12" cy="332" r="25" fill="#1D3557" opacity="0.80"/>
+  <circle cx="125" cy="753" r="6" fill="#1D3557" opacity="0.95"/>
+  <circle cx="154" cy="44" r="18" fill="#1D3557" opacity="0.87"/>
+  <circle cx="349" cy="445" r="6" fill="#E63946" opacity="0.94"/>
 </svg>

@@ -1,89 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Sky background -->
-  <rect x="0" y="0" width="800" height="800" fill="#1D3557" opacity="0.15"/>
-  <rect x="0" y="0" width="800" height="500" fill="#A8DADC" opacity="0.2"/>
-
-  <!-- Sun -->
-  <circle cx="620" cy="140" r="80" fill="#E63946" opacity="0.9"/>
-  <circle cx="620" cy="140" r="60" fill="#E63946" opacity="0.4"/>
-  <circle cx="620" cy="140" r="95" fill="none" stroke="#E63946" stroke-width="1.5" opacity="0.3"/>
-
-  <!-- Ground -->
-  <rect x="0" y="620" width="800" height="180" fill="#264653" opacity="0.3"/>
-
-  <!-- Building 1 - tall left -->
-  <rect x="30" y="250" width="90" height="370" fill="#264653"/>
-  <rect x="45" y="280" width="12" height="14" fill="#F4D35E" opacity="0.9"/>
-  <rect x="65" y="280" width="12" height="14" fill="#E76F51" opacity="0.8"/>
-  <rect x="85" y="280" width="12" height="14" fill="#F4D35E" opacity="0.7"/>
-  <rect x="45" y="320" width="12" height="14" fill="#F4D35E" opacity="0.7"/>
-  <rect x="65" y="320" width="12" height="14" fill="#F4D35E" opacity="0.9"/>
-  <rect x="85" y="320" width="12" height="14" fill="#E76F51" opacity="0.8"/>
-  <rect x="45" y="360" width="12" height="14" fill="#E76F51" opacity="0.6"/>
-  <rect x="65" y="360" width="12" height="14" fill="#F4D35E" opacity="0.8"/>
-  <rect x="45" y="400" width="12" height="14" fill="#F4D35E" opacity="0.9"/>
-  <rect x="85" y="400" width="12" height="14" fill="#F4D35E" opacity="0.7"/>
-  <rect x="45" y="440" width="12" height="14" fill="#F4D35E" opacity="0.6"/>
-  <rect x="65" y="440" width="12" height="14" fill="#E76F51" opacity="0.9"/>
-  <rect x="85" y="440" width="12" height="14" fill="#F4D35E" opacity="0.8"/>
-
-  <!-- Building 2 - medium -->
-  <rect x="130" y="350" width="110" height="270" fill="#000000" opacity="0.85"/>
-  <rect x="150" y="380" width="14" height="16" fill="#F4D35E" opacity="0.9"/>
-  <rect x="175" y="380" width="14" height="16" fill="#F4D35E" opacity="0.7"/>
-  <rect x="200" y="380" width="14" height="16" fill="#E76F51" opacity="0.8"/>
-  <rect x="150" y="420" width="14" height="16" fill="#E76F51" opacity="0.7"/>
-  <rect x="200" y="420" width="14" height="16" fill="#F4D35E" opacity="0.9"/>
-  <rect x="150" y="460" width="14" height="16" fill="#F4D35E" opacity="0.8"/>
-  <rect x="175" y="460" width="14" height="16" fill="#F4D35E" opacity="0.6"/>
-  <rect x="200" y="460" width="14" height="16" fill="#E76F51" opacity="0.9"/>
-
-  <!-- Building 3 - tallest -->
-  <rect x="260" y="180" width="80" height="440" fill="#1D3557"/>
-  <rect x="275" y="210" width="10" height="12" fill="#F4D35E" opacity="0.9"/>
-  <rect x="295" y="210" width="10" height="12" fill="#F4D35E" opacity="0.7"/>
-  <rect x="315" y="210" width="10" height="12" fill="#E76F51" opacity="0.8"/>
-  <rect x="275" y="250" width="10" height="12" fill="#E76F51" opacity="0.7"/>
-  <rect x="295" y="250" width="10" height="12" fill="#F4D35E" opacity="0.9"/>
-  <rect x="275" y="290" width="10" height="12" fill="#F4D35E" opacity="0.8"/>
-  <rect x="315" y="290" width="10" height="12" fill="#F4D35E" opacity="0.6"/>
-  <rect x="275" y="330" width="10" height="12" fill="#F4D35E" opacity="0.9"/>
-  <rect x="295" y="330" width="10" height="12" fill="#E76F51" opacity="0.7"/>
-  <rect x="315" y="330" width="10" height="12" fill="#F4D35E" opacity="0.8"/>
-
-  <!-- Building 4 - short wide -->
-  <rect x="355" y="430" width="130" height="190" fill="#264653" opacity="0.9"/>
-  <rect x="375" y="460" width="15" height="16" fill="#F4D35E" opacity="0.9"/>
-  <rect x="405" y="460" width="15" height="16" fill="#E76F51" opacity="0.8"/>
-  <rect x="435" y="460" width="15" height="16" fill="#F4D35E" opacity="0.7"/>
-  <rect x="460" y="460" width="15" height="16" fill="#F4D35E" opacity="0.9"/>
-  <rect x="375" y="500" width="15" height="16" fill="#E76F51" opacity="0.7"/>
-  <rect x="435" y="500" width="15" height="16" fill="#F4D35E" opacity="0.9"/>
-
-  <!-- Building 5 - medium tall -->
-  <rect x="500" y="300" width="85" height="320" fill="#000000" opacity="0.9"/>
-  <rect x="515" y="330" width="12" height="14" fill="#F4D35E" opacity="0.9"/>
-  <rect x="540" y="330" width="12" height="14" fill="#F4D35E" opacity="0.7"/>
-  <rect x="560" y="330" width="12" height="14" fill="#E76F51" opacity="0.8"/>
-  <rect x="515" y="370" width="12" height="14" fill="#F4D35E" opacity="0.8"/>
-  <rect x="560" y="370" width="12" height="14" fill="#F4D35E" opacity="0.9"/>
-  <rect x="515" y="410" width="12" height="14" fill="#E76F51" opacity="0.7"/>
-  <rect x="540" y="410" width="12" height="14" fill="#F4D35E" opacity="0.9"/>
-
-  <!-- Building 6 - far right -->
-  <rect x="600" y="380" width="100" height="240" fill="#1D3557" opacity="0.9"/>
-  <rect x="620" y="410" width="12" height="14" fill="#F4D35E" opacity="0.9"/>
-  <rect x="650" y="410" width="12" height="14" fill="#E76F51" opacity="0.8"/>
-  <rect x="675" y="410" width="12" height="14" fill="#F4D35E" opacity="0.7"/>
-  <rect x="620" y="450" width="12" height="14" fill="#F4D35E" opacity="0.8"/>
-  <rect x="675" y="450" width="12" height="14" fill="#F4D35E" opacity="0.9"/>
-
-  <!-- Building 7 - small far right -->
-  <rect x="720" y="460" width="60" height="160" fill="#264653"/>
-  <rect x="735" y="490" width="10" height="12" fill="#F4D35E" opacity="0.9"/>
-  <rect x="755" y="490" width="10" height="12" fill="#E76F51" opacity="0.8"/>
-
-  <!-- Antenna on tallest building -->
-  <line x1="300" y1="180" x2="300" y2="130" stroke="#000000" stroke-width="2"/>
-  <circle cx="300" cy="125" r="5" fill="#E63946" opacity="0.8"/>
+  <title>Fiber Bundle</title>
+  <rect x="0" y="0" width="800" height="800" fill="#264653" opacity="1.00"/>
+  <circle cx="330" cy="230" r="192" fill="#FFFFFF" opacity="0.89"/>
+  <rect x="225" y="125" width="210" height="210" fill="#E9C46A" opacity="0.78"/>
+  <circle cx="330" cy="230" r="120" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="213" y="113" width="235" height="235" fill="#A8DADC" opacity="0.85"/>
+  <circle cx="330" cy="230" r="72" fill="#A8DADC" opacity="0.50"/>
+  <rect x="285" y="185" width="90" height="90" fill="#E76F51" opacity="0.65"/>
+  <circle cx="330" cy="230" r="30" fill="#2A9D8F" opacity="0.56"/>
+  <rect x="313" y="213" width="35" height="35" fill="#FFFFFF" opacity="0.88"/>
+  <line x1="330" y1="230" x2="730.0" y2="230.0" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="330" y1="230" x2="676.4101615137755" y2="430.0" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="330" y1="230" x2="530.0" y2="576.4101615137754" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="330" y1="230" x2="330.0" y2="630.0" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="330" y1="230" x2="130.00000000000009" y2="576.4101615137755" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="330" y1="230" x2="-16.410161513775506" y2="430.0" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="330" y1="230" x2="-70.0" y2="230.00000000000006" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="330" y1="230" x2="-16.41016151377545" y2="29.999999999999943" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="330" y1="230" x2="129.99999999999983" y2="-116.41016151377534" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="330" y1="230" x2="329.99999999999994" y2="-170.0" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="330" y1="230" x2="530.0" y2="-116.41016151377545" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="330" y1="230" x2="676.4101615137754" y2="29.99999999999983" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="556" cy="726" r="18" fill="#1D3557" opacity="0.65"/>
+  <circle cx="227" cy="625" r="15" fill="#F4D35E" opacity="0.61"/>
+  <circle cx="406" cy="155" r="10" fill="#F4D35E" opacity="0.95"/>
+  <circle cx="36" cy="798" r="9" fill="#1D3557" opacity="0.70"/>
+  <circle cx="9" cy="104" r="14" fill="#1D3557" opacity="0.98"/>
+  <circle cx="728" cy="635" r="8" fill="#F4D35E" opacity="0.74"/>
+  <circle cx="20" cy="370" r="6" fill="#E63946" opacity="0.96"/>
+  <circle cx="622" cy="456" r="10" fill="#E63946" opacity="0.66"/>
+  <circle cx="284" cy="738" r="13" fill="#E63946" opacity="0.73"/>
+  <circle cx="444" cy="157" r="14" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="79" cy="748" r="7" fill="#E63946" opacity="0.78"/>
+  <circle cx="392" cy="212" r="9" fill="#1D3557" opacity="0.78"/>
+  <rect x="0" y="0" width="800" height="23" fill="#F4D35E" opacity="0.70"/>
+  <rect x="0" y="777" width="800" height="23" fill="#F4D35E" opacity="0.78"/>
+  <rect x="0" y="0" width="23" height="800" fill="#F4D35E" opacity="0.63"/>
+  <rect x="777" y="0" width="23" height="800" fill="#F4D35E" opacity="0.65"/>
 </svg>

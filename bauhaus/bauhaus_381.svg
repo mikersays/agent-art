@@ -1,73 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-<!-- Background -->
-<rect width="800" height="800" fill="#FEFAE0"/>
-
-<!-- Topographic Layers - Concentric irregular contour paths, outer forest to inner cream -->
-
-<!-- Outermost contour - Forest -->
-<path d="M140,400 C140,250 200,140 340,120 C420,110 520,130 600,180 C680,230 700,320 710,400 C720,500 680,600 600,650 C520,700 420,710 340,690 C220,660 140,550 140,400Z" fill="none" stroke="#264653" stroke-width="3" opacity="0.7"/>
-
-<!-- Contour 2 -->
-<path d="M180,410 C180,280 230,180 350,160 C420,150 510,165 580,210 C650,255 670,340 675,410 C680,490 650,570 580,615 C510,660 420,670 350,650 C250,625 180,540 180,410Z" fill="none" stroke="#264653" stroke-width="2.5" opacity="0.7"/>
-
-<!-- Contour 3 -->
-<path d="M215,405 C215,305 255,220 355,200 C415,190 495,205 560,240 C625,275 640,350 645,405 C650,475 625,545 560,580 C495,615 415,625 355,610 C275,590 215,515 215,405Z" fill="none" stroke="#2A9D8F" stroke-width="2.5" opacity="0.7"/>
-
-<!-- Contour 4 -->
-<path d="M250,408 C250,325 280,260 365,245 C415,237 485,248 535,275 C590,305 610,365 612,408 C615,460 595,520 535,548 C485,570 415,578 365,565 C300,548 250,490 250,408Z" fill="none" stroke="#2A9D8F" stroke-width="2.5" opacity="0.7"/>
-
-<!-- Contour 5 -->
-<path d="M288,405 C288,345 310,295 375,282 C415,274 470,283 515,305 C555,325 572,370 574,405 C577,445 560,492 515,515 C470,535 415,540 375,530 C320,515 288,465 288,405Z" fill="none" stroke="#457B9D" stroke-width="2" opacity="0.7"/>
-
-<!-- Contour 6 -->
-<path d="M320,403 C320,360 338,325 385,315 C415,308 458,315 492,332 C525,348 538,378 540,403 C542,432 530,465 492,482 C458,498 415,502 385,494 C345,482 320,448 320,403Z" fill="none" stroke="#457B9D" stroke-width="2" opacity="0.7"/>
-
-<!-- Contour 7 -->
-<path d="M350,402 C350,375 362,352 392,345 C412,340 445,345 468,358 C490,370 498,388 499,402 C501,420 492,440 468,452 C445,462 412,465 392,458 C365,450 350,428 350,402Z" fill="none" stroke="#A8DADC" stroke-width="2" opacity="0.7"/>
-
-<!-- Contour 8 - innermost -->
-<path d="M375,401 C375,388 382,375 400,372 C412,370 428,373 440,382 C450,390 455,396 455,401 C456,410 450,420 440,425 C428,432 412,433 400,428 C385,422 375,413 375,401Z" fill="none" stroke="#FEFAE0" stroke-width="2" opacity="0.8"/>
-
-<!-- Filled inner area -->
-<ellipse cx="415" cy="400" rx="25" ry="20" fill="#FEFAE0" opacity="0.5"/>
-
-<!-- Center black dot -->
-<circle cx="415" cy="400" r="5" fill="#000000"/>
-
-<!-- Peak markers - red triangles -->
-<polygon points="320,280 330,260 340,280" fill="#E63946" opacity="0.85"/>
-<polygon points="530,320 540,300 550,320" fill="#E63946" opacity="0.85"/>
-<polygon points="280,450 290,430 300,450" fill="#E63946" opacity="0.85"/>
-<polygon points="500,520 510,500 520,520" fill="#E63946" opacity="0.85"/>
-<polygon points="380,230 390,210 400,230" fill="#E63946" opacity="0.85"/>
-<polygon points="600,420 610,400 620,420" fill="#E63946" opacity="0.85"/>
-<polygon points="350,580 360,560 370,580" fill="#E63946" opacity="0.85"/>
-
-<!-- Additional subtle contour fragments for richness -->
-<path d="M160,300 C170,250 210,190 280,160" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.4"/>
-<path d="M620,250 C660,290 690,360 695,420" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.4"/>
-<path d="M600,600 C560,640 480,670 400,680" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.4"/>
-<path d="M200,550 C180,500 170,450 175,390" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.4"/>
-
-<!-- Small accent dots along contours -->
-<circle cx="340" cy="120" r="3" fill="#000000" opacity="0.5"/>
-<circle cx="600" cy="180" r="3" fill="#000000" opacity="0.5"/>
-<circle cx="710" cy="400" r="3" fill="#000000" opacity="0.5"/>
-<circle cx="600" cy="650" r="3" fill="#000000" opacity="0.5"/>
-<circle cx="140" cy="400" r="3" fill="#000000" opacity="0.5"/>
-
-<!-- Corner accents -->
-<rect x="20" y="20" width="15" height="15" fill="#264653" opacity="0.3"/>
-<rect x="765" y="20" width="15" height="15" fill="#264653" opacity="0.3"/>
-<rect x="20" y="765" width="15" height="15" fill="#264653" opacity="0.3"/>
-<rect x="765" y="765" width="15" height="15" fill="#264653" opacity="0.3"/>
-
-<!-- Structural grid lines -->
-<line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
-<line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
-
-<!-- Extra peak triangles for balance -->
-<polygon points="450,160 460,140 470,160" fill="#E63946" opacity="0.7"/>
-<polygon points="230,360 240,340 250,360" fill="#E63946" opacity="0.7"/>
-<polygon points="560,480 570,460 580,480" fill="#E63946" opacity="0.7"/>
+  <title>Thermal Column</title>
+  <rect x="0" y="0" width="800" height="800" fill="#1D3557" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <path d="M 508.9 731.1 A 119 119 0 0 1 510.3 561.4" stroke="#A8DADC" stroke-width="12.876153673536521" fill="none" opacity="0.73"/>
+  <path d="M 771.6 489.8 A 126 126 0 1 1 543.8 473.9" stroke="#E76F51" stroke-width="8.118917755634742" fill="none" opacity="0.88"/>
+  <path d="M 562.4 32.4 A 95 95 0 1 1 626.0 198.0" stroke="#A8DADC" stroke-width="19.50906140890698" fill="none" opacity="0.98"/>
+  <path d="M 119.1 746.3 A 313 313 0 0 1 703.7 527.7" stroke="#FFFFFF" stroke-width="6.52927736896882" fill="none" opacity="0.84"/>
+  <path d="M 114.3 37.6 A 125 125 0 0 1 257.7 37.6" stroke="#FFFFFF" stroke-width="10.999812544497031" fill="none" opacity="0.71"/>
+  <path d="M 488.7 -87.4 A 324 324 0 0 1 884.3 118.5" stroke="#E63946" stroke-width="14.405888294758094" fill="none" opacity="0.90"/>
+  <path d="M 407.4 497.6 A 132 132 0 0 1 279.1 707.0" stroke="#E63946" stroke-width="16.026851639116344" fill="none" opacity="0.77"/>
+  <path d="M 34.1 145.5 A 244 244 0 1 1 514.8 213.0" stroke="#2A9D8F" stroke-width="18.755131238795748" fill="none" opacity="0.91"/>
+  <path d="M 290.6 457.8 A 304 304 0 0 1 248.2 -148.3" stroke="#E9C46A" stroke-width="16.17881999531286" fill="none" opacity="0.87"/>
+  <circle cx="646" cy="447" r="29" fill="#F4D35E" opacity="0.77"/>
+  <circle cx="373" cy="442" r="9" fill="#F4D35E" opacity="0.79"/>
+  <circle cx="460" cy="17" r="30" fill="#1D3557" opacity="0.94"/>
+  <circle cx="428" cy="611" r="27" fill="#F4D35E" opacity="0.76"/>
+  <circle cx="334" cy="592" r="21" fill="#E63946" opacity="0.98"/>
+  <circle cx="168" cy="450" r="22" fill="#F4D35E" opacity="0.95"/>
+  <circle cx="323" cy="49" r="24" fill="#E63946" opacity="0.91"/>
+  <circle cx="638" cy="621" r="8" fill="#E63946" opacity="0.75"/>
+  <circle cx="541" cy="14" r="11" fill="#F4D35E" opacity="0.88"/>
+  <circle cx="705" cy="386" r="30" fill="#1D3557" opacity="0.92"/>
+  <circle cx="428" cy="465" r="39" fill="#F4D35E" opacity="0.97"/>
+  <rect x="740" y="696" width="36" height="141" fill="#E63946" opacity="0.58"/>
+  <rect x="710" y="421" width="129" height="32" fill="#FFFFFF" opacity="0.63"/>
+  <rect x="753" y="279" width="64" height="141" fill="#E76F51" opacity="0.57"/>
+  <rect x="217" y="183" width="65" height="119" fill="#FEFAE0" opacity="0.71"/>
 </svg>

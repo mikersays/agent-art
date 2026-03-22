@@ -1,57 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FFFFFF"/>
-  <!-- Structural lines at low opacity -->
-  <line x1="0" y1="800" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-  <line x1="0" y1="600" x2="600" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-  <line x1="200" y1="800" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-  <!-- Large heavy blue rectangle - bottom left anchor -->
-  <rect x="60" y="440" width="200" height="300" fill="#1D3557" opacity="0.95"/>
-  <!-- Shadow/depth layer behind blue block -->
-  <rect x="70" y="450" width="200" height="300" fill="#000000" opacity="0.1"/>
-  <!-- Thin structural lines on the blue block -->
-  <line x1="60" y1="440" x2="260" y2="440" stroke="#000000" stroke-width="2" opacity="0.6"/>
-  <line x1="260" y1="440" x2="260" y2="740" stroke="#000000" stroke-width="2" opacity="0.6"/>
-  <!-- Small accent on blue block -->
-  <rect x="80" y="680" width="30" height="30" fill="#F4D35E" opacity="0.8"/>
-  <!-- THE CONNECTING DIAGONAL LINE -->
-  <line x1="200" y1="580" x2="620" y2="180" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <!-- Upper right zone: scattered small shapes -->
-  <!-- Red circles -->
-  <circle cx="550" cy="120" r="18" fill="#E63946" opacity="0.85"/>
-  <circle cx="680" cy="90" r="12" fill="#E63946" opacity="0.7"/>
-  <circle cx="620" cy="200" r="15" fill="#E63946" opacity="0.6"/>
-  <circle cx="720" cy="170" r="10" fill="#E63946" opacity="0.9"/>
-  <!-- Yellow shapes -->
-  <rect x="580" y="60" width="22" height="22" fill="#F4D35E" opacity="0.85"/>
-  <rect x="700" y="120" width="16" height="16" fill="#F4D35E" opacity="0.75" transform="rotate(45, 708, 128)"/>
-  <circle cx="650" cy="150" r="9" fill="#F4D35E" opacity="0.9"/>
-  <rect x="520" y="180" width="20" height="20" fill="#F4D35E" opacity="0.7"/>
-  <!-- Teal shapes -->
-  <circle cx="580" cy="160" r="14" fill="#2A9D8F" opacity="0.75"/>
-  <polygon points="700,60 720,90 680,90" fill="#2A9D8F" opacity="0.8"/>
-  <circle cx="740" cy="230" r="11" fill="#2A9D8F" opacity="0.65"/>
-  <!-- Small squares in black -->
-  <rect x="640" y="100" width="10" height="10" fill="#000000" opacity="0.6"/>
-  <rect x="560" y="220" width="8" height="8" fill="#000000" opacity="0.5"/>
-  <rect x="730" y="50" width="12" height="12" fill="#000000" opacity="0.4"/>
-  <!-- Triangles -->
-  <polygon points="500,100 520,140 480,140" fill="#E63946" opacity="0.7"/>
-  <polygon points="660,230 680,260 640,260" fill="#1D3557" opacity="0.5"/>
-  <polygon points="750,130 760,155 740,155" fill="#F4D35E" opacity="0.8"/>
-  <!-- More scattered small shapes -->
-  <circle cx="490" cy="160" r="7" fill="#E76F51" opacity="0.7"/>
-  <rect x="710" y="200" width="14" height="14" fill="#E76F51" opacity="0.6"/>
-  <circle cx="530" cy="80" r="6" fill="#457B9D" opacity="0.8"/>
-  <circle cx="670" cy="50" r="8" fill="#457B9D" opacity="0.6"/>
-  <!-- Midzone transitional shapes -->
-  <circle cx="400" cy="300" r="10" fill="#A89F91" opacity="0.4"/>
-  <rect x="340" y="380" width="14" height="14" fill="#A89F91" opacity="0.3"/>
-  <circle cx="450" cy="250" r="8" fill="#E63946" opacity="0.35"/>
-  <!-- Bottom-right empty space accent -->
-  <line x1="600" y1="700" x2="750" y2="700" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
-  <line x1="600" y1="600" x2="600" y2="750" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
-  <!-- Corner accents -->
-  <rect x="760" y="760" width="20" height="20" fill="#E63946" opacity="0.3"/>
-  <circle cx="30" cy="30" r="8" fill="#F4D35E" opacity="0.3"/>
+  <title>Weierstrass Map</title>
+  <rect x="0" y="0" width="800" height="800" fill="#000000" opacity="1.00"/>
+  <rect x="1" y="1" width="198" height="198" fill="#E63946" opacity="0.71"/>
+  <rect x="201" y="1" width="98" height="198" fill="#E76F51" opacity="0.66"/>
+  <rect x="301" y="1" width="98" height="98" fill="#E76F51" opacity="0.70"/>
+  <rect x="401" y="1" width="198" height="298" fill="#A8DADC" opacity="0.99"/>
+  <rect x="601" y="1" width="198" height="98" fill="#2A9D8F" opacity="0.88"/>
+  <rect x="301" y="101" width="98" height="98" fill="#457B9D" opacity="0.60"/>
+  <rect x="601" y="101" width="198" height="198" fill="#2A9D8F" opacity="0.79"/>
+  <rect x="1" y="201" width="298" height="98" fill="#E9C46A" opacity="0.66"/>
+  <rect x="301" y="201" width="98" height="298" fill="#FFFFFF" opacity="0.90"/>
+  <rect x="1" y="301" width="198" height="198" fill="#FFFFFF" opacity="0.61"/>
+  <rect x="201" y="301" width="98" height="98" fill="#457B9D" opacity="0.83"/>
+  <rect x="401" y="301" width="98" height="198" fill="#A8DADC" opacity="0.74"/>
+  <rect x="501" y="301" width="298" height="198" fill="#FFFFFF" opacity="0.63"/>
+  <rect x="201" y="401" width="98" height="298" fill="#457B9D" opacity="0.62"/>
+  <rect x="1" y="501" width="98" height="98" fill="#A8DADC" opacity="0.65"/>
+  <rect x="101" y="501" width="98" height="298" fill="#E76F51" opacity="0.66"/>
+  <rect x="301" y="501" width="198" height="98" fill="#E76F51" opacity="0.86"/>
+  <rect x="501" y="501" width="98" height="198" fill="#F4D35E" opacity="0.97"/>
+  <rect x="601" y="501" width="98" height="198" fill="#457B9D" opacity="0.67"/>
+  <rect x="701" y="501" width="98" height="198" fill="#FFFFFF" opacity="0.70"/>
+  <rect x="1" y="601" width="98" height="198" fill="#F4D35E" opacity="0.64"/>
+  <rect x="301" y="601" width="98" height="198" fill="#FFFFFF" opacity="0.63"/>
+  <rect x="401" y="601" width="98" height="98" fill="#F4D35E" opacity="0.77"/>
+  <rect x="201" y="701" width="98" height="98" fill="#457B9D" opacity="0.98"/>
+  <rect x="401" y="701" width="98" height="98" fill="#2A9D8F" opacity="0.88"/>
+  <rect x="501" y="701" width="198" height="98" fill="#FFFFFF" opacity="0.89"/>
+  <rect x="701" y="701" width="98" height="98" fill="#E63946" opacity="0.81"/>
 </svg>

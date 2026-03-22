@@ -1,56 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect x="0" y="0" width="800" height="800" fill="#000000"/>
-
-  <!-- Radiating lines from behind eclipse -->
-  <line x1="400" y1="380" x2="50" y2="50" stroke="#457B9D" stroke-width="1.5" opacity="0.3"/>
-  <line x1="400" y1="380" x2="200" y2="10" stroke="#457B9D" stroke-width="1" opacity="0.25"/>
-  <line x1="400" y1="380" x2="400" y2="10" stroke="#457B9D" stroke-width="1.5" opacity="0.3"/>
-  <line x1="400" y1="380" x2="600" y2="10" stroke="#457B9D" stroke-width="1" opacity="0.25"/>
-  <line x1="400" y1="380" x2="750" y2="50" stroke="#457B9D" stroke-width="1.5" opacity="0.3"/>
-  <line x1="400" y1="380" x2="790" y2="250" stroke="#457B9D" stroke-width="1" opacity="0.2"/>
-  <line x1="400" y1="380" x2="10" y2="250" stroke="#457B9D" stroke-width="1" opacity="0.2"/>
-  <line x1="400" y1="380" x2="790" y2="400" stroke="#457B9D" stroke-width="1" opacity="0.15"/>
-  <line x1="400" y1="380" x2="10" y2="400" stroke="#457B9D" stroke-width="1" opacity="0.15"/>
-  <line x1="400" y1="380" x2="100" y2="750" stroke="#457B9D" stroke-width="1" opacity="0.1"/>
-  <line x1="400" y1="380" x2="700" y2="750" stroke="#457B9D" stroke-width="1" opacity="0.1"/>
-  <line x1="400" y1="380" x2="750" y2="700" stroke="#457B9D" stroke-width="1.5" opacity="0.2"/>
-  <line x1="400" y1="380" x2="50" y2="700" stroke="#457B9D" stroke-width="1.5" opacity="0.2"/>
-
-  <!-- Glow ring behind eclipse -->
-  <circle cx="400" cy="380" r="230" fill="none" stroke="#F4D35E" stroke-width="3" opacity="0.15"/>
-  <circle cx="400" cy="380" r="245" fill="none" stroke="#E9C46A" stroke-width="1.5" opacity="0.1"/>
-
-  <!-- Dark blue main circle (the sun/body) -->
-  <circle cx="400" cy="380" r="200" fill="#1D3557" opacity="1"/>
-
-  <!-- Cream/white eclipsing circle offset -->
-  <circle cx="440" cy="350" r="190" fill="#FEFAE0" opacity="0.92"/>
-
-  <!-- Corona effect - thin arcs -->
-  <path d="M 200 380 A 200 200 0 0 1 400 180" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.5"/>
-  <path d="M 600 380 A 200 200 0 0 1 400 580" fill="none" stroke="#E9C46A" stroke-width="1.5" opacity="0.35"/>
-
-  <!-- Scattered star shapes - small colored elements -->
-  <circle cx="120" cy="100" r="4" fill="#E63946" opacity="0.9"/>
-  <circle cx="680" cy="150" r="3" fill="#F4D35E" opacity="0.85"/>
-  <circle cx="90" cy="500" r="3.5" fill="#2A9D8F" opacity="0.8"/>
-  <circle cx="710" cy="600" r="4" fill="#E63946" opacity="0.7"/>
-  <circle cx="300" cy="700" r="3" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="550" cy="80" r="5" fill="#2A9D8F" opacity="0.75"/>
-  <circle cx="750" cy="350" r="3" fill="#F4D35E" opacity="0.8"/>
-  <circle cx="50" cy="300" r="4" fill="#E63946" opacity="0.6"/>
-  <rect x="150" y="650" width="5" height="5" fill="#F4D35E" opacity="0.7" transform="rotate(45 152.5 652.5)"/>
-  <rect x="650" y="90" width="4" height="4" fill="#2A9D8F" opacity="0.65" transform="rotate(45 652 92)"/>
-  <rect x="500" y="720" width="6" height="6" fill="#E63946" opacity="0.6" transform="rotate(45 503 723)"/>
-  <circle cx="200" cy="200" r="2.5" fill="#A8DADC" opacity="0.5"/>
-  <circle cx="620" cy="470" r="2" fill="#A8DADC" opacity="0.45"/>
-  <circle cx="170" cy="450" r="2" fill="#FFFFFF" opacity="0.3"/>
-  <circle cx="700" cy="250" r="2.5" fill="#FFFFFF" opacity="0.35"/>
-
-  <!-- Small accent shapes -->
-  <polygon points="60,680 70,660 80,680" fill="#E76F51" opacity="0.5"/>
-  <polygon points="730,480 740,465 750,480" fill="#F4D35E" opacity="0.45"/>
-  <rect x="30" y="750" width="8" height="8" fill="#1D3557" opacity="0.6"/>
-  <rect x="760" y="30" width="10" height="10" fill="#6D2E46" opacity="0.5"/>
+  <title>Connection Form</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0" opacity="1.00"/>
+  <rect x="0" y="0" width="800" height="5" fill="#E63946" opacity="0.80"/>
+  <rect x="0" y="25" width="800" height="19" fill="#1D3557" opacity="0.41"/>
+  <rect x="0" y="50" width="800" height="20" fill="#1D3557" opacity="0.36"/>
+  <rect x="0" y="75" width="800" height="19" fill="#E63946" opacity="0.72"/>
+  <rect x="0" y="100" width="800" height="11" fill="#1D3557" opacity="0.41"/>
+  <rect x="0" y="125" width="800" height="12" fill="#E63946" opacity="0.71"/>
+  <rect x="0" y="150" width="800" height="13" fill="#FEFAE0" opacity="0.53"/>
+  <rect x="0" y="175" width="800" height="18" fill="#E63946" opacity="0.96"/>
+  <rect x="0" y="200" width="800" height="2" fill="#FEFAE0" opacity="0.62"/>
+  <rect x="0" y="225" width="800" height="11" fill="#1D3557" opacity="0.45"/>
+  <rect x="0" y="250" width="800" height="10" fill="#FEFAE0" opacity="0.70"/>
+  <rect x="0" y="275" width="800" height="14" fill="#1D3557" opacity="0.68"/>
+  <rect x="0" y="300" width="800" height="23" fill="#E63946" opacity="0.84"/>
+  <rect x="0" y="325" width="800" height="19" fill="#FEFAE0" opacity="0.59"/>
+  <rect x="0" y="350" width="800" height="8" fill="#1D3557" opacity="0.48"/>
+  <rect x="0" y="375" width="800" height="7" fill="#FEFAE0" opacity="0.63"/>
+  <rect x="0" y="400" width="800" height="18" fill="#E63946" opacity="0.87"/>
+  <rect x="0" y="425" width="800" height="22" fill="#FEFAE0" opacity="0.47"/>
+  <rect x="0" y="450" width="800" height="11" fill="#1D3557" opacity="0.44"/>
+  <rect x="0" y="475" width="800" height="16" fill="#1D3557" opacity="0.42"/>
+  <rect x="0" y="500" width="800" height="4" fill="#1D3557" opacity="0.50"/>
+  <rect x="0" y="525" width="800" height="11" fill="#E63946" opacity="0.93"/>
+  <rect x="0" y="550" width="800" height="20" fill="#1D3557" opacity="0.53"/>
+  <rect x="0" y="575" width="800" height="9" fill="#FEFAE0" opacity="0.42"/>
+  <rect x="0" y="600" width="800" height="20" fill="#E63946" opacity="0.70"/>
+  <rect x="0" y="625" width="800" height="13" fill="#1D3557" opacity="0.42"/>
+  <rect x="0" y="650" width="800" height="17" fill="#1D3557" opacity="0.43"/>
+  <rect x="0" y="675" width="800" height="22" fill="#FEFAE0" opacity="0.65"/>
+  <rect x="0" y="700" width="800" height="20" fill="#E63946" opacity="1.00"/>
+  <rect x="0" y="725" width="800" height="17" fill="#FEFAE0" opacity="0.34"/>
+  <rect x="0" y="750" width="800" height="20" fill="#E63946" opacity="0.91"/>
+  <rect x="0" y="775" width="800" height="6" fill="#FEFAE0" opacity="0.53"/>
+  <line x1="0" y1="276" x2="800" y2="276" stroke="#FFFFFF" stroke-width="7.612910609658895" opacity="1.00"/>
+  <line x1="0" y1="227" x2="800" y2="227" stroke="#000000" stroke-width="3.476626756602117" opacity="1.00"/>
+  <line x1="0" y1="497" x2="800" y2="497" stroke="#FFFFFF" stroke-width="3.8580231958250812" opacity="1.00"/>
+  <line x1="0" y1="396" x2="800" y2="396" stroke="#000000" stroke-width="5.660475867502003" opacity="1.00"/>
+  <line x1="0" y1="413" x2="800" y2="413" stroke="#000000" stroke-width="3.2165463984531772" opacity="1.00"/>
+  <line x1="711" y1="0" x2="711" y2="800" stroke="#1D3557" stroke-width="3.0232419294169146" opacity="0.64"/>
+  <line x1="403" y1="0" x2="403" y2="800" stroke="#E63946" stroke-width="4.205885593352271" opacity="0.60"/>
+  <line x1="753" y1="0" x2="753" y2="800" stroke="#F4D35E" stroke-width="4.840904782988145" opacity="0.54"/>
+  <circle cx="414" cy="579" r="15" fill="#E63946" opacity="0.98"/>
+  <circle cx="581" cy="365" r="13" fill="#E63946" opacity="0.83"/>
+  <circle cx="247" cy="698" r="9" fill="#1D3557" opacity="1.00"/>
+  <circle cx="29" cy="552" r="6" fill="#E63946" opacity="0.73"/>
+  <circle cx="545" cy="764" r="7" fill="#1D3557" opacity="0.89"/>
+  <circle cx="492" cy="456" r="16" fill="#1D3557" opacity="0.82"/>
+  <circle cx="257" cy="549" r="8" fill="#F4D35E" opacity="0.84"/>
+  <circle cx="174" cy="558" r="15" fill="#F4D35E" opacity="0.99"/>
 </svg>

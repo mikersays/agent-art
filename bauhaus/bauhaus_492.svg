@@ -1,55 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
-  <!-- Warm gray horizontal bands -->
-  <rect x="0" y="100" width="800" height="60" fill="#A89F91" opacity="0.1"/>
-  <rect x="0" y="300" width="800" height="50" fill="#A89F91" opacity="0.1"/>
-  <rect x="0" y="500" width="800" height="55" fill="#A89F91" opacity="0.1"/>
-  <rect x="0" y="680" width="800" height="45" fill="#A89F91" opacity="0.1"/>
-  <!-- Yellow rectangles floating behind waves -->
-  <rect x="50" y="80" width="120" height="50" fill="#F4D35E" opacity="0.4"/>
-  <rect x="350" y="250" width="100" height="60" fill="#F4D35E" opacity="0.35"/>
-  <rect x="600" y="460" width="140" height="45" fill="#F4D35E" opacity="0.4"/>
-  <rect x="150" y="620" width="110" height="55" fill="#F4D35E" opacity="0.3"/>
-  <rect x="500" y="150" width="80" height="40" fill="#F4D35E" opacity="0.35"/>
-  <!-- Wave 1 - Red, low frequency -->
-  <polyline points="0,150 50,130 100,160 150,120 200,170 250,110 300,180 350,100 400,190 450,95 500,185 550,105 600,175 650,115 700,165 750,125 800,155" fill="none" stroke="#E63946" stroke-width="3.5" opacity="0.85"/>
-  <!-- Wave 2 - Blue, medium frequency -->
-  <polyline points="0,320 40,340 80,300 120,350 160,290 200,360 240,280 280,365 320,275 360,355 400,285 440,350 480,290 520,345 560,295 600,340 640,300 680,335 720,305 760,330 800,310" fill="none" stroke="#1D3557" stroke-width="3" opacity="0.8"/>
-  <!-- Wave 3 - Steel Blue, high frequency -->
-  <polyline points="0,500 30,520 60,480 90,530 120,470 150,535 180,465 210,540 240,460 270,535 300,470 330,530 360,475 390,525 420,480 450,520 480,485 510,515 540,490 570,510 600,495 630,505 660,498 690,502 720,500 750,498 800,500" fill="none" stroke="#457B9D" stroke-width="2.5" opacity="0.75"/>
-  <!-- Wave 4 - Teal, varying frequency -->
-  <polyline points="0,680 60,650 120,710 180,640 240,720 300,630 360,700 420,660 480,690 540,655 600,695 660,665 720,685 780,670 800,680" fill="none" stroke="#2A9D8F" stroke-width="3" opacity="0.8"/>
-  <!-- Interference points - bold circles where waves conceptually cross -->
-  <circle cx="150" cy="150" r="12" fill="#E63946" opacity="0.7"/>
-  <circle cx="350" cy="310" r="14" fill="#1D3557" opacity="0.7"/>
-  <circle cx="250" cy="240" r="10" fill="#E76F51" opacity="0.8"/>
-  <circle cx="500" cy="500" r="13" fill="#457B9D" opacity="0.7"/>
-  <circle cx="450" cy="410" r="11" fill="#2A9D8F" opacity="0.75"/>
-  <circle cx="600" cy="340" r="12" fill="#1D3557" opacity="0.65"/>
-  <circle cx="200" cy="500" r="10" fill="#457B9D" opacity="0.7"/>
-  <circle cx="650" cy="500" r="9" fill="#2A9D8F" opacity="0.7"/>
-  <circle cx="300" cy="680" r="11" fill="#E63946" opacity="0.6"/>
-  <circle cx="700" cy="165" r="10" fill="#E63946" opacity="0.65"/>
-  <circle cx="100" cy="320" r="9" fill="#1D3557" opacity="0.6"/>
-  <circle cx="550" cy="680" r="10" fill="#2A9D8F" opacity="0.65"/>
-  <!-- Black triangles at crests -->
-  <polygon points="350,90 365,110 335,110" fill="#000000" opacity="0.8"/>
-  <polygon points="160,280 175,300 145,300" fill="#000000" opacity="0.75"/>
-  <polygon points="90,520 105,540 75,540" fill="#000000" opacity="0.7"/>
-  <polygon points="180,630 195,650 165,650" fill="#000000" opacity="0.75"/>
-  <polygon points="450,85 463,103 437,103" fill="#000000" opacity="0.7"/>
-  <polygon points="520,340 533,355 507,355" fill="#000000" opacity="0.65"/>
-  <!-- Sand-colored shapes in quiet areas -->
-  <rect x="680" y="400" width="25" height="25" fill="#DDA15E" opacity="0.5"/>
-  <circle cx="80" cy="440" r="12" fill="#DDA15E" opacity="0.45"/>
-  <rect x="720" y="580" width="30" height="20" fill="#DDA15E" opacity="0.5"/>
-  <circle cx="400" cy="600" r="10" fill="#DDA15E" opacity="0.4"/>
-  <rect x="50" y="750" width="22" height="22" fill="#DDA15E" opacity="0.45"/>
-  <!-- Small accent details -->
-  <circle cx="300" cy="50" r="5" fill="#000000" opacity="0.3"/>
-  <circle cx="600" cy="750" r="6" fill="#000000" opacity="0.3"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
+  <title>Miller Index</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF" opacity="1.00"/>
+  <rect x="1" y="1" width="98" height="298" fill="#E63946" opacity="0.91"/>
+  <rect x="101" y="1" width="98" height="198" fill="#2A9D8F" opacity="0.67"/>
+  <rect x="201" y="1" width="198" height="198" fill="#264653" opacity="0.78"/>
+  <rect x="401" y="1" width="98" height="198" fill="#F4D35E" opacity="0.83"/>
+  <rect x="501" y="1" width="298" height="298" fill="#6D2E46" opacity="0.95"/>
+  <rect x="101" y="201" width="198" height="198" fill="#1D3557" opacity="0.61"/>
+  <rect x="301" y="201" width="198" height="298" fill="#E76F51" opacity="0.63"/>
+  <rect x="1" y="301" width="98" height="98" fill="#E63946" opacity="1.00"/>
+  <rect x="501" y="301" width="98" height="298" fill="#2A9D8F" opacity="0.78"/>
+  <rect x="601" y="301" width="198" height="98" fill="#000000" opacity="0.87"/>
+  <rect x="1" y="401" width="198" height="98" fill="#E76F51" opacity="0.86"/>
+  <rect x="201" y="401" width="98" height="98" fill="#6D2E46" opacity="0.79"/>
+  <rect x="601" y="401" width="198" height="98" fill="#E63946" opacity="0.68"/>
+  <rect x="1" y="501" width="298" height="198" fill="#E63946" opacity="0.89"/>
+  <rect x="301" y="501" width="98" height="298" fill="#6D2E46" opacity="0.92"/>
+  <rect x="401" y="501" width="98" height="98" fill="#2A9D8F" opacity="0.84"/>
+  <rect x="601" y="501" width="198" height="198" fill="#6D2E46" opacity="0.78"/>
+  <rect x="401" y="601" width="98" height="98" fill="#1D3557" opacity="0.93"/>
+  <rect x="501" y="601" width="98" height="198" fill="#000000" opacity="0.73"/>
+  <rect x="1" y="701" width="298" height="98" fill="#264653" opacity="0.96"/>
+  <rect x="401" y="701" width="98" height="98" fill="#264653" opacity="0.95"/>
+  <rect x="601" y="701" width="98" height="98" fill="#6D2E46" opacity="0.72"/>
+  <rect x="701" y="701" width="98" height="98" fill="#2A9D8F" opacity="0.64"/>
 </svg>

@@ -1,68 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FEFAE0"/>
-  <!-- Warm gray background shapes -->
-  <rect x="50" y="50" width="700" height="700" fill="#A89F91" opacity="0.08"/>
-  <rect x="100" y="80" width="600" height="640" fill="#A89F91" opacity="0.06"/>
-  <!-- Pendulum anchor bar at top -->
-  <rect x="150" y="30" width="500" height="12" fill="#000000" opacity="0.85"/>
-  <!-- Vertical anchor lines from top bar -->
-  <line x1="250" y1="42" x2="250" y2="180" stroke="#000000" stroke-width="2" opacity="0.7"/>
-  <line x1="400" y1="42" x2="400" y2="200" stroke="#000000" stroke-width="2.5" opacity="0.8"/>
-  <line x1="550" y1="42" x2="550" y2="170" stroke="#000000" stroke-width="2" opacity="0.7"/>
-  <!-- Pendulum strings - left pendulum arc -->
-  <path d="M 250,42 Q 130,300 180,500" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
-  <path d="M 250,42 Q 180,280 220,460" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
-  <path d="M 250,42 Q 240,300 260,480" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.35"/>
-  <!-- Pendulum strings - center pendulum arc -->
-  <path d="M 400,42 Q 280,350 300,580" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.45"/>
-  <path d="M 400,42 Q 350,320 370,550" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
-  <path d="M 400,42 Q 420,340 430,560" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
-  <path d="M 400,42 Q 500,360 490,580" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.45"/>
-  <!-- Pendulum strings - right pendulum arc -->
-  <path d="M 550,42 Q 600,280 620,470" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
-  <path d="M 550,42 Q 560,300 570,460" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.35"/>
-  <path d="M 550,42 Q 650,310 680,490" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
-  <!-- Yellow highlight arcs - motion trails -->
-  <path d="M 130,500 Q 200,520 280,490" fill="none" stroke="#F4D35E" stroke-width="3" opacity="0.7"/>
-  <path d="M 110,530 Q 200,560 290,520" fill="none" stroke="#F4D35E" stroke-width="2.5" opacity="0.5"/>
-  <path d="M 270,580 Q 400,620 510,570" fill="none" stroke="#F4D35E" stroke-width="3.5" opacity="0.65"/>
-  <path d="M 290,610 Q 400,640 500,600" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.4"/>
-  <path d="M 580,470 Q 630,500 700,490" fill="none" stroke="#F4D35E" stroke-width="3" opacity="0.6"/>
-  <!-- Blue circles - pendulum bobs at various positions -->
-  <circle cx="180" cy="500" r="30" fill="#1D3557" opacity="0.8"/>
-  <circle cx="220" cy="465" r="25" fill="#1D3557" opacity="0.3"/>
-  <circle cx="260" cy="480" r="22" fill="#1D3557" opacity="0.2"/>
-  <circle cx="300" cy="580" r="35" fill="#1D3557" opacity="0.75"/>
-  <circle cx="370" cy="555" r="28" fill="#1D3557" opacity="0.25"/>
-  <!-- Red circles - pendulum bobs -->
-  <circle cx="490" cy="575" r="32" fill="#E63946" opacity="0.8"/>
-  <circle cx="430" cy="560" r="26" fill="#E63946" opacity="0.25"/>
-  <circle cx="620" cy="470" r="28" fill="#E63946" opacity="0.75"/>
-  <circle cx="680" cy="490" r="24" fill="#E63946" opacity="0.3"/>
-  <circle cx="570" cy="460" r="20" fill="#E63946" opacity="0.2"/>
-  <!-- Connecting lines between bobs -->
-  <line x1="180" y1="500" x2="300" y2="580" stroke="#457B9D" stroke-width="1.5" opacity="0.4"/>
-  <line x1="300" y1="580" x2="490" y2="575" stroke="#457B9D" stroke-width="1.5" opacity="0.4"/>
-  <line x1="490" y1="575" x2="620" y2="470" stroke="#457B9D" stroke-width="1.5" opacity="0.4"/>
-  <!-- Ghost position circles (motion blur effect with opacity) -->
-  <circle cx="150" cy="520" r="18" fill="#A89F91" opacity="0.15"/>
-  <circle cx="330" cy="590" r="20" fill="#A89F91" opacity="0.12"/>
-  <circle cx="520" cy="560" r="18" fill="#A89F91" opacity="0.12"/>
-  <circle cx="650" cy="480" r="16" fill="#A89F91" opacity="0.15"/>
-  <!-- Small accent circles at anchor points -->
-  <circle cx="250" cy="42" r="6" fill="#000000" opacity="0.9"/>
-  <circle cx="400" cy="42" r="7" fill="#000000" opacity="0.9"/>
-  <circle cx="550" cy="42" r="6" fill="#000000" opacity="0.9"/>
-  <!-- Floor reference line -->
-  <line x1="50" y1="720" x2="750" y2="720" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <!-- Teal accent - small circles -->
-  <circle cx="400" cy="700" r="8" fill="#2A9D8F" opacity="0.6"/>
-  <circle cx="200" cy="680" r="6" fill="#2A9D8F" opacity="0.5"/>
-  <circle cx="600" cy="690" r="7" fill="#2A9D8F" opacity="0.5"/>
-  <!-- Corner accents -->
-  <rect x="10" y="10" width="15" height="15" fill="#E63946" opacity="0.4"/>
-  <rect x="775" y="10" width="15" height="15" fill="#1D3557" opacity="0.4"/>
-  <rect x="10" y="775" width="15" height="15" fill="#F4D35E" opacity="0.4"/>
-  <rect x="775" y="775" width="15" height="15" fill="#2A9D8F" opacity="0.4"/>
+  <title>Cargo Net</title>
+  <rect x="0" y="0" width="800" height="800" fill="#000000" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#FFFFFF" stroke-width="1.386492235729885" opacity="0.10"/>
+  <line x1="71" y1="0" x2="71" y2="800" stroke="#FFFFFF" stroke-width="0.8612245361021982" opacity="0.10"/>
+  <line x1="142" y1="0" x2="142" y2="800" stroke="#E9C46A" stroke-width="1.7006303210555995" opacity="0.10"/>
+  <line x1="213" y1="0" x2="213" y2="800" stroke="#A8DADC" stroke-width="0.5827151185218546" opacity="0.10"/>
+  <line x1="284" y1="0" x2="284" y2="800" stroke="#457B9D" stroke-width="0.5541984381857605" opacity="0.10"/>
+  <line x1="355" y1="0" x2="355" y2="800" stroke="#E63946" stroke-width="1.8494013653182635" opacity="0.10"/>
+  <line x1="426" y1="0" x2="426" y2="800" stroke="#E76F51" stroke-width="1.0764605435407861" opacity="0.10"/>
+  <line x1="497" y1="0" x2="497" y2="800" stroke="#FFFFFF" stroke-width="1.87539413123005" opacity="0.10"/>
+  <line x1="568" y1="0" x2="568" y2="800" stroke="#F4D35E" stroke-width="0.9441679493324848" opacity="0.10"/>
+  <line x1="639" y1="0" x2="639" y2="800" stroke="#E63946" stroke-width="1.9803464674801563" opacity="0.10"/>
+  <line x1="710" y1="0" x2="710" y2="800" stroke="#E63946" stroke-width="1.904792730222136" opacity="0.10"/>
+  <line x1="781" y1="0" x2="781" y2="800" stroke="#F4D35E" stroke-width="0.6558646207140046" opacity="0.10"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#2A9D8F" stroke-width="0.7054598757186097" opacity="0.10"/>
+  <line x1="0" y1="96" x2="800" y2="96" stroke="#E9C46A" stroke-width="0.8130008749257238" opacity="0.10"/>
+  <line x1="0" y1="192" x2="800" y2="192" stroke="#E63946" stroke-width="1.6265235237874016" opacity="0.10"/>
+  <line x1="0" y1="288" x2="800" y2="288" stroke="#2A9D8F" stroke-width="1.9833025279959493" opacity="0.10"/>
+  <line x1="0" y1="384" x2="800" y2="384" stroke="#E9C46A" stroke-width="1.890526063408593" opacity="0.10"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#2A9D8F" stroke-width="1.9337150258377769" opacity="0.10"/>
+  <line x1="0" y1="576" x2="800" y2="576" stroke="#E76F51" stroke-width="0.5530426387227767" opacity="0.10"/>
+  <line x1="0" y1="672" x2="800" y2="672" stroke="#457B9D" stroke-width="1.867792016930582" opacity="0.10"/>
+  <line x1="0" y1="768" x2="800" y2="768" stroke="#E63946" stroke-width="1.8222157132193633" opacity="0.10"/>
+  <rect x="426" y="456" width="296" height="243" fill="#E63946" opacity="0.85"/>
+  <rect x="436" y="466" width="276" height="223" fill="none" opacity="1.00"/>
+  <rect x="391" y="502" width="43" height="43" fill="#FFFFFF" opacity="0.67"/>
+  <rect x="117" y="600" width="29" height="29" fill="#F4D35E" opacity="0.58"/>
+  <rect x="2" y="369" width="50" height="50" fill="#F4D35E" opacity="0.53"/>
+  <rect x="582" y="606" width="44" height="44" fill="#A8DADC" opacity="0.58"/>
+  <rect x="139" y="339" width="30" height="30" fill="#FFFFFF" opacity="0.66"/>
+  <rect x="596" y="110" width="30" height="30" fill="#A8DADC" opacity="0.35"/>
+  <rect x="206" y="578" width="11" height="11" fill="#E63946" opacity="0.35"/>
+  <rect x="155" y="571" width="46" height="46" fill="#FFFFFF" opacity="0.57"/>
+  <rect x="574" y="440" width="25" height="25" fill="#FFFFFF" opacity="0.33"/>
+  <rect x="282" y="773" width="24" height="24" fill="#E9C46A" opacity="0.34"/>
+  <rect x="56" y="65" width="11" height="11" fill="#E76F51" opacity="0.47"/>
+  <rect x="122" y="96" width="45" height="45" fill="#E76F51" opacity="0.36"/>
+  <rect x="451" y="136" width="47" height="47" fill="#E76F51" opacity="0.61"/>
+  <rect x="389" y="765" width="30" height="30" fill="#2A9D8F" opacity="0.44"/>
+  <circle cx="795" cy="122" r="12" fill="#E76F51" opacity="0.59"/>
+  <circle cx="780" cy="65" r="14" fill="#E76F51" opacity="0.64"/>
+  <circle cx="370" cy="651" r="18" fill="#2A9D8F" opacity="0.55"/>
+  <circle cx="108" cy="694" r="14" fill="#457B9D" opacity="0.66"/>
+  <circle cx="24" cy="602" r="12" fill="#2A9D8F" opacity="0.49"/>
+  <circle cx="412" cy="319" r="16" fill="#A8DADC" opacity="0.44"/>
+  <rect x="0" y="0" width="800" height="13" fill="#E63946" opacity="1.00"/>
+  <rect x="0" y="787" width="800" height="13" fill="#E63946" opacity="1.00"/>
 </svg>

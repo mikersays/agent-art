@@ -1,89 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-<!-- Background -->
-<rect width="800" height="800" fill="#FFFFFF"/>
-
-<!-- Subtle grid lines -->
-<line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
-<line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
-<line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
-<line x1="60" y1="0" x2="60" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
-
-<!-- Vertical support line on left -->
-<line x1="60" y1="80" x2="60" y2="720" stroke="#000000" stroke-width="4"/>
-
-<!-- Support base -->
-<rect x="40" y="710" width="40" height="10" fill="#000000"/>
-<rect x="40" y="80" width="40" height="10" fill="#000000"/>
-
-<!-- Cantilever beam 1 - top, long blue -->
-<rect x="60" y="120" width="520" height="18" fill="#1D3557" opacity="0.9"/>
-<!-- Circle hanging from end -->
-<circle cx="580" cy="160" r="28" fill="#E63946" opacity="0.8"/>
-<!-- Small yellow accent -->
-<rect x="300" y="105" width="25" height="15" fill="#F4D35E" opacity="0.9"/>
-
-<!-- Cantilever beam 2 - red, medium -->
-<rect x="60" y="200" width="380" height="14" fill="#E63946" opacity="0.85"/>
-<!-- Circle at end -->
-<circle cx="440" cy="230" r="22" fill="#1D3557" opacity="0.75"/>
-<!-- Yellow diamond accent -->
-<rect x="200" y="190" width="12" height="12" fill="#F4D35E" opacity="0.9" transform="rotate(45,206,196)"/>
-
-<!-- Cantilever beam 3 - short steel blue -->
-<rect x="60" y="290" width="220" height="12" fill="#457B9D" opacity="0.8"/>
-<!-- Hanging circle -->
-<circle cx="280" cy="318" r="18" fill="#F4D35E" opacity="0.85"/>
-
-<!-- Cantilever beam 4 - long blue, thicker -->
-<rect x="60" y="370" width="600" height="22" fill="#1D3557" opacity="0.85"/>
-<!-- Large circle at end -->
-<circle cx="660" cy="405" r="35" fill="#F4D35E" opacity="0.8"/>
-<!-- Accent circle on beam -->
-<circle cx="350" cy="381" r="8" fill="#E63946" opacity="0.9"/>
-
-<!-- Cantilever beam 5 - red, medium-short -->
-<rect x="60" y="450" width="300" height="16" fill="#E63946" opacity="0.85"/>
-<!-- Circle pair at end -->
-<circle cx="360" cy="480" r="20" fill="#2A9D8F" opacity="0.8"/>
-<circle cx="360" cy="480" r="10" fill="#FFFFFF" opacity="0.9"/>
-
-<!-- Cantilever beam 6 - thin blue -->
-<rect x="60" y="530" width="480" height="10" fill="#1D3557" opacity="0.7"/>
-<!-- Circle -->
-<circle cx="540" cy="548" r="15" fill="#E76F51" opacity="0.85"/>
-
-<!-- Cantilever beam 7 - yellow accent beam -->
-<rect x="60" y="580" width="160" height="20" fill="#F4D35E" opacity="0.9"/>
-<!-- Black circle -->
-<circle cx="220" cy="605" r="16" fill="#000000" opacity="0.8"/>
-
-<!-- Cantilever beam 8 - bottom, long red -->
-<rect x="60" y="650" width="550" height="15" fill="#E63946" opacity="0.8"/>
-<!-- Circle at end -->
-<circle cx="610" cy="672" r="25" fill="#1D3557" opacity="0.75"/>
-<!-- Yellow square accent -->
-<rect x="400" y="640" width="14" height="14" fill="#F4D35E" opacity="0.9"/>
-
-<!-- Vertical yellow accent bar -->
-<rect x="150" y="150" width="8" height="100" fill="#F4D35E" opacity="0.6"/>
-
-<!-- Diagonal tension line -->
-<line x1="60" y1="120" x2="660" y2="670" stroke="#000000" stroke-width="1" opacity="0.1"/>
-
-<!-- Small accent shapes -->
-<circle cx="100" cy="500" r="5" fill="#E63946" opacity="0.5"/>
-<rect x="80" y="340" width="8" height="8" fill="#F4D35E" opacity="0.6"/>
-<circle cx="120" cy="250" r="4" fill="#000000" opacity="0.4"/>
-
-<!-- Counterweight shapes on left -->
-<rect x="20" y="365" width="40" height="30" fill="#1D3557" opacity="0.3"/>
-<circle cx="40" cy="580" r="12" fill="#E63946" opacity="0.3"/>
-
-<!-- Top-right accent -->
-<circle cx="720" cy="100" r="10" fill="#A89F91" opacity="0.3"/>
-<rect x="710" y="680" width="20" height="20" fill="#000000" opacity="0.15"/>
-
-<!-- Corner markers -->
-<rect x="10" y="10" width="10" height="10" fill="#000000" opacity="0.2"/>
-<rect x="780" y="780" width="10" height="10" fill="#000000" opacity="0.2"/>
+  <title>Structural Bay</title>
+  <rect x="0" y="0" width="800" height="800" fill="#457B9D" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="80" y1="0" x2="80" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="160" y1="0" x2="160" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="320" y1="0" x2="320" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="480" y1="0" x2="480" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="560" y1="0" x2="560" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="640" y1="0" x2="640" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="720" y1="0" x2="720" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <polygon points="371.0,376.0 417.7653718043597,457.0 324.2346281956403,457.0" fill="#000000" opacity="0.74"/>
+  <polygon points="258.94234869264824,287.05065712121694 151.60673356473012,488.9195891665206 30.450917742621613,295.0297537122625" fill="#FFFFFF" opacity="0.51"/>
+  <polygon points="123.11027254265817,644.0 182.0,542.0 240.88972745734182,644.0" fill="#E63946" opacity="0.66"/>
+  <polygon points="-7.146425902508383,247.19555893686794 115.4519486601566,26.022236507166866 245.69447724235178,242.78220455596522" fill="#FFFFFF" opacity="0.84"/>
+  <polygon points="294.6359457503619,283.30208984314197 2.8678507631751415,407.1502983386546 41.49620348646289,92.54761181820342" fill="#E76F51" opacity="0.43"/>
+  <polygon points="347.06826036424013,338.13489777211703 620.5618578414146,243.96350010279704 565.3698817943451,527.9016021250859" fill="#2A9D8F" opacity="0.63"/>
+  <polygon points="295.9987024201275,376.6807266417678 489.79380812731233,317.43161691055707 444.20748945256025,514.8876564476751" fill="#E76F51" opacity="0.43"/>
+  <polygon points="203.42177602185433,266.36841670970057 416.4315779863598,262.6503167860633 313.1466459917859,448.98126650423615" fill="#E63946" opacity="0.40"/>
+  <polygon points="332.6023658718832,531.1067141053334 441.7980881935137,285.84910621791767 599.5995459346032,503.0441796767491" fill="#F4D35E" opacity="0.65"/>
+  <polygon points="298.1431231068663,147.76809223181306 440.4094219888877,-79.90557818795983 566.4474549042461,157.13748595614672" fill="#6D2E46" opacity="0.59"/>
+  <polygon points="364.7903967888046,399.4792621430163 134.56797014976271,391.4397178505235 256.6416330614327,196.08102000646025" fill="#6D2E46" opacity="0.56"/>
+  <polygon points="598.5254191848867,338.40940073393597 778.2199075457244,325.84393803904237 699.2546732693891,487.7466612270217" fill="#FFFFFF" opacity="0.87"/>
+  <polygon points="0.43529883047739304,198.94989002938465 289.99750685239405,327.8712912220194 33.567194317128525,514.178818748596" fill="#6D2E46" opacity="0.86"/>
+  <polygon points="280.4024048078213,250.49596321166024 193.85262035705364,247.47357813929455 239.74497483512508,174.03045864904522" fill="#E63946" opacity="0.42"/>
+  <polygon points="164.3105698043825,213.94670892217636 410.6370004428919,239.83666004016058 265.0524297527255,440.2166310376631" fill="#F4D35E" opacity="0.64"/>
+  <polygon points="413.7084515880786,521.887621849875 349.22901342847524,395.33959912876776 491.06253498344614,402.77277902135717" fill="#2A9D8F" opacity="0.88"/>
+  <line x1="788" y1="28" x2="311" y2="192" stroke="#000000" stroke-width="2.0553502659667657" opacity="0.67"/>
+  <line x1="342" y1="156" x2="698" y2="575" stroke="#000000" stroke-width="4.9905580183610585" opacity="0.53"/>
+  <line x1="643" y1="92" x2="170" y2="319" stroke="#000000" stroke-width="2.250502250773322" opacity="0.64"/>
+  <circle cx="45" cy="755" r="22" fill="#F4D35E" opacity="1.00"/>
+  <circle cx="53" cy="747" r="26" fill="#1D3557" opacity="1.00"/>
+  <circle cx="49" cy="751" r="24" fill="#1D3557" opacity="1.00"/>
+  <circle cx="27" cy="27" r="13" fill="#1D3557" opacity="1.00"/>
 </svg>

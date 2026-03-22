@@ -1,38 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Cream background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-  <!-- Warm gray horizontal lines -->
-  <line x1="0" y1="100" x2="800" y2="100" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
-  <line x1="0" y1="300" x2="800" y2="300" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
-  <line x1="0" y1="500" x2="800" y2="500" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
-  <line x1="0" y1="700" x2="800" y2="700" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
-  <!-- 5 concentric circles, each offset slightly right and up -->
-  <circle cx="310" cy="440" r="250" fill="#264653" opacity="0.3"/>
-  <circle cx="330" cy="430" r="200" fill="#1D3557" opacity="0.4"/>
-  <circle cx="350" cy="415" r="150" fill="#2A9D8F" opacity="0.5"/>
-  <circle cx="365" cy="400" r="100" fill="#E63946" opacity="0.6"/>
-  <circle cx="380" cy="385" r="50" fill="#F4D35E" opacity="0.8"/>
-  <!-- Black rectangular bars at various angles outside circles -->
-  <rect x="620" y="80" width="120" height="15" fill="#000000" transform="rotate(25 680 87)"/>
-  <rect x="30" y="60" width="150" height="12" fill="#000000" transform="rotate(-15 105 66)"/>
-  <rect x="650" y="550" width="100" height="14" fill="#000000" transform="rotate(40 700 557)"/>
-  <rect x="10" y="600" width="130" height="10" fill="#000000" transform="rotate(-30 75 605)"/>
-  <rect x="600" y="300" width="140" height="12" fill="#000000" transform="rotate(10 670 306)"/>
-  <rect x="680" y="700" width="90" height="15" fill="#000000" transform="rotate(-20 725 707)"/>
-  <rect x="50" y="300" width="80" height="10" fill="#000000" transform="rotate(35 90 305)"/>
-  <!-- Orange triangles pointing inward toward circles -->
-  <polygon points="700,150 660,200 740,200" fill="#E76F51" opacity="0.7"/>
-  <polygon points="50,450 100,410 100,490" fill="#E76F51" opacity="0.7"/>
-  <polygon points="700,450 650,410 650,490" fill="#E76F51" opacity="0.7"/>
-  <polygon points="350,750 310,700 390,700" fill="#E76F51" opacity="0.7"/>
-  <polygon points="100,150 140,110 140,190" fill="#E76F51" opacity="0.7"/>
-  <polygon points="650,650 610,610 610,690" fill="#E76F51" opacity="0.6"/>
-  <!-- Additional accent shapes -->
-  <circle cx="720" cy="400" r="12" fill="#DDA15E" opacity="0.6"/>
-  <circle cx="60" cy="180" r="8" fill="#6D2E46" opacity="0.7"/>
-  <rect x="680" y="250" width="20" height="20" fill="#E9C46A" opacity="0.5"/>
-  <rect x="30" y="500" width="25" height="25" fill="#457B9D" opacity="0.5"/>
+  <title>Cargo Crane</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF" opacity="1.00"/>
+  <rect x="1" y="1" width="198" height="198" fill="#264653" opacity="0.97"/>
+  <rect x="201" y="1" width="298" height="98" fill="#E76F51" opacity="0.94"/>
+  <rect x="501" y="1" width="298" height="198" fill="#1D3557" opacity="0.82"/>
+  <rect x="201" y="101" width="298" height="98" fill="#E63946" opacity="0.67"/>
+  <rect x="1" y="201" width="298" height="98" fill="#E63946" opacity="0.84"/>
+  <rect x="301" y="201" width="298" height="198" fill="#F4D35E" opacity="0.93"/>
+  <rect x="601" y="201" width="198" height="298" fill="#2A9D8F" opacity="0.90"/>
+  <rect x="1" y="301" width="198" height="198" fill="#E76F51" opacity="0.95"/>
+  <rect x="201" y="301" width="98" height="298" fill="#F4D35E" opacity="0.91"/>
+  <rect x="301" y="401" width="298" height="298" fill="#264653" opacity="0.80"/>
+  <rect x="1" y="501" width="198" height="198" fill="#E76F51" opacity="0.95"/>
+  <rect x="601" y="501" width="198" height="198" fill="#1D3557" opacity="0.96"/>
+  <rect x="201" y="601" width="98" height="98" fill="#F4D35E" opacity="0.65"/>
+  <rect x="1" y="701" width="298" height="98" fill="#264653" opacity="0.98"/>
+  <rect x="301" y="701" width="98" height="98" fill="#2A9D8F" opacity="0.98"/>
+  <rect x="401" y="701" width="198" height="98" fill="#E63946" opacity="0.89"/>
+  <rect x="601" y="701" width="198" height="98" fill="#E63946" opacity="0.76"/>
 </svg>

@@ -1,70 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Sky background -->
-  <rect width="800" height="500" fill="#A8DADC" opacity="0.4"/>
-  <rect width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Sky gradient effect -->
-  <rect width="800" height="300" fill="#A8DADC" opacity="0.25"/>
-
-  <!-- Upper level arches - row 1 (smaller) -->
-  <path d="M 80 250 A 50 50 0 0 1 180 250" fill="none" stroke="#A89F91" stroke-width="6" opacity="0.7"/>
-  <path d="M 180 250 A 50 50 0 0 1 280 250" fill="none" stroke="#A89F91" stroke-width="6" opacity="0.7"/>
-  <path d="M 280 250 A 50 50 0 0 1 380 250" fill="none" stroke="#A89F91" stroke-width="6" opacity="0.7"/>
-  <path d="M 380 250 A 50 50 0 0 1 480 250" fill="none" stroke="#A89F91" stroke-width="6" opacity="0.7"/>
-  <path d="M 480 250 A 50 50 0 0 1 580 250" fill="none" stroke="#A89F91" stroke-width="6" opacity="0.7"/>
-  <path d="M 580 250 A 50 50 0 0 1 680 250" fill="none" stroke="#A89F91" stroke-width="6" opacity="0.7"/>
-
-  <!-- Upper pillars -->
-  <rect x="76" y="250" width="10" height="120" fill="#A89F91" opacity="0.8"/>
-  <rect x="176" y="250" width="10" height="120" fill="#A89F91" opacity="0.8"/>
-  <rect x="276" y="250" width="10" height="120" fill="#A89F91" opacity="0.8"/>
-  <rect x="376" y="250" width="10" height="120" fill="#A89F91" opacity="0.8"/>
-  <rect x="476" y="250" width="10" height="120" fill="#A89F91" opacity="0.8"/>
-  <rect x="576" y="250" width="10" height="120" fill="#A89F91" opacity="0.8"/>
-  <rect x="676" y="250" width="10" height="120" fill="#A89F91" opacity="0.8"/>
-
-  <!-- Horizontal beam between levels -->
-  <rect x="60" y="370" width="660" height="12" fill="#DDA15E" opacity="0.8"/>
-
-  <!-- Lower level arches - row 2 (larger) -->
-  <path d="M 60 540 A 90 90 0 0 1 240 540" fill="none" stroke="#A89F91" stroke-width="8" opacity="0.8"/>
-  <path d="M 240 540 A 90 90 0 0 1 420 540" fill="none" stroke="#A89F91" stroke-width="8" opacity="0.8"/>
-  <path d="M 420 540 A 90 90 0 0 1 600 540" fill="none" stroke="#A89F91" stroke-width="8" opacity="0.8"/>
-  <path d="M 600 540 A 90 90 0 0 1 740 540" fill="none" stroke="#DDA15E" stroke-width="8" opacity="0.7"/>
-
-  <!-- Lower pillars -->
-  <rect x="52" y="382" width="16" height="158" fill="#DDA15E" opacity="0.85"/>
-  <rect x="232" y="382" width="16" height="158" fill="#DDA15E" opacity="0.85"/>
-  <rect x="412" y="382" width="16" height="158" fill="#DDA15E" opacity="0.85"/>
-  <rect x="592" y="382" width="16" height="158" fill="#DDA15E" opacity="0.85"/>
-  <rect x="732" y="382" width="16" height="158" fill="#DDA15E" opacity="0.85"/>
-
-  <!-- Water flowing through lower arches -->
-  <ellipse cx="150" cy="560" rx="60" ry="12" fill="#457B9D" opacity="0.5"/>
-  <ellipse cx="330" cy="555" rx="55" ry="10" fill="#1D3557" opacity="0.4"/>
-  <ellipse cx="510" cy="562" rx="50" ry="11" fill="#457B9D" opacity="0.45"/>
-  <ellipse cx="670" cy="558" rx="40" ry="9" fill="#1D3557" opacity="0.35"/>
-
-  <!-- Wavy water paths -->
-  <path d="M 0 580 Q 100 570 200 585 Q 300 595 400 580 Q 500 565 600 582 Q 700 595 800 578" fill="none" stroke="#457B9D" stroke-width="3" opacity="0.5"/>
-  <path d="M 0 600 Q 80 590 180 605 Q 280 615 380 598 Q 500 585 620 602 Q 720 612 800 598" fill="none" stroke="#1D3557" stroke-width="2" opacity="0.4"/>
-  <path d="M 0 620 Q 120 610 220 625 Q 320 635 440 618 Q 560 605 680 622 Q 740 630 800 618" fill="none" stroke="#A8DADC" stroke-width="2.5" opacity="0.5"/>
-
-  <!-- Water fill below -->
-  <rect x="0" y="630" width="800" height="170" fill="#457B9D" opacity="0.2"/>
-  <rect x="0" y="680" width="800" height="120" fill="#1D3557" opacity="0.15"/>
-
-  <!-- Red accent shapes -->
-  <circle cx="150" cy="310" r="8" fill="#E63946" opacity="0.7"/>
-  <circle cx="500" cy="300" r="6" fill="#E63946" opacity="0.6"/>
-  <rect x="340" y="240" width="8" height="8" fill="#E63946" opacity="0.65"/>
-  <rect x="620" y="395" width="10" height="10" fill="#E63946" opacity="0.5"/>
-
-  <!-- Stone texture small elements -->
-  <rect x="100" y="390" width="4" height="4" fill="#A89F91" opacity="0.3"/>
-  <rect x="300" y="420" width="4" height="4" fill="#A89F91" opacity="0.3"/>
-  <rect x="500" y="405" width="4" height="4" fill="#A89F91" opacity="0.3"/>
-
-  <!-- Top decorative line -->
-  <line x1="60" y1="230" x2="700" y2="230" stroke="#000000" stroke-width="1" opacity="0.1"/>
+  <title>Surgery Theory</title>
+  <rect x="0" y="0" width="800" height="800" fill="#264653" opacity="1.00"/>
+  <rect x="0" y="664" width="800" height="136" fill="#1D3557" opacity="0.94"/>
+  <rect x="0" y="0" width="800" height="131" fill="#1D3557" opacity="0.75"/>
+  <rect x="3" y="131" width="93" height="510" fill="#2A9D8F" opacity="0.98"/>
+  <line x1="3" y1="131" x2="3" y2="664" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="103" y="131" width="93" height="514" fill="#E63946" opacity="0.83"/>
+  <line x1="103" y1="131" x2="103" y2="664" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="196" y="131" width="93" height="503" fill="#E9C46A" opacity="0.85"/>
+  <line x1="196" y1="131" x2="196" y2="664" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="303" y="131" width="93" height="503" fill="#FEFAE0" opacity="0.88"/>
+  <line x1="303" y1="131" x2="303" y2="664" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="391" y="131" width="93" height="509" fill="#F4D35E" opacity="0.93"/>
+  <line x1="391" y1="131" x2="391" y2="664" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="506" y="131" width="93" height="527" fill="#A8DADC" opacity="0.90"/>
+  <line x1="506" y1="131" x2="506" y2="664" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="606" y="131" width="93" height="507" fill="#2A9D8F" opacity="0.80"/>
+  <line x1="606" y1="131" x2="606" y2="664" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="699" y="131" width="93" height="508" fill="#A8DADC" opacity="0.72"/>
+  <line x1="699" y1="131" x2="699" y2="664" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="17" y="373" width="14" height="14" fill="#F4D35E" opacity="0.56"/>
+  <rect x="387" y="186" width="13" height="13" fill="#E63946" opacity="0.68"/>
+  <rect x="147" y="232" width="21" height="21" fill="#F4D35E" opacity="0.66"/>
+  <rect x="284" y="616" width="30" height="30" fill="#E63946" opacity="0.70"/>
+  <rect x="615" y="437" width="18" height="18" fill="#E63946" opacity="0.53"/>
+  <rect x="56" y="132" width="24" height="24" fill="#E63946" opacity="0.87"/>
+  <rect x="583" y="584" width="29" height="29" fill="#1D3557" opacity="0.70"/>
+  <line x1="0" y1="550" x2="800" y2="550" stroke="#000000" stroke-width="1.249128738435171" opacity="0.46"/>
+  <line x1="0" y1="533" x2="800" y2="533" stroke="#FFFFFF" stroke-width="1.0595733690545535" opacity="0.53"/>
+  <line x1="0" y1="377" x2="800" y2="377" stroke="#000000" stroke-width="1.821794636217107" opacity="0.27"/>
+  <line x1="0" y1="257" x2="800" y2="257" stroke="#FFFFFF" stroke-width="0.5767650841096208" opacity="0.54"/>
+  <line x1="0" y1="209" x2="800" y2="209" stroke="#000000" stroke-width="1.8712333252824878" opacity="0.31"/>
+  <line x1="0" y1="209" x2="800" y2="209" stroke="#FFFFFF" stroke-width="1.2185916440465" opacity="0.36"/>
+  <line x1="0" y1="190" x2="800" y2="190" stroke="#000000" stroke-width="1.827194365008109" opacity="0.36"/>
+  <line x1="0" y1="490" x2="800" y2="490" stroke="#FFFFFF" stroke-width="0.8186677467479697" opacity="0.41"/>
+  <line x1="0" y1="297" x2="800" y2="297" stroke="#FFFFFF" stroke-width="1.2579647989595184" opacity="0.27"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="1.4882668937469903" opacity="0.57"/>
+  <line x1="0" y1="247" x2="800" y2="247" stroke="#000000" stroke-width="0.7274763070976082" opacity="0.45"/>
 </svg>

@@ -1,131 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FFFFFF"/>
-
-  <!-- Grid: 8 columns x 8 rows, each cell 100x100 -->
-
-  <!-- Row 1 -->
-  <rect x="0"   y="0"   width="100" height="100" fill="#E63946"/>
-  <!-- cell (1,0) empty white -->
-  <rect x="200" y="0"   width="100" height="100" fill="#1D3557"/>
-  <!-- cell (3,0) circle -->
-  <circle cx="350" cy="50" r="40" fill="#F4D35E"/>
-  <!-- cell (4,0) diagonal triangle upper -->
-  <polygon points="400,0 500,0 400,100" fill="#E63946"/>
-  <polygon points="500,0 500,100 400,100" fill="#FFFFFF"/>
-  <rect x="500" y="0"   width="100" height="100" fill="#000000"/>
-  <!-- cell (6,0) empty -->
-  <rect x="700" y="0"   width="100" height="100" fill="#F4D35E"/>
-
-  <!-- Row 2 -->
-  <!-- cell (0,1) empty -->
-  <rect x="100" y="100" width="100" height="100" fill="#F4D35E"/>
-  <!-- cell (2,1) circle -->
-  <circle cx="250" cy="150" r="45" fill="#E63946"/>
-  <rect x="300" y="100" width="100" height="100" fill="#1D3557"/>
-  <!-- cell (4,1) empty -->
-  <!-- cell (5,1) diagonal -->
-  <polygon points="500,100 600,100 600,200" fill="#F4D35E"/>
-  <polygon points="500,100 500,200 600,200" fill="#000000"/>
-  <rect x="600" y="100" width="100" height="100" fill="#E63946"/>
-  <!-- cell (7,1) circle -->
-  <circle cx="750" cy="150" r="35" fill="#1D3557"/>
-
-  <!-- Row 3 -->
-  <rect x="0"   y="200" width="100" height="100" fill="#000000"/>
-  <!-- cell (1,2) circle -->
-  <circle cx="150" cy="250" r="40" fill="#F4D35E"/>
-  <!-- cell (2,2) empty -->
-  <!-- cell (3,2) diagonal -->
-  <polygon points="300,200 400,200 300,300" fill="#E63946"/>
-  <polygon points="400,200 400,300 300,300" fill="#1D3557"/>
-  <rect x="400" y="200" width="100" height="100" fill="#F4D35E"/>
-  <rect x="500" y="200" width="100" height="100" fill="#FFFFFF"/>
-  <!-- cell (6,2) circle -->
-  <circle cx="650" cy="250" r="42" fill="#E63946"/>
-  <rect x="700" y="200" width="100" height="100" fill="#1D3557"/>
-
-  <!-- Row 4 -->
-  <!-- cell (0,3) circle -->
-  <circle cx="50" cy="350" r="38" fill="#E63946"/>
-  <rect x="100" y="300" width="100" height="100" fill="#FFFFFF"/>
-  <rect x="200" y="300" width="100" height="100" fill="#F4D35E"/>
-  <!-- cell (3,3) empty -->
-  <!-- cell (4,3) diagonal -->
-  <polygon points="400,300 500,300 500,400" fill="#000000"/>
-  <polygon points="400,300 400,400 500,400" fill="#E63946"/>
-  <rect x="500" y="300" width="100" height="100" fill="#1D3557"/>
-  <!-- cell (6,3) empty -->
-  <!-- cell (7,3) circle -->
-  <circle cx="750" cy="350" r="40" fill="#F4D35E"/>
-
-  <!-- Row 5 -->
-  <rect x="0"   y="400" width="100" height="100" fill="#F4D35E"/>
-  <!-- cell (1,4) diagonal -->
-  <polygon points="100,400 200,400 100,500" fill="#1D3557"/>
-  <polygon points="200,400 200,500 100,500" fill="#F4D35E"/>
-  <!-- cell (2,4) empty -->
-  <rect x="300" y="400" width="100" height="100" fill="#E63946"/>
-  <!-- cell (4,4) circle -->
-  <circle cx="450" cy="450" r="45" fill="#1D3557"/>
-  <!-- cell (5,4) empty -->
-  <rect x="600" y="400" width="100" height="100" fill="#000000"/>
-  <rect x="700" y="400" width="100" height="100" fill="#E63946"/>
-
-  <!-- Row 6 -->
-  <!-- cell (0,5) empty -->
-  <rect x="100" y="500" width="100" height="100" fill="#1D3557"/>
-  <!-- cell (2,5) circle -->
-  <circle cx="250" cy="550" r="38" fill="#F4D35E"/>
-  <!-- cell (3,5) empty -->
-  <!-- cell (4,5) diagonal -->
-  <polygon points="400,500 500,500 400,600" fill="#F4D35E"/>
-  <polygon points="500,500 500,600 400,600" fill="#E63946"/>
-  <rect x="500" y="500" width="100" height="100" fill="#FFFFFF"/>
-  <!-- cell (6,5) circle -->
-  <circle cx="650" cy="550" r="44" fill="#1D3557"/>
-  <rect x="700" y="500" width="100" height="100" fill="#F4D35E"/>
-
-  <!-- Row 7 -->
-  <rect x="0"   y="600" width="100" height="100" fill="#E63946"/>
-  <!-- cell (1,6) circle -->
-  <circle cx="150" cy="650" r="42" fill="#000000"/>
-  <rect x="200" y="600" width="100" height="100" fill="#F4D35E"/>
-  <!-- cell (3,6) diagonal -->
-  <polygon points="300,600 400,600 400,700" fill="#1D3557"/>
-  <polygon points="300,600 300,700 400,700" fill="#E63946"/>
-  <!-- cell (4,6) empty -->
-  <rect x="500" y="600" width="100" height="100" fill="#1D3557"/>
-  <!-- cell (6,6) empty -->
-  <rect x="700" y="600" width="100" height="100" fill="#000000"/>
-
-  <!-- Row 8 -->
-  <!-- cell (0,7) circle -->
-  <circle cx="50"  cy="750" r="38" fill="#1D3557"/>
-  <rect x="100" y="700" width="100" height="100" fill="#E63946"/>
-  <!-- cell (2,7) empty -->
-  <rect x="300" y="700" width="100" height="100" fill="#F4D35E"/>
-  <!-- cell (4,7) circle -->
-  <circle cx="450" cy="750" r="40" fill="#E63946"/>
-  <!-- cell (5,7) diagonal -->
-  <polygon points="500,700 600,700 600,800" fill="#F4D35E"/>
-  <polygon points="500,700 500,800 600,800" fill="#000000"/>
-  <!-- cell (6,7) empty -->
-  <rect x="700" y="700" width="100" height="100" fill="#1D3557"/>
-
-  <!-- Grid lines overlay -->
-  <line x1="100" y1="0" x2="100" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="300" y1="0" x2="300" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="500" y1="0" x2="500" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="700" y1="0" x2="700" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
-  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <title>Fibonacci Sequence</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="80" y1="0" x2="80" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="160" y1="0" x2="160" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="320" y1="0" x2="320" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="480" y1="0" x2="480" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="560" y1="0" x2="560" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="640" y1="0" x2="640" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="720" y1="0" x2="720" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <polygon points="365.8059568348493,396.71790099117425 347.5618715759173,135.81532654418868 582.6321715892334,250.46677246463702" fill="#000000" opacity="0.40"/>
+  <polygon points="355.43612468319384,160.70630861550845 282.0292403030834,121.67517584172006 352.5346350137227,77.61851554277149" fill="#6D2E46" opacity="0.48"/>
+  <polygon points="-22.04739584953191,548.0230092318924 120.02300923189236,405.95260415046806 172.02438661763955,600.0243866176395" fill="#000000" opacity="0.84"/>
+  <polygon points="178.9421131556876,537.5365945882772 293.23153447018126,572.4783772502733 205.82635237413123,653.9850281614495" fill="#6D2E46" opacity="0.73"/>
+  <polygon points="207.72016291312377,94.29880947104483 308.72088791277747,15.388394762057729 326.5589491740987,142.31279576689744" fill="#264653" opacity="0.80"/>
+  <polygon points="650.626376023899,592.0539229229374 674.4273004458383,514.2046069550939 729.9463235302627,573.7414701219686" fill="#6D2E46" opacity="0.46"/>
+  <polygon points="260.4208619637307,638.3192727401695 459.69256263872313,482.63115723324904 494.8865753975461,733.0495700265815" fill="#E63946" opacity="0.55"/>
+  <polygon points="717.2385804768701,537.6640284632 557.0402724392382,520.8265078060494 651.7211470838918,390.50946373075055" fill="#000000" opacity="0.86"/>
+  <polygon points="274.54953216246724,567.02549423268 322.6768758239867,517.1881709489601 341.773592013546,583.7863348183599" fill="#264653" opacity="0.61"/>
+  <polygon points="388.4845130140645,128.11435230617187 383.58949210918854,34.7117893309471 466.925994876747,77.173858362881" fill="#F4D35E" opacity="0.66"/>
+  <polygon points="487.3202514551485,434.3879860286455 448.97501168560507,545.7506484744412 371.70473685924645,456.8613654969133" fill="#F4D35E" opacity="0.58"/>
+  <line x1="378" y1="534" x2="412" y2="188" stroke="#F4D35E" stroke-width="5.096216338199863" opacity="0.56"/>
+  <line x1="688" y1="482" x2="472" y2="459" stroke="#F4D35E" stroke-width="5.787758449415449" opacity="0.75"/>
+  <line x1="219" y1="185" x2="322" y2="513" stroke="#F4D35E" stroke-width="5.012311305014748" opacity="0.98"/>
+  <circle cx="773" cy="27" r="13" fill="#1D3557" opacity="1.00"/>
+  <circle cx="759" cy="41" r="20" fill="#1D3557" opacity="1.00"/>
+  <circle cx="745" cy="55" r="27" fill="#E63946" opacity="1.00"/>
+  <circle cx="768" cy="768" r="16" fill="#F4D35E" opacity="1.00"/>
 </svg>

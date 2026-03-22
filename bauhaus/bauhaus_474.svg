@@ -1,53 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background white -->
-  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
-  <!-- Large blue cell -->
-  <polygon points="0,0 350,0 380,120 300,300 150,280 0,200" fill="#1D3557" opacity="0.7" stroke="#000000" stroke-width="2"/>
-  <!-- Large red cell -->
-  <polygon points="350,0 650,0 600,80 580,250 380,120" fill="#E63946" opacity="0.65" stroke="#000000" stroke-width="2"/>
-  <!-- Yellow cell top right -->
-  <polygon points="650,0 800,0 800,180 700,200 600,80" fill="#F4D35E" opacity="0.6" stroke="#000000" stroke-width="1.5"/>
-  <!-- Teal cell right -->
-  <polygon points="800,180 800,400 680,420 620,300 700,200" fill="#2A9D8F" opacity="0.55" stroke="#000000" stroke-width="1.5"/>
-  <!-- Steel blue cell -->
-  <polygon points="580,250 620,300 680,420 550,450 400,350 380,120" fill="#457B9D" opacity="0.5" stroke="#000000" stroke-width="2"/>
-  <!-- Orange cell center-left -->
-  <polygon points="0,200 150,280 300,300 400,350 350,500 200,480 0,400" fill="#E76F51" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
-  <!-- Sand cell left -->
-  <polygon points="0,400 200,480 180,600 0,580" fill="#DDA15E" opacity="0.6" stroke="#000000" stroke-width="1.5"/>
-  <!-- Warm gray cell center -->
-  <polygon points="350,500 400,350 550,450 580,550 450,600" fill="#A89F91" opacity="0.55" stroke="#000000" stroke-width="1.5"/>
-  <!-- Cream cell -->
-  <polygon points="680,420 800,400 800,600 700,580 580,550 550,450" fill="#FEFAE0" opacity="0.7" stroke="#000000" stroke-width="1.5"/>
-  <!-- Burgundy cell bottom-center -->
-  <polygon points="200,480 350,500 450,600 400,700 250,680 180,600" fill="#6D2E46" opacity="0.55" stroke="#000000" stroke-width="2"/>
-  <!-- Light blue cell bottom-right -->
-  <polygon points="580,550 700,580 800,600 800,750 650,720 500,650 450,600" fill="#A8DADC" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
-  <!-- Forest cell bottom -->
-  <polygon points="0,580 180,600 250,680 200,800 0,800" fill="#264653" opacity="0.6" stroke="#000000" stroke-width="2"/>
-  <!-- Red cell bottom-center -->
-  <polygon points="250,680 400,700 450,800 200,800" fill="#E63946" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
-  <!-- Coral cell bottom-right -->
-  <polygon points="400,700 500,650 650,720 700,800 450,800" fill="#E9C46A" opacity="0.55" stroke="#000000" stroke-width="1.5"/>
-  <!-- Blue cell far bottom-right -->
-  <polygon points="650,720 800,750 800,800 700,800" fill="#1D3557" opacity="0.6" stroke="#000000" stroke-width="1.5"/>
-  <!-- Shapes inside cells -->
-  <!-- Circle inside the large blue cell -->
-  <circle cx="180" cy="140" r="40" fill="#F4D35E" opacity="0.5"/>
-  <!-- Triangle inside the orange cell -->
-  <polygon points="200,350 260,430 140,430" fill="#000000" opacity="0.25"/>
-  <!-- Circle inside the steel blue cell -->
-  <circle cx="500" cy="330" r="25" fill="#E63946" opacity="0.4"/>
-  <!-- Small square inside the teal cell -->
-  <rect x="720" y="280" width="30" height="30" fill="#000000" opacity="0.3"/>
-  <!-- Triangle inside the burgundy cell -->
-  <polygon points="320,580 360,640 280,640" fill="#F4D35E" opacity="0.4"/>
-  <!-- Circle inside the light blue cell -->
-  <circle cx="650" cy="620" r="22" fill="#1D3557" opacity="0.35"/>
-  <!-- Small circle inside the warm gray cell -->
-  <circle cx="470" cy="490" r="18" fill="#FFFFFF" opacity="0.5"/>
-  <!-- Triangle inside the forest cell -->
-  <polygon points="100,680 140,750 60,750" fill="#2A9D8F" opacity="0.4"/>
-  <!-- Small diamond inside sand cell -->
-  <polygon points="100,500 120,530 100,560 80,530" fill="#000000" opacity="0.3"/>
+  <title>Dual Polygon</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF" opacity="1.00"/>
+  <rect x="410" y="10" width="180" height="180" fill="#F4D35E" opacity="0.77"/>
+  <rect x="610" y="10" width="180" height="75" fill="#000000" opacity="0.88"/>
+  <rect x="610" y="100" width="120" height="4" fill="#A89F91" opacity="0.50"/>
+  <rect x="610" y="114" width="179" height="3" fill="#A89F91" opacity="0.50"/>
+  <rect x="610" y="128" width="160" height="4" fill="#000000" opacity="0.50"/>
+  <rect x="610" y="142" width="158" height="3" fill="#A89F91" opacity="0.50"/>
+  <rect x="610" y="156" width="94" height="7" fill="#A89F91" opacity="0.50"/>
+  <rect x="610" y="170" width="139" height="7" fill="#A89F91" opacity="0.50"/>
+  <rect x="610" y="184" width="148" height="3" fill="#000000" opacity="0.50"/>
+  <rect x="10" y="210" width="180" height="180" fill="#000000" opacity="0.69"/>
+  <rect x="210" y="210" width="180" height="180" fill="#2A9D8F" opacity="0.56"/>
+  <rect x="410" y="210" width="180" height="180" fill="#6D2E46" opacity="0.76"/>
+  <rect x="210" y="410" width="180" height="180" fill="#E63946" opacity="0.44"/>
+  <rect x="410" y="410" width="380" height="180" fill="#E63946" opacity="0.41"/>
+  <rect x="610" y="410" width="180" height="180" fill="#F4D35E" opacity="0.72"/>
+  <rect x="410" y="610" width="180" height="180" fill="#E63946" opacity="0.67"/>
+  <rect x="610" y="610" width="180" height="80" fill="#264653" opacity="0.77"/>
+  <rect x="610" y="700" width="137" height="3" fill="#A89F91" opacity="0.50"/>
+  <rect x="610" y="708" width="179" height="7" fill="#000000" opacity="0.50"/>
+  <rect x="610" y="716" width="151" height="4" fill="#000000" opacity="0.50"/>
+  <rect x="610" y="724" width="109" height="6" fill="#000000" opacity="0.50"/>
+  <rect x="610" y="732" width="120" height="6" fill="#A89F91" opacity="0.50"/>
+  <rect x="610" y="740" width="131" height="7" fill="#000000" opacity="0.50"/>
+  <rect x="610" y="748" width="175" height="7" fill="#A89F91" opacity="0.50"/>
+  <rect x="610" y="756" width="170" height="5" fill="#000000" opacity="0.50"/>
+  <rect x="610" y="764" width="104" height="3" fill="#A89F91" opacity="0.50"/>
+  <rect x="610" y="772" width="143" height="4" fill="#000000" opacity="0.50"/>
+  <rect x="610" y="780" width="100" height="3" fill="#000000" opacity="0.50"/>
+  <rect x="610" y="788" width="131" height="7" fill="#A89F91" opacity="0.50"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <rect x="600" y="600" width="200" height="200" fill="#1D3557" opacity="0.50"/>
+  <rect x="600" y="0" width="200" height="200" fill="#E63946" opacity="0.67"/>
+  <rect x="200" y="600" width="200" height="200" fill="#F4D35E" opacity="0.67"/>
 </svg>

@@ -23,7 +23,7 @@
 <body>
 <header>
   <h1>Bauhaus</h1>
-  <p>250 Geometric Compositions</p>
+  <p>600 Geometric Compositions</p>
 </header>
 <div class="gallery" id="gallery"></div>
 <div class="overlay" id="overlay" onclick="this.classList.remove('active')">
@@ -80,14 +80,88 @@ const titles = [
   "Anemometer","Rosette","Abacus III","Stairwell","Trident",
   "Suspension Bridge II","Dartboard","Venetian Window","Mill Wheel","Op Art Squares",
   "Coat of Arms","Plumbing","Maypole","Geode","Ballast",
-  "Kaleidoscope III","Siege Tower","Magnetic Field","Crown Finale","Magnum Opus"
+  "Kaleidoscope III","Siege Tower","Magnetic Field","Crown Finale","Magnum Opus",
+  // 251–350
+  "Industrial Horizon","Solar Dial","Midnight Lattice","Fractured Arc","River Bend",
+  "Geometric Storm","Cathedral Grid","Atomic Dance","Meridian Cross","Copper Coil",
+  "Steel Horizon","Harbor Light","Prism Break","Clock Face","Tower Silhouette",
+  "Magnetic Field","Accordion Folds","Polar Orbit","Weave Study","Signal Tower",
+  "Broken Circle","Cargo Net","Autumn Grid","Blueprint Fragment","Pendulum Trace",
+  "Chimney Stack","Tidal Pattern","War Machine","Harvest Moon","Ice Shelf",
+  "Optical Grid","Telegraph Line","Deco Panel","Transformer","Porthole View",
+  "Salt Flat","Gear Mesh","Velocity Lines","Terrace Steps","Beacon",
+  "Circuit Path","Crop Circle","Airfield","Wax Seal","Labyrinth Entry",
+  "Longitude Lines","Brick Bond","Aperture","Thermal Map","Midpoint",
+  // 301–400
+  "Searchlight","Cargo Hold","Echo Chamber","Refinery","Navigation Chart",
+  "Strata","Mechanical Flower","Sine Wave","Library Stack","Control Panel",
+  "Vanishing Point","Window Grid","Arch Bridge","Quarry","Telescope Array",
+  "Binary Code","Suspension Point","Map Contour","Crane Arm","Partition Wall",
+  "Oscilloscope","Flour Mill","Brick Arch","Depth Chart","Spiral Galaxy",
+  "Frame Study","Rivet Pattern","Solar Panel","Broadcast","Counterpoint",
+  "Relief Map","Spectral Line","Shaft of Light","Drawbridge Lift","Pinwheel Cluster",
+  "Engine Room","Crosshatch","Triptych","Pressure Gauge","Cliff Face",
+  "Ripple Tank","Cargo Crane","Frequency","Blueprint Grid","Sounding Line",
+  "Modular Units","Flux","Watchtower Grid","Phase Shift","Equilibrium",
+  // 401–500
+  "Truss Work","Cipher","Migration Path","Stack Exchange","Iris Mechanism",
+  "Ground Plan","Dynamo","Tidal Lock","Switchboard","Radiant Floor",
+  "Calibration","Slag Heap","Manifold","Sector Study","Observation Deck",
+  "Coil Spring","Weather Map","Cell Division","Grain Silo","Phase Diagram",
+  "Power Grid","Concave Form","Axonometric View","Pressure Wave","Datum Line",
+  "Interference Pattern","Fulcrum Balance","Pitch and Roll","Modulation","Slab Construction",
+  "Thermal Column","Parallax","Structural Bay","Resonant Frequency","Bearing Surface",
+  "Quay Wall","Amplitude","Ley Line","Draft View","Tension Member",
+  "Masonry Bond","Signal Interference","Pilaster","Equipotential","Load Path",
+  "Settlement","Hard Edge","Span","Truss Section","Centennial Mark",
+  // 501–600
+  "Cantilever","Void Study","Lateral Force","Plumb Study","Diagonal Brace",
+  "Rafter Pattern","Compression Ring","Keystone","Voussoir","Tympanum",
+  "Colonnade","Entablature","Frieze Band","Drum","Nave Section",
+  "Fluting","Capital Study","Plinth","Soffit Pattern","Engaged Column",
+  "Hyperbola","Catenary","Parabola","Ellipse Study","Involute",
+  "Cycloid","Epitrochoid","Hypocycloid","Lemniscate","Archimedean Spiral",
+  "Logarithmic Spiral","Pascals Triangle","Fibonacci Sequence","Golden Ratio","Platonic Solid",
+  "Euler Line","Tessellation Study","Voronoi Diagram","Delaunay Mesh","Convex Hull",
+  "Fractal Boundary","Strange Attractor","Bifurcation","Phase Space","Limit Cycle",
+  "Saddle Point","Vector Field","Gradient Descent","Eigenform","Matrix Transform",
+  "Möbius Strip","Klein Bottle","Torus Section","Hypersphere","Calabi-Yau",
+  "Knot Theory","Braid Group","Linking Number","Trefoil","Figure Eight Knot",
+  "Seifert Surface","Alexander Polynomial","Chromatic Number","Planar Graph","Complete Graph",
+  "Bipartite Graph","Spanning Tree","Hamiltonian Path","Euler Circuit","Traveling Salesman",
+  "Convex Polygon","Star Polygon","Regular Compound","Dual Polygon","Polygon Triangulation",
+  "Lattice Points","Fundamental Domain","Symmetry Group","Wallpaper Pattern","Frieze Symmetry",
+  "Point Symmetry","Glide Reflection","Screw Symmetry","Inversion Center","Mirror Plane",
+  "Rotation Group","Dihedral Group","Crystallographic Point Group","Space Group","Bravais Lattice",
+  "Unit Cell","Miller Index","Reciprocal Lattice","Brillouin Zone","Wigner-Seitz Cell",
+  "Band Structure","Phonon Dispersion","Density of States","Phase Transition","Crystalline Order",
+  "Defect Cluster","Grain Boundary","Dislocation Line","Vacancy Cluster","Interstitial",
+  "Substitution","Stacking Fault","Twin Boundary","Antiphase Domain","Precipitate",
+  "Dendrite","Eutectic","Martensite","Pearlite","Bainite",
+  "Spherulite","Colloidal Crystal","Liquid Crystal","Quasicrystal","Amorphous",
+  "Polymer Chain","Cross-Link","Crystallinity","Tacticity","Branching",
+  "Network Polymer","Block Copolymer","Microphase","Lamellar Phase","Gyroid Phase",
+  "Cylinder Phase","Sphere Phase","Perforated Layer","Double Gyroid","Schwarz Surface",
+  "Helicoid","Catenoid","Enneper Surface","Costa Surface","Scherk Surface",
+  "Plateau Problem","Weierstrass Map","Bonnet Transformation","Conjugate Surface","Associate Family",
+  "Mean Curvature","Gaussian Curvature","Principal Curvatures","Umbilical Point","Ridge Line",
+  "Parabolic Line","Asymptotic Line","Geodesic Path","Parallel Transport","Holonomy",
+  "Gaussian Map","Shape Operator","Second Fundamental Form","Theorema Egregium","Gauss-Bonnet",
+  "Euler Characteristic","Genus","Orientability","Fundamental Polygon","Universal Cover",
+  "Deck Transformation","Covering Space","Fiber Bundle","Principal Bundle","Associated Bundle",
+  "Connection Form","Curvature Form","Chern Class","Pontryagin Class","Euler Class",
+  "Characteristic Class","Index Theorem","K-Theory","Cobordism","Surgery Theory",
+  "Handle Decomposition","Morse Theory","Floer Homology","Donaldson Invariant","Seiberg-Witten",
+  "Gromov-Witten","Fukaya Category","Mirror Symmetry","String Duality","Compactification",
+  "Moduli Space","Teichmüller Space","Mapping Class Group","Dehn Twist","Pseudo-Anosov",
+  "Thurston Norm","Hyperbolic Volume","Dehn Surgery","JSJ Decomposition","Grand Finale"
 ];
 function fileName(i) {
   if (i < 100) return `bauhaus_${String(i).padStart(2,'0')}.svg`;
   return `bauhaus_${i}.svg`;
 }
 const gallery = document.getElementById('gallery');
-for (let i = 1; i <= 250; i++) {
+for (let i = 1; i <= 600; i++) {
   const src = fileName(i);
   const card = document.createElement('div');
   card.className = 'card';

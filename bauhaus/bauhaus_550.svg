@@ -1,55 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Cream background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-  <!-- Concentric rings at low opacity in background -->
-  <circle cx="400" cy="400" r="380" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.08"/>
-  <circle cx="400" cy="400" r="320" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <circle cx="400" cy="400" r="260" fill="none" stroke="#A89F91" stroke-width="0.8" opacity="0.1"/>
-  <circle cx="400" cy="400" r="200" fill="none" stroke="#A89F91" stroke-width="0.8" opacity="0.12"/>
-  <circle cx="400" cy="400" r="140" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <circle cx="400" cy="400" r="80" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
-  <!-- Thin structural lines -->
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.8" opacity="0.1"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.8" opacity="0.1"/>
-  <line x1="0" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-  <line x1="800" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-  <!-- Dominant blue rectangle - slightly rotated for dynamism -->
-  <rect x="120" y="200" width="320" height="420" fill="#1D3557" opacity="0.9"/>
-  <!-- Bold red circle - overlapping the rectangle -->
-  <circle cx="520" cy="320" r="160" fill="#E63946" opacity="0.85"/>
-  <!-- Yellow triangle - the third Bauhaus fundamental -->
-  <polygon points="500,680 650,400 800,680" fill="#F4D35E" opacity="0.8"/>
-  <!-- Overlap accent - circle on rectangle -->
-  <rect x="360" y="200" width="80" height="280" fill="#6D2E46" opacity="0.35"/>
-  <!-- Black anchor lines -->
-  <line x1="120" y1="200" x2="440" y2="200" stroke="#000000" stroke-width="3" opacity="0.9"/>
-  <line x1="120" y1="620" x2="440" y2="620" stroke="#000000" stroke-width="3" opacity="0.9"/>
-  <line x1="120" y1="200" x2="120" y2="620" stroke="#000000" stroke-width="3" opacity="0.9"/>
-  <line x1="440" y1="200" x2="440" y2="620" stroke="#000000" stroke-width="2" opacity="0.5"/>
-  <!-- Supporting accent shapes -->
-  <circle cx="180" cy="150" r="18" fill="#2A9D8F" opacity="0.7"/>
-  <circle cx="680" cy="200" r="12" fill="#E76F51" opacity="0.65"/>
-  <rect x="60" y="680" width="50" height="50" fill="#457B9D" opacity="0.55"/>
-  <rect x="560" y="100" width="40" height="12" fill="#000000" opacity="0.5"/>
-  <rect x="620" y="720" width="60" height="10" fill="#1D3557" opacity="0.4"/>
-  <!-- Small scattered elements for texture -->
-  <circle cx="90" cy="100" r="6" fill="#E63946" opacity="0.4"/>
-  <circle cx="750" cy="750" r="8" fill="#F4D35E" opacity="0.5"/>
-  <circle cx="300" cy="700" r="5" fill="#000000" opacity="0.35"/>
-  <rect x="700" y="350" width="12" height="12" fill="#2A9D8F" opacity="0.45"/>
-  <rect x="50" y="450" width="8" height="40" fill="#DDA15E" opacity="0.35"/>
-  <!-- Thin horizontal rhythm lines -->
-  <line x1="500" y1="680" x2="800" y2="680" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
-  <line x1="0" y1="150" x2="100" y2="150" stroke="#457B9D" stroke-width="1.5" opacity="0.3"/>
-  <line x1="650" y1="400" x2="750" y2="400" stroke="#E63946" stroke-width="1" opacity="0.25"/>
-  <!-- Arc element -->
-  <path d="M 520 160 A 160 160 0 0 1 680 320" fill="none" stroke="#000000" stroke-width="2" opacity="0.3"/>
-  <!-- Corner frame accents -->
-  <rect x="0" y="0" width="20" height="4" fill="#000000" opacity="0.3"/>
-  <rect x="0" y="0" width="4" height="20" fill="#000000" opacity="0.3"/>
-  <rect x="780" y="796" width="20" height="4" fill="#000000" opacity="0.3"/>
-  <rect x="796" y="780" width="4" height="20" fill="#000000" opacity="0.3"/>
-  <!-- Final small highlights -->
-  <circle cx="280" cy="410" r="25" fill="#F4D35E" opacity="0.25"/>
-  <circle cx="520" cy="320" r="40" fill="#FEFAE0" opacity="0.15"/>
+  <title>Ridge Line</title>
+  <rect x="0" y="0" width="800" height="800" fill="#264653" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="80" y1="0" x2="80" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="160" y1="0" x2="160" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="320" y1="0" x2="320" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="480" y1="0" x2="480" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="560" y1="0" x2="560" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="640" y1="0" x2="640" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="720" y1="0" x2="720" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <rect x="0" y="0" width="800" height="85" fill="#E76F51" opacity="0.86"/>
+  <rect x="0" y="110" width="800" height="79" fill="#F4D35E" opacity="0.96"/>
+  <rect x="0" y="197" width="800" height="77" fill="#2A9D8F" opacity="0.79"/>
+  <rect x="0" y="283" width="800" height="43" fill="#FFFFFF" opacity="0.87"/>
+  <rect x="0" y="334" width="800" height="135" fill="#E9C46A" opacity="0.95"/>
+  <rect x="0" y="486" width="800" height="91" fill="#2A9D8F" opacity="0.81"/>
+  <rect x="0" y="595" width="800" height="93" fill="#E63946" opacity="0.94"/>
+  <rect x="0" y="696" width="800" height="43" fill="#FFFFFF" opacity="0.93"/>
+  <rect x="94" y="26" width="104" height="87" fill="#1D3557" opacity="0.53"/>
+  <rect x="630" y="143" width="71" height="64" fill="#E63946" opacity="0.54"/>
+  <rect x="265" y="507" width="104" height="47" fill="#1D3557" opacity="0.85"/>
+  <rect x="192" y="672" width="122" height="34" fill="#E63946" opacity="0.88"/>
+  <rect x="647" y="555" width="78" height="67" fill="#1D3557" opacity="0.69"/>
+  <rect x="93" y="20" width="160" height="60" fill="#1D3557" opacity="0.74"/>
+  <rect x="437" y="514" width="121" height="39" fill="#1D3557" opacity="0.74"/>
+  <rect x="308" y="432" width="133" height="31" fill="#1D3557" opacity="0.72"/>
+  <rect x="0" y="0" width="78" height="78" fill="#E63946" opacity="1.00"/>
+  <rect x="722" y="0" width="78" height="78" fill="#1D3557" opacity="1.00"/>
+  <rect x="0" y="722" width="78" height="78" fill="#F4D35E" opacity="1.00"/>
+  <rect x="722" y="722" width="78" height="78" fill="#E63946" opacity="1.00"/>
+  <line x1="0" y1="752" x2="800" y2="752" stroke="#FFFFFF" stroke-width="1.9117779436320925" opacity="1.00"/>
+  <line x1="0" y1="288" x2="800" y2="288" stroke="#000000" stroke-width="2.8053215937231712" opacity="1.00"/>
+  <line x1="0" y1="220" x2="800" y2="220" stroke="#000000" stroke-width="2.2890115203730454" opacity="1.00"/>
+  <line x1="0" y1="401" x2="800" y2="401" stroke="#FFFFFF" stroke-width="1.1044439186074202" opacity="1.00"/>
+  <line x1="0" y1="43" x2="800" y2="43" stroke="#000000" stroke-width="2.47153480738858" opacity="1.00"/>
+  <line x1="0" y1="159" x2="800" y2="159" stroke="#FFFFFF" stroke-width="1.467165462827536" opacity="1.00"/>
+  <line x1="0" y1="33" x2="800" y2="33" stroke="#FFFFFF" stroke-width="2.2315048264242163" opacity="1.00"/>
+  <line x1="0" y1="332" x2="800" y2="332" stroke="#FFFFFF" stroke-width="1.4363626850521831" opacity="1.00"/>
+  <line x1="0" y1="3" x2="800" y2="3" stroke="#FFFFFF" stroke-width="2.027787951398385" opacity="1.00"/>
 </svg>

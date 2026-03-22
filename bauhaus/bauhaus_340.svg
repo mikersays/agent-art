@@ -1,49 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-  <!-- LEFT SIDE: warm gray grid visible -->
-  <line x1="100" y1="100" x2="100" y2="700" stroke="#A89F91" stroke-width="1" opacity="0.25"/>
-  <line x1="200" y1="100" x2="200" y2="700" stroke="#A89F91" stroke-width="1" opacity="0.25"/>
-  <line x1="300" y1="100" x2="300" y2="700" stroke="#A89F91" stroke-width="1" opacity="0.25"/>
-  <line x1="100" y1="200" x2="400" y2="200" stroke="#A89F91" stroke-width="1" opacity="0.25"/>
-  <line x1="100" y1="300" x2="400" y2="300" stroke="#A89F91" stroke-width="1" opacity="0.25"/>
-  <line x1="100" y1="400" x2="400" y2="400" stroke="#A89F91" stroke-width="1" opacity="0.25"/>
-  <line x1="100" y1="500" x2="400" y2="500" stroke="#A89F91" stroke-width="1" opacity="0.25"/>
-  <line x1="100" y1="600" x2="400" y2="600" stroke="#A89F91" stroke-width="1" opacity="0.25"/>
-  <!-- LEFT SIDE: ordered shapes on grid -->
-  <rect x="120" y="220" width="60" height="60" fill="#E63946" opacity="0.9"/>
-  <rect x="220" y="220" width="60" height="60" fill="#1D3557" opacity="0.9"/>
-  <circle cx="150" cy="350" r="30" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="250" cy="350" r="30" fill="#E63946" opacity="0.9"/>
-  <rect x="120" y="420" width="60" height="60" fill="#1D3557" opacity="0.9"/>
-  <rect x="220" y="420" width="60" height="60" fill="#F4D35E" opacity="0.9"/>
-  <polygon points="150,520 180,570 120,570" fill="#E63946" opacity="0.9"/>
-  <polygon points="250,520 280,570 220,570" fill="#1D3557" opacity="0.9"/>
-  <!-- Black structural lines on left -->
-  <line x1="100" y1="100" x2="360" y2="100" stroke="#000000" stroke-width="2"/>
-  <line x1="100" y1="700" x2="360" y2="700" stroke="#000000" stroke-width="2"/>
-  <line x1="100" y1="100" x2="100" y2="700" stroke="#000000" stroke-width="2"/>
-  <!-- TRANSITION ZONE (center ~350-450): shapes mid-displacement -->
-  <rect x="340" y="225" width="60" height="60" fill="#E63946" opacity="0.7" transform="rotate(12, 370, 255)"/>
-  <circle cx="380" cy="355" r="30" fill="#F4D35E" opacity="0.7" transform="translate(5, -8)"/>
-  <rect x="350" y="430" width="60" height="60" fill="#1D3557" opacity="0.65" transform="rotate(20, 380, 460)"/>
-  <polygon points="380,530 410,580 350,580" fill="#2A9D8F" opacity="0.7" transform="rotate(15, 380, 555)"/>
-  <!-- RIGHT SIDE: displaced, rotated, color-shifted shapes -->
-  <rect x="500" y="180" width="60" height="60" fill="#2A9D8F" opacity="0.85" transform="rotate(35, 530, 210)"/>
-  <rect x="620" y="200" width="60" height="60" fill="#6D2E46" opacity="0.8" transform="rotate(-20, 650, 230)"/>
-  <circle cx="540" cy="340" r="30" fill="#6D2E46" opacity="0.85" transform="translate(15, -25)"/>
-  <circle cx="670" cy="370" r="30" fill="#2A9D8F" opacity="0.8" transform="translate(-10, 20)"/>
-  <rect x="490" y="440" width="60" height="60" fill="#2A9D8F" opacity="0.75" transform="rotate(45, 520, 470)"/>
-  <rect x="640" y="400" width="60" height="60" fill="#6D2E46" opacity="0.7" transform="rotate(-30, 670, 430)"/>
-  <polygon points="560,540 590,590 530,590" fill="#6D2E46" opacity="0.8" transform="rotate(50, 560, 565)"/>
-  <polygon points="680,510 710,560 650,560" fill="#2A9D8F" opacity="0.85" transform="rotate(-40, 680, 535)"/>
-  <!-- Additional scattered displaced shapes on right -->
-  <circle cx="580" cy="650" r="18" fill="#E63946" opacity="0.6" transform="translate(20, -15)"/>
-  <rect x="700" y="600" width="40" height="40" fill="#F4D35E" opacity="0.5" transform="rotate(60, 720, 620)"/>
-  <circle cx="500" cy="680" r="15" fill="#1D3557" opacity="0.55"/>
-  <!-- Dividing fracture line -->
-  <line x1="400" y1="80" x2="400" y2="720" stroke="#000000" stroke-width="1.5" stroke-dasharray="8,4" opacity="0.4"/>
-  <!-- Additional black structure on right (broken) -->
-  <line x1="460" y1="120" x2="720" y2="95" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
-  <line x1="450" y1="700" x2="730" y2="710" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <title>Cliff Face</title>
+  <rect x="0" y="0" width="800" height="800" fill="#264653" opacity="1.00"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.10"/>
+  <rect x="54" y="531" width="130" height="269" fill="#E76F51" opacity="0.71"/>
+  <rect x="54" y="531" width="130" height="8" fill="#F4D35E" opacity="1.00"/>
+  <rect x="194" y="485" width="134" height="315" fill="#F4D35E" opacity="0.74"/>
+  <rect x="194" y="485" width="134" height="13" fill="#E63946" opacity="1.00"/>
+  <rect x="335" y="331" width="136" height="469" fill="#E63946" opacity="0.94"/>
+  <rect x="335" y="331" width="136" height="8" fill="#F4D35E" opacity="1.00"/>
+  <rect x="474" y="183" width="136" height="617" fill="#F4D35E" opacity="0.97"/>
+  <rect x="474" y="183" width="136" height="8" fill="#F4D35E" opacity="1.00"/>
+  <rect x="612" y="204" width="132" height="596" fill="#F4D35E" opacity="0.79"/>
+  <rect x="612" y="204" width="132" height="12" fill="#1D3557" opacity="1.00"/>
+  <line x1="0" y1="224" x2="800" y2="224" stroke="#000000" stroke-width="2" opacity="0.40"/>
+  <circle cx="338" cy="523" r="7" fill="#F4D35E" opacity="0.83"/>
+  <circle cx="719" cy="315" r="23" fill="#1D3557" opacity="0.88"/>
+  <circle cx="708" cy="181" r="21" fill="#E63946" opacity="0.84"/>
+  <circle cx="613" cy="303" r="17" fill="#F4D35E" opacity="0.97"/>
+  <circle cx="261" cy="525" r="14" fill="#F4D35E" opacity="0.71"/>
 </svg>

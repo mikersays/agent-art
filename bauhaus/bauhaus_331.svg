@@ -1,53 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Cream background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-  <!-- Warm gray horizontal lines behind everything -->
-  <line x1="0" y1="50" x2="800" y2="50" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="100" x2="800" y2="100" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="150" x2="800" y2="150" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="250" x2="800" y2="250" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="300" x2="800" y2="300" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="350" x2="800" y2="350" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="450" x2="800" y2="450" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="500" x2="800" y2="500" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="550" x2="800" y2="550" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="650" x2="800" y2="650" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="700" x2="800" y2="700" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <line x1="0" y1="750" x2="800" y2="750" stroke="#A89F91" stroke-width="1" opacity="0.1"/>
-  <!-- WARM shapes above the zigzag (upper portion) -->
-  <circle cx="120" cy="120" r="55" fill="#E63946" opacity="0.8"/>
-  <circle cx="350" cy="80" r="35" fill="#E76F51" opacity="0.7"/>
-  <circle cx="550" cy="150" r="45" fill="#F4D35E" opacity="0.75"/>
-  <circle cx="700" cy="100" r="30" fill="#E9C46A" opacity="0.8"/>
-  <rect x="200" y="60" width="80" height="50" fill="#E63946" opacity="0.6"/>
-  <rect x="450" y="30" width="60" height="80" fill="#E76F51" opacity="0.65"/>
-  <rect x="620" y="180" width="70" height="45" fill="#F4D35E" opacity="0.7"/>
-  <circle cx="80" cy="250" r="25" fill="#E9C46A" opacity="0.6"/>
-  <rect x="300" y="200" width="90" height="40" fill="#E63946" opacity="0.5"/>
-  <circle cx="500" cy="260" r="20" fill="#E76F51" opacity="0.8"/>
-  <rect x="650" y="250" width="50" height="60" fill="#F4D35E" opacity="0.55"/>
-  <!-- Bold zigzag polyline -->
-  <polyline points="0,400 100,300 200,500 300,300 400,500 500,300 600,500 700,300 800,400" fill="none" stroke="#000000" stroke-width="5" stroke-linejoin="miter"/>
-  <!-- Burgundy squares at zigzag peaks and valleys -->
-  <rect x="92" y="292" width="16" height="16" fill="#6D2E46"/>
-  <rect x="192" y="492" width="16" height="16" fill="#6D2E46"/>
-  <rect x="292" y="292" width="16" height="16" fill="#6D2E46"/>
-  <rect x="392" y="492" width="16" height="16" fill="#6D2E46"/>
-  <rect x="492" y="292" width="16" height="16" fill="#6D2E46"/>
-  <rect x="592" y="492" width="16" height="16" fill="#6D2E46"/>
-  <rect x="692" y="292" width="16" height="16" fill="#6D2E46"/>
-  <!-- COOL shapes below the zigzag (lower portion) -->
-  <polygon points="150,600 200,700 100,700" fill="#1D3557" opacity="0.7"/>
-  <polygon points="400,580 450,680 350,680" fill="#2A9D8F" opacity="0.65"/>
-  <polygon points="650,620 710,730 590,730" fill="#264653" opacity="0.7"/>
-  <line x1="50" y1="650" x2="250" y2="650" stroke="#457B9D" stroke-width="3" opacity="0.6"/>
-  <line x1="300" y1="720" x2="550" y2="720" stroke="#1D3557" stroke-width="2" opacity="0.5"/>
-  <line x1="500" y1="600" x2="750" y2="600" stroke="#2A9D8F" stroke-width="2.5" opacity="0.55"/>
-  <polygon points="280,550 310,620 250,620" fill="#457B9D" opacity="0.6"/>
-  <line x1="600" y1="680" x2="780" y2="680" stroke="#264653" stroke-width="2" opacity="0.5"/>
-  <polygon points="720,560 760,640 680,640" fill="#1D3557" opacity="0.5"/>
-  <line x1="80" y1="750" x2="400" y2="750" stroke="#457B9D" stroke-width="1.5" opacity="0.4"/>
-  <polygon points="500,700 530,760 470,760" fill="#2A9D8F" opacity="0.6"/>
+  <title>Relief Map</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <path d="M 706.5 576.6 A 211 211 0 1 1 848.6 278.5" stroke="#E63946" stroke-width="13.031986945085063" fill="none" opacity="0.89"/>
+  <path d="M 515.9 352.0 A 137 137 0 1 1 425.7 525.3" stroke="#1D3557" stroke-width="11.348238582404433" fill="none" opacity="0.73"/>
+  <path d="M 398.9 656.1 A 324 324 0 0 1 805.2 154.4" stroke="#E76F51" stroke-width="12.174773228459568" fill="none" opacity="0.84"/>
+  <path d="M 433.4 187.4 A 275 275 0 1 1 338.6 725.0" stroke="#E76F51" stroke-width="19.2003840014049" fill="none" opacity="1.00"/>
+  <path d="M 777.2 492.7 A 146 146 0 1 1 609.2 363.8" stroke="#F4D35E" stroke-width="8.370002102965499" fill="none" opacity="0.61"/>
+  <path d="M 813.6 652.6 A 322 322 0 0 1 398.8 485.0" stroke="#000000" stroke-width="6.729097328308928" fill="none" opacity="0.73"/>
+  <path d="M 335.3 825.6 A 348 348 0 1 1 321.3 288.8" stroke="#000000" stroke-width="17.43838439056697" fill="none" opacity="0.69"/>
+  <path d="M 459.7 527.7 A 110 110 0 1 1 341.5 713.2" stroke="#000000" stroke-width="7.744446079304954" fill="none" opacity="0.72"/>
+  <path d="M 248.6 640.3 A 121 121 0 0 1 339.0 473.8" stroke="#E76F51" stroke-width="18.166046834687478" fill="none" opacity="0.84"/>
+  <path d="M 467.1 930.3 A 291 291 0 0 1 232.1 402.6" stroke="#2A9D8F" stroke-width="17.514174326167236" fill="none" opacity="0.97"/>
+  <circle cx="377" cy="603" r="8" fill="#F4D35E" opacity="0.97"/>
+  <circle cx="261" cy="421" r="28" fill="#E63946" opacity="0.80"/>
+  <circle cx="171" cy="278" r="28" fill="#F4D35E" opacity="0.94"/>
+  <circle cx="110" cy="378" r="37" fill="#E63946" opacity="0.94"/>
+  <circle cx="569" cy="369" r="13" fill="#F4D35E" opacity="0.82"/>
+  <circle cx="399" cy="468" r="29" fill="#E63946" opacity="0.77"/>
+  <circle cx="480" cy="228" r="21" fill="#F4D35E" opacity="0.80"/>
+  <circle cx="327" cy="360" r="16" fill="#F4D35E" opacity="0.94"/>
+  <circle cx="337" cy="303" r="37" fill="#E63946" opacity="0.75"/>
+  <rect x="576" y="50" width="78" height="99" fill="#E63946" opacity="0.61"/>
+  <rect x="722" y="777" width="36" height="54" fill="#E76F51" opacity="0.63"/>
+  <rect x="182" y="145" width="43" height="110" fill="#6D2E46" opacity="0.58"/>
+  <rect x="394" y="101" width="27" height="67" fill="#6D2E46" opacity="0.76"/>
+  <rect x="197" y="769" width="50" height="126" fill="#E63946" opacity="0.44"/>
+  <rect x="27" y="363" width="87" height="105" fill="#1D3557" opacity="0.71"/>
+  <rect x="649" y="231" width="67" height="71" fill="#6D2E46" opacity="0.70"/>
+  <rect x="283" y="768" width="43" height="45" fill="#E63946" opacity="0.70"/>
 </svg>

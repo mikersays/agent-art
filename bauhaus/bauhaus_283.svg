@@ -1,74 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Thin parallel lines following zigzag - behind main zigzag -->
-  <polyline points="0,80 160,280 320,80 480,280 640,80 800,280" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
-  <polyline points="0,120 160,320 320,120 480,320 640,120 800,320" fill="none" stroke="#A89F91" stroke-width="0.8" opacity="0.15"/>
-  <polyline points="0,520 160,720 320,520 480,720 640,520 800,720" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
-  <polyline points="0,560 160,760 320,560 480,760 640,560 800,760" fill="none" stroke="#A89F91" stroke-width="0.8" opacity="0.15"/>
-
-  <!-- Bold zigzag cutting diagonally across canvas -->
-  <polyline points="0,100 160,300 320,100 480,300 640,100 800,300" fill="none" stroke="#000000" stroke-width="4" opacity="0.9"/>
-  <polyline points="0,500 160,700 320,500 480,700 640,500 800,700" fill="none" stroke="#000000" stroke-width="4" opacity="0.9"/>
-
-  <!-- Second set of thin parallel lines -->
-  <polyline points="0,140 160,340 320,140 480,340 640,140 800,340" fill="none" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
-  <polyline points="0,460 160,660 320,460 480,660 640,460 800,660" fill="none" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
-
-  <!-- Shapes in upper zigzag valleys -->
-  <!-- Valley at x=160, y=300 -->
-  <circle cx="160" cy="260" r="30" fill="#E63946" opacity="0.8"/>
-
-  <!-- Valley at x=480, y=300 -->
-  <rect x="450" y="250" width="60" height="45" fill="#1D3557" opacity="0.8"/>
-
-  <!-- Peak at x=320, y=100 -->
-  <polygon points="320,130 340,170 300,170" fill="#F4D35E" opacity="0.85"/>
-
-  <!-- Peak at x=640, y=100 -->
-  <circle cx="640" cy="140" r="22" fill="#E63946" opacity="0.7"/>
-
-  <!-- Shapes in lower zigzag valleys -->
-  <!-- Valley at x=160, y=700 -->
-  <rect x="130" y="660" width="55" height="40" fill="#1D3557" opacity="0.75"/>
-
-  <!-- Valley at x=480, y=700 -->
-  <circle cx="480" cy="660" r="28" fill="#E63946" opacity="0.8"/>
-
-  <!-- Peak at x=320, y=500 -->
-  <polygon points="320,530 345,575 295,575" fill="#F4D35E" opacity="0.85"/>
-
-  <!-- Peak at x=640, y=500 -->
-  <rect x="615" y="530" width="50" height="38" fill="#1D3557" opacity="0.7"/>
-
-  <!-- Shapes in the middle band between zigzags -->
-  <circle cx="240" cy="400" r="35" fill="#2A9D8F" opacity="0.65"/>
-  <rect x="380" y="380" width="70" height="50" fill="#E76F51" opacity="0.6"/>
-  <circle cx="560" cy="410" r="28" fill="#2A9D8F" opacity="0.6"/>
-  <polygon points="100,400 120,440 80,440" fill="#F4D35E" opacity="0.75"/>
-  <rect x="680" y="385" width="45" height="35" fill="#E76F51" opacity="0.55"/>
-
-  <!-- Additional colored shapes along zigzag -->
-  <circle cx="80" cy="180" r="18" fill="#E76F51" opacity="0.6"/>
-  <rect x="720" y="240" width="40" height="30" fill="#2A9D8F" opacity="0.55"/>
-  <polygon points="560,280 580,320 540,320" fill="#F4D35E" opacity="0.7"/>
-  <circle cx="400" cy="150" r="15" fill="#2A9D8F" opacity="0.5"/>
-
-  <!-- Lower additional shapes -->
-  <circle cx="80" cy="580" r="16" fill="#E76F51" opacity="0.55"/>
-  <polygon points="740,660 760,700 720,700" fill="#F4D35E" opacity="0.7"/>
-  <rect x="250" y="540" width="35" height="28" fill="#2A9D8F" opacity="0.5"/>
-
-  <!-- Small accent dots -->
-  <circle cx="200" cy="190" r="5" fill="#000000" opacity="0.4"/>
-  <circle cx="400" cy="340" r="5" fill="#000000" opacity="0.4"/>
-  <circle cx="600" cy="190" r="5" fill="#000000" opacity="0.4"/>
-  <circle cx="300" cy="610" r="5" fill="#000000" opacity="0.4"/>
-  <circle cx="500" cy="560" r="5" fill="#000000" opacity="0.4"/>
-  <circle cx="700" cy="600" r="5" fill="#000000" opacity="0.4"/>
-
-  <!-- Corner accents -->
-  <rect x="10" y="10" width="15" height="15" fill="#1D3557" opacity="0.3"/>
-  <rect x="775" y="775" width="15" height="15" fill="#E63946" opacity="0.3"/>
+  <title>Deco Panel</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="80" y1="0" x2="80" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="160" y1="0" x2="160" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="320" y1="0" x2="320" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="480" y1="0" x2="480" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="560" y1="0" x2="560" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="640" y1="0" x2="640" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="720" y1="0" x2="720" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <polygon points="166.13106843372157,248.9994567450301 118.71439117042749,548.3765746370103 -116.84545960414908,357.6239686179595" fill="#264653" opacity="0.53"/>
+  <polygon points="169.5647141651446,400.51272959225315 -47.69753710503531,434.92368966332936 31.13282293989066,229.56358074441752" fill="#E76F51" opacity="0.59"/>
+  <polygon points="286.5480513398434,699.9777634928331 156.3055227576482,483.2177954440348 409.1464259025084,478.80444106313206" fill="#000000" opacity="0.74"/>
+  <polygon points="326.6492232374147,289.044932219154 102.47622190021248,398.381410447926 119.8745548623728,149.57365733292" fill="#E76F51" opacity="0.79"/>
+  <polygon points="190.11923047635207,502.4467718068639 324.38359604630733,434.0356605887481 316.4971734773406,584.517567604388" fill="#E63946" opacity="0.62"/>
+  <polygon points="489.0334657717332,563.6632465816776 567.535811766481,433.01340282623755 641.4307224617859,566.3233505920848" fill="#264653" opacity="0.85"/>
+  <polygon points="654.560088336603,283.42541820942756 849.9803526751745,391.7486395695904 658.4595589882225,506.82594222098203" fill="#1D3557" opacity="0.73"/>
+  <polygon points="303.80719840337406,325.97522535467647 452.6133921034424,46.111478655505465 620.5794094931837,314.9132959898179" fill="#6D2E46" opacity="0.42"/>
+  <polygon points="565.2174268466595,560.1358242102918 405.84030135369017,859.8806020957428 225.94227179965026,571.9835736939655" fill="#2A9D8F" opacity="0.55"/>
+  <polygon points="150.8684729425476,411.28249157368805 -10.114126135880213,405.66085533908785 75.24565319333261,269.0566530872241" fill="#6D2E46" opacity="0.72"/>
+  <polygon points="306.34002720708474,-111.70209018141227 605.7341297423873,40.84682448886879 323.9258430505278,223.8552656925433" fill="#F4D35E" opacity="0.41"/>
+  <polygon points="602.1319401045721,46.90936949975871 729.3015921211977,215.66919767569135 519.5664677742303,241.42143282454998" fill="#1D3557" opacity="0.69"/>
+  <line x1="101" y1="363" x2="586" y2="96" stroke="#000000" stroke-width="3.9210977787265544" opacity="0.79"/>
+  <line x1="726" y1="9" x2="659" y2="48" stroke="#E63946" stroke-width="5.601431753194223" opacity="0.89"/>
+  <line x1="315" y1="477" x2="639" y2="705" stroke="#000000" stroke-width="4.538031893935459" opacity="0.72"/>
+  <line x1="613" y1="399" x2="644" y2="289" stroke="#E63946" stroke-width="4.543871184046341" opacity="0.71"/>
+  <line x1="508" y1="292" x2="394" y2="351" stroke="#1D3557" stroke-width="3.0437455717770594" opacity="0.72"/>
+  <line x1="438" y1="465" x2="384" y2="105" stroke="#F4D35E" stroke-width="3.8624803415535776" opacity="0.89"/>
+  <line x1="669" y1="634" x2="767" y2="345" stroke="#1D3557" stroke-width="5.702104190227338" opacity="0.74"/>
+  <circle cx="743" cy="743" r="28" fill="#E63946" opacity="1.00"/>
+  <circle cx="21" cy="779" r="10" fill="#E63946" opacity="1.00"/>
+  <circle cx="773" cy="773" r="13" fill="#1D3557" opacity="1.00"/>
+  <circle cx="774" cy="774" r="13" fill="#1D3557" opacity="1.00"/>
 </svg>

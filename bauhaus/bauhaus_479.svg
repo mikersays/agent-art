@@ -1,67 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background: dark blue -->
-  <rect x="0" y="0" width="800" height="800" fill="#1D3557"/>
-  <!-- Celestial orbit arcs in cream -->
-  <path d="M 100,400 A 300,300 0 0,1 700,400" fill="none" stroke="#FEFAE0" stroke-width="1.5" opacity="0.25"/>
-  <path d="M 200,200 A 250,250 0 0,1 600,600" fill="none" stroke="#FEFAE0" stroke-width="1" opacity="0.2"/>
-  <path d="M 400,50 A 350,350 0 0,1 750,400" fill="none" stroke="#FEFAE0" stroke-width="1.2" opacity="0.18"/>
-  <path d="M 50,600 A 400,200 0 0,1 750,500" fill="none" stroke="#FEFAE0" stroke-width="0.8" opacity="0.15"/>
-  <!-- Large overlay geometric shapes: constellation patterns -->
-  <!-- Large red triangle -->
-  <polygon points="350,150 550,500 150,500" fill="#E63946" opacity="0.3"/>
-  <polygon points="350,150 550,500 150,500" fill="none" stroke="#E63946" stroke-width="2" opacity="0.6"/>
-  <!-- Orange rectangle -->
-  <rect x="450" y="200" width="200" height="140" fill="#E76F51" opacity="0.2"/>
-  <rect x="450" y="200" width="200" height="140" fill="none" stroke="#E76F51" stroke-width="1.5" opacity="0.5"/>
-  <!-- Teal polygon -->
-  <polygon points="100,250 200,150 300,250 250,380 150,380" fill="#2A9D8F" opacity="0.2"/>
-  <polygon points="100,250 200,150 300,250 250,380 150,380" fill="none" stroke="#2A9D8F" stroke-width="1.5" opacity="0.5"/>
-  <!-- Stars: white circles -->
-  <circle cx="120" cy="80" r="2.5" fill="#FFFFFF" opacity="0.9"/>
-  <circle cx="250" cy="50" r="2" fill="#FFFFFF" opacity="0.7"/>
-  <circle cx="400" cy="30" r="3" fill="#FFFFFF" opacity="0.95"/>
-  <circle cx="550" cy="70" r="2" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="700" cy="45" r="2.5" fill="#FFFFFF" opacity="0.85"/>
-  <circle cx="80" cy="200" r="2" fill="#FFFFFF" opacity="0.75"/>
-  <circle cx="720" cy="180" r="3" fill="#FFFFFF" opacity="0.9"/>
-  <circle cx="650" cy="350" r="2" fill="#FFFFFF" opacity="0.7"/>
-  <circle cx="750" cy="500" r="2.5" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="60" cy="450" r="2" fill="#FFFFFF" opacity="0.65"/>
-  <circle cx="100" cy="650" r="2.5" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="350" cy="700" r="2" fill="#FFFFFF" opacity="0.7"/>
-  <circle cx="600" cy="720" r="3" fill="#FFFFFF" opacity="0.85"/>
-  <circle cx="750" cy="680" r="2" fill="#FFFFFF" opacity="0.75"/>
-  <!-- Stars: yellow circles -->
-  <circle cx="300" cy="120" r="3" fill="#F4D35E" opacity="0.85"/>
-  <circle cx="500" cy="150" r="2.5" fill="#F4D35E" opacity="0.8"/>
-  <circle cx="180" cy="400" r="3.5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="620" cy="550" r="3" fill="#F4D35E" opacity="0.8"/>
-  <circle cx="450" cy="650" r="2.5" fill="#F4D35E" opacity="0.75"/>
-  <!-- Stars: light blue circles -->
-  <circle cx="200" cy="300" r="3" fill="#A8DADC" opacity="0.8"/>
-  <circle cx="500" cy="400" r="3.5" fill="#A8DADC" opacity="0.85"/>
-  <circle cx="350" cy="550" r="2.5" fill="#A8DADC" opacity="0.75"/>
-  <circle cx="680" cy="250" r="3" fill="#A8DADC" opacity="0.8"/>
-  <circle cx="150" cy="580" r="2.5" fill="#A8DADC" opacity="0.7"/>
-  <!-- Connecting lines between stars -->
-  <line x1="120" y1="80" x2="300" y2="120" stroke="#FFFFFF" stroke-width="0.8" opacity="0.35"/>
-  <line x1="300" y1="120" x2="400" y2="30" stroke="#FFFFFF" stroke-width="0.8" opacity="0.3"/>
-  <line x1="400" y1="30" x2="550" y2="70" stroke="#FFFFFF" stroke-width="0.8" opacity="0.3"/>
-  <line x1="500" y1="150" x2="720" y2="180" stroke="#FFFFFF" stroke-width="0.8" opacity="0.25"/>
-  <line x1="200" y1="300" x2="180" y2="400" stroke="#FFFFFF" stroke-width="0.8" opacity="0.3"/>
-  <line x1="500" y1="400" x2="620" y2="550" stroke="#FFFFFF" stroke-width="0.8" opacity="0.3"/>
-  <line x1="350" y1="550" x2="450" y2="650" stroke="#FFFFFF" stroke-width="0.8" opacity="0.25"/>
-  <line x1="100" y1="650" x2="350" y2="700" stroke="#FFFFFF" stroke-width="0.8" opacity="0.25"/>
-  <line x1="680" y1="250" x2="750" y2="500" stroke="#FFFFFF" stroke-width="0.8" opacity="0.2"/>
-  <!-- Coral squares marking special positions -->
-  <rect x="295" y="115" width="10" height="10" fill="#E9C46A" opacity="0.8"/>
-  <rect x="495" y="395" width="12" height="12" fill="#E9C46A" opacity="0.75"/>
-  <rect x="175" y="395" width="10" height="10" fill="#E9C46A" opacity="0.7"/>
-  <rect x="615" y="545" width="10" height="10" fill="#E9C46A" opacity="0.8"/>
-  <rect x="345" y="545" width="10" height="10" fill="#E9C46A" opacity="0.7"/>
-  <!-- Small accent: corner frames -->
-  <line x1="20" y1="20" x2="80" y2="20" stroke="#457B9D" stroke-width="1" opacity="0.4"/>
-  <line x1="20" y1="20" x2="20" y2="80" stroke="#457B9D" stroke-width="1" opacity="0.4"/>
-  <line x1="720" y1="780" x2="780" y2="780" stroke="#457B9D" stroke-width="1" opacity="0.4"/>
-  <line x1="780" y1="720" x2="780" y2="780" stroke="#457B9D" stroke-width="1" opacity="0.4"/>
+  <title>Wallpaper Pattern</title>
+  <rect x="0" y="0" width="800" height="800" fill="#457B9D" opacity="1.00"/>
+  <polygon points="215,431 500.0,431.0 482.8123969239839,528.4757408478156" fill="#2A9D8F" opacity="0.93"/>
+  <polygon points="215,431 482.8123969239839,528.4757408478156 433.32266628890875,614.1944687606637" fill="#000000" opacity="0.74"/>
+  <polygon points="215,431 433.32266628890875,614.1944687606637 357.5,677.817240078565" fill="#2A9D8F" opacity="0.59"/>
+  <polygon points="215,431 357.5,677.817240078565 264.48973063507515,711.6702096084794" fill="#FFFFFF" opacity="0.86"/>
+  <polygon points="215,431 264.48973063507515,711.6702096084794 165.51026936492485,711.6702096084794" fill="#F4D35E" opacity="0.87"/>
+  <polygon points="215,431 165.51026936492485,711.6702096084794 72.50000000000006,677.817240078565" fill="#FFFFFF" opacity="0.73"/>
+  <polygon points="215,431 72.50000000000006,677.817240078565 -3.3226662889086924,614.1944687606638" fill="#E76F51" opacity="0.75"/>
+  <polygon points="215,431 -3.3226662889086924,614.1944687606638 -52.8123969239839,528.4757408478156" fill="#000000" opacity="0.86"/>
+  <polygon points="215,431 -52.8123969239839,528.4757408478156 -70.0,431.00000000000006" fill="#F4D35E" opacity="0.65"/>
+  <polygon points="215,431 -70.0,431.00000000000006 -52.8123969239839,333.5242591521844" fill="#000000" opacity="0.67"/>
+  <polygon points="215,431 -52.8123969239839,333.5242591521844 -3.322666288908721,247.80553123933632" fill="#2A9D8F" opacity="0.59"/>
+  <polygon points="215,431 -3.322666288908721,247.80553123933632 72.49999999999989,184.18275992143506" fill="#000000" opacity="0.62"/>
+  <polygon points="215,431 72.49999999999989,184.18275992143506 165.51026936492485,150.3297903915207" fill="#E76F51" opacity="0.84"/>
+  <polygon points="215,431 165.51026936492485,150.3297903915207 264.48973063507503,150.3297903915207" fill="#000000" opacity="0.68"/>
+  <polygon points="215,431 264.48973063507503,150.3297903915207 357.5,184.182759921435" fill="#6D2E46" opacity="0.74"/>
+  <polygon points="215,431 357.5,184.182759921435 433.32266628890864,247.8055312393362" fill="#000000" opacity="0.54"/>
+  <polygon points="215,431 433.32266628890864,247.8055312393362 482.8123969239839,333.5242591521844" fill="#6D2E46" opacity="0.71"/>
+  <polygon points="215,431 482.8123969239839,333.5242591521844 500.0,430.99999999999994" fill="#000000" opacity="0.75"/>
+  <circle cx="215" cy="431" r="40" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.0931485333196405"/>
+  <circle cx="215" cy="431" r="114" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.0110109286137052"/>
+  <circle cx="215" cy="431" r="188" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.1929290016553322"/>
+  <circle cx="215" cy="431" r="262" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="0.5790184342523315"/>
+  <circle cx="215" cy="431" r="19" fill="#1D3557" opacity="1.00"/>
+  <circle cx="40" cy="40" r="14" fill="#1D3557" opacity="0.74"/>
+  <circle cx="760" cy="40" r="30" fill="#F4D35E" opacity="0.90"/>
+  <circle cx="40" cy="760" r="23" fill="#E63946" opacity="0.89"/>
+  <circle cx="760" cy="760" r="20" fill="#F4D35E" opacity="0.65"/>
 </svg>

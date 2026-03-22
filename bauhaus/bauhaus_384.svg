@@ -1,78 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-<!-- Background -->
-<rect width="800" height="800" fill="#FEFAE0"/>
-
-<!-- Mosaic Fragments - packed irregular polygons with thin black outlines -->
-<!-- Warm gray and sand dominate, with pops of red, blue, yellow -->
-
-<!-- Row 1 - top band -->
-<polygon points="0,0 120,0 100,70 0,55" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="120,0 250,0 240,60 100,70" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="250,0 370,0 380,75 240,60" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="370,0 500,0 490,55 380,75" fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.9"/>
-<polygon points="500,0 620,0 640,70 490,55" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="620,0 800,0 800,60 640,70" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-
-<!-- Row 2 -->
-<polygon points="0,55 100,70 80,150 0,140" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="100,70 240,60 260,140 80,150" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="240,60 380,75 370,155 260,140" fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.9"/>
-<polygon points="380,75 490,55 510,145 370,155" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="490,55 640,70 620,150 510,145" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="640,70 800,60 800,155 620,150" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-
-<!-- Row 3 -->
-<polygon points="0,140 80,150 60,240 0,230" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="80,150 260,140 280,230 60,240" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="260,140 370,155 350,235 280,230" fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.9"/>
-<polygon points="370,155 510,145 520,240 350,235" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="510,145 620,150 600,230 520,240" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="620,150 800,155 800,245 600,230" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-
-<!-- Row 4 -->
-<polygon points="0,230 60,240 50,330 0,320" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="60,240 280,230 300,325 50,330" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="280,230 350,235 340,320 300,325" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="350,235 520,240 500,330 340,320" fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.9"/>
-<polygon points="520,240 600,230 610,325 500,330" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="600,230 800,245 800,340 610,325" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-
-<!-- Row 5 -->
-<polygon points="0,320 50,330 40,420 0,410" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="50,330 300,325 310,415 40,420" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="300,325 340,320 330,410 310,415" fill="#457B9D" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="340,320 500,330 480,420 330,410" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="500,330 610,325 630,415 480,420" fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.9"/>
-<polygon points="610,325 800,340 800,430 630,415" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-
-<!-- Row 6 -->
-<polygon points="0,410 40,420 30,510 0,500" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="40,420 310,415 320,505 30,510" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="310,415 330,410 340,500 320,505" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="330,410 480,420 460,510 340,500" fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.9"/>
-<polygon points="480,420 630,415 650,505 460,510" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="630,415 800,430 800,520 650,505" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-
-<!-- Row 7 -->
-<polygon points="0,500 30,510 20,600 0,590" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="30,510 320,505 340,595 20,600" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="320,505 340,500 350,590 340,595" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="340,500 460,510 440,600 350,590" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="460,510 650,505 670,595 440,600" fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="650,505 800,520 800,610 670,595" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-
-<!-- Row 8 -->
-<polygon points="0,590 20,600 10,690 0,680" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="20,600 340,595 360,685 10,690" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="340,595 350,590 365,680 360,685" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="350,590 440,600 420,690 365,680" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="440,600 670,595 690,685 420,690" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="670,595 800,610 800,700 690,685" fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.85"/>
-
-<!-- Row 9 - bottom -->
-<polygon points="0,680 10,690 0,800 0,800" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="10,690 360,685 340,800 0,800" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="360,685 365,680 420,690 500,800 340,800" fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.9"/>
-<polygon points="420,690 690,685 700,800 500,800" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
-<polygon points="690,685 800,700 800,800 700,800" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+  <title>Resonant Frequency</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF" opacity="1.00"/>
+  <circle cx="105" cy="672" r="150" fill="#2A9D8F" opacity="0.59"/>
+  <circle cx="636" cy="514" r="285" fill="#E76F51" opacity="0.51"/>
+  <circle cx="459" cy="621" r="237" fill="#E76F51" opacity="0.51"/>
+  <circle cx="500" cy="355" r="219" fill="#6D2E46" opacity="0.41"/>
+  <circle cx="207" cy="507" r="75" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="2.9812764597696844"/>
+  <circle cx="191" cy="559" r="94" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="1.4605046273819855"/>
+  <circle cx="156" cy="407" r="133" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="3.066618068661203"/>
+  <circle cx="558" cy="195" r="166" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="3.6092517754654603"/>
+  <circle cx="664" cy="435" r="6" fill="#1D3557" opacity="0.84"/>
+  <circle cx="33" cy="514" r="17" fill="#1D3557" opacity="0.99"/>
+  <circle cx="24" cy="49" r="18" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="137" cy="56" r="3" fill="#1D3557" opacity="0.78"/>
+  <circle cx="581" cy="782" r="11" fill="#E63946" opacity="0.78"/>
+  <circle cx="605" cy="353" r="13" fill="#F4D35E" opacity="0.77"/>
+  <circle cx="38" cy="403" r="20" fill="#E63946" opacity="0.75"/>
+  <circle cx="82" cy="132" r="14" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="605" cy="473" r="7" fill="#1D3557" opacity="1.00"/>
+  <circle cx="38" cy="153" r="20" fill="#E63946" opacity="0.71"/>
+  <circle cx="373" cy="374" r="9" fill="#E63946" opacity="0.86"/>
+  <circle cx="320" cy="89" r="11" fill="#1D3557" opacity="0.76"/>
+  <circle cx="674" cy="521" r="20" fill="#1D3557" opacity="0.86"/>
+  <circle cx="323" cy="135" r="6" fill="#F4D35E" opacity="0.83"/>
+  <circle cx="636" cy="353" r="5" fill="#E63946" opacity="0.81"/>
+  <circle cx="327" cy="404" r="10" fill="#1D3557" opacity="0.94"/>
+  <circle cx="250" cy="348" r="3" fill="#E63946" opacity="0.97"/>
+  <circle cx="409" cy="680" r="16" fill="#F4D35E" opacity="0.76"/>
+  <circle cx="301" cy="493" r="8" fill="#E63946" opacity="0.93"/>
+  <circle cx="613" cy="33" r="19" fill="#F4D35E" opacity="0.89"/>
+  <circle cx="757" cy="736" r="19" fill="#E63946" opacity="0.75"/>
+  <circle cx="296" cy="493" r="3" fill="#F4D35E" opacity="0.82"/>
+  <circle cx="791" cy="371" r="6" fill="#E63946" opacity="0.92"/>
+  <line x1="25" y1="395" x2="497" y2="254" stroke="#000000" stroke-width="1.2229544829761212" opacity="0.20"/>
+  <line x1="183" y1="153" x2="709" y2="90" stroke="#000000" stroke-width="2.006008424768347" opacity="0.20"/>
+  <line x1="4" y1="239" x2="364" y2="57" stroke="#000000" stroke-width="1.9108919318395245" opacity="0.20"/>
+  <line x1="334" y1="311" x2="207" y2="494" stroke="#000000" stroke-width="1.6702299107039973" opacity="0.20"/>
+  <line x1="208" y1="541" x2="236" y2="144" stroke="#000000" stroke-width="1.9639838139174093" opacity="0.20"/>
 </svg>

@@ -1,71 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Subtle grid lines for structure -->
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
-
-  <!-- Floating large blue circle top-right -->
-  <circle cx="600" cy="180" r="90" fill="#1D3557" opacity="0.85"/>
-
-  <!-- Floating red rectangle left area -->
-  <rect x="80" y="320" width="140" height="100" fill="#E63946" opacity="0.8"/>
-
-  <!-- Large blue rectangle bottom area -->
-  <rect x="450" y="520" width="180" height="130" fill="#1D3557" opacity="0.7"/>
-
-  <!-- Floating red circle mid-left -->
-  <circle cx="250" cy="150" r="55" fill="#E63946" opacity="0.75"/>
-
-  <!-- Medium blue circle center-left -->
-  <circle cx="350" cy="480" r="40" fill="#457B9D" opacity="0.6"/>
-
-  <!-- Thin connecting lines between shapes -->
-  <line x1="250" y1="150" x2="600" y2="180" stroke="#000000" stroke-width="1" opacity="0.3"/>
-  <line x1="150" y1="370" x2="350" y2="480" stroke="#000000" stroke-width="1" opacity="0.3"/>
-  <line x1="350" y1="480" x2="540" y2="520" stroke="#000000" stroke-width="1" opacity="0.3"/>
-  <line x1="600" y1="180" x2="630" y2="520" stroke="#000000" stroke-width="0.8" opacity="0.2"/>
-  <line x1="250" y1="150" x2="150" y2="320" stroke="#000000" stroke-width="0.8" opacity="0.2"/>
-
-  <!-- Yellow small accents -->
-  <circle cx="420" cy="250" r="12" fill="#F4D35E" opacity="0.9"/>
-  <rect x="680" y="400" width="18" height="18" fill="#F4D35E" opacity="0.85"/>
-  <circle cx="150" cy="600" r="10" fill="#F4D35E" opacity="0.9"/>
-  <rect x="300" y="680" width="15" height="15" fill="#F4D35E" opacity="0.8"/>
-  <circle cx="720" cy="650" r="8" fill="#F4D35E" opacity="0.85"/>
-
-  <!-- Floating small red circle far right -->
-  <circle cx="720" cy="280" r="25" fill="#E63946" opacity="0.65"/>
-
-  <!-- Small blue rectangle top-left -->
-  <rect x="60" y="80" width="50" height="35" fill="#1D3557" opacity="0.5"/>
-
-  <!-- Thin diagonal structure lines -->
-  <line x1="0" y1="0" x2="250" y2="150" stroke="#1D3557" stroke-width="0.5" opacity="0.15"/>
-  <line x1="600" y1="180" x2="800" y2="300" stroke="#E63946" stroke-width="0.5" opacity="0.15"/>
-
-  <!-- More floating shapes -->
-  <rect x="500" y="350" width="60" height="45" fill="#E63946" opacity="0.5"/>
-  <circle cx="180" cy="500" r="30" fill="#1D3557" opacity="0.4"/>
-
-  <!-- Corner accents -->
-  <rect x="750" y="750" width="25" height="25" fill="#000000" opacity="0.2"/>
-  <circle cx="30" cy="770" r="8" fill="#1D3557" opacity="0.3"/>
-  <rect x="10" y="10" width="12" height="12" fill="#E63946" opacity="0.25"/>
-
-  <!-- Additional connecting lines -->
-  <line x1="720" y1="280" x2="680" y2="400" stroke="#000000" stroke-width="0.8" opacity="0.2"/>
-  <line x1="150" y1="600" x2="300" y2="680" stroke="#000000" stroke-width="0.8" opacity="0.2"/>
-
-  <!-- Small floating shapes for texture -->
-  <circle cx="500" cy="120" r="6" fill="#000000" opacity="0.3"/>
-  <circle cx="340" cy="300" r="5" fill="#000000" opacity="0.25"/>
-  <rect x="650" y="600" width="10" height="10" fill="#1D3557" opacity="0.35"/>
-  <circle cx="100" cy="700" r="4" fill="#E63946" opacity="0.4"/>
-  <rect x="400" y="600" width="8" height="8" fill="#000000" opacity="0.2"/>
+  <title>Optical Grid</title>
+  <rect x="0" y="0" width="800" height="800" fill="#457B9D" opacity="1.00"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <path d="M 405.8 237.6 A 217 217 0 0 1 83.3 528.0" stroke="#000000" stroke-width="7.859223978737647" fill="none" opacity="0.62"/>
+  <path d="M 219.3 337.3 A 206 206 0 0 1 598.4 188.0" stroke="#000000" stroke-width="4.729522728040658" fill="none" opacity="0.97"/>
+  <path d="M 258.3 402.3 A 280 280 0 0 1 774.7 616.2" stroke="#6D2E46" stroke-width="12.070254801621113" fill="none" opacity="0.67"/>
+  <path d="M 234.8 489.2 A 309 309 0 0 1 796.2 710.3" stroke="#FFFFFF" stroke-width="6.551661323057722" fill="none" opacity="0.99"/>
+  <path d="M 352.4 423.3 A 258 258 0 0 1 756.4 578.4" stroke="#FFFFFF" stroke-width="19.25291526449605" fill="none" opacity="0.92"/>
+  <path d="M -116.6 133.2 A 321 321 0 1 1 91.1 550.0" stroke="#000000" stroke-width="6.131856946177987" fill="none" opacity="0.99"/>
+  <circle cx="585" cy="121" r="20" fill="#1D3557" opacity="0.80"/>
+  <circle cx="246" cy="303" r="13" fill="#E63946" opacity="0.94"/>
+  <circle cx="386" cy="194" r="12" fill="#F4D35E" opacity="0.76"/>
+  <circle cx="571" cy="682" r="33" fill="#F4D35E" opacity="0.92"/>
+  <circle cx="310" cy="65" r="12" fill="#E63946" opacity="0.85"/>
+  <circle cx="231" cy="403" r="10" fill="#1D3557" opacity="0.82"/>
+  <circle cx="688" cy="634" r="38" fill="#F4D35E" opacity="0.90"/>
+  <rect x="83" y="698" width="38" height="35" fill="#2A9D8F" opacity="0.49"/>
+  <rect x="152" y="763" width="70" height="37" fill="#000000" opacity="0.77"/>
+  <rect x="617" y="70" width="120" height="130" fill="#F4D35E" opacity="0.41"/>
 </svg>

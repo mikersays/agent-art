@@ -1,91 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-  <!-- 5x5 grid lines in warm gray (cells are 140px, with 30px margin) -->
-  <line x1="30" y1="30" x2="30" y2="770" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
-  <line x1="170" y1="30" x2="170" y2="770" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
-  <line x1="310" y1="30" x2="310" y2="770" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
-  <line x1="450" y1="30" x2="450" y2="770" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
-  <line x1="590" y1="30" x2="590" y2="770" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
-  <line x1="730" y1="30" x2="730" y2="770" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
-  <line x1="30" y1="30" x2="730" y2="30" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
-  <line x1="30" y1="178" x2="730" y2="178" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
-  <line x1="30" y1="326" x2="730" y2="326" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
-  <line x1="30" y1="474" x2="730" y2="474" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
-  <line x1="30" y1="622" x2="730" y2="622" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
-  <line x1="30" y1="770" x2="730" y2="770" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
-  <!-- Row 1 shapes -->
-  <!-- Cell (0,0): Red circle -->
-  <circle cx="100" cy="104" r="45" fill="#E63946" opacity="0.8"/>
-  <!-- Cell (1,0): empty -->
-  <!-- Cell (2,0): Blue rectangle -->
-  <rect x="340" y="60" width="100" height="80" fill="#1D3557" opacity="0.75"/>
-  <!-- Cell (3,0): Orange diamond -->
-  <polygon points="520,55 570,104 520,153 470,104" fill="#E76F51" opacity="0.8"/>
-  <!-- Cell (4,0): Forest triangle -->
-  <polygon points="660,60 720,153 600,153" fill="#264653" opacity="0.7"/>
-  <!-- Row 2 shapes -->
-  <!-- Cell (0,1): Teal arc -->
-  <path d="M50,210 A60,60 0 0,1 140,280" fill="none" stroke="#2A9D8F" stroke-width="4" opacity="0.8"/>
-  <!-- Cell (1,1): Yellow rectangle -->
-  <rect x="195" y="200" width="90" height="100" fill="#F4D35E" opacity="0.8"/>
-  <!-- Cell (2,1): Burgundy circle -->
-  <circle cx="380" cy="252" r="40" fill="#6D2E46" opacity="0.75"/>
-  <!-- Cell (3,1): empty -->
-  <!-- Cell (4,1): Sand rect overflowing -->
-  <rect x="600" y="190" width="160" height="70" fill="#DDA15E" opacity="0.7"/>
-  <!-- Row 3 shapes -->
-  <!-- Cell (0,2): Black rectangle -->
-  <rect x="45" y="350" width="110" height="95" fill="#000000" opacity="0.7"/>
-  <!-- Cell (1,2): Coral diamond -->
-  <polygon points="240,350 290,400 240,450 190,400" fill="#E9C46A" opacity="0.8"/>
-  <!-- Cell (2,2): empty -->
-  <!-- Cell (3,2): Light blue circle -->
-  <circle cx="520" cy="400" r="50" fill="#A8DADC" opacity="0.7"/>
-  <!-- Cell (4,2): Red triangle -->
-  <polygon points="660,345 730,465 590,465" fill="#E63946" opacity="0.7"/>
-  <!-- Row 4 shapes -->
-  <!-- Cell (0,3): empty -->
-  <!-- Cell (1,3): Forest arc -->
-  <path d="M185,520 A55,55 0 0,1 285,570" fill="none" stroke="#264653" stroke-width="4" opacity="0.75"/>
-  <!-- Cell (2,3): Orange circle overflowing -->
-  <circle cx="380" cy="548" r="65" fill="#E76F51" opacity="0.6"/>
-  <!-- Cell (3,3): Yellow rect -->
-  <rect x="470" y="500" width="95" height="85" fill="#F4D35E" opacity="0.75"/>
-  <!-- Cell (4,3): Teal triangle -->
-  <polygon points="660,490 720,610 600,610" fill="#2A9D8F" opacity="0.7"/>
-  <!-- Row 5 shapes -->
-  <!-- Cell (0,4): Steel blue diamond -->
-  <polygon points="100,640 150,695 100,750 50,695" fill="#457B9D" opacity="0.8"/>
-  <!-- Cell (1,4): Black circle -->
-  <circle cx="240" cy="696" r="38" fill="#000000" opacity="0.65"/>
-  <!-- Cell (2,4): Coral rect -->
-  <rect x="330" y="650" width="100" height="75" fill="#E9C46A" opacity="0.8"/>
-  <!-- Cell (3,4): empty -->
-  <!-- Cell (4,4): Blue arc -->
-  <path d="M610,660 A55,55 0 0,1 710,720" fill="none" stroke="#1D3557" stroke-width="5" opacity="0.75"/>
-  <!-- Large steel-blue circle overlapping 4 cells upper-right at 0.4 opacity -->
-  <circle cx="520" cy="178" r="160" fill="#457B9D" opacity="0.4"/>
-  <!-- Bold black border rectangles at edges -->
-  <rect x="0" y="0" width="800" height="12" fill="#000000" opacity="0.9"/>
-  <rect x="0" y="788" width="800" height="12" fill="#000000" opacity="0.9"/>
-  <rect x="0" y="0" width="12" height="800" fill="#000000" opacity="0.9"/>
-  <rect x="788" y="0" width="12" height="800" fill="#000000" opacity="0.9"/>
-  <!-- Yellow accent dots at grid intersections -->
-  <circle cx="170" cy="178" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="310" cy="178" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="450" cy="178" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="590" cy="178" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="170" cy="326" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="310" cy="326" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="450" cy="326" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="590" cy="326" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="170" cy="474" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="310" cy="474" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="450" cy="474" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="590" cy="474" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="170" cy="622" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="310" cy="622" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="450" cy="622" r="5" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="590" cy="622" r="5" fill="#F4D35E" opacity="0.9"/>
+  <title>Navigation Chart</title>
+  <rect x="0" y="0" width="800" height="800" fill="#457B9D" opacity="1.00"/>
+  <rect x="0" y="675" width="800" height="125" fill="#6D2E46" opacity="0.91"/>
+  <rect x="0" y="0" width="800" height="101" fill="#1D3557" opacity="0.72"/>
+  <rect x="3" y="101" width="76" height="572" fill="#FFFFFF" opacity="0.96"/>
+  <line x1="3" y1="101" x2="3" y2="675" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="71" y="101" width="76" height="562" fill="#F4D35E" opacity="0.81"/>
+  <line x1="71" y1="101" x2="71" y2="675" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="126" y="101" width="76" height="555" fill="#6D2E46" opacity="0.80"/>
+  <line x1="126" y1="101" x2="126" y2="675" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="199" y="101" width="76" height="545" fill="#E76F51" opacity="0.99"/>
+  <line x1="199" y1="101" x2="199" y2="675" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="259" y="101" width="76" height="557" fill="#FFFFFF" opacity="0.78"/>
+  <line x1="259" y1="101" x2="259" y2="675" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="325" y="101" width="76" height="551" fill="#FFFFFF" opacity="0.92"/>
+  <line x1="325" y1="101" x2="325" y2="675" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="403" y="101" width="76" height="535" fill="#2A9D8F" opacity="0.92"/>
+  <line x1="403" y1="101" x2="403" y2="675" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="470" y="101" width="76" height="551" fill="#FFFFFF" opacity="1.00"/>
+  <line x1="470" y1="101" x2="470" y2="675" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="521" y="101" width="76" height="558" fill="#F4D35E" opacity="0.92"/>
+  <line x1="521" y1="101" x2="521" y2="675" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="596" y="101" width="76" height="534" fill="#6D2E46" opacity="0.96"/>
+  <line x1="596" y1="101" x2="596" y2="675" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="651" y="101" width="76" height="549" fill="#000000" opacity="0.83"/>
+  <line x1="651" y1="101" x2="651" y2="675" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="721" y="101" width="76" height="571" fill="#F4D35E" opacity="0.74"/>
+  <line x1="721" y1="101" x2="721" y2="675" stroke="#000000" stroke-width="1" opacity="0.20"/>
+  <rect x="590" y="436" width="26" height="26" fill="#F4D35E" opacity="0.69"/>
+  <rect x="524" y="487" width="33" height="33" fill="#E63946" opacity="0.83"/>
+  <rect x="515" y="189" width="36" height="36" fill="#E63946" opacity="0.52"/>
+  <rect x="257" y="656" width="36" height="36" fill="#F4D35E" opacity="0.79"/>
+  <rect x="263" y="271" width="30" height="30" fill="#F4D35E" opacity="0.57"/>
+  <rect x="32" y="194" width="27" height="27" fill="#1D3557" opacity="0.59"/>
+  <rect x="97" y="421" width="25" height="25" fill="#E63946" opacity="0.52"/>
+  <rect x="360" y="189" width="24" height="24" fill="#1D3557" opacity="0.65"/>
+  <rect x="117" y="439" width="14" height="14" fill="#1D3557" opacity="0.72"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#FFFFFF" stroke-width="1.8319011980546769" opacity="0.36"/>
+  <line x1="0" y1="511" x2="800" y2="511" stroke="#FFFFFF" stroke-width="1.3993631392421062" opacity="0.39"/>
+  <line x1="0" y1="110" x2="800" y2="110" stroke="#FFFFFF" stroke-width="0.8829035749685168" opacity="0.35"/>
+  <line x1="0" y1="382" x2="800" y2="382" stroke="#FFFFFF" stroke-width="1.886913144563873" opacity="0.42"/>
+  <line x1="0" y1="219" x2="800" y2="219" stroke="#FFFFFF" stroke-width="0.6339026263455599" opacity="0.45"/>
+  <line x1="0" y1="492" x2="800" y2="492" stroke="#FFFFFF" stroke-width="1.9759250286750487" opacity="0.33"/>
+  <line x1="0" y1="144" x2="800" y2="144" stroke="#FFFFFF" stroke-width="1.6417215290983682" opacity="0.44"/>
+  <line x1="0" y1="580" x2="800" y2="580" stroke="#000000" stroke-width="0.6499292618076298" opacity="0.37"/>
 </svg>

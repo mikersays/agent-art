@@ -1,53 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Outer sparse grid outlines -->
-  <rect x="20" y="20" width="120" height="120" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
-  <rect x="660" y="20" width="120" height="120" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
-  <rect x="20" y="660" width="120" height="120" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
-  <rect x="660" y="660" width="120" height="120" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
-  <rect x="160" y="60" width="100" height="100" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
-  <rect x="540" y="60" width="100" height="100" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
-  <rect x="60" y="540" width="100" height="100" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
-  <rect x="640" y="540" width="100" height="100" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
-
-  <!-- Mid-density grid cells - some filled, some outlined -->
-  <rect x="200" y="200" width="80" height="80" fill="#1D3557" opacity="0.75"/>
-  <rect x="290" y="200" width="80" height="80" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
-  <rect x="380" y="200" width="80" height="80" fill="#E63946" opacity="0.15"/>
-  <rect x="470" y="200" width="80" height="80" fill="none" stroke="#1D3557" stroke-width="1" opacity="0.35"/>
-
-  <rect x="200" y="290" width="80" height="80" fill="none" stroke="#E63946" stroke-width="1" opacity="0.4"/>
-  <rect x="290" y="290" width="80" height="80" fill="#F4D35E" opacity="0.8"/>
-  <rect x="380" y="290" width="80" height="80" fill="#1D3557" opacity="0.65"/>
-  <rect x="470" y="290" width="80" height="80" fill="#E63946" opacity="0.7"/>
-
-  <rect x="200" y="380" width="80" height="80" fill="#E63946" opacity="0.8"/>
-  <rect x="290" y="380" width="80" height="80" fill="#2A9D8F" opacity="0.6"/>
-  <rect x="380" y="380" width="80" height="80" fill="#000000" opacity="0.85"/>
-  <rect x="470" y="380" width="80" height="80" fill="#F4D35E" opacity="0.7"/>
-
-  <rect x="200" y="470" width="80" height="80" fill="none" stroke="#000000" stroke-width="1" opacity="0.4"/>
-  <rect x="290" y="470" width="80" height="80" fill="#1D3557" opacity="0.6"/>
-  <rect x="380" y="470" width="80" height="80" fill="#E76F51" opacity="0.65"/>
-  <rect x="470" y="470" width="80" height="80" fill="none" stroke="#2A9D8F" stroke-width="1.5" opacity="0.5"/>
-
-  <!-- Rotated/angled cells - fragmented effect -->
-  <rect x="150" y="310" width="60" height="60" fill="#457B9D" opacity="0.4" transform="rotate(15 180 340)"/>
-  <rect x="540" y="340" width="70" height="70" fill="#F4D35E" opacity="0.35" transform="rotate(-20 575 375)"/>
-  <rect x="320" y="150" width="55" height="55" fill="none" stroke="#E63946" stroke-width="1" opacity="0.35" transform="rotate(30 347 177)"/>
-  <rect x="420" y="530" width="65" height="65" fill="none" stroke="#1D3557" stroke-width="1" opacity="0.3" transform="rotate(-12 452 562)"/>
-  <rect x="160" y="500" width="50" height="50" fill="#6D2E46" opacity="0.3" transform="rotate(25 185 525)"/>
-  <rect x="560" y="230" width="55" height="55" fill="#264653" opacity="0.35" transform="rotate(-35 587 257)"/>
-
-  <!-- Additional sparse edge outlines -->
-  <rect x="80" y="250" width="70" height="70" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
-  <rect x="620" y="450" width="70" height="70" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
-
-  <!-- Small accent elements -->
-  <circle cx="330" cy="330" r="6" fill="#FFFFFF" opacity="0.9"/>
-  <circle cx="420" cy="420" r="4" fill="#FFFFFF" opacity="0.9"/>
-  <rect x="556" y="556" width="8" height="8" fill="#E63946" opacity="0.5"/>
-  <rect x="236" y="556" width="8" height="8" fill="#1D3557" opacity="0.5"/>
+  <title>Parallel Transport</title>
+  <rect x="0" y="0" width="800" height="800" fill="#000000" opacity="1.00"/>
+  <polygon points="497,361 788.0,361.0 783.5790561265526,411.53161970107675" fill="#FFFFFF" opacity="0.68"/>
+  <polygon points="497,361 783.5790561265526,411.53161970107675 770.4505526486994,460.5278617077696" fill="#000000" opacity="0.81"/>
+  <polygon points="497,361 770.4505526486994,460.5278617077696 749.0133925012717,506.5" fill="#457B9D" opacity="0.84"/>
+  <polygon points="497,361 749.0133925012717,506.5 719.9189329476226,548.0511944187829" fill="#FFFFFF" opacity="0.56"/>
+  <polygon points="497,361 719.9189329476226,548.0511944187829 684.051194418783,583.9189329476226" fill="#E63946" opacity="0.82"/>
+  <polygon points="497,361 684.051194418783,583.9189329476226 642.5,613.0133925012716" fill="#FFFFFF" opacity="0.73"/>
+  <polygon points="497,361 642.5,613.0133925012716 596.5278617077696,634.4505526486994" fill="#2A9D8F" opacity="0.83"/>
+  <polygon points="497,361 596.5278617077696,634.4505526486994 547.5316197010768,647.5790561265526" fill="#000000" opacity="0.88"/>
+  <polygon points="497,361 547.5316197010768,647.5790561265526 497.0,652.0" fill="#FFFFFF" opacity="0.59"/>
+  <polygon points="497,361 497.0,652.0 446.4683802989233,647.5790561265526" fill="#000000" opacity="0.50"/>
+  <polygon points="497,361 446.4683802989233,647.5790561265526 397.4721382922304,634.4505526486994" fill="#2A9D8F" opacity="0.56"/>
+  <polygon points="497,361 397.4721382922304,634.4505526486994 351.50000000000006,613.0133925012717" fill="#FFFFFF" opacity="0.70"/>
+  <polygon points="497,361 351.50000000000006,613.0133925012717 309.948805581217,583.9189329476226" fill="#FFFFFF" opacity="0.58"/>
+  <polygon points="497,361 309.948805581217,583.9189329476226 274.0810670523774,548.051194418783" fill="#000000" opacity="0.91"/>
+  <polygon points="497,361 274.0810670523774,548.051194418783 244.98660749872835,506.5" fill="#457B9D" opacity="0.76"/>
+  <polygon points="497,361 244.98660749872835,506.5 223.54944735130067,460.52786170776966" fill="#000000" opacity="0.65"/>
+  <polygon points="497,361 223.54944735130067,460.52786170776966 210.42094387344747,411.5316197010767" fill="#E63946" opacity="0.88"/>
+  <polygon points="497,361 210.42094387344747,411.5316197010767 206.0,361.00000000000006" fill="#FFFFFF" opacity="0.68"/>
+  <polygon points="497,361 206.0,361.00000000000006 210.42094387344747,310.46838029892325" fill="#E63946" opacity="0.55"/>
+  <polygon points="497,361 210.42094387344747,310.46838029892325 223.54944735130067,261.4721382922304" fill="#FFFFFF" opacity="0.50"/>
+  <polygon points="497,361 223.54944735130067,261.4721382922304 244.98660749872838,215.49999999999997" fill="#E76F51" opacity="0.70"/>
+  <polygon points="497,361 244.98660749872838,215.49999999999997 274.0810670523774,173.94880558121707" fill="#000000" opacity="0.82"/>
+  <polygon points="497,361 274.0810670523774,173.94880558121707 309.948805581217,138.08106705237742" fill="#FFFFFF" opacity="0.84"/>
+  <polygon points="497,361 309.948805581217,138.08106705237742 351.4999999999999,108.98660749872843" fill="#000000" opacity="0.73"/>
+  <polygon points="497,361 351.4999999999999,108.98660749872843 397.47213829223045,87.54944735130067" fill="#E63946" opacity="0.86"/>
+  <polygon points="497,361 397.47213829223045,87.54944735130067 446.46838029892325,74.42094387344747" fill="#FFFFFF" opacity="0.71"/>
+  <polygon points="497,361 446.46838029892325,74.42094387344747 496.99999999999994,70.0" fill="#E76F51" opacity="0.71"/>
+  <polygon points="497,361 496.99999999999994,70.0 547.5316197010766,74.42094387344741" fill="#000000" opacity="0.78"/>
+  <polygon points="497,361 547.5316197010766,74.42094387344741 596.5278617077697,87.54944735130067" fill="#E63946" opacity="1.00"/>
+  <polygon points="497,361 596.5278617077697,87.54944735130067 642.5,108.98660749872838" fill="#000000" opacity="0.94"/>
+  <polygon points="497,361 642.5,108.98660749872838 684.0511944187829,138.08106705237736" fill="#F4D35E" opacity="0.88"/>
+  <polygon points="497,361 684.0511944187829,138.08106705237736 719.9189329476226,173.948805581217" fill="#000000" opacity="0.91"/>
+  <polygon points="497,361 719.9189329476226,173.948805581217 749.0133925012716,215.49999999999986" fill="#2A9D8F" opacity="0.72"/>
+  <polygon points="497,361 749.0133925012716,215.49999999999986 770.4505526486994,261.47213829223045" fill="#000000" opacity="0.65"/>
+  <polygon points="497,361 770.4505526486994,261.47213829223045 783.5790561265526,310.46838029892325" fill="#E63946" opacity="0.91"/>
+  <polygon points="497,361 783.5790561265526,310.46838029892325 788.0,360.99999999999994" fill="#000000" opacity="0.53"/>
+  <circle cx="497" cy="361" r="40" fill="none" opacity="1.00" stroke="#000000" stroke-width="0.9832179859508485"/>
+  <circle cx="497" cy="361" r="108" fill="none" opacity="1.00" stroke="#000000" stroke-width="1.4066918493072222"/>
+  <circle cx="497" cy="361" r="176" fill="none" opacity="1.00" stroke="#000000" stroke-width="1.1496709424489444"/>
+  <circle cx="497" cy="361" r="244" fill="none" opacity="1.00" stroke="#000000" stroke-width="0.889757787260476"/>
+  <circle cx="497" cy="361" r="43" fill="#E63946" opacity="1.00"/>
+  <circle cx="40" cy="40" r="14" fill="#1D3557" opacity="0.70"/>
+  <circle cx="760" cy="40" r="26" fill="#F4D35E" opacity="0.87"/>
+  <circle cx="40" cy="760" r="12" fill="#F4D35E" opacity="0.76"/>
+  <circle cx="760" cy="760" r="15" fill="#F4D35E" opacity="0.74"/>
 </svg>

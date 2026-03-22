@@ -1,46 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Cream background -->
-  <rect width="800" height="800" fill="#FEFAE0"/>
-  <!-- Horizontal bars - rhythmic pattern -->
-  <rect x="50" y="30" width="500" height="18" fill="#E63946" opacity="0.9"/>
-  <rect x="200" y="70" width="550" height="12" fill="#1D3557" opacity="0.85"/>
-  <rect x="30" y="105" width="350" height="25" fill="#2A9D8F" opacity="0.8"/>
-  <rect x="400" y="100" width="300" height="15" fill="#F4D35E" opacity="0.9"/>
-  <rect x="100" y="155" width="650" height="20" fill="#E63946" opacity="0.7"/>
-  <rect x="50" y="200" width="200" height="30" fill="#1D3557" opacity="0.9"/>
-  <rect x="300" y="195" width="400" height="10" fill="#2A9D8F" opacity="0.6"/>
-  <rect x="80" y="255" width="600" height="22" fill="#F4D35E" opacity="0.85"/>
-  <rect x="150" y="300" width="500" height="16" fill="#E63946" opacity="0.75"/>
-  <rect x="20" y="345" width="700" height="28" fill="#1D3557" opacity="0.8"/>
-  <rect x="250" y="395" width="450" height="14" fill="#2A9D8F" opacity="0.9"/>
-  <rect x="60" y="435" width="380" height="20" fill="#F4D35E" opacity="0.7"/>
-  <rect x="500" y="430" width="250" height="30" fill="#E63946" opacity="0.85"/>
-  <rect x="100" y="490" width="550" height="12" fill="#1D3557" opacity="0.65"/>
-  <rect x="30" y="530" width="400" height="24" fill="#2A9D8F" opacity="0.8"/>
-  <rect x="480" y="525" width="280" height="18" fill="#F4D35E" opacity="0.9"/>
-  <rect x="150" y="580" width="600" height="15" fill="#E63946" opacity="0.7"/>
-  <rect x="50" y="625" width="300" height="26" fill="#1D3557" opacity="0.85"/>
-  <rect x="400" y="620" width="350" height="20" fill="#2A9D8F" opacity="0.75"/>
-  <rect x="80" y="675" width="650" height="14" fill="#F4D35E" opacity="0.8"/>
-  <rect x="200" y="720" width="500" height="22" fill="#E63946" opacity="0.9"/>
-  <rect x="30" y="765" width="450" height="18" fill="#1D3557" opacity="0.7"/>
-  <!-- White circular cutouts on bars -->
-  <circle cx="250" cy="39" r="8" fill="#FEFAE0"/>
-  <circle cx="350" cy="117" r="11" fill="#FEFAE0"/>
-  <circle cx="500" cy="210" r="13" fill="#FEFAE0"/>
-  <circle cx="380" cy="359" r="12" fill="#FEFAE0"/>
-  <circle cx="600" cy="445" r="10" fill="#FEFAE0"/>
-  <circle cx="200" cy="542" r="10" fill="#FEFAE0"/>
-  <circle cx="450" cy="587" r="7" fill="#FEFAE0"/>
-  <circle cx="300" cy="731" r="9" fill="#FEFAE0"/>
-  <!-- Thin vertical accent lines -->
-  <line x1="160" y1="20" x2="160" y2="780" stroke="#000000" stroke-width="0.8" opacity="0.15"/>
-  <line x1="350" y1="20" x2="350" y2="780" stroke="#000000" stroke-width="0.8" opacity="0.15"/>
-  <line x1="540" y1="20" x2="540" y2="780" stroke="#000000" stroke-width="0.8" opacity="0.15"/>
-  <line x1="680" y1="20" x2="680" y2="780" stroke="#000000" stroke-width="0.8" opacity="0.15"/>
-  <!-- Small accent circles at intersections -->
-  <circle cx="160" cy="300" r="4" fill="#E76F51" opacity="0.8"/>
-  <circle cx="540" cy="200" r="4" fill="#6D2E46" opacity="0.8"/>
-  <circle cx="350" cy="530" r="4" fill="#E76F51" opacity="0.8"/>
-  <circle cx="680" cy="675" r="4" fill="#000000" opacity="0.6"/>
+  <title>Stacking Fault</title>
+  <rect x="0" y="0" width="800" height="800" fill="#1D3557" opacity="1.00"/>
+  <rect x="26" y="15" width="481" height="481" fill="#F4D35E" opacity="0.91" transform="rotate(182 266 255)"/>
+  <rect x="44" y="33" width="444" height="444" fill="#FFFFFF" opacity="0.91" transform="rotate(180 266 255)"/>
+  <rect x="63" y="52" width="407" height="407" fill="#FEFAE0" opacity="0.62"/>
+  <rect x="81" y="70" width="370" height="370" fill="#E63946" opacity="0.80" transform="rotate(60 266 255)"/>
+  <rect x="100" y="89" width="333" height="333" fill="#E63946" opacity="0.59" transform="rotate(108 266 255)"/>
+  <rect x="118" y="107" width="296" height="296" fill="#E9C46A" opacity="0.98"/>
+  <rect x="137" y="126" width="259" height="259" fill="#A8DADC" opacity="0.92"/>
+  <rect x="155" y="144" width="222" height="222" fill="#E76F51" opacity="0.96"/>
+  <rect x="174" y="163" width="185" height="185" fill="#A8DADC" opacity="0.69"/>
+  <rect x="192" y="181" width="148" height="148" fill="#E9C46A" opacity="0.86"/>
+  <rect x="211" y="200" width="111" height="111" fill="#F4D35E" opacity="0.59"/>
+  <rect x="229" y="218" width="74" height="74" fill="#A8DADC" opacity="0.53" transform="rotate(20 266 255)"/>
+  <rect x="248" y="237" width="37" height="37" fill="#E9C46A" opacity="0.64" transform="rotate(13 266 255)"/>
+  <line x1="-158.26406871192853" y1="-169.26406871192847" x2="690.2640687119285" y2="679.2640687119285" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="690.2640687119285" y1="-169.26406871192853" x2="-158.26406871192847" y2="679.2640687119285" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="266" y1="0" x2="266" y2="800" stroke="#000000" stroke-width="1" opacity="0.10"/>
+  <line x1="0" y1="255" x2="800" y2="255" stroke="#000000" stroke-width="1" opacity="0.10"/>
+  <circle cx="287" cy="103" r="11" fill="#F4D35E" opacity="0.67"/>
+  <circle cx="306" cy="429" r="15" fill="#1D3557" opacity="0.84"/>
+  <circle cx="159" cy="552" r="11" fill="#E63946" opacity="0.96"/>
+  <circle cx="482" cy="15" r="11" fill="#1D3557" opacity="0.91"/>
+  <circle cx="344" cy="254" r="9" fill="#E63946" opacity="0.85"/>
+  <circle cx="331" cy="601" r="16" fill="#E63946" opacity="0.78"/>
+  <circle cx="27" cy="298" r="17" fill="#1D3557" opacity="0.75"/>
+  <circle cx="766" cy="410" r="12" fill="#F4D35E" opacity="0.78"/>
+  <circle cx="195" cy="712" r="14" fill="#E63946" opacity="0.80"/>
+  <circle cx="276" cy="130" r="8" fill="#1D3557" opacity="0.97"/>
+  <circle cx="475" cy="552" r="6" fill="#1D3557" opacity="0.80"/>
+  <circle cx="622" cy="159" r="11" fill="#F4D35E" opacity="0.60"/>
+  <circle cx="576" cy="256" r="13" fill="#F4D35E" opacity="0.65"/>
+  <circle cx="176" cy="800" r="4" fill="#1D3557" opacity="0.96"/>
+  <circle cx="391" cy="1" r="8" fill="#F4D35E" opacity="0.72"/>
 </svg>

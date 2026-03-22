@@ -1,82 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Background structural grid lines -->
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
-  <line x1="0" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-  <line x1="800" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
-
-  <!-- Radiating structural lines from center -->
-  <line x1="400" y1="400" x2="400" y2="80" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="400" y1="400" x2="400" y2="720" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="400" y1="400" x2="80" y2="400" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="400" y1="400" x2="720" y2="400" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="400" y1="400" x2="174" y2="174" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="400" y1="400" x2="626" y2="626" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="400" y1="400" x2="626" y2="174" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="400" y1="400" x2="174" y2="626" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
-  <line x1="400" y1="400" x2="103" y2="287" stroke="#000000" stroke-width="1" opacity="0.5"/>
-  <line x1="400" y1="400" x2="697" y2="513" stroke="#000000" stroke-width="1" opacity="0.5"/>
-  <line x1="400" y1="400" x2="287" y2="103" stroke="#000000" stroke-width="1" opacity="0.5"/>
-  <line x1="400" y1="400" x2="513" y2="697" stroke="#000000" stroke-width="1" opacity="0.5"/>
-
-  <!-- Arc segments of the large circle (radius 260), broken into pieces with gaps -->
-  <!-- Segment 1: 0-50 degrees - Red -->
-  <path d="M 400 140 A 260 260 0 0 1 567 182" fill="none" stroke="#E63946" stroke-width="38" stroke-linecap="butt"/>
-  <!-- Segment 2: 60-110 degrees - Blue -->
-  <path d="M 590 175 A 260 260 0 0 1 656 336" fill="none" stroke="#1D3557" stroke-width="38" stroke-linecap="butt"/>
-  <!-- Segment 3: 120-170 degrees - Yellow -->
-  <path d="M 660 356 A 260 260 0 0 1 626 533" fill="none" stroke="#F4D35E" stroke-width="38" stroke-linecap="butt"/>
-  <!-- Segment 4: 180-230 degrees - Teal -->
-  <path d="M 620 555 A 260 260 0 0 1 503 647" fill="none" stroke="#2A9D8F" stroke-width="38" stroke-linecap="butt"/>
-  <!-- Segment 5: 240-290 degrees - Orange -->
-  <path d="M 482 656 A 260 260 0 0 1 296 650" fill="none" stroke="#E76F51" stroke-width="38" stroke-linecap="butt"/>
-  <!-- Segment 6: 300-350 degrees - Burgundy -->
-  <path d="M 277 638 A 260 260 0 0 1 143 490" fill="none" stroke="#6D2E46" stroke-width="38" stroke-linecap="butt"/>
-  <!-- Segment 7: 360-410 = 0-50 equiv shifted - Steel Blue -->
-  <path d="M 140 468 A 260 260 0 0 1 145 314" fill="none" stroke="#457B9D" stroke-width="38" stroke-linecap="butt"/>
-  <!-- Segment 8: last arc - Forest -->
-  <path d="M 153 294 A 260 260 0 0 1 385 140" fill="none" stroke="#264653" stroke-width="38" stroke-linecap="butt"/>
-
-  <!-- Inner ring segments (radius 160) -->
-  <path d="M 400 240 A 160 160 0 0 1 536 291" fill="none" stroke="#E63946" stroke-width="18" opacity="0.6" stroke-linecap="butt"/>
-  <path d="M 554 306 A 160 160 0 0 1 556 494" fill="none" stroke="#1D3557" stroke-width="18" opacity="0.6" stroke-linecap="butt"/>
-  <path d="M 548 514 A 160 160 0 0 1 400 560" fill="none" stroke="#F4D35E" stroke-width="18" opacity="0.6" stroke-linecap="butt"/>
-  <path d="M 378 559 A 160 160 0 0 1 246 468" fill="none" stroke="#2A9D8F" stroke-width="18" opacity="0.6" stroke-linecap="butt"/>
-  <path d="M 241 446 A 160 160 0 0 1 252 306" fill="none" stroke="#E76F51" stroke-width="18" opacity="0.6" stroke-linecap="butt"/>
-  <path d="M 264 288 A 160 160 0 0 1 378 241" fill="none" stroke="#6D2E46" stroke-width="18" opacity="0.6" stroke-linecap="butt"/>
-
-  <!-- Small squares filling negative space in gap areas -->
-  <rect x="390" y="90" width="20" height="20" fill="#E63946" transform="rotate(10, 400, 100)"/>
-  <rect x="630" y="150" width="16" height="16" fill="#F4D35E" transform="rotate(30, 638, 158)"/>
-  <rect x="700" y="380" width="18" height="18" fill="#2A9D8F" transform="rotate(-15, 709, 389)"/>
-  <rect x="650" y="610" width="14" height="14" fill="#1D3557" transform="rotate(20, 657, 617)"/>
-  <rect x="420" y="700" width="18" height="18" fill="#E76F51" transform="rotate(5, 429, 709)"/>
-  <rect x="185" y="670" width="16" height="16" fill="#F4D35E" transform="rotate(-25, 193, 678)"/>
-  <rect x="90" y="510" width="20" height="20" fill="#E63946" transform="rotate(15, 100, 520)"/>
-  <rect x="100" y="270" width="14" height="14" fill="#457B9D" transform="rotate(-10, 107, 277)"/>
-  <rect x="215" y="120" width="16" height="16" fill="#2A9D8F" transform="rotate(35, 223, 128)"/>
-
-  <!-- Triangles in negative space -->
-  <polygon points="400,60 415,90 385,90" fill="#1D3557" opacity="0.85"/>
-  <polygon points="700,185 725,205 700,225" fill="#E63946" opacity="0.85"/>
-  <polygon points="720,440 750,420 750,460" fill="#F4D35E" opacity="0.85"/>
-  <polygon points="690,640 715,625 715,655" fill="#2A9D8F" opacity="0.85"/>
-  <polygon points="470,730 490,710 510,730" fill="#E76F51" opacity="0.85"/>
-  <polygon points="230,720 210,700 250,700" fill="#6D2E46" opacity="0.85"/>
-  <polygon points="70,530 50,510 70,490" fill="#457B9D" opacity="0.85"/>
-  <polygon points="75,300 55,280 95,280" fill="#264653" opacity="0.85"/>
-
-  <!-- Center circle -->
-  <circle cx="400" cy="400" r="35" fill="#000000"/>
-  <circle cx="400" cy="400" r="20" fill="#FEFAE0"/>
-  <circle cx="400" cy="400" r="8" fill="#E63946"/>
-
-  <!-- Outer decorative circles at corners -->
-  <circle cx="80" cy="80" r="18" fill="none" stroke="#000000" stroke-width="2" opacity="0.4"/>
-  <circle cx="720" cy="80" r="18" fill="none" stroke="#000000" stroke-width="2" opacity="0.4"/>
-  <circle cx="80" cy="720" r="18" fill="none" stroke="#000000" stroke-width="2" opacity="0.4"/>
-  <circle cx="720" cy="720" r="18" fill="none" stroke="#000000" stroke-width="2" opacity="0.4"/>
+  <title>Hyperbola</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0" opacity="1.00"/>
+  <rect x="0" y="0" width="800" height="2" fill="#E63946" opacity="0.95"/>
+  <rect x="0" y="33" width="800" height="16" fill="#1D3557" opacity="0.63"/>
+  <rect x="0" y="66" width="800" height="2" fill="#FEFAE0" opacity="0.31"/>
+  <rect x="0" y="99" width="800" height="20" fill="#1D3557" opacity="0.53"/>
+  <rect x="0" y="132" width="800" height="21" fill="#1D3557" opacity="0.46"/>
+  <rect x="0" y="165" width="800" height="6" fill="#1D3557" opacity="0.43"/>
+  <rect x="0" y="198" width="800" height="12" fill="#1D3557" opacity="0.40"/>
+  <rect x="0" y="231" width="800" height="15" fill="#1D3557" opacity="0.55"/>
+  <rect x="0" y="264" width="800" height="12" fill="#E63946" opacity="0.80"/>
+  <rect x="0" y="297" width="800" height="26" fill="#FEFAE0" opacity="0.68"/>
+  <rect x="0" y="330" width="800" height="22" fill="#E63946" opacity="0.78"/>
+  <rect x="0" y="363" width="800" height="17" fill="#1D3557" opacity="0.59"/>
+  <rect x="0" y="396" width="800" height="29" fill="#E63946" opacity="0.89"/>
+  <rect x="0" y="429" width="800" height="22" fill="#FEFAE0" opacity="0.54"/>
+  <rect x="0" y="462" width="800" height="16" fill="#1D3557" opacity="0.64"/>
+  <rect x="0" y="495" width="800" height="6" fill="#FEFAE0" opacity="0.60"/>
+  <rect x="0" y="528" width="800" height="2" fill="#1D3557" opacity="0.54"/>
+  <rect x="0" y="561" width="800" height="13" fill="#FEFAE0" opacity="0.48"/>
+  <rect x="0" y="594" width="800" height="2" fill="#E63946" opacity="0.71"/>
+  <rect x="0" y="627" width="800" height="2" fill="#FEFAE0" opacity="0.62"/>
+  <rect x="0" y="660" width="800" height="15" fill="#1D3557" opacity="0.55"/>
+  <rect x="0" y="693" width="800" height="26" fill="#FEFAE0" opacity="0.54"/>
+  <rect x="0" y="726" width="800" height="6" fill="#FEFAE0" opacity="0.66"/>
+  <rect x="0" y="759" width="800" height="24" fill="#1D3557" opacity="0.41"/>
+  <line x1="0" y1="262" x2="800" y2="262" stroke="#000000" stroke-width="3.690907047457377" opacity="1.00"/>
+  <line x1="0" y1="636" x2="800" y2="636" stroke="#000000" stroke-width="5.247783810361315" opacity="1.00"/>
+  <line x1="0" y1="565" x2="800" y2="565" stroke="#FFFFFF" stroke-width="3.8915399206596315" opacity="1.00"/>
+  <line x1="0" y1="294" x2="800" y2="294" stroke="#000000" stroke-width="4.265075377140928" opacity="1.00"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#000000" stroke-width="5.333301155561979" opacity="1.00"/>
+  <line x1="595" y1="0" x2="595" y2="800" stroke="#1D3557" stroke-width="3.7207278896625984" opacity="0.76"/>
+  <line x1="134" y1="0" x2="134" y2="800" stroke="#E63946" stroke-width="2.0684817335513292" opacity="0.76"/>
+  <line x1="36" y1="0" x2="36" y2="800" stroke="#E63946" stroke-width="3.718457746510022" opacity="0.44"/>
+  <circle cx="518" cy="708" r="18" fill="#F4D35E" opacity="0.82"/>
+  <circle cx="655" cy="172" r="13" fill="#E63946" opacity="0.94"/>
+  <circle cx="521" cy="17" r="20" fill="#1D3557" opacity="0.87"/>
+  <circle cx="462" cy="540" r="7" fill="#1D3557" opacity="0.77"/>
+  <circle cx="571" cy="331" r="13" fill="#1D3557" opacity="0.95"/>
+  <circle cx="66" cy="589" r="14" fill="#1D3557" opacity="0.77"/>
+  <circle cx="399" cy="720" r="10" fill="#1D3557" opacity="0.77"/>
+  <circle cx="762" cy="782" r="7" fill="#F4D35E" opacity="0.73"/>
 </svg>

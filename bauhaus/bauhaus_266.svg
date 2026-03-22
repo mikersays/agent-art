@@ -1,62 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Outermost square - Blue -->
-  <rect x="80" y="120" width="600" height="600" fill="#1D3557" opacity="0.9" stroke="#000000" stroke-width="2"/>
-
-  <!-- Second square - Red -->
-  <rect x="140" y="160" width="500" height="500" fill="#E63946" opacity="0.8" stroke="#000000" stroke-width="1.5"/>
-
-  <!-- Third square - Yellow -->
-  <rect x="210" y="210" width="400" height="400" fill="#F4D35E" opacity="0.7" stroke="#000000" stroke-width="1"/>
-
-  <!-- Fourth square - Teal -->
-  <rect x="290" y="270" width="300" height="300" fill="#2A9D8F" opacity="0.6" stroke="#000000" stroke-width="1"/>
-
-  <!-- Fifth square - Steel Blue -->
-  <rect x="360" y="340" width="220" height="220" fill="#457B9D" opacity="0.5" stroke="#000000" stroke-width="1"/>
-
-  <!-- Sixth square - Burgundy -->
-  <rect x="420" y="400" width="140" height="140" fill="#6D2E46" opacity="0.45" stroke="#000000" stroke-width="0.5"/>
-
-  <!-- Innermost square - White -->
-  <rect x="465" y="445" width="70" height="70" fill="#FFFFFF" opacity="0.9" stroke="#000000" stroke-width="0.5"/>
-
-  <!-- Diagonal lines cutting through -->
-  <line x1="80" y1="120" x2="680" y2="720" stroke="#000000" stroke-width="2" opacity="0.3"/>
-  <line x1="680" y1="120" x2="80" y2="720" stroke="#000000" stroke-width="2" opacity="0.3"/>
-  <line x1="50" y1="400" x2="750" y2="200" stroke="#E63946" stroke-width="1.5" opacity="0.5"/>
-  <line x1="200" y1="50" x2="600" y2="780" stroke="#1D3557" stroke-width="1.5" opacity="0.4"/>
-  <line x1="30" y1="600" x2="770" y2="350" stroke="#000000" stroke-width="1" opacity="0.2"/>
-
-  <!-- Small circles in gaps between squares -->
-  <circle cx="110" cy="150" r="12" fill="#E63946" opacity="0.8"/>
-  <circle cx="650" cy="700" r="10" fill="#1D3557" opacity="0.7"/>
-  <circle cx="160" cy="640" r="8" fill="#F4D35E" opacity="0.9"/>
-  <circle cx="600" cy="180" r="14" fill="#E63946" opacity="0.6"/>
-  <circle cx="230" cy="230" r="6" fill="#FFFFFF" opacity="0.8"/>
-  <circle cx="570" cy="580" r="9" fill="#1D3557" opacity="0.7"/>
-  <circle cx="320" cy="290" r="7" fill="#E63946" opacity="0.75"/>
-  <circle cx="500" cy="340" r="5" fill="#F4D35E" opacity="0.8"/>
-  <circle cx="130" cy="400" r="11" fill="#2A9D8F" opacity="0.6"/>
-  <circle cx="670" cy="450" r="10" fill="#E76F51" opacity="0.7"/>
-  <circle cx="400" cy="140" r="8" fill="#1D3557" opacity="0.8"/>
-  <circle cx="250" cy="700" r="13" fill="#E63946" opacity="0.5"/>
-
-  <!-- Additional accent circles -->
-  <circle cx="500" cy="160" r="6" fill="#A8DADC" opacity="0.7"/>
-  <circle cx="660" cy="300" r="7" fill="#DDA15E" opacity="0.6"/>
-  <circle cx="100" cy="700" r="9" fill="#E9C46A" opacity="0.5"/>
-  <circle cx="720" cy="600" r="8" fill="#A89F91" opacity="0.6"/>
-
-  <!-- Extra diagonal accents -->
-  <line x1="100" y1="750" x2="350" y2="100" stroke="#E63946" stroke-width="1" opacity="0.25"/>
-  <line x1="450" y1="80" x2="750" y2="700" stroke="#1D3557" stroke-width="1" opacity="0.25"/>
-
-  <!-- Corner accent shapes -->
-  <rect x="20" y="20" width="30" height="30" fill="#1D3557" opacity="0.4"/>
-  <rect x="750" y="20" width="30" height="30" fill="#E63946" opacity="0.4"/>
-  <rect x="20" y="750" width="30" height="30" fill="#E63946" opacity="0.4"/>
-  <rect x="750" y="750" width="30" height="30" fill="#1D3557" opacity="0.4"/>
+  <title>Magnetic Field</title>
+  <rect x="0" y="0" width="800" height="800" fill="#000000" opacity="1.00"/>
+  <rect x="0" y="468" width="800" height="97" fill="#E63946" opacity="0.92"/>
+  <rect x="428" y="0" width="97" height="800" fill="#FFFFFF" opacity="0.78"/>
+  <rect x="0" y="564" width="428" height="236" fill="#F4D35E" opacity="0.24"/>
+  <rect x="524" y="564" width="276" height="236" fill="#E9C46A" opacity="0.34"/>
+  <rect x="458" y="498" width="37" height="37" fill="#1D3557" opacity="1.00"/>
+  <circle cx="476" cy="516" r="100" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="2.7361441690916375"/>
+  <circle cx="476" cy="516" r="200" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="2.74237501536141"/>
+  <circle cx="476" cy="516" r="300" fill="none" opacity="1.00" stroke="#FFFFFF" stroke-width="2.39654077200972"/>
+  <circle cx="703" cy="151" r="14" fill="#1D3557" opacity="0.92"/>
+  <circle cx="419" cy="777" r="6" fill="#1D3557" opacity="0.84"/>
+  <circle cx="133" cy="396" r="17" fill="#E63946" opacity="0.63"/>
+  <circle cx="253" cy="487" r="19" fill="#E63946" opacity="0.99"/>
+  <circle cx="564" cy="605" r="20" fill="#1D3557" opacity="0.70"/>
+  <circle cx="690" cy="205" r="9" fill="#E63946" opacity="0.65"/>
+  <circle cx="34" cy="728" r="14" fill="#E63946" opacity="0.94"/>
+  <circle cx="415" cy="305" r="6" fill="#E63946" opacity="0.66"/>
+  <circle cx="738" cy="106" r="18" fill="#1D3557" opacity="0.90"/>
+  <circle cx="346" cy="84" r="8" fill="#F4D35E" opacity="0.99"/>
 </svg>

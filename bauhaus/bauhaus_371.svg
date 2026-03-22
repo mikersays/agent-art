@@ -1,87 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-
-  <!-- Horizontal reference lines -->
-  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
-  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
-  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
-  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
-  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
-  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
-
-  <!-- Vertical pendulum line -->
-  <line x1="400" y1="0" x2="400" y2="120" stroke="#000000" stroke-width="3"/>
-
-  <!-- Pendulum pivot circle -->
-  <circle cx="400" cy="10" r="8" fill="#000000"/>
-
-  <!-- Arc paths - pendulum swings (red, longest) -->
-  <path d="M 400 120 A 380 380 0 0 1 700 350" fill="none" stroke="#E63946" stroke-width="3" opacity="0.85"/>
-  <path d="M 400 120 A 380 380 0 0 0 100 350" fill="none" stroke="#E63946" stroke-width="3" opacity="0.85"/>
-
-  <!-- Arc paths - pendulum swings (blue, medium) -->
-  <path d="M 400 120 A 300 300 0 0 1 640 310" fill="none" stroke="#1D3557" stroke-width="2.5" opacity="0.8"/>
-  <path d="M 400 120 A 300 300 0 0 0 160 310" fill="none" stroke="#1D3557" stroke-width="2.5" opacity="0.8"/>
-
-  <!-- Arc paths - pendulum swings (yellow, shorter) -->
-  <path d="M 400 120 A 220 220 0 0 1 575 270" fill="none" stroke="#F4D35E" stroke-width="2.5" opacity="0.9"/>
-  <path d="M 400 120 A 220 220 0 0 0 225 270" fill="none" stroke="#F4D35E" stroke-width="2.5" opacity="0.9"/>
-
-  <!-- Arc paths - teal, shortest -->
-  <path d="M 400 120 A 150 150 0 0 1 520 220" fill="none" stroke="#2A9D8F" stroke-width="2" opacity="0.7"/>
-  <path d="M 400 120 A 150 150 0 0 0 280 220" fill="none" stroke="#2A9D8F" stroke-width="2" opacity="0.7"/>
-
-  <!-- Endpoint circles - red arcs -->
-  <circle cx="700" cy="350" r="10" fill="#E63946"/>
-  <circle cx="100" cy="350" r="10" fill="#E63946"/>
-
-  <!-- Endpoint circles - blue arcs -->
-  <circle cx="640" cy="310" r="8" fill="#1D3557"/>
-  <circle cx="160" cy="310" r="8" fill="#1D3557"/>
-
-  <!-- Endpoint circles - yellow arcs -->
-  <circle cx="575" cy="270" r="7" fill="#F4D35E"/>
-  <circle cx="225" cy="270" r="7" fill="#F4D35E"/>
-
-  <!-- Endpoint circles - teal arcs -->
-  <circle cx="520" cy="220" r="5" fill="#2A9D8F"/>
-  <circle cx="280" cy="220" r="5" fill="#2A9D8F"/>
-
-  <!-- Additional pendulum traces (fainter, wider swings) -->
-  <path d="M 400 120 A 500 500 0 0 1 750 500" fill="none" stroke="#E76F51" stroke-width="1.5" opacity="0.4"/>
-  <path d="M 400 120 A 500 500 0 0 0 50 500" fill="none" stroke="#E76F51" stroke-width="1.5" opacity="0.4"/>
-  <circle cx="750" cy="500" r="6" fill="#E76F51" opacity="0.6"/>
-  <circle cx="50" cy="500" r="6" fill="#E76F51" opacity="0.6"/>
-
-  <!-- Pendulum bob at center rest -->
-  <circle cx="400" cy="500" r="18" fill="#000000" opacity="0.9"/>
-  <circle cx="400" cy="500" r="10" fill="#E63946" opacity="0.7"/>
-
-  <!-- Connecting line from pivot to bob -->
-  <line x1="400" y1="120" x2="400" y2="500" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
-
-  <!-- Small accent shapes -->
-  <rect x="380" y="580" width="40" height="4" fill="#1D3557" opacity="0.5"/>
-  <rect x="370" y="600" width="60" height="3" fill="#457B9D" opacity="0.4"/>
-  <rect x="360" y="618" width="80" height="2" fill="#A8DADC" opacity="0.3"/>
-
-  <!-- Corner accents -->
-  <rect x="20" y="20" width="15" height="15" fill="#1D3557" opacity="0.3"/>
-  <rect x="765" y="20" width="15" height="15" fill="#E63946" opacity="0.3"/>
-  <rect x="20" y="765" width="15" height="15" fill="#F4D35E" opacity="0.3"/>
-  <rect x="765" y="765" width="15" height="15" fill="#2A9D8F" opacity="0.3"/>
-
-  <!-- Ghost pendulum positions -->
-  <line x1="400" y1="120" x2="300" y2="490" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
-  <line x1="400" y1="120" x2="500" y2="490" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
-  <line x1="400" y1="120" x2="250" y2="460" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
-  <line x1="400" y1="120" x2="550" y2="460" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
-
-  <!-- Small circles along bottom reference -->
-  <circle cx="200" cy="700" r="4" fill="#DDA15E" opacity="0.5"/>
-  <circle cx="350" cy="700" r="4" fill="#E9C46A" opacity="0.5"/>
-  <circle cx="450" cy="700" r="4" fill="#E9C46A" opacity="0.5"/>
-  <circle cx="600" cy="700" r="4" fill="#DDA15E" opacity="0.5"/>
+  <title>Power Grid</title>
+  <rect x="0" y="0" width="800" height="800" fill="#457B9D" opacity="1.00"/>
+  <rect x="0" y="0" width="14" height="800" fill="#E63946" opacity="1.00"/>
+  <rect x="21" y="0" width="6" height="800" fill="#457B9D" opacity="0.64"/>
+  <rect x="42" y="0" width="11" height="800" fill="#457B9D" opacity="0.37"/>
+  <rect x="63" y="0" width="8" height="800" fill="#F4D35E" opacity="0.35"/>
+  <rect x="84" y="0" width="12" height="800" fill="#457B9D" opacity="0.53"/>
+  <rect x="105" y="0" width="4" height="800" fill="#457B9D" opacity="0.67"/>
+  <rect x="126" y="0" width="15" height="800" fill="#F4D35E" opacity="0.60"/>
+  <rect x="147" y="0" width="19" height="800" fill="#F4D35E" opacity="0.33"/>
+  <rect x="168" y="0" width="13" height="800" fill="#457B9D" opacity="0.60"/>
+  <rect x="189" y="0" width="8" height="800" fill="#E63946" opacity="0.87"/>
+  <rect x="210" y="0" width="4" height="800" fill="#E63946" opacity="0.95"/>
+  <rect x="231" y="0" width="2" height="800" fill="#F4D35E" opacity="0.49"/>
+  <rect x="252" y="0" width="14" height="800" fill="#457B9D" opacity="0.46"/>
+  <rect x="273" y="0" width="4" height="800" fill="#457B9D" opacity="0.41"/>
+  <rect x="294" y="0" width="11" height="800" fill="#F4D35E" opacity="0.62"/>
+  <rect x="315" y="0" width="19" height="800" fill="#E63946" opacity="0.83"/>
+  <rect x="336" y="0" width="19" height="800" fill="#457B9D" opacity="0.68"/>
+  <rect x="357" y="0" width="17" height="800" fill="#F4D35E" opacity="0.56"/>
+  <rect x="378" y="0" width="16" height="800" fill="#F4D35E" opacity="0.64"/>
+  <rect x="399" y="0" width="15" height="800" fill="#457B9D" opacity="0.59"/>
+  <rect x="420" y="0" width="15" height="800" fill="#E63946" opacity="0.74"/>
+  <rect x="441" y="0" width="17" height="800" fill="#E63946" opacity="0.72"/>
+  <rect x="462" y="0" width="7" height="800" fill="#F4D35E" opacity="0.53"/>
+  <rect x="483" y="0" width="18" height="800" fill="#F4D35E" opacity="0.52"/>
+  <rect x="504" y="0" width="19" height="800" fill="#E63946" opacity="0.82"/>
+  <rect x="525" y="0" width="2" height="800" fill="#E63946" opacity="0.94"/>
+  <rect x="546" y="0" width="4" height="800" fill="#457B9D" opacity="0.64"/>
+  <rect x="567" y="0" width="9" height="800" fill="#457B9D" opacity="0.36"/>
+  <rect x="588" y="0" width="8" height="800" fill="#F4D35E" opacity="0.39"/>
+  <rect x="609" y="0" width="16" height="800" fill="#457B9D" opacity="0.41"/>
+  <rect x="630" y="0" width="19" height="800" fill="#E63946" opacity="0.79"/>
+  <rect x="651" y="0" width="17" height="800" fill="#F4D35E" opacity="0.58"/>
+  <rect x="672" y="0" width="2" height="800" fill="#F4D35E" opacity="0.57"/>
+  <rect x="693" y="0" width="6" height="800" fill="#E63946" opacity="0.70"/>
+  <rect x="714" y="0" width="13" height="800" fill="#457B9D" opacity="0.57"/>
+  <rect x="735" y="0" width="10" height="800" fill="#E63946" opacity="0.88"/>
+  <rect x="756" y="0" width="19" height="800" fill="#E63946" opacity="0.85"/>
+  <rect x="777" y="0" width="10" height="800" fill="#457B9D" opacity="0.62"/>
+  <line x1="125" y1="0" x2="125" y2="800" stroke="#000000" stroke-width="6.1097300879431655" opacity="1.00"/>
+  <line x1="470" y1="0" x2="470" y2="800" stroke="#000000" stroke-width="3.1005763095314927" opacity="1.00"/>
+  <line x1="346" y1="0" x2="346" y2="800" stroke="#000000" stroke-width="6.847405127436432" opacity="1.00"/>
+  <line x1="525" y1="0" x2="525" y2="800" stroke="#FFFFFF" stroke-width="7.934237802945124" opacity="1.00"/>
+  <line x1="371" y1="0" x2="371" y2="800" stroke="#FFFFFF" stroke-width="6.190065279464811" opacity="1.00"/>
+  <line x1="0" y1="261" x2="800" y2="261" stroke="#F4D35E" stroke-width="3.298205252296143" opacity="0.53"/>
+  <line x1="0" y1="91" x2="800" y2="91" stroke="#F4D35E" stroke-width="5.785100885233787" opacity="0.79"/>
+  <line x1="0" y1="735" x2="800" y2="735" stroke="#F4D35E" stroke-width="4.786709998268293" opacity="0.76"/>
+  <line x1="0" y1="153" x2="800" y2="153" stroke="#F4D35E" stroke-width="2.3572723904280113" opacity="0.66"/>
+  <line x1="0" y1="513" x2="800" y2="513" stroke="#E63946" stroke-width="2.4770219681397943" opacity="0.58"/>
+  <line x1="0" y1="622" x2="800" y2="622" stroke="#E63946" stroke-width="3.58078017591628" opacity="0.75"/>
+  <circle cx="220" cy="170" r="16" fill="#1D3557" opacity="0.76"/>
+  <circle cx="387" cy="673" r="10" fill="#E63946" opacity="0.91"/>
+  <circle cx="586" cy="519" r="6" fill="#F4D35E" opacity="0.90"/>
+  <circle cx="512" cy="278" r="19" fill="#E63946" opacity="0.71"/>
+  <circle cx="241" cy="682" r="20" fill="#F4D35E" opacity="0.91"/>
+  <circle cx="215" cy="516" r="5" fill="#1D3557" opacity="0.87"/>
+  <circle cx="785" cy="427" r="9" fill="#F4D35E" opacity="0.77"/>
 </svg>

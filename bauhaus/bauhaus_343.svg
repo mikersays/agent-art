@@ -1,50 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Cream background -->
-  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
-  <!-- Large blue triangle at 0.4 opacity -->
-  <polygon points="100,700 400,100 700,700" fill="#1D3557" opacity="0.4"/>
-  <!-- Black lines tracing main triangle edges -->
-  <line x1="100" y1="700" x2="400" y2="100" stroke="#000000" stroke-width="3"/>
-  <line x1="400" y1="100" x2="700" y2="700" stroke="#000000" stroke-width="3"/>
-  <line x1="700" y1="700" x2="100" y2="700" stroke="#000000" stroke-width="3"/>
-  <!-- Inner red triangle, slightly rotated -->
-  <polygon points="280,600 400,280 520,600" fill="#E63946" opacity="0.5"/>
-  <!-- Inner yellow triangle -->
-  <polygon points="350,550 430,350 500,550" fill="#F4D35E" opacity="0.6"/>
-  <!-- Inner teal triangle, rotated differently -->
-  <polygon points="320,500 400,320 480,500" fill="#2A9D8F" opacity="0.4" transform="rotate(8 400 410)"/>
-  <!-- Small inverted triangle -->
-  <polygon points="370,450 430,450 400,380" fill="#E63946" opacity="0.7"/>
-  <!-- Tiny triangles scattered inside -->
-  <polygon points="250,650 280,600 310,650" fill="#F4D35E" opacity="0.5"/>
-  <polygon points="490,650 520,600 550,650" fill="#2A9D8F" opacity="0.5"/>
-  <polygon points="380,250 400,200 420,250" fill="#E76F51" opacity="0.6"/>
-  <!-- Outside shapes: rectangles -->
-  <rect x="30" y="100" width="50" height="180" fill="#264653" opacity="0.6"/>
-  <rect x="720" y="150" width="55" height="150" fill="#6D2E46" opacity="0.5"/>
-  <rect x="50" y="750" width="200" height="30" fill="#264653" opacity="0.4"/>
-  <rect x="600" y="750" width="160" height="25" fill="#DDA15E" opacity="0.5"/>
-  <!-- Outside shapes: circles -->
-  <circle cx="60" cy="400" r="30" fill="#6D2E46" opacity="0.5"/>
-  <circle cx="750" cy="450" r="25" fill="#264653" opacity="0.5"/>
-  <circle cx="400" cy="770" r="20" fill="#DDA15E" opacity="0.6"/>
-  <circle cx="80" cy="50" r="18" fill="#457B9D" opacity="0.4"/>
-  <circle cx="720" cy="60" r="22" fill="#E76F51" opacity="0.4"/>
-  <!-- Orange dots at triangle vertices -->
-  <circle cx="100" cy="700" r="8" fill="#E76F51"/>
-  <circle cx="400" cy="100" r="8" fill="#E76F51"/>
-  <circle cx="700" cy="700" r="8" fill="#E76F51"/>
-  <!-- Inner triangle vertex dots -->
-  <circle cx="280" cy="600" r="5" fill="#E76F51" opacity="0.8"/>
-  <circle cx="400" cy="280" r="5" fill="#E76F51" opacity="0.8"/>
-  <circle cx="520" cy="600" r="5" fill="#E76F51" opacity="0.8"/>
-  <!-- Structural lines outside -->
-  <line x1="30" y1="30" x2="30" y2="770" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="770" y1="30" x2="770" y2="770" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <line x1="30" y1="30" x2="770" y2="30" stroke="#000000" stroke-width="1" opacity="0.15"/>
-  <!-- Corner accents -->
-  <rect x="10" y="10" width="15" height="15" fill="#000000" opacity="0.3"/>
-  <rect x="775" y="10" width="15" height="15" fill="#000000" opacity="0.3"/>
-  <rect x="10" y="775" width="15" height="15" fill="#000000" opacity="0.3"/>
-  <rect x="775" y="775" width="15" height="15" fill="#000000" opacity="0.3"/>
+  <title>Frequency</title>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0" opacity="1.00"/>
+  <rect x="339" y="152" width="369" height="369" fill="#1D3557" opacity="0.80"/>
+  <circle cx="523" cy="336" r="164" fill="#264653" opacity="0.84"/>
+  <rect x="383" y="196" width="280" height="280" fill="#E63946" opacity="0.89"/>
+  <circle cx="523" cy="336" r="111" fill="#6D2E46" opacity="0.81"/>
+  <rect x="418" y="231" width="210" height="210" fill="#6D2E46" opacity="0.78"/>
+  <circle cx="523" cy="336" r="64" fill="#000000" opacity="0.89"/>
+  <rect x="465" y="278" width="117" height="117" fill="#E63946" opacity="0.73"/>
+  <circle cx="523" cy="336" r="29" fill="#E76F51" opacity="0.67"/>
+  <rect x="502" y="315" width="43" height="43" fill="#1D3557" opacity="0.64"/>
+  <line x1="523" y1="336" x2="923.0" y2="336.0" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="523" y1="336" x2="746.6771613882987" y2="667.6150290220166" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="523" y1="336" x2="373.15736263363516" y2="706.8735418267149" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="523" y1="336" x2="131.74095970647772" y2="419.16467632710373" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="523" y1="336" x2="235.26407986453955" y2="58.13665181640107" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="523" y1="336" x2="592.459271066772" y2="-57.92310120488327" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <line x1="523" y1="336" x2="888.4181830570403" y2="173.30534276967995" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="618" cy="773" r="8" fill="#1D3557" opacity="0.72"/>
+  <circle cx="510" cy="713" r="10" fill="#E63946" opacity="0.98"/>
+  <circle cx="99" cy="699" r="10" fill="#E63946" opacity="0.74"/>
+  <circle cx="580" cy="266" r="20" fill="#F4D35E" opacity="0.95"/>
+  <circle cx="700" cy="288" r="10" fill="#F4D35E" opacity="0.64"/>
+  <circle cx="184" cy="662" r="11" fill="#F4D35E" opacity="0.77"/>
+  <circle cx="427" cy="42" r="14" fill="#F4D35E" opacity="0.83"/>
+  <circle cx="683" cy="774" r="7" fill="#1D3557" opacity="0.61"/>
+  <circle cx="307" cy="137" r="19" fill="#F4D35E" opacity="0.78"/>
+  <rect x="0" y="0" width="800" height="15" fill="#1D3557" opacity="0.63"/>
+  <rect x="0" y="785" width="800" height="15" fill="#1D3557" opacity="0.82"/>
+  <rect x="0" y="0" width="15" height="800" fill="#1D3557" opacity="0.73"/>
+  <rect x="785" y="0" width="15" height="800" fill="#1D3557" opacity="0.69"/>
 </svg>
