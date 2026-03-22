@@ -308,9 +308,11 @@ async function main() {
 
   console.log(`\n🎨 Successfully posted bauhaus #${nextIndex} — ${title}`);
   console.log(`   Post ID: ${postId}`);
+  releaseLock();
 }
 
 main().catch(err => {
+  releaseLock();
   console.error('\n❌ Error:', err.message);
   if (err.response) {
     console.error('   API response:', JSON.stringify(err.response.data, null, 2));
