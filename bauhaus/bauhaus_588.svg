@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Subtle radial structure lines from pivot -->
+  <line x1="400" y1="780" x2="100" y2="50" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="780" x2="200" y2="30" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="780" x2="300" y2="20" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="780" x2="500" y2="20" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="780" x2="600" y2="30" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="780" x2="700" y2="50" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Fan blade 1 - leftmost, red -->
+  <ellipse cx="400" cy="780" rx="30" ry="380" fill="#E63946" opacity="0.45" transform="rotate(-60, 400, 780)"/>
+
+  <!-- Fan blade 2 - blue -->
+  <ellipse cx="400" cy="780" rx="28" ry="370" fill="#1D3557" opacity="0.5" transform="rotate(-45, 400, 780)"/>
+
+  <!-- Fan blade 3 - yellow -->
+  <ellipse cx="400" cy="780" rx="30" ry="390" fill="#F4D35E" opacity="0.55" transform="rotate(-30, 400, 780)"/>
+
+  <!-- Fan blade 4 - teal -->
+  <ellipse cx="400" cy="780" rx="26" ry="360" fill="#2A9D8F" opacity="0.5" transform="rotate(-15, 400, 780)"/>
+
+  <!-- Fan blade 5 - center, orange -->
+  <ellipse cx="400" cy="780" rx="30" ry="400" fill="#E76F51" opacity="0.6" transform="rotate(0, 400, 780)"/>
+
+  <!-- Fan blade 6 - steel blue -->
+  <ellipse cx="400" cy="780" rx="26" ry="360" fill="#457B9D" opacity="0.5" transform="rotate(15, 400, 780)"/>
+
+  <!-- Fan blade 7 - burgundy -->
+  <ellipse cx="400" cy="780" rx="30" ry="390" fill="#6D2E46" opacity="0.55" transform="rotate(30, 400, 780)"/>
+
+  <!-- Fan blade 8 - sand -->
+  <ellipse cx="400" cy="780" rx="28" ry="370" fill="#DDA15E" opacity="0.5" transform="rotate(45, 400, 780)"/>
+
+  <!-- Fan blade 9 - rightmost, forest -->
+  <ellipse cx="400" cy="780" rx="30" ry="380" fill="#264653" opacity="0.45" transform="rotate(60, 400, 780)"/>
+
+  <!-- Arc connecting blade tips -->
+  <path d="M 100 100 A 420 420 0 0 1 700 100" fill="none" stroke="#000000" stroke-width="2.5" opacity="0.6"/>
+  <path d="M 120 120 A 400 400 0 0 1 680 120" fill="none" stroke="#E63946" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Pivot point circles -->
+  <circle cx="400" cy="780" r="25" fill="#000000" opacity="0.8"/>
+  <circle cx="400" cy="780" r="18" fill="#A89F91"/>
+  <circle cx="400" cy="780" r="10" fill="#000000"/>
+  <circle cx="400" cy="780" r="5" fill="#FFFFFF"/>
+
+  <!-- Decorative dots along arc -->
+  <circle cx="130" cy="130" r="6" fill="#E63946" opacity="0.7"/>
+  <circle cx="220" cy="60" r="5" fill="#1D3557" opacity="0.7"/>
+  <circle cx="310" cy="25" r="6" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="400" cy="15" r="7" fill="#E76F51" opacity="0.7"/>
+  <circle cx="490" cy="25" r="6" fill="#2A9D8F" opacity="0.7"/>
+  <circle cx="580" cy="60" r="5" fill="#6D2E46" opacity="0.7"/>
+  <circle cx="670" cy="130" r="6" fill="#264653" opacity="0.7"/>
+
+  <!-- Corner accents -->
+  <rect x="15" y="15" width="20" height="20" fill="#000000" opacity="0.15"/>
+  <rect x="765" y="15" width="20" height="20" fill="#000000" opacity="0.15"/>
+
+  <!-- Small accent lines at base -->
+  <line x1="300" y1="790" x2="500" y2="790" stroke="#000000" stroke-width="2" opacity="0.4"/>
+  <line x1="340" y1="798" x2="460" y2="798" stroke="#E63946" stroke-width="1.5" opacity="0.3"/>
+</svg>

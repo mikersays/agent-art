@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Black structural lines -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="0" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="1" opacity="0.08"/>
+  <line x1="800" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="1" opacity="0.08"/>
+  <!-- Large red circle - shadow -->
+  <circle cx="235" cy="265" r="130" fill="#000000" opacity="0.15"/>
+  <!-- Large red circle - main -->
+  <circle cx="220" cy="250" r="130" fill="#E63946" opacity="0.88"/>
+  <!-- Blue rectangle - shadow -->
+  <rect x="445" y="145" width="220" height="160" fill="#000000" opacity="0.15"/>
+  <!-- Blue rectangle - main -->
+  <rect x="430" y="130" width="220" height="160" fill="#1D3557" opacity="0.9"/>
+  <!-- Yellow triangle - shadow -->
+  <polygon points="190,565 370,565 280,435" fill="#000000" opacity="0.15" transform="translate(15,15)"/>
+  <!-- Yellow triangle - main -->
+  <polygon points="190,565 370,565 280,435" fill="#F4D35E" opacity="0.88"/>
+  <!-- Teal polygon - shadow -->
+  <polygon points="555,465 655,425 695,525 635,585 545,555" fill="#000000" opacity="0.15" transform="translate(15,15)"/>
+  <!-- Teal polygon - main -->
+  <polygon points="555,465 655,425 695,525 635,585 545,555" fill="#2A9D8F" opacity="0.85"/>
+  <!-- Coral accent shapes with shadows -->
+  <circle cx="510" cy="375" r="22" fill="#000000" opacity="0.15" transform="translate(8,8)"/>
+  <circle cx="510" cy="375" r="22" fill="#E9C46A" opacity="0.8"/>
+  <circle cx="130" cy="500" r="18" fill="#000000" opacity="0.15" transform="translate(8,8)"/>
+  <circle cx="130" cy="500" r="18" fill="#E9C46A" opacity="0.75"/>
+  <rect x="668" y="258" width="35" height="35" fill="#000000" opacity="0.15" transform="translate(8,8)"/>
+  <rect x="668" y="258" width="35" height="35" fill="#E9C46A" opacity="0.7"/>
+  <!-- Light blue accent shapes with shadows -->
+  <circle cx="380" cy="180" r="25" fill="#000000" opacity="0.15" transform="translate(8,8)"/>
+  <circle cx="380" cy="180" r="25" fill="#A8DADC" opacity="0.75"/>
+  <rect x="430" y="580" width="40" height="28" fill="#000000" opacity="0.15" transform="translate(8,8)"/>
+  <rect x="430" y="580" width="40" height="28" fill="#A8DADC" opacity="0.7"/>
+  <circle cx="720" cy="660" r="20" fill="#000000" opacity="0.15" transform="translate(8,8)"/>
+  <circle cx="720" cy="660" r="20" fill="#A8DADC" opacity="0.65"/>
+  <!-- Forest green rectangles at edges with shadows -->
+  <rect x="23" y="53" width="70" height="30" fill="#000000" opacity="0.15" transform="translate(8,8)"/>
+  <rect x="23" y="53" width="70" height="30" fill="#264653" opacity="0.7"/>
+  <rect x="708" y="53" width="65" height="25" fill="#000000" opacity="0.15" transform="translate(8,8)"/>
+  <rect x="708" y="53" width="65" height="25" fill="#264653" opacity="0.65"/>
+  <rect x="23" y="728" width="60" height="28" fill="#000000" opacity="0.15" transform="translate(8,8)"/>
+  <rect x="23" y="728" width="60" height="28" fill="#264653" opacity="0.6"/>
+  <rect x="718" y="738" width="55" height="22" fill="#000000" opacity="0.15" transform="translate(8,8)"/>
+  <rect x="718" y="738" width="55" height="22" fill="#264653" opacity="0.55"/>
+  <!-- Additional black structural lines -->
+  <line x1="100" y1="120" x2="350" y2="120" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="450" y1="680" x2="700" y2="680" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="680" y1="100" x2="680" y2="350" stroke="#000000" stroke-width="1.5" opacity="0.25"/>
+  <line x1="120" y1="600" x2="120" y2="750" stroke="#000000" stroke-width="1.5" opacity="0.25"/>
+  <!-- Small orange accent with shadow -->
+  <polygon points="80,380 110,360 110,400" fill="#000000" opacity="0.15" transform="translate(8,8)"/>
+  <polygon points="80,380 110,360 110,400" fill="#E76F51" opacity="0.75"/>
+  <rect x="340" y="680" width="30" height="30" fill="#000000" opacity="0.15" transform="translate(8,8)"/>
+  <rect x="340" y="680" width="30" height="30" fill="#E76F51" opacity="0.7"/>
+</svg>

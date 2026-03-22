@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Fragmented circle - segments using clip paths and colored wedges -->
+  <!-- Large circle outline reference -->
+  <circle cx="400" cy="400" r="300" fill="none" stroke="#000000" stroke-width="1" opacity="0.15"/>
+
+  <!-- Segment 1 - top left wedge -->
+  <path d="M 400 400 L 400 100 A 300 300 0 0 0 175 200 Z" fill="#E63946" opacity="0.85"/>
+  <path d="M 400 400 L 400 100 A 300 300 0 0 0 175 200 Z" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Segment 2 -->
+  <path d="M 400 400 L 175 200 A 300 300 0 0 0 105 370 Z" fill="#1D3557" opacity="0.8"/>
+  <path d="M 400 400 L 175 200 A 300 300 0 0 0 105 370 Z" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Segment 3 -->
+  <path d="M 400 400 L 105 370 A 300 300 0 0 0 110 480 Z" fill="#F4D35E" opacity="0.9"/>
+  <path d="M 400 400 L 105 370 A 300 300 0 0 0 110 480 Z" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Segment 4 -->
+  <path d="M 400 400 L 110 480 A 300 300 0 0 0 200 620 Z" fill="#2A9D8F" opacity="0.75"/>
+  <path d="M 400 400 L 110 480 A 300 300 0 0 0 200 620 Z" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Segment 5 -->
+  <path d="M 400 400 L 200 620 A 300 300 0 0 0 370 695 Z" fill="#E76F51" opacity="0.8"/>
+  <path d="M 400 400 L 200 620 A 300 300 0 0 0 370 695 Z" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Segment 6 -->
+  <path d="M 400 400 L 370 695 A 300 300 0 0 0 520 690 Z" fill="#457B9D" opacity="0.7"/>
+  <path d="M 400 400 L 370 695 A 300 300 0 0 0 520 690 Z" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Segment 7 -->
+  <path d="M 400 400 L 520 690 A 300 300 0 0 0 650 580 Z" fill="#6D2E46" opacity="0.85"/>
+  <path d="M 400 400 L 520 690 A 300 300 0 0 0 650 580 Z" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Segment 8 -->
+  <path d="M 400 400 L 650 580 A 300 300 0 0 0 695 430 Z" fill="#DDA15E" opacity="0.8"/>
+  <path d="M 400 400 L 650 580 A 300 300 0 0 0 695 430 Z" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Segment 9 -->
+  <path d="M 400 400 L 695 430 A 300 300 0 0 0 680 300 Z" fill="#A8DADC" opacity="0.75"/>
+  <path d="M 400 400 L 695 430 A 300 300 0 0 0 680 300 Z" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Segment 10 -->
+  <path d="M 400 400 L 680 300 A 300 300 0 0 0 580 170 Z" fill="#E9C46A" opacity="0.85"/>
+  <path d="M 400 400 L 680 300 A 300 300 0 0 0 580 170 Z" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Segment 11 - closing -->
+  <path d="M 400 400 L 580 170 A 300 300 0 0 0 400 100 Z" fill="#264653" opacity="0.8"/>
+  <path d="M 400 400 L 580 170 A 300 300 0 0 0 400 100 Z" fill="none" stroke="#000000" stroke-width="1"/>
+
+  <!-- Fracture lines radiating outward -->
+  <line x1="400" y1="100" x2="400" y2="60" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+  <line x1="175" y1="200" x2="150" y2="175" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+  <line x1="105" y1="370" x2="70" y2="365" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+  <line x1="200" y1="620" x2="170" y2="650" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+  <line x1="650" y1="580" x2="685" y2="610" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+  <line x1="680" y1="300" x2="720" y2="280" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Scattered small squares outside the circle -->
+  <rect x="50" y="80" width="12" height="12" fill="#E63946" opacity="0.6" transform="rotate(15 56 86)"/>
+  <rect x="720" y="120" width="10" height="10" fill="#1D3557" opacity="0.5" transform="rotate(30 725 125)"/>
+  <rect x="740" y="650" width="14" height="14" fill="#F4D35E" opacity="0.55" transform="rotate(45 747 657)"/>
+  <rect x="30" y="680" width="11" height="11" fill="#2A9D8F" opacity="0.5" transform="rotate(20 35 685)"/>
+  <rect x="150" y="50" width="9" height="9" fill="#E76F51" opacity="0.6" transform="rotate(60 154 54)"/>
+  <rect x="650" y="60" width="13" height="13" fill="#457B9D" opacity="0.5"/>
+  <rect x="80" y="500" width="8" height="8" fill="#000000" opacity="0.4" transform="rotate(10 84 504)"/>
+  <rect x="730" y="400" width="10" height="10" fill="#6D2E46" opacity="0.5" transform="rotate(25 735 405)"/>
+  <rect x="50" y="300" width="11" height="11" fill="#DDA15E" opacity="0.5"/>
+  <rect x="500" y="30" width="9" height="9" fill="#A8DADC" opacity="0.6" transform="rotate(40 504 34)"/>
+  <rect x="300" y="750" width="12" height="12" fill="#E9C46A" opacity="0.5" transform="rotate(55 306 756)"/>
+  <rect x="600" y="740" width="10" height="10" fill="#264653" opacity="0.5"/>
+
+  <!-- Center accent -->
+  <circle cx="400" cy="400" r="8" fill="#000000" opacity="0.7"/>
+  <circle cx="400" cy="400" r="4" fill="#FFFFFF"/>
+</svg>

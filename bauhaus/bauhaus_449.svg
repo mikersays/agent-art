@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background: Cream -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Topographic contour lines: outermost (forest/teal) to innermost (sand/coral) -->
+  <!-- Outermost contour level 1: Forest -->
+  <path d="M 80 400 C 80 160, 200 60, 400 50 C 600 40, 730 160, 740 400 C 750 600, 620 750, 400 760 C 180 770, 70 610, 80 400 Z"
+        fill="none" stroke="#264653" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Contour level 2: Forest lighter -->
+  <path d="M 120 400 C 120 185, 225 90, 400 80 C 575 70, 695 185, 705 400 C 715 580, 598 715, 400 725 C 202 735, 110 590, 120 400 Z"
+        fill="none" stroke="#264653" stroke-width="1.5" opacity="0.75"/>
+
+  <!-- Contour level 3: Teal -->
+  <path d="M 160 400 C 160 210, 255 118, 400 108 C 545 98, 660 212, 668 400 C 676 564, 572 682, 400 692 C 228 702, 152 568, 160 400 Z"
+        fill="none" stroke="#2A9D8F" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Contour level 4: Teal lighter -->
+  <path d="M 200 400 C 200 235, 285 148, 400 140 C 515 132, 622 238, 628 400 C 634 548, 544 648, 400 658 C 256 668, 194 546, 200 400 Z"
+        fill="none" stroke="#2A9D8F" stroke-width="1.5" opacity="0.75"/>
+
+  <!-- Contour level 5: Steel Blue -->
+  <path d="M 240 400 C 240 262, 315 178, 400 172 C 485 166, 585 264, 590 400 C 595 532, 518 618, 400 624 C 282 630, 236 524, 240 400 Z"
+        fill="none" stroke="#457B9D" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Contour level 6: Steel Blue lighter -->
+  <path d="M 275 400 C 275 288, 342 208, 400 204 C 458 200, 548 290, 552 400 C 556 516, 490 588, 400 592 C 310 596, 272 500, 275 400 Z"
+        fill="none" stroke="#457B9D" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Contour level 7: Blue -->
+  <path d="M 308 400 C 308 312, 365 240, 400 236 C 435 232, 510 315, 514 400 C 518 498, 460 560, 400 564 C 340 568, 305 476, 308 400 Z"
+        fill="none" stroke="#1D3557" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Contour level 8: Warm Gray -->
+  <path d="M 340 400 C 340 336, 370 272, 400 268 C 430 264, 475 338, 478 400 C 481 468, 442 530, 400 534 C 358 538, 337 454, 340 400 Z"
+        fill="none" stroke="#A89F91" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Contour level 9: Sand -->
+  <path d="M 364 400 C 364 356, 380 308, 400 305 C 420 302, 446 360, 448 400 C 450 442, 422 490, 400 493 C 378 496, 362 440, 364 400 Z"
+        fill="none" stroke="#DDA15E" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Contour level 10: Coral/innermost -->
+  <path d="M 382 400 C 382 374, 390 346, 400 344 C 410 342, 422 372, 423 400 C 424 428, 412 455, 400 457 C 388 459, 381 424, 382 400 Z"
+        fill="#E9C46A" stroke="#DDA15E" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Summit fill -->
+  <ellipse cx="400" cy="400" rx="18" ry="22" fill="#E76F51" opacity="0.9"/>
+
+  <!-- Small triangular markers (survey markers) -->
+  <polygon points="150,250 160,270 140,270" fill="#264653" stroke="#000000" stroke-width="1"/>
+  <polygon points="640,180 650,200 630,200" fill="#264653" stroke="#000000" stroke-width="1"/>
+  <polygon points="680,580 690,600 670,600" fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+  <polygon points="110,560 120,580 100,580" fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+  <polygon points="300,680 310,700 290,700" fill="#457B9D" stroke="#000000" stroke-width="1"/>
+  <polygon points="500,100 510,120 490,120" fill="#457B9D" stroke="#000000" stroke-width="1"/>
+  <polygon points="720,350 730,370 710,370" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <polygon points="70,450 80,470 60,470" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+
+  <!-- Thin elevation tick marks -->
+  <line x1="80" y1="395" x2="100" y2="395" stroke="#264653" stroke-width="1" opacity="0.8"/>
+  <line x1="720" y1="395" x2="740" y2="395" stroke="#264653" stroke-width="1" opacity="0.8"/>
+  <line x1="395" y1="50" x2="395" y2="70" stroke="#264653" stroke-width="1" opacity="0.8"/>
+  <line x1="395" y1="730" x2="395" y2="750" stroke="#264653" stroke-width="1" opacity="0.8"/>
+  <line x1="160" y1="395" x2="178" y2="395" stroke="#2A9D8F" stroke-width="1" opacity="0.8"/>
+  <line x1="622" y1="395" x2="640" y2="395" stroke="#2A9D8F" stroke-width="1" opacity="0.8"/>
+  <line x1="395" y1="108" x2="395" y2="126" stroke="#2A9D8F" stroke-width="1" opacity="0.8"/>
+  <line x1="395" y1="660" x2="395" y2="678" stroke="#2A9D8F" stroke-width="1" opacity="0.8"/>
+
+  <!-- Corner frame markers -->
+  <rect x="10" y="10" width="25" height="4" fill="#264653" opacity="0.6"/>
+  <rect x="10" y="10" width="4" height="25" fill="#264653" opacity="0.6"/>
+  <rect x="765" y="10" width="25" height="4" fill="#264653" opacity="0.6"/>
+  <rect x="786" y="10" width="4" height="25" fill="#264653" opacity="0.6"/>
+  <rect x="10" y="786" width="25" height="4" fill="#264653" opacity="0.6"/>
+  <rect x="10" y="765" width="4" height="25" fill="#264653" opacity="0.6"/>
+  <rect x="765" y="786" width="25" height="4" fill="#264653" opacity="0.6"/>
+  <rect x="786" y="765" width="4" height="25" fill="#264653" opacity="0.6"/>
+</svg>

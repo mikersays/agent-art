@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- White background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- LEFT EDGE: Dense blue rectangles packed tight -->
+  <rect x="0" y="50" width="60" height="40" fill="#1D3557" opacity="0.9"/>
+  <rect x="10" y="100" width="70" height="35" fill="#1D3557" opacity="0.85"/>
+  <rect x="0" y="145" width="80" height="45" fill="#1D3557" opacity="0.8"/>
+  <rect x="5" y="200" width="90" height="38" fill="#1D3557" opacity="0.9"/>
+  <rect x="0" y="248" width="100" height="42" fill="#1D3557" opacity="0.75"/>
+  <rect x="10" y="300" width="110" height="50" fill="#1D3557" opacity="0.85"/>
+  <rect x="0" y="360" width="120" height="40" fill="#1D3557" opacity="0.8"/>
+  <rect x="5" y="410" width="130" height="45" fill="#1D3557" opacity="0.9"/>
+  <rect x="0" y="465" width="140" height="35" fill="#1D3557" opacity="0.7"/>
+  <rect x="10" y="510" width="130" height="48" fill="#1D3557" opacity="0.85"/>
+  <rect x="0" y="568" width="120" height="40" fill="#1D3557" opacity="0.8"/>
+  <rect x="5" y="618" width="100" height="42" fill="#1D3557" opacity="0.9"/>
+  <rect x="0" y="670" width="85" height="38" fill="#1D3557" opacity="0.75"/>
+  <rect x="10" y="718" width="70" height="35" fill="#1D3557" opacity="0.8"/>
+
+  <!-- TOP EDGE: Red circles overlapping -->
+  <circle cx="180" cy="30" r="35" fill="#E63946" opacity="0.85"/>
+  <circle cx="240" cy="20" r="40" fill="#E63946" opacity="0.8"/>
+  <circle cx="310" cy="35" r="38" fill="#E63946" opacity="0.75"/>
+  <circle cx="380" cy="25" r="42" fill="#E63946" opacity="0.85"/>
+  <circle cx="450" cy="30" r="36" fill="#E63946" opacity="0.8"/>
+  <circle cx="520" cy="20" r="40" fill="#E63946" opacity="0.7"/>
+  <circle cx="590" cy="35" r="38" fill="#E63946" opacity="0.85"/>
+  <circle cx="660" cy="25" r="35" fill="#E63946" opacity="0.75"/>
+  <circle cx="730" cy="30" r="40" fill="#E63946" opacity="0.8"/>
+
+  <!-- RIGHT EDGE: Yellow triangles -->
+  <polygon points="800,80 750,60 760,110" fill="#F4D35E" opacity="0.9"/>
+  <polygon points="800,160 740,140 755,190" fill="#F4D35E" opacity="0.85"/>
+  <polygon points="800,240 730,215 745,270" fill="#F4D35E" opacity="0.8"/>
+  <polygon points="800,320 720,300 740,350" fill="#F4D35E" opacity="0.9"/>
+  <polygon points="800,400 710,380 735,430" fill="#F4D35E" opacity="0.75"/>
+  <polygon points="800,480 720,460 740,510" fill="#F4D35E" opacity="0.85"/>
+  <polygon points="800,560 730,535 750,590" fill="#F4D35E" opacity="0.8"/>
+  <polygon points="800,640 740,620 755,670" fill="#F4D35E" opacity="0.9"/>
+  <polygon points="800,720 750,700 760,750" fill="#F4D35E" opacity="0.75"/>
+
+  <!-- BOTTOM EDGE: Teal and forest shapes -->
+  <rect x="100" y="740" width="50" height="60" fill="#2A9D8F" opacity="0.85"/>
+  <rect x="165" y="750" width="55" height="50" fill="#264653" opacity="0.9"/>
+  <rect x="235" y="735" width="60" height="65" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="310" y="745" width="50" height="55" fill="#264653" opacity="0.85"/>
+  <circle cx="400" cy="770" r="30" fill="#2A9D8F" opacity="0.75"/>
+  <rect x="445" y="740" width="55" height="60" fill="#264653" opacity="0.9"/>
+  <circle cx="540" cy="765" r="28" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="585" y="745" width="50" height="55" fill="#264653" opacity="0.85"/>
+  <rect x="650" y="735" width="60" height="65" fill="#2A9D8F" opacity="0.75"/>
+
+  <!-- Black dots defining the void boundary -->
+  <circle cx="140" cy="90" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="160" cy="150" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="170" cy="220" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="180" cy="310" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="190" cy="400" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="180" cy="490" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="165" cy="570" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="150" cy="650" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="140" cy="720" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="250" cy="80" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="400" cy="75" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="550" cy="80" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="690" cy="85" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="700" cy="200" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="690" cy="400" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="700" cy="600" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="680" cy="720" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="500" cy="725" r="4" fill="#000000" opacity="0.9"/>
+  <circle cx="300" cy="720" r="4" fill="#000000" opacity="0.9"/>
+
+  <!-- Cream center void reinforcement -->
+  <polygon points="190,100 300,80 450,78 600,85 690,100 700,250 695,400 700,550 690,700 600,720 450,725 300,720 160,700 150,550 155,400 150,250" fill="#FEFAE0" opacity="0.4"/>
+</svg>

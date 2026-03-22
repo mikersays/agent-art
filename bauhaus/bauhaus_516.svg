@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+  <!-- Large anchor triangle center-left -->
+  <polygon points="120,650 350,150 580,650" fill="#1D3557" opacity="0.85" stroke="#000000" stroke-width="2"/>
+  <!-- Warm triangles -->
+  <polygon points="50,50 200,50 125,180" fill="#E63946" opacity="0.7" stroke="#000" stroke-width="1"/>
+  <polygon points="500,80 680,80 590,230" fill="#F4D35E" opacity="0.8" stroke="#000" stroke-width="1"/>
+  <polygon points="600,300 750,400 620,500" fill="#E76F51" opacity="0.75" stroke="#000" stroke-width="1"/>
+  <polygon points="400,500 550,600 380,680" fill="#E63946" opacity="0.6" stroke="#000" stroke-width="1"/>
+  <!-- Cool triangles -->
+  <polygon points="30,400 150,300 170,500" fill="#2A9D8F" opacity="0.65" stroke="#000" stroke-width="1"/>
+  <polygon points="650,550 780,620 700,750" fill="#457B9D" opacity="0.7" stroke="#000" stroke-width="1"/>
+  <polygon points="300,30 420,100 280,130" fill="#A8DADC" opacity="0.6" stroke="#000" stroke-width="1"/>
+  <polygon points="550,450 700,500 600,580" fill="#264653" opacity="0.7" stroke="#000" stroke-width="1"/>
+  <!-- Small warm triangles -->
+  <polygon points="220,300 280,250 300,330" fill="#F4D35E" opacity="0.8" stroke="#000" stroke-width="0.5"/>
+  <polygon points="450,200 510,160 520,240" fill="#DDA15E" opacity="0.7" stroke="#000" stroke-width="0.5"/>
+  <polygon points="100,600 180,560 160,650" fill="#E9C46A" opacity="0.65" stroke="#000" stroke-width="0.5"/>
+  <polygon points="700,150 760,120 770,200" fill="#E63946" opacity="0.5" stroke="#000" stroke-width="0.5"/>
+  <!-- Small cool triangles -->
+  <polygon points="350,400 400,360 420,430" fill="#2A9D8F" opacity="0.5" stroke="#000" stroke-width="0.5"/>
+  <polygon points="50,250 100,200 120,280" fill="#457B9D" opacity="0.6" stroke="#000" stroke-width="0.5"/>
+  <polygon points="600,700 660,670 670,740" fill="#A8DADC" opacity="0.55" stroke="#000" stroke-width="0.5"/>
+  <!-- Overlapping translucent triangles -->
+  <polygon points="200,500 380,420 320,600" fill="#F4D35E" opacity="0.35" stroke="#000" stroke-width="1"/>
+  <polygon points="480,350 620,280 580,450" fill="#E63946" opacity="0.3" stroke="#000" stroke-width="1"/>
+  <polygon points="150,100 300,200 100,250" fill="#1D3557" opacity="0.25" stroke="#000" stroke-width="1"/>
+  <!-- Tiny triangles for texture -->
+  <polygon points="420,700 450,680 440,720" fill="#000000" opacity="0.8"/>
+  <polygon points="730,350 755,330 750,370" fill="#000000" opacity="0.7"/>
+  <polygon points="60,720 90,700 85,740" fill="#6D2E46" opacity="0.8"/>
+  <polygon points="500,600 530,580 525,620" fill="#1D3557" opacity="0.6"/>
+  <!-- Circles at triangle vertices -->
+  <circle cx="120" cy="650" r="6" fill="#000000" opacity="0.8"/>
+  <circle cx="350" cy="150" r="6" fill="#000000" opacity="0.8"/>
+  <circle cx="580" cy="650" r="6" fill="#000000" opacity="0.8"/>
+  <circle cx="50" cy="50" r="4" fill="#E63946"/>
+  <circle cx="200" cy="50" r="4" fill="#E63946"/>
+  <circle cx="125" cy="180" r="4" fill="#E63946"/>
+  <circle cx="500" cy="80" r="4" fill="#F4D35E"/>
+  <circle cx="680" cy="80" r="4" fill="#F4D35E"/>
+  <circle cx="590" cy="230" r="4" fill="#F4D35E"/>
+  <circle cx="600" cy="300" r="3" fill="#E76F51"/>
+  <circle cx="750" cy="400" r="3" fill="#E76F51"/>
+  <circle cx="30" cy="400" r="3" fill="#2A9D8F"/>
+  <circle cx="170" cy="500" r="3" fill="#2A9D8F"/>
+  <!-- Structural thin lines -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="800" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+</svg>

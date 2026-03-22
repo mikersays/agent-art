@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Grid lines at 0.05 opacity -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <!-- Upper-left triangle warm colors: orange rects, sand circles, coral polygons -->
+  <rect x="40" y="30" width="90" height="50" fill="#E76F51" opacity="0.8"/>
+  <rect x="160" y="80" width="70" height="35" fill="#E76F51" opacity="0.7"/>
+  <rect x="50" y="150" width="110" height="40" fill="#E76F51" opacity="0.75"/>
+  <rect x="250" y="50" width="55" height="65" fill="#E76F51" opacity="0.65"/>
+  <rect x="80" y="280" width="80" height="30" fill="#E76F51" opacity="0.7"/>
+  <circle cx="120" cy="100" r="22" fill="#DDA15E" opacity="0.8"/>
+  <circle cx="200" cy="180" r="18" fill="#DDA15E" opacity="0.75"/>
+  <circle cx="70" cy="230" r="25" fill="#DDA15E" opacity="0.7"/>
+  <circle cx="300" cy="130" r="15" fill="#DDA15E" opacity="0.8"/>
+  <circle cx="160" cy="320" r="20" fill="#DDA15E" opacity="0.65"/>
+  <polygon points="180,30 220,80 140,80" fill="#E9C46A" opacity="0.8"/>
+  <polygon points="320,100 370,180 270,180" fill="#E9C46A" opacity="0.7"/>
+  <polygon points="100,350 150,400 50,400" fill="#E9C46A" opacity="0.75"/>
+  <polygon points="30,180 80,220 10,240" fill="#E9C46A" opacity="0.65"/>
+  <!-- Lower-right triangle cool colors: blue rects, teal circles, forest polygons -->
+  <rect x="550" y="550" width="100" height="45" fill="#1D3557" opacity="0.8"/>
+  <rect x="620" y="650" width="80" height="55" fill="#1D3557" opacity="0.75"/>
+  <rect x="480" y="700" width="120" height="35" fill="#1D3557" opacity="0.7"/>
+  <rect x="700" y="520" width="60" height="80" fill="#1D3557" opacity="0.65"/>
+  <rect x="650" y="750" width="90" height="30" fill="#1D3557" opacity="0.8"/>
+  <circle cx="600" cy="620" r="24" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="720" cy="680" r="18" fill="#2A9D8F" opacity="0.75"/>
+  <circle cx="530" cy="750" r="22" fill="#2A9D8F" opacity="0.7"/>
+  <circle cx="680" cy="580" r="16" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="750" cy="760" r="20" fill="#2A9D8F" opacity="0.65"/>
+  <polygon points="580,480 630,540 530,540" fill="#264653" opacity="0.8"/>
+  <polygon points="700,620 750,700 650,700" fill="#264653" opacity="0.7"/>
+  <polygon points="500,650 550,710 450,710" fill="#264653" opacity="0.75"/>
+  <!-- Overlapping shapes at the diagonal crossing zone -->
+  <circle cx="420" cy="380" r="30" fill="#E76F51" opacity="0.2"/>
+  <circle cx="380" cy="420" r="28" fill="#1D3557" opacity="0.2"/>
+  <rect x="360" y="360" width="60" height="60" fill="#2A9D8F" opacity="0.15"/>
+  <rect x="390" y="390" width="50" height="50" fill="#DDA15E" opacity="0.15"/>
+  <!-- Bold diagonal line from top-left to bottom-right -->
+  <line x1="0" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="4"/>
+</svg>

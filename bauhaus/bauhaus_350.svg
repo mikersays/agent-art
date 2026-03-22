@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Cream background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Thin warm gray grid at 0.05 opacity -->
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#A89F91" stroke-width="0.5" opacity="0.05"/>
+  <!-- Corner accents in burgundy -->
+  <rect x="10" y="10" width="30" height="30" fill="#6D2E46" opacity="0.7"/>
+  <rect x="760" y="10" width="30" height="30" fill="#6D2E46" opacity="0.7"/>
+  <rect x="10" y="760" width="30" height="30" fill="#6D2E46" opacity="0.7"/>
+  <rect x="760" y="760" width="30" height="30" fill="#6D2E46" opacity="0.7"/>
+  <!-- Bold black structural lines framework -->
+  <line x1="150" y1="150" x2="650" y2="150" stroke="#000000" stroke-width="2.5"/>
+  <line x1="150" y1="650" x2="650" y2="650" stroke="#000000" stroke-width="2.5"/>
+  <line x1="150" y1="150" x2="150" y2="650" stroke="#000000" stroke-width="2.5"/>
+  <line x1="650" y1="150" x2="650" y2="650" stroke="#000000" stroke-width="2.5"/>
+  <line x1="150" y1="150" x2="650" y2="650" stroke="#000000" stroke-width="1.5" opacity="0.6"/>
+  <line x1="650" y1="150" x2="150" y2="650" stroke="#000000" stroke-width="1.5" opacity="0.6"/>
+  <!-- Central radiating composition - large shapes -->
+  <circle cx="400" cy="400" r="180" fill="#1D3557" opacity="0.4"/>
+  <circle cx="400" cy="400" r="120" fill="#457B9D" opacity="0.5"/>
+  <rect x="300" y="250" width="200" height="300" fill="#E63946" opacity="0.4"/>
+  <polygon points="400,200 520,400 280,400" fill="#F4D35E" opacity="0.5"/>
+  <polygon points="400,600 520,400 280,400" fill="#2A9D8F" opacity="0.45"/>
+  <!-- Overlapping shapes radiating outward -->
+  <rect x="180" y="300" width="100" height="60" fill="#E76F51" opacity="0.6"/>
+  <rect x="520" y="440" width="100" height="60" fill="#DDA15E" opacity="0.55"/>
+  <circle cx="300" cy="250" r="40" fill="#A8DADC" opacity="0.5"/>
+  <circle cx="500" cy="550" r="35" fill="#E9C46A" opacity="0.5"/>
+  <rect x="350" y="180" width="100" height="50" fill="#264653" opacity="0.6"/>
+  <rect x="350" y="570" width="100" height="50" fill="#FFFFFF" opacity="0.6"/>
+  <polygon points="200,500 250,450 250,550" fill="#6D2E46" opacity="0.5"/>
+  <polygon points="600,300 550,250 550,350" fill="#F4D35E" opacity="0.5"/>
+  <!-- More overlapping shapes -->
+  <circle cx="250" cy="400" r="50" fill="#E63946" opacity="0.35"/>
+  <circle cx="550" cy="400" r="50" fill="#2A9D8F" opacity="0.35"/>
+  <rect x="370" y="350" width="60" height="100" fill="#000000" opacity="0.5"/>
+  <circle cx="400" cy="400" r="30" fill="#FEFAE0" opacity="0.7"/>
+  <rect x="440" y="280" width="80" height="40" fill="#A89F91" opacity="0.5"/>
+  <rect x="280" y="480" width="80" height="40" fill="#E76F51" opacity="0.5"/>
+  <!-- Outer accent shapes -->
+  <circle cx="180" cy="180" r="20" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="620" cy="620" r="20" fill="#E63946" opacity="0.6"/>
+  <circle cx="620" cy="180" r="15" fill="#2A9D8F" opacity="0.5"/>
+  <circle cx="180" cy="620" r="15" fill="#E76F51" opacity="0.5"/>
+  <polygon points="400,160 415,130 385,130" fill="#E9C46A" opacity="0.7"/>
+  <polygon points="400,640 415,670 385,670" fill="#457B9D" opacity="0.7"/>
+  <rect x="155" y="390" width="30" height="20" fill="#DDA15E" opacity="0.6"/>
+  <rect x="615" y="390" width="30" height="20" fill="#A8DADC" opacity="0.6"/>
+  <polygon points="250,200 270,220 230,220" fill="#264653" opacity="0.6"/>
+  <polygon points="550,580 570,600 530,600" fill="#1D3557" opacity="0.6"/>
+</svg>

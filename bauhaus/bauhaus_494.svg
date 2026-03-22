@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Upper-left background (warm) -->
+  <polygon points="0,0 800,0 0,800" fill="#FEFAE0"/>
+  <!-- Lower-right background (cool) -->
+  <polygon points="800,0 800,800 0,800" fill="#FFFFFF"/>
+  <!-- Bold diagonal split line -->
+  <line x1="800" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="4"/>
+  <!-- === WARM SIDE (upper-left) === -->
+  <!-- Red shapes -->
+  <circle cx="150" cy="150" r="55" fill="#E63946" opacity="0.8"/>
+  <rect x="50" y="300" width="80" height="50" fill="#E63946" opacity="0.7"/>
+  <circle cx="350" cy="100" r="30" fill="#E63946" opacity="0.6"/>
+  <!-- Yellow shapes -->
+  <rect x="200" y="200" width="100" height="60" fill="#F4D35E" opacity="0.75"/>
+  <polygon points="80,80 130,80 105,40" fill="#F4D35E" opacity="0.8"/>
+  <rect x="320" y="220" width="50" height="50" fill="#F4D35E" opacity="0.6"/>
+  <!-- Orange shapes -->
+  <circle cx="250" cy="100" r="25" fill="#E76F51" opacity="0.7"/>
+  <rect x="100" y="220" width="45" height="70" fill="#E76F51" opacity="0.65"/>
+  <polygon points="400,150 430,190 370,190" fill="#E76F51" opacity="0.7"/>
+  <!-- Sand shapes -->
+  <rect x="180" y="350" width="70" height="30" fill="#DDA15E" opacity="0.5"/>
+  <circle cx="80" cy="450" r="20" fill="#DDA15E" opacity="0.45"/>
+  <!-- Coral accents -->
+  <circle cx="300" cy="300" r="18" fill="#E9C46A" opacity="0.6"/>
+  <rect x="30" y="180" width="30" height="30" fill="#E9C46A" opacity="0.55"/>
+  <!-- === COOL SIDE (lower-right) === -->
+  <!-- Blue shapes -->
+  <circle cx="650" cy="650" r="55" fill="#1D3557" opacity="0.8"/>
+  <rect x="550" y="500" width="80" height="50" fill="#1D3557" opacity="0.7"/>
+  <circle cx="500" cy="700" r="30" fill="#1D3557" opacity="0.6"/>
+  <!-- Teal shapes -->
+  <rect x="580" y="600" width="60" height="80" fill="#2A9D8F" opacity="0.7"/>
+  <polygon points="700,720 750,720 725,680" fill="#2A9D8F" opacity="0.75"/>
+  <circle cx="480" cy="580" r="22" fill="#2A9D8F" opacity="0.6"/>
+  <!-- Steel Blue shapes -->
+  <rect x="650" y="450" width="90" height="40" fill="#457B9D" opacity="0.7"/>
+  <circle cx="550" cy="650" r="28" fill="#457B9D" opacity="0.55"/>
+  <polygon points="720,550 750,590 690,590" fill="#457B9D" opacity="0.65"/>
+  <!-- Forest shapes -->
+  <rect x="500" y="600" width="40" height="60" fill="#264653" opacity="0.6"/>
+  <circle cx="700" cy="400" r="18" fill="#264653" opacity="0.5"/>
+  <!-- Light Blue accents -->
+  <circle cx="600" cy="550" r="20" fill="#A8DADC" opacity="0.5"/>
+  <rect x="680" y="650" width="35" height="35" fill="#A8DADC" opacity="0.45"/>
+  <!-- === SHAPES CROSSING THE BOUNDARY DEFIANTLY === -->
+  <!-- Red circle crossing into cool side -->
+  <circle cx="380" cy="420" r="35" fill="#E63946" opacity="0.75"/>
+  <!-- Blue rectangle crossing into warm side -->
+  <rect x="420" y="320" width="70" height="40" fill="#1D3557" opacity="0.7"/>
+  <!-- Teal triangle straddling the line -->
+  <polygon points="500,350 540,300 460,300" fill="#2A9D8F" opacity="0.65"/>
+  <!-- Yellow circle crossing into cool -->
+  <circle cx="300" cy="500" r="22" fill="#F4D35E" opacity="0.7"/>
+  <!-- Small black accent shapes along the divide -->
+  <circle cx="200" cy="600" r="6" fill="#000000" opacity="0.5"/>
+  <circle cx="600" cy="200" r="6" fill="#000000" opacity="0.5"/>
+  <rect x="395" y="395" width="10" height="10" fill="#000000" opacity="0.6"/>
+  <!-- Subtle structural lines -->
+  <line x1="0" y1="400" x2="400" y2="400" stroke="#A89F91" stroke-width="0.8" opacity="0.2"/>
+  <line x1="400" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.8" opacity="0.2"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.8" opacity="0.15"/>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Concentric squares, each progressively rotated -->
+  <!-- Square 1 (outermost) - Blue, size 700, rotation 0 -->
+  <rect x="50" y="50" width="700" height="700" fill="none" stroke="#1D3557" stroke-width="3" transform="rotate(0, 400, 400)" opacity="0.9"/>
+
+  <!-- Square 2 - Red, size 600, rotation 6 -->
+  <rect x="100" y="100" width="600" height="600" fill="none" stroke="#E63946" stroke-width="3" transform="rotate(6, 400, 400)" opacity="0.85"/>
+
+  <!-- Square 3 - Yellow, size 500, rotation 12 -->
+  <rect x="150" y="150" width="500" height="500" fill="#F4D35E" fill-opacity="0.15" stroke="#F4D35E" stroke-width="3" transform="rotate(12, 400, 400)" opacity="0.9"/>
+
+  <!-- Square 4 - Teal, size 400, rotation 19 -->
+  <rect x="200" y="200" width="400" height="400" fill="#2A9D8F" fill-opacity="0.1" stroke="#2A9D8F" stroke-width="3" transform="rotate(19, 400, 400)" opacity="0.85"/>
+
+  <!-- Square 5 - Blue, size 300, rotation 27 -->
+  <rect x="250" y="250" width="300" height="300" fill="#1D3557" fill-opacity="0.12" stroke="#1D3557" stroke-width="2.5" transform="rotate(27, 400, 400)" opacity="0.8"/>
+
+  <!-- Square 6 - Red, size 200, rotation 34 -->
+  <rect x="300" y="300" width="200" height="200" fill="#E63946" fill-opacity="0.15" stroke="#E63946" stroke-width="2.5" transform="rotate(34, 400, 400)" opacity="0.85"/>
+
+  <!-- Square 7 - Yellow, size 120, rotation 40 -->
+  <rect x="340" y="340" width="120" height="120" fill="#F4D35E" fill-opacity="0.25" stroke="#F4D35E" stroke-width="2" transform="rotate(40, 400, 400)" opacity="0.9"/>
+
+  <!-- Square 8 (innermost) - Black, size 60, rotation 45 -->
+  <rect x="370" y="370" width="60" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="rotate(45, 400, 400)"/>
+
+  <!-- Corner accent circles - top left -->
+  <circle cx="50" cy="50" r="12" fill="#E63946" opacity="0.7"/>
+  <circle cx="90" cy="50" r="6" fill="#1D3557" opacity="0.6"/>
+  <circle cx="50" cy="90" r="6" fill="#F4D35E" opacity="0.6"/>
+
+  <!-- Corner accent circles - top right -->
+  <circle cx="750" cy="50" r="12" fill="#2A9D8F" opacity="0.7"/>
+  <circle cx="710" cy="50" r="6" fill="#E63946" opacity="0.6"/>
+  <circle cx="750" cy="90" r="6" fill="#1D3557" opacity="0.6"/>
+
+  <!-- Corner accent circles - bottom left -->
+  <circle cx="50" cy="750" r="12" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="90" cy="750" r="6" fill="#2A9D8F" opacity="0.6"/>
+  <circle cx="50" cy="710" r="6" fill="#E63946" opacity="0.6"/>
+
+  <!-- Corner accent circles - bottom right -->
+  <circle cx="750" cy="750" r="12" fill="#1D3557" opacity="0.7"/>
+  <circle cx="710" cy="750" r="6" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="750" cy="710" r="6" fill="#2A9D8F" opacity="0.6"/>
+
+  <!-- Additional small accent shapes -->
+  <circle cx="400" cy="130" r="5" fill="#E63946" opacity="0.5"/>
+  <circle cx="400" cy="670" r="5" fill="#1D3557" opacity="0.5"/>
+  <circle cx="130" cy="400" r="5" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="670" cy="400" r="5" fill="#2A9D8F" opacity="0.5"/>
+
+  <!-- Diagonal accent lines -->
+  <line x1="60" y1="60" x2="120" y2="120" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="740" y1="60" x2="680" y2="120" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="60" y1="740" x2="120" y2="680" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="740" y1="740" x2="680" y2="680" stroke="#000000" stroke-width="1" opacity="0.2"/>
+</svg>

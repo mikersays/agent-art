@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+  <!-- Large warm gray background shapes -->
+  <rect x="50" y="80" width="300" height="250" fill="#A89F91" opacity="0.08" rx="0"/>
+  <rect x="400" y="500" width="350" height="220" fill="#A89F91" opacity="0.06"/>
+  <circle cx="600" cy="200" r="160" fill="#FEFAE0" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <!-- Connecting curved paths -->
+  <path d="M 150 200 Q 250 150 350 300" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.25"/>
+  <path d="M 350 300 Q 400 400 500 380" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <path d="M 500 380 Q 600 350 650 500" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.25"/>
+  <path d="M 200 550 Q 300 500 400 600" fill="none" stroke="#A89F91" stroke-width="0.8" opacity="0.2"/>
+  <path d="M 100 400 Q 180 350 250 450" fill="none" stroke="#DDA15E" stroke-width="0.8" opacity="0.2"/>
+  <path d="M 550 150 Q 620 200 680 120" fill="none" stroke="#A89F91" stroke-width="0.8" opacity="0.2"/>
+  <!-- Scattered seeds - Cluster 1 (top-left area) -->
+  <ellipse cx="120" cy="180" rx="18" ry="12" fill="#E63946" opacity="0.75" transform="rotate(-20 120 180)"/>
+  <circle cx="160" cy="210" r="8" fill="#1D3557" opacity="0.7"/>
+  <ellipse cx="140" cy="240" rx="10" ry="6" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="100" cy="220" r="5" fill="#2A9D8F" opacity="0.65"/>
+  <ellipse cx="180" cy="170" rx="6" ry="10" fill="#E76F51" opacity="0.7" transform="rotate(30 180 170)"/>
+  <!-- Cluster 2 (center area) -->
+  <ellipse cx="380" cy="350" rx="22" ry="14" fill="#1D3557" opacity="0.7" transform="rotate(15 380 350)"/>
+  <circle cx="420" cy="380" r="12" fill="#E63946" opacity="0.65"/>
+  <ellipse cx="360" cy="390" rx="8" ry="14" fill="#F4D35E" opacity="0.75" transform="rotate(-10 360 390)"/>
+  <circle cx="400" cy="320" r="6" fill="#2A9D8F" opacity="0.7"/>
+  <ellipse cx="440" cy="350" rx="10" ry="7" fill="#E9C46A" opacity="0.7" transform="rotate(45 440 350)"/>
+  <circle cx="350" cy="330" r="4" fill="#6D2E46" opacity="0.6"/>
+  <!-- Cluster 3 (bottom-right area) -->
+  <ellipse cx="620" cy="560" rx="20" ry="13" fill="#2A9D8F" opacity="0.75" transform="rotate(-35 620 560)"/>
+  <circle cx="660" cy="590" r="10" fill="#E76F51" opacity="0.7"/>
+  <ellipse cx="640" cy="530" rx="7" ry="12" fill="#1D3557" opacity="0.65" transform="rotate(20 640 530)"/>
+  <circle cx="590" cy="580" r="6" fill="#F4D35E" opacity="0.8"/>
+  <ellipse cx="680" cy="550" rx="12" ry="8" fill="#E63946" opacity="0.6" transform="rotate(-15 680 550)"/>
+  <!-- Isolated seeds scattered -->
+  <circle cx="550" cy="150" r="9" fill="#E63946" opacity="0.6"/>
+  <ellipse cx="700" cy="300" rx="14" ry="9" fill="#457B9D" opacity="0.65" transform="rotate(25 700 300)"/>
+  <circle cx="80" cy="500" r="7" fill="#F4D35E" opacity="0.7"/>
+  <ellipse cx="300" cy="600" rx="11" ry="7" fill="#264653" opacity="0.6" transform="rotate(-40 300 600)"/>
+  <circle cx="480" cy="200" r="5" fill="#DDA15E" opacity="0.7"/>
+  <ellipse cx="200" cy="450" rx="9" ry="15" fill="#A8DADC" opacity="0.6" transform="rotate(10 200 450)"/>
+  <circle cx="730" cy="420" r="6" fill="#6D2E46" opacity="0.55"/>
+  <ellipse cx="320" cy="120" rx="13" ry="8" fill="#2A9D8F" opacity="0.6" transform="rotate(-25 320 120)"/>
+  <circle cx="500" cy="680" r="11" fill="#E76F51" opacity="0.65"/>
+  <ellipse cx="150" cy="650" rx="8" ry="13" fill="#457B9D" opacity="0.55" transform="rotate(35 150 650)"/>
+  <circle cx="680" cy="100" r="4" fill="#000000" opacity="0.5"/>
+  <ellipse cx="50" cy="350" rx="6" ry="10" fill="#DDA15E" opacity="0.6" transform="rotate(-50 50 350)"/>
+  <circle cx="760" cy="680" r="8" fill="#A8DADC" opacity="0.5"/>
+  <ellipse cx="450" cy="520" rx="16" ry="10" fill="#E9C46A" opacity="0.6" transform="rotate(15 450 520)"/>
+  <circle cx="250" cy="290" r="3" fill="#000000" opacity="0.45"/>
+  <!-- Small cluster (top-right) -->
+  <circle cx="620" cy="80" r="7" fill="#F4D35E" opacity="0.7"/>
+  <ellipse cx="650" cy="100" rx="10" ry="6" fill="#1D3557" opacity="0.6" transform="rotate(20 650 100)"/>
+  <circle cx="600" cy="110" r="4" fill="#E63946" opacity="0.65"/>
+  <!-- Corner accents -->
+  <rect x="25" y="25" width="10" height="10" fill="#1D3557" opacity="0.2"/>
+  <rect x="765" y="765" width="10" height="10" fill="#E63946" opacity="0.2"/>
+</svg>

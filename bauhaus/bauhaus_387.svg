@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Subtle structural grid -->
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Plate 1: Blue (bottom layer, largest) -->
+  <rect x="60" y="80" width="320" height="420" fill="#1D3557" opacity="0.7" transform="rotate(-3 220 290)"/>
+  <rect x="60" y="80" width="320" height="420" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4" transform="rotate(-3 220 290)"/>
+
+  <!-- Plate 2: Red -->
+  <rect x="250" y="150" width="280" height="380" fill="#E63946" opacity="0.55" transform="rotate(2 390 340)"/>
+  <rect x="250" y="150" width="280" height="380" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4" transform="rotate(2 390 340)"/>
+
+  <!-- Plate 3: Cream/White -->
+  <rect x="180" y="320" width="300" height="350" fill="#FFFFFF" opacity="0.65" transform="rotate(-1 330 495)"/>
+  <rect x="180" y="320" width="300" height="350" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4" transform="rotate(-1 330 495)"/>
+
+  <!-- Plate 4: Forest -->
+  <rect x="420" y="250" width="310" height="400" fill="#264653" opacity="0.6" transform="rotate(4 575 450)"/>
+  <rect x="420" y="250" width="310" height="400" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4" transform="rotate(4 575 450)"/>
+
+  <!-- Plate 5: Steel Blue (top) -->
+  <rect x="340" y="430" width="260" height="300" fill="#457B9D" opacity="0.5" transform="rotate(-2 470 580)"/>
+  <rect x="340" y="430" width="260" height="300" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4" transform="rotate(-2 470 580)"/>
+
+  <!-- Small shapes in gaps -->
+  <!-- Orange circles -->
+  <circle cx="140" cy="550" r="15" fill="#E76F51" opacity="0.8"/>
+  <circle cx="680" cy="180" r="12" fill="#E76F51" opacity="0.7"/>
+  <circle cx="710" cy="700" r="18" fill="#E76F51" opacity="0.6"/>
+
+  <!-- Yellow squares -->
+  <rect x="90" y="640" width="25" height="25" fill="#F4D35E" opacity="0.85" transform="rotate(15 102 652)"/>
+  <rect x="640" y="120" width="20" height="20" fill="#F4D35E" opacity="0.8" transform="rotate(-10 650 130)"/>
+  <rect x="560" y="710" width="22" height="22" fill="#F4D35E" opacity="0.7"/>
+
+  <!-- Small accent triangles -->
+  <polygon points="720,300 740,340 700,340" fill="#F4D35E" opacity="0.6"/>
+  <polygon points="50,720 70,760 30,760" fill="#E76F51" opacity="0.5"/>
+
+  <!-- Tiny circles scattered -->
+  <circle cx="750" cy="50" r="6" fill="#E63946" opacity="0.4"/>
+  <circle cx="30" cy="30" r="8" fill="#1D3557" opacity="0.3"/>
+  <circle cx="770" cy="770" r="7" fill="#264653" opacity="0.4"/>
+
+  <!-- Black accent lines along plate edges -->
+  <line x1="60" y1="500" x2="180" y2="500" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="530" y1="250" x2="530" y2="430" stroke="#000000" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Small rectangles as debris -->
+  <rect x="660" y="640" width="40" height="12" fill="#DDA15E" opacity="0.6" transform="rotate(20 680 646)"/>
+  <rect x="30" y="400" width="35" height="10" fill="#2A9D8F" opacity="0.5" transform="rotate(-8 47 405)"/>
+
+  <!-- Corner frame accents -->
+  <line x1="15" y1="15" x2="80" y2="15" stroke="#000000" stroke-width="2" opacity="0.15"/>
+  <line x1="15" y1="15" x2="15" y2="80" stroke="#000000" stroke-width="2" opacity="0.15"/>
+  <line x1="785" y1="785" x2="720" y2="785" stroke="#000000" stroke-width="2" opacity="0.15"/>
+  <line x1="785" y1="785" x2="785" y2="720" stroke="#000000" stroke-width="2" opacity="0.15"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Cream background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Large blue triangle at 0.4 opacity -->
+  <polygon points="100,700 400,100 700,700" fill="#1D3557" opacity="0.4"/>
+  <!-- Black lines tracing main triangle edges -->
+  <line x1="100" y1="700" x2="400" y2="100" stroke="#000000" stroke-width="3"/>
+  <line x1="400" y1="100" x2="700" y2="700" stroke="#000000" stroke-width="3"/>
+  <line x1="700" y1="700" x2="100" y2="700" stroke="#000000" stroke-width="3"/>
+  <!-- Inner red triangle, slightly rotated -->
+  <polygon points="280,600 400,280 520,600" fill="#E63946" opacity="0.5"/>
+  <!-- Inner yellow triangle -->
+  <polygon points="350,550 430,350 500,550" fill="#F4D35E" opacity="0.6"/>
+  <!-- Inner teal triangle, rotated differently -->
+  <polygon points="320,500 400,320 480,500" fill="#2A9D8F" opacity="0.4" transform="rotate(8 400 410)"/>
+  <!-- Small inverted triangle -->
+  <polygon points="370,450 430,450 400,380" fill="#E63946" opacity="0.7"/>
+  <!-- Tiny triangles scattered inside -->
+  <polygon points="250,650 280,600 310,650" fill="#F4D35E" opacity="0.5"/>
+  <polygon points="490,650 520,600 550,650" fill="#2A9D8F" opacity="0.5"/>
+  <polygon points="380,250 400,200 420,250" fill="#E76F51" opacity="0.6"/>
+  <!-- Outside shapes: rectangles -->
+  <rect x="30" y="100" width="50" height="180" fill="#264653" opacity="0.6"/>
+  <rect x="720" y="150" width="55" height="150" fill="#6D2E46" opacity="0.5"/>
+  <rect x="50" y="750" width="200" height="30" fill="#264653" opacity="0.4"/>
+  <rect x="600" y="750" width="160" height="25" fill="#DDA15E" opacity="0.5"/>
+  <!-- Outside shapes: circles -->
+  <circle cx="60" cy="400" r="30" fill="#6D2E46" opacity="0.5"/>
+  <circle cx="750" cy="450" r="25" fill="#264653" opacity="0.5"/>
+  <circle cx="400" cy="770" r="20" fill="#DDA15E" opacity="0.6"/>
+  <circle cx="80" cy="50" r="18" fill="#457B9D" opacity="0.4"/>
+  <circle cx="720" cy="60" r="22" fill="#E76F51" opacity="0.4"/>
+  <!-- Orange dots at triangle vertices -->
+  <circle cx="100" cy="700" r="8" fill="#E76F51"/>
+  <circle cx="400" cy="100" r="8" fill="#E76F51"/>
+  <circle cx="700" cy="700" r="8" fill="#E76F51"/>
+  <!-- Inner triangle vertex dots -->
+  <circle cx="280" cy="600" r="5" fill="#E76F51" opacity="0.8"/>
+  <circle cx="400" cy="280" r="5" fill="#E76F51" opacity="0.8"/>
+  <circle cx="520" cy="600" r="5" fill="#E76F51" opacity="0.8"/>
+  <!-- Structural lines outside -->
+  <line x1="30" y1="30" x2="30" y2="770" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="770" y1="30" x2="770" y2="770" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="30" y1="30" x2="770" y2="30" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <!-- Corner accents -->
+  <rect x="10" y="10" width="15" height="15" fill="#000000" opacity="0.3"/>
+  <rect x="775" y="10" width="15" height="15" fill="#000000" opacity="0.3"/>
+  <rect x="10" y="775" width="15" height="15" fill="#000000" opacity="0.3"/>
+  <rect x="775" y="775" width="15" height="15" fill="#000000" opacity="0.3"/>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Horizontal bands in red, blue, yellow at 0.5 opacity -->
+  <rect x="0" y="0" width="800" height="40" fill="#E63946" opacity="0.5"/>
+  <rect x="0" y="80" width="800" height="40" fill="#1D3557" opacity="0.5"/>
+  <rect x="0" y="160" width="800" height="40" fill="#F4D35E" opacity="0.5"/>
+  <rect x="0" y="240" width="800" height="40" fill="#E63946" opacity="0.5"/>
+  <rect x="0" y="320" width="800" height="40" fill="#1D3557" opacity="0.5"/>
+  <rect x="0" y="400" width="800" height="40" fill="#F4D35E" opacity="0.5"/>
+  <rect x="0" y="480" width="800" height="40" fill="#E63946" opacity="0.5"/>
+  <rect x="0" y="560" width="800" height="40" fill="#1D3557" opacity="0.5"/>
+  <rect x="0" y="640" width="800" height="40" fill="#F4D35E" opacity="0.5"/>
+  <rect x="0" y="720" width="800" height="40" fill="#E63946" opacity="0.5"/>
+  <!-- Vertical bands in teal, forest, steel blue at 0.5 opacity -->
+  <rect x="0" y="0" width="40" height="800" fill="#2A9D8F" opacity="0.5"/>
+  <rect x="80" y="0" width="40" height="800" fill="#264653" opacity="0.5"/>
+  <rect x="160" y="0" width="40" height="800" fill="#457B9D" opacity="0.5"/>
+  <rect x="240" y="0" width="40" height="800" fill="#2A9D8F" opacity="0.5"/>
+  <rect x="320" y="0" width="40" height="800" fill="#264653" opacity="0.5"/>
+  <rect x="400" y="0" width="40" height="800" fill="#457B9D" opacity="0.5"/>
+  <rect x="480" y="0" width="40" height="800" fill="#2A9D8F" opacity="0.5"/>
+  <rect x="560" y="0" width="40" height="800" fill="#264653" opacity="0.5"/>
+  <rect x="640" y="0" width="40" height="800" fill="#457B9D" opacity="0.5"/>
+  <rect x="720" y="0" width="40" height="800" fill="#2A9D8F" opacity="0.5"/>
+  <!-- Large white circle at center creating a "hole" -->
+  <circle cx="400" cy="400" r="100" fill="#FFFFFF" opacity="0.95"/>
+  <!-- Warm gray accent ring around the hole -->
+  <circle cx="400" cy="400" r="105" fill="none" stroke="#A89F91" stroke-width="3" opacity="0.6"/>
+  <!-- Small coral squares at regular intervals -->
+  <rect x="57" y="57" width="6" height="6" fill="#E9C46A"/>
+  <rect x="137" y="57" width="6" height="6" fill="#E9C46A"/>
+  <rect x="217" y="57" width="6" height="6" fill="#E9C46A"/>
+  <rect x="297" y="57" width="6" height="6" fill="#E9C46A"/>
+  <rect x="457" y="57" width="6" height="6" fill="#E9C46A"/>
+  <rect x="537" y="57" width="6" height="6" fill="#E9C46A"/>
+  <rect x="617" y="57" width="6" height="6" fill="#E9C46A"/>
+  <rect x="697" y="57" width="6" height="6" fill="#E9C46A"/>
+  <rect x="57" y="297" width="6" height="6" fill="#E9C46A"/>
+  <rect x="137" y="297" width="6" height="6" fill="#E9C46A"/>
+  <rect x="697" y="297" width="6" height="6" fill="#E9C46A"/>
+  <rect x="617" y="297" width="6" height="6" fill="#E9C46A"/>
+  <rect x="57" y="537" width="6" height="6" fill="#E9C46A"/>
+  <rect x="137" y="537" width="6" height="6" fill="#E9C46A"/>
+  <rect x="617" y="537" width="6" height="6" fill="#E9C46A"/>
+  <rect x="697" y="537" width="6" height="6" fill="#E9C46A"/>
+  <rect x="57" y="697" width="6" height="6" fill="#E9C46A"/>
+  <rect x="137" y="697" width="6" height="6" fill="#E9C46A"/>
+  <rect x="297" y="697" width="6" height="6" fill="#E9C46A"/>
+  <rect x="457" y="697" width="6" height="6" fill="#E9C46A"/>
+  <rect x="537" y="697" width="6" height="6" fill="#E9C46A"/>
+  <rect x="617" y="697" width="6" height="6" fill="#E9C46A"/>
+  <rect x="697" y="697" width="6" height="6" fill="#E9C46A"/>
+  <!-- Black border -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000000" stroke-width="5"/>
+</svg>

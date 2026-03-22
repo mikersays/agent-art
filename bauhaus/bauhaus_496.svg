@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Perspective lines converging to vanishing point at upper-right (700, 120) -->
+  <line x1="0" y1="800" x2="700" y2="120" stroke="#000000" stroke-width="2.5" opacity="0.7"/>
+  <line x1="0" y1="650" x2="700" y2="120" stroke="#A89F91" stroke-width="2" opacity="0.5"/>
+  <line x1="0" y1="500" x2="700" y2="120" stroke="#457B9D" stroke-width="1.5" opacity="0.6"/>
+  <line x1="0" y1="350" x2="700" y2="120" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <line x1="0" y1="200" x2="700" y2="120" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
+  <line x1="100" y1="800" x2="700" y2="120" stroke="#457B9D" stroke-width="2" opacity="0.5"/>
+  <line x1="250" y1="800" x2="700" y2="120" stroke="#000000" stroke-width="1.8" opacity="0.6"/>
+  <line x1="400" y1="800" x2="700" y2="120" stroke="#A89F91" stroke-width="1.5" opacity="0.45"/>
+  <line x1="550" y1="800" x2="700" y2="120" stroke="#457B9D" stroke-width="1.2" opacity="0.5"/>
+  <line x1="700" y1="800" x2="700" y2="120" stroke="#000000" stroke-width="2" opacity="0.4"/>
+  <line x1="200" y1="0" x2="700" y2="120" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
+  <line x1="400" y1="0" x2="700" y2="120" stroke="#457B9D" stroke-width="1" opacity="0.3"/>
+  <!-- Large red rectangle foreground lower-left -->
+  <rect x="30" y="480" width="320" height="280" fill="#E63946" opacity="0.9"/>
+  <!-- Blue shapes diminishing toward vanishing point -->
+  <rect x="200" y="350" width="160" height="120" fill="#1D3557" opacity="0.85"/>
+  <rect x="380" y="280" width="100" height="75" fill="#1D3557" opacity="0.7"/>
+  <rect x="500" y="220" width="60" height="45" fill="#1D3557" opacity="0.55"/>
+  <rect x="580" y="180" width="35" height="26" fill="#1D3557" opacity="0.4"/>
+  <rect x="630" y="155" width="20" height="15" fill="#1D3557" opacity="0.3"/>
+  <!-- Yellow shapes diminishing toward vanishing point -->
+  <rect x="100" y="600" width="140" height="90" fill="#F4D35E" opacity="0.85"/>
+  <rect x="300" y="450" width="90" height="58" fill="#F4D35E" opacity="0.7"/>
+  <rect x="440" y="340" width="55" height="35" fill="#F4D35E" opacity="0.55"/>
+  <rect x="540" y="260" width="32" height="20" fill="#F4D35E" opacity="0.4"/>
+  <rect x="610" y="200" width="18" height="12" fill="#F4D35E" opacity="0.3"/>
+  <!-- Teal circle at vanishing point -->
+  <circle cx="700" cy="120" r="25" fill="#2A9D8F" opacity="0.9"/>
+  <circle cx="700" cy="120" r="12" fill="#FFFFFF" opacity="0.6"/>
+  <!-- Orange triangles along perspective lines -->
+  <polygon points="150,700 190,700 170,660" fill="#E76F51" opacity="0.8"/>
+  <polygon points="320,550 350,550 335,520" fill="#E76F51" opacity="0.7"/>
+  <polygon points="450,400 470,400 460,375" fill="#E76F51" opacity="0.6"/>
+  <polygon points="550,300 565,300 557,282" fill="#E76F51" opacity="0.5"/>
+  <polygon points="620,230 632,230 626,216" fill="#E76F51" opacity="0.4"/>
+  <polygon points="80,750 130,750 105,710" fill="#E76F51" opacity="0.75"/>
+  <!-- Forest green shapes in far distance area -->
+  <rect x="640" y="140" width="15" height="10" fill="#264653" opacity="0.5"/>
+  <rect x="660" y="100" width="12" height="8" fill="#264653" opacity="0.4"/>
+  <circle cx="720" cy="95" r="8" fill="#264653" opacity="0.45"/>
+  <rect x="710" y="140" width="14" height="9" fill="#264653" opacity="0.35"/>
+  <circle cx="680" cy="80" r="6" fill="#264653" opacity="0.3"/>
+  <!-- Warm gray structural shapes -->
+  <rect x="50" y="200" width="80" height="60" fill="#A89F91" opacity="0.3"/>
+  <rect x="600" y="400" width="120" height="80" fill="#A89F91" opacity="0.15"/>
+  <!-- Steel blue accents -->
+  <circle cx="350" cy="200" r="30" fill="#457B9D" opacity="0.4"/>
+  <rect x="500" y="500" width="70" height="50" fill="#457B9D" opacity="0.25"/>
+  <!-- Black structural elements -->
+  <line x1="30" y1="480" x2="350" y2="480" stroke="#000000" stroke-width="3" opacity="0.8"/>
+  <line x1="30" y1="760" x2="350" y2="760" stroke="#000000" stroke-width="3" opacity="0.8"/>
+  <rect x="680" y="108" width="40" height="24" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <!-- Additional depth lines -->
+  <line x1="0" y1="100" x2="700" y2="120" stroke="#000000" stroke-width="0.8" opacity="0.25"/>
+  <line x1="800" y1="800" x2="700" y2="120" stroke="#A89F91" stroke-width="1.5" opacity="0.3"/>
+  <line x1="800" y1="600" x2="700" y2="120" stroke="#457B9D" stroke-width="1" opacity="0.25"/>
+  <line x1="800" y1="400" x2="700" y2="120" stroke="#000000" stroke-width="0.8" opacity="0.2"/>
+</svg>

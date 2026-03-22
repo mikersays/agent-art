@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background: Warm gray base -->
+  <rect x="0" y="0" width="800" height="800" fill="#A89F91"/>
+  <!-- Rhythmic vertical bars of varying blue widths -->
+  <rect x="0" y="0" width="35" height="800" fill="#1D3557" opacity="0.9"/>
+  <rect x="45" y="0" width="18" height="800" fill="#457B9D" opacity="0.7"/>
+  <rect x="75" y="0" width="50" height="800" fill="#264653" opacity="0.85"/>
+  <rect x="135" y="0" width="12" height="800" fill="#A8DADC" opacity="0.6"/>
+  <rect x="160" y="0" width="40" height="800" fill="#1D3557" opacity="0.75"/>
+  <rect x="215" y="0" width="25" height="800" fill="#457B9D" opacity="0.8"/>
+  <rect x="255" y="0" width="8" height="800" fill="#A8DADC" opacity="0.5"/>
+  <rect x="275" y="0" width="55" height="800" fill="#264653" opacity="0.7"/>
+  <rect x="345" y="0" width="15" height="800" fill="#1D3557" opacity="0.65"/>
+  <rect x="375" y="0" width="30" height="800" fill="#457B9D" opacity="0.6"/>
+  <rect x="420" y="0" width="20" height="800" fill="#A8DADC" opacity="0.45"/>
+  <rect x="455" y="0" width="45" height="800" fill="#264653" opacity="0.8"/>
+  <rect x="510" y="0" width="10" height="800" fill="#1D3557" opacity="0.55"/>
+  <rect x="535" y="0" width="35" height="800" fill="#457B9D" opacity="0.7"/>
+  <!-- Black horizontal rhythm lines -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="2" opacity="0.6"/>
+  <line x1="0" y1="220" x2="800" y2="220" stroke="#000000" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="350" x2="800" y2="350" stroke="#000000" stroke-width="3" opacity="0.7"/>
+  <line x1="0" y1="450" x2="800" y2="450" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <line x1="0" y1="580" x2="800" y2="580" stroke="#000000" stroke-width="2" opacity="0.6"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="1" opacity="0.35"/>
+  <!-- Large yellow circle on the left -->
+  <circle cx="140" cy="400" r="120" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="140" cy="400" r="80" fill="#F4D35E" opacity="0.4"/>
+  <circle cx="140" cy="400" r="120" fill="none" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <!-- Bold red rectangle breaking through on the right -->
+  <rect x="600" y="180" width="160" height="440" fill="#E63946" opacity="0.9"/>
+  <rect x="600" y="180" width="160" height="440" fill="none" stroke="#000000" stroke-width="2" opacity="0.4"/>
+  <!-- More blue bars continuing behind/over elements on the right -->
+  <rect x="630" y="0" width="22" height="800" fill="#1D3557" opacity="0.3"/>
+  <rect x="700" y="0" width="15" height="800" fill="#264653" opacity="0.25"/>
+  <rect x="760" y="0" width="40" height="800" fill="#457B9D" opacity="0.5"/>
+  <!-- Small white circles as accent beats -->
+  <circle cx="50" cy="150" r="6" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="250" cy="300" r="5" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="400" cy="500" r="7" fill="#FFFFFF" opacity="0.65"/>
+  <circle cx="550" cy="150" r="4" fill="#FFFFFF" opacity="0.55"/>
+  <circle cx="180" cy="620" r="6" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="480" cy="680" r="5" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="330" cy="50" r="4" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="700" cy="650" r="8" fill="#FFFFFF" opacity="0.7"/>
+  <!-- Minimal orange triangles for warmth -->
+  <polygon points="500,600 530,660 470,660" fill="#E76F51" opacity="0.7"/>
+  <polygon points="350,120 368,160 332,160" fill="#E76F51" opacity="0.55"/>
+  <!-- Subtle overlay accents -->
+  <rect x="580" y="350" width="8" height="100" fill="#A8DADC" opacity="0.4"/>
+  <circle cx="140" cy="400" r="40" fill="#FFFFFF" opacity="0.15"/>
+</svg>

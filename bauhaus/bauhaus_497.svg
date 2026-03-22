@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+  <!-- Fulcrum line at bottom center -->
+  <line x1="400" y1="620" x2="400" y2="680" stroke="#000000" stroke-width="4"/>
+  <polygon points="385,680 415,680 400,620" fill="#000000" opacity="0.9"/>
+  <!-- Balance beam -->
+  <line x1="60" y1="580" x2="740" y2="580" stroke="#000000" stroke-width="3" opacity="0.8"/>
+  <!-- Large heavy blue rectangle on the left -->
+  <rect x="80" y="320" width="240" height="260" fill="#1D3557" opacity="0.92"/>
+  <!-- Warm gray shapes suggesting weight on left -->
+  <rect x="100" y="590" width="200" height="40" fill="#A89F91" opacity="0.5"/>
+  <rect x="120" y="635" width="160" height="25" fill="#A89F91" opacity="0.35"/>
+  <rect x="140" y="280" width="50" height="40" fill="#A89F91" opacity="0.4"/>
+  <!-- Sand rectangles at base -->
+  <rect x="60" y="720" width="300" height="30" fill="#DDA15E" opacity="0.5"/>
+  <rect x="420" y="720" width="320" height="30" fill="#DDA15E" opacity="0.4"/>
+  <rect x="350" y="700" width="100" height="20" fill="#DDA15E" opacity="0.35"/>
+  <!-- Clusters of small shapes on the right -->
+  <!-- Red circles cluster -->
+  <circle cx="520" cy="400" r="22" fill="#E63946" opacity="0.85"/>
+  <circle cx="560" cy="370" r="18" fill="#E63946" opacity="0.75"/>
+  <circle cx="540" cy="440" r="15" fill="#E63946" opacity="0.8"/>
+  <circle cx="590" cy="420" r="20" fill="#E63946" opacity="0.7"/>
+  <circle cx="510" cy="350" r="12" fill="#E63946" opacity="0.65"/>
+  <!-- Yellow triangles cluster -->
+  <polygon points="630,380 660,380 645,350" fill="#F4D35E" opacity="0.85"/>
+  <polygon points="650,430 675,430 662,405" fill="#F4D35E" opacity="0.75"/>
+  <polygon points="610,460 640,460 625,435" fill="#F4D35E" opacity="0.8"/>
+  <polygon points="670,360 690,360 680,340" fill="#F4D35E" opacity="0.7"/>
+  <!-- Orange squares cluster -->
+  <rect x="500" y="480" width="28" height="28" fill="#E76F51" opacity="0.8"/>
+  <rect x="540" y="500" width="24" height="24" fill="#E76F51" opacity="0.7"/>
+  <rect x="575" y="480" width="20" height="20" fill="#E76F51" opacity="0.75"/>
+  <rect x="520" y="520" width="22" height="22" fill="#E76F51" opacity="0.65"/>
+  <!-- Teal polygons cluster -->
+  <polygon points="660,480 685,500 660,520 635,500" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="700,440 720,455 700,470 680,455" fill="#2A9D8F" opacity="0.7"/>
+  <polygon points="710,500 730,520 710,540 690,520" fill="#2A9D8F" opacity="0.65"/>
+  <!-- Burgundy accents at top -->
+  <rect x="600" y="60" width="80" height="30" fill="#6D2E46" opacity="0.7"/>
+  <circle cx="720" cy="80" r="18" fill="#6D2E46" opacity="0.6"/>
+  <rect x="500" y="90" width="50" height="20" fill="#6D2E46" opacity="0.5"/>
+  <!-- Steel blue arc path curves overhead -->
+  <path d="M 100 200 A 300 150 0 0 1 700 200" fill="none" stroke="#457B9D" stroke-width="3" opacity="0.6"/>
+  <path d="M 150 250 A 250 120 0 0 1 650 250" fill="none" stroke="#457B9D" stroke-width="2" opacity="0.4"/>
+  <!-- Additional small shapes on right for counterweight -->
+  <circle cx="650" cy="540" r="14" fill="#E63946" opacity="0.6"/>
+  <rect x="690" y="540" width="16" height="16" fill="#F4D35E" opacity="0.6"/>
+  <polygon points="580,555 600,555 590,540" fill="#E76F51" opacity="0.6"/>
+  <circle cx="720" cy="570" r="10" fill="#2A9D8F" opacity="0.55"/>
+  <!-- Gravity lines on left side -->
+  <line x1="200" y1="580" x2="200" y2="660" stroke="#A89F91" stroke-width="1.5" opacity="0.3"/>
+  <line x1="160" y1="580" x2="160" y2="650" stroke="#A89F91" stroke-width="1" opacity="0.25"/>
+  <line x1="240" y1="580" x2="240" y2="645" stroke="#A89F91" stroke-width="1" opacity="0.25"/>
+  <!-- Black structural accents -->
+  <rect x="80" y="320" width="240" height="260" fill="none" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="80" y1="450" x2="320" y2="450" stroke="#000000" stroke-width="1" opacity="0.3"/>
+</svg>

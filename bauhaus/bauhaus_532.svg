@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#264653"/>
+  <!-- Subtle grid -->
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#FFFFFF" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#FFFFFF" stroke-width="0.5" opacity="0.08"/>
+  <!-- Pivot point -->
+  <circle cx="400" cy="80" r="12" fill="#000000"/>
+  <circle cx="400" cy="80" r="6" fill="#F4D35E"/>
+  <!-- Pendulum 1 - far left, red -->
+  <line x1="400" y1="80" x2="150" y2="620" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+  <circle cx="150" cy="620" r="40" fill="#E63946" opacity="0.9"/>
+  <rect x="135" y="570" width="30" height="20" fill="#000000" opacity="0.6"/>
+  <!-- Pendulum 2 - left, blue -->
+  <line x1="400" y1="80" x2="250" y2="580" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+  <circle cx="250" cy="580" r="30" fill="#1D3557" opacity="0.9"/>
+  <!-- Pendulum 3 - slight left, yellow -->
+  <line x1="400" y1="80" x2="340" y2="650" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="340" cy="650" r="22" fill="#F4D35E" opacity="0.95"/>
+  <rect x="328" y="600" width="24" height="18" fill="#000000" opacity="0.5"/>
+  <!-- Pendulum 4 - center, red -->
+  <line x1="400" y1="80" x2="400" y2="700" stroke="#FFFFFF" stroke-width="3" opacity="0.5"/>
+  <circle cx="400" cy="700" r="35" fill="#E63946" opacity="0.85"/>
+  <!-- Pendulum 5 - slight right, blue -->
+  <line x1="400" y1="80" x2="470" y2="640" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="470" cy="640" r="18" fill="#1D3557" opacity="0.9"/>
+  <!-- Pendulum 6 - right, yellow -->
+  <line x1="400" y1="80" x2="560" y2="590" stroke="#FFFFFF" stroke-width="2" opacity="0.65"/>
+  <circle cx="560" cy="590" r="28" fill="#F4D35E" opacity="0.9"/>
+  <rect x="546" y="540" width="28" height="16" fill="#000000" opacity="0.5"/>
+  <!-- Pendulum 7 - far right, teal -->
+  <line x1="400" y1="80" x2="660" y2="610" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+  <circle cx="660" cy="610" r="35" fill="#2A9D8F" opacity="0.85"/>
+  <!-- Arc paths showing swing ranges -->
+  <path d="M 120 620 A 520 520 0 0 1 250 580" fill="none" stroke="#E9C46A" stroke-width="1" opacity="0.4"/>
+  <path d="M 250 580 A 500 500 0 0 1 400 700" fill="none" stroke="#E9C46A" stroke-width="1" opacity="0.4"/>
+  <path d="M 400 700 A 500 500 0 0 1 560 590" fill="none" stroke="#E9C46A" stroke-width="1" opacity="0.4"/>
+  <path d="M 560 590 A 500 500 0 0 1 690 610" fill="none" stroke="#E9C46A" stroke-width="1" opacity="0.4"/>
+  <!-- Larger sweep arc -->
+  <path d="M 100 650 A 580 580 0 0 1 700 650" fill="none" stroke="#A8DADC" stroke-width="1.5" opacity="0.25"/>
+  <path d="M 150 700 A 550 550 0 0 1 650 700" fill="none" stroke="#A8DADC" stroke-width="1" opacity="0.2"/>
+  <!-- Rectangular weights on some pendulums -->
+  <rect x="385" y="650" width="30" height="15" fill="#DDA15E" opacity="0.8"/>
+  <rect x="645" y="560" width="30" height="18" fill="#DDA15E" opacity="0.8"/>
+  <rect x="135" y="575" width="30" height="14" fill="#DDA15E" opacity="0.8"/>
+  <!-- Small accent shapes -->
+  <circle cx="400" cy="80" r="20" fill="none" stroke="#F4D35E" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="400" cy="80" r="30" fill="none" stroke="#F4D35E" stroke-width="0.8" opacity="0.3"/>
+  <!-- Motion blur circles (ghost positions) -->
+  <circle cx="180" cy="610" r="15" fill="#E63946" opacity="0.15"/>
+  <circle cx="220" cy="595" r="12" fill="#1D3557" opacity="0.15"/>
+  <circle cx="500" cy="620" r="10" fill="#F4D35E" opacity="0.15"/>
+  <circle cx="610" cy="600" r="14" fill="#2A9D8F" opacity="0.15"/>
+  <!-- Corner accents -->
+  <rect x="15" y="15" width="10" height="10" fill="#F4D35E" opacity="0.4"/>
+  <rect x="775" y="15" width="10" height="10" fill="#E63946" opacity="0.4"/>
+  <rect x="15" y="775" width="10" height="10" fill="#1D3557" opacity="0.4"/>
+  <rect x="775" y="775" width="10" height="10" fill="#2A9D8F" opacity="0.4"/>
+</svg>

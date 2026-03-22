@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#264653"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="0" x2="800" y2="800" stroke="#FFFFFF" stroke-width="0.5" opacity="0.06"/>
+  <line x1="100" y1="0" x2="800" y2="700" stroke="#FFFFFF" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="100" x2="700" y2="800" stroke="#FFFFFF" stroke-width="0.5" opacity="0.05"/>
+
+  <!-- Staircase steps - descending from top-left to bottom-right -->
+  <!-- Step 1 -->
+  <rect x="40" y="60" width="130" height="50" fill="#E63946" opacity="0.9"/>
+  <circle cx="105" cy="55" r="8" fill="#F4D35E" opacity="0.8"/>
+
+  <!-- Step 2 -->
+  <rect x="130" y="140" width="130" height="50" fill="#1D3557" opacity="0.85"/>
+  <circle cx="195" cy="135" r="8" fill="#E76F51" opacity="0.8"/>
+
+  <!-- Step 3 -->
+  <rect x="220" y="220" width="130" height="50" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="285" cy="215" r="8" fill="#E63946" opacity="0.8"/>
+
+  <!-- Step 4 -->
+  <rect x="310" y="300" width="130" height="50" fill="#2A9D8F" opacity="0.85"/>
+  <circle cx="375" cy="295" r="8" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Step 5 -->
+  <rect x="400" y="380" width="130" height="50" fill="#E76F51" opacity="0.9"/>
+  <circle cx="465" cy="375" r="8" fill="#1D3557" opacity="0.8"/>
+
+  <!-- Step 6 -->
+  <rect x="490" y="460" width="130" height="50" fill="#457B9D" opacity="0.85"/>
+  <circle cx="555" cy="455" r="8" fill="#F4D35E" opacity="0.8"/>
+
+  <!-- Step 7 -->
+  <rect x="540" y="540" width="130" height="50" fill="#6D2E46" opacity="0.9"/>
+  <circle cx="605" cy="535" r="8" fill="#A8DADC" opacity="0.8"/>
+
+  <!-- Step 8 -->
+  <rect x="600" y="620" width="130" height="50" fill="#DDA15E" opacity="0.85"/>
+  <circle cx="665" cy="615" r="8" fill="#2A9D8F" opacity="0.8"/>
+
+  <!-- Step 9 -->
+  <rect x="650" y="700" width="130" height="50" fill="#A8DADC" opacity="0.8"/>
+  <circle cx="715" cy="695" r="8" fill="#6D2E46" opacity="0.8"/>
+
+  <!-- Diagonal lines connecting step corners -->
+  <line x1="170" y1="110" x2="260" y2="140" stroke="#FEFAE0" stroke-width="1" opacity="0.4"/>
+  <line x1="260" y1="190" x2="350" y2="220" stroke="#FEFAE0" stroke-width="1" opacity="0.4"/>
+  <line x1="350" y1="270" x2="440" y2="300" stroke="#FEFAE0" stroke-width="1" opacity="0.4"/>
+  <line x1="440" y1="350" x2="530" y2="380" stroke="#FEFAE0" stroke-width="1" opacity="0.4"/>
+  <line x1="530" y1="430" x2="620" y2="460" stroke="#FEFAE0" stroke-width="1" opacity="0.4"/>
+  <line x1="620" y1="510" x2="670" y2="540" stroke="#FEFAE0" stroke-width="1" opacity="0.4"/>
+  <line x1="670" y1="590" x2="730" y2="620" stroke="#FEFAE0" stroke-width="1" opacity="0.4"/>
+  <line x1="730" y1="670" x2="780" y2="700" stroke="#FEFAE0" stroke-width="1" opacity="0.4"/>
+
+  <!-- Outer diagonal connecting line (top-left corner to bottom-right) -->
+  <line x1="40" y1="60" x2="780" y2="750" stroke="#FFFFFF" stroke-width="1.5" opacity="0.15"/>
+
+  <!-- Shadow/depth rectangles behind steps -->
+  <rect x="45" y="65" width="130" height="50" fill="#000000" opacity="0.2"/>
+  <rect x="135" y="145" width="130" height="50" fill="#000000" opacity="0.2"/>
+  <rect x="225" y="225" width="130" height="50" fill="#000000" opacity="0.15"/>
+  <rect x="315" y="305" width="130" height="50" fill="#000000" opacity="0.15"/>
+
+  <!-- Accent elements -->
+  <rect x="20" y="750" width="50" height="8" fill="#E63946" opacity="0.5"/>
+  <rect x="20" y="765" width="35" height="8" fill="#F4D35E" opacity="0.5"/>
+  <rect x="20" y="780" width="20" height="8" fill="#1D3557" opacity="0.5"/>
+
+  <!-- Small triangles as decoration -->
+  <polygon points="750,40 770,80 730,80" fill="#E63946" opacity="0.4"/>
+  <polygon points="30,400 50,440 10,440" fill="#F4D35E" opacity="0.3"/>
+
+  <!-- Vertical accent line -->
+  <line x1="760" y1="100" x2="760" y2="300" stroke="#A89F91" stroke-width="2" opacity="0.3"/>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- White background -->
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Black framing rectangle -->
+  <rect x="40" y="40" width="720" height="720" fill="none" stroke="#000000" stroke-width="4"/>
+  <rect x="52" y="52" width="696" height="696" fill="none" stroke="#000000" stroke-width="1" opacity="0.3"/>
+
+  <!-- Red diagonal bundle (parallel lines at 45 degrees) -->
+  <line x1="60" y1="20" x2="800" y2="760" stroke="#E63946" stroke-width="8"/>
+  <line x1="40" y1="20" x2="780" y2="760" stroke="#E63946" stroke-width="8"/>
+  <line x1="20" y1="20" x2="760" y2="760" stroke="#E63946" stroke-width="8"/>
+  <line x1="0" y1="20" x2="740" y2="760" stroke="#E63946" stroke-width="8"/>
+  <line x1="0" y1="40" x2="720" y2="760" stroke="#E63946" stroke-width="8"/>
+  <line x1="80" y1="20" x2="820" y2="760" stroke="#E63946" stroke-width="8" opacity="0.7"/>
+
+  <!-- Blue diagonal bundle (offset to right) -->
+  <line x1="240" y1="20" x2="820" y2="600" stroke="#1D3557" stroke-width="8"/>
+  <line x1="260" y1="20" x2="820" y2="580" stroke="#1D3557" stroke-width="8"/>
+  <line x1="280" y1="20" x2="820" y2="560" stroke="#1D3557" stroke-width="8"/>
+  <line x1="300" y1="20" x2="820" y2="540" stroke="#1D3557" stroke-width="8"/>
+  <line x1="320" y1="20" x2="820" y2="520" stroke="#1D3557" stroke-width="8"/>
+  <line x1="220" y1="20" x2="820" y2="620" stroke="#1D3557" stroke-width="8" opacity="0.7"/>
+
+  <!-- Yellow diagonal bundle (lower region) -->
+  <line x1="0" y1="300" x2="500" y2="800" stroke="#F4D35E" stroke-width="8"/>
+  <line x1="0" y1="320" x2="480" y2="800" stroke="#F4D35E" stroke-width="8"/>
+  <line x1="0" y1="340" x2="460" y2="800" stroke="#F4D35E" stroke-width="8"/>
+  <line x1="0" y1="360" x2="440" y2="800" stroke="#F4D35E" stroke-width="8"/>
+  <line x1="0" y1="380" x2="420" y2="800" stroke="#F4D35E" stroke-width="8"/>
+  <line x1="0" y1="280" x2="520" y2="800" stroke="#F4D35E" stroke-width="8" opacity="0.7"/>
+
+  <!-- Teal diagonal bundle (upper right) -->
+  <line x1="500" y1="0" x2="800" y2="300" stroke="#2A9D8F" stroke-width="7"/>
+  <line x1="520" y1="0" x2="800" y2="280" stroke="#2A9D8F" stroke-width="7"/>
+  <line x1="540" y1="0" x2="800" y2="260" stroke="#2A9D8F" stroke-width="7"/>
+  <line x1="560" y1="0" x2="800" y2="240" stroke="#2A9D8F" stroke-width="7"/>
+  <line x1="480" y1="0" x2="800" y2="320" stroke="#2A9D8F" stroke-width="7" opacity="0.7"/>
+
+  <!-- Orange diagonal bundle (lower right) -->
+  <line x1="500" y1="800" x2="800" y2="500" stroke="#E76F51" stroke-width="7"/>
+  <line x1="520" y1="800" x2="800" y2="520" stroke="#E76F51" stroke-width="7"/>
+  <line x1="540" y1="800" x2="800" y2="540" stroke="#E76F51" stroke-width="7"/>
+  <line x1="560" y1="800" x2="800" y2="560" stroke="#E76F51" stroke-width="7"/>
+  <line x1="480" y1="800" x2="800" y2="480" stroke="#E76F51" stroke-width="7" opacity="0.7"/>
+
+  <!-- Circles placed between/over bundles -->
+  <circle cx="160" cy="160" r="55" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <circle cx="160" cy="160" r="35" fill="#E63946"/>
+  <circle cx="160" cy="160" r="18" fill="#FFFFFF"/>
+
+  <circle cx="640" cy="180" r="48" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <circle cx="640" cy="180" r="30" fill="#1D3557"/>
+  <circle cx="640" cy="180" r="14" fill="#FFFFFF"/>
+
+  <circle cx="400" cy="400" r="60" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <circle cx="400" cy="400" r="40" fill="#F4D35E"/>
+  <circle cx="400" cy="400" r="20" fill="#000000"/>
+  <circle cx="400" cy="400" r="8" fill="#F4D35E"/>
+
+  <circle cx="180" cy="620" r="45" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <circle cx="180" cy="620" r="28" fill="#2A9D8F"/>
+  <circle cx="180" cy="620" r="12" fill="#FFFFFF"/>
+
+  <circle cx="650" cy="620" r="50" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <circle cx="650" cy="620" r="32" fill="#E76F51"/>
+  <circle cx="650" cy="620" r="15" fill="#FFFFFF"/>
+
+  <circle cx="680" cy="400" r="36" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="680" cy="400" r="22" fill="#6D2E46"/>
+
+  <circle cx="120" cy="400" r="36" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="120" cy="400" r="22" fill="#457B9D"/>
+
+  <!-- Corner accent marks -->
+  <rect x="40" y="40" width="24" height="24" fill="#000000"/>
+  <rect x="736" y="40" width="24" height="24" fill="#000000"/>
+  <rect x="40" y="736" width="24" height="24" fill="#000000"/>
+  <rect x="736" y="736" width="24" height="24" fill="#000000"/>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Radiating lines from left focal point (150, 400) -->
+  <line x1="150" y1="400" x2="800" y2="50" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="150" y1="400" x2="800" y2="150" stroke="#457B9D" stroke-width="1" opacity="0.4"/>
+  <line x1="150" y1="400" x2="800" y2="250" stroke="#000000" stroke-width="1.5" opacity="0.25"/>
+  <line x1="150" y1="400" x2="800" y2="350" stroke="#A89F91" stroke-width="1" opacity="0.35"/>
+  <line x1="150" y1="400" x2="800" y2="450" stroke="#457B9D" stroke-width="1" opacity="0.3"/>
+  <line x1="150" y1="400" x2="800" y2="550" stroke="#000000" stroke-width="1.5" opacity="0.2"/>
+  <line x1="150" y1="400" x2="800" y2="650" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
+  <line x1="150" y1="400" x2="800" y2="750" stroke="#457B9D" stroke-width="1" opacity="0.3"/>
+  <line x1="150" y1="400" x2="700" y2="0" stroke="#000000" stroke-width="0.8" opacity="0.2"/>
+  <line x1="150" y1="400" x2="600" y2="800" stroke="#A89F91" stroke-width="0.8" opacity="0.25"/>
+
+  <!-- Radiating lines from right focal point (650, 400) -->
+  <line x1="650" y1="400" x2="0" y2="50" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="650" y1="400" x2="0" y2="150" stroke="#A89F91" stroke-width="1" opacity="0.35"/>
+  <line x1="650" y1="400" x2="0" y2="250" stroke="#457B9D" stroke-width="1.5" opacity="0.25"/>
+  <line x1="650" y1="400" x2="0" y2="350" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="650" y1="400" x2="0" y2="450" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
+  <line x1="650" y1="400" x2="0" y2="550" stroke="#457B9D" stroke-width="1" opacity="0.3"/>
+  <line x1="650" y1="400" x2="0" y2="650" stroke="#000000" stroke-width="1.5" opacity="0.2"/>
+  <line x1="650" y1="400" x2="0" y2="750" stroke="#A89F91" stroke-width="1" opacity="0.35"/>
+  <line x1="650" y1="400" x2="100" y2="0" stroke="#457B9D" stroke-width="0.8" opacity="0.2"/>
+  <line x1="650" y1="400" x2="200" y2="800" stroke="#000000" stroke-width="0.8" opacity="0.25"/>
+
+  <!-- Yellow triangles where line groups cross -->
+  <polygon points="400,300 420,340 380,340" fill="#F4D35E" opacity="0.85"/>
+  <polygon points="370,420 390,460 350,460" fill="#F4D35E" opacity="0.7"/>
+  <polygon points="430,360 450,400 410,400" fill="#F4D35E" opacity="0.75"/>
+  <polygon points="350,350 375,310 325,310" fill="#F4D35E" opacity="0.6"/>
+  <polygon points="450,450 475,410 425,410" fill="#F4D35E" opacity="0.65"/>
+
+  <!-- Orange arcs connecting focal points -->
+  <path d="M 150 400 Q 400 200 650 400" fill="none" stroke="#E76F51" stroke-width="3" opacity="0.7"/>
+  <path d="M 150 400 Q 400 600 650 400" fill="none" stroke="#E76F51" stroke-width="2.5" opacity="0.6"/>
+  <path d="M 150 400 Q 400 150 650 400" fill="none" stroke="#E76F51" stroke-width="1.5" opacity="0.45"/>
+
+  <!-- Bold red circle at left focus -->
+  <circle cx="150" cy="400" r="45" fill="#E63946" opacity="0.9"/>
+  <circle cx="150" cy="400" r="25" fill="#E63946" opacity="1"/>
+
+  <!-- Blue circle at right focus -->
+  <circle cx="650" cy="400" r="45" fill="#1D3557" opacity="0.9"/>
+  <circle cx="650" cy="400" r="25" fill="#1D3557" opacity="1"/>
+
+  <!-- Small teal rectangles at edges -->
+  <rect x="10" y="10" width="18" height="12" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="772" y="10" width="18" height="12" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="10" y="778" width="18" height="12" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="772" y="778" width="18" height="12" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="10" y="200" width="14" height="10" fill="#2A9D8F" opacity="0.6"/>
+  <rect x="776" y="600" width="14" height="10" fill="#2A9D8F" opacity="0.6"/>
+  <rect x="10" y="600" width="14" height="10" fill="#2A9D8F" opacity="0.6"/>
+  <rect x="776" y="200" width="14" height="10" fill="#2A9D8F" opacity="0.6"/>
+  <rect x="390" y="5" width="20" height="8" fill="#2A9D8F" opacity="0.5"/>
+  <rect x="390" y="787" width="20" height="8" fill="#2A9D8F" opacity="0.5"/>
+
+  <!-- Additional tension lines for density -->
+  <line x1="150" y1="400" x2="500" y2="0" stroke="#457B9D" stroke-width="0.7" opacity="0.15"/>
+  <line x1="150" y1="400" x2="400" y2="800" stroke="#000000" stroke-width="0.7" opacity="0.15"/>
+  <line x1="650" y1="400" x2="300" y2="0" stroke="#A89F91" stroke-width="0.7" opacity="0.15"/>
+  <line x1="650" y1="400" x2="400" y2="800" stroke="#457B9D" stroke-width="0.7" opacity="0.15"/>
+
+  <!-- Small accent shapes in the tension field -->
+  <circle cx="400" cy="400" r="6" fill="#000000" opacity="0.5"/>
+  <rect x="395" y="275" width="10" height="10" fill="#A89F91" opacity="0.4"/>
+  <rect x="395" y="515" width="10" height="10" fill="#A89F91" opacity="0.4"/>
+</svg>

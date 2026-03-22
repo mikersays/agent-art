@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Background warm gray rectangles at low opacity -->
+  <rect x="50" y="100" width="200" height="30" fill="#A89F91" opacity="0.12"/>
+  <rect x="550" y="80" width="180" height="25" fill="#A89F91" opacity="0.1"/>
+  <rect x="100" y="650" width="250" height="20" fill="#A89F91" opacity="0.12"/>
+  <rect x="500" y="700" width="200" height="35" fill="#A89F91" opacity="0.1"/>
+  <rect x="300" y="50" width="30" height="200" fill="#A89F91" opacity="0.08"/>
+  <rect x="470" y="550" width="25" height="180" fill="#A89F91" opacity="0.08"/>
+
+  <!-- Thin burgundy lines suggesting rotation -->
+  <line x1="400" y1="400" x2="200" y2="100" stroke="#6D2E46" stroke-width="1" opacity="0.25"/>
+  <line x1="400" y1="400" x2="600" y2="100" stroke="#6D2E46" stroke-width="1" opacity="0.25"/>
+  <line x1="400" y1="400" x2="600" y2="700" stroke="#6D2E46" stroke-width="1" opacity="0.25"/>
+  <line x1="400" y1="400" x2="200" y2="700" stroke="#6D2E46" stroke-width="1" opacity="0.25"/>
+  <line x1="400" y1="400" x2="100" y2="400" stroke="#6D2E46" stroke-width="0.8" opacity="0.15"/>
+  <line x1="400" y1="400" x2="700" y2="400" stroke="#6D2E46" stroke-width="0.8" opacity="0.15"/>
+  <line x1="400" y1="400" x2="400" y2="100" stroke="#6D2E46" stroke-width="0.8" opacity="0.15"/>
+  <line x1="400" y1="400" x2="400" y2="700" stroke="#6D2E46" stroke-width="0.8" opacity="0.15"/>
+
+  <!-- Red triangle - upper left arm of pinwheel -->
+  <polygon points="370,370 200,150 300,380" fill="#E63946" opacity="0.85"/>
+
+  <!-- Blue triangle - upper right arm -->
+  <polygon points="430,370 600,150 420,300" fill="#1D3557" opacity="0.85"/>
+
+  <!-- Yellow triangle - lower right arm -->
+  <polygon points="430,430 600,650 500,420" fill="#F4D35E" opacity="0.85"/>
+
+  <!-- Teal triangle - lower left arm -->
+  <polygon points="370,430 200,650 300,420" fill="#2A9D8F" opacity="0.85"/>
+
+  <!-- Center black circle -->
+  <circle cx="400" cy="400" r="30" fill="#000000" opacity="0.9"/>
+  <circle cx="400" cy="400" r="15" fill="#FEFAE0" opacity="0.6"/>
+
+  <!-- Small orange squares between pinwheel arms -->
+  <rect x="290" y="285" width="22" height="22" fill="#E76F51" opacity="0.75"/>
+  <rect x="488" y="285" width="22" height="22" fill="#E76F51" opacity="0.75"/>
+  <rect x="488" y="493" width="22" height="22" fill="#E76F51" opacity="0.75"/>
+  <rect x="290" y="493" width="22" height="22" fill="#E76F51" opacity="0.75"/>
+  <rect x="385" y="240" width="16" height="16" fill="#E76F51" opacity="0.5"/>
+  <rect x="385" y="544" width="16" height="16" fill="#E76F51" opacity="0.5"/>
+  <rect x="240" y="390" width="16" height="16" fill="#E76F51" opacity="0.5"/>
+  <rect x="544" y="390" width="16" height="16" fill="#E76F51" opacity="0.5"/>
+
+  <!-- Forest green corner accents -->
+  <rect x="15" y="15" width="50" height="50" fill="#264653" opacity="0.7"/>
+  <rect x="735" y="15" width="50" height="50" fill="#264653" opacity="0.7"/>
+  <rect x="15" y="735" width="50" height="50" fill="#264653" opacity="0.7"/>
+  <rect x="735" y="735" width="50" height="50" fill="#264653" opacity="0.7"/>
+  <circle cx="40" cy="40" r="12" fill="#264653" opacity="0.4"/>
+  <circle cx="760" cy="40" r="12" fill="#264653" opacity="0.4"/>
+  <circle cx="40" cy="760" r="12" fill="#264653" opacity="0.4"/>
+  <circle cx="760" cy="760" r="12" fill="#264653" opacity="0.4"/>
+
+  <!-- Curved arcs suggesting rotation -->
+  <path d="M 350 300 A 120 120 0 0 1 500 350" fill="none" stroke="#6D2E46" stroke-width="1.5" opacity="0.3"/>
+  <path d="M 500 450 A 120 120 0 0 1 350 500" fill="none" stroke="#6D2E46" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Additional small details -->
+  <circle cx="250" cy="250" r="5" fill="#E9C46A" opacity="0.5"/>
+  <circle cx="550" cy="550" r="5" fill="#E9C46A" opacity="0.5"/>
+  <circle cx="550" cy="250" r="5" fill="#DDA15E" opacity="0.5"/>
+  <circle cx="250" cy="550" r="5" fill="#DDA15E" opacity="0.5"/>
+</svg>

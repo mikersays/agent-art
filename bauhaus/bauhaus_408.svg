@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Radial Burst -->
+  <!-- Dark forest background -->
+  <rect x="0" y="0" width="800" height="800" fill="#264653"/>
+
+  <!-- Secondary background rect for depth -->
+  <rect x="0" y="0" width="800" height="800" fill="#1D3557" opacity="0.45"/>
+
+  <!-- Off-center burst origin: (260, 320) -->
+
+  <!-- Radiating lines - 36 rays at 10-degree intervals -->
+  <line x1="260" y1="320" x2="800" y2="0"   stroke="#F4D35E" stroke-width="2" opacity="0.9"/>
+  <line x1="260" y1="320" x2="752" y2="0"   stroke="#E63946" stroke-width="1.5" opacity="0.7"/>
+  <line x1="260" y1="320" x2="800" y2="48"  stroke="#F4D35E" stroke-width="2.5" opacity="0.85"/>
+  <line x1="260" y1="320" x2="800" y2="110" stroke="#E63946" stroke-width="1.5" opacity="0.75"/>
+  <line x1="260" y1="320" x2="800" y2="180" stroke="#F4D35E" stroke-width="3" opacity="0.9"/>
+  <line x1="260" y1="320" x2="800" y2="260" stroke="#E63946" stroke-width="1.5" opacity="0.7"/>
+  <line x1="260" y1="320" x2="800" y2="340" stroke="#F4D35E" stroke-width="2" opacity="0.85"/>
+  <line x1="260" y1="320" x2="800" y2="420" stroke="#E63946" stroke-width="2.5" opacity="0.75"/>
+  <line x1="260" y1="320" x2="800" y2="500" stroke="#F4D35E" stroke-width="1.5" opacity="0.9"/>
+  <line x1="260" y1="320" x2="800" y2="580" stroke="#E63946" stroke-width="2" opacity="0.7"/>
+  <line x1="260" y1="320" x2="800" y2="660" stroke="#F4D35E" stroke-width="3" opacity="0.85"/>
+  <line x1="260" y1="320" x2="800" y2="740" stroke="#E63946" stroke-width="1.5" opacity="0.75"/>
+  <line x1="260" y1="320" x2="700" y2="800" stroke="#F4D35E" stroke-width="2" opacity="0.9"/>
+  <line x1="260" y1="320" x2="580" y2="800" stroke="#E63946" stroke-width="2.5" opacity="0.7"/>
+  <line x1="260" y1="320" x2="460" y2="800" stroke="#F4D35E" stroke-width="1.5" opacity="0.85"/>
+  <line x1="260" y1="320" x2="340" y2="800" stroke="#E63946" stroke-width="2" opacity="0.75"/>
+  <line x1="260" y1="320" x2="220" y2="800" stroke="#F4D35E" stroke-width="3" opacity="0.9"/>
+  <line x1="260" y1="320" x2="100" y2="800" stroke="#E63946" stroke-width="1.5" opacity="0.7"/>
+  <line x1="260" y1="320" x2="0"   y2="760" stroke="#F4D35E" stroke-width="2" opacity="0.85"/>
+  <line x1="260" y1="320" x2="0"   y2="650" stroke="#E63946" stroke-width="2.5" opacity="0.75"/>
+  <line x1="260" y1="320" x2="0"   y2="540" stroke="#F4D35E" stroke-width="1.5" opacity="0.9"/>
+  <line x1="260" y1="320" x2="0"   y2="430" stroke="#E63946" stroke-width="2" opacity="0.7"/>
+  <line x1="260" y1="320" x2="0"   y2="320" stroke="#F4D35E" stroke-width="3" opacity="0.85"/>
+  <line x1="260" y1="320" x2="0"   y2="210" stroke="#E63946" stroke-width="1.5" opacity="0.75"/>
+  <line x1="260" y1="320" x2="0"   y2="100" stroke="#F4D35E" stroke-width="2" opacity="0.9"/>
+  <line x1="260" y1="320" x2="0"   y2="0"   stroke="#E63946" stroke-width="2.5" opacity="0.7"/>
+  <line x1="260" y1="320" x2="100" y2="0"   stroke="#F4D35E" stroke-width="1.5" opacity="0.85"/>
+  <line x1="260" y1="320" x2="220" y2="0"   stroke="#E63946" stroke-width="2" opacity="0.75"/>
+  <line x1="260" y1="320" x2="340" y2="0"   stroke="#F4D35E" stroke-width="3" opacity="0.9"/>
+  <line x1="260" y1="320" x2="460" y2="0"   stroke="#E63946" stroke-width="1.5" opacity="0.7"/>
+  <line x1="260" y1="320" x2="580" y2="0"   stroke="#F4D35E" stroke-width="2" opacity="0.85"/>
+  <line x1="260" y1="320" x2="700" y2="0"   stroke="#E63946" stroke-width="2.5" opacity="0.75"/>
+
+  <!-- Circles of decreasing size along upper-right ray -->
+  <circle cx="360" cy="268" r="22" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="450" cy="222" r="18" fill="#E63946" opacity="0.85"/>
+  <circle cx="540" cy="176" r="15" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="620" cy="136" r="12" fill="#E63946" opacity="0.75"/>
+  <circle cx="700" cy="94"  r="9"  fill="#F4D35E" opacity="0.7"/>
+  <circle cx="760" cy="62"  r="6"  fill="#E63946" opacity="0.65"/>
+
+  <!-- Circles along right-horizontal ray -->
+  <circle cx="380" cy="320" r="20" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="490" cy="320" r="16" fill="#E63946" opacity="0.8"/>
+  <circle cx="590" cy="320" r="13" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="680" cy="320" r="10" fill="#E63946" opacity="0.7"/>
+  <circle cx="752" cy="320" r="7"  fill="#F4D35E" opacity="0.65"/>
+
+  <!-- Circles along lower-right ray -->
+  <circle cx="360" cy="378" r="20" fill="#E63946" opacity="0.85"/>
+  <circle cx="450" cy="432" r="16" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="540" cy="486" r="13" fill="#E63946" opacity="0.75"/>
+  <circle cx="620" cy="534" r="10" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="700" cy="582" r="7"  fill="#E63946" opacity="0.65"/>
+
+  <!-- Central burst circle -->
+  <circle cx="260" cy="320" r="36" fill="#F4D35E" stroke="#000000" stroke-width="2"/>
+  <circle cx="260" cy="320" r="20" fill="#E63946"/>
+  <circle cx="260" cy="320" r="8"  fill="#000000"/>
+
+  <!-- Accent shapes: small yellow squares at ray tips -->
+  <rect x="790" y="168" width="10" height="10" fill="#F4D35E" opacity="0.8"/>
+  <rect x="790" y="418" width="10" height="10" fill="#E63946" opacity="0.8"/>
+  <rect x="790" y="648" width="10" height="10" fill="#F4D35E" opacity="0.8"/>
+  <rect x="0"   y="208" width="10" height="10" fill="#E63946" opacity="0.8"/>
+  <rect x="0"   y="526" width="10" height="10" fill="#F4D35E" opacity="0.8"/>
+
+  <!-- Large accent circle upper-right -->
+  <circle cx="620" cy="120" r="48" fill="#E63946" stroke="#F4D35E" stroke-width="2" opacity="0.25"/>
+  <circle cx="620" cy="120" r="30" fill="#F4D35E" opacity="0.20"/>
+
+  <!-- Thin cross lines through origin -->
+  <line x1="260" y1="0"   x2="260" y2="800" stroke="#F4D35E" stroke-width="0.8" opacity="0.18"/>
+  <line x1="0"   y1="320" x2="800" y2="320" stroke="#F4D35E" stroke-width="0.8" opacity="0.18"/>
+</svg>

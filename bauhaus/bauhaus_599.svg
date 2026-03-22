@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Subtle background structure -->
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="150" x2="800" y2="150" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Clock case frame -->
+  <rect x="250" y="60" width="300" height="700" fill="none" stroke="#264653" stroke-width="4" opacity="0.7"/>
+  <rect x="260" y="70" width="280" height="680" fill="none" stroke="#264653" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Case top ornamental bar -->
+  <rect x="280" y="50" width="240" height="15" fill="#6D2E46" opacity="0.8"/>
+
+  <!-- Clock face - outer ring -->
+  <circle cx="400" cy="240" r="130" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="400" cy="240" r="130" fill="none" stroke="#000000" stroke-width="3" opacity="0.8"/>
+  <circle cx="400" cy="240" r="120" fill="none" stroke="#264653" stroke-width="1" opacity="0.4"/>
+
+  <!-- Hour marks - radial lines (12 positions) -->
+  <line x1="400" y1="115" x2="400" y2="135" stroke="#000000" stroke-width="3" opacity="0.8"/>
+  <line x1="462" y1="120" x2="457" y2="140" stroke="#000000" stroke-width="2" opacity="0.7"/>
+  <line x1="513" y1="148" x2="503" y2="165" stroke="#000000" stroke-width="2" opacity="0.7"/>
+  <line x1="525" y1="240" x2="505" y2="240" stroke="#000000" stroke-width="3" opacity="0.8"/>
+  <line x1="513" y1="332" x2="503" y2="315" stroke="#000000" stroke-width="2" opacity="0.7"/>
+  <line x1="462" y1="360" x2="457" y2="340" stroke="#000000" stroke-width="2" opacity="0.7"/>
+  <line x1="400" y1="365" x2="400" y2="345" stroke="#000000" stroke-width="3" opacity="0.8"/>
+  <line x1="338" y1="360" x2="343" y2="340" stroke="#000000" stroke-width="2" opacity="0.7"/>
+  <line x1="287" y1="332" x2="297" y2="315" stroke="#000000" stroke-width="2" opacity="0.7"/>
+  <line x1="275" y1="240" x2="295" y2="240" stroke="#000000" stroke-width="3" opacity="0.8"/>
+  <line x1="287" y1="148" x2="297" y2="165" stroke="#000000" stroke-width="2" opacity="0.7"/>
+  <line x1="338" y1="120" x2="343" y2="140" stroke="#000000" stroke-width="2" opacity="0.7"/>
+
+  <!-- Clock hands -->
+  <line x1="400" y1="240" x2="400" y2="145" stroke="#E63946" stroke-width="3.5" opacity="0.9"/>
+  <line x1="400" y1="240" x2="460" y2="200" stroke="#1D3557" stroke-width="2.5" opacity="0.85"/>
+
+  <!-- Center pin -->
+  <circle cx="400" cy="240" r="6" fill="#000000" opacity="0.9"/>
+  <circle cx="400" cy="240" r="3" fill="#E63946" opacity="0.8"/>
+
+  <!-- Pendulum rod - center position -->
+  <rect x="397" y="380" width="6" height="250" fill="#000000" opacity="0.7"/>
+
+  <!-- Pendulum bob - center -->
+  <circle cx="400" cy="640" r="35" fill="#E63946" opacity="0.85"/>
+  <circle cx="400" cy="640" r="25" fill="#6D2E46" opacity="0.7"/>
+
+  <!-- Ghost pendulum positions - swinging left -->
+  <rect x="355" y="382" width="4" height="240" fill="#000000" opacity="0.12" transform="rotate(-12, 400, 380)"/>
+  <circle cx="340" cy="630" r="30" fill="#E63946" opacity="0.12"/>
+
+  <rect x="370" y="382" width="4" height="245" fill="#000000" opacity="0.08" transform="rotate(-20, 400, 380)"/>
+  <circle cx="300" cy="615" r="28" fill="#E63946" opacity="0.07"/>
+
+  <!-- Ghost pendulum positions - swinging right -->
+  <rect x="440" y="382" width="4" height="240" fill="#000000" opacity="0.12" transform="rotate(12, 400, 380)"/>
+  <circle cx="460" cy="630" r="30" fill="#E63946" opacity="0.12"/>
+
+  <rect x="425" y="382" width="4" height="245" fill="#000000" opacity="0.08" transform="rotate(20, 400, 380)"/>
+  <circle cx="500" cy="615" r="28" fill="#E63946" opacity="0.07"/>
+
+  <!-- Intermediate ghost positions -->
+  <circle cx="370" cy="635" r="28" fill="#E63946" opacity="0.15"/>
+  <circle cx="430" cy="635" r="28" fill="#E63946" opacity="0.15"/>
+
+  <!-- Pendulum arc path -->
+  <path d="M 300 615 Q 400 660 500 615" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+
+  <!-- Case decorative elements -->
+  <rect x="270" y="375" width="260" height="3" fill="#DDA15E" opacity="0.6"/>
+  <rect x="290" y="720" width="220" height="3" fill="#DDA15E" opacity="0.5"/>
+
+  <!-- Small corner accents on case -->
+  <rect x="255" y="65" width="10" height="10" fill="#F4D35E" opacity="0.5"/>
+  <rect x="535" y="65" width="10" height="10" fill="#F4D35E" opacity="0.5"/>
+  <rect x="255" y="745" width="10" height="10" fill="#F4D35E" opacity="0.5"/>
+  <rect x="535" y="745" width="10" height="10" fill="#F4D35E" opacity="0.5"/>
+
+  <!-- Side decorative lines -->
+  <line x1="120" y1="300" x2="240" y2="300" stroke="#6D2E46" stroke-width="1" opacity="0.2"/>
+  <line x1="560" y1="300" x2="680" y2="300" stroke="#6D2E46" stroke-width="1" opacity="0.2"/>
+</svg>

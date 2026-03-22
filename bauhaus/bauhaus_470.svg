@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background - forest green -->
+  <rect x="0" y="0" width="800" height="800" fill="#264653"/>
+
+  <!-- Large black rectangle anchoring the left side -->
+  <rect x="30" y="200" width="200" height="400" fill="#000000" opacity="0.85"/>
+
+  <!-- Orbital ellipses at different tilts -->
+  <ellipse cx="420" cy="400" rx="320" ry="150" fill="none" stroke="#457B9D" stroke-width="2" opacity="0.35" transform="rotate(-15 420 400)"/>
+  <ellipse cx="420" cy="400" rx="260" ry="120" fill="none" stroke="#A89F91" stroke-width="1.5" opacity="0.3" transform="rotate(10 420 400)"/>
+  <ellipse cx="420" cy="400" rx="200" ry="90" fill="none" stroke="#A8DADC" stroke-width="2" opacity="0.4" transform="rotate(-5 420 400)"/>
+  <ellipse cx="420" cy="400" rx="350" ry="180" fill="none" stroke="#457B9D" stroke-width="1.5" opacity="0.25" transform="rotate(25 420 400)"/>
+  <ellipse cx="420" cy="400" rx="150" ry="65" fill="none" stroke="#A8DADC" stroke-width="1.5" opacity="0.35" transform="rotate(-25 420 400)"/>
+  <ellipse cx="420" cy="400" rx="280" ry="130" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.2" transform="rotate(40 420 400)"/>
+
+  <!-- Bold colored circles sitting on orbital paths like planets -->
+  <circle cx="680" cy="340" r="35" fill="#E63946" opacity="0.9"/>
+  <circle cx="300" cy="280" r="28" fill="#1D3557" opacity="0.85"/>
+  <circle cx="520" cy="520" r="40" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="350" cy="480" r="22" fill="#2A9D8F" opacity="0.9"/>
+  <circle cx="580" cy="300" r="18" fill="#E63946" opacity="0.75"/>
+  <circle cx="250" cy="420" r="32" fill="#1D3557" opacity="0.8"/>
+
+  <!-- Small white dots tracing along paths -->
+  <circle cx="450" cy="250" r="4" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="600" cy="380" r="3" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="350" cy="350" r="3.5" fill="#FFFFFF" opacity="0.65"/>
+  <circle cx="500" cy="450" r="3" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="280" cy="380" r="4" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="550" cy="280" r="3" fill="#FFFFFF" opacity="0.55"/>
+  <circle cx="380" cy="520" r="3.5" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="650" cy="420" r="3" fill="#FFFFFF" opacity="0.65"/>
+  <circle cx="420" cy="310" r="4" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="480" cy="500" r="3" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="320" cy="320" r="3.5" fill="#FFFFFF" opacity="0.55"/>
+  <circle cx="570" cy="470" r="3" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="420" cy="400" r="5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="700" cy="400" r="3" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="200" cy="350" r="3" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- Orange triangles marking key orbital positions -->
+  <polygon points="160,300 175,275 145,275" fill="#E76F51" opacity="0.8"/>
+  <polygon points="620,500 640,480 600,480" fill="#E76F51" opacity="0.75"/>
+  <polygon points="480,260 495,240 465,240" fill="#E76F51" opacity="0.7"/>
+  <polygon points="360,560 378,538 342,538" fill="#E76F51" opacity="0.65"/>
+
+  <!-- Accent elements on the black rectangle -->
+  <circle cx="130" cy="350" r="15" fill="#E63946" opacity="0.6"/>
+  <circle cx="130" cy="450" r="10" fill="#F4D35E" opacity="0.5"/>
+  <rect x="80" y="380" width="100" height="3" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- Additional depth elements -->
+  <ellipse cx="420" cy="400" rx="100" ry="45" fill="none" stroke="#FFFFFF" stroke-width="0.8" opacity="0.15" transform="rotate(15 420 400)"/>
+  <line x1="30" y1="200" x2="230" y2="200" stroke="#457B9D" stroke-width="2" opacity="0.4"/>
+  <line x1="30" y1="600" x2="230" y2="600" stroke="#457B9D" stroke-width="2" opacity="0.4"/>
+
+  <!-- Corner accents -->
+  <rect x="740" y="30" width="30" height="30" fill="#A89F91" opacity="0.4"/>
+  <rect x="740" y="740" width="30" height="30" fill="#A89F91" opacity="0.35"/>
+  <circle cx="50" cy="50" r="12" fill="#2A9D8F" opacity="0.4"/>
+  <circle cx="50" cy="750" r="12" fill="#2A9D8F" opacity="0.35"/>
+</svg>

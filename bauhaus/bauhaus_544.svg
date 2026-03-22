@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+  <!-- Flag 1 - top left: diagonal split red/blue -->
+  <rect x="80" y="80" width="140" height="140" fill="#E63946" stroke="#000000" stroke-width="3"/>
+  <polygon points="80,80 220,80 220,220" fill="#1D3557" opacity="0.9"/>
+  <!-- Flag 2 - top center: cross split, 4 colors -->
+  <rect x="300" y="60" width="150" height="150" fill="#F4D35E" stroke="#000000" stroke-width="3"/>
+  <rect x="300" y="60" width="75" height="75" fill="#E63946" opacity="0.9"/>
+  <rect x="375" y="135" width="75" height="75" fill="#1D3557" opacity="0.9"/>
+  <!-- Flag 3 - top right: circle inset -->
+  <rect x="540" y="100" width="160" height="160" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <circle cx="620" cy="180" r="55" fill="#2A9D8F" opacity="0.85"/>
+  <rect x="540" y="100" width="160" height="8" fill="#E63946"/>
+  <rect x="540" y="252" width="160" height="8" fill="#E63946"/>
+  <!-- Flag 4 - middle left: horizontal thirds -->
+  <rect x="60" y="320" width="170" height="160" fill="#1D3557" stroke="#000000" stroke-width="3"/>
+  <rect x="60" y="320" width="170" height="53" fill="#E63946" opacity="0.9"/>
+  <rect x="60" y="427" width="170" height="53" fill="#F4D35E" opacity="0.9"/>
+  <!-- Flag 5 - center: diagonal split yellow/teal with circle -->
+  <rect x="310" y="300" width="180" height="180" fill="#F4D35E" stroke="#000000" stroke-width="3"/>
+  <polygon points="310,300 490,300 490,480" fill="#2A9D8F" opacity="0.85"/>
+  <circle cx="400" cy="390" r="35" fill="#FFFFFF" opacity="0.9"/>
+  <!-- Flag 6 - middle right: vertical split -->
+  <rect x="570" y="340" width="150" height="150" fill="#E76F51" stroke="#000000" stroke-width="3"/>
+  <rect x="570" y="340" width="75" height="150" fill="#457B9D" opacity="0.9"/>
+  <circle cx="645" cy="415" r="25" fill="#000000" opacity="0.3"/>
+  <!-- Flag 7 - bottom left: X-cross -->
+  <rect x="100" y="560" width="160" height="160" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <line x1="100" y1="560" x2="260" y2="720" stroke="#E63946" stroke-width="8"/>
+  <line x1="260" y1="560" x2="100" y2="720" stroke="#1D3557" stroke-width="8"/>
+  <circle cx="180" cy="640" r="20" fill="#F4D35E" opacity="0.9"/>
+  <!-- Flag 8 - bottom right: border frame with inner square -->
+  <rect x="500" y="580" width="180" height="160" fill="#1D3557" stroke="#000000" stroke-width="3"/>
+  <rect x="530" y="610" width="120" height="100" fill="#F4D35E" opacity="0.85"/>
+  <rect x="560" y="635" width="60" height="50" fill="#E63946" opacity="0.8"/>
+  <!-- Connecting lines between flags -->
+  <line x1="220" y1="150" x2="300" y2="135" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="450" y1="135" x2="540" y2="180" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="230" y1="400" x2="310" y2="390" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="490" y1="390" x2="570" y2="415" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="150" y1="220" x2="145" y2="320" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="400" y1="210" x2="400" y2="300" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="620" y1="260" x2="645" y2="340" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="145" y1="480" x2="180" y2="560" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="400" y1="480" x2="590" y2="580" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <!-- Small decorative dots at line intersections -->
+  <circle cx="260" cy="143" r="3" fill="#000000" opacity="0.5"/>
+  <circle cx="495" cy="158" r="3" fill="#000000" opacity="0.5"/>
+  <circle cx="270" cy="395" r="3" fill="#000000" opacity="0.5"/>
+  <circle cx="400" cy="255" r="3" fill="#000000" opacity="0.5"/>
+</svg>

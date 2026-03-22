@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Background grid of tiny circles -->
+  <circle cx="50" cy="50" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="130" cy="50" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="210" cy="50" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="290" cy="50" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="370" cy="50" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="450" cy="50" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="530" cy="50" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="610" cy="50" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="690" cy="50" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="770" cy="50" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="50" cy="200" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="130" cy="200" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="210" cy="200" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="290" cy="200" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="370" cy="200" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="450" cy="200" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="530" cy="200" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="610" cy="200" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="690" cy="200" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="770" cy="200" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="50" cy="350" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="130" cy="350" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="210" cy="350" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="290" cy="350" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="370" cy="350" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="450" cy="350" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="50" cy="500" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="130" cy="500" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="50" cy="650" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="130" cy="650" r="3" fill="#A89F91" opacity="0.15"/>
+  <circle cx="210" cy="650" r="3" fill="#A89F91" opacity="0.15"/>
+
+  <!-- Cascading rectangles from top-left to bottom-right -->
+  <rect x="40" y="30" width="200" height="150" fill="#E63946" opacity="0.8"/>
+  <rect x="120" y="110" width="170" height="120" fill="#1D3557" opacity="0.75"/>
+  <rect x="210" y="190" width="150" height="110" fill="#F4D35E" opacity="0.8"/>
+  <rect x="300" y="270" width="130" height="95" fill="#2A9D8F" opacity="0.75"/>
+  <rect x="380" y="340" width="115" height="85" fill="#E76F51" opacity="0.8"/>
+  <rect x="450" y="400" width="100" height="75" fill="#1D3557" opacity="0.7"/>
+  <rect x="510" y="455" width="88" height="65" fill="#E63946" opacity="0.75"/>
+  <rect x="565" y="505" width="75" height="55" fill="#F4D35E" opacity="0.8"/>
+  <rect x="615" y="545" width="65" height="48" fill="#2A9D8F" opacity="0.7"/>
+  <rect x="660" y="580" width="55" height="40" fill="#E76F51" opacity="0.75"/>
+
+  <!-- Bold black L-shape in bottom-left corner -->
+  <rect x="0" y="650" width="180" height="150" fill="#000000" opacity="0.9"/>
+  <rect x="0" y="550" width="60" height="250" fill="#000000" opacity="0.9"/>
+
+  <!-- Burgundy triangles accenting top-right void -->
+  <polygon points="650,30 720,30 685,80" fill="#6D2E46" opacity="0.8"/>
+  <polygon points="730,50 780,50 755,110" fill="#6D2E46" opacity="0.7"/>
+  <polygon points="680,100 740,120 700,160" fill="#6D2E46" opacity="0.65"/>
+  <polygon points="750,140 790,120 780,180" fill="#6D2E46" opacity="0.75"/>

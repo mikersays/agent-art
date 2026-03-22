@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Modular blocks - irregular rectangular grid with black borders -->
+  <!-- Row 1 -->
+  <rect x="0" y="0" width="300" height="200" fill="#E63946" opacity="0.8" stroke="#000000" stroke-width="3"/>
+  <rect x="300" y="0" width="200" height="200" fill="#1D3557" opacity="0.7" stroke="#000000" stroke-width="3"/>
+  <rect x="500" y="0" width="300" height="120" fill="#F4D35E" opacity="0.6" stroke="#000000" stroke-width="3"/>
+
+  <!-- Row 1 continued -->
+  <rect x="500" y="120" width="140" height="180" fill="#2A9D8F" opacity="0.55" stroke="#000000" stroke-width="3"/>
+  <rect x="640" y="120" width="160" height="180" fill="#FEFAE0" opacity="0.9" stroke="#000000" stroke-width="3"/>
+
+  <!-- Row 2 -->
+  <rect x="0" y="200" width="180" height="250" fill="#457B9D" opacity="0.65" stroke="#000000" stroke-width="3"/>
+  <rect x="180" y="200" width="320" height="150" fill="#FFFFFF" opacity="0.9" stroke="#000000" stroke-width="3"/>
+  <rect x="180" y="350" width="150" height="100" fill="#E76F51" opacity="0.7" stroke="#000000" stroke-width="3"/>
+  <rect x="330" y="350" width="170" height="100" fill="#A8DADC" opacity="0.6" stroke="#000000" stroke-width="3"/>
+
+  <!-- Row 2 continued -->
+  <rect x="500" y="300" width="300" height="150" fill="#1D3557" opacity="0.5" stroke="#000000" stroke-width="3"/>
+
+  <!-- Row 3 -->
+  <rect x="0" y="450" width="250" height="180" fill="#F4D35E" opacity="0.5" stroke="#000000" stroke-width="3"/>
+  <rect x="250" y="450" width="250" height="180" fill="#E63946" opacity="0.45" stroke="#000000" stroke-width="3"/>
+  <rect x="500" y="450" width="150" height="120" fill="#DDA15E" opacity="0.65" stroke="#000000" stroke-width="3"/>
+  <rect x="650" y="450" width="150" height="120" fill="#264653" opacity="0.75" stroke="#000000" stroke-width="3"/>
+  <rect x="500" y="570" width="300" height="60" fill="#6D2E46" opacity="0.6" stroke="#000000" stroke-width="3"/>
+
+  <!-- Row 4 -->
+  <rect x="0" y="630" width="350" height="170" fill="#264653" opacity="0.7" stroke="#000000" stroke-width="3"/>
+  <rect x="350" y="630" width="200" height="170" fill="#FEFAE0" opacity="0.85" stroke="#000000" stroke-width="3"/>
+  <rect x="550" y="630" width="250" height="80" fill="#E9C46A" opacity="0.6" stroke="#000000" stroke-width="3"/>
+  <rect x="550" y="710" width="120" height="90" fill="#A89F91" opacity="0.55" stroke="#000000" stroke-width="3"/>
+  <rect x="670" y="710" width="130" height="90" fill="#E63946" opacity="0.65" stroke="#000000" stroke-width="3"/>
+
+  <!-- Circle accents overlapping block boundaries -->
+  <circle cx="300" cy="200" r="30" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="500" cy="120" r="25" fill="#E63946" opacity="0.6"/>
+  <circle cx="180" cy="450" r="28" fill="#1D3557" opacity="0.55"/>
+  <circle cx="500" cy="450" r="22" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="650" cy="300" r="20" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="350" cy="630" r="26" fill="#2A9D8F" opacity="0.6"/>
+  <circle cx="550" cy="630" r="18" fill="#000000" opacity="0.4"/>
+  <circle cx="250" cy="350" r="15" fill="#E76F51" opacity="0.65"/>
+  <circle cx="670" cy="570" r="20" fill="#A8DADC" opacity="0.5"/>
+  <circle cx="500" cy="300" r="24" fill="#E9C46A" opacity="0.55"/>
+
+  <!-- Small accent circles -->
+  <circle cx="100" cy="100" r="8" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="400" cy="100" r="6" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="740" cy="60" r="7" fill="#E63946" opacity="0.5"/>
+  <circle cx="90" cy="550" r="9" fill="#E63946" opacity="0.45"/>
+  <circle cx="730" cy="770" r="8" fill="#F4D35E" opacity="0.5"/>
+</svg>

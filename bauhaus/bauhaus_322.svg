@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Cream background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Focal Point 1: Large red circle upper-left -->
+  <circle cx="200" cy="200" r="120" fill="#E63946" opacity="0.9"/>
+
+  <!-- Focal Point 2: Large blue square lower-right -->
+  <rect x="460" y="460" width="180" height="180" fill="#1D3557" opacity="0.9"/>
+
+  <!-- Z-path black structural lines connecting focal points -->
+  <line x1="200" y1="200" x2="600" y2="200" stroke="#000000" stroke-width="3" opacity="0.8"/>
+  <line x1="600" y1="200" x2="200" y2="600" stroke="#000000" stroke-width="3" opacity="0.8"/>
+  <line x1="200" y1="600" x2="550" y2="550" stroke="#000000" stroke-width="3" opacity="0.8"/>
+
+  <!-- Tension field: orange lines between focal points -->
+  <line x1="280" y1="260" x2="480" y2="460" stroke="#E76F51" stroke-width="2" opacity="0.7"/>
+  <line x1="250" y1="300" x2="500" y2="500" stroke="#E76F51" stroke-width="1.5" opacity="0.6"/>
+  <line x1="300" y1="250" x2="520" y2="470" stroke="#E76F51" stroke-width="1.5" opacity="0.5"/>
+  <line x1="220" y1="320" x2="460" y2="520" stroke="#E76F51" stroke-width="1" opacity="0.5"/>
+  <line x1="320" y1="220" x2="540" y2="480" stroke="#E76F51" stroke-width="1" opacity="0.4"/>
+
+  <!-- Tension field: yellow dots -->
+  <circle cx="340" cy="340" r="8" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="380" cy="380" r="6" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="420" cy="420" r="7" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="300" cy="370" r="5" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="370" cy="300" r="5" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="450" cy="350" r="4" fill="#F4D35E" opacity="0.65"/>
+  <circle cx="350" cy="450" r="6" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="310" cy="410" r="4" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="430" cy="310" r="5" fill="#F4D35E" opacity="0.6"/>
+
+  <!-- Tension field: teal triangles -->
+  <polygon points="360,360 375,340 390,360" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="320,300 335,280 350,300" fill="#2A9D8F" opacity="0.7"/>
+  <polygon points="400,400 415,380 430,400" fill="#2A9D8F" opacity="0.75"/>
+  <polygon points="280,350 295,330 310,350" fill="#2A9D8F" opacity="0.6"/>
+  <polygon points="460,340 472,322 484,340" fill="#2A9D8F" opacity="0.65"/>
+  <polygon points="340,460 355,440 370,460" fill="#2A9D8F" opacity="0.6"/>
+
+  <!-- Sparse corner accents -->
+  <rect x="10" y="700" width="20" height="20" fill="#000000" opacity="0.4"/>
+  <rect x="770" y="10" width="20" height="20" fill="#000000" opacity="0.4"/>
+
+  <!-- Small red echo near blue square -->
+  <circle cx="500" cy="500" r="15" fill="#E63946" opacity="0.3"/>
+
+  <!-- Small blue echo near red circle -->
+  <rect x="175" y="175" width="30" height="30" fill="#1D3557" opacity="0.2" transform="rotate(15,190,190)"/>
+
+  <!-- Additional density in middle zone -->
+  <line x1="350" y1="350" x2="400" y2="300" stroke="#000000" stroke-width="0.8" opacity="0.3"/>
+  <line x1="400" y1="400" x2="350" y2="450" stroke="#000000" stroke-width="0.8" opacity="0.3"/>
+  <circle cx="400" cy="350" r="3" fill="#E76F51" opacity="0.8"/>
+  <circle cx="350" cy="400" r="3" fill="#E76F51" opacity="0.8"/>
+</svg>

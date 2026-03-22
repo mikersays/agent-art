@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Cream background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Warm gray horizontal lines top -->
+  <line x1="0" y1="30" x2="800" y2="30" stroke="#A89F91" stroke-width="1.5"/>
+  <line x1="0" y1="55" x2="800" y2="55" stroke="#A89F91" stroke-width="1"/>
+  <line x1="0" y1="75" x2="800" y2="75" stroke="#A89F91" stroke-width="0.5"/>
+  <!-- Warm gray horizontal lines bottom -->
+  <line x1="0" y1="725" x2="800" y2="725" stroke="#A89F91" stroke-width="0.5"/>
+  <line x1="0" y1="745" x2="800" y2="745" stroke="#A89F91" stroke-width="1"/>
+  <line x1="0" y1="770" x2="800" y2="770" stroke="#A89F91" stroke-width="1.5"/>
+  <!-- Forest shadow rectangle offset behind monolith -->
+  <rect x="315" y="165" width="200" height="500" fill="#264653" opacity="0.6"/>
+  <!-- Light blue arcs curving around monolith -->
+  <path d="M 250 150 A 180 250 0 0 0 250 650" fill="none" stroke="#A8DADC" stroke-width="2" opacity="0.6"/>
+  <path d="M 550 150 A 180 250 0 0 1 550 650" fill="none" stroke="#A8DADC" stroke-width="2" opacity="0.6"/>
+  <path d="M 220 200 A 220 300 0 0 0 220 600" fill="none" stroke="#A8DADC" stroke-width="1" opacity="0.4"/>
+  <path d="M 580 200 A 220 300 0 0 1 580 600" fill="none" stroke="#A8DADC" stroke-width="1" opacity="0.4"/>
+  <!-- The Monolith -->
+  <rect x="300" y="150" width="200" height="500" fill="#000000"/>
+  <!-- Thin blue connecting lines -->
+  <line x1="150" y1="200" x2="250" y2="320" stroke="#1D3557" stroke-width="0.8" opacity="0.5"/>
+  <line x1="600" y1="180" x2="550" y2="300" stroke="#1D3557" stroke-width="0.8" opacity="0.5"/>
+  <line x1="650" y1="400" x2="700" y2="550" stroke="#1D3557" stroke-width="0.8" opacity="0.5"/>
+  <line x1="100" y1="500" x2="200" y2="400" stroke="#1D3557" stroke-width="0.8" opacity="0.5"/>
+  <line x1="680" y1="250" x2="620" y2="450" stroke="#1D3557" stroke-width="0.8" opacity="0.4"/>
+  <line x1="130" y1="300" x2="180" y2="550" stroke="#1D3557" stroke-width="0.8" opacity="0.4"/>
+  <!-- Orbiting shapes - red circles -->
+  <circle cx="150" cy="200" r="12" fill="#E63946" opacity="0.9"/>
+  <circle cx="650" cy="350" r="8" fill="#E63946" opacity="0.8"/>
+  <circle cx="120" cy="450" r="10" fill="#E63946" opacity="0.85"/>
+  <circle cx="700" cy="550" r="14" fill="#E63946" opacity="0.9"/>
+  <!-- Orbiting shapes - yellow triangles -->
+  <polygon points="250,320 240,340 260,340" fill="#F4D35E" opacity="0.9"/>
+  <polygon points="600,180 590,200 610,200" fill="#F4D35E" opacity="0.85"/>
+  <polygon points="180,550 170,570 190,570" fill="#F4D35E" opacity="0.9"/>
+  <polygon points="680,250 668,272 692,272" fill="#F4D35E" opacity="0.8"/>
+  <!-- Orbiting shapes - teal squares -->
+  <rect x="95" y="295" width="14" height="14" fill="#2A9D8F" opacity="0.85"/>
+  <rect x="543" y="490" width="12" height="12" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="620" y="440" width="16" height="16" fill="#2A9D8F" opacity="0.9"/>
+  <rect x="200" y="180" width="10" height="10" fill="#2A9D8F" opacity="0.75"/>
+  <!-- Orbiting shapes - orange diamonds -->
+  <polygon points="550,300 540,315 550,330 560,315" fill="#E76F51" opacity="0.85"/>
+  <polygon points="200,400 190,415 200,430 210,415" fill="#E76F51" opacity="0.9"/>
+  <polygon points="670,150" fill="#E76F51" opacity="0.8"/>
+  <polygon points="660,620 650,635 660,650 670,635" fill="#E76F51" opacity="0.85"/>
+  <polygon points="130,620 120,633 130,646 140,633" fill="#E76F51" opacity="0.8"/>
+  <!-- Additional small accent shapes -->
+  <circle cx="720" cy="130" r="5" fill="#457B9D" opacity="0.6"/>
+  <circle cx="80" cy="680" r="6" fill="#457B9D" opacity="0.6"/>
+  <rect x="730" y="680" width="8" height="8" fill="#DDA15E" opacity="0.7"/>
+  <rect x="60" y="130" width="8" height="8" fill="#DDA15E" opacity="0.7"/>
+  <circle cx="400" cy="110" r="4" fill="#E9C46A" opacity="0.5"/>
+  <circle cx="400" cy="700" r="4" fill="#E9C46A" opacity="0.5"/>
+</svg>

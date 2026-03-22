@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Subtle background grid -->
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Main triangle balanced on point -->
+  <polygon points="400,680 200,280 600,280" fill="#F4D35E" opacity="0.7"/>
+  <polygon points="400,680 200,280 600,280" fill="none" stroke="#000000" stroke-width="2.5"/>
+
+  <!-- Balance point - small triangle below -->
+  <polygon points="400,680 385,720 415,720" fill="#000000"/>
+
+  <!-- Ground line -->
+  <line x1="300" y1="720" x2="500" y2="720" stroke="#000000" stroke-width="3"/>
+
+  <!-- Fulcrum circle -->
+  <circle cx="400" cy="700" r="8" fill="#E63946"/>
+
+  <!-- Objects balanced on top edge of triangle -->
+  <!-- Left side - circle -->
+  <circle cx="270" cy="280" r="30" fill="#E63946" opacity="0.85"/>
+  <circle cx="270" cy="280" r="18" fill="#E63946" opacity="0.4"/>
+
+  <!-- Connection line from circle to triangle edge -->
+  <line x1="270" y1="310" x2="270" y2="280" stroke="#000000" stroke-width="1" opacity="0.5"/>
+
+  <!-- Right side - rectangle -->
+  <rect x="490" y="250" width="50" height="30" fill="#2A9D8F" opacity="0.85"/>
+
+  <!-- Small circle on right side -->
+  <circle cx="530" cy="280" r="12" fill="#E63946" opacity="0.7"/>
+
+  <!-- Teal circle floating above -->
+  <circle cx="350" cy="220" r="22" fill="#2A9D8F" opacity="0.75"/>
+  <line x1="350" y1="242" x2="340" y2="280" stroke="#000000" stroke-width="1" opacity="0.6"/>
+
+  <!-- Small yellow rectangle on left slope -->
+  <rect x="290" y="420" width="25" height="18" fill="#F4D35E" opacity="0.9" transform="rotate(-25, 302, 429)"/>
+  <line x1="302" y1="438" x2="310" y2="470" stroke="#000000" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Red circle on right slope -->
+  <circle cx="490" cy="450" r="16" fill="#E63946" opacity="0.8"/>
+  <line x1="490" y1="466" x2="480" y2="490" stroke="#000000" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Small teal square near apex area -->
+  <rect x="385" y="340" width="14" height="14" fill="#2A9D8F" opacity="0.7"/>
+
+  <!-- Tiny circles scattered for texture inside triangle -->
+  <circle cx="370" cy="400" r="5" fill="#E63946" opacity="0.4"/>
+  <circle cx="430" cy="380" r="4" fill="#2A9D8F" opacity="0.4"/>
+  <circle cx="400" cy="500" r="6" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="350" cy="520" r="3" fill="#000000" opacity="0.3"/>
+  <circle cx="450" cy="530" r="4" fill="#E63946" opacity="0.3"/>
+  <circle cx="400" cy="600" r="5" fill="#2A9D8F" opacity="0.35"/>
+
+  <!-- Hanging element from top left of triangle -->
+  <line x1="240" y1="280" x2="220" y2="200" stroke="#000000" stroke-width="1.2"/>
+  <rect x="208" y="175" width="24" height="25" fill="#F4D35E" opacity="0.8"/>
+
+  <!-- Hanging element from top right -->
+  <line x1="560" y1="280" x2="580" y2="210" stroke="#000000" stroke-width="1.2"/>
+  <circle cx="580" cy="195" r="15" fill="#2A9D8F" opacity="0.8"/>
+
+  <!-- Floating elements above the triangle -->
+  <circle cx="400" cy="140" r="10" fill="#E63946" opacity="0.6"/>
+  <line x1="400" y1="150" x2="400" y2="280" stroke="#000000" stroke-width="0.8" opacity="0.3"/>
+
+  <rect x="320" y="100" width="16" height="16" fill="#F4D35E" opacity="0.5"/>
+  <rect x="465" y="120" width="12" height="12" fill="#2A9D8F" opacity="0.5"/>
+
+  <!-- Corner accents -->
+  <circle cx="50" cy="50" r="15" fill="#F4D35E" opacity="0.3"/>
+  <circle cx="750" cy="50" r="15" fill="#E63946" opacity="0.3"/>
+  <rect x="35" y="735" width="20" height="20" fill="#2A9D8F" opacity="0.3"/>
+  <rect x="740" y="735" width="20" height="20" fill="#F4D35E" opacity="0.3"/>
+
+  <!-- Balance indicator lines -->
+  <line x1="200" y1="280" x2="140" y2="280" stroke="#A89F91" stroke-width="1" opacity="0.3" stroke-dasharray="4,4"/>
+  <line x1="600" y1="280" x2="660" y2="280" stroke="#A89F91" stroke-width="1" opacity="0.3" stroke-dasharray="4,4"/>
+</svg>

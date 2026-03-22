@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+  <!-- Row 1: modular units -->
+  <circle cx="70" cy="70" r="25" fill="#E63946" opacity="0.8"/>
+  <rect x="50" y="100" width="40" height="25" fill="#1D3557" opacity="0.7"/>
+  <polygon points="70,30 90,60 50,60" fill="#F4D35E" opacity="0.75"/>
+
+  <circle cx="200" cy="75" r="22" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="178" y="102" width="44" height="22" fill="#E76F51" opacity="0.7"/>
+  <polygon points="200,35 218,62 182,62" fill="#E63946" opacity="0.7"/>
+
+  <circle cx="330" cy="68" r="24" fill="#1D3557" opacity="0.75"/>
+  <rect x="310" y="98" width="40" height="26" fill="#F4D35E" opacity="0.8"/>
+  <polygon points="330,28 350,58 310,58" fill="#2A9D8F" opacity="0.7"/>
+
+  <circle cx="460" cy="72" r="20" fill="#E76F51" opacity="0.8"/>
+  <rect x="442" y="98" width="36" height="24" fill="#E63946" opacity="0.7"/>
+  <polygon points="460,36 476,64 444,64" fill="#1D3557" opacity="0.75"/>
+
+  <circle cx="590" cy="70" r="23" fill="#F4D35E" opacity="0.85"/>
+  <rect x="570" y="100" width="40" height="22" fill="#2A9D8F" opacity="0.7"/>
+  <polygon points="590,32 608,60 572,60" fill="#E76F51" opacity="0.7"/>
+
+  <circle cx="720" cy="74" r="21" fill="#E63946" opacity="0.75"/>
+  <rect x="700" y="100" width="40" height="24" fill="#1D3557" opacity="0.75"/>
+  <polygon points="720,36 738,64 702,64" fill="#F4D35E" opacity="0.8"/>
+
+  <!-- Bold black separator line -->
+  <line x1="40" y1="140" x2="760" y2="140" stroke="#000000" stroke-width="2.5" opacity="0.7"/>
+
+  <!-- Row 2: shifted units -->
+  <rect x="85" y="165" width="38" height="24" fill="#2A9D8F" opacity="0.75"/>
+  <circle cx="105" cy="210" r="20" fill="#F4D35E" opacity="0.8"/>
+  <polygon points="105,240 125,270 85,270" fill="#E63946" opacity="0.7"/>
+
+  <rect x="215" y="162" width="42" height="22" fill="#E63946" opacity="0.7"/>
+  <circle cx="235" cy="208" r="22" fill="#1D3557" opacity="0.8"/>
+  <polygon points="235,238 255,268 215,268" fill="#E76F51" opacity="0.75"/>
+
+  <rect x="345" y="168" width="36" height="26" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="363" cy="215" r="18" fill="#E76F51" opacity="0.75"/>
+  <polygon points="363,242 380,268 346,268" fill="#1D3557" opacity="0.7"/>
+
+  <rect x="480" y="160" width="40" height="24" fill="#1D3557" opacity="0.75"/>
+  <circle cx="500" cy="208" r="21" fill="#E63946" opacity="0.8"/>
+  <polygon points="500,238 520,266 480,266" fill="#2A9D8F" opacity="0.7"/>
+
+  <rect x="610" y="165" width="38" height="22" fill="#E76F51" opacity="0.7"/>
+  <circle cx="630" cy="212" r="19" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="630,240 648,266 612,266" fill="#F4D35E" opacity="0.75"/>
+
+  <rect x="730" y="163" width="36" height="25" fill="#E63946" opacity="0.8"/>
+  <circle cx="748" cy="212" r="20" fill="#F4D35E" opacity="0.75"/>
+  <polygon points="748,240 766,268 730,268" fill="#1D3557" opacity="0.7"/>
+
+  <!-- Row 3: more variation -->
+  <polygon points="70,310 90,340 50,340" fill="#1D3557" opacity="0.8"/>
+  <circle cx="70" cy="365" r="22" fill="#E76F51" opacity="0.75"/>
+  <rect x="50" y="392" width="40" height="22" fill="#F4D35E" opacity="0.7"/>
+
+  <polygon points="200,308 222,338 178,338" fill="#2A9D8F" opacity="0.75"/>
+  <circle cx="200" cy="362" r="20" fill="#E63946" opacity="0.8"/>
+  <rect x="182" y="388" width="36" height="24" fill="#1D3557" opacity="0.7"/>
+
+  <polygon points="330,312 352,342 308,342" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="330" cy="368" r="24" fill="#1D3557" opacity="0.75"/>
+  <rect x="310" y="398" width="40" height="20" fill="#E63946" opacity="0.7"/>
+
+  <polygon points="460,310 480,338 440,338" fill="#E63946" opacity="0.75"/>
+  <circle cx="460" cy="365" r="18" fill="#F4D35E" opacity="0.8"/>
+  <rect x="442" y="390" width="36" height="24" fill="#2A9D8F" opacity="0.75"/>
+
+  <polygon points="590,308 612,340 568,340" fill="#E76F51" opacity="0.8"/>
+  <circle cx="590" cy="368" r="21" fill="#1D3557" opacity="0.75"/>
+  <rect x="572" y="395" width="36" height="22" fill="#E63946" opacity="0.7"/>
+
+  <polygon points="720,312 740,340 700,340" fill="#1D3557" opacity="0.7"/>
+  <circle cx="720" cy="365" r="22" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="700" y="393" width="40" height="24" fill="#E76F51" opacity="0.75"/>
+
+  <!-- Black separator -->
+  <line x1="40" y1="430" x2="760" y2="430" stroke="#000000" stroke-width="2" opacity="0.6"/>
+
+  <!-- Row 4 -->
+  <circle cx="70" cy="470" r="18" fill="#F4D35E" opacity="0.8"/>
+  <rect x="52" y="495" width="36" height="20" fill="#E63946" opacity="0.7"/>
+  <polygon points="70,525 86,550 54,550" fill="#2A9D8F" opacity="0.75"/>
+
+  <circle cx="200" cy="475" r="20" fill="#1D3557" opacity="0.8"/>
+  <rect x="182" y="500" width="36" height="22" fill="#F4D35E" opacity="0.7"/>
+  <polygon points="200,530 218,558 182,558" fill="#E76F51" opacity="0.7"/>
+
+  <circle cx="330" cy="472" r="22" fill="#E76F51" opacity="0.75"/>
+  <rect x="310" y="500" width="40" height="24" fill="#1D3557" opacity="0.75"/>
+  <polygon points="330,532 350,560 310,560" fill="#F4D35E" opacity="0.8"/>
+
+  <circle cx="460" cy="470" r="19" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="443" y="496" width="34" height="22" fill="#E76F51" opacity="0.7"/>
+  <polygon points="460,526 476,552 444,552" fill="#E63946" opacity="0.75"/>
+
+  <circle cx="590" cy="474" r="20" fill="#E63946" opacity="0.8"/>
+  <rect x="572" y="500" width="36" height="22" fill="#2A9D8F" opacity="0.75"/>
+  <polygon points="590,530 608,556 572,556" fill="#1D3557" opacity="0.7"/>
+
+  <circle cx="720" cy="472" r="21" fill="#F4D35E" opacity="0.75"/>
+  <rect x="700" y="500" width="40" height="22" fill="#E63946" opacity="0.7"/>
+  <polygon points="720,530 740,558 700,558" fill="#E76F51" opacity="0.8"/>
+
+  <!-- Row 5: bottom row -->
+  <rect x="55" y="590" width="30" height="30" fill="#1D3557" opacity="0.7"/>
+  <circle cx="70" cy="650" r="20" fill="#E63946" opacity="0.8"/>
+  <polygon points="70,680 88,710 52,710" fill="#F4D35E" opacity="0.75"/>
+
+  <rect x="185" y="592" width="30" height="28" fill="#E76F51" opacity="0.75"/>
+  <circle cx="200" cy="648" r="18" fill="#F4D35E" opacity="0.8"/>
+  <polygon points="200,676 216,704 184,704" fill="#1D3557" opacity="0.7"/>
+
+  <rect x="315" y="588" width="30" height="30" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="330" cy="648" r="22" fill="#E76F51" opacity="0.75"/>
+  <polygon points="330,678 348,708 312,708" fill="#E63946" opacity="0.7"/>
+
+  <rect x="445" y="590" width="30" height="28" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="460" cy="646" r="20" fill="#1D3557" opacity="0.8"/>
+  <polygon points="460,674 478,704 442,704" fill="#2A9D8F" opacity="0.75"/>
+
+  <rect x="575" y="592" width="30" height="28" fill="#E63946" opacity="0.8"/>
+  <circle cx="590" cy="648" r="19" fill="#2A9D8F" opacity="0.75"/>
+  <polygon points="590,676 608,704 572,704" fill="#E76F51" opacity="0.7"/>
+
+  <rect x="705" y="590" width="30" height="30" fill="#1D3557" opacity="0.75"/>
+  <circle cx="720" cy="650" r="20" fill="#F4D35E" opacity="0.8"/>
+  <polygon points="720,680 738,708 702,708" fill="#E63946" opacity="0.75"/>
+
+  <!-- Large orange rectangle overlay breaking the grid -->
+  <rect x="280" y="200" width="200" height="300" fill="#E76F51" opacity="0.25"/>
+  <rect x="280" y="200" width="200" height="300" fill="none" stroke="#E76F51" stroke-width="3" opacity="0.6"/>
+
+  <!-- Teal accents breaking the rhythm -->
+  <circle cx="400" cy="750" r="30" fill="#2A9D8F" opacity="0.5"/>
+  <rect x="600" y="280" width="50" height="50" fill="#2A9D8F" opacity="0.35"/>
+  <polygon points="150,450 180,420 180,480" fill="#2A9D8F" opacity="0.4"/>
+
+  <!-- Additional black structural lines -->
+  <line x1="40" y1="285" x2="760" y2="285" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <line x1="40" y1="570" x2="760" y2="570" stroke="#000000" stroke-width="2" opacity="0.5"/>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Background structural lines -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+
+  <!-- Main Cross 1: Red, centered around 300,320, rotated 0deg -->
+  <rect x="220" y="280" width="160" height="60" fill="#E63946" opacity="0.9"/>
+  <rect x="270" y="210" width="60" height="200" fill="#E63946" opacity="0.9"/>
+
+  <!-- Main Cross 2: Blue, centered around 500,460, rotated 20deg -->
+  <g transform="rotate(20, 500, 460)">
+    <rect x="420" y="430" width="160" height="55" fill="#1D3557" opacity="0.85"/>
+    <rect x="472" y="360" width="55" height="200" fill="#1D3557" opacity="0.85"/>
+  </g>
+
+  <!-- Cross 3: Teal, smaller, upper right -->
+  <g transform="rotate(-15, 620, 200)">
+    <rect x="560" y="175" width="120" height="45" fill="#2A9D8F" opacity="0.8"/>
+    <rect x="600" y="125" width="45" height="145" fill="#2A9D8F" opacity="0.8"/>
+  </g>
+
+  <!-- Cross 4: Orange, lower left, rotated -->
+  <g transform="rotate(35, 160, 580)">
+    <rect x="100" y="555" width="120" height="45" fill="#E76F51" opacity="0.8"/>
+    <rect x="138" y="510" width="45" height="135" fill="#E76F51" opacity="0.8"/>
+  </g>
+
+  <!-- Yellow accent squares -->
+  <rect x="370" y="170" width="40" height="40" fill="#F4D35E"/>
+  <rect x="480" y="340" width="32" height="32" fill="#F4D35E"/>
+  <rect x="140" y="410" width="36" height="36" fill="#F4D35E"/>
+  <rect x="610" y="540" width="30" height="30" fill="#F4D35E"/>
+  <rect x="50" y="90" width="28" height="28" fill="#F4D35E"/>
+  <rect x="700" y="680" width="34" height="34" fill="#F4D35E"/>
+
+  <!-- Small circles at intersections -->
+  <circle cx="300" cy="320" r="18" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="500" cy="460" r="16" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="622" cy="200" r="12" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="160" cy="580" r="11" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Additional small accent circles -->
+  <circle cx="390" cy="190" r="8" fill="#E63946"/>
+  <circle cx="496" cy="356" r="7" fill="#1D3557"/>
+  <circle cx="160" cy="428" r="9" fill="#2A9D8F"/>
+  <circle cx="624" cy="555" r="7" fill="#E76F51"/>
+  <circle cx="64" cy="104" r="6" fill="#000000"/>
+  <circle cx="714" cy="696" r="6" fill="#000000"/>
+
+  <!-- Border lines (black) -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000000" stroke-width="4"/>
+
+  <!-- Inner border accent lines -->
+  <line x1="30" y1="30" x2="770" y2="30" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="30" y1="770" x2="770" y2="770" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="30" y1="30" x2="30" y2="770" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="770" y1="30" x2="770" y2="770" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Corner accent shapes -->
+  <rect x="18" y="18" width="24" height="24" fill="#000000" opacity="0.7"/>
+  <rect x="758" y="18" width="24" height="24" fill="#000000" opacity="0.7"/>
+  <rect x="18" y="758" width="24" height="24" fill="#000000" opacity="0.7"/>
+  <rect x="758" y="758" width="24" height="24" fill="#000000" opacity="0.7"/>
+
+  <!-- Extra decorative crossing lines -->
+  <line x1="220" y1="280" x2="480" y2="420" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="380" y1="410" x2="600" y2="250" stroke="#000000" stroke-width="1" opacity="0.2"/>
+
+  <!-- Steel Blue small square accents -->
+  <rect x="680" y="120" width="22" height="22" fill="#457B9D"/>
+  <rect x="90" y="660" width="22" height="22" fill="#457B9D"/>
+  <rect x="730" y="370" width="18" height="18" fill="#457B9D"/>
+  <rect x="50" y="300" width="18" height="18" fill="#457B9D"/>
+</svg>

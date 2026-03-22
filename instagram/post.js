@@ -70,7 +70,8 @@ const TITLES = [
 // ── Caption generator ─────────────────────────────────────────────────────
 function generateCaption(index, title) {
   const hashtags = '#bauhaus #generativeart #geometricart #abstractart #svgart #agentart #bauhausmachina #dailyart #constructivism #modernism';
-  return `${title}\n\n${hashtags}`;
+  const displayTitle = title || `No. ${index}`;
+  return `${displayTitle}\n\n${hashtags}`;
 }
 
 // ── SVG → PNG ─────────────────────────────────────────────────────────────

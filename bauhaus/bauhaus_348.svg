@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Cream background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Black ground plane at bottom -->
+  <rect x="0" y="650" width="800" height="150" fill="#000000"/>
+  <!-- Flanking walls - left -->
+  <rect x="50" y="200" width="120" height="450" fill="#E76F51" opacity="0.85"/>
+  <rect x="0" y="250" width="60" height="400" fill="#6D2E46" opacity="0.7"/>
+  <!-- Flanking walls - right -->
+  <rect x="630" y="200" width="120" height="450" fill="#6D2E46" opacity="0.85"/>
+  <rect x="740" y="250" width="60" height="400" fill="#E76F51" opacity="0.7"/>
+  <!-- Sand-colored fill inside arch area -->
+  <rect x="170" y="300" width="460" height="350" fill="#DDA15E" opacity="0.1"/>
+  <!-- The Archway - deep blue -->
+  <path d="M 220 650 L 220 350 A 180 180 0 0 1 580 350 L 580 650" fill="none" stroke="#1D3557" stroke-width="8"/>
+  <!-- Inner arch echo -->
+  <path d="M 260 650 L 260 370 A 140 140 0 0 1 540 370 L 540 650" fill="none" stroke="#457B9D" stroke-width="3" opacity="0.5"/>
+  <!-- Interior scene under arch - yellow rectangles -->
+  <rect x="300" y="520" width="60" height="130" fill="#F4D35E" opacity="0.8"/>
+  <rect x="420" y="550" width="80" height="100" fill="#F4D35E" opacity="0.6"/>
+  <rect x="350" y="580" width="40" height="70" fill="#E9C46A" opacity="0.7"/>
+  <!-- Interior - red circles -->
+  <circle cx="400" cy="480" r="25" fill="#E63946" opacity="0.8"/>
+  <circle cx="320" cy="550" r="12" fill="#E63946" opacity="0.6"/>
+  <circle cx="480" cy="520" r="15" fill="#E63946" opacity="0.7"/>
+  <!-- Interior - teal triangles -->
+  <polygon points="370,600 355,640 385,640" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="450,570 438,600 462,600" fill="#2A9D8F" opacity="0.7"/>
+  <polygon points="280,590 268,620 292,620" fill="#2A9D8F" opacity="0.65"/>
+  <!-- Above arch - open cream space with forest dots -->
+  <circle cx="300" cy="180" r="4" fill="#264653" opacity="0.7"/>
+  <circle cx="350" cy="150" r="3" fill="#264653" opacity="0.6"/>
+  <circle cx="420" cy="130" r="5" fill="#264653" opacity="0.7"/>
+  <circle cx="480" cy="160" r="3" fill="#264653" opacity="0.5"/>
+  <circle cx="530" cy="140" r="4" fill="#264653" opacity="0.65"/>
+  <circle cx="250" cy="160" r="3" fill="#264653" opacity="0.55"/>
+  <circle cx="400" cy="100" r="4" fill="#264653" opacity="0.6"/>
+  <circle cx="550" cy="120" r="3" fill="#264653" opacity="0.5"/>
+  <circle cx="200" cy="120" r="3" fill="#264653" opacity="0.45"/>
+  <circle cx="600" cy="150" r="4" fill="#264653" opacity="0.5"/>
+  <circle cx="460" cy="80" r="3" fill="#264653" opacity="0.4"/>
+  <circle cx="330" cy="100" r="2" fill="#264653" opacity="0.5"/>
+  <!-- Steel blue accent lines -->
+  <line x1="170" y1="650" x2="630" y2="650" stroke="#457B9D" stroke-width="2" opacity="0.6"/>
+  <line x1="200" y1="200" x2="600" y2="200" stroke="#457B9D" stroke-width="1" opacity="0.4"/>
+  <line x1="400" y1="170" x2="400" y2="200" stroke="#457B9D" stroke-width="1" opacity="0.3"/>
+  <!-- Keystone accent at top of arch -->
+  <polygon points="400,170 390,190 410,190" fill="#1D3557" opacity="0.8"/>
+  <!-- Small accent shapes on ground plane -->
+  <rect x="100" y="680" width="20" height="20" fill="#FFFFFF" opacity="0.3"/>
+  <rect x="680" y="700" width="15" height="15" fill="#FFFFFF" opacity="0.25"/>
+  <circle cx="400" cy="700" r="8" fill="#A89F91" opacity="0.4"/>
+</svg>

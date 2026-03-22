@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+  <!-- Background structural lines -->
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <!-- Totem stack - top to bottom, centered at x=400 -->
+  <!-- 1. Circle - Red -->
+  <circle cx="400" cy="70" r="40" fill="#E63946" opacity="0.85"/>
+  <!-- Horizontal lines from circle -->
+  <line x1="0" y1="70" x2="360" y2="70" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="440" y1="70" x2="800" y2="70" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <!-- 2. Square - Blue -->
+  <rect x="365" y="130" width="70" height="70" fill="#1D3557" opacity="0.85"/>
+  <!-- Horizontal lines from square -->
+  <line x1="0" y1="165" x2="365" y2="165" stroke="#000000" stroke-width="1" opacity="0.22"/>
+  <line x1="435" y1="165" x2="800" y2="165" stroke="#000000" stroke-width="1" opacity="0.22"/>
+  <!-- 3. Triangle - Yellow -->
+  <polygon points="400,220 440,290 360,290" fill="#F4D35E" opacity="0.85"/>
+  <!-- Horizontal lines from triangle -->
+  <line x1="0" y1="260" x2="370" y2="260" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="430" y1="260" x2="800" y2="260" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <!-- 4. Semicircle - Teal (flat side up) -->
+  <path d="M 360,340 A 40,40 0 0,0 440,340" fill="#2A9D8F" opacity="0.8"/>
+  <!-- Horizontal lines -->
+  <line x1="0" y1="340" x2="360" y2="340" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="440" y1="340" x2="800" y2="340" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <!-- 5. Circle - Orange -->
+  <circle cx="400" cy="410" r="38" fill="#E76F51" opacity="0.85"/>
+  <!-- Horizontal lines -->
+  <line x1="0" y1="410" x2="362" y2="410" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="438" y1="410" x2="800" y2="410" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <!-- 6. Square - Black -->
+  <rect x="368" y="465" width="64" height="64" fill="#000000" opacity="0.8"/>
+  <!-- Horizontal lines -->
+  <line x1="0" y1="497" x2="368" y2="497" stroke="#000000" stroke-width="1" opacity="0.18"/>
+  <line x1="432" y1="497" x2="800" y2="497" stroke="#000000" stroke-width="1" opacity="0.18"/>
+  <!-- 7. Triangle inverted - Red -->
+  <polygon points="360,550 440,550 400,620" fill="#E63946" opacity="0.75"/>
+  <!-- Horizontal lines -->
+  <line x1="0" y1="585" x2="375" y2="585" stroke="#000000" stroke-width="1" opacity="0.18"/>
+  <line x1="425" y1="585" x2="800" y2="585" stroke="#000000" stroke-width="1" opacity="0.18"/>
+  <!-- 8. Semicircle - Steel Blue (flat side down) -->
+  <path d="M 358,650 A 42,42 0 0,1 442,650" fill="#457B9D" opacity="0.8"/>
+  <!-- Horizontal lines -->
+  <line x1="0" y1="650" x2="358" y2="650" stroke="#000000" stroke-width="1" opacity="0.18"/>
+  <line x1="442" y1="650" x2="800" y2="650" stroke="#000000" stroke-width="1" opacity="0.18"/>
+  <!-- 9. Circle - Yellow at bottom -->
+  <circle cx="400" cy="730" r="35" fill="#F4D35E" opacity="0.85"/>
+  <!-- Horizontal lines -->
+  <line x1="0" y1="730" x2="365" y2="730" stroke="#000000" stroke-width="1" opacity="0.18"/>
+  <line x1="435" y1="730" x2="800" y2="730" stroke="#000000" stroke-width="1" opacity="0.18"/>
+  <!-- Flanking accent shapes - left side -->
+  <circle cx="200" cy="70" r="8" fill="#E63946" opacity="0.4"/>
+  <rect x="180" y="160" width="12" height="12" fill="#1D3557" opacity="0.35"/>
+  <polygon points="200,255 208,270 192,270" fill="#F4D35E" opacity="0.4"/>
+  <circle cx="210" cy="410" r="7" fill="#E76F51" opacity="0.35"/>
+  <rect x="185" y="490" width="10" height="10" fill="#000000" opacity="0.3"/>
+  <polygon points="200,580 208,595 192,595" fill="#E63946" opacity="0.35"/>
+  <circle cx="195" cy="730" r="6" fill="#F4D35E" opacity="0.4"/>
+  <!-- Flanking accent shapes - right side -->
+  <circle cx="600" cy="70" r="8" fill="#E63946" opacity="0.4"/>
+  <rect x="590" y="160" width="12" height="12" fill="#1D3557" opacity="0.35"/>
+  <polygon points="600,255 608,270 592,270" fill="#F4D35E" opacity="0.4"/>
+  <circle cx="595" cy="340" r="7" fill="#2A9D8F" opacity="0.35"/>
+  <rect x="588" y="490" width="10" height="10" fill="#000000" opacity="0.3"/>
+  <circle cx="605" cy="650" r="7" fill="#457B9D" opacity="0.35"/>
+  <polygon points="600,725 608,740 592,740" fill="#F4D35E" opacity="0.35"/>
+  <!-- Thin vertical spine connecting totem -->
+  <line x1="400" y1="110" x2="400" y2="130" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="400" y1="200" x2="400" y2="220" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="400" y1="290" x2="400" y2="320" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="400" y1="360" x2="400" y2="372" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="400" y1="448" x2="400" y2="465" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="400" y1="529" x2="400" y2="550" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="400" y1="620" x2="400" y2="635" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="400" y1="670" x2="400" y2="695" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <!-- Corner accents -->
+  <circle cx="20" cy="20" r="10" fill="#E63946" opacity="0.3"/>
+  <circle cx="780" cy="20" r="10" fill="#1D3557" opacity="0.3"/>
+  <circle cx="20" cy="780" r="10" fill="#F4D35E" opacity="0.3"/>
+  <circle cx="780" cy="780" r="10" fill="#2A9D8F" opacity="0.3"/>
+</svg>

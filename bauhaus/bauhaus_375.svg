@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Upper background - steel blue sky -->
+  <rect x="0" y="0" width="800" height="530" fill="#457B9D"/>
+
+  <!-- Lower background -->
+  <rect x="0" y="530" width="800" height="270" fill="#1D3557" opacity="0.3"/>
+
+  <!-- Scattered stars - yellow circles -->
+  <circle cx="120" cy="60" r="4" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="300" cy="90" r="3" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="500" cy="45" r="5" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="680" cy="80" r="3.5" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="200" cy="150" r="3" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="420" cy="130" r="4" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="600" cy="170" r="3" fill="#F4D35E" opacity="0.65"/>
+  <circle cx="80" cy="200" r="2.5" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="350" cy="210" r="3.5" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="720" cy="140" r="4" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="550" cy="250" r="3" fill="#F4D35E" opacity="0.55"/>
+  <circle cx="150" cy="280" r="2.5" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="650" cy="300" r="3" fill="#F4D35E" opacity="0.5"/>
+
+  <!-- Scattered stars - coral circles -->
+  <circle cx="250" cy="40" r="3" fill="#E9C46A" opacity="0.85"/>
+  <circle cx="450" cy="100" r="4" fill="#E9C46A" opacity="0.7"/>
+  <circle cx="100" cy="130" r="2.5" fill="#E9C46A" opacity="0.75"/>
+  <circle cx="580" cy="70" r="3.5" fill="#E9C46A" opacity="0.8"/>
+  <circle cx="330" cy="170" r="3" fill="#E9C46A" opacity="0.6"/>
+  <circle cx="700" cy="220" r="4" fill="#E9C46A" opacity="0.65"/>
+  <circle cx="480" cy="190" r="2.5" fill="#E9C46A" opacity="0.55"/>
+  <circle cx="50" cy="310" r="3" fill="#E9C46A" opacity="0.5"/>
+  <circle cx="760" cy="50" r="3" fill="#E9C46A" opacity="0.8"/>
+
+  <!-- Crown triangles - main range -->
+  <!-- Large dominant blue triangle -->
+  <polygon points="300,530 400,280 500,530" fill="#1D3557" opacity="0.9"/>
+
+  <!-- Red triangle - left -->
+  <polygon points="120,530 220,350 320,530" fill="#E63946" opacity="0.85"/>
+
+  <!-- Burgundy triangle - right of center -->
+  <polygon points="430,530 530,320 630,530" fill="#6D2E46" opacity="0.85"/>
+
+  <!-- Forest triangle - far right -->
+  <polygon points="580,530 680,380 780,530" fill="#264653" opacity="0.9"/>
+
+  <!-- Smaller triangles filling gaps -->
+  <polygon points="20,530 80,420 140,530" fill="#264653" opacity="0.7"/>
+  <polygon points="240,530 310,400 380,530" fill="#E63946" opacity="0.5"/>
+  <polygon points="480,530 540,410 600,530" fill="#1D3557" opacity="0.55"/>
+  <polygon points="680,530 740,430 800,530" fill="#6D2E46" opacity="0.6"/>
+
+  <!-- Background triangles (further back, more transparent) -->
+  <polygon points="50,530 200,300 350,530" fill="#E63946" opacity="0.2"/>
+  <polygon points="350,530 500,250" fill="none"/>
+  <polygon points="450,530 600,290 750,530" fill="#264653" opacity="0.2"/>
+
+  <!-- Horizontal line at mountain base -->
+  <line x1="0" y1="530" x2="800" y2="530" stroke="#000000" stroke-width="2" opacity="0.5"/>
+
+  <!-- Accent elements below mountains -->
+  <rect x="100" y="560" width="60" height="8" fill="#E63946" opacity="0.4"/>
+  <rect x="350" y="580" width="100" height="6" fill="#1D3557" opacity="0.3"/>
+  <rect x="600" y="570" width="80" height="7" fill="#6D2E46" opacity="0.35"/>
+
+  <!-- Small squares at base -->
+  <rect x="200" y="540" width="10" height="10" fill="#F4D35E" opacity="0.6"/>
+  <rect x="450" y="540" width="10" height="10" fill="#F4D35E" opacity="0.6"/>
+  <rect x="700" y="540" width="10" height="10" fill="#E9C46A" opacity="0.6"/>
+
+  <!-- Corner accents -->
+  <circle cx="30" cy="770" r="6" fill="#A89F91" opacity="0.4"/>
+  <circle cx="770" cy="770" r="6" fill="#A89F91" opacity="0.4"/>
+
+  <!-- Thin structural lines -->
+  <line x1="0" y1="20" x2="800" y2="20" stroke="#FFFFFF" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="780" x2="800" y2="780" stroke="#FFFFFF" stroke-width="0.5" opacity="0.1"/>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Background grid structure -->
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Tower base - widest block -->
+  <rect x="180" y="680" width="280" height="60" fill="#1D3557" opacity="0.9"/>
+
+  <!-- Tower blocks stacking up, alternating colors, varying widths -->
+  <rect x="200" y="620" width="240" height="55" fill="#E63946" opacity="0.85"/>
+  <rect x="220" y="560" width="200" height="55" fill="#F4D35E" opacity="0.85"/>
+  <rect x="210" y="500" width="220" height="55" fill="#1D3557" opacity="0.8"/>
+  <rect x="240" y="445" width="160" height="50" fill="#E63946" opacity="0.8"/>
+  <rect x="250" y="390" width="140" height="50" fill="#F4D35E" opacity="0.8"/>
+  <rect x="230" y="335" width="180" height="50" fill="#1D3557" opacity="0.75"/>
+  <rect x="260" y="285" width="120" height="45" fill="#E63946" opacity="0.75"/>
+  <rect x="270" y="240" width="100" height="40" fill="#2A9D8F" opacity="0.7"/>
+  <rect x="280" y="200" width="80" height="35" fill="#F4D35E" opacity="0.75"/>
+  <rect x="290" y="165" width="60" height="30" fill="#1D3557" opacity="0.8"/>
+  <rect x="300" y="140" width="40" height="22" fill="#E63946" opacity="0.85"/>
+
+  <!-- Horizontal lines extending from tower edges -->
+  <line x1="180" y1="710" x2="30" y2="710" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <line x1="460" y1="650" x2="700" y2="650" stroke="#000000" stroke-width="1.5" opacity="0.45"/>
+  <line x1="200" y1="590" x2="60" y2="590" stroke="#000000" stroke-width="1" opacity="0.4"/>
+  <line x1="430" y1="525" x2="650" y2="525" stroke="#000000" stroke-width="1" opacity="0.35"/>
+  <line x1="210" y1="470" x2="100" y2="470" stroke="#000000" stroke-width="1" opacity="0.35"/>
+  <line x1="400" y1="415" x2="580" y2="415" stroke="#000000" stroke-width="0.8" opacity="0.3"/>
+  <line x1="230" y1="360" x2="120" y2="360" stroke="#000000" stroke-width="0.8" opacity="0.3"/>
+  <line x1="380" y1="307" x2="520" y2="307" stroke="#000000" stroke-width="0.8" opacity="0.25"/>
+  <line x1="270" y1="260" x2="150" y2="260" stroke="#000000" stroke-width="0.5" opacity="0.25"/>
+  <line x1="370" y1="218" x2="480" y2="218" stroke="#000000" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Small circles at intersection/endpoint positions -->
+  <circle cx="30" cy="710" r="5" fill="#E63946" opacity="0.7"/>
+  <circle cx="700" cy="650" r="5" fill="#1D3557" opacity="0.7"/>
+  <circle cx="60" cy="590" r="4" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="650" cy="525" r="4" fill="#2A9D8F" opacity="0.6"/>
+  <circle cx="100" cy="470" r="4" fill="#E76F51" opacity="0.6"/>
+  <circle cx="580" cy="415" r="3.5" fill="#457B9D" opacity="0.6"/>
+  <circle cx="120" cy="360" r="3.5" fill="#E63946" opacity="0.55"/>
+  <circle cx="520" cy="307" r="3" fill="#F4D35E" opacity="0.55"/>
+  <circle cx="150" cy="260" r="3" fill="#1D3557" opacity="0.5"/>
+  <circle cx="480" cy="218" r="3" fill="#E76F51" opacity="0.5"/>
+
+  <!-- Tower crown element -->
+  <polygon points="320,140 310,120 330,120" fill="#000000" opacity="0.7"/>
+
+  <!-- Ground line -->
+  <line x1="50" y1="745" x2="750" y2="745" stroke="#000000" stroke-width="2" opacity="0.3"/>
+
+  <!-- Accent shapes on the right side -->
+  <rect x="620" y="300" width="40" height="40" fill="none" stroke="#E63946" stroke-width="1" opacity="0.3"/>
+  <rect x="660" y="180" width="25" height="25" fill="#F4D35E" opacity="0.25"/>
+  <circle cx="700" cy="450" r="15" fill="none" stroke="#1D3557" stroke-width="1" opacity="0.25"/>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Sky background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Structural grid lines (faint) -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#1D3557" stroke-width="1" opacity="0.1"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#1D3557" stroke-width="1" opacity="0.08"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#1D3557" stroke-width="1" opacity="0.08"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#1D3557" stroke-width="1" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#1D3557" stroke-width="1" opacity="0.08"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#1D3557" stroke-width="1" opacity="0.08"/>
+
+  <!-- Ground base -->
+  <rect x="0" y="720" width="800" height="80" fill="#A89F91"/>
+
+  <!-- Stacked building blocks - back layer (lighter) -->
+  <rect x="40" y="400" width="100" height="320" fill="#457B9D" opacity="0.6"/>
+  <rect x="620" y="360" width="130" height="360" fill="#457B9D" opacity="0.55"/>
+  <rect x="500" y="440" width="90" height="280" fill="#1D3557" opacity="0.5"/>
+
+  <!-- Mid layer blocks -->
+  <rect x="60" y="300" width="140" height="420" fill="#1D3557"/>
+  <rect x="160" y="380" width="100" height="340" fill="#457B9D"/>
+  <rect x="240" y="280" width="120" height="440" fill="#1D3557"/>
+  <rect x="330" y="350" width="80" height="370" fill="#457B9D" opacity="0.85"/>
+  <rect x="390" y="250" width="130" height="470" fill="#1D3557"/>
+  <rect x="500" y="320" width="110" height="400" fill="#457B9D"/>
+  <rect x="590" y="220" width="150" height="500" fill="#1D3557"/>
+  <rect x="700" y="380" width="80" height="340" fill="#457B9D" opacity="0.8"/>
+
+  <!-- Offset accent blocks on top -->
+  <rect x="70" y="260" width="120" height="50" fill="#E63946"/>
+  <rect x="250" y="230" width="100" height="60" fill="#F4D35E"/>
+  <rect x="400" y="190" width="130" height="65" fill="#E63946"/>
+  <rect x="600" y="170" width="140" height="55" fill="#F4D35E"/>
+  <rect x="340" y="300" width="60" height="55" fill="#E76F51"/>
+  <rect x="510" y="280" width="90" height="45" fill="#E63946" opacity="0.85"/>
+
+  <!-- Small accent rectangles offset (building details) -->
+  <rect x="80" y="310" width="40" height="20" fill="#F4D35E" opacity="0.7"/>
+  <rect x="405" y="240" width="50" height="15" fill="#FFFFFF" opacity="0.5"/>
+  <rect x="610" y="220" width="35" height="18" fill="#FFFFFF" opacity="0.4"/>
+  <rect x="255" y="280" width="30" height="18" fill="#E63946" opacity="0.6"/>
+
+  <!-- Window circles -->
+  <circle cx="110" cy="380" r="8" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="110" cy="450" r="8" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="110" cy="520" r="8" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="285" cy="360" r="7" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="285" cy="430" r="7" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="285" cy="500" r="7" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="450" cy="320" r="8" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="450" cy="400" r="8" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="450" cy="480" r="8" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="645" cy="290" r="9" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="645" cy="370" r="9" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="645" cy="450" r="9" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="645" cy="530" r="9" fill="#F4D35E" opacity="0.8"/>
+
+  <!-- Thin structural lines on buildings -->
+  <line x1="60" y1="300" x2="200" y2="300" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="240" y1="280" x2="360" y2="280" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="390" y1="250" x2="520" y2="250" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="590" y1="220" x2="740" y2="220" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Ground line -->
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#000000" stroke-width="2.5" opacity="0.4"/>
+</svg>

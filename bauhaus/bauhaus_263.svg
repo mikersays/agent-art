@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Ground plane -->
+  <rect x="0" y="620" width="800" height="180" fill="#264653" opacity="0.15"/>
+
+  <!-- Subtle structural grid -->
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="250" y1="0" x2="250" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="550" y1="0" x2="550" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Main building mass - left tower -->
+  <rect x="80" y="180" width="90" height="500" fill="#1D3557" opacity="0.85"/>
+  <!-- Column lines on left tower -->
+  <line x1="80" y1="180" x2="80" y2="680" stroke="#000000" stroke-width="2" opacity="0.6"/>
+  <line x1="170" y1="180" x2="170" y2="680" stroke="#000000" stroke-width="2" opacity="0.6"/>
+
+  <!-- Center structure -->
+  <rect x="200" y="280" width="250" height="400" fill="#457B9D" opacity="0.7"/>
+
+  <!-- Right tall column -->
+  <rect x="520" y="120" width="70" height="560" fill="#264653" opacity="0.8"/>
+  <line x1="520" y1="120" x2="520" y2="680" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="590" y1="120" x2="590" y2="680" stroke="#000000" stroke-width="2" opacity="0.5"/>
+
+  <!-- Far right lower structure -->
+  <rect x="630" y="380" width="120" height="300" fill="#1D3557" opacity="0.65"/>
+
+  <!-- Horizontal beams -->
+  <rect x="60" y="280" width="700" height="12" fill="#000000" opacity="0.7"/>
+  <rect x="170" y="400" width="350" height="8" fill="#000000" opacity="0.5"/>
+  <rect x="80" y="550" width="670" height="10" fill="#000000" opacity="0.6"/>
+  <rect x="60" y="680" width="710" height="14" fill="#000000" opacity="0.8"/>
+
+  <!-- Semicircular arch - large -->
+  <path d="M200,400 A125,125 0 0,1 450,400" fill="none" stroke="#1D3557" stroke-width="4" opacity="0.7"/>
+  <!-- Filled arch -->
+  <path d="M230,550 A60,60 0 0,1 350,550 L230,550 Z" fill="#457B9D" opacity="0.4"/>
+
+  <!-- Arch on right structure -->
+  <path d="M640,550 A50,50 0 0,1 740,550" fill="none" stroke="#264653" stroke-width="3" opacity="0.6"/>
+
+  <!-- Window-like small squares - red and orange -->
+  <rect x="110" y="310" width="22" height="28" fill="#E63946" opacity="0.85"/>
+  <rect x="110" y="360" width="22" height="28" fill="#E76F51" opacity="0.75"/>
+  <rect x="110" y="460" width="22" height="28" fill="#E63946" opacity="0.8"/>
+  <rect x="110" y="510" width="22" height="28" fill="#E76F51" opacity="0.7"/>
+
+  <rect x="230" y="320" width="20" height="25" fill="#E76F51" opacity="0.8"/>
+  <rect x="270" y="320" width="20" height="25" fill="#E63946" opacity="0.75"/>
+  <rect x="310" y="320" width="20" height="25" fill="#E76F51" opacity="0.8"/>
+  <rect x="350" y="320" width="20" height="25" fill="#E63946" opacity="0.7"/>
+  <rect x="390" y="320" width="20" height="25" fill="#E76F51" opacity="0.75"/>
+
+  <rect x="230" y="440" width="20" height="25" fill="#E63946" opacity="0.8"/>
+  <rect x="310" y="440" width="20" height="25" fill="#E76F51" opacity="0.7"/>
+  <rect x="390" y="440" width="20" height="25" fill="#E63946" opacity="0.75"/>
+
+  <rect x="540" y="200" width="30" height="35" fill="#E63946" opacity="0.8"/>
+  <rect x="540" y="260" width="30" height="35" fill="#E76F51" opacity="0.75"/>
+  <rect x="540" y="420" width="30" height="35" fill="#E63946" opacity="0.7"/>
+
+  <rect x="660" y="420" width="22" height="28" fill="#E76F51" opacity="0.8"/>
+  <rect x="700" y="420" width="22" height="28" fill="#E63946" opacity="0.75"/>
+  <rect x="660" y="480" width="22" height="28" fill="#E63946" opacity="0.7"/>
+  <rect x="700" y="480" width="22" height="28" fill="#E76F51" opacity="0.8"/>
+
+  <!-- Rooftop elements -->
+  <polygon points="520,120 555,70 590,120" fill="#264653" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
+  <rect x="100" y="165" width="50" height="15" fill="#1D3557" opacity="0.6"/>
+
+  <!-- Corner accents -->
+  <circle cx="60" cy="60" r="10" fill="#E63946" opacity="0.4"/>
+  <rect x="730" y="50" width="15" height="15" fill="#457B9D" opacity="0.4"/>
+  <circle cx="740" cy="760" r="8" fill="#E76F51" opacity="0.35"/>
+</svg>

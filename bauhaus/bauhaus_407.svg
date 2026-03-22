@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Floating Planes -->
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#1D3557"/>
+
+  <!-- Low-opacity structural grid -->
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#FFFFFF" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#FFFFFF" stroke-width="0.5" opacity="0.06"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#FFFFFF" stroke-width="0.5" opacity="0.06"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#FFFFFF" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#FFFFFF" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#FFFFFF" stroke-width="0.5" opacity="0.06"/>
+
+  <!-- Large background plane 1 - cream, 12 degrees -->
+  <rect x="80" y="60" width="500" height="340" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.85" transform="rotate(12, 330, 230)"/>
+
+  <!-- Large plane 2 - sand, -10 degrees -->
+  <rect x="200" y="300" width="460" height="280" fill="#DDA15E" stroke="#000000" stroke-width="2" opacity="0.80" transform="rotate(-10, 430, 440)"/>
+
+  <!-- Large plane 3 - steel blue, 20 degrees -->
+  <rect x="320" y="100" width="380" height="260" fill="#457B9D" stroke="#000000" stroke-width="2" opacity="0.75" transform="rotate(20, 510, 230)"/>
+
+  <!-- Medium plane 4 - cream, -18 degrees -->
+  <rect x="50" y="380" width="300" height="200" fill="#FEFAE0" stroke="#000000" stroke-width="1.5" opacity="0.80" transform="rotate(-18, 200, 480)"/>
+
+  <!-- Medium plane 5 - sand, 35 degrees -->
+  <rect x="480" y="420" width="260" height="180" fill="#DDA15E" stroke="#000000" stroke-width="1.5" opacity="0.78" transform="rotate(35, 610, 510)"/>
+
+  <!-- Medium plane 6 - light blue, -25 degrees -->
+  <rect x="140" y="180" width="280" height="160" fill="#A8DADC" stroke="#000000" stroke-width="1.5" opacity="0.70" transform="rotate(-25, 280, 260)"/>
+
+  <!-- Medium plane 7 - warm gray, 45 degrees -->
+  <rect x="520" y="220" width="220" height="150" fill="#A89F91" stroke="#000000" stroke-width="1.5" opacity="0.72" transform="rotate(45, 630, 295)"/>
+
+  <!-- Small plane 8 - cream, 10 degrees -->
+  <rect x="60" y="580" width="180" height="120" fill="#FEFAE0" stroke="#000000" stroke-width="1" opacity="0.85" transform="rotate(10, 150, 640)"/>
+
+  <!-- Small plane 9 - sand, -38 degrees -->
+  <rect x="600" y="560" width="160" height="100" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.80" transform="rotate(-38, 680, 610)"/>
+
+  <!-- Small plane 10 - steel blue, 22 degrees -->
+  <rect x="330" y="580" width="200" height="120" fill="#457B9D" stroke="#000000" stroke-width="1" opacity="0.75" transform="rotate(22, 430, 640)"/>
+
+  <!-- Thin accent plane - cream strip, -5 degrees -->
+  <rect x="0" y="370" width="800" height="18" fill="#FEFAE0" stroke="none" opacity="0.30" transform="rotate(-5, 400, 379)"/>
+
+  <!-- Thin accent plane - sand strip, 15 degrees -->
+  <rect x="100" y="140" width="700" height="12" fill="#DDA15E" stroke="none" opacity="0.35" transform="rotate(15, 450, 146)"/>
+
+  <!-- Corner accent circles -->
+  <!-- Top-left -->
+  <circle cx="40" cy="40" r="12" fill="#FEFAE0" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="40" cy="40" r="5" fill="#000000"/>
+
+  <!-- Top-right -->
+  <circle cx="760" cy="40" r="12" fill="#DDA15E" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="760" cy="40" r="5" fill="#000000"/>
+
+  <!-- Bottom-left -->
+  <circle cx="40" cy="760" r="12" fill="#A8DADC" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="40" cy="760" r="5" fill="#000000"/>
+
+  <!-- Bottom-right -->
+  <circle cx="760" cy="760" r="12" fill="#A89F91" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="760" cy="760" r="5" fill="#000000"/>
+
+  <!-- Mid-edge accent circles -->
+  <circle cx="400" cy="22" r="8" fill="#FEFAE0" stroke="#000000" stroke-width="1"/>
+  <circle cx="400" cy="778" r="8" fill="#DDA15E" stroke="#000000" stroke-width="1"/>
+  <circle cx="22" cy="400" r="8" fill="#A8DADC" stroke="#000000" stroke-width="1"/>
+  <circle cx="778" cy="400" r="8" fill="#A89F91" stroke="#000000" stroke-width="1"/>
+
+  <!-- Small floating accent planes -->
+  <rect x="680" y="68" width="80" height="54" fill="#FEFAE0" stroke="#000000" stroke-width="1" opacity="0.90" transform="rotate(28, 720, 95)"/>
+  <rect x="30" y="680" width="90" height="56" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85" transform="rotate(-22, 75, 708)"/>
+  <rect x="680" y="670" width="78" height="50" fill="#A8DADC" stroke="#000000" stroke-width="1" opacity="0.80" transform="rotate(40, 719, 695)"/>
+  <rect x="30" y="70" width="85" height="52" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.80" transform="rotate(-15, 72, 96)"/>
+
+  <!-- Extra accent circles on plane corners -->
+  <circle cx="162" cy="108" r="6" fill="#000000" opacity="0.5"/>
+  <circle cx="620" cy="148" r="6" fill="#000000" opacity="0.5"/>
+  <circle cx="98" cy="452" r="6" fill="#000000" opacity="0.5"/>
+  <circle cx="542" cy="628" r="6" fill="#000000" opacity="0.5"/>
+</svg>

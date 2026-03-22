@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Thin black border -->
+  <rect x="5" y="5" width="790" height="790" fill="none" stroke="#000000" stroke-width="1.5"/>
+  <!-- Corner accents: forest quarter circles -->
+  <path d="M0,0 L80,0 A80,80 0 0,0 0,80 Z" fill="#264653" opacity="0.85"/>
+  <path d="M800,0 L800,80 A80,80 0 0,0 720,0 Z" fill="#264653" opacity="0.85"/>
+  <path d="M0,800 L0,720 A80,80 0 0,0 80,800 Z" fill="#264653" opacity="0.85"/>
+  <path d="M800,800 L720,800 A80,80 0 0,0 800,720 Z" fill="#264653" opacity="0.85"/>
+  <!-- Horizontal bar -->
+  <rect x="50" y="320" width="700" height="60" fill="#1D3557" opacity="0.9"/>
+  <!-- Vertical bar -->
+  <rect x="270" y="75" width="60" height="650" fill="#E63946" opacity="0.9"/>
+  <!-- Yellow intersection square -->
+  <rect x="270" y="320" width="60" height="60" fill="#F4D35E"/>
+  <!-- Scattered teal circles -->
+  <circle cx="120" cy="150" r="18" fill="#2A9D8F" opacity="0.7"/>
+  <circle cx="500" cy="120" r="12" fill="#2A9D8F" opacity="0.6"/>
+  <circle cx="650" cy="200" r="22" fill="#2A9D8F" opacity="0.75"/>
+  <circle cx="160" cy="550" r="15" fill="#2A9D8F" opacity="0.65"/>
+  <circle cx="580" cy="600" r="20" fill="#2A9D8F" opacity="0.7"/>
+  <circle cx="700" cy="480" r="10" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="450" cy="700" r="14" fill="#2A9D8F" opacity="0.6"/>
+  <!-- Orange triangles -->
+  <polygon points="550,180 570,140 590,180" fill="#E76F51" opacity="0.8"/>
+  <polygon points="100,450 130,410 160,450" fill="#E76F51" opacity="0.75"/>
+  <polygon points="620,520 650,480 680,520" fill="#E76F51" opacity="0.85"/>
+  <polygon points="430,650 460,610 490,650" fill="#E76F51" opacity="0.7"/>
+  <polygon points="180,250 200,220 220,250" fill="#E76F51" opacity="0.8"/>
+  <!-- Burgundy diamonds -->
+  <polygon points="480,250 500,230 520,250 500,270" fill="#6D2E46" opacity="0.75"/>
+  <polygon points="150,680 170,660 190,680 170,700" fill="#6D2E46" opacity="0.8"/>
+  <polygon points="650,350 670,330 690,350 670,370" fill="#6D2E46" opacity="0.7"/>
+  <polygon points="400,500 420,480 440,500 420,520" fill="#6D2E46" opacity="0.85"/>
+  <polygon points="550,700 565,685 580,700 565,715" fill="#6D2E46" opacity="0.7"/>
+  <!-- Additional structural thin lines -->
+  <line x1="50" y1="200" x2="750" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="50" y1="500" x2="750" y2="500" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="150" y1="75" x2="150" y2="725" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="500" y1="75" x2="500" y2="725" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="650" y1="75" x2="650" y2="725" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+</svg>

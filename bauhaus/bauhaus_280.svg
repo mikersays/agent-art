@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Subtle grid -->
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <!-- Orbital path 1 - large, centered at 350,350 -->
+  <ellipse cx="350" cy="350" rx="280" ry="150" fill="none" stroke="#1D3557" stroke-width="2" opacity="0.7" transform="rotate(-20,350,350)"/>
+  <!-- Orbital path 2 - centered at 450,400 -->
+  <ellipse cx="450" cy="400" rx="220" ry="120" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.6" transform="rotate(35,450,400)"/>
+  <!-- Orbital path 3 - centered at 300,450 -->
+  <ellipse cx="300" cy="450" rx="250" ry="100" fill="none" stroke="#1D3557" stroke-width="2.5" opacity="0.55" transform="rotate(-50,300,450)"/>
+  <!-- Orbital path 4 - centered at 500,300 -->
+  <ellipse cx="500" cy="300" rx="200" ry="80" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.5" transform="rotate(15,500,300)"/>
+  <!-- Orbital path 5 - small, centered at 400,500 -->
+  <ellipse cx="400" cy="500" rx="160" ry="70" fill="none" stroke="#1D3557" stroke-width="2" opacity="0.45" transform="rotate(-10,400,500)"/>
+  <!-- Orbital path 6 - centered at 350,250 -->
+  <ellipse cx="350" cy="250" rx="180" ry="90" fill="none" stroke="#000000" stroke-width="1" opacity="0.4" transform="rotate(60,350,250)"/>
+  <!-- Orbital path 7 - wide -->
+  <ellipse cx="420" cy="380" rx="350" ry="180" fill="none" stroke="#457B9D" stroke-width="1.5" opacity="0.3" transform="rotate(-5,420,380)"/>
+  <!-- Center nodes (orbital foci) -->
+  <circle cx="350" cy="350" r="12" fill="#1D3557" opacity="0.8"/>
+  <circle cx="450" cy="400" r="10" fill="#000000" opacity="0.7"/>
+  <circle cx="300" cy="450" r="8" fill="#1D3557" opacity="0.6"/>
+  <circle cx="500" cy="300" r="9" fill="#000000" opacity="0.65"/>
+  <!-- Planets on orbital path 1 -->
+  <circle cx="140" cy="230" r="18" fill="#E63946" opacity="0.9"/>
+  <circle cx="580" cy="390" r="14" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="350" cy="200" r="10" fill="#2A9D8F" opacity="0.8"/>
+  <!-- Planets on orbital path 2 -->
+  <circle cx="280" cy="310" r="16" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="620" cy="480" r="12" fill="#E63946" opacity="0.8"/>
+  <circle cx="450" cy="280" r="8" fill="#2A9D8F" opacity="0.75"/>
+  <!-- Planets on orbital path 3 -->
+  <circle cx="120" cy="350" r="20" fill="#2A9D8F" opacity="0.85"/>
+  <circle cx="480" cy="530" r="13" fill="#E63946" opacity="0.8"/>
+  <!-- Planets on orbital path 4 -->
+  <circle cx="680" cy="260" r="15" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="330" cy="330" r="9" fill="#E63946" opacity="0.7"/>
+  <!-- Planets on orbital path 5 -->
+  <circle cx="260" cy="480" r="11" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="540" cy="510" r="17" fill="#2A9D8F" opacity="0.75"/>
+  <!-- Planets on orbital path 6 -->
+  <circle cx="220" cy="180" r="14" fill="#E63946" opacity="0.7"/>
+  <circle cx="450" cy="150" r="10" fill="#F4D35E" opacity="0.75"/>
+  <!-- Small moons / detail circles -->
+  <circle cx="155" cy="220" r="5" fill="#A8DADC" opacity="0.7"/>
+  <circle cx="595" cy="385" r="4" fill="#A8DADC" opacity="0.6"/>
+  <circle cx="130" cy="340" r="6" fill="#E9C46A" opacity="0.65"/>
+  <circle cx="690" cy="255" r="5" fill="#E9C46A" opacity="0.6"/>
+  <circle cx="545" cy="505" r="5" fill="#A8DADC" opacity="0.55"/>
+  <circle cx="270" cy="475" r="4" fill="#E9C46A" opacity="0.6"/>
+  <!-- Intersection accent marks - small shapes where orbits cross -->
+  <rect x="345" y="195" width="10" height="10" fill="#E76F51" opacity="0.6" transform="rotate(45,350,200)"/>
+  <rect x="275" y="305" width="8" height="8" fill="#E76F51" opacity="0.55" transform="rotate(45,279,309)"/>
+  <rect x="475" y="525" width="8" height="8" fill="#E76F51" opacity="0.5" transform="rotate(45,479,529)"/>
+  <!-- Corner accents -->
+  <rect x="15" y="15" width="30" height="30" fill="#1D3557" opacity="0.25"/>
+  <rect x="755" y="755" width="30" height="30" fill="#E63946" opacity="0.25"/>
+  <circle cx="775" cy="30" r="10" fill="#F4D35E" opacity="0.3"/>
+  <circle cx="25" cy="775" r="10" fill="#2A9D8F" opacity="0.3"/>
+  <!-- Distant tiny planets for depth -->
+  <circle cx="700" cy="100" r="4" fill="#1D3557" opacity="0.4"/>
+  <circle cx="80" cy="650" r="3" fill="#E63946" opacity="0.35"/>
+  <circle cx="720" cy="650" r="5" fill="#F4D35E" opacity="0.4"/>
+  <circle cx="100" cy="100" r="4" fill="#2A9D8F" opacity="0.35"/>
+</svg>

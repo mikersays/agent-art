@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background cream -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Forest green rectangle at the base -->
+  <rect x="50" y="700" width="700" height="60" fill="#264653" opacity="0.7"/>
+  <!-- Shadow rectangles for floating bars (drawn first, underneath) -->
+  <rect x="115" y="138" width="350" height="28" fill="#000000" opacity="0.12" rx="2"/>
+  <rect x="315" y="248" width="400" height="28" fill="#000000" opacity="0.12" rx="2"/>
+  <rect x="65" y="368" width="300" height="28" fill="#000000" opacity="0.12" rx="2"/>
+  <rect x="215" y="478" width="450" height="28" fill="#000000" opacity="0.12" rx="2"/>
+  <rect x="115" y="578" width="380" height="28" fill="#000000" opacity="0.12" rx="2"/>
+  <rect x="365" y="648" width="320" height="28" fill="#000000" opacity="0.12" rx="2"/>
+  <!-- Floating bar 1 - Red -->
+  <rect x="100" y="120" width="350" height="28" fill="#E63946" opacity="0.85"/>
+  <!-- Floating bar 2 - Blue -->
+  <rect x="300" y="230" width="400" height="28" fill="#1D3557" opacity="0.8"/>
+  <!-- Floating bar 3 - Yellow -->
+  <rect x="50" y="350" width="300" height="28" fill="#F4D35E" opacity="0.85"/>
+  <!-- Floating bar 4 - Teal -->
+  <rect x="200" y="460" width="450" height="28" fill="#2A9D8F" opacity="0.8"/>
+  <!-- Floating bar 5 - Red -->
+  <rect x="100" y="560" width="380" height="28" fill="#E63946" opacity="0.75"/>
+  <!-- Floating bar 6 - Blue -->
+  <rect x="350" y="630" width="320" height="28" fill="#1D3557" opacity="0.75"/>
+  <!-- Large black circle floating among the bars -->
+  <circle cx="520" cy="390" r="80" fill="#000000" opacity="0.75"/>
+  <circle cx="520" cy="390" r="50" fill="#FEFAE0" opacity="0.15"/>
+  <!-- Thin vertical orange lines connecting some bars -->
+  <line x1="250" y1="148" x2="250" y2="230" stroke="#E76F51" stroke-width="2.5" opacity="0.7"/>
+  <line x1="400" y1="258" x2="400" y2="350" stroke="#E76F51" stroke-width="2.5" opacity="0.7"/>
+  <line x1="200" y1="378" x2="200" y2="460" stroke="#E76F51" stroke-width="2.5" opacity="0.7"/>
+  <line x1="450" y1="488" x2="450" y2="560" stroke="#E76F51" stroke-width="2.5" opacity="0.7"/>
+  <line x1="350" y1="588" x2="350" y2="630" stroke="#E76F51" stroke-width="2.5" opacity="0.65"/>
+  <line x1="600" y1="258" x2="600" y2="460" stroke="#E76F51" stroke-width="1.5" opacity="0.4"/>
+  <!-- Sand-colored triangles pointing upward between bars -->
+  <polygon points="160,190 180,160 200,190" fill="#DDA15E" opacity="0.7"/>
+  <polygon points="500,300 520,270 540,300" fill="#DDA15E" opacity="0.65"/>
+  <polygon points="120,420 140,395 160,420" fill="#DDA15E" opacity="0.7"/>
+  <polygon points="350,520 370,495 390,520" fill="#DDA15E" opacity="0.65"/>
+  <polygon points="550,600 570,575 590,600" fill="#DDA15E" opacity="0.6"/>
+  <polygon points="680,520 700,495 720,520" fill="#DDA15E" opacity="0.55"/>
+  <polygon points="260,600 280,575 300,600" fill="#DDA15E" opacity="0.6"/>
+  <!-- Additional accent elements -->
+  <circle cx="80" cy="290" r="8" fill="#E63946" opacity="0.4"/>
+  <circle cx="720" cy="170" r="10" fill="#1D3557" opacity="0.35"/>
+  <circle cx="680" cy="400" r="6" fill="#F4D35E" opacity="0.5"/>
+  <rect x="730" y="550" width="15" height="15" fill="#2A9D8F" opacity="0.4"/>
+  <rect x="40" y="500" width="12" height="12" fill="#E76F51" opacity="0.45"/>
+  <!-- Subtle horizontal structure lines -->
+  <line x1="0" y1="50" x2="800" y2="50" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="770" x2="800" y2="770" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <!-- Corner marks -->
+  <line x1="10" y1="10" x2="40" y2="10" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="10" y1="10" x2="10" y2="40" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="760" y1="10" x2="790" y2="10" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="790" y1="10" x2="790" y2="40" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+</svg>

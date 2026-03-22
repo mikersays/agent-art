@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Thin horizontal lines for rhythm -->
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="1" opacity="0.1"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="1" opacity="0.1"/>
+  <!-- Vertical bar 1 - tall red -->
+  <rect x="60" y="100" width="40" height="600" fill="#E63946" opacity="0.9"/>
+  <rect x="70" y="90" width="20" height="20" fill="#000000"/>
+  <rect x="70" y="710" width="20" height="20" fill="#000000"/>
+  <circle cx="80" cy="350" r="12" fill="#FFFFFF"/>
+  <!-- Vertical bar 2 - medium blue -->
+  <rect x="140" y="200" width="60" height="450" fill="#1D3557" opacity="0.85"/>
+  <rect x="155" y="190" width="30" height="15" fill="#F4D35E"/>
+  <circle cx="170" cy="400" r="18" fill="#FFFFFF"/>
+  <line x1="100" y1="400" x2="140" y2="400" stroke="#000000" stroke-width="1.5"/>
+  <!-- Vertical bar 3 - thin yellow -->
+  <rect x="250" y="150" width="20" height="500" fill="#F4D35E" opacity="0.95"/>
+  <rect x="245" y="140" width="30" height="15" fill="#E63946"/>
+  <rect x="245" y="655" width="30" height="15" fill="#E63946"/>
+  <!-- Vertical bar 4 - wide teal -->
+  <rect x="310" y="250" width="80" height="400" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="350" cy="380" r="25" fill="#FFFFFF"/>
+  <circle cx="350" cy="480" r="15" fill="#FFFFFF"/>
+  <rect x="335" y="240" width="30" height="15" fill="#000000"/>
+  <line x1="260" y1="350" x2="310" y2="350" stroke="#1D3557" stroke-width="1"/>
+  <line x1="390" y1="450" x2="440" y2="450" stroke="#1D3557" stroke-width="1"/>
+  <!-- Vertical bar 5 - narrow red -->
+  <rect x="440" y="120" width="25" height="560" fill="#E63946" opacity="0.7"/>
+  <rect x="443" y="110" width="19" height="15" fill="#F4D35E"/>
+  <circle cx="452" cy="300" r="8" fill="#FFFFFF"/>
+  <!-- Vertical bar 6 - medium blue -->
+  <rect x="520" y="180" width="50" height="480" fill="#1D3557" opacity="0.9"/>
+  <rect x="530" y="170" width="30" height="15" fill="#2A9D8F"/>
+  <rect x="530" y="665" width="30" height="15" fill="#2A9D8F"/>
+  <circle cx="545" cy="420" r="16" fill="#FFFFFF"/>
+  <line x1="465" y1="350" x2="520" y2="350" stroke="#A89F91" stroke-width="1.5"/>
+  <!-- Vertical bar 7 - wide yellow -->
+  <rect x="620" y="220" width="70" height="380" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="655" cy="350" r="22" fill="#FFFFFF"/>
+  <rect x="640" y="210" width="30" height="15" fill="#000000"/>
+  <rect x="640" y="605" width="30" height="15" fill="#000000"/>
+  <line x1="570" y1="500" x2="620" y2="500" stroke="#E63946" stroke-width="1.5"/>
+  <!-- Vertical bar 8 - thin teal -->
+  <rect x="730" y="160" width="15" height="520" fill="#2A9D8F" opacity="0.9"/>
+  <rect x="725" y="150" width="25" height="15" fill="#F4D35E"/>
+  <rect x="725" y="685" width="25" height="15" fill="#F4D35E"/>
+  <line x1="690" y1="300" x2="730" y2="300" stroke="#000000" stroke-width="1"/>
+  <!-- Connecting horizontal lines -->
+  <line x1="100" y1="550" x2="250" y2="550" stroke="#E63946" stroke-width="2" opacity="0.5"/>
+  <line x1="350" y1="280" x2="452" y2="280" stroke="#F4D35E" stroke-width="2" opacity="0.5"/>
+  <line x1="545" y1="600" x2="655" y2="600" stroke="#1D3557" stroke-width="2" opacity="0.5"/>
+  <!-- Small accent circles -->
+  <circle cx="200" cy="550" r="5" fill="#E63946"/>
+  <circle cx="400" cy="280" r="5" fill="#1D3557"/>
+  <circle cx="600" cy="600" r="5" fill="#F4D35E"/>
+  <!-- Corner accents -->
+  <rect x="10" y="10" width="15" height="15" fill="#000000" opacity="0.3"/>
+  <rect x="775" y="10" width="15" height="15" fill="#000000" opacity="0.3"/>
+  <rect x="10" y="775" width="15" height="15" fill="#000000" opacity="0.3"/>
+  <rect x="775" y="775" width="15" height="15" fill="#000000" opacity="0.3"/>
+</svg>

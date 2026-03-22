@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Thin connecting lines from corner to corner -->
+  <!-- Top-left to top-right -->
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <!-- Top-right to bottom-right -->
+  <line x1="700" y1="100" x2="700" y2="700" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <!-- Bottom-right to bottom-left -->
+  <line x1="700" y1="700" x2="100" y2="700" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <!-- Bottom-left to top-left -->
+  <line x1="100" y1="700" x2="100" y2="100" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <!-- Diagonals -->
+  <line x1="100" y1="100" x2="700" y2="700" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="700" y1="100" x2="100" y2="700" stroke="#000000" stroke-width="1" opacity="0.25"/>
+
+  <!-- Corner anchor: Top-left — large red circle -->
+  <circle cx="100" cy="100" r="90" fill="#E63946"/>
+
+  <!-- Corner anchor: Top-right — large blue square -->
+  <rect x="610" y="10" width="180" height="180" fill="#1D3557"/>
+
+  <!-- Corner anchor: Bottom-left — large yellow triangle -->
+  <polygon points="100,790 10,610 190,610" fill="#F4D35E"/>
+
+  <!-- Corner anchor: Bottom-right — large teal rectangle -->
+  <rect x="600" y="620" width="190" height="170" fill="#2A9D8F"/>
+
+  <!-- Small accent shapes along top line -->
+  <rect x="220" y="88" width="16" height="16" fill="#E63946" opacity="0.7"/>
+  <circle cx="310" cy="100" r="8" fill="#F4D35E" opacity="0.8"/>
+  <rect x="380" y="90" width="20" height="20" fill="#1D3557" opacity="0.6"/>
+  <circle cx="460" cy="100" r="7" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="540,88 556,112 524,112" fill="#E63946" opacity="0.7"/>
+  <circle cx="620" cy="100" r="9" fill="#F4D35E" opacity="0.7"/>
+
+  <!-- Small accent shapes along right line -->
+  <circle cx="700" cy="220" r="8" fill="#F4D35E" opacity="0.8"/>
+  <rect x="688" y="300" width="16" height="16" fill="#E63946" opacity="0.7"/>
+  <circle cx="700" cy="400" r="10" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="688,470 712,470 700,494" fill="#1D3557" opacity="0.7"/>
+  <rect x="690" y="560" width="18" height="18" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="700" cy="630" r="7" fill="#E63946" opacity="0.8"/>
+
+  <!-- Small accent shapes along bottom line -->
+  <circle cx="620" cy="700" r="9" fill="#1D3557" opacity="0.8"/>
+  <rect x="528" y="690" width="16" height="16" fill="#2A9D8F" opacity="0.7"/>
+  <polygon points="460,688 476,712 444,712" fill="#E63946" opacity="0.7"/>
+  <circle cx="390" cy="700" r="8" fill="#F4D35E" opacity="0.8"/>
+  <rect x="308" y="690" width="18" height="18" fill="#1D3557" opacity="0.7"/>
+  <circle cx="220" cy="700" r="7" fill="#2A9D8F" opacity="0.8"/>
+
+  <!-- Small accent shapes along left line -->
+  <rect x="88" y="220" width="16" height="16" fill="#2A9D8F" opacity="0.7"/>
+  <circle cx="100" cy="310" r="8" fill="#F4D35E" opacity="0.8"/>
+  <polygon points="88,390 112,390 100,414" fill="#E63946" opacity="0.7"/>
+  <rect x="88" y="460" width="18" height="18" fill="#1D3557" opacity="0.7"/>
+  <circle cx="100" cy="560" r="9" fill="#2A9D8F" opacity="0.8"/>
+  <rect x="90" y="620" width="14" height="14" fill="#F4D35E" opacity="0.7"/>
+
+  <!-- Very sparse center accents to preserve whitespace -->
+  <circle cx="400" cy="400" r="12" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <rect x="370" y="370" width="8" height="8" fill="#E63946" opacity="0.4"/>
+  <rect x="422" y="422" width="8" height="8" fill="#1D3557" opacity="0.4"/>
+
+  <!-- Subtle inner frame lines -->
+  <line x1="170" y1="400" x2="630" y2="400" stroke="#000000" stroke-width="0.8" opacity="0.12"/>
+  <line x1="400" y1="170" x2="400" y2="630" stroke="#000000" stroke-width="0.8" opacity="0.12"/>
+</svg>

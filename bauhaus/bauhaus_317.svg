@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- White background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+  <!-- Large overlapping rectangles at low opacity -->
+  <rect x="80" y="100" width="280" height="250" fill="#E63946" opacity="0.25"/>
+  <rect x="200" y="50" width="300" height="300" fill="#1D3557" opacity="0.3"/>
+  <rect x="350" y="200" width="250" height="280" fill="#F4D35E" opacity="0.35"/>
+  <rect x="100" y="350" width="260" height="200" fill="#2A9D8F" opacity="0.25"/>
+  <rect x="400" y="100" width="200" height="350" fill="#264653" opacity="0.2"/>
+  <rect x="250" y="400" width="300" height="250" fill="#E63946" opacity="0.3"/>
+  <rect x="500" y="300" width="220" height="280" fill="#1D3557" opacity="0.25"/>
+  <rect x="50" y="500" width="200" height="200" fill="#F4D35E" opacity="0.4"/>
+  <rect x="450" y="450" width="280" height="200" fill="#2A9D8F" opacity="0.3"/>
+  <rect x="150" y="250" width="150" height="300" fill="#264653" opacity="0.2"/>
+  <!-- Thin black geometric frame lines -->
+  <line x1="60" y1="60" x2="740" y2="60" stroke="#000000" stroke-width="2"/>
+  <line x1="60" y1="60" x2="60" y2="740" stroke="#000000" stroke-width="2"/>
+  <line x1="740" y1="60" x2="740" y2="740" stroke="#000000" stroke-width="2"/>
+  <line x1="60" y1="740" x2="740" y2="740" stroke="#000000" stroke-width="2"/>
+  <line x1="60" y1="400" x2="740" y2="400" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <line x1="400" y1="60" x2="400" y2="740" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <line x1="60" y1="60" x2="740" y2="740" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="740" y1="60" x2="60" y2="740" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <!-- White circles at overlap intersections -->
+  <circle cx="280" cy="200" r="10" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="400" cy="300" r="12" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="350" cy="400" r="8" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="500" cy="350" r="11" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="200" cy="350" r="9" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="550" cy="450" r="10" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="250" cy="500" r="7" fill="#FFFFFF" opacity="0.9"/>
+  <!-- Burgundy accent shapes at edges -->
+  <rect x="10" y="10" width="30" height="30" fill="#6D2E46" opacity="0.7"/>
+  <rect x="760" y="10" width="30" height="30" fill="#6D2E46" opacity="0.7"/>
+  <rect x="10" y="760" width="30" height="30" fill="#6D2E46" opacity="0.7"/>
+  <rect x="760" y="760" width="30" height="30" fill="#6D2E46" opacity="0.7"/>
+  <circle cx="400" cy="15" r="8" fill="#6D2E46" opacity="0.6"/>
+  <circle cx="15" cy="400" r="8" fill="#6D2E46" opacity="0.6"/>
+  <circle cx="785" cy="400" r="8" fill="#6D2E46" opacity="0.6"/>
+  <circle cx="400" cy="785" r="8" fill="#6D2E46" opacity="0.6"/>
+</svg>

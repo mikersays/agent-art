@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Dark sky background -->
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Ground plane -->
+  <rect x="0" y="520" width="800" height="280" fill="#264653"/>
+
+  <!-- Observatory dome - large semicircle -->
+  <path d="M 150 520 A 250 250 0 0 1 650 520" fill="#457B9D" opacity="0.9"/>
+
+  <!-- Dome outline -->
+  <path d="M 150 520 A 250 250 0 0 1 650 520" fill="none" stroke="#000000" stroke-width="3" opacity="0.6"/>
+
+  <!-- Dome interior shading -->
+  <path d="M 200 520 A 200 200 0 0 1 600 520" fill="#1D3557" opacity="0.3"/>
+
+  <!-- Circular lens opening in dome -->
+  <circle cx="420" cy="380" r="55" fill="#1D3557" opacity="0.9"/>
+  <circle cx="420" cy="380" r="50" fill="#264653" opacity="0.7"/>
+  <circle cx="420" cy="380" r="38" fill="#1D3557"/>
+  <circle cx="420" cy="380" r="20" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="420" cy="380" r="8" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Lens cross-hairs -->
+  <line x1="420" y1="325" x2="420" y2="435" stroke="#F4D35E" stroke-width="1" opacity="0.5"/>
+  <line x1="365" y1="380" x2="475" y2="380" stroke="#F4D35E" stroke-width="1" opacity="0.5"/>
+
+  <!-- Structural elements below dome -->
+  <rect x="150" y="520" width="500" height="60" fill="#264653" opacity="0.8"/>
+  <rect x="180" y="520" width="40" height="180" fill="#457B9D" opacity="0.7"/>
+  <rect x="580" y="520" width="40" height="180" fill="#457B9D" opacity="0.7"/>
+  <rect x="370" y="520" width="60" height="200" fill="#457B9D" opacity="0.6"/>
+
+  <!-- Door -->
+  <rect x="380" y="600" width="40" height="80" fill="#000000" opacity="0.7"/>
+  <path d="M 380 600 A 20 20 0 0 1 420 600" fill="#000000" opacity="0.7"/>
+
+  <!-- Base platform -->
+  <rect x="120" y="700" width="560" height="20" fill="#A89F91" opacity="0.6"/>
+
+  <!-- Stars - small circles -->
+  <circle cx="80" cy="60" r="3" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="200" cy="100" r="2" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="350" cy="50" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="500" cy="80" r="3" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="680" cy="45" r="2" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="720" cy="150" r="2.5" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="50" cy="200" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="750" cy="300" r="3" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="130" cy="300" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="660" cy="200" r="2" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Star polygons -->
+  <polygon points="600,120 603,128 612,128 605,133 608,142 600,137 592,142 595,133 588,128 597,128" fill="#F4D35E" opacity="0.8"/>
+  <polygon points="100,140 102,146 109,146 104,150 106,156 100,152 94,156 96,150 91,146 98,146" fill="#FFFFFF" opacity="0.7"/>
+
+  <!-- Yellow accent details on dome -->
+  <rect x="280" y="500" width="20" height="6" fill="#F4D35E" opacity="0.7"/>
+  <rect x="500" y="500" width="20" height="6" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="340" cy="460" r="4" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="510" cy="440" r="4" fill="#F4D35E" opacity="0.6"/>
+
+  <!-- Structural lines on ground -->
+  <line x1="0" y1="580" x2="800" y2="580" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
+  <line x1="0" y1="650" x2="800" y2="650" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+</svg>

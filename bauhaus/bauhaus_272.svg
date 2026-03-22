@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+  <!-- Warm gray background shapes -->
+  <rect x="50" y="50" width="700" height="700" fill="#A89F91" opacity="0.08"/>
+  <rect x="100" y="80" width="600" height="640" fill="#A89F91" opacity="0.06"/>
+  <!-- Pendulum anchor bar at top -->
+  <rect x="150" y="30" width="500" height="12" fill="#000000" opacity="0.85"/>
+  <!-- Vertical anchor lines from top bar -->
+  <line x1="250" y1="42" x2="250" y2="180" stroke="#000000" stroke-width="2" opacity="0.7"/>
+  <line x1="400" y1="42" x2="400" y2="200" stroke="#000000" stroke-width="2.5" opacity="0.8"/>
+  <line x1="550" y1="42" x2="550" y2="170" stroke="#000000" stroke-width="2" opacity="0.7"/>
+  <!-- Pendulum strings - left pendulum arc -->
+  <path d="M 250,42 Q 130,300 180,500" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <path d="M 250,42 Q 180,280 220,460" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 250,42 Q 240,300 260,480" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.35"/>
+  <!-- Pendulum strings - center pendulum arc -->
+  <path d="M 400,42 Q 280,350 300,580" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.45"/>
+  <path d="M 400,42 Q 350,320 370,550" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 400,42 Q 420,340 430,560" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 400,42 Q 500,360 490,580" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.45"/>
+  <!-- Pendulum strings - right pendulum arc -->
+  <path d="M 550,42 Q 600,280 620,470" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <path d="M 550,42 Q 560,300 570,460" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.35"/>
+  <path d="M 550,42 Q 650,310 680,490" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <!-- Yellow highlight arcs - motion trails -->
+  <path d="M 130,500 Q 200,520 280,490" fill="none" stroke="#F4D35E" stroke-width="3" opacity="0.7"/>
+  <path d="M 110,530 Q 200,560 290,520" fill="none" stroke="#F4D35E" stroke-width="2.5" opacity="0.5"/>
+  <path d="M 270,580 Q 400,620 510,570" fill="none" stroke="#F4D35E" stroke-width="3.5" opacity="0.65"/>
+  <path d="M 290,610 Q 400,640 500,600" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.4"/>
+  <path d="M 580,470 Q 630,500 700,490" fill="none" stroke="#F4D35E" stroke-width="3" opacity="0.6"/>
+  <!-- Blue circles - pendulum bobs at various positions -->
+  <circle cx="180" cy="500" r="30" fill="#1D3557" opacity="0.8"/>
+  <circle cx="220" cy="465" r="25" fill="#1D3557" opacity="0.3"/>
+  <circle cx="260" cy="480" r="22" fill="#1D3557" opacity="0.2"/>
+  <circle cx="300" cy="580" r="35" fill="#1D3557" opacity="0.75"/>
+  <circle cx="370" cy="555" r="28" fill="#1D3557" opacity="0.25"/>
+  <!-- Red circles - pendulum bobs -->
+  <circle cx="490" cy="575" r="32" fill="#E63946" opacity="0.8"/>
+  <circle cx="430" cy="560" r="26" fill="#E63946" opacity="0.25"/>
+  <circle cx="620" cy="470" r="28" fill="#E63946" opacity="0.75"/>
+  <circle cx="680" cy="490" r="24" fill="#E63946" opacity="0.3"/>
+  <circle cx="570" cy="460" r="20" fill="#E63946" opacity="0.2"/>
+  <!-- Connecting lines between bobs -->
+  <line x1="180" y1="500" x2="300" y2="580" stroke="#457B9D" stroke-width="1.5" opacity="0.4"/>
+  <line x1="300" y1="580" x2="490" y2="575" stroke="#457B9D" stroke-width="1.5" opacity="0.4"/>
+  <line x1="490" y1="575" x2="620" y2="470" stroke="#457B9D" stroke-width="1.5" opacity="0.4"/>
+  <!-- Ghost position circles (motion blur effect with opacity) -->
+  <circle cx="150" cy="520" r="18" fill="#A89F91" opacity="0.15"/>
+  <circle cx="330" cy="590" r="20" fill="#A89F91" opacity="0.12"/>
+  <circle cx="520" cy="560" r="18" fill="#A89F91" opacity="0.12"/>
+  <circle cx="650" cy="480" r="16" fill="#A89F91" opacity="0.15"/>
+  <!-- Small accent circles at anchor points -->
+  <circle cx="250" cy="42" r="6" fill="#000000" opacity="0.9"/>
+  <circle cx="400" cy="42" r="7" fill="#000000" opacity="0.9"/>
+  <circle cx="550" cy="42" r="6" fill="#000000" opacity="0.9"/>
+  <!-- Floor reference line -->
+  <line x1="50" y1="720" x2="750" y2="720" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <!-- Teal accent - small circles -->
+  <circle cx="400" cy="700" r="8" fill="#2A9D8F" opacity="0.6"/>
+  <circle cx="200" cy="680" r="6" fill="#2A9D8F" opacity="0.5"/>
+  <circle cx="600" cy="690" r="7" fill="#2A9D8F" opacity="0.5"/>
+  <!-- Corner accents -->
+  <rect x="10" y="10" width="15" height="15" fill="#E63946" opacity="0.4"/>
+  <rect x="775" y="10" width="15" height="15" fill="#1D3557" opacity="0.4"/>
+  <rect x="10" y="775" width="15" height="15" fill="#F4D35E" opacity="0.4"/>
+  <rect x="775" y="775" width="15" height="15" fill="#2A9D8F" opacity="0.4"/>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="120" x2="800" y2="120" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="280" x2="800" y2="280" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="40" y1="0" x2="40" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="80" y1="0" x2="80" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="120" y1="0" x2="120" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="160" y1="0" x2="160" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="280" y1="0" x2="280" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="320" y1="0" x2="320" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Completed rows at bottom -->
+  <rect x="0" y="720" width="800" height="40" fill="#1D3557" opacity="0.9"/>
+  <rect x="0" y="760" width="800" height="40" fill="#264653" opacity="0.9"/>
+  <rect x="0" y="680" width="560" height="40" fill="#457B9D" opacity="0.7"/>
+
+  <!-- T-block (yellow) - falling, center -->
+  <rect x="320" y="200" width="40" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1.5"/>
+  <rect x="360" y="200" width="40" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1.5"/>
+  <rect x="400" y="200" width="40" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1.5"/>
+  <rect x="360" y="240" width="40" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- L-block (red) - right side -->
+  <rect x="560" y="360" width="40" height="40" fill="#E63946" stroke="#000000" stroke-width="1.5"/>
+  <rect x="560" y="400" width="40" height="40" fill="#E63946" stroke="#000000" stroke-width="1.5"/>
+  <rect x="560" y="440" width="40" height="40" fill="#E63946" stroke="#000000" stroke-width="1.5"/>
+  <rect x="600" y="440" width="40" height="40" fill="#E63946" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Square block (blue) - left side, landed -->
+  <rect x="80" y="640" width="40" height="40" fill="#1D3557" stroke="#000000" stroke-width="1.5"/>
+  <rect x="120" y="640" width="40" height="40" fill="#1D3557" stroke="#000000" stroke-width="1.5"/>
+  <rect x="80" y="680" width="40" height="40" fill="#1D3557" stroke="#000000" stroke-width="1.5"/>
+  <rect x="120" y="680" width="40" height="40" fill="#1D3557" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- S-block (teal) - mid left, angled -->
+  <rect x="160" y="440" width="40" height="40" fill="#2A9D8F" stroke="#000000" stroke-width="1.5" transform="rotate(15, 200, 460)"/>
+  <rect x="200" y="440" width="40" height="40" fill="#2A9D8F" stroke="#000000" stroke-width="1.5" transform="rotate(15, 200, 460)"/>
+  <rect x="120" y="480" width="40" height="40" fill="#2A9D8F" stroke="#000000" stroke-width="1.5" transform="rotate(15, 200, 460)"/>
+  <rect x="160" y="480" width="40" height="40" fill="#2A9D8F" stroke="#000000" stroke-width="1.5" transform="rotate(15, 200, 460)"/>
+
+  <!-- I-block (orange) - horizontal, landed -->
+  <rect x="240" y="640" width="40" height="40" fill="#E76F51" stroke="#000000" stroke-width="1.5"/>
+  <rect x="280" y="640" width="40" height="40" fill="#E76F51" stroke="#000000" stroke-width="1.5"/>
+  <rect x="320" y="640" width="40" height="40" fill="#E76F51" stroke="#000000" stroke-width="1.5"/>
+  <rect x="360" y="640" width="40" height="40" fill="#E76F51" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Z-block (burgundy) - upper right -->
+  <rect x="600" y="120" width="40" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1.5" transform="rotate(-10, 640, 160)"/>
+  <rect x="640" y="120" width="40" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1.5" transform="rotate(-10, 640, 160)"/>
+  <rect x="640" y="160" width="40" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1.5" transform="rotate(-10, 640, 160)"/>
+  <rect x="680" y="160" width="40" height="40" fill="#6D2E46" stroke="#000000" stroke-width="1.5" transform="rotate(-10, 640, 160)"/>
+
+  <!-- Landed blocks at bottom filling gaps -->
+  <rect x="400" y="680" width="40" height="40" fill="#DDA15E" stroke="#000000" stroke-width="1.5"/>
+  <rect x="440" y="680" width="40" height="40" fill="#E9C46A" stroke="#000000" stroke-width="1.5"/>
+  <rect x="480" y="680" width="40" height="40" fill="#2A9D8F" stroke="#000000" stroke-width="1.5"/>
+  <rect x="520" y="680" width="40" height="40" fill="#E63946" stroke="#000000" stroke-width="1.5"/>
+  <rect x="440" y="640" width="40" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1.5"/>
+  <rect x="480" y="640" width="40" height="40" fill="#457B9D" stroke="#000000" stroke-width="1.5"/>
+  <rect x="560" y="640" width="40" height="40" fill="#A8DADC" stroke="#000000" stroke-width="1.5"/>
+  <rect x="600" y="640" width="40" height="40" fill="#E76F51" stroke="#000000" stroke-width="1.5"/>
+  <rect x="640" y="640" width="40" height="40" fill="#1D3557" stroke="#000000" stroke-width="1.5"/>
+  <rect x="560" y="680" width="40" height="40" fill="#F4D35E" stroke="#000000" stroke-width="1.5"/>
+</svg>

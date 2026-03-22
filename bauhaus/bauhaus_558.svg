@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#F5F5F0"/>
+
+  <!-- Shattered mirror - angular polygon shards with thin black borders -->
+
+  <!-- Large background shards -->
+  <polygon points="0,0 350,0 280,180 50,220" fill="#A8DADC" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="350,0 680,0 600,150 400,120 280,180" fill="#1D3557" opacity="0.4" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="680,0 800,0 800,250 650,200 600,150" fill="#F4D35E" opacity="0.55" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="0,220 50,220 280,180 200,380 0,350" fill="#E63946" opacity="0.45" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="280,180 400,120 520,200 450,380 200,380" fill="#FEFAE0" opacity="0.6" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="400,120 600,150 650,200 580,350 520,200" fill="#2A9D8F" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="650,200 800,250 800,420 620,400 580,350" fill="#E76F51" opacity="0.45" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="0,350 200,380 180,520 0,550" fill="#457B9D" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="200,380 450,380 420,550 300,580 180,520" fill="#DDA15E" opacity="0.55" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="450,380 520,200 580,350 620,400 550,520 420,550" fill="#6D2E46" opacity="0.4" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="620,400 800,420 800,600 680,560 550,520" fill="#264653" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="0,550 180,520 300,580 250,700 0,720" fill="#E9C46A" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="300,580 420,550 550,520 500,680 380,720 250,700" fill="#A89F91" opacity="0.45" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="550,520 680,560 720,700 500,680" fill="#E63946" opacity="0.35" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="680,560 800,600 800,750 720,700" fill="#F4D35E" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="0,720 250,700 380,720 350,800 0,800" fill="#1D3557" opacity="0.45" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="380,720 500,680 550,800 350,800" fill="#2A9D8F" opacity="0.5" stroke="#000000" stroke-width="1.5"/>
+  <polygon points="500,680 720,700 800,750 800,800 550,800" fill="#A8DADC" opacity="0.4" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Overlapping accent shards with higher opacity -->
+  <polygon points="320,280 420,250 460,340 380,370" fill="#E63946" opacity="0.6" stroke="#000000" stroke-width="2"/>
+  <polygon points="350,450 450,420 490,500 390,530" fill="#F4D35E" opacity="0.55" stroke="#000000" stroke-width="2"/>
+  <polygon points="550,300 640,280 660,370 570,390" fill="#1D3557" opacity="0.6" stroke="#000000" stroke-width="2"/>
+
+  <!-- Impact point - radiating crack lines -->
+  <line x1="400" y1="400" x2="280" y2="180" stroke="#000000" stroke-width="2" opacity="0.7"/>
+  <line x1="400" y1="400" x2="580" y2="350" stroke="#000000" stroke-width="2" opacity="0.7"/>
+  <line x1="400" y1="400" x2="200" y2="380" stroke="#000000" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="400" x2="450" y2="550" stroke="#000000" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="400" x2="550" y2="520" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Small accent circle at impact point -->
+  <circle cx="400" cy="400" r="6" fill="#000000" opacity="0.8"/>
+</svg>

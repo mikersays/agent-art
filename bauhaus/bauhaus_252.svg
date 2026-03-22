@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <!-- Forest green background shapes -->
+  <rect x="0" y="0" width="250" height="250" fill="#264653" opacity="0.2"/>
+  <rect x="550" y="550" width="250" height="250" fill="#264653" opacity="0.2"/>
+  <polygon points="0,0 350,0 0,350" fill="#264653" opacity="0.12"/>
+  <polygon points="800,800 450,800 800,450" fill="#264653" opacity="0.12"/>
+  <!-- Bold diagonal band - red -->
+  <polygon points="0,80 80,0 800,720 720,800" fill="#E63946" opacity="0.85"/>
+  <!-- Secondary diagonal lines -->
+  <line x1="0" y1="200" x2="600" y2="800" stroke="#000000" stroke-width="2.5" opacity="0.6"/>
+  <line x1="200" y1="0" x2="800" y2="600" stroke="#000000" stroke-width="2.5" opacity="0.6"/>
+  <line x1="0" y1="350" x2="450" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.35"/>
+  <line x1="350" y1="0" x2="800" y2="450" stroke="#000000" stroke-width="1.5" opacity="0.35"/>
+  <!-- Cross diagonals for tension -->
+  <line x1="800" y1="100" x2="100" y2="800" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="700" y1="0" x2="0" y2="700" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <!-- Yellow accent rectangles -->
+  <rect x="50" y="300" width="90" height="35" fill="#F4D35E" opacity="0.85"/>
+  <rect x="620" y="130" width="70" height="50" fill="#F4D35E" opacity="0.8"/>
+  <rect x="500" y="680" width="110" height="30" fill="#F4D35E" opacity="0.75"/>
+  <rect x="280" y="520" width="55" height="65" fill="#F4D35E" opacity="0.7"/>
+  <!-- Triangles along diagonal -->
+  <polygon points="150,120 180,80 210,120" fill="#1D3557" opacity="0.8"/>
+  <polygon points="320,290 360,250 400,290" fill="#2A9D8F" opacity="0.75"/>
+  <polygon points="500,470 540,430 580,470" fill="#1D3557" opacity="0.7"/>
+  <polygon points="650,640 690,600 730,640" fill="#264653" opacity="0.75"/>
+  <polygon points="90,60 110,30 130,60" fill="#E76F51" opacity="0.65"/>
+  <!-- Small circles scattered along diagonals -->
+  <circle cx="250" cy="210" r="14" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="440" cy="400" r="18" fill="#000000" opacity="0.6"/>
+  <circle cx="600" cy="560" r="12" fill="#FFFFFF" opacity="0.75"/>
+  <circle cx="130" cy="150" r="9" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="680" cy="680" r="16" fill="#E63946" opacity="0.5"/>
+  <circle cx="350" cy="310" r="10" fill="#2A9D8F" opacity="0.65"/>
+  <circle cx="550" cy="510" r="8" fill="#E76F51" opacity="0.6"/>
+  <!-- Accent shapes off-diagonal -->
+  <rect x="650" y="80" width="40" height="40" fill="#E63946" opacity="0.4" transform="rotate(15 670 100)"/>
+  <rect x="80" y="650" width="45" height="45" fill="#1D3557" opacity="0.45" transform="rotate(-10 102 672)"/>
+  <circle cx="720" cy="250" r="20" fill="#457B9D" opacity="0.4"/>
+  <circle cx="100" cy="550" r="22" fill="#DDA15E" opacity="0.45"/>
+  <!-- Small corner accents -->
+  <rect x="750" y="20" width="25" height="25" fill="#000000" opacity="0.3"/>
+  <rect x="20" y="760" width="20" height="20" fill="#000000" opacity="0.3"/>
+</svg>

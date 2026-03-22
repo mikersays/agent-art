@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Parallel diagonal path 1 - Red with circles -->
+  <line x1="0" y1="80" x2="720" y2="800" stroke="#E63946" stroke-width="3" opacity="0.7"/>
+  <circle cx="90" cy="180" r="14" fill="#E63946" opacity="0.8"/>
+  <circle cx="225" cy="315" r="14" fill="#E63946" opacity="0.8"/>
+  <circle cx="360" cy="450" r="14" fill="#E63946" opacity="0.8"/>
+  <circle cx="495" cy="585" r="14" fill="#E63946" opacity="0.8"/>
+  <circle cx="630" cy="720" r="14" fill="#E63946" opacity="0.8"/>
+  <!-- Parallel diagonal path 2 - Blue with squares -->
+  <line x1="0" y1="220" x2="580" y2="800" stroke="#1D3557" stroke-width="4" opacity="0.65"/>
+  <rect x="62" y="308" width="20" height="20" fill="#1D3557" opacity="0.8"/>
+  <rect x="190" y="436" width="20" height="20" fill="#1D3557" opacity="0.8"/>
+  <rect x="318" y="564" width="20" height="20" fill="#1D3557" opacity="0.8"/>
+  <rect x="446" y="692" width="20" height="20" fill="#1D3557" opacity="0.8"/>
+  <!-- Parallel diagonal path 3 - Yellow with triangles -->
+  <line x1="80" y1="0" x2="800" y2="720" stroke="#F4D35E" stroke-width="3.5" opacity="0.75"/>
+  <polygon points="180,100 170,120 190,120" fill="#F4D35E" opacity="0.9"/>
+  <polygon points="315,235 305,255 325,255" fill="#F4D35E" opacity="0.9"/>
+  <polygon points="450,370 440,390 460,390" fill="#F4D35E" opacity="0.9"/>
+  <polygon points="585,505 575,525 595,525" fill="#F4D35E" opacity="0.9"/>
+  <polygon points="720,640 710,660 730,660" fill="#F4D35E" opacity="0.9"/>
+  <!-- Parallel diagonal path 4 - Teal with diamonds -->
+  <line x1="220" y1="0" x2="800" y2="580" stroke="#2A9D8F" stroke-width="2.5" opacity="0.6"/>
+  <polygon points="320,100 310,112 320,124 330,112" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="455,235 445,247 455,259 465,247" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="590,370 580,382 590,394 600,382" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="725,505 715,517 725,529 735,517" fill="#2A9D8F" opacity="0.8"/>
+  <!-- Parallel diagonal path 5 - Orange thin -->
+  <line x1="380" y1="0" x2="800" y2="420" stroke="#E76F51" stroke-width="2" opacity="0.55"/>
+  <circle cx="470" cy="90" r="8" fill="#E76F51" opacity="0.7"/>
+  <circle cx="590" cy="210" r="8" fill="#E76F51" opacity="0.7"/>
+  <circle cx="710" cy="330" r="8" fill="#E76F51" opacity="0.7"/>
+  <!-- Parallel diagonal path 6 - Steel Blue -->
+  <line x1="540" y1="0" x2="800" y2="260" stroke="#457B9D" stroke-width="2" opacity="0.5"/>
+  <rect x="610" y="62" width="12" height="12" fill="#457B9D" opacity="0.7"/>
+  <rect x="720" y="172" width="12" height="12" fill="#457B9D" opacity="0.7"/>
+  <!-- Cross-cutting perpendicular accents -->
+  <line x1="700" y1="80" x2="80" y2="700" stroke="#000000" stroke-width="1.5" opacity="0.2"/>
+  <line x1="780" y1="200" x2="200" y2="780" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="600" y1="0" x2="0" y2="600" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <!-- Perpendicular accent shapes -->
+  <rect x="385" y="385" width="30" height="30" fill="#000000" opacity="0.25"/>
+  <circle cx="550" cy="250" r="10" fill="#000000" opacity="0.2"/>
+  <circle cx="250" cy="550" r="10" fill="#000000" opacity="0.2"/>
+  <!-- Corner accents -->
+  <rect x="10" y="10" width="20" height="20" fill="#E63946" opacity="0.4"/>
+  <rect x="770" y="770" width="20" height="20" fill="#1D3557" opacity="0.4"/>
+  <rect x="770" y="10" width="20" height="20" fill="#F4D35E" opacity="0.4"/>
+  <rect x="10" y="770" width="20" height="20" fill="#2A9D8F" opacity="0.4"/>
+  <!-- Intersection highlights -->
+  <circle cx="400" cy="400" r="6" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="270" cy="400" r="4" fill="#E63946" opacity="0.6"/>
+  <circle cx="530" cy="400" r="4" fill="#1D3557" opacity="0.6"/>
+</svg>

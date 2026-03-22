@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- SKY ZONE - light, airy shapes above horizon -->
+  <!-- Scattered sky circles -->
+  <circle cx="150" cy="120" r="45" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="320" cy="80" r="30" fill="#A8DADC" opacity="0.6"/>
+  <circle cx="550" cy="150" r="55" fill="#F4D35E" opacity="0.35"/>
+  <circle cx="680" cy="90" r="25" fill="#FEFAE0" opacity="0.8" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="450" cy="250" r="20" fill="#A8DADC" opacity="0.7"/>
+  <circle cx="100" cy="300" r="35" fill="#A8DADC" opacity="0.4"/>
+  <circle cx="700" cy="280" r="40" fill="#F4D35E" opacity="0.3"/>
+  <!-- Sky triangles -->
+  <polygon points="250,180 280,120 310,180" fill="#E9C46A" opacity="0.5"/>
+  <polygon points="500,100 530,50 560,100" fill="#A8DADC" opacity="0.45"/>
+  <polygon points="180,380 210,320 240,380" fill="#F4D35E" opacity="0.4"/>
+  <polygon points="600,350 640,280 680,350" fill="#FEFAE0" opacity="0.6" stroke="#E9C46A" stroke-width="1.5"/>
+  <!-- Floating light rectangles in sky -->
+  <rect x="350" y="350" width="80" height="15" fill="#A8DADC" opacity="0.35"/>
+  <rect x="480" y="420" width="60" height="10" fill="#F4D35E" opacity="0.4"/>
+  <!-- HORIZON LINE - bold divider -->
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="4" opacity="1"/>
+  <line x1="0" y1="498" x2="800" y2="498" stroke="#E63946" stroke-width="1" opacity="0.6"/>
+  <line x1="0" y1="503" x2="800" y2="503" stroke="#1D3557" stroke-width="1.5" opacity="0.4"/>
+  <!-- Thin vertical bridging lines -->
+  <line x1="120" y1="420" x2="120" y2="580" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="300" y1="380" x2="300" y2="620" stroke="#000000" stroke-width="1" opacity="0.15"/>
+  <line x1="500" y1="400" x2="500" y2="600" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="650" y1="430" x2="650" y2="570" stroke="#000000" stroke-width="1.5" opacity="0.18"/>
+  <line x1="400" y1="350" x2="400" y2="650" stroke="#000000" stroke-width="0.5" opacity="0.12"/>
+  <!-- EARTH ZONE - dense heavy shapes below horizon -->
+  <rect x="20" y="520" width="180" height="100" fill="#1D3557" opacity="0.9"/>
+  <rect x="50" y="540" width="120" height="60" fill="#264653" opacity="0.7"/>
+  <rect x="220" y="530" width="150" height="130" fill="#6D2E46" opacity="0.85"/>
+  <rect x="250" y="560" width="90" height="80" fill="#1D3557" opacity="0.5"/>
+  <rect x="400" y="510" width="200" height="90" fill="#264653" opacity="0.9"/>
+  <rect x="420" y="540" width="70" height="50" fill="#6D2E46" opacity="0.6"/>
+  <rect x="620" y="525" width="160" height="110" fill="#1D3557" opacity="0.85"/>
+  <rect x="640" y="550" width="50" height="70" fill="#264653" opacity="0.5"/>
+  <!-- Bottom heavy blocks -->
+  <rect x="0" y="660" width="280" height="140" fill="#264653" opacity="0.95"/>
+  <rect x="300" y="680" width="220" height="120" fill="#1D3557" opacity="0.9"/>
+  <rect x="540" y="650" width="260" height="150" fill="#6D2E46" opacity="0.8"/>
+  <rect x="100" y="700" width="100" height="60" fill="#1D3557" opacity="0.4"/>
+  <rect x="580" y="700" width="80" height="50" fill="#264653" opacity="0.6"/>
+  <!-- Earth accent shapes -->
+  <circle cx="180" cy="620" r="15" fill="#E63946" opacity="0.6"/>
+  <circle cx="500" cy="640" r="12" fill="#E76F51" opacity="0.5"/>
+  <circle cx="700" cy="660" r="10" fill="#DDA15E" opacity="0.7"/>
+</svg>

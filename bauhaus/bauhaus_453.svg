@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFFFFF"/>
+  <!-- Floating rectangles in blue, red, warm gray - overlapping with opacity -->
+  <rect x="50" y="120" width="220" height="140" fill="#1D3557" opacity="0.75"/>
+  <rect x="150" y="200" width="180" height="100" fill="#E63946" opacity="0.65"/>
+  <rect x="300" y="80" width="160" height="250" fill="#A89F91" opacity="0.6"/>
+  <rect x="380" y="180" width="200" height="120" fill="#1D3557" opacity="0.7"/>
+  <rect x="100" y="350" width="250" height="90" fill="#E63946" opacity="0.8"/>
+  <rect x="480" y="300" width="140" height="200" fill="#A89F91" opacity="0.65"/>
+  <rect x="200" y="450" width="180" height="160" fill="#1D3557" opacity="0.6"/>
+  <rect x="550" y="150" width="120" height="180" fill="#E63946" opacity="0.7"/>
+  <rect x="60" y="550" width="200" height="80" fill="#A89F91" opacity="0.7"/>
+  <rect x="420" y="500" width="160" height="110" fill="#1D3557" opacity="0.65"/>
+  <rect x="350" y="380" width="100" height="150" fill="#E63946" opacity="0.6"/>
+  <rect x="620" y="400" width="130" height="100" fill="#A89F91" opacity="0.75"/>
+  <!-- Thin black connecting lines -->
+  <line x1="160" y1="260" x2="380" y2="200" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <line x1="460" y1="300" x2="550" y2="330" stroke="#000000" stroke-width="1" opacity="0.35"/>
+  <line x1="270" y1="440" x2="420" y2="500" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <line x1="100" y1="590" x2="200" y2="610" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="580" y1="300" x2="620" y2="400" stroke="#000000" stroke-width="1.5" opacity="0.35"/>
+  <line x1="330" y1="330" x2="350" y2="380" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <!-- Large yellow circle anchoring bottom-right -->
+  <circle cx="650" cy="650" r="140" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="650" cy="650" r="90" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.2"/>
+  <!-- Small burgundy squares in upper region -->
+  <rect x="500" y="40" width="18" height="18" fill="#6D2E46" opacity="0.85"/>
+  <rect x="650" y="70" width="14" height="14" fill="#6D2E46" opacity="0.8"/>
+  <rect x="720" y="30" width="20" height="20" fill="#6D2E46" opacity="0.75"/>
+  <rect x="580" y="100" width="12" height="12" fill="#6D2E46" opacity="0.85"/>
+  <rect x="440" y="30" width="16" height="16" fill="#6D2E46" opacity="0.7"/>
+  <rect x="760" y="110" width="15" height="15" fill="#6D2E46" opacity="0.8"/>
+  <rect x="530" y="70" width="10" height="10" fill="#6D2E46" opacity="0.75"/>
+  <rect x="680" y="120" width="13" height="13" fill="#6D2E46" opacity="0.7"/>
+  <!-- Additional floating blocks for richness -->
+  <rect x="650" y="220" width="100" height="70" fill="#1D3557" opacity="0.5"/>
+  <rect x="30" y="680" width="150" height="60" fill="#E63946" opacity="0.55"/>
+  <rect x="300" y="650" width="120" height="80" fill="#A89F91" opacity="0.5"/>
+  <!-- Accent elements -->
+  <circle cx="650" cy="650" r="45" fill="none" stroke="#1D3557" stroke-width="1" opacity="0.3"/>
+  <rect x="70" y="30" width="80" height="60" fill="#1D3557" opacity="0.15"/>
+</svg>

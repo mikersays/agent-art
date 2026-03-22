@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Radiating influence lines from cluster outward -->
+  <line x1="300" y1="550" x2="600" y2="200" stroke="#A89F91" stroke-width="0.8" opacity="0.15"/>
+  <line x1="280" y1="500" x2="700" y2="150" stroke="#A89F91" stroke-width="0.6" opacity="0.12"/>
+  <line x1="250" y1="600" x2="750" y2="400" stroke="#A89F91" stroke-width="0.7" opacity="0.13"/>
+  <line x1="320" y1="520" x2="650" y2="100" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="200" y1="550" x2="500" y2="80" stroke="#A89F91" stroke-width="0.6" opacity="0.12"/>
+  <line x1="350" y1="600" x2="780" y2="500" stroke="#A89F91" stroke-width="0.7" opacity="0.1"/>
+  <line x1="300" y1="650" x2="700" y2="700" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="150" y1="500" x2="400" y2="50" stroke="#A89F91" stroke-width="0.6" opacity="0.11"/>
+  <!-- Tiny black shapes in the void -->
+  <circle cx="550" cy="180" r="3" fill="#000000" opacity="0.6"/>
+  <rect x="650" y="120" width="5" height="5" fill="#000000" opacity="0.5"/>
+  <circle cx="700" cy="300" r="2.5" fill="#000000" opacity="0.55"/>
+  <polygon points="480,100 483,94 486,100" fill="#000000" opacity="0.5"/>
+  <rect x="600" y="400" width="4" height="4" fill="#000000" opacity="0.45"/>
+  <circle cx="750" cy="500" r="2" fill="#000000" opacity="0.4"/>
+  <rect x="520" y="300" width="3" height="6" fill="#000000" opacity="0.4"/>
+  <!-- === DENSE CLUSTER - lower-left quadrant === -->
+  <!-- Layer 1: Large background shapes -->
+  <circle cx="180" cy="620" r="80" fill="#1D3557" opacity="0.5"/>
+  <rect x="50" y="500" width="150" height="120" fill="#E63946" opacity="0.4"/>
+  <circle cx="280" cy="700" r="70" fill="#F4D35E" opacity="0.45"/>
+  <rect x="100" y="650" width="200" height="80" fill="#2A9D8F" opacity="0.35"/>
+  <!-- Layer 2: Medium shapes -->
+  <circle cx="120" cy="580" r="50" fill="#E76F51" opacity="0.6"/>
+  <rect x="200" y="560" width="100" height="70" fill="#1D3557" opacity="0.55"/>
+  <polygon points="80,700 160,700 120,640" fill="#E63946" opacity="0.65"/>
+  <circle cx="250" cy="650" r="45" fill="#457B9D" opacity="0.5"/>
+  <rect x="30" y="620" width="90" height="50" fill="#F4D35E" opacity="0.55"/>
+  <polygon points="300,600 350,680 250,680" fill="#2A9D8F" opacity="0.6"/>
+  <!-- Layer 3: Smaller shapes overlapping -->
+  <circle cx="150" cy="650" r="30" fill="#E63946" opacity="0.7"/>
+  <rect x="200" y="620" width="60" height="60" fill="#F4D35E" opacity="0.65"/>
+  <circle cx="100" cy="720" r="35" fill="#1D3557" opacity="0.6"/>
+  <polygon points="230,580 270,580 250,550" fill="#E76F51" opacity="0.7"/>
+  <rect x="60" y="550" width="50" height="40" fill="#2A9D8F" opacity="0.65"/>
+  <circle cx="320" cy="720" r="28" fill="#E63946" opacity="0.55"/>
+  <rect x="150" y="700" width="80" height="40" fill="#457B9D" opacity="0.6"/>
+  <!-- Layer 4: Small detail shapes -->
+  <circle cx="200" cy="590" r="18" fill="#FFFFFF" opacity="0.5"/>
+  <rect x="120" y="670" width="30" height="25" fill="#000000" opacity="0.4"/>
+  <circle cx="80" cy="650" r="15" fill="#F4D35E" opacity="0.7"/>
+  <polygon points="180,720 200,690 220,720" fill="#E63946" opacity="0.75"/>
+  <rect x="260" y="700" width="25" height="30" fill="#E76F51" opacity="0.7"/>
+  <circle cx="300" cy="600" r="12" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="50" cy="680" r="14" fill="#2A9D8F" opacity="0.7"/>
+  <rect x="330" y="650" width="20" height="35" fill="#1D3557" opacity="0.65"/>
+  <polygon points="140,560 160,540 180,560" fill="#000000" opacity="0.5"/>
+  <circle cx="230" cy="750" r="16" fill="#E9C46A" opacity="0.6"/>
+  <rect x="40" y="740" width="35" height="25" fill="#DDA15E" opacity="0.55"/>
+  <circle cx="350" cy="760" r="12" fill="#A8DADC" opacity="0.5"/>
+  <!-- Tiny specks at cluster edge transitioning to void -->
+  <circle cx="380" cy="550" r="5" fill="#E63946" opacity="0.35"/>
+  <circle cx="350" cy="500" r="4" fill="#1D3557" opacity="0.3"/>
+  <rect x="400" y="620" width="8" height="8" fill="#F4D35E" opacity="0.25"/>
+  <circle cx="420" cy="500" r="3" fill="#2A9D8F" opacity="0.2"/>
+  <rect x="370" y="450" width="5" height="5" fill="#000000" opacity="0.2"/>
+</svg>

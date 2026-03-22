@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Cream background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Black border -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000000" stroke-width="3"/>
+  <!-- Sparse top-left area: thin lines and single circle -->
+  <line x1="30" y1="50" x2="150" y2="50" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
+  <line x1="50" y1="30" x2="50" y2="130" stroke="#A89F91" stroke-width="0.5" opacity="0.25"/>
+  <line x1="20" y1="100" x2="120" y2="20" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="80" cy="80" r="8" fill="#457B9D" opacity="0.5"/>
+  <!-- Slight density increase in middle zone -->
+  <line x1="200" y1="250" x2="350" y2="280" stroke="#A89F91" stroke-width="1" opacity="0.15"/>
+  <line x1="300" y1="200" x2="280" y2="350" stroke="#000000" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="320" cy="320" r="12" fill="#1D3557" opacity="0.35"/>
+  <rect x="250" y="350" width="20" height="15" fill="#2A9D8F" opacity="0.3"/>
+  <polygon points="370,300 385,270 400,305" fill="#F4D35E" opacity="0.3"/>
+  <!-- Medium density zone -->
+  <circle cx="420" cy="420" r="18" fill="#E63946" opacity="0.4"/>
+  <rect x="380" y="450" width="30" height="25" fill="#1D3557" opacity="0.4"/>
+  <polygon points="450,400 475,370 490,410" fill="#F4D35E" opacity="0.45"/>
+  <circle cx="470" cy="470" r="15" fill="#2A9D8F" opacity="0.4"/>
+  <rect x="430" y="500" width="25" height="20" fill="#E76F51" opacity="0.4"/>
+  <circle cx="500" cy="430" r="10" fill="#A8DADC" opacity="0.45"/>
+  <!-- Higher density zone -->
+  <circle cx="530" cy="530" r="22" fill="#E63946" opacity="0.55"/>
+  <rect x="510" y="560" width="35" height="30" fill="#1D3557" opacity="0.5"/>
+  <polygon points="570,510 600,480 610,530" fill="#F4D35E" opacity="0.6"/>
+  <circle cx="560" cy="580" r="16" fill="#264653" opacity="0.5"/>
+  <rect x="580" y="540" width="28" height="35" fill="#E76F51" opacity="0.55"/>
+  <circle cx="540" cy="500" r="12" fill="#DDA15E" opacity="0.55"/>
+  <polygon points="600,570 620,540 640,580" fill="#2A9D8F" opacity="0.5"/>
+  <circle cx="620" cy="520" r="14" fill="#6D2E46" opacity="0.5"/>
+  <rect x="490" y="580" width="22" height="18" fill="#E9C46A" opacity="0.5"/>
+  <!-- Dense bottom-right corner -->
+  <circle cx="660" cy="620" r="30" fill="#E63946" opacity="0.7"/>
+  <rect x="630" y="650" width="50" height="40" fill="#1D3557" opacity="0.65"/>
+  <polygon points="700,600 740,570 750,620" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="710" cy="660" r="25" fill="#2A9D8F" opacity="0.6"/>
+  <rect x="680" y="690" width="45" height="35" fill="#E76F51" opacity="0.7"/>
+  <circle cx="740" cy="640" r="20" fill="#457B9D" opacity="0.65"/>
+  <polygon points="660,700 690,670 710,710" fill="#264653" opacity="0.7"/>
+  <circle cx="750" cy="710" r="28" fill="#6D2E46" opacity="0.55"/>
+  <rect x="720" y="730" width="55" height="45" fill="#000000" opacity="0.5"/>
+  <circle cx="680" cy="750" r="22" fill="#F4D35E" opacity="0.75"/>
+  <rect x="740" y="680" width="35" height="25" fill="#A8DADC" opacity="0.6"/>
+  <polygon points="760,750 780,720 790,760" fill="#E63946" opacity="0.8"/>
+  <circle cx="770" cy="770" r="18" fill="#E9C46A" opacity="0.9"/>
+  <rect x="650" y="740" width="30" height="30" fill="#DDA15E" opacity="0.65"/>
+  <circle cx="700" cy="780" r="15" fill="#2A9D8F" opacity="0.7"/>
+  <rect x="760" y="750" width="25" height="30" fill="#1D3557" opacity="0.75"/>
+  <polygon points="630,780 650,760 670,790" fill="#E76F51" opacity="0.7"/>
+  <circle cx="780" cy="740" r="10" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="690" y="760" width="20" height="20" fill="#A89F91" opacity="0.6"/>
+</svg>

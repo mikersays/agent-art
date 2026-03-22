@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Cream background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Subtle background texture lines -->
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Bold red anchor rectangle (lower left area) -->
+  <rect x="80" y="500" width="180" height="90" fill="#E63946"/>
+
+  <!-- Floating tilted rectangles - light blue and sand tones -->
+  <rect x="300" y="60" width="120" height="40" fill="#A8DADC" opacity="0.85" transform="rotate(-12, 360, 80)"/>
+  <rect x="520" y="130" width="80" height="28" fill="#DDA15E" opacity="0.8" transform="rotate(8, 560, 144)"/>
+  <rect x="150" y="180" width="95" height="32" fill="#A8DADC" opacity="0.75" transform="rotate(18, 197, 196)"/>
+  <rect x="600" y="310" width="110" height="36" fill="#DDA15E" opacity="0.7" transform="rotate(-6, 655, 328)"/>
+  <rect x="480" y="480" width="90" height="30" fill="#A8DADC" opacity="0.8" transform="rotate(14, 525, 495)"/>
+  <rect x="220" y="620" width="75" height="26" fill="#DDA15E" opacity="0.75" transform="rotate(-20, 257, 633)"/>
+  <rect x="590" y="640" width="100" height="34" fill="#A8DADC" opacity="0.7" transform="rotate(9, 640, 657)"/>
+  <rect x="380" y="700" width="85" height="28" fill="#DDA15E" opacity="0.8" transform="rotate(-15, 422, 714)"/>
+  <rect x="680" y="200" width="70" height="24" fill="#A8DADC" opacity="0.65" transform="rotate(22, 715, 212)"/>
+  <rect x="40" y="360" width="88" height="30" fill="#DDA15E" opacity="0.72" transform="rotate(-8, 84, 375)"/>
+
+  <!-- Floating small circles - various positions -->
+  <circle cx="560" cy="90" r="28" fill="#A8DADC" opacity="0.8"/>
+  <circle cx="720" cy="160" r="18" fill="#DDA15E" opacity="0.75"/>
+  <circle cx="130" cy="100" r="22" fill="#A8DADC" opacity="0.7"/>
+  <circle cx="670" cy="420" r="32" fill="#DDA15E" opacity="0.65"/>
+  <circle cx="350" cy="350" r="16" fill="#A8DADC" opacity="0.9"/>
+  <circle cx="500" cy="570" r="24" fill="#DDA15E" opacity="0.7"/>
+  <circle cx="170" cy="450" r="20" fill="#A8DADC" opacity="0.75"/>
+  <circle cx="70" cy="680" r="26" fill="#DDA15E" opacity="0.65"/>
+  <circle cx="730" cy="680" r="22" fill="#A8DADC" opacity="0.7"/>
+  <circle cx="400" cy="760" r="18" fill="#DDA15E" opacity="0.8"/>
+  <circle cx="280" cy="260" r="14" fill="#A8DADC" opacity="0.6"/>
+  <circle cx="640" cy="750" r="16" fill="#DDA15E" opacity="0.7"/>
+
+  <!-- Thin floating lines -->
+  <line x1="460" y1="200" x2="620" y2="240" stroke="#000000" stroke-width="1.5" opacity="0.35"/>
+  <line x1="100" y1="300" x2="240" y2="270" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="520" y1="380" x2="700" y2="340" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="130" y1="560" x2="300" y2="540" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="400" y1="440" x2="580" y2="460" stroke="#000000" stroke-width="1" opacity="0.28"/>
+  <line x1="250" y1="700" x2="430" y2="680" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="620" y1="560" x2="760" y2="590" stroke="#000000" stroke-width="1" opacity="0.25"/>
+
+  <!-- Small accent squares scattered -->
+  <rect x="445" y="270" width="12" height="12" fill="#000000" opacity="0.6" transform="rotate(20, 451, 276)"/>
+  <rect x="310" y="480" width="10" height="10" fill="#000000" opacity="0.5" transform="rotate(-15, 315, 485)"/>
+  <rect x="680" y="510" width="14" height="14" fill="#000000" opacity="0.4" transform="rotate(30, 687, 517)"/>
+  <rect x="190" y="750" width="11" height="11" fill="#000000" opacity="0.45" transform="rotate(10, 195, 755)"/>
+  <rect x="550" y="730" width="12" height="12" fill="#000000" opacity="0.5" transform="rotate(-25, 556, 736)"/>
+
+  <!-- Very small dots for texture -->
+  <circle cx="420" cy="160" r="5" fill="#A89F91" opacity="0.6"/>
+  <circle cx="620" cy="470" r="4" fill="#A89F91" opacity="0.5"/>
+  <circle cx="210" cy="380" r="6" fill="#A89F91" opacity="0.55"/>
+  <circle cx="750" cy="450" r="4" fill="#A89F91" opacity="0.5"/>
+  <circle cx="340" cy="590" r="5" fill="#A89F91" opacity="0.6"/>
+</svg>

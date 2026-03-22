@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Minimal background: near-white -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Layer 1: Large blue rectangle -->
+  <rect x="80" y="100" width="420" height="300" fill="#1D3557" opacity="0.55"/>
+
+  <!-- Layer 2: Large red rectangle, overlapping -->
+  <rect x="200" y="220" width="380" height="340" fill="#E63946" opacity="0.5"/>
+
+  <!-- Layer 3: Large yellow rectangle, overlapping both -->
+  <rect x="320" y="140" width="360" height="280" fill="#F4D35E" opacity="0.55"/>
+
+  <!-- Layer 4: Large teal rectangle, lower area -->
+  <rect x="100" y="380" width="340" height="300" fill="#2A9D8F" opacity="0.5"/>
+
+  <!-- Layer 5: Large orange rectangle lower right -->
+  <rect x="350" y="420" width="370" height="280" fill="#E76F51" opacity="0.5"/>
+
+  <!-- Layer 6: Blue circle, upper right -->
+  <circle cx="600" cy="220" r="180" fill="#1D3557" opacity="0.45"/>
+
+  <!-- Layer 7: Red circle, lower left -->
+  <circle cx="200" cy="580" r="160" fill="#E63946" opacity="0.45"/>
+
+  <!-- Layer 8: Yellow circle, center -->
+  <circle cx="400" cy="400" r="150" fill="#F4D35E" opacity="0.4"/>
+
+  <!-- Layer 9: Steel blue large ellipse -->
+  <ellipse cx="550" cy="550" rx="200" ry="140" fill="#457B9D" opacity="0.45"/>
+
+  <!-- Layer 10: Forest rectangle top right -->
+  <rect x="520" y="60" width="240" height="200" fill="#264653" opacity="0.5"/>
+
+  <!-- Layer 11: Burgundy rectangle lower left -->
+  <rect x="40" y="560" width="220" height="200" fill="#6D2E46" opacity="0.5"/>
+
+  <!-- Layer 12: Light blue ellipse, upper center -->
+  <ellipse cx="380" cy="180" rx="220" ry="100" fill="#A8DADC" opacity="0.45"/>
+
+  <!-- Layer 13: Warm gray large rectangle mid -->
+  <rect x="260" y="300" width="300" height="200" fill="#A89F91" opacity="0.4"/>
+
+  <!-- Layer 14: Sand rectangle diagonal feel -->
+  <rect x="440" y="350" width="280" height="180" fill="#DDA15E" opacity="0.45"/>
+
+  <!-- Layer 15: Coral ellipse -->
+  <ellipse cx="300" cy="640" rx="180" ry="100" fill="#E9C46A" opacity="0.5"/>
+
+  <!-- Layer 16: Small intense red circle for focal point -->
+  <circle cx="400" cy="400" r="60" fill="#E63946" opacity="0.7"/>
+
+  <!-- Layer 17: Small blue circle focal -->
+  <circle cx="400" cy="400" r="35" fill="#1D3557" opacity="0.8"/>
+
+  <!-- Layer 18: Yellow core -->
+  <circle cx="400" cy="400" r="18" fill="#F4D35E" opacity="0.95"/>
+
+  <!-- Accent strokes for structure -->
+  <line x1="80" y1="100" x2="760" y2="700" stroke="#000000" stroke-width="1" opacity="0.12"/>
+  <line x1="760" y1="100" x2="80" y2="700" stroke="#000000" stroke-width="1" opacity="0.12"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.8" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.8" opacity="0.08"/>
+
+  <!-- Corner accent dots -->
+  <circle cx="30" cy="30" r="10" fill="#E63946" opacity="0.8"/>
+  <circle cx="770" cy="30" r="10" fill="#1D3557" opacity="0.8"/>
+  <circle cx="30" cy="770" r="10" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="770" cy="770" r="10" fill="#F4D35E" opacity="0.8"/>
+
+  <!-- Small structural squares scattered -->
+  <rect x="60" y="390" width="24" height="24" fill="#000000" opacity="0.15"/>
+  <rect x="716" y="390" width="24" height="24" fill="#000000" opacity="0.15"/>
+  <rect x="390" y="60" width="24" height="24" fill="#000000" opacity="0.15"/>
+  <rect x="390" y="716" width="24" height="24" fill="#000000" opacity="0.15"/>
+
+  <!-- Outer border -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000000" stroke-width="2.5"/>
+</svg>

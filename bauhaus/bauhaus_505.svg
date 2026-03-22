@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+  <!-- Subtle background structure -->
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <!-- Large red arc sweeping from left to top-right -->
+  <path d="M 50 650 A 500 500 0 0 1 650 50" fill="none" stroke="#E63946" stroke-width="18" opacity="0.9" stroke-linecap="round"/>
+  <!-- Large blue arc sweeping from bottom to right -->
+  <path d="M 200 780 A 400 400 0 0 1 780 300" fill="none" stroke="#1D3557" stroke-width="14" opacity="0.85" stroke-linecap="round"/>
+  <!-- Large yellow arc sweeping from top-left to bottom -->
+  <path d="M 100 100 A 450 450 0 0 1 500 750" fill="none" stroke="#F4D35E" stroke-width="10" opacity="0.9" stroke-linecap="round"/>
+  <!-- Thin structural lines connecting arc regions -->
+  <line x1="50" y1="650" x2="200" y2="780" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="650" y1="50" x2="780" y2="300" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="100" y1="100" x2="50" y2="650" stroke="#457B9D" stroke-width="1" opacity="0.25"/>
+  <line x1="500" y1="750" x2="200" y2="780" stroke="#457B9D" stroke-width="1" opacity="0.25"/>
+  <line x1="650" y1="50" x2="100" y2="100" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="780" y1="300" x2="500" y2="750" stroke="#457B9D" stroke-width="1" opacity="0.2"/>
+  <!-- Geometric shapes at arc endpoints -->
+  <!-- Red arc endpoints -->
+  <rect x="35" y="635" width="28" height="28" fill="#000000" opacity="0.7" transform="rotate(15,49,649)"/>
+  <polygon points="650,30 635,65 665,65" fill="#457B9D" opacity="0.8"/>
+  <!-- Blue arc endpoints -->
+  <rect x="186" y="766" width="24" height="24" fill="#2A9D8F" opacity="0.75" transform="rotate(30,198,778)"/>
+  <polygon points="780,285 765,315 795,315" fill="#000000" opacity="0.7"/>
+  <!-- Yellow arc endpoints -->
+  <polygon points="100,80 85,115 115,115" fill="#E63946" opacity="0.7"/>
+  <rect x="486" y="736" width="26" height="26" fill="#1D3557" opacity="0.75" transform="rotate(20,499,749)"/>
+  <!-- Black and steel blue accent elements -->
+  <circle cx="350" cy="300" r="15" fill="#000000" opacity="0.4"/>
+  <circle cx="450" cy="500" r="12" fill="#457B9D" opacity="0.5"/>
+  <circle cx="300" cy="550" r="10" fill="#000000" opacity="0.35"/>
+  <rect x="550" y="180" width="20" height="20" fill="#457B9D" opacity="0.45" transform="rotate(45,560,190)"/>
+  <rect x="150" y="400" width="16" height="16" fill="#000000" opacity="0.3" transform="rotate(30,158,408)"/>
+  <!-- Small scattered shapes for texture -->
+  <circle cx="250" cy="200" r="5" fill="#E63946" opacity="0.5"/>
+  <circle cx="600" cy="450" r="6" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="400" cy="650" r="7" fill="#1D3557" opacity="0.4"/>
+  <polygon points="700,600 690,620 710,620" fill="#E76F51" opacity="0.5"/>
+  <polygon points="130,700 120,720 140,720" fill="#2A9D8F" opacity="0.45"/>
+  <rect x="680" y="130" width="10" height="10" fill="#6D2E46" opacity="0.4"/>
+  <!-- Corner frame elements -->
+  <line x1="20" y1="20" x2="80" y2="20" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="20" y1="20" x2="20" y2="80" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="720" y1="780" x2="780" y2="780" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <line x1="780" y1="720" x2="780" y2="780" stroke="#000000" stroke-width="2" opacity="0.3"/>
+</svg>

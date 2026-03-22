@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background: cream -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Structural grid at low opacity -->
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <!-- Teal rectangles floating behind crossings -->
+  <rect x="280" y="250" width="140" height="90" fill="#2A9D8F" opacity="0.35"/>
+  <rect x="500" y="400" width="110" height="130" fill="#2A9D8F" opacity="0.25"/>
+  <rect x="100" y="500" width="160" height="70" fill="#2A9D8F" opacity="0.3"/>
+  <!-- Light blue fill areas -->
+  <rect x="450" y="120" width="120" height="100" fill="#A8DADC" opacity="0.4"/>
+  <rect x="150" y="300" width="90" height="150" fill="#A8DADC" opacity="0.3"/>
+  <polygon points="600,550 750,550 750,700" fill="#A8DADC" opacity="0.35"/>
+  <!-- Bold intersecting lines: Red thick -->
+  <line x1="50" y1="100" x2="750" y2="650" stroke="#E63946" stroke-width="8"/>
+  <line x1="100" y1="700" x2="700" y2="150" stroke="#E63946" stroke-width="8"/>
+  <!-- Blue medium lines -->
+  <line x1="0" y1="350" x2="800" y2="300" stroke="#1D3557" stroke-width="5"/>
+  <line x1="300" y1="0" x2="350" y2="800" stroke="#1D3557" stroke-width="5"/>
+  <!-- Yellow thick lines -->
+  <line x1="0" y1="550" x2="800" y2="200" stroke="#F4D35E" stroke-width="6"/>
+  <line x1="600" y1="0" x2="200" y2="800" stroke="#F4D35E" stroke-width="6"/>
+  <!-- Black thin lines -->
+  <line x1="0" y1="100" x2="800" y2="700" stroke="#000000" stroke-width="2"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#000000" stroke-width="2"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="2"/>
+  <!-- Intersection circles -->
+  <circle cx="390" cy="380" r="14" fill="#E63946" opacity="0.8"/>
+  <circle cx="335" cy="320" r="12" fill="#1D3557" opacity="0.75"/>
+  <circle cx="500" cy="500" r="16" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="300" cy="340" r="10" fill="#E76F51" opacity="0.7"/>
+  <circle cx="520" cy="280" r="11" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="450" cy="450" r="13" fill="#E63946" opacity="0.7"/>
+  <circle cx="350" cy="550" r="9" fill="#1D3557" opacity="0.75"/>
+  <circle cx="600" cy="350" r="12" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="250" cy="430" r="10" fill="#457B9D" opacity="0.7"/>
+  <circle cx="500" cy="200" r="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <!-- Burgundy corner triangles -->
+  <polygon points="0,0 60,0 0,60" fill="#6D2E46" opacity="0.7"/>
+  <polygon points="800,0 740,0 800,60" fill="#6D2E46" opacity="0.6"/>
+  <polygon points="0,800 60,800 0,740" fill="#6D2E46" opacity="0.5"/>
+  <polygon points="800,800 740,800 800,740" fill="#6D2E46" opacity="0.65"/>
+  <!-- Small accent elements -->
+  <rect x="650" y="100" width="25" height="25" fill="#E76F51" opacity="0.5"/>
+  <rect x="100" y="150" width="20" height="20" fill="#000000" opacity="0.3"/>
+  <circle cx="700" cy="600" r="7" fill="#E63946" opacity="0.5"/>
+  <circle cx="150" cy="650" r="6" fill="#1D3557" opacity="0.5"/>
+</svg>

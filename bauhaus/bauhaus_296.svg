@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+  <!-- Concentric background circles -->
+  <circle cx="400" cy="400" r="380" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="400" cy="400" r="320" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="400" cy="400" r="260" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="400" cy="400" r="200" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="400" cy="400" r="140" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="400" cy="400" r="80" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <!-- Pinwheel blades - Red (top-right) -->
+  <polygon points="400,400 520,180 400,180" fill="#E63946" opacity="0.9"/>
+  <polygon points="400,400 560,240 440,140" fill="#E63946" opacity="0.6"/>
+  <!-- Pinwheel blades - Blue (bottom-right) -->
+  <polygon points="400,400 620,520 620,400" fill="#1D3557" opacity="0.9"/>
+  <polygon points="400,400 660,440 560,560" fill="#1D3557" opacity="0.6"/>
+  <!-- Pinwheel blades - Yellow (bottom-left) -->
+  <polygon points="400,400 280,620 400,620" fill="#F4D35E" opacity="0.9"/>
+  <polygon points="400,400 240,560 360,660" fill="#F4D35E" opacity="0.6"/>
+  <!-- Pinwheel blades - Teal (top-left) -->
+  <polygon points="400,400 180,280 180,400" fill="#2A9D8F" opacity="0.9"/>
+  <polygon points="400,400 140,360 240,240" fill="#2A9D8F" opacity="0.6"/>
+  <!-- Black spin lines -->
+  <line x1="400" y1="400" x2="460" y2="140" stroke="#000000" stroke-width="2" opacity="0.8"/>
+  <line x1="400" y1="400" x2="660" y2="460" stroke="#000000" stroke-width="2" opacity="0.8"/>
+  <line x1="400" y1="400" x2="340" y2="660" stroke="#000000" stroke-width="2" opacity="0.8"/>
+  <line x1="400" y1="400" x2="140" y2="340" stroke="#000000" stroke-width="2" opacity="0.8"/>
+  <!-- Curved spin arcs -->
+  <path d="M 460 140 A 300 300 0 0 1 660 460" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <path d="M 660 460 A 300 300 0 0 1 340 660" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <path d="M 340 660 A 300 300 0 0 1 140 340" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <path d="M 140 340 A 300 300 0 0 1 460 140" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <!-- Orange accents -->
+  <circle cx="520" cy="180" r="12" fill="#E76F51" opacity="0.85"/>
+  <circle cx="620" cy="520" r="12" fill="#E76F51" opacity="0.85"/>
+  <circle cx="280" cy="620" r="12" fill="#E76F51" opacity="0.85"/>
+  <circle cx="180" cy="280" r="12" fill="#E76F51" opacity="0.85"/>
+  <!-- Coral accents -->
+  <circle cx="460" cy="140" r="8" fill="#E9C46A" opacity="0.9"/>
+  <circle cx="660" cy="460" r="8" fill="#E9C46A" opacity="0.9"/>
+  <circle cx="340" cy="660" r="8" fill="#E9C46A" opacity="0.9"/>
+  <circle cx="140" cy="340" r="8" fill="#E9C46A" opacity="0.9"/>
+  <!-- Center circle -->
+  <circle cx="400" cy="400" r="25" fill="#000000" opacity="0.9"/>
+  <circle cx="400" cy="400" r="15" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="400" cy="400" r="7" fill="#E63946" opacity="0.9"/>
+  <!-- Corner accents -->
+  <rect x="30" y="30" width="18" height="18" fill="#1D3557" opacity="0.3"/>
+  <rect x="752" y="30" width="18" height="18" fill="#E63946" opacity="0.3"/>
+  <rect x="30" y="752" width="18" height="18" fill="#F4D35E" opacity="0.3"/>
+  <rect x="752" y="752" width="18" height="18" fill="#2A9D8F" opacity="0.3"/>
+  <!-- Additional spin detail triangles -->
+  <polygon points="400,400 480,260 440,220" fill="#E76F51" opacity="0.4"/>
+  <polygon points="400,400 540,480 580,440" fill="#E9C46A" opacity="0.4"/>
+  <polygon points="400,400 320,540 360,580" fill="#E76F51" opacity="0.4"/>
+  <polygon points="400,400 260,320 220,360" fill="#E9C46A" opacity="0.4"/>
+</svg>

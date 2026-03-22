@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+  <!-- Subtle concentric circles at low opacity -->
+  <circle cx="400" cy="400" r="380" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="400" cy="400" r="320" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.12"/>
+  <circle cx="400" cy="400" r="260" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="400" cy="400" r="200" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <circle cx="400" cy="400" r="140" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="400" cy="400" r="80" fill="none" stroke="#A89F91" stroke-width="0.5" opacity="0.12"/>
+  <!-- Radiating lines from center -->
+  <line x1="400" y1="400" x2="400" y2="30" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
+  <line x1="400" y1="400" x2="670" y2="80" stroke="#1D3557" stroke-width="1.2" opacity="0.6"/>
+  <line x1="400" y1="400" x2="770" y2="250" stroke="#000000" stroke-width="1" opacity="0.5"/>
+  <line x1="400" y1="400" x2="780" y2="400" stroke="#1D3557" stroke-width="1.5" opacity="0.65"/>
+  <line x1="400" y1="400" x2="700" y2="620" stroke="#000000" stroke-width="1.2" opacity="0.55"/>
+  <line x1="400" y1="400" x2="550" y2="760" stroke="#1D3557" stroke-width="1" opacity="0.5"/>
+  <line x1="400" y1="400" x2="400" y2="780" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
+  <line x1="400" y1="400" x2="200" y2="740" stroke="#1D3557" stroke-width="1.2" opacity="0.6"/>
+  <line x1="400" y1="400" x2="50" y2="600" stroke="#000000" stroke-width="1" opacity="0.5"/>
+  <line x1="400" y1="400" x2="30" y2="400" stroke="#1D3557" stroke-width="1.5" opacity="0.65"/>
+  <line x1="400" y1="400" x2="80" y2="150" stroke="#000000" stroke-width="1.2" opacity="0.55"/>
+  <line x1="400" y1="400" x2="220" y2="50" stroke="#1D3557" stroke-width="1" opacity="0.5"/>
+  <!-- Radiating triangles pointing outward -->
+  <polygon points="400,400 370,120 430,120" fill="#E63946" opacity="0.75"/>
+  <polygon points="400,400 640,140 680,200" fill="#E76F51" opacity="0.65"/>
+  <polygon points="400,400 720,300 740,370" fill="#F4D35E" opacity="0.7"/>
+  <polygon points="400,400 730,450 710,520" fill="#E63946" opacity="0.6"/>
+  <polygon points="400,400 630,660 570,700" fill="#E76F51" opacity="0.7"/>
+  <polygon points="400,400 440,740 360,740" fill="#F4D35E" opacity="0.75"/>
+  <polygon points="400,400 170,680 120,620" fill="#E63946" opacity="0.65"/>
+  <polygon points="400,400 60,490 50,420" fill="#E76F51" opacity="0.6"/>
+  <polygon points="400,400 80,210 130,150" fill="#F4D35E" opacity="0.7"/>
+  <polygon points="400,400 260,80 320,50" fill="#E63946" opacity="0.65"/>
+  <!-- Small circles at tips of lines -->
+  <circle cx="400" cy="30" r="6" fill="#E63946" opacity="0.9"/>
+  <circle cx="780" cy="400" r="6" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="400" cy="780" r="6" fill="#E63946" opacity="0.9"/>
+  <circle cx="30" cy="400" r="6" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="670" cy="80" r="5" fill="#1D3557" opacity="0.8"/>
+  <circle cx="700" cy="620" r="5" fill="#1D3557" opacity="0.8"/>
+  <circle cx="200" cy="740" r="5" fill="#E76F51" opacity="0.8"/>
+  <circle cx="80" cy="150" r="5" fill="#E76F51" opacity="0.8"/>
+  <!-- Central focal point -->
+  <circle cx="400" cy="400" r="25" fill="#1D3557" opacity="0.9"/>
+  <circle cx="400" cy="400" r="15" fill="#E63946" opacity="0.95"/>
+  <circle cx="400" cy="400" r="6" fill="#F4D35E"/>
+</svg>

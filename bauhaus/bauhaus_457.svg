@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background white -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+  <!-- Radiating forest green lines from bottom center -->
+  <line x1="400" y1="780" x2="50" y2="100" stroke="#264653" stroke-width="1.5" opacity="0.25"/>
+  <line x1="400" y1="780" x2="150" y2="50" stroke="#264653" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="780" x2="300" y2="30" stroke="#264653" stroke-width="1.5" opacity="0.25"/>
+  <line x1="400" y1="780" x2="500" y2="30" stroke="#264653" stroke-width="1.5" opacity="0.25"/>
+  <line x1="400" y1="780" x2="650" y2="50" stroke="#264653" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="780" x2="750" y2="100" stroke="#264653" stroke-width="1.5" opacity="0.25"/>
+  <line x1="400" y1="780" x2="200" y2="200" stroke="#264653" stroke-width="1" opacity="0.15"/>
+  <line x1="400" y1="780" x2="600" y2="200" stroke="#264653" stroke-width="1" opacity="0.15"/>
+  <!-- Large arcs - outermost layer -->
+  <path d="M 100 500 A 300 300 0 0 1 700 500" fill="none" stroke="#1D3557" stroke-width="8" opacity="0.7"/>
+  <path d="M 150 500 A 250 250 0 0 1 650 500" fill="none" stroke="#E63946" stroke-width="6" opacity="0.65"/>
+  <path d="M 200 500 A 200 200 0 0 1 600 500" fill="none" stroke="#F4D35E" stroke-width="7" opacity="0.7"/>
+  <!-- Arcs opening downward -->
+  <path d="M 120 300 A 280 280 0 0 0 680 300" fill="none" stroke="#1D3557" stroke-width="6" opacity="0.6"/>
+  <path d="M 180 350 A 220 220 0 0 0 620 350" fill="none" stroke="#E63946" stroke-width="5" opacity="0.55"/>
+  <path d="M 250 280 A 150 150 0 0 0 550 280" fill="none" stroke="#F4D35E" stroke-width="6" opacity="0.65"/>
+  <!-- Filled arc shapes for depth -->
+  <path d="M 200 450 A 200 200 0 0 1 600 450 L 600 450 Z" fill="#E63946" opacity="0.15"/>
+  <path d="M 250 420 A 150 150 0 0 1 550 420 L 550 420 Z" fill="#1D3557" opacity="0.12"/>
+  <path d="M 300 400 A 100 100 0 0 1 500 400 L 500 400 Z" fill="#F4D35E" opacity="0.2"/>
+  <!-- Nested inner arcs -->
+  <path d="M 300 500 A 100 100 0 0 1 500 500" fill="none" stroke="#1D3557" stroke-width="4" opacity="0.8"/>
+  <path d="M 330 500 A 70 70 0 0 1 470 500" fill="none" stroke="#E63946" stroke-width="3" opacity="0.75"/>
+  <path d="M 360 500 A 40 40 0 0 1 440 500" fill="none" stroke="#F4D35E" stroke-width="4" opacity="0.85"/>
+  <!-- Small arcs at top -->
+  <path d="M 250 200 A 80 80 0 0 1 410 200" fill="none" stroke="#E63946" stroke-width="3" opacity="0.5"/>
+  <path d="M 400 150 A 90 90 0 0 1 580 150" fill="none" stroke="#1D3557" stroke-width="3" opacity="0.5"/>
+  <!-- Small black rectangles forming base -->
+  <rect x="100" y="680" width="30" height="60" fill="#000000" opacity="0.85"/>
+  <rect x="160" y="700" width="20" height="40" fill="#000000" opacity="0.8"/>
+  <rect x="220" y="690" width="35" height="50" fill="#000000" opacity="0.85"/>
+  <rect x="300" y="710" width="25" height="30" fill="#000000" opacity="0.8"/>
+  <rect x="370" y="685" width="40" height="55" fill="#000000" opacity="0.9"/>
+  <rect x="450" y="700" width="20" height="40" fill="#000000" opacity="0.8"/>
+  <rect x="510" y="680" width="35" height="60" fill="#000000" opacity="0.85"/>
+  <rect x="580" y="695" width="25" height="45" fill="#000000" opacity="0.8"/>
+  <rect x="640" y="705" width="30" height="35" fill="#000000" opacity="0.85"/>
+  <rect x="700" y="690" width="20" height="50" fill="#000000" opacity="0.8"/>
+  <!-- Orange ellipses floating between arcs -->
+  <ellipse cx="180" cy="380" rx="25" ry="15" fill="#E76F51" opacity="0.7"/>
+  <ellipse cx="620" cy="400" rx="20" ry="12" fill="#E76F51" opacity="0.65"/>
+  <ellipse cx="400" cy="250" rx="30" ry="18" fill="#E76F51" opacity="0.6"/>
+  <ellipse cx="300" cy="330" rx="18" ry="10" fill="#E76F51" opacity="0.7"/>
+  <ellipse cx="520" cy="310" rx="22" ry="14" fill="#E76F51" opacity="0.65"/>
+  <ellipse cx="450" cy="580" rx="15" ry="10" fill="#E76F51" opacity="0.55"/>
+  <!-- Corner accents -->
+  <circle cx="30" cy="30" r="10" fill="#E63946" opacity="0.5"/>
+  <circle cx="770" cy="30" r="10" fill="#1D3557" opacity="0.5"/>
+  <rect x="15" y="760" width="20" height="20" fill="#F4D35E" opacity="0.5"/>
+  <rect x="765" y="760" width="20" height="20" fill="#2A9D8F" opacity="0.5"/>
+</svg>

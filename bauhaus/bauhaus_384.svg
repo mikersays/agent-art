@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<!-- Background -->
+<rect width="800" height="800" fill="#FEFAE0"/>
+
+<!-- Mosaic Fragments - packed irregular polygons with thin black outlines -->
+<!-- Warm gray and sand dominate, with pops of red, blue, yellow -->
+
+<!-- Row 1 - top band -->
+<polygon points="0,0 120,0 100,70 0,55" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="120,0 250,0 240,60 100,70" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="250,0 370,0 380,75 240,60" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="370,0 500,0 490,55 380,75" fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.9"/>
+<polygon points="500,0 620,0 640,70 490,55" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="620,0 800,0 800,60 640,70" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+
+<!-- Row 2 -->
+<polygon points="0,55 100,70 80,150 0,140" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="100,70 240,60 260,140 80,150" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="240,60 380,75 370,155 260,140" fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.9"/>
+<polygon points="380,75 490,55 510,145 370,155" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="490,55 640,70 620,150 510,145" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="640,70 800,60 800,155 620,150" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+
+<!-- Row 3 -->
+<polygon points="0,140 80,150 60,240 0,230" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="80,150 260,140 280,230 60,240" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="260,140 370,155 350,235 280,230" fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.9"/>
+<polygon points="370,155 510,145 520,240 350,235" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="510,145 620,150 600,230 520,240" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="620,150 800,155 800,245 600,230" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+
+<!-- Row 4 -->
+<polygon points="0,230 60,240 50,330 0,320" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="60,240 280,230 300,325 50,330" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="280,230 350,235 340,320 300,325" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="350,235 520,240 500,330 340,320" fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.9"/>
+<polygon points="520,240 600,230 610,325 500,330" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="600,230 800,245 800,340 610,325" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+
+<!-- Row 5 -->
+<polygon points="0,320 50,330 40,420 0,410" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="50,330 300,325 310,415 40,420" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="300,325 340,320 330,410 310,415" fill="#457B9D" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="340,320 500,330 480,420 330,410" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="500,330 610,325 630,415 480,420" fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.9"/>
+<polygon points="610,325 800,340 800,430 630,415" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+
+<!-- Row 6 -->
+<polygon points="0,410 40,420 30,510 0,500" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="40,420 310,415 320,505 30,510" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="310,415 330,410 340,500 320,505" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="330,410 480,420 460,510 340,500" fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.9"/>
+<polygon points="480,420 630,415 650,505 460,510" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="630,415 800,430 800,520 650,505" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+
+<!-- Row 7 -->
+<polygon points="0,500 30,510 20,600 0,590" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="30,510 320,505 340,595 20,600" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="320,505 340,500 350,590 340,595" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="340,500 460,510 440,600 350,590" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="460,510 650,505 670,595 440,600" fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="650,505 800,520 800,610 670,595" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+
+<!-- Row 8 -->
+<polygon points="0,590 20,600 10,690 0,680" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="20,600 340,595 360,685 10,690" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="340,595 350,590 365,680 360,685" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="350,590 440,600 420,690 365,680" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="440,600 670,595 690,685 420,690" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="670,595 800,610 800,700 690,685" fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.85"/>
+
+<!-- Row 9 - bottom -->
+<polygon points="0,680 10,690 0,800 0,800" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="10,690 360,685 340,800 0,800" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="360,685 365,680 420,690 500,800 340,800" fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.9"/>
+<polygon points="420,690 690,685 700,800 500,800" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+<polygon points="690,685 800,700 800,800 700,800" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.85"/>
+</svg>

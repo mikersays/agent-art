@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+  <!-- Grid lines at low opacity -->
+  <line x1="0" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="200" y1="0" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="400" y1="0" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="200" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="400" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="600" y1="0" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="600" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <!-- Vertical grid lines -->
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <!-- Horizontal grid lines -->
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <!-- Diagonal band 1 - Blue, wide dominant -->
+  <polygon points="0,0 80,0 800,720 800,800 720,800 0,80" fill="#1D3557" opacity="0.85"/>
+  <!-- Diagonal band 2 - Red -->
+  <polygon points="160,0 240,0 800,560 800,640 640,800 560,800 0,240 0,160" fill="#E63946" opacity="0.8"/>
+  <!-- Diagonal band 3 - Yellow -->
+  <polygon points="340,0 400,0 800,400 800,460 460,800 400,800 0,400 0,340" fill="#F4D35E" opacity="0.85"/>
+  <!-- Diagonal band 4 - Teal -->
+  <polygon points="520,0 580,0 800,220 800,280 280,800 220,800 0,580 0,520" fill="#2A9D8F" opacity="0.75"/>
+  <!-- Diagonal band 5 - Orange, thin -->
+  <polygon points="680,0 720,0 800,80 800,120 120,800 80,800 0,720 0,680" fill="#E76F51" opacity="0.8"/>
+  <!-- Punctuating circles between bands -->
+  <circle cx="90" cy="130" r="12" fill="#E63946" opacity="0.9"/>
+  <circle cx="300" cy="120" r="8" fill="#1D3557" opacity="0.7"/>
+  <circle cx="500" cy="100" r="10" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="700" cy="50" r="15" fill="#E63946" opacity="0.6"/>
+  <circle cx="130" cy="350" r="9" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="650" cy="300" r="14" fill="#000000" opacity="0.5"/>
+  <circle cx="750" cy="450" r="11" fill="#E76F51" opacity="0.7"/>
+  <circle cx="50" cy="700" r="13" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="350" cy="650" r="10" fill="#1D3557" opacity="0.6"/>
+  <circle cx="700" cy="750" r="16" fill="#E63946" opacity="0.7"/>
+  <!-- Punctuating squares -->
+  <rect x="440" y="180" width="18" height="18" fill="#000000" opacity="0.6" transform="rotate(45,449,189)"/>
+  <rect x="180" y="500" width="14" height="14" fill="#E63946" opacity="0.7" transform="rotate(30,187,507)"/>
+  <rect x="600" y="550" width="20" height="20" fill="#F4D35E" opacity="0.8"/>
+  <rect x="100" y="50" width="12" height="12" fill="#2A9D8F" opacity="0.9"/>
+  <rect x="720" y="620" width="16" height="16" fill="#1D3557" opacity="0.7" transform="rotate(15,728,628)"/>
+  <rect x="350" y="400" width="10" height="10" fill="#FFFFFF" opacity="0.9"/>
+  <!-- Corner accents -->
+  <rect x="0" y="0" width="25" height="25" fill="#000000" opacity="0.3"/>
+  <rect x="775" y="0" width="25" height="25" fill="#000000" opacity="0.3"/>
+  <rect x="0" y="775" width="25" height="25" fill="#000000" opacity="0.3"/>
+  <rect x="775" y="775" width="25" height="25" fill="#000000" opacity="0.3"/>
+  <!-- Additional small circles for texture -->
+  <circle cx="250" cy="280" r="6" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="550" cy="520" r="7" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="450" cy="700" r="5" fill="#000000" opacity="0.4"/>
+</svg>

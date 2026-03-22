@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Horizontal reference lines -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Vertical pendulum line -->
+  <line x1="400" y1="0" x2="400" y2="120" stroke="#000000" stroke-width="3"/>
+
+  <!-- Pendulum pivot circle -->
+  <circle cx="400" cy="10" r="8" fill="#000000"/>
+
+  <!-- Arc paths - pendulum swings (red, longest) -->
+  <path d="M 400 120 A 380 380 0 0 1 700 350" fill="none" stroke="#E63946" stroke-width="3" opacity="0.85"/>
+  <path d="M 400 120 A 380 380 0 0 0 100 350" fill="none" stroke="#E63946" stroke-width="3" opacity="0.85"/>
+
+  <!-- Arc paths - pendulum swings (blue, medium) -->
+  <path d="M 400 120 A 300 300 0 0 1 640 310" fill="none" stroke="#1D3557" stroke-width="2.5" opacity="0.8"/>
+  <path d="M 400 120 A 300 300 0 0 0 160 310" fill="none" stroke="#1D3557" stroke-width="2.5" opacity="0.8"/>
+
+  <!-- Arc paths - pendulum swings (yellow, shorter) -->
+  <path d="M 400 120 A 220 220 0 0 1 575 270" fill="none" stroke="#F4D35E" stroke-width="2.5" opacity="0.9"/>
+  <path d="M 400 120 A 220 220 0 0 0 225 270" fill="none" stroke="#F4D35E" stroke-width="2.5" opacity="0.9"/>
+
+  <!-- Arc paths - teal, shortest -->
+  <path d="M 400 120 A 150 150 0 0 1 520 220" fill="none" stroke="#2A9D8F" stroke-width="2" opacity="0.7"/>
+  <path d="M 400 120 A 150 150 0 0 0 280 220" fill="none" stroke="#2A9D8F" stroke-width="2" opacity="0.7"/>
+
+  <!-- Endpoint circles - red arcs -->
+  <circle cx="700" cy="350" r="10" fill="#E63946"/>
+  <circle cx="100" cy="350" r="10" fill="#E63946"/>
+
+  <!-- Endpoint circles - blue arcs -->
+  <circle cx="640" cy="310" r="8" fill="#1D3557"/>
+  <circle cx="160" cy="310" r="8" fill="#1D3557"/>
+
+  <!-- Endpoint circles - yellow arcs -->
+  <circle cx="575" cy="270" r="7" fill="#F4D35E"/>
+  <circle cx="225" cy="270" r="7" fill="#F4D35E"/>
+
+  <!-- Endpoint circles - teal arcs -->
+  <circle cx="520" cy="220" r="5" fill="#2A9D8F"/>
+  <circle cx="280" cy="220" r="5" fill="#2A9D8F"/>
+
+  <!-- Additional pendulum traces (fainter, wider swings) -->
+  <path d="M 400 120 A 500 500 0 0 1 750 500" fill="none" stroke="#E76F51" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 400 120 A 500 500 0 0 0 50 500" fill="none" stroke="#E76F51" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="750" cy="500" r="6" fill="#E76F51" opacity="0.6"/>
+  <circle cx="50" cy="500" r="6" fill="#E76F51" opacity="0.6"/>
+
+  <!-- Pendulum bob at center rest -->
+  <circle cx="400" cy="500" r="18" fill="#000000" opacity="0.9"/>
+  <circle cx="400" cy="500" r="10" fill="#E63946" opacity="0.7"/>
+
+  <!-- Connecting line from pivot to bob -->
+  <line x1="400" y1="120" x2="400" y2="500" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Small accent shapes -->
+  <rect x="380" y="580" width="40" height="4" fill="#1D3557" opacity="0.5"/>
+  <rect x="370" y="600" width="60" height="3" fill="#457B9D" opacity="0.4"/>
+  <rect x="360" y="618" width="80" height="2" fill="#A8DADC" opacity="0.3"/>
+
+  <!-- Corner accents -->
+  <rect x="20" y="20" width="15" height="15" fill="#1D3557" opacity="0.3"/>
+  <rect x="765" y="20" width="15" height="15" fill="#E63946" opacity="0.3"/>
+  <rect x="20" y="765" width="15" height="15" fill="#F4D35E" opacity="0.3"/>
+  <rect x="765" y="765" width="15" height="15" fill="#2A9D8F" opacity="0.3"/>
+
+  <!-- Ghost pendulum positions -->
+  <line x1="400" y1="120" x2="300" y2="490" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="120" x2="500" y2="490" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="120" x2="250" y2="460" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="400" y1="120" x2="550" y2="460" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Small circles along bottom reference -->
+  <circle cx="200" cy="700" r="4" fill="#DDA15E" opacity="0.5"/>
+  <circle cx="350" cy="700" r="4" fill="#E9C46A" opacity="0.5"/>
+  <circle cx="450" cy="700" r="4" fill="#E9C46A" opacity="0.5"/>
+  <circle cx="600" cy="700" r="4" fill="#DDA15E" opacity="0.5"/>
+</svg>

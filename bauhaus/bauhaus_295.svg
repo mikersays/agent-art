@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- White background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Thick bars -->
+  <rect x="0" y="30" width="800" height="45" fill="#E63946" opacity="0.85"/>
+  <rect x="0" y="105" width="800" height="20" fill="#1D3557" opacity="0.7"/>
+  <rect x="0" y="155" width="800" height="50" fill="#F4D35E" opacity="0.8"/>
+  <rect x="0" y="235" width="800" height="18" fill="#000000" opacity="0.6"/>
+  <rect x="0" y="280" width="800" height="55" fill="#1D3557" opacity="0.8"/>
+  <rect x="0" y="365" width="800" height="22" fill="#2A9D8F" opacity="0.7"/>
+  <rect x="0" y="415" width="800" height="48" fill="#E63946" opacity="0.75"/>
+  <rect x="0" y="493" width="800" height="15" fill="#A89F91" opacity="0.5"/>
+  <rect x="0" y="535" width="800" height="55" fill="#F4D35E" opacity="0.85"/>
+  <rect x="0" y="620" width="800" height="25" fill="#6D2E46" opacity="0.7"/>
+  <rect x="0" y="675" width="800" height="42" fill="#1D3557" opacity="0.8"/>
+  <rect x="0" y="745" width="800" height="18" fill="#E63946" opacity="0.7"/>
+
+  <!-- Bars broken by circles -->
+  <!-- White circle cutting into red bar -->
+  <circle cx="200" cy="52" r="30" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="200" cy="52" r="30" fill="none" stroke="#E63946" stroke-width="2" opacity="0.6"/>
+
+  <!-- Yellow circle on blue bar -->
+  <circle cx="550" cy="307" r="32" fill="#F4D35E" opacity="0.85"/>
+
+  <!-- Blue circle on yellow bar -->
+  <circle cx="380" cy="562" r="28" fill="#1D3557" opacity="0.75"/>
+
+  <!-- Red circle on bottom blue bar -->
+  <circle cx="680" cy="696" r="25" fill="#E63946" opacity="0.8"/>
+
+  <!-- Triangles breaking bars -->
+  <polygon points="620,155 660,205 580,205" fill="#FFFFFF" opacity="0.85"/>
+  <polygon points="620,155 660,205 580,205" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+
+  <polygon points="130,415 170,463 90,463" fill="#F4D35E" opacity="0.8"/>
+
+  <polygon points="450,675 490,717 410,717" fill="#FFFFFF" opacity="0.85"/>
+  <polygon points="450,675 490,717 410,717" fill="none" stroke="#1D3557" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Vertical accent lines creating syncopation -->
+  <line x1="150" y1="0" x2="150" y2="800" stroke="#000000" stroke-width="2" opacity="0.35"/>
+  <line x1="320" y1="0" x2="320" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.25"/>
+  <line x1="480" y1="0" x2="480" y2="800" stroke="#000000" stroke-width="2.5" opacity="0.3"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="720" y1="0" x2="720" y2="800" stroke="#000000" stroke-width="2" opacity="0.3"/>
+
+  <!-- Thin vertical colored accents -->
+  <line x1="250" y1="30" x2="250" y2="465" stroke="#2A9D8F" stroke-width="3" opacity="0.4"/>
+  <line x1="520" y1="280" x2="520" y2="745" stroke="#6D2E46" stroke-width="2.5" opacity="0.35"/>
+
+  <!-- Small accent shapes at intersections -->
+  <rect x="145" y="230" width="10" height="10" fill="#E63946" opacity="0.7"/>
+  <rect x="475" y="360" width="10" height="10" fill="#F4D35E" opacity="0.7"/>
+  <rect x="715" y="490" width="10" height="10" fill="#2A9D8F" opacity="0.7"/>
+  <rect x="315" y="615" width="10" height="10" fill="#E76F51" opacity="0.7"/>
+
+  <!-- Corner accents -->
+  <circle cx="40" cy="780" r="10" fill="#1D3557" opacity="0.4"/>
+  <circle cx="760" cy="15" r="8" fill="#E63946" opacity="0.35"/>
+
+  <!-- Teal accent circle -->
+  <circle cx="75" cy="307" r="18" fill="#2A9D8F" opacity="0.6"/>
+
+  <!-- Orange accent -->
+  <rect x="700" y="415" width="60" height="48" fill="#E76F51" opacity="0.5"/>
+</svg>

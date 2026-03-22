@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Triangle Matrix -->
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+
+  <!--
+    Tessellated triangle grid: 8 columns x 8 rows of cells, each cell 100x100px.
+    Each cell split into 2 triangles (upper-left and lower-right).
+    Upper-left triangle: points (x,y), (x+100,y), (x,y+100)
+    Lower-right triangle: points (x+100,y), (x+100,y+100), (x,y+100)
+    Colors cycle: #E63946, #1D3557, #F4D35E, #FFFFFF, #2A9D8F
+    Some triangles get reduced opacity.
+  -->
+
+  <!-- Row 0 (y=0..100) -->
+  <!-- col 0 -->
+  <polygon points="0,0 100,0 0,100"     fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <polygon points="100,0 100,100 0,100" fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <!-- col 1 -->
+  <polygon points="100,0 200,0 100,100"     fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <polygon points="200,0 200,100 100,100"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <!-- col 2 -->
+  <polygon points="200,0 300,0 200,100"     fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+  <polygon points="300,0 300,100 200,100"   fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <!-- col 3 -->
+  <polygon points="300,0 400,0 300,100"     fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <polygon points="400,0 400,100 300,100"   fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <!-- col 4 -->
+  <polygon points="400,0 500,0 400,100"     fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <polygon points="500,0 500,100 400,100"   fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+  <!-- col 5 -->
+  <polygon points="500,0 600,0 500,100"     fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="600,0 600,100 500,100"   fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <!-- col 6 -->
+  <polygon points="600,0 700,0 600,100"     fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <polygon points="700,0 700,100 600,100"   fill="#FFFFFF"  stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <!-- col 7 -->
+  <polygon points="700,0 800,0 700,100"     fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <polygon points="800,0 800,100 700,100"   fill="#E63946" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 1 (y=100..200) -->
+  <!-- col 0 -->
+  <polygon points="0,100 100,100 0,200"       fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <polygon points="100,100 100,200 0,200"     fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <!-- col 1 -->
+  <polygon points="100,100 200,100 100,200"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="200,100 200,200 100,200"   fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <!-- col 2 -->
+  <polygon points="200,100 300,100 200,200"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <polygon points="300,100 300,200 200,200"   fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <!-- col 3 -->
+  <polygon points="300,100 400,100 300,200"   fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <polygon points="400,100 400,200 300,200"   fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <!-- col 4 -->
+  <polygon points="400,100 500,100 400,200"   fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="500,100 500,200 400,200"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <!-- col 5 -->
+  <polygon points="500,100 600,100 500,200"   fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <polygon points="600,100 600,200 500,200"   fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <!-- col 6 -->
+  <polygon points="600,100 700,100 600,200"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <polygon points="700,100 700,200 600,200"   fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <!-- col 7 -->
+  <polygon points="700,100 800,100 700,200"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <polygon points="800,100 800,200 700,200"   fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.65"/>
+
+  <!-- Row 2 (y=200..300) -->
+  <!-- col 0 -->
+  <polygon points="0,200 100,200 0,300"       fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+  <polygon points="100,200 100,300 0,300"     fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <!-- col 1 -->
+  <polygon points="100,200 200,200 100,300"   fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="200,200 200,300 100,300"   fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <!-- col 2 -->
+  <polygon points="200,200 300,200 200,300"   fill="#FFFFFF"  stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="300,200 300,300 200,300"   fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+  <!-- col 3 -->
+  <polygon points="300,200 400,200 300,300"   fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <polygon points="400,200 400,300 300,300"   fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <!-- col 4 -->
+  <polygon points="400,200 500,200 400,300"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="500,200 500,300 400,300"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <!-- col 5 -->
+  <polygon points="500,200 600,200 500,300"   fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <polygon points="600,200 600,300 500,300"   fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <!-- col 6 -->
+  <polygon points="600,200 700,200 600,300"   fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <polygon points="700,200 700,300 600,300"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <!-- col 7 -->
+  <polygon points="700,200 800,200 700,300"   fill="#FFFFFF"  stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <polygon points="800,200 800,300 700,300"   fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 3 (y=300..400) -->
+  <!-- col 0 -->
+  <polygon points="0,300 100,300 0,400"       fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="100,300 100,400 0,400"     fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <!-- col 1 -->
+  <polygon points="100,300 200,300 100,400"   fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="200,300 200,400 100,400"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <!-- col 2 -->
+  <polygon points="200,300 300,300 200,400"   fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <polygon points="300,300 300,400 200,400"   fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <!-- col 3 -->
+  <polygon points="300,300 400,300 300,400"   fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="400,300 400,400 300,400"   fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+  <!-- col 4 -->
+  <polygon points="400,300 500,300 400,400"   fill="#FFFFFF"  stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <polygon points="500,300 500,400 400,400"   fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <!-- col 5 -->
+  <polygon points="500,300 600,300 500,400"   fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <polygon points="600,300 600,400 500,400"   fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <!-- col 6 -->
+  <polygon points="600,300 700,300 600,400"   fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <polygon points="700,300 700,400 600,400"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <!-- col 7 -->
+  <polygon points="700,300 800,300 700,400"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="800,300 800,400 700,400"   fill="#E63946" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 4 (y=400..500) -->
+  <!-- col 0 -->
+  <polygon points="0,400 100,400 0,500"       fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="100,400 100,500 0,500"     fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+  <!-- col 1 -->
+  <polygon points="100,400 200,400 100,500"   fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <polygon points="200,400 200,500 100,500"   fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <!-- col 2 -->
+  <polygon points="200,400 300,400 200,500"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <polygon points="300,400 300,500 200,500"   fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <!-- col 3 -->
+  <polygon points="300,400 400,400 300,500"   fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="400,400 400,500 300,500"   fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <!-- col 4 -->
+  <polygon points="400,400 500,400 400,500"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="500,400 500,500 400,500"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <!-- col 5 -->
+  <polygon points="500,400 600,400 500,500"   fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <polygon points="600,400 600,500 500,500"   fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <!-- col 6 -->
+  <polygon points="600,400 700,400 600,500"   fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <polygon points="700,400 700,500 600,500"   fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <!-- col 7 -->
+  <polygon points="700,400 800,400 700,500"   fill="#FFFFFF"  stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="800,400 800,500 700,500"   fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+
+  <!-- Row 5 (y=500..600) -->
+  <!-- col 0 -->
+  <polygon points="0,500 100,500 0,600"       fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <polygon points="100,500 100,600 0,600"     fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <!-- col 1 -->
+  <polygon points="100,500 200,500 100,600"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="200,500 200,600 100,600"   fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <!-- col 2 -->
+  <polygon points="200,500 300,500 200,600"   fill="#FFFFFF"  stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="300,500 300,600 200,600"   fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+  <!-- col 3 -->
+  <polygon points="300,500 400,500 300,600"   fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <polygon points="400,500 400,600 300,600"   fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <!-- col 4 -->
+  <polygon points="400,500 500,500 400,600"   fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <polygon points="500,500 500,600 400,600"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <!-- col 5 -->
+  <polygon points="500,500 600,500 500,600"   fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="600,500 600,600 500,600"   fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <!-- col 6 -->
+  <polygon points="600,500 700,500 600,600"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="700,500 700,600 600,600"   fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <!-- col 7 -->
+  <polygon points="700,500 800,500 700,600"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <polygon points="800,500 800,600 700,600"   fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.65"/>
+
+  <!-- Row 6 (y=600..700) -->
+  <!-- col 0 -->
+  <polygon points="0,600 100,600 0,700"       fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <polygon points="100,600 100,700 0,700"     fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <!-- col 1 -->
+  <polygon points="100,600 200,600 100,700"   fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <polygon points="200,600 200,700 100,700"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <!-- col 2 -->
+  <polygon points="200,600 300,600 200,700"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <polygon points="300,600 300,700 200,700"   fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <!-- col 3 -->
+  <polygon points="300,600 400,600 300,700"   fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="400,600 400,700 300,700"   fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+  <!-- col 4 -->
+  <polygon points="400,600 500,600 400,700"   fill="#FFFFFF"  stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="500,600 500,700 400,700"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <!-- col 5 -->
+  <polygon points="500,600 600,600 500,700"   fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <polygon points="600,600 600,700 500,700"   fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+  <!-- col 6 -->
+  <polygon points="600,600 700,600 600,700"   fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="700,600 700,700 600,700"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <!-- col 7 -->
+  <polygon points="700,600 800,600 700,700"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="800,600 800,700 700,700"   fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.65"/>
+
+  <!-- Row 7 (y=700..800) -->
+  <!-- col 0 -->
+  <polygon points="0,700 100,700 0,800"       fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <polygon points="100,700 100,800 0,800"     fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+  <!-- col 1 -->
+  <polygon points="100,700 200,700 100,800"   fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="200,700 200,800 100,800"   fill="#1D3557" stroke="#000000" stroke-width="1"/>
+  <!-- col 2 -->
+  <polygon points="200,700 300,700 200,800"   fill="#FFFFFF"  stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <polygon points="300,700 300,800 200,800"   fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <!-- col 3 -->
+  <polygon points="300,700 400,700 300,800"   fill="#2A9D8F" stroke="#000000" stroke-width="1"/>
+  <polygon points="400,700 400,800 300,800"   fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <!-- col 4 -->
+  <polygon points="400,700 500,700 400,800"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="500,700 500,800 400,800"   fill="#FFFFFF"  stroke="#000000" stroke-width="1"/>
+  <!-- col 5 -->
+  <polygon points="500,700 600,700 500,800"   fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="600,700 600,800 500,800"   fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <!-- col 6 -->
+  <polygon points="600,700 700,700 600,800"   fill="#E63946" stroke="#000000" stroke-width="1"/>
+  <polygon points="700,700 700,800 600,800"   fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <!-- col 7 -->
+  <polygon points="700,700 800,700 700,800"   fill="#FFFFFF"  stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="800,700 800,800 700,800"   fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+</svg>

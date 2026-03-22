@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background cream -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Warm gray depth rectangles -->
+  <rect x="50" y="150" width="300" height="500" fill="#A89F91" opacity="0.12"/>
+  <rect x="100" y="200" width="250" height="400" fill="#A89F91" opacity="0.1"/>
+  <rect x="450" y="100" width="300" height="550" fill="#A89F91" opacity="0.12"/>
+  <rect x="500" y="180" width="200" height="400" fill="#A89F91" opacity="0.1"/>
+  <!-- Horizontal red lines - left half -->
+  <line x1="30" y1="150" x2="380" y2="150" stroke="#E63946" stroke-width="3" opacity="0.85"/>
+  <line x1="30" y1="200" x2="380" y2="200" stroke="#E63946" stroke-width="3" opacity="0.8"/>
+  <line x1="30" y1="250" x2="380" y2="250" stroke="#E63946" stroke-width="3" opacity="0.85"/>
+  <line x1="30" y1="300" x2="380" y2="300" stroke="#E63946" stroke-width="2.5" opacity="0.8"/>
+  <line x1="30" y1="350" x2="380" y2="350" stroke="#E63946" stroke-width="3" opacity="0.75"/>
+  <line x1="30" y1="400" x2="380" y2="400" stroke="#E63946" stroke-width="2.5" opacity="0.85"/>
+  <line x1="30" y1="450" x2="380" y2="450" stroke="#E63946" stroke-width="3" opacity="0.8"/>
+  <line x1="30" y1="500" x2="380" y2="500" stroke="#E63946" stroke-width="2.5" opacity="0.75"/>
+  <line x1="30" y1="550" x2="380" y2="550" stroke="#E63946" stroke-width="3" opacity="0.85"/>
+  <line x1="30" y1="600" x2="380" y2="600" stroke="#E63946" stroke-width="2.5" opacity="0.8"/>
+  <line x1="30" y1="650" x2="380" y2="650" stroke="#E63946" stroke-width="3" opacity="0.75"/>
+  <!-- Vertical blue lines - right half -->
+  <line x1="420" y1="30" x2="420" y2="770" stroke="#1D3557" stroke-width="3" opacity="0.85"/>
+  <line x1="470" y1="30" x2="470" y2="770" stroke="#1D3557" stroke-width="3" opacity="0.8"/>
+  <line x1="520" y1="30" x2="520" y2="770" stroke="#1D3557" stroke-width="2.5" opacity="0.85"/>
+  <line x1="570" y1="30" x2="570" y2="770" stroke="#1D3557" stroke-width="3" opacity="0.8"/>
+  <line x1="620" y1="30" x2="620" y2="770" stroke="#1D3557" stroke-width="2.5" opacity="0.75"/>
+  <line x1="670" y1="30" x2="670" y2="770" stroke="#1D3557" stroke-width="3" opacity="0.85"/>
+  <line x1="720" y1="30" x2="720" y2="770" stroke="#1D3557" stroke-width="2.5" opacity="0.8"/>
+  <line x1="770" y1="30" x2="770" y2="770" stroke="#1D3557" stroke-width="3" opacity="0.75"/>
+  <!-- Center overlap zone - yellow and orange geometric shapes -->
+  <rect x="350" y="280" width="90" height="70" fill="#F4D35E" opacity="0.85"/>
+  <rect x="380" y="350" width="70" height="80" fill="#E76F51" opacity="0.8"/>
+  <rect x="340" y="400" width="80" height="60" fill="#F4D35E" opacity="0.75"/>
+  <polygon points="390,230 440,280 340,280" fill="#E76F51" opacity="0.8"/>
+  <polygon points="410,470 460,520 360,520" fill="#F4D35E" opacity="0.85"/>
+  <rect x="360" y="180" width="60" height="50" fill="#E76F51" opacity="0.7"/>
+  <rect x="370" y="530" width="55" height="45" fill="#F4D35E" opacity="0.8"/>
+  <polygon points="420,360 450,400 390,400" fill="#E76F51" opacity="0.75"/>
+  <!-- Large black circle off-center -->
+  <circle cx="300" cy="350" r="80" fill="#000000" opacity="0.75"/>
+  <circle cx="300" cy="350" r="60" fill="#FEFAE0" opacity="0.3"/>
+  <!-- Teal triangles along borders -->
+  <polygon points="20,20 50,20 35,50" fill="#2A9D8F" opacity="0.85"/>
+  <polygon points="200,10 230,10 215,40" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="750,10 780,10 765,40" fill="#2A9D8F" opacity="0.85"/>
+  <polygon points="10,750 40,750 25,780" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="400,770 430,770 415,800" fill="#2A9D8F" opacity="0.75"/>
+  <polygon points="770,400 800,400 785,430" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="10,300 10,330 40,315" fill="#2A9D8F" opacity="0.75"/>
+  <polygon points="760,700 790,700 775,730" fill="#2A9D8F" opacity="0.8"/>
+  <!-- Small accents -->
+  <circle cx="150" cy="100" r="5" fill="#E63946" opacity="0.5"/>
+  <circle cx="650" cy="700" r="5" fill="#1D3557" opacity="0.5"/>
+  <rect x="580" y="650" width="8" height="8" fill="#F4D35E" opacity="0.6"/>
+</svg>

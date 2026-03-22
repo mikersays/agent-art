@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background white -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+  <!-- Large orange rectangle behind everything on the left -->
+  <rect x="30" y="150" width="300" height="500" fill="#E76F51" opacity="0.4"/>
+  <!-- Burgundy polygon accents on the right -->
+  <polygon points="600,100 750,200 700,350 580,300" fill="#6D2E46" opacity="0.5"/>
+  <polygon points="650,450 780,500 740,650 620,580" fill="#6D2E46" opacity="0.4"/>
+  <polygon points="700,300 780,350 760,420 670,400" fill="#6D2E46" opacity="0.35"/>
+  <!-- Rotated square at 0 degrees - red -->
+  <rect x="250" y="250" width="300" height="300" fill="#E63946" opacity="0.5" transform="rotate(0,400,400)"/>
+  <!-- Rotated square at 15 degrees - blue -->
+  <rect x="250" y="250" width="300" height="300" fill="#1D3557" opacity="0.5" transform="rotate(15,400,400)"/>
+  <!-- Rotated square at 30 degrees - yellow -->
+  <rect x="250" y="250" width="300" height="300" fill="#F4D35E" opacity="0.6" transform="rotate(30,400,400)"/>
+  <!-- Rotated square at 45 degrees - teal -->
+  <rect x="250" y="250" width="300" height="300" fill="#2A9D8F" opacity="0.5" transform="rotate(45,400,400)"/>
+  <!-- Black lines tracing rotation axes -->
+  <line x1="400" y1="100" x2="400" y2="700" stroke="#000000" stroke-width="1.5" opacity="0.6"/>
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#000000" stroke-width="1.5" opacity="0.6"/>
+  <line x1="188" y1="188" x2="612" y2="612" stroke="#000000" stroke-width="1.5" opacity="0.6"/>
+  <line x1="612" y1="188" x2="188" y2="612" stroke="#000000" stroke-width="1.5" opacity="0.6"/>
+  <!-- Forest green circles at corners of 0-degree square -->
+  <circle cx="250" cy="250" r="8" fill="#264653"/>
+  <circle cx="550" cy="250" r="8" fill="#264653"/>
+  <circle cx="550" cy="550" r="8" fill="#264653"/>
+  <circle cx="250" cy="550" r="8" fill="#264653"/>
+  <!-- Forest green circles at corners of 15-degree rotated square -->
+  <circle cx="224" cy="289" r="7" fill="#264653" opacity="0.8"/>
+  <circle cx="511" cy="213" r="7" fill="#264653" opacity="0.8"/>
+  <circle cx="576" cy="511" r="7" fill="#264653" opacity="0.8"/>
+  <circle cx="289" cy="576" r="7" fill="#264653" opacity="0.8"/>
+  <!-- Forest green circles at corners of 30-degree rotated square -->
+  <circle cx="210" cy="340" r="6" fill="#264653" opacity="0.7"/>
+  <circle cx="460" cy="140" r="6" fill="#264653" opacity="0.7"/>
+  <circle cx="590" cy="460" r="6" fill="#264653" opacity="0.7"/>
+  <circle cx="340" cy="590" r="6" fill="#264653" opacity="0.7"/>
+  <!-- Forest green circles at corners of 45-degree rotated square -->
+  <circle cx="188" cy="400" r="6" fill="#264653" opacity="0.65"/>
+  <circle cx="400" cy="188" r="6" fill="#264653" opacity="0.65"/>
+  <circle cx="612" cy="400" r="6" fill="#264653" opacity="0.65"/>
+  <circle cx="400" cy="612" r="6" fill="#264653" opacity="0.65"/>
+  <!-- Small structural accents -->
+  <circle cx="400" cy="400" r="12" fill="#000000" opacity="0.8"/>
+  <circle cx="400" cy="400" r="4" fill="#FFFFFF"/>
+  <!-- Corner framing elements -->
+  <rect x="20" y="20" width="40" height="4" fill="#000000" opacity="0.5"/>
+  <rect x="20" y="20" width="4" height="40" fill="#000000" opacity="0.5"/>
+  <rect x="740" y="20" width="40" height="4" fill="#000000" opacity="0.5"/>
+  <rect x="776" y="20" width="4" height="40" fill="#000000" opacity="0.5"/>
+  <rect x="20" y="776" width="40" height="4" fill="#000000" opacity="0.5"/>
+  <rect x="20" y="740" width="4" height="40" fill="#000000" opacity="0.5"/>
+  <rect x="740" y="776" width="40" height="4" fill="#000000" opacity="0.5"/>
+  <rect x="776" y="740" width="4" height="40" fill="#000000" opacity="0.5"/>
+  <!-- Additional small accent shapes -->
+  <rect x="60" y="700" width="25" height="25" fill="#E63946" opacity="0.4" transform="rotate(15,72,712)"/>
+  <rect x="700" y="60" width="25" height="25" fill="#1D3557" opacity="0.4" transform="rotate(30,712,72)"/>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- White background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+  <!-- Fragment regions - irregular polygons with different fills -->
+  <!-- Large center-ish fragments -->
+  <polygon points="300,250 500,200 550,400 400,450 280,380" fill="#1D3557" opacity="0.5"/>
+  <polygon points="350,100 550,80 550,200 500,200 300,250 280,180" fill="#F4D35E" opacity="0.45"/>
+  <polygon points="550,80 750,100 700,300 550,400 500,200" fill="#2A9D8F" opacity="0.4"/>
+  <polygon points="100,50 350,100 280,180 300,250 280,380 150,350 80,200" fill="#A8DADC" opacity="0.5"/>
+  <polygon points="0,0 100,50 80,200 0,180" fill="#FEFAE0" opacity="0.7"/>
+  <polygon points="100,50 350,100 550,80 750,100 800,0 0,0" fill="#E9C46A" opacity="0.3"/>
+  <!-- Mid-level fragments -->
+  <polygon points="280,380 400,450 350,580 200,550 150,350" fill="#E76F51" opacity="0.45"/>
+  <polygon points="400,450 550,400 650,500 580,620 350,580" fill="#457B9D" opacity="0.5"/>
+  <polygon points="550,400 700,300 780,350 750,520 650,500" fill="#DDA15E" opacity="0.4"/>
+  <polygon points="700,300 750,100 800,100 800,350 780,350" fill="#6D2E46" opacity="0.5"/>
+  <!-- Lower fragments -->
+  <polygon points="0,180 80,200 150,350 200,550 100,600 0,500" fill="#264653" opacity="0.45"/>
+  <polygon points="200,550 350,580 300,700 150,720 100,600" fill="#F4D35E" opacity="0.5"/>
+  <polygon points="350,580 580,620 550,750 300,700" fill="#1D3557" opacity="0.35"/>
+  <polygon points="580,620 650,500 750,520 780,650 700,760 550,750" fill="#E63946" opacity="0.4"/>
+  <polygon points="750,520 800,350 800,700 780,650" fill="#2A9D8F" opacity="0.55"/>
+  <!-- Bottom fragments -->
+  <polygon points="0,500 100,600 150,720 50,800 0,800" fill="#A89F91" opacity="0.5"/>
+  <polygon points="150,720 300,700 350,800 50,800" fill="#E76F51" opacity="0.35"/>
+  <polygon points="300,700 550,750 500,800 350,800" fill="#FEFAE0" opacity="0.6"/>
+  <polygon points="550,750 700,760 750,800 500,800" fill="#457B9D" opacity="0.45"/>
+  <polygon points="700,760 780,650 800,700 800,800 750,800" fill="#DDA15E" opacity="0.5"/>
+  <!-- Black fragment boundary lines -->
+  <polyline points="300,250 500,200 550,400 400,450 280,380 300,250" fill="none" stroke="#000000" stroke-width="2"/>
+  <polyline points="350,100 550,80 500,200 300,250 280,180 350,100" fill="none" stroke="#000000" stroke-width="2"/>
+  <polyline points="550,80 750,100 700,300 550,400 500,200 550,80" fill="none" stroke="#000000" stroke-width="2"/>
+  <polyline points="100,50 350,100 280,180 300,250 280,380 150,350 80,200 100,50" fill="none" stroke="#000000" stroke-width="2"/>
+  <polyline points="280,380 400,450 350,580 200,550 150,350 280,380" fill="none" stroke="#000000" stroke-width="2"/>
+  <polyline points="400,450 550,400 650,500 580,620 350,580 400,450" fill="none" stroke="#000000" stroke-width="2"/>
+  <polyline points="550,400 700,300 780,350 750,520 650,500 550,400" fill="none" stroke="#000000" stroke-width="2"/>
+  <polyline points="200,550 350,580 300,700 150,720 100,600 200,550" fill="none" stroke="#000000" stroke-width="2"/>
+  <polyline points="350,580 580,620 550,750 300,700 350,580" fill="none" stroke="#000000" stroke-width="2"/>
+  <polyline points="580,620 650,500 750,520 780,650 700,760 550,750 580,620" fill="none" stroke="#000000" stroke-width="2"/>
+  <line x1="0" y1="180" x2="80" y2="200" stroke="#000000" stroke-width="2"/>
+  <line x1="0" y1="500" x2="100" y2="600" stroke="#000000" stroke-width="2"/>
+  <line x1="150" y1="720" x2="50" y2="800" stroke="#000000" stroke-width="2"/>
+  <line x1="750" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="2"/>
+  <line x1="800" y1="350" x2="780" y2="350" stroke="#000000" stroke-width="2"/>
+  <line x1="800" y1="700" x2="780" y2="650" stroke="#000000" stroke-width="2"/>
+  <!-- Bold red triangle overlapping several regions -->
+  <polygon points="350,300 550,550 150,550" fill="#E63946" opacity="0.65" stroke="#E63946" stroke-width="1"/>
+  <!-- Warm gray shadow offsets -->
+  <polygon points="355,308 555,558 155,558" fill="#A89F91" opacity="0.2" transform="translate(8,8)"/>
+  <!-- Internal shapes within fragments -->
+  <circle cx="450" cy="320" r="18" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="650" cy="400" r="12" fill="#000000" opacity="0.3"/>
+  <rect x="120" y="280" width="25" height="25" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="300" cy="640" r="14" fill="#FEFAE0" opacity="0.7"/>
+  <rect x="620" y="580" width="20" height="30" fill="#000000" opacity="0.25"/>
+  <circle cx="180" cy="480" r="10" fill="#E9C46A" opacity="0.6"/>
+</svg>

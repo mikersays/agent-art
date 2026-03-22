@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Grid: 8 columns x 8 rows, each cell 100x100 -->
+
+  <!-- Row 1 -->
+  <rect x="0"   y="0"   width="100" height="100" fill="#E63946"/>
+  <!-- cell (1,0) empty white -->
+  <rect x="200" y="0"   width="100" height="100" fill="#1D3557"/>
+  <!-- cell (3,0) circle -->
+  <circle cx="350" cy="50" r="40" fill="#F4D35E"/>
+  <!-- cell (4,0) diagonal triangle upper -->
+  <polygon points="400,0 500,0 400,100" fill="#E63946"/>
+  <polygon points="500,0 500,100 400,100" fill="#FFFFFF"/>
+  <rect x="500" y="0"   width="100" height="100" fill="#000000"/>
+  <!-- cell (6,0) empty -->
+  <rect x="700" y="0"   width="100" height="100" fill="#F4D35E"/>
+
+  <!-- Row 2 -->
+  <!-- cell (0,1) empty -->
+  <rect x="100" y="100" width="100" height="100" fill="#F4D35E"/>
+  <!-- cell (2,1) circle -->
+  <circle cx="250" cy="150" r="45" fill="#E63946"/>
+  <rect x="300" y="100" width="100" height="100" fill="#1D3557"/>
+  <!-- cell (4,1) empty -->
+  <!-- cell (5,1) diagonal -->
+  <polygon points="500,100 600,100 600,200" fill="#F4D35E"/>
+  <polygon points="500,100 500,200 600,200" fill="#000000"/>
+  <rect x="600" y="100" width="100" height="100" fill="#E63946"/>
+  <!-- cell (7,1) circle -->
+  <circle cx="750" cy="150" r="35" fill="#1D3557"/>
+
+  <!-- Row 3 -->
+  <rect x="0"   y="200" width="100" height="100" fill="#000000"/>
+  <!-- cell (1,2) circle -->
+  <circle cx="150" cy="250" r="40" fill="#F4D35E"/>
+  <!-- cell (2,2) empty -->
+  <!-- cell (3,2) diagonal -->
+  <polygon points="300,200 400,200 300,300" fill="#E63946"/>
+  <polygon points="400,200 400,300 300,300" fill="#1D3557"/>
+  <rect x="400" y="200" width="100" height="100" fill="#F4D35E"/>
+  <rect x="500" y="200" width="100" height="100" fill="#FFFFFF"/>
+  <!-- cell (6,2) circle -->
+  <circle cx="650" cy="250" r="42" fill="#E63946"/>
+  <rect x="700" y="200" width="100" height="100" fill="#1D3557"/>
+
+  <!-- Row 4 -->
+  <!-- cell (0,3) circle -->
+  <circle cx="50" cy="350" r="38" fill="#E63946"/>
+  <rect x="100" y="300" width="100" height="100" fill="#FFFFFF"/>
+  <rect x="200" y="300" width="100" height="100" fill="#F4D35E"/>
+  <!-- cell (3,3) empty -->
+  <!-- cell (4,3) diagonal -->
+  <polygon points="400,300 500,300 500,400" fill="#000000"/>
+  <polygon points="400,300 400,400 500,400" fill="#E63946"/>
+  <rect x="500" y="300" width="100" height="100" fill="#1D3557"/>
+  <!-- cell (6,3) empty -->
+  <!-- cell (7,3) circle -->
+  <circle cx="750" cy="350" r="40" fill="#F4D35E"/>
+
+  <!-- Row 5 -->
+  <rect x="0"   y="400" width="100" height="100" fill="#F4D35E"/>
+  <!-- cell (1,4) diagonal -->
+  <polygon points="100,400 200,400 100,500" fill="#1D3557"/>
+  <polygon points="200,400 200,500 100,500" fill="#F4D35E"/>
+  <!-- cell (2,4) empty -->
+  <rect x="300" y="400" width="100" height="100" fill="#E63946"/>
+  <!-- cell (4,4) circle -->
+  <circle cx="450" cy="450" r="45" fill="#1D3557"/>
+  <!-- cell (5,4) empty -->
+  <rect x="600" y="400" width="100" height="100" fill="#000000"/>
+  <rect x="700" y="400" width="100" height="100" fill="#E63946"/>
+
+  <!-- Row 6 -->
+  <!-- cell (0,5) empty -->
+  <rect x="100" y="500" width="100" height="100" fill="#1D3557"/>
+  <!-- cell (2,5) circle -->
+  <circle cx="250" cy="550" r="38" fill="#F4D35E"/>
+  <!-- cell (3,5) empty -->
+  <!-- cell (4,5) diagonal -->
+  <polygon points="400,500 500,500 400,600" fill="#F4D35E"/>
+  <polygon points="500,500 500,600 400,600" fill="#E63946"/>
+  <rect x="500" y="500" width="100" height="100" fill="#FFFFFF"/>
+  <!-- cell (6,5) circle -->
+  <circle cx="650" cy="550" r="44" fill="#1D3557"/>
+  <rect x="700" y="500" width="100" height="100" fill="#F4D35E"/>
+
+  <!-- Row 7 -->
+  <rect x="0"   y="600" width="100" height="100" fill="#E63946"/>
+  <!-- cell (1,6) circle -->
+  <circle cx="150" cy="650" r="42" fill="#000000"/>
+  <rect x="200" y="600" width="100" height="100" fill="#F4D35E"/>
+  <!-- cell (3,6) diagonal -->
+  <polygon points="300,600 400,600 400,700" fill="#1D3557"/>
+  <polygon points="300,600 300,700 400,700" fill="#E63946"/>
+  <!-- cell (4,6) empty -->
+  <rect x="500" y="600" width="100" height="100" fill="#1D3557"/>
+  <!-- cell (6,6) empty -->
+  <rect x="700" y="600" width="100" height="100" fill="#000000"/>
+
+  <!-- Row 8 -->
+  <!-- cell (0,7) circle -->
+  <circle cx="50"  cy="750" r="38" fill="#1D3557"/>
+  <rect x="100" y="700" width="100" height="100" fill="#E63946"/>
+  <!-- cell (2,7) empty -->
+  <rect x="300" y="700" width="100" height="100" fill="#F4D35E"/>
+  <!-- cell (4,7) circle -->
+  <circle cx="450" cy="750" r="40" fill="#E63946"/>
+  <!-- cell (5,7) diagonal -->
+  <polygon points="500,700 600,700 600,800" fill="#F4D35E"/>
+  <polygon points="500,700 500,800 600,800" fill="#000000"/>
+  <!-- cell (6,7) empty -->
+  <rect x="700" y="700" width="100" height="100" fill="#1D3557"/>
+
+  <!-- Grid lines overlay -->
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+</svg>

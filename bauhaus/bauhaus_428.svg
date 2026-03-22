@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- White background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Anchor points on edges (filled circles) -->
+  <!-- Top edge anchors -->
+  <circle cx="120" cy="0" r="7" fill="#000000"/>
+  <circle cx="280" cy="0" r="7" fill="#E63946"/>
+  <circle cx="460" cy="0" r="7" fill="#1D3557"/>
+  <circle cx="640" cy="0" r="7" fill="#E63946"/>
+  <circle cx="760" cy="0" r="7" fill="#000000"/>
+
+  <!-- Bottom edge anchors -->
+  <circle cx="60" cy="800" r="7" fill="#1D3557"/>
+  <circle cx="200" cy="800" r="7" fill="#E63946"/>
+  <circle cx="380" cy="800" r="7" fill="#000000"/>
+  <circle cx="560" cy="800" r="7" fill="#1D3557"/>
+  <circle cx="720" cy="800" r="7" fill="#E63946"/>
+
+  <!-- Left edge anchors -->
+  <circle cx="0" cy="100" r="7" fill="#E63946"/>
+  <circle cx="0" cy="260" r="7" fill="#000000"/>
+  <circle cx="0" cy="440" r="7" fill="#1D3557"/>
+  <circle cx="0" cy="620" r="7" fill="#E63946"/>
+  <circle cx="0" cy="750" r="7" fill="#000000"/>
+
+  <!-- Right edge anchors -->
+  <circle cx="800" cy="80" r="7" fill="#000000"/>
+  <circle cx="800" cy="240" r="7" fill="#E63946"/>
+  <circle cx="800" cy="420" r="7" fill="#1D3557"/>
+  <circle cx="800" cy="580" r="7" fill="#000000"/>
+  <circle cx="800" cy="720" r="7" fill="#E63946"/>
+
+  <!-- Tension lines: red lines -->
+  <line x1="120" y1="0" x2="60" y2="800" stroke="#E63946" stroke-width="2"/>
+  <line x1="280" y1="0" x2="560" y2="800" stroke="#E63946" stroke-width="2"/>
+  <line x1="640" y1="0" x2="200" y2="800" stroke="#E63946" stroke-width="2.5"/>
+  <line x1="640" y1="0" x2="720" y2="800" stroke="#E63946" stroke-width="1.5"/>
+  <line x1="0" y1="100" x2="800" y2="580" stroke="#E63946" stroke-width="2"/>
+  <line x1="0" y1="620" x2="800" y2="240" stroke="#E63946" stroke-width="2.5"/>
+
+  <!-- Tension lines: blue lines -->
+  <line x1="460" y1="0" x2="380" y2="800" stroke="#1D3557" stroke-width="2"/>
+  <line x1="460" y1="0" x2="60" y2="800" stroke="#1D3557" stroke-width="1.5"/>
+  <line x1="760" y1="0" x2="200" y2="800" stroke="#1D3557" stroke-width="2"/>
+  <line x1="0" y1="440" x2="800" y2="80" stroke="#1D3557" stroke-width="2"/>
+  <line x1="0" y1="260" x2="800" y2="720" stroke="#1D3557" stroke-width="2.5"/>
+  <line x1="0" y1="750" x2="800" y2="420" stroke="#1D3557" stroke-width="1.5"/>
+
+  <!-- Tension lines: black lines -->
+  <line x1="120" y1="0" x2="800" y2="420" stroke="#000000" stroke-width="1.5"/>
+  <line x1="280" y1="0" x2="0" y2="440" stroke="#000000" stroke-width="1"/>
+  <line x1="760" y1="0" x2="720" y2="800" stroke="#000000" stroke-width="2"/>
+  <line x1="0" y1="100" x2="560" y2="800" stroke="#000000" stroke-width="1.5"/>
+  <line x1="0" y1="620" x2="380" y2="800" stroke="#000000" stroke-width="2"/>
+  <line x1="0" y1="750" x2="800" y2="240" stroke="#000000" stroke-width="1"/>
+  <line x1="640" y1="0" x2="800" y2="80" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Yellow diamonds at notable intersections -->
+  <polygon points="190,200 200,215 190,230 180,215" fill="#F4D35E"/>
+  <polygon points="330,320 342,335 330,350 318,335" fill="#F4D35E"/>
+  <polygon points="510,160 522,175 510,190 498,175" fill="#F4D35E"/>
+  <polygon points="420,420 432,435 420,450 408,435" fill="#F4D35E"/>
+  <polygon points="260,510 272,525 260,540 248,525" fill="#F4D35E"/>
+  <polygon points="580,380 592,395 580,410 568,395" fill="#F4D35E"/>
+  <polygon points="150,640 162,655 150,670 138,655" fill="#F4D35E"/>
+  <polygon points="680,600 692,615 680,630 668,615" fill="#F4D35E"/>
+  <polygon points="360,700 372,715 360,730 348,715" fill="#F4D35E"/>
+  <polygon points="490,260 502,275 490,290 478,275" fill="#F4D35E"/>
+  <polygon points="70,350 82,365 70,380 58,365" fill="#F4D35E"/>
+  <polygon points="730,460 742,475 730,490 718,475" fill="#F4D35E"/>
+
+  <!-- Subtle border -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#000000" stroke-width="2"/>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background cream -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Faint blue horizontal lines suggesting water below -->
+  <line x1="0" y1="520" x2="800" y2="520" stroke="#457B9D" stroke-width="1" opacity="0.12"/>
+  <line x1="0" y1="540" x2="800" y2="540" stroke="#457B9D" stroke-width="1" opacity="0.10"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#457B9D" stroke-width="1" opacity="0.15"/>
+  <line x1="0" y1="580" x2="800" y2="580" stroke="#457B9D" stroke-width="1" opacity="0.10"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#457B9D" stroke-width="1" opacity="0.12"/>
+  <line x1="0" y1="630" x2="800" y2="630" stroke="#457B9D" stroke-width="1" opacity="0.08"/>
+  <line x1="0" y1="660" x2="800" y2="660" stroke="#457B9D" stroke-width="1" opacity="0.10"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#457B9D" stroke-width="1" opacity="0.06"/>
+  <line x1="0" y1="740" x2="800" y2="740" stroke="#457B9D" stroke-width="1" opacity="0.08"/>
+  <!-- Forest green rectangles above suggesting sky elements -->
+  <rect x="50" y="30" width="120" height="25" fill="#264653" opacity="0.5"/>
+  <rect x="300" y="60" width="80" height="18" fill="#264653" opacity="0.4"/>
+  <rect x="550" y="20" width="150" height="22" fill="#264653" opacity="0.45"/>
+  <rect x="650" y="70" width="100" height="15" fill="#264653" opacity="0.35"/>
+  <!-- Large red arch path underneath the bridge -->
+  <path d="M 100,480 A 300,200 0 0,1 700,480" fill="none" stroke="#E63946" stroke-width="10" opacity="0.8"/>
+  <!-- Yellow rectangle pillars -->
+  <rect x="120" y="300" width="60" height="200" fill="#F4D35E" opacity="0.85"/>
+  <rect x="310" y="280" width="55" height="220" fill="#F4D35E" opacity="0.8"/>
+  <rect x="440" y="280" width="55" height="220" fill="#F4D35E" opacity="0.8"/>
+  <rect x="620" y="300" width="60" height="200" fill="#F4D35E" opacity="0.85"/>
+  <!-- Bridge deck - horizontal beam -->
+  <rect x="80" y="290" width="640" height="20" fill="#000000" opacity="0.85"/>
+  <!-- Truss triangles in black -->
+  <polygon points="120,290 180,290 150,230" fill="none" stroke="#000000" stroke-width="3"/>
+  <polygon points="180,290 240,290 210,230" fill="none" stroke="#000000" stroke-width="3"/>
+  <polygon points="240,290 300,290 270,230" fill="none" stroke="#000000" stroke-width="3"/>
+  <polygon points="300,290 360,290 330,230" fill="none" stroke="#000000" stroke-width="3"/>
+  <!-- Truss triangles in steel blue -->
+  <polygon points="360,290 420,290 390,230" fill="none" stroke="#457B9D" stroke-width="3"/>
+  <polygon points="420,290 480,290 450,230" fill="none" stroke="#457B9D" stroke-width="3"/>
+  <polygon points="480,290 540,290 510,230" fill="none" stroke="#457B9D" stroke-width="3"/>
+  <polygon points="540,290 600,290 570,230" fill="none" stroke="#457B9D" stroke-width="3"/>
+  <polygon points="600,290 660,290 630,230" fill="none" stroke="#457B9D" stroke-width="3"/>
+  <!-- Top chord of truss -->
+  <line x1="120" y1="230" x2="660" y2="230" stroke="#000000" stroke-width="2.5"/>
+  <!-- Small teal shapes below bridge -->
+  <circle cx="200" cy="560" r="12" fill="#2A9D8F" opacity="0.6"/>
+  <circle cx="450" cy="580" r="10" fill="#2A9D8F" opacity="0.5"/>
+  <circle cx="600" cy="550" r="14" fill="#2A9D8F" opacity="0.55"/>
+  <rect x="300" y="600" width="20" height="20" fill="#2A9D8F" opacity="0.4"/>
+  <!-- Small coral shapes below -->
+  <circle cx="350" cy="640" r="8" fill="#E9C46A" opacity="0.6"/>
+  <circle cx="500" cy="660" r="10" fill="#E9C46A" opacity="0.5"/>
+  <rect x="150" y="650" width="18" height="18" fill="#E9C46A" opacity="0.55"/>
+  <polygon points="650,620 670,660 630,660" fill="#E9C46A" opacity="0.5"/>
+  <!-- Vertical supports from deck down -->
+  <line x1="150" y1="310" x2="150" y2="480" stroke="#000000" stroke-width="2" opacity="0.6"/>
+  <line x1="340" y1="310" x2="340" y2="460" stroke="#000000" stroke-width="2" opacity="0.6"/>
+  <line x1="470" y1="310" x2="470" y2="460" stroke="#000000" stroke-width="2" opacity="0.6"/>
+  <line x1="650" y1="310" x2="650" y2="480" stroke="#000000" stroke-width="2" opacity="0.6"/>
+  <!-- Corner accents -->
+  <circle cx="30" cy="770" r="10" fill="#000000" opacity="0.3"/>
+  <circle cx="770" cy="770" r="10" fill="#000000" opacity="0.3"/>
+</svg>

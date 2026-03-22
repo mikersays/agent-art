@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+  <!-- Explosion origin point area (upper-left quadrant ~250, 220) -->
+  <!-- Central burst - warm colors near center -->
+  <circle cx="250" cy="220" r="18" fill="#E63946" opacity="0.9"/>
+  <circle cx="250" cy="220" r="35" fill="#F4D35E" opacity="0.3"/>
+  <circle cx="250" cy="220" r="55" fill="#E76F51" opacity="0.15"/>
+  <!-- Radiating black lines as rays -->
+  <line x1="250" y1="220" x2="50" y2="30" stroke="#000000" stroke-width="2" opacity="0.6"/>
+  <line x1="250" y1="220" x2="150" y2="10" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <line x1="250" y1="220" x2="350" y2="10" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <line x1="250" y1="220" x2="550" y2="50" stroke="#000000" stroke-width="2" opacity="0.55"/>
+  <line x1="250" y1="220" x2="750" y2="100" stroke="#000000" stroke-width="1.5" opacity="0.45"/>
+  <line x1="250" y1="220" x2="780" y2="250" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="250" y1="220" x2="780" y2="450" stroke="#000000" stroke-width="1.5" opacity="0.45"/>
+  <line x1="250" y1="220" x2="700" y2="650" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="250" y1="220" x2="500" y2="780" stroke="#000000" stroke-width="1.5" opacity="0.45"/>
+  <line x1="250" y1="220" x2="250" y2="780" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <line x1="250" y1="220" x2="50" y2="600" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <line x1="250" y1="220" x2="10" y2="350" stroke="#000000" stroke-width="1.5" opacity="0.45"/>
+  <!-- Red/Yellow shapes near center -->
+  <polygon points="280,180 310,200 295,230" fill="#E63946" opacity="0.8"/>
+  <rect x="200" y="250" width="30" height="20" fill="#F4D35E" opacity="0.8" transform="rotate(-25,215,260)"/>
+  <polygon points="220,170 240,150 260,175" fill="#E76F51" opacity="0.75"/>
+  <rect x="270" y="240" width="25" height="18" fill="#E63946" opacity="0.7" transform="rotate(15,282,249)"/>
+  <circle cx="210" cy="200" r="12" fill="#F4D35E" opacity="0.7"/>
+  <!-- Mid-distance shapes - transitioning to blue/teal -->
+  <polygon points="420,120 450,100 460,140" fill="#1D3557" opacity="0.7"/>
+  <rect x="500" y="180" width="40" height="25" fill="#457B9D" opacity="0.65" transform="rotate(20,520,192)"/>
+  <polygon points="380,350 420,330 430,370" fill="#2A9D8F" opacity="0.7"/>
+  <circle cx="550" cy="300" r="20" fill="#1D3557" opacity="0.6"/>
+  <rect x="450" y="420" width="35" height="22" fill="#2A9D8F" opacity="0.6" transform="rotate(35,467,431)"/>
+  <polygon points="600,200 640,180 630,230" fill="#1D3557" opacity="0.55"/>
+  <circle cx="350" cy="500" r="18" fill="#457B9D" opacity="0.55"/>
+  <rect x="300" y="600" width="30" height="20" fill="#2A9D8F" opacity="0.5" transform="rotate(-15,315,610)"/>
+  <!-- Far distance shapes -->
+  <polygon points="680,350 720,330 710,380" fill="#1D3557" opacity="0.45"/>
+  <circle cx="650" cy="500" r="22" fill="#264653" opacity="0.5"/>
+  <rect x="550" y="600" width="35" height="25" fill="#1D3557" opacity="0.45" transform="rotate(40,567,612)"/>
+  <polygon points="150,550 180,530 185,570" fill="#2A9D8F" opacity="0.5"/>
+  <circle cx="100" cy="450" r="15" fill="#264653" opacity="0.45"/>
+  <rect x="430" y="680" width="30" height="20" fill="#457B9D" opacity="0.4" transform="rotate(-30,445,690)"/>
+  <polygon points="700,550 730,570 690,580" fill="#2A9D8F" opacity="0.4"/>
+  <!-- Small accent shapes scattered outward -->
+  <circle cx="80" cy="100" r="8" fill="#E63946" opacity="0.5"/>
+  <circle cx="500" cy="60" r="10" fill="#F4D35E" opacity="0.55"/>
+  <circle cx="720" cy="180" r="9" fill="#2A9D8F" opacity="0.4"/>
+  <circle cx="750" cy="400" r="11" fill="#1D3557" opacity="0.4"/>
+  <circle cx="600" cy="720" r="10" fill="#264653" opacity="0.35"/>
+  <circle cx="180" cy="700" r="9" fill="#457B9D" opacity="0.35"/>
+  <circle cx="50" cy="500" r="8" fill="#2A9D8F" opacity="0.4"/>
+  <!-- Rectangular debris -->
+  <rect x="130" y="60" width="20" height="10" fill="#F4D35E" opacity="0.6" transform="rotate(30,140,65)"/>
+  <rect x="620" y="130" width="22" height="12" fill="#E63946" opacity="0.45" transform="rotate(-20,631,136)"/>
+  <rect x="680" y="620" width="20" height="12" fill="#A89F91" opacity="0.35" transform="rotate(50,690,626)"/>
+  <rect x="100" y="650" width="18" height="10" fill="#A89F91" opacity="0.3" transform="rotate(-40,109,655)"/>
+  <!-- Corner accents -->
+  <rect x="5" y="5" width="10" height="10" fill="#E63946" opacity="0.5"/>
+  <rect x="785" y="5" width="10" height="10" fill="#1D3557" opacity="0.4"/>
+  <rect x="5" y="785" width="10" height="10" fill="#F4D35E" opacity="0.35"/>
+  <rect x="785" y="785" width="10" height="10" fill="#264653" opacity="0.35"/>
+</svg>

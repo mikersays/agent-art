@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Cream background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Main scaffold - vertical lines -->
+  <line x1="150" y1="50" x2="150" y2="750" stroke="#000000" stroke-width="2.5"/>
+  <line x1="300" y1="80" x2="300" y2="720" stroke="#000000" stroke-width="2.5"/>
+  <line x1="450" y1="30" x2="450" y2="770" stroke="#000000" stroke-width="2.5"/>
+  <line x1="600" y1="100" x2="600" y2="700" stroke="#000000" stroke-width="2.5"/>
+  <line x1="700" y1="150" x2="700" y2="650" stroke="#000000" stroke-width="2"/>
+
+  <!-- Main scaffold - horizontal lines -->
+  <line x1="100" y1="150" x2="750" y2="150" stroke="#000000" stroke-width="2.5"/>
+  <line x1="80" y1="300" x2="720" y2="300" stroke="#000000" stroke-width="2.5"/>
+  <line x1="120" y1="450" x2="740" y2="450" stroke="#000000" stroke-width="2.5"/>
+  <line x1="100" y1="580" x2="700" y2="580" stroke="#000000" stroke-width="2"/>
+  <line x1="150" y1="680" x2="650" y2="680" stroke="#000000" stroke-width="2"/>
+
+  <!-- Diagonal bracing lines -->
+  <line x1="150" y1="150" x2="300" y2="300" stroke="#000000" stroke-width="1" opacity="0.4"/>
+  <line x1="450" y1="300" x2="600" y2="450" stroke="#000000" stroke-width="1" opacity="0.4"/>
+  <line x1="300" y1="450" x2="450" y2="580" stroke="#000000" stroke-width="1" opacity="0.4"/>
+  <line x1="600" y1="150" x2="700" y2="300" stroke="#000000" stroke-width="1" opacity="0.4"/>
+
+  <!-- Platform rectangles at nodes -->
+  <!-- Red platforms -->
+  <rect x="130" y="130" width="40" height="40" fill="#E63946" opacity="0.9"/>
+  <rect x="430" y="430" width="45" height="40" fill="#E63946" opacity="0.85"/>
+  <rect x="580" y="560" width="40" height="40" fill="#E63946" opacity="0.8"/>
+
+  <!-- Yellow platforms -->
+  <rect x="280" y="280" width="45" height="40" fill="#F4D35E" opacity="0.9"/>
+  <rect x="580" y="130" width="40" height="40" fill="#F4D35E" opacity="0.85"/>
+  <rect x="130" y="560" width="50" height="40" fill="#F4D35E" opacity="0.8"/>
+  <rect x="430" y="660" width="40" height="40" fill="#F4D35E" opacity="0.75"/>
+
+  <!-- Blue platforms -->
+  <rect x="430" y="130" width="40" height="45" fill="#1D3557" opacity="0.9"/>
+  <rect x="280" y="430" width="40" height="45" fill="#1D3557" opacity="0.85"/>
+  <rect x="680" y="280" width="40" height="40" fill="#1D3557" opacity="0.8"/>
+  <rect x="130" y="280" width="45" height="40" fill="#1D3557" opacity="0.75"/>
+
+  <!-- Joint circles at intersections -->
+  <circle cx="150" cy="150" r="6" fill="#000000"/>
+  <circle cx="300" cy="150" r="5" fill="#000000"/>
+  <circle cx="450" cy="150" r="6" fill="#000000"/>
+  <circle cx="600" cy="150" r="5" fill="#000000"/>
+  <circle cx="700" cy="150" r="4" fill="#A89F91"/>
+  <circle cx="150" cy="300" r="6" fill="#000000"/>
+  <circle cx="300" cy="300" r="6" fill="#000000"/>
+  <circle cx="450" cy="300" r="5" fill="#000000"/>
+  <circle cx="600" cy="300" r="6" fill="#000000"/>
+  <circle cx="700" cy="300" r="5" fill="#000000"/>
+  <circle cx="150" cy="450" r="5" fill="#000000"/>
+  <circle cx="300" cy="450" r="6" fill="#000000"/>
+  <circle cx="450" cy="450" r="6" fill="#000000"/>
+  <circle cx="600" cy="450" r="5" fill="#000000"/>
+  <circle cx="150" cy="580" r="5" fill="#A89F91"/>
+  <circle cx="300" cy="580" r="5" fill="#000000"/>
+  <circle cx="450" cy="580" r="5" fill="#000000"/>
+  <circle cx="600" cy="580" r="5" fill="#A89F91"/>
+  <circle cx="300" cy="680" r="4" fill="#000000"/>
+  <circle cx="450" cy="680" r="5" fill="#000000"/>
+
+  <!-- Small accent shapes -->
+  <rect x="670" y="430" width="20" height="20" fill="#E76F51" opacity="0.6" transform="rotate(45 680 440)"/>
+  <rect x="200" y="660" width="18" height="18" fill="#2A9D8F" opacity="0.5" transform="rotate(30 209 669)"/>
+  <circle cx="550" cy="520" r="8" fill="#E9C46A" opacity="0.5"/>
+  <circle cx="220" cy="200" r="7" fill="#A8DADC" opacity="0.4"/>
+
+  <!-- Corner accents -->
+  <rect x="30" y="30" width="15" height="15" fill="#000000" opacity="0.15"/>
+  <rect x="755" y="30" width="15" height="15" fill="#000000" opacity="0.15"/>
+  <rect x="30" y="755" width="15" height="15" fill="#000000" opacity="0.15"/>
+  <rect x="755" y="755" width="15" height="15" fill="#000000" opacity="0.15"/>
+</svg>

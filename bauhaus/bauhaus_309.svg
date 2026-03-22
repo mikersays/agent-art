@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Thin steel-blue lines extending from center outward at 45-degree angles -->
+  <line x1="400" y1="400" x2="800" y2="0" stroke="#457B9D" stroke-width="1.5" opacity="0.5"/>
+  <line x1="400" y1="400" x2="800" y2="800" stroke="#457B9D" stroke-width="1.5" opacity="0.5"/>
+  <line x1="400" y1="400" x2="0" y2="800" stroke="#457B9D" stroke-width="1.5" opacity="0.5"/>
+  <line x1="400" y1="400" x2="0" y2="0" stroke="#457B9D" stroke-width="1.5" opacity="0.5"/>
+  <line x1="400" y1="400" x2="400" y2="0" stroke="#457B9D" stroke-width="1" opacity="0.35"/>
+  <line x1="400" y1="400" x2="800" y2="400" stroke="#457B9D" stroke-width="1" opacity="0.35"/>
+  <line x1="400" y1="400" x2="400" y2="800" stroke="#457B9D" stroke-width="1" opacity="0.35"/>
+  <line x1="400" y1="400" x2="0" y2="400" stroke="#457B9D" stroke-width="1" opacity="0.35"/>
+
+  <!-- Four large triangular pinwheel blades around center -->
+  <!-- Top blade (red) -->
+  <polygon points="400,400 340,120 400,100" fill="#E63946" opacity="0.8"/>
+  <polygon points="400,400 460,120 400,100" fill="#E63946" opacity="0.65"/>
+
+  <!-- Right blade (blue) -->
+  <polygon points="400,400 680,340 700,400" fill="#1D3557" opacity="0.8"/>
+  <polygon points="400,400 680,460 700,400" fill="#1D3557" opacity="0.65"/>
+
+  <!-- Bottom blade (yellow) -->
+  <polygon points="400,400 460,680 400,700" fill="#F4D35E" opacity="0.8"/>
+  <polygon points="400,400 340,680 400,700" fill="#F4D35E" opacity="0.65"/>
+
+  <!-- Left blade (black) -->
+  <polygon points="400,400 120,460 100,400" fill="#000000" opacity="0.75"/>
+  <polygon points="400,400 120,340 100,400" fill="#000000" opacity="0.6"/>
+
+  <!-- Gap fills: teal diamonds -->
+  <polygon points="320,200 350,230 320,260 290,230" fill="#2A9D8F" opacity="0.7"/>
+  <polygon points="560,320 590,350 560,380 530,350" fill="#2A9D8F" opacity="0.7"/>
+  <polygon points="480,560 510,590 480,620 450,590" fill="#2A9D8F" opacity="0.7"/>
+  <polygon points="200,480 230,510 200,540 170,510" fill="#2A9D8F" opacity="0.7"/>
+
+  <!-- Gap fills: orange circles -->
+  <circle cx="500" cy="200" r="12" fill="#E76F51" opacity="0.8"/>
+  <circle cx="600" cy="500" r="12" fill="#E76F51" opacity="0.8"/>
+  <circle cx="300" cy="600" r="12" fill="#E76F51" opacity="0.8"/>
+  <circle cx="200" cy="300" r="12" fill="#E76F51" opacity="0.8"/>
+
+  <!-- Gap fills: coral squares -->
+  <rect x="470" y="150" width="16" height="16" fill="#E9C46A" opacity="0.75"/>
+  <rect x="620" y="470" width="16" height="16" fill="#E9C46A" opacity="0.75"/>
+  <rect x="310" y="620" width="16" height="16" fill="#E9C46A" opacity="0.75"/>
+  <rect x="150" y="310" width="16" height="16" fill="#E9C46A" opacity="0.75"/>
+
+  <!-- Forest rectangles at each canvas edge midpoint -->
+  <rect x="380" y="0" width="40" height="20" fill="#264653" opacity="0.8"/>
+  <rect x="780" y="380" width="20" height="40" fill="#264653" opacity="0.8"/>
+  <rect x="380" y="780" width="40" height="20" fill="#264653" opacity="0.8"/>
+  <rect x="0" y="380" width="20" height="40" fill="#264653" opacity="0.8"/>
+
+  <!-- Cream circle at exact center -->
+  <circle cx="400" cy="400" r="40" fill="#FEFAE0" stroke="#000000" stroke-width="2" opacity="0.95"/>
+  <circle cx="400" cy="400" r="25" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="400" cy="400" r="8" fill="#000000" opacity="0.9"/>

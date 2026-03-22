@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Background grid lines -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Shadow: large red rectangle (offset +15,+15) -->
+  <rect x="115" y="115" width="220" height="220" fill="#000000" opacity="0.3"/>
+  <!-- Main: large red rectangle -->
+  <rect x="100" y="100" width="220" height="220" fill="#E63946"/>
+
+  <!-- Shadow: circle teal (offset +15,+15) -->
+  <circle cx="595" cy="265" r="90" fill="#1D3557" opacity="0.3"/>
+  <!-- Main: circle teal -->
+  <circle cx="580" cy="250" r="90" fill="#2A9D8F"/>
+
+  <!-- Shadow: yellow rect (offset +15,+15) -->
+  <rect x="165" y="495" width="160" height="160" fill="#000000" opacity="0.3"/>
+  <!-- Main: yellow rect -->
+  <rect x="150" y="480" width="160" height="160" fill="#F4D35E"/>
+
+  <!-- Shadow: red circle medium (offset +15,+15) -->
+  <circle cx="495" cy="515" r="70" fill="#1D3557" opacity="0.3"/>
+  <!-- Main: red circle medium -->
+  <circle cx="480" cy="500" r="70" fill="#E63946"/>
+
+  <!-- Shadow: teal small rect (offset +15,+15) -->
+  <rect x="355" y="155" width="100" height="100" fill="#000000" opacity="0.3"/>
+  <!-- Main: teal small rect -->
+  <rect x="340" y="140" width="100" height="100" fill="#2A9D8F"/>
+
+  <!-- Shadow: yellow triangle polygon (offset +15,+15) -->
+  <polygon points="665,465 755,645 575,645" fill="#1D3557" opacity="0.3"/>
+  <!-- Main: yellow triangle polygon -->
+  <polygon points="650,450 740,630 560,630" fill="#F4D35E"/>
+
+  <!-- Shadow: small red square (offset +15,+15) -->
+  <rect x="365" y="365" width="60" height="60" fill="#000000" opacity="0.3"/>
+  <!-- Main: small red square -->
+  <rect x="350" y="350" width="60" height="60" fill="#E63946"/>
+
+  <!-- Shadow: small teal circle (offset +15,+15) -->
+  <circle cx="285" cy="385" r="35" fill="#1D3557" opacity="0.3"/>
+  <!-- Main: small teal circle -->
+  <circle cx="270" cy="370" r="35" fill="#2A9D8F"/>
+
+  <!-- Shadow: orange rect bottom-left (offset +15,+15) -->
+  <rect x="65" y="685" width="80" height="80" fill="#000000" opacity="0.3"/>
+  <!-- Main: orange rect bottom-left -->
+  <rect x="50" y="670" width="80" height="80" fill="#E76F51"/>
+
+  <!-- Shadow: small yellow circle top-right (offset +15,+15) -->
+  <circle cx="745" cy="95" r="40" fill="#000000" opacity="0.3"/>
+  <!-- Main: small yellow circle top-right -->
+  <circle cx="730" cy="80" r="40" fill="#F4D35E"/>
+
+  <!-- Structural accent lines -->
+  <line x1="100" y1="320" x2="580" y2="160" stroke="#1D3557" stroke-width="2" opacity="0.5"/>
+  <line x1="310" y1="100" x2="480" y2="570" stroke="#E63946" stroke-width="1.5" opacity="0.4"/>
+  <line x1="150" y1="640" x2="650" y2="450" stroke="#000000" stroke-width="1" opacity="0.3"/>
+</svg>

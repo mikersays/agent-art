@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- White background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+  <!-- Black structural lines at canvas edges -->
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#000000" stroke-width="3"/>
+  <line x1="0" y1="800" x2="800" y2="800" stroke="#000000" stroke-width="3"/>
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#000000" stroke-width="3"/>
+  <line x1="800" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="3"/>
+  <!-- Large blue rectangles - tonal base -->
+  <rect x="50" y="80" width="300" height="200" fill="#1D3557" opacity="0.3"/>
+  <rect x="400" y="50" width="350" height="150" fill="#264653" opacity="0.25"/>
+  <rect x="100" y="350" width="250" height="300" fill="#457B9D" opacity="0.35"/>
+  <rect x="500" y="300" width="250" height="250" fill="#1D3557" opacity="0.2"/>
+  <rect x="200" y="600" width="400" height="150" fill="#264653" opacity="0.3"/>
+  <!-- Blue circles - tonal layering -->
+  <circle cx="200" cy="200" r="120" fill="#457B9D" opacity="0.25"/>
+  <circle cx="600" cy="400" r="100" fill="#A8DADC" opacity="0.3"/>
+  <circle cx="400" cy="500" r="80" fill="#1D3557" opacity="0.2"/>
+  <circle cx="150" cy="600" r="60" fill="#A8DADC" opacity="0.35"/>
+  <circle cx="700" cy="150" r="70" fill="#457B9D" opacity="0.2"/>
+  <circle cx="500" cy="650" r="90" fill="#264653" opacity="0.25"/>
+  <!-- Smaller blue shapes for depth -->
+  <rect x="300" y="200" width="80" height="120" fill="#A8DADC" opacity="0.4"/>
+  <rect x="600" y="550" width="100" height="60" fill="#457B9D" opacity="0.35"/>
+  <circle cx="350" cy="400" r="40" fill="#264653" opacity="0.3"/>
+  <rect x="50" y="500" width="70" height="100" fill="#1D3557" opacity="0.4"/>
+  <circle cx="650" cy="250" r="35" fill="#A8DADC" opacity="0.4"/>
+  <!-- Forest rectangles -->
+  <rect x="450" y="200" width="60" height="180" fill="#264653" opacity="0.5"/>
+  <rect x="250" y="100" width="40" height="80" fill="#264653" opacity="0.45"/>
+  <!-- THE bold red circle - eye-catcher -->
+  <circle cx="380" cy="350" r="50" fill="#E63946" opacity="0.9"/>
+  <!-- Yellow accent lines -->
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#F4D35E" stroke-width="2" opacity="0.7"/>
+  <line x1="300" y1="100" x2="300" y2="700" stroke="#F4D35E" stroke-width="1.5" opacity="0.5"/>
+  <line x1="550" y1="150" x2="550" y2="600" stroke="#F4D35E" stroke-width="1" opacity="0.4"/>
+  <!-- Orange triangles -->
+  <polygon points="680,500 660,540 700,540" fill="#E76F51" opacity="0.8"/>
+  <polygon points="120,150 100,185 140,185" fill="#E76F51" opacity="0.75"/>
+  <polygon points="500,100 485,130 515,130" fill="#E76F51" opacity="0.7"/>
+  <!-- Cream/white contrast shapes -->
+  <rect x="350" y="550" width="50" height="50" fill="#FEFAE0" opacity="0.8"/>
+  <circle cx="200" cy="450" r="20" fill="#FFFFFF" opacity="0.7"/>
+  <rect x="600" y="400" width="30" height="30" fill="#FEFAE0" opacity="0.6"/>
+  <!-- Additional blue detail shapes -->
+  <circle cx="500" cy="500" r="15" fill="#1D3557" opacity="0.6"/>
+  <rect x="150" y="350" width="25" height="60" fill="#457B9D" opacity="0.5"/>
+  <circle cx="700" cy="700" r="25" fill="#A8DADC" opacity="0.5"/>
+  <rect x="50" y="700" width="80" height="40" fill="#264653" opacity="0.4"/>
+</svg>

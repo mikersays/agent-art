@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Sky background -->
+  <rect x="0" y="0" width="800" height="450" fill="#A8DADC" opacity="0.4"/>
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <rect x="0" y="0" width="800" height="380" fill="#457B9D" opacity="0.15"/>
+  <!-- Ground line -->
+  <line x1="0" y1="620" x2="800" y2="620" stroke="#000000" stroke-width="2.5"/>
+  <!-- Ground patches -->
+  <rect x="30" y="620" width="120" height="60" fill="#2A9D8F" opacity="0.5"/>
+  <rect x="200" y="620" width="80" height="45" fill="#264653" opacity="0.4"/>
+  <rect x="350" y="620" width="140" height="55" fill="#2A9D8F" opacity="0.35"/>
+  <rect x="550" y="620" width="90" height="50" fill="#264653" opacity="0.45"/>
+  <rect x="700" y="620" width="70" height="40" fill="#2A9D8F" opacity="0.4"/>
+  <!-- Stem 1 + flower (red circle) -->
+  <line x1="90" y1="620" x2="90" y2="350" stroke="#264653" stroke-width="3"/>
+  <circle cx="90" cy="330" r="35" fill="#E63946" opacity="0.85"/>
+  <circle cx="90" cy="330" r="15" fill="#F4D35E" opacity="0.9"/>
+  <!-- Stem 2 + flower (yellow triangle) -->
+  <line x1="200" y1="620" x2="200" y2="280" stroke="#264653" stroke-width="2.5"/>
+  <polygon points="200,240 175,300 225,300" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="200" cy="280" r="8" fill="#E76F51"/>
+  <!-- Stem 3 + flower (orange circles cluster) -->
+  <line x1="320" y1="620" x2="320" y2="310" stroke="#264653" stroke-width="2"/>
+  <circle cx="310" cy="300" r="20" fill="#E76F51" opacity="0.8"/>
+  <circle cx="335" cy="290" r="18" fill="#E9C46A" opacity="0.75"/>
+  <circle cx="320" cy="275" r="15" fill="#E63946" opacity="0.7"/>
+  <!-- Stem 4 + flower (coral large) -->
+  <line x1="450" y1="620" x2="450" y2="260" stroke="#264653" stroke-width="3"/>
+  <circle cx="450" cy="240" r="40" fill="#E9C46A" opacity="0.8"/>
+  <circle cx="450" cy="240" r="20" fill="#E63946" opacity="0.6"/>
+  <circle cx="450" cy="240" r="8" fill="#F4D35E"/>
+  <!-- Stem 5 + flower (red triangle) -->
+  <line x1="570" y1="620" x2="570" y2="340" stroke="#264653" stroke-width="2"/>
+  <polygon points="570,300 548,360 592,360" fill="#E63946" opacity="0.85"/>
+  <!-- Stem 6 + flower (small yellow) -->
+  <line x1="660" y1="620" x2="660" y2="380" stroke="#264653" stroke-width="2"/>
+  <circle cx="660" cy="365" r="22" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="660" cy="365" r="9" fill="#E76F51"/>
+  <!-- Stem 7 + tiny bud -->
+  <line x1="740" y1="620" x2="740" y2="420" stroke="#264653" stroke-width="1.5"/>
+  <circle cx="740" cy="410" r="12" fill="#E76F51" opacity="0.7"/>
+  <!-- Butterfly 1 -->
+  <polygon points="160,200 145,180 145,220" fill="#1D3557" opacity="0.6"/>
+  <polygon points="160,200 175,180 175,220" fill="#E63946" opacity="0.6"/>
+  <circle cx="160" cy="200" r="3" fill="#000000"/>
+  <!-- Butterfly 2 -->
+  <polygon points="520,160 505,140 505,180" fill="#F4D35E" opacity="0.5"/>
+  <polygon points="520,160 535,140 535,180" fill="#1D3557" opacity="0.5"/>
+  <circle cx="520" cy="160" r="3" fill="#000000"/>
+  <!-- Butterfly 3 -->
+  <polygon points="380,130 368,115 368,145" fill="#2A9D8F" opacity="0.5"/>
+  <polygon points="380,130 392,115 392,145" fill="#E9C46A" opacity="0.5"/>
+  <circle cx="380" cy="130" r="2.5" fill="#000000"/>
+  <!-- Sun element -->
+  <circle cx="700" cy="80" r="45" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="700" cy="80" r="25" fill="#F4D35E" opacity="0.8"/>
+  <!-- Leaf accents -->
+  <ellipse cx="80" cy="480" rx="12" ry="5" fill="#2A9D8F" opacity="0.6" transform="rotate(-30 80 480)"/>
+  <ellipse cx="460" cy="450" rx="14" ry="5" fill="#264653" opacity="0.5" transform="rotate(25 460 450)"/>
+  <ellipse cx="325" cy="470" rx="10" ry="4" fill="#2A9D8F" opacity="0.5" transform="rotate(-20 325 470)"/>
+  <!-- Underground roots (subtle) -->
+  <line x1="90" y1="620" x2="60" y2="700" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
+  <line x1="90" y1="620" x2="120" y2="710" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
+  <line x1="450" y1="620" x2="420" y2="720" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
+  <line x1="450" y1="620" x2="480" y2="690" stroke="#A89F91" stroke-width="1" opacity="0.3"/>
+</svg>

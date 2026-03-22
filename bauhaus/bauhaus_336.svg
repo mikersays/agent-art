@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Forest rectangle band at left edge -->
+  <rect x="0" y="0" width="60" height="800" fill="#264653" opacity="0.85"/>
+  <!-- Warm gray circular arcs at low opacity -->
+  <path d="M 200 400 A 180 180 0 0 1 560 400" fill="none" stroke="#A89F91" stroke-width="2" opacity="0.12"/>
+  <path d="M 150 500 A 250 250 0 0 1 650 500" fill="none" stroke="#A89F91" stroke-width="1.5" opacity="0.1"/>
+  <path d="M 300 200 A 120 120 0 0 0 300 440" fill="none" stroke="#A89F91" stroke-width="2" opacity="0.15"/>
+  <path d="M 500 100 A 200 200 0 0 1 700 300" fill="none" stroke="#A89F91" stroke-width="1.5" opacity="0.08"/>
+  <path d="M 100 600 A 300 300 0 0 1 700 600" fill="none" stroke="#A89F91" stroke-width="2" opacity="0.1"/>
+  <!-- Crescent 1: Large red crescent, top-left area -->
+  <circle cx="220" cy="200" r="110" fill="#E63946"/>
+  <circle cx="260" cy="180" r="110" fill="#FEFAE0"/>
+  <!-- Crescent 2: Blue crescent, center-right -->
+  <circle cx="550" cy="350" r="95" fill="#1D3557"/>
+  <circle cx="585" cy="330" r="95" fill="#FEFAE0"/>
+  <!-- Crescent 3: Yellow crescent, bottom-center -->
+  <circle cx="370" cy="580" r="120" fill="#F4D35E"/>
+  <circle cx="420" cy="560" r="120" fill="#FEFAE0"/>
+  <!-- Crescent 4: Teal crescent, top-right -->
+  <circle cx="620" cy="150" r="70" fill="#2A9D8F"/>
+  <circle cx="650" cy="130" r="70" fill="#FEFAE0"/>
+  <!-- Crescent 5: Small red crescent, bottom-right -->
+  <circle cx="650" cy="620" r="50" fill="#E63946"/>
+  <circle cx="675" cy="605" r="50" fill="#FEFAE0"/>
+  <!-- Crescent 6: Small blue crescent, left-center -->
+  <circle cx="150" cy="480" r="45" fill="#1D3557"/>
+  <circle cx="170" cy="465" r="45" fill="#FEFAE0"/>
+  <!-- Crescent 7: Tiny yellow crescent, upper-center -->
+  <circle cx="400" cy="130" r="40" fill="#F4D35E"/>
+  <circle cx="425" cy="115" r="40" fill="#FEFAE0"/>
+  <!-- Thin orange lines connecting crescent tips -->
+  <line x1="175" y1="120" x2="590" y2="100" stroke="#E76F51" stroke-width="1.5" opacity="0.7"/>
+  <line x1="260" y1="290" x2="510" y2="310" stroke="#E76F51" stroke-width="1.5" opacity="0.7"/>
+  <line x1="490" y1="420" x2="320" y2="510" stroke="#E76F51" stroke-width="1.5" opacity="0.6"/>
+  <line x1="370" y1="680" x2="620" y2="650" stroke="#E76F51" stroke-width="1.5" opacity="0.7"/>
+  <line x1="150" y1="450" x2="370" y2="470" stroke="#E76F51" stroke-width="1" opacity="0.5"/>
+  <line x1="620" y1="200" x2="550" y2="280" stroke="#E76F51" stroke-width="1" opacity="0.6"/>
+  <!-- Scattered small black squares as texture -->
+  <rect x="300" y="150" width="8" height="8" fill="#000000"/>
+  <rect x="480" y="220" width="6" height="6" fill="#000000"/>
+  <rect x="130" y="340" width="7" height="7" fill="#000000"/>
+  <rect x="700" y="400" width="9" height="9" fill="#000000"/>
+  <rect x="350" y="430" width="5" height="5" fill="#000000"/>
+  <rect x="520" y="550" width="8" height="8" fill="#000000"/>
+  <rect x="200" y="650" width="7" height="7" fill="#000000"/>
+  <rect x="450" y="700" width="6" height="6" fill="#000000"/>
+  <rect x="680" y="280" width="5" height="5" fill="#000000"/>
+  <rect x="100" y="150" width="6" height="6" fill="#000000"/>
+  <rect x="580" y="500" width="7" height="7" fill="#000000"/>
+  <rect x="250" y="520" width="5" height="5" fill="#000000"/>
+  <rect x="720" y="550" width="8" height="8" fill="#000000"/>
+  <rect x="400" y="320" width="6" height="6" fill="#000000"/>
+</svg>

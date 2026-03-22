@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Subtle background grid -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.04"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.04"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.04"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.04"/>
+  <!-- Large main circle -->
+  <circle cx="400" cy="400" r="250" fill="none" stroke="#000000" stroke-width="3" opacity="0.9"/>
+  <!-- Geometric pie-like segments inside the circle -->
+  <!-- Red segment - top right -->
+  <path d="M400,400 L400,150 A250,250 0 0,1 620,280 Z" fill="#E63946" opacity="0.75"/>
+  <!-- Blue segment - right -->
+  <path d="M400,400 L620,280 A250,250 0 0,1 650,400 Z" fill="#1D3557" opacity="0.8"/>
+  <!-- Yellow segment - bottom right -->
+  <path d="M400,400 L650,400 A250,250 0 0,1 540,590 Z" fill="#F4D35E" opacity="0.7"/>
+  <!-- Teal segment - bottom -->
+  <path d="M400,400 L540,590 A250,250 0 0,1 260,590 Z" fill="#2A9D8F" opacity="0.6"/>
+  <!-- Orange accent segment - bottom left -->
+  <path d="M400,400 L260,590 A250,250 0 0,1 150,400 Z" fill="#E76F51" opacity="0.55"/>
+  <!-- Steel Blue segment - left -->
+  <path d="M400,400 L150,400 A250,250 0 0,1 180,280 Z" fill="#457B9D" opacity="0.65"/>
+  <!-- Dark segment - top left -->
+  <path d="M400,400 L180,280 A250,250 0 0,1 400,150 Z" fill="#264653" opacity="0.7"/>
+  <!-- Internal structural lines -->
+  <line x1="400" y1="150" x2="400" y2="650" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="150" y1="400" x2="650" y2="400" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <line x1="220" y1="220" x2="580" y2="580" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="580" y1="220" x2="220" y2="580" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <!-- Inner concentric circle -->
+  <circle cx="400" cy="400" r="120" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="400" cy="400" r="50" fill="#000000" opacity="0.15"/>
+  <!-- Small circles at the perimeter -->
+  <circle cx="400" cy="150" r="10" fill="#E63946" opacity="0.8"/>
+  <circle cx="620" cy="280" r="10" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="650" cy="400" r="10" fill="#1D3557" opacity="0.8"/>
+  <circle cx="540" cy="590" r="10" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="260" cy="590" r="10" fill="#E76F51" opacity="0.8"/>
+  <circle cx="150" cy="400" r="10" fill="#457B9D" opacity="0.8"/>
+  <circle cx="180" cy="280" r="10" fill="#264653" opacity="0.8"/>
+  <!-- Radiating rectangles from circle -->
+  <rect x="390" y="80" width="20" height="60" fill="#E63946" opacity="0.6"/>
+  <rect x="660" y="390" width="60" height="20" fill="#1D3557" opacity="0.6"/>
+  <rect x="390" y="660" width="20" height="60" fill="#F4D35E" opacity="0.6"/>
+  <rect x="80" y="390" width="60" height="20" fill="#2A9D8F" opacity="0.6"/>
+  <rect x="610" y="195" width="50" height="16" fill="#E76F51" opacity="0.5" transform="rotate(-35, 635, 203)"/>
+  <rect x="590" y="570" width="50" height="16" fill="#F4D35E" opacity="0.5" transform="rotate(35, 615, 578)"/>
+  <rect x="150" y="570" width="50" height="16" fill="#E63946" opacity="0.5" transform="rotate(-35, 175, 578)"/>
+  <rect x="145" y="200" width="50" height="16" fill="#457B9D" opacity="0.5" transform="rotate(35, 170, 208)"/>
+  <!-- Small accent circles at outer ends of radiating rectangles -->
+  <circle cx="400" cy="75" r="6" fill="#000000" opacity="0.5"/>
+  <circle cx="725" cy="400" r="6" fill="#000000" opacity="0.5"/>
+  <circle cx="400" cy="725" r="6" fill="#000000" opacity="0.5"/>
+  <circle cx="75" cy="400" r="6" fill="#000000" opacity="0.5"/>
+  <!-- Corner accents -->
+  <rect x="30" y="30" width="25" height="25" fill="#E63946" opacity="0.25"/>
+  <rect x="745" y="30" width="25" height="25" fill="#1D3557" opacity="0.25"/>
+  <rect x="30" y="745" width="25" height="25" fill="#F4D35E" opacity="0.25"/>
+  <rect x="745" y="745" width="25" height="25" fill="#2A9D8F" opacity="0.25"/>
+</svg>

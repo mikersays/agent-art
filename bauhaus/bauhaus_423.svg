@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Light background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Edge/corner light color shapes (sparse) -->
+  <circle cx="60" cy="60" r="55" fill="#A8DADC" opacity="0.5"/>
+  <circle cx="740" cy="60" r="45" fill="#E9C46A" opacity="0.45"/>
+  <circle cx="60" cy="740" r="50" fill="#A8DADC" opacity="0.5"/>
+  <circle cx="740" cy="740" r="60" fill="#E9C46A" opacity="0.45"/>
+  <rect x="0" y="350" width="60" height="100" fill="#A8DADC" opacity="0.4"/>
+  <rect x="740" y="320" width="60" height="120" fill="#E9C46A" opacity="0.4"/>
+  <rect x="300" y="0" width="200" height="50" fill="#A8DADC" opacity="0.4"/>
+  <rect x="280" y="750" width="240" height="50" fill="#E9C46A" opacity="0.45"/>
+
+  <!-- Mid-ring shapes - medium density, transitional colors -->
+  <circle cx="400" cy="400" r="270" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <circle cx="160" cy="230" r="38" fill="#DDA15E" opacity="0.55"/>
+  <circle cx="640" cy="200" r="42" fill="#457B9D" opacity="0.5"/>
+  <circle cx="640" cy="590" r="36" fill="#DDA15E" opacity="0.55"/>
+  <circle cx="155" cy="580" r="44" fill="#457B9D" opacity="0.5"/>
+  <rect x="100" y="140" width="70" height="50" fill="#E9C46A" opacity="0.5" transform="rotate(12, 135, 165)"/>
+  <rect x="620" y="130" width="65" height="55" fill="#A8DADC" opacity="0.5" transform="rotate(-8, 652, 157)"/>
+  <rect x="110" y="590" width="72" height="48" fill="#DDA15E" opacity="0.5" transform="rotate(15, 146, 614)"/>
+  <rect x="615" y="610" width="68" height="52" fill="#E9C46A" opacity="0.5" transform="rotate(-10, 649, 636)"/>
+
+  <!-- Denser mid zone -->
+  <circle cx="250" cy="280" r="50" fill="#457B9D" opacity="0.65"/>
+  <circle cx="550" cy="250" r="55" fill="#DDA15E" opacity="0.6"/>
+  <circle cx="570" cy="540" r="48" fill="#457B9D" opacity="0.65"/>
+  <circle cx="240" cy="520" r="52" fill="#DDA15E" opacity="0.6"/>
+  <rect x="180" y="350" width="80" height="100" fill="#E9C46A" opacity="0.6"/>
+  <rect x="530" y="360" width="85" height="90" fill="#A8DADC" opacity="0.6"/>
+  <rect x="300" y="160" width="90" height="60" fill="#457B9D" opacity="0.6" transform="rotate(-5, 345, 190)"/>
+  <rect x="400" y="565" width="88" height="65" fill="#DDA15E" opacity="0.6" transform="rotate(7, 444, 597)"/>
+
+  <!-- Inner dense zone - darker colors -->
+  <circle cx="400" cy="400" r="180" fill="none" stroke="#1D3557" stroke-width="2" opacity="0.3"/>
+  <circle cx="310" cy="320" r="65" fill="#6D2E46" opacity="0.7"/>
+  <circle cx="490" cy="310" r="70" fill="#1D3557" opacity="0.75"/>
+  <circle cx="480" cy="490" r="62" fill="#264653" opacity="0.7"/>
+  <circle cx="310" cy="500" r="68" fill="#6D2E46" opacity="0.65"/>
+  <rect x="315" y="305" width="95" height="70" fill="#1D3557" opacity="0.7"/>
+  <rect x="390" y="410" width="90" height="75" fill="#264653" opacity="0.65"/>
+  <rect x="290" y="410" width="80" height="65" fill="#6D2E46" opacity="0.7"/>
+
+  <!-- Core - very dark, densely overlapping -->
+  <circle cx="400" cy="400" r="110" fill="#000000" opacity="0.85"/>
+  <circle cx="380" cy="385" r="75" fill="#1D3557" opacity="0.9"/>
+  <circle cx="415" cy="415" r="70" fill="#264653" opacity="0.85"/>
+  <circle cx="400" cy="400" r="55" fill="#6D2E46" opacity="0.9"/>
+  <rect x="355" y="358" width="88" height="84" fill="#000000" opacity="0.75"/>
+  <circle cx="400" cy="400" r="38" fill="#1D3557"/>
+  <circle cx="400" cy="400" r="22" fill="#6D2E46"/>
+  <circle cx="400" cy="400" r="10" fill="#E63946"/>
+
+  <!-- Structural lines radiating outward -->
+  <line x1="400" y1="400" x2="60" y2="60" stroke="#000000" stroke-width="1" opacity="0.12"/>
+  <line x1="400" y1="400" x2="740" y2="60" stroke="#000000" stroke-width="1" opacity="0.12"/>
+  <line x1="400" y1="400" x2="60" y2="740" stroke="#000000" stroke-width="1" opacity="0.12"/>
+  <line x1="400" y1="400" x2="740" y2="740" stroke="#000000" stroke-width="1" opacity="0.12"/>
+  <line x1="400" y1="400" x2="400" y2="0" stroke="#000000" stroke-width="1" opacity="0.1"/>
+  <line x1="400" y1="400" x2="400" y2="800" stroke="#000000" stroke-width="1" opacity="0.1"/>
+  <line x1="400" y1="400" x2="0" y2="400" stroke="#000000" stroke-width="1" opacity="0.1"/>
+  <line x1="400" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="1" opacity="0.1"/>
+</svg>

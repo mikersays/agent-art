@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+  <!-- Bold black divider -->
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="6"/>
+  <!-- LEFT SIDE - Warm colors, circular compositions -->
+  <!-- Warm background wash -->
+  <rect x="0" y="0" width="397" height="800" fill="#F4D35E" opacity="0.08"/>
+  <!-- Large warm circle -->
+  <circle cx="200" cy="300" r="120" fill="#E63946" opacity="0.7"/>
+  <!-- Overlapping orange circle -->
+  <circle cx="260" cy="250" r="80" fill="#E76F51" opacity="0.5"/>
+  <!-- Sand circle -->
+  <circle cx="140" cy="400" r="65" fill="#DDA15E" opacity="0.6"/>
+  <!-- Yellow ring -->
+  <circle cx="200" cy="300" r="90" fill="none" stroke="#F4D35E" stroke-width="4" opacity="0.8"/>
+  <!-- Small warm circles -->
+  <circle cx="80" cy="150" r="25" fill="#E63946" opacity="0.4"/>
+  <circle cx="320" cy="120" r="18" fill="#E76F51" opacity="0.6"/>
+  <circle cx="100" cy="600" r="35" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="280" cy="550" r="28" fill="#E63946" opacity="0.5"/>
+  <circle cx="50" cy="450" r="15" fill="#DDA15E" opacity="0.5"/>
+  <circle cx="340" cy="680" r="40" fill="#E76F51" opacity="0.4"/>
+  <circle cx="180" cy="700" r="22" fill="#E9C46A" opacity="0.6"/>
+  <!-- Warm accent lines -->
+  <line x1="30" y1="50" x2="370" y2="50" stroke="#E63946" stroke-width="2" opacity="0.3"/>
+  <line x1="30" y1="760" x2="370" y2="760" stroke="#DDA15E" stroke-width="2" opacity="0.3"/>
+  <!-- RIGHT SIDE - Cool colors, rectangular compositions -->
+  <!-- Cool background wash -->
+  <rect x="403" y="0" width="397" height="800" fill="#1D3557" opacity="0.06"/>
+  <!-- Large blue rectangle -->
+  <rect x="460" y="200" width="160" height="220" fill="#1D3557" opacity="0.75"/>
+  <!-- Overlapping teal rectangle -->
+  <rect x="520" y="300" width="130" height="180" fill="#2A9D8F" opacity="0.5"/>
+  <!-- Steel blue rectangle -->
+  <rect x="440" y="500" width="100" height="140" fill="#457B9D" opacity="0.6"/>
+  <!-- Forest rectangle -->
+  <rect x="600" y="100" width="80" height="120" fill="#264653" opacity="0.7"/>
+  <!-- Small cool rectangles -->
+  <rect x="700" y="250" width="50" height="50" fill="#1D3557" opacity="0.4"/>
+  <rect x="430" y="60" width="40" height="60" fill="#457B9D" opacity="0.5"/>
+  <rect x="650" y="450" width="70" height="45" fill="#2A9D8F" opacity="0.5"/>
+  <rect x="580" y="650" width="90" height="55" fill="#264653" opacity="0.6"/>
+  <rect x="700" y="600" width="55" height="80" fill="#1D3557" opacity="0.4"/>
+  <rect x="450" y="700" width="65" height="50" fill="#A8DADC" opacity="0.5"/>
+  <!-- Cool accent lines -->
+  <line x1="430" y1="50" x2="770" y2="50" stroke="#1D3557" stroke-width="2" opacity="0.3"/>
+  <line x1="430" y1="760" x2="770" y2="760" stroke="#457B9D" stroke-width="2" opacity="0.3"/>
+  <!-- Bridging elements crossing the divider -->
+  <circle cx="400" cy="200" r="20" fill="#000000" opacity="0.3"/>
+  <rect x="385" y="380" width="30" height="30" fill="#A89F91" opacity="0.6"/>
+  <circle cx="400" cy="600" r="15" fill="#000000" opacity="0.25"/>
+  <line x1="370" y1="500" x2="430" y2="500" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  <polygon points="390,700 410,700 400,680" fill="#6D2E46" opacity="0.6"/>
+  <!-- Light blue accent on right -->
+  <rect x="680" y="50" width="30" height="30" fill="#A8DADC" opacity="0.4"/>
+</svg>

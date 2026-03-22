@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Black background -->
+  <rect x="0" y="0" width="800" height="800" fill="#000000"/>
+  <!-- Forest rectangles at top and bottom borders -->
+  <rect x="0" y="0" width="800" height="25" fill="#264653" opacity="0.8"/>
+  <rect x="0" y="775" width="800" height="25" fill="#264653" opacity="0.8"/>
+  <rect x="100" y="0" width="60" height="40" fill="#264653"/>
+  <rect x="500" y="760" width="80" height="40" fill="#264653"/>
+  <!-- Warm gray diagonal line -->
+  <line x1="0" y1="150" x2="800" y2="700" stroke="#A89F91" stroke-width="3" opacity="0.5"/>
+  <!-- Row 1: Large blue circles, wide spacing -->
+  <circle cx="100" cy="100" r="35" fill="#1D3557" opacity="0.9"/>
+  <circle cx="250" cy="100" r="35" fill="#1D3557" opacity="0.85"/>
+  <circle cx="400" cy="100" r="35" fill="#1D3557"/>
+  <circle cx="550" cy="100" r="35" fill="#1D3557" opacity="0.9"/>
+  <circle cx="700" cy="100" r="35" fill="#1D3557" opacity="0.85"/>
+  <!-- Row 2: Medium red circles -->
+  <circle cx="80" cy="200" r="25" fill="#E63946"/>
+  <circle cx="190" cy="200" r="25" fill="#E63946" opacity="0.9"/>
+  <circle cx="300" cy="200" r="25" fill="#E63946" opacity="0.85"/>
+  <circle cx="410" cy="200" r="25" fill="#E63946"/>
+  <circle cx="520" cy="200" r="25" fill="#E63946" opacity="0.9"/>
+  <circle cx="630" cy="200" r="25" fill="#E63946" opacity="0.85"/>
+  <circle cx="740" cy="200" r="25" fill="#E63946"/>
+  <!-- Row 3: Small cream circles, tight spacing -->
+  <circle cx="60" cy="290" r="12" fill="#FEFAE0"/>
+  <circle cx="120" cy="290" r="12" fill="#FEFAE0" opacity="0.8"/>
+  <circle cx="180" cy="290" r="12" fill="#FEFAE0"/>
+  <circle cx="240" cy="290" r="12" fill="#FEFAE0" opacity="0.9"/>
+  <circle cx="300" cy="290" r="12" fill="#FEFAE0"/>
+  <circle cx="360" cy="290" r="12" fill="#FEFAE0" opacity="0.8"/>
+  <circle cx="420" cy="290" r="12" fill="#FEFAE0"/>
+  <circle cx="480" cy="290" r="12" fill="#FEFAE0" opacity="0.9"/>
+  <circle cx="540" cy="290" r="12" fill="#FEFAE0"/>
+  <!-- Row 4: Stroked yellow circles -->
+  <circle cx="100" cy="380" r="20" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="230" cy="380" r="20" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="360" cy="380" r="20" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="490" cy="380" r="20" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <circle cx="620" cy="380" r="20" fill="none" stroke="#F4D35E" stroke-width="2"/>
+  <!-- Row 5: Tiny teal filled circles -->
+  <circle cx="70" cy="460" r="8" fill="#2A9D8F"/>
+  <circle cx="130" cy="460" r="8" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="190" cy="460" r="8" fill="#2A9D8F"/>
+  <circle cx="250" cy="460" r="8" fill="#2A9D8F" opacity="0.9"/>
+  <circle cx="310" cy="460" r="8" fill="#2A9D8F"/>
+  <circle cx="370" cy="460" r="8" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="430" cy="460" r="8" fill="#2A9D8F"/>
+  <circle cx="490" cy="460" r="8" fill="#2A9D8F" opacity="0.9"/>
+  <circle cx="550" cy="460" r="8" fill="#2A9D8F"/>
+  <circle cx="610" cy="460" r="8" fill="#2A9D8F" opacity="0.8"/>
+  <!-- Row 6: Large stroked red circles -->
+  <circle cx="150" cy="550" r="30" fill="none" stroke="#E63946" stroke-width="2" opacity="0.8"/>
+  <circle cx="350" cy="550" r="30" fill="none" stroke="#E63946" stroke-width="2" opacity="0.8"/>
+  <circle cx="550" cy="550" r="30" fill="none" stroke="#E63946" stroke-width="2" opacity="0.8"/>
+  <!-- Row 7: Medium blue filled, alternating with yellow -->
+  <circle cx="100" cy="650" r="18" fill="#1D3557"/>
+  <circle cx="200" cy="650" r="18" fill="#F4D35E"/>
+  <circle cx="300" cy="650" r="18" fill="#1D3557"/>
+  <circle cx="400" cy="650" r="18" fill="#F4D35E"/>
+  <circle cx="500" cy="650" r="18" fill="#1D3557"/>
+  <circle cx="600" cy="650" r="18" fill="#F4D35E"/>
+  <circle cx="700" cy="650" r="18" fill="#1D3557"/>
+  <!-- Row 8: Tiny cream dots -->
+  <circle cx="80" cy="730" r="5" fill="#FEFAE0" opacity="0.7"/>
+  <circle cx="160" cy="730" r="5" fill="#FEFAE0" opacity="0.7"/>
+  <circle cx="240" cy="730" r="5" fill="#FEFAE0" opacity="0.7"/>
+  <circle cx="320" cy="730" r="5" fill="#FEFAE0" opacity="0.7"/>
+  <circle cx="400" cy="730" r="5" fill="#FEFAE0" opacity="0.7"/>
+  <circle cx="480" cy="730" r="5" fill="#FEFAE0" opacity="0.7"/>
+  <circle cx="560" cy="730" r="5" fill="#FEFAE0" opacity="0.7"/>
+  <circle cx="640" cy="730" r="5" fill="#FEFAE0" opacity="0.7"/>
+  <circle cx="720" cy="730" r="5" fill="#FEFAE0" opacity="0.7"/>
+</svg>

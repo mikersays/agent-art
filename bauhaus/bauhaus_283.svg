@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Thin parallel lines following zigzag - behind main zigzag -->
+  <polyline points="0,80 160,280 320,80 480,280 640,80 800,280" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <polyline points="0,120 160,320 320,120 480,320 640,120 800,320" fill="none" stroke="#A89F91" stroke-width="0.8" opacity="0.15"/>
+  <polyline points="0,520 160,720 320,520 480,720 640,520 800,720" fill="none" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <polyline points="0,560 160,760 320,560 480,760 640,560 800,760" fill="none" stroke="#A89F91" stroke-width="0.8" opacity="0.15"/>
+
+  <!-- Bold zigzag cutting diagonally across canvas -->
+  <polyline points="0,100 160,300 320,100 480,300 640,100 800,300" fill="none" stroke="#000000" stroke-width="4" opacity="0.9"/>
+  <polyline points="0,500 160,700 320,500 480,700 640,500 800,700" fill="none" stroke="#000000" stroke-width="4" opacity="0.9"/>
+
+  <!-- Second set of thin parallel lines -->
+  <polyline points="0,140 160,340 320,140 480,340 640,140 800,340" fill="none" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+  <polyline points="0,460 160,660 320,460 480,660 640,460 800,660" fill="none" stroke="#000000" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Shapes in upper zigzag valleys -->
+  <!-- Valley at x=160, y=300 -->
+  <circle cx="160" cy="260" r="30" fill="#E63946" opacity="0.8"/>
+
+  <!-- Valley at x=480, y=300 -->
+  <rect x="450" y="250" width="60" height="45" fill="#1D3557" opacity="0.8"/>
+
+  <!-- Peak at x=320, y=100 -->
+  <polygon points="320,130 340,170 300,170" fill="#F4D35E" opacity="0.85"/>
+
+  <!-- Peak at x=640, y=100 -->
+  <circle cx="640" cy="140" r="22" fill="#E63946" opacity="0.7"/>
+
+  <!-- Shapes in lower zigzag valleys -->
+  <!-- Valley at x=160, y=700 -->
+  <rect x="130" y="660" width="55" height="40" fill="#1D3557" opacity="0.75"/>
+
+  <!-- Valley at x=480, y=700 -->
+  <circle cx="480" cy="660" r="28" fill="#E63946" opacity="0.8"/>
+
+  <!-- Peak at x=320, y=500 -->
+  <polygon points="320,530 345,575 295,575" fill="#F4D35E" opacity="0.85"/>
+
+  <!-- Peak at x=640, y=500 -->
+  <rect x="615" y="530" width="50" height="38" fill="#1D3557" opacity="0.7"/>
+
+  <!-- Shapes in the middle band between zigzags -->
+  <circle cx="240" cy="400" r="35" fill="#2A9D8F" opacity="0.65"/>
+  <rect x="380" y="380" width="70" height="50" fill="#E76F51" opacity="0.6"/>
+  <circle cx="560" cy="410" r="28" fill="#2A9D8F" opacity="0.6"/>
+  <polygon points="100,400 120,440 80,440" fill="#F4D35E" opacity="0.75"/>
+  <rect x="680" y="385" width="45" height="35" fill="#E76F51" opacity="0.55"/>
+
+  <!-- Additional colored shapes along zigzag -->
+  <circle cx="80" cy="180" r="18" fill="#E76F51" opacity="0.6"/>
+  <rect x="720" y="240" width="40" height="30" fill="#2A9D8F" opacity="0.55"/>
+  <polygon points="560,280 580,320 540,320" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="400" cy="150" r="15" fill="#2A9D8F" opacity="0.5"/>
+
+  <!-- Lower additional shapes -->
+  <circle cx="80" cy="580" r="16" fill="#E76F51" opacity="0.55"/>
+  <polygon points="740,660 760,700 720,700" fill="#F4D35E" opacity="0.7"/>
+  <rect x="250" y="540" width="35" height="28" fill="#2A9D8F" opacity="0.5"/>
+
+  <!-- Small accent dots -->
+  <circle cx="200" cy="190" r="5" fill="#000000" opacity="0.4"/>
+  <circle cx="400" cy="340" r="5" fill="#000000" opacity="0.4"/>
+  <circle cx="600" cy="190" r="5" fill="#000000" opacity="0.4"/>
+  <circle cx="300" cy="610" r="5" fill="#000000" opacity="0.4"/>
+  <circle cx="500" cy="560" r="5" fill="#000000" opacity="0.4"/>
+  <circle cx="700" cy="600" r="5" fill="#000000" opacity="0.4"/>
+
+  <!-- Corner accents -->
+  <rect x="10" y="10" width="15" height="15" fill="#1D3557" opacity="0.3"/>
+  <rect x="775" y="775" width="15" height="15" fill="#E63946" opacity="0.3"/>
+</svg>

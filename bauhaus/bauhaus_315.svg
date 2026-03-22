@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Cream background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Warm gray structural lines radiating from center -->
+  <line x1="400" y1="400" x2="800" y2="0" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="400" x2="800" y2="200" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="400" x2="800" y2="600" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="400" x2="800" y2="800" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="400" x2="0" y2="0" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="400" x2="0" y2="200" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="400" x2="0" y2="400" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="400" x2="0" y2="600" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="400" x2="0" y2="800" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="400" x2="400" y2="0" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="400" x2="400" y2="800" stroke="#A89F91" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="400" x2="200" y2="0" stroke="#A89F91" stroke-width="1" opacity="0.15"/>
+  <line x1="400" y1="400" x2="600" y2="800" stroke="#A89F91" stroke-width="1" opacity="0.15"/>
+  <!-- Fibonacci spiral rectangles - outer to inner -->
+  <!-- Largest: blue, bottom-right area -->
+  <rect x="380" y="380" width="200" height="200" fill="#1D3557" opacity="0.6" transform="rotate(5,480,480)"/>
+  <!-- Red, top-right -->
+  <rect x="420" y="200" width="160" height="160" fill="#E63946" opacity="0.65" transform="rotate(-8,500,280)"/>
+  <!-- Yellow, top-left -->
+  <rect x="240" y="220" width="130" height="130" fill="#F4D35E" opacity="0.7" transform="rotate(12,305,285)"/>
+  <!-- Teal, mid-left -->
+  <rect x="230" y="370" width="100" height="100" fill="#2A9D8F" opacity="0.7" transform="rotate(-15,280,420)"/>
+  <!-- Orange, center-bottom -->
+  <rect x="320" y="460" width="80" height="80" fill="#E76F51" opacity="0.75" transform="rotate(20,360,500)"/>
+  <!-- Blue small, center -->
+  <rect x="360" y="380" width="55" height="55" fill="#1D3557" opacity="0.8" transform="rotate(-25,387,407)"/>
+  <!-- Red smaller -->
+  <rect x="380" y="340" width="40" height="40" fill="#E63946" opacity="0.75" transform="rotate(30,400,360)"/>
+  <!-- Yellow smallest -->
+  <rect x="370" y="370" width="28" height="28" fill="#F4D35E" opacity="0.8" transform="rotate(-35,384,384)"/>
+  <!-- Teal tiny -->
+  <rect x="385" y="390" width="18" height="18" fill="#2A9D8F" opacity="0.85" transform="rotate(40,394,399)"/>
+  <!-- Orange tiniest -->
+  <rect x="392" y="395" width="12" height="12" fill="#E76F51" opacity="0.9" transform="rotate(-45,398,401)"/>
+  <!-- Black circles marking spiral path -->
+  <circle cx="580" cy="580" r="6" fill="#000000" opacity="0.8"/>
+  <circle cx="560" cy="300" r="5" fill="#000000" opacity="0.75"/>
+  <circle cx="320" cy="280" r="5" fill="#000000" opacity="0.7"/>
+  <circle cx="280" cy="430" r="4.5" fill="#000000" opacity="0.75"/>
+  <circle cx="350" cy="500" r="4" fill="#000000" opacity="0.8"/>
+  <circle cx="400" cy="420" r="3.5" fill="#000000" opacity="0.85"/>
+  <circle cx="405" cy="370" r="3" fill="#000000" opacity="0.8"/>
+  <circle cx="385" cy="385" r="2.5" fill="#000000" opacity="0.85"/>
+  <circle cx="398" cy="400" r="2" fill="#000000" opacity="0.9"/>
+  <!-- Corner accent shapes -->
+  <rect x="20" y="20" width="40" height="40" fill="#1D3557" opacity="0.3"/>
+  <rect x="740" y="20" width="40" height="40" fill="#E63946" opacity="0.3"/>
+  <rect x="20" y="740" width="40" height="40" fill="#F4D35E" opacity="0.3"/>
+  <rect x="740" y="740" width="40" height="40" fill="#2A9D8F" opacity="0.3"/>
+</svg>

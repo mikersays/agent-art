@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+  <!-- Subtle grid -->
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+  <!-- Large overlapping rectangles at various angles -->
+  <!-- Plane 1: Red, 15 degrees -->
+  <rect x="120" y="150" width="350" height="250" fill="#E63946" opacity="0.4" transform="rotate(15,295,275)"/>
+  <!-- Plane 2: Blue, 30 degrees -->
+  <rect x="280" y="200" width="380" height="220" fill="#1D3557" opacity="0.35" transform="rotate(-30,470,310)"/>
+  <!-- Plane 3: Yellow, 45 degrees -->
+  <rect x="200" y="350" width="300" height="280" fill="#F4D35E" opacity="0.45" transform="rotate(45,350,490)"/>
+  <!-- Plane 4: Steel Blue, -15 degrees -->
+  <rect x="350" y="100" width="280" height="320" fill="#457B9D" opacity="0.3" transform="rotate(-15,490,260)"/>
+  <!-- Plane 5: Teal, 60 degrees -->
+  <rect x="100" y="400" width="260" height="200" fill="#2A9D8F" opacity="0.35" transform="rotate(60,230,500)"/>
+  <!-- Plane 6: Red small, -45 degrees -->
+  <rect x="450" y="420" width="250" height="180" fill="#E63946" opacity="0.3" transform="rotate(-45,575,510)"/>
+  <!-- Plane 7: Blue small, 20 degrees -->
+  <rect x="500" y="300" width="200" height="300" fill="#1D3557" opacity="0.25" transform="rotate(20,600,450)"/>
+  <!-- Plane 8: Yellow thin, 70 degrees -->
+  <rect x="50" y="100" width="180" height="400" fill="#F4D35E" opacity="0.3" transform="rotate(70,140,300)"/>
+  <!-- Small accent plane -->
+  <rect x="550" y="550" width="160" height="120" fill="#E76F51" opacity="0.35" transform="rotate(30,630,610)"/>
+  <!-- Black dots at approximate intersection points -->
+  <circle cx="320" cy="250" r="5" fill="#000000" opacity="0.85"/>
+  <circle cx="420" cy="300" r="5" fill="#000000" opacity="0.85"/>
+  <circle cx="350" cy="380" r="5" fill="#000000" opacity="0.85"/>
+  <circle cx="480" cy="350" r="5" fill="#000000" opacity="0.85"/>
+  <circle cx="280" cy="420" r="5" fill="#000000" opacity="0.8"/>
+  <circle cx="520" cy="450" r="5" fill="#000000" opacity="0.8"/>
+  <circle cx="200" cy="320" r="5" fill="#000000" opacity="0.8"/>
+  <circle cx="400" cy="480" r="5" fill="#000000" opacity="0.85"/>
+  <circle cx="560" cy="300" r="4" fill="#000000" opacity="0.75"/>
+  <circle cx="300" cy="530" r="4" fill="#000000" opacity="0.75"/>
+  <circle cx="450" cy="220" r="4" fill="#000000" opacity="0.75"/>
+  <circle cx="380" cy="160" r="4" fill="#000000" opacity="0.7"/>
+  <circle cx="240" cy="480" r="4" fill="#000000" opacity="0.7"/>
+  <circle cx="600" cy="520" r="4" fill="#000000" opacity="0.7"/>
+  <!-- Structural edge lines -->
+  <line x1="50" y1="50" x2="750" y2="50" stroke="#000000" stroke-width="2" opacity="0.15"/>
+  <line x1="50" y1="750" x2="750" y2="750" stroke="#000000" stroke-width="2" opacity="0.15"/>
+  <line x1="50" y1="50" x2="50" y2="750" stroke="#000000" stroke-width="2" opacity="0.15"/>
+  <line x1="750" y1="50" x2="750" y2="750" stroke="#000000" stroke-width="2" opacity="0.15"/>
+  <!-- Diagonal reference lines -->
+  <line x1="50" y1="50" x2="750" y2="750" stroke="#000000" stroke-width="1" opacity="0.08"/>
+  <line x1="750" y1="50" x2="50" y2="750" stroke="#000000" stroke-width="1" opacity="0.08"/>
+  <!-- Corner accents -->
+  <rect x="20" y="20" width="18" height="18" fill="#1D3557" opacity="0.6"/>
+  <rect x="762" y="20" width="18" height="18" fill="#E63946" opacity="0.6"/>
+  <rect x="762" y="762" width="18" height="18" fill="#F4D35E" opacity="0.6"/>
+  <rect x="20" y="762" width="18" height="18" fill="#2A9D8F" opacity="0.6"/>
+  <!-- Small accent shapes -->
+  <circle cx="680" cy="120" r="8" fill="#E63946" opacity="0.6"/>
+  <circle cx="120" cy="680" r="8" fill="#1D3557" opacity="0.6"/>
+  <rect x="690" y="680" width="12" height="12" fill="#F4D35E" opacity="0.5" transform="rotate(45,696,686)"/>
+</svg>

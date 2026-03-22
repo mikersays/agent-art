@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#1D3557"/>
+
+  <!-- Wave band 1 - Cream, top -->
+  <path d="M0,60 C100,20 200,100 300,60 C400,20 500,100 600,60 C700,20 800,100 800,60 L800,130 C700,170 600,90 500,130 C400,170 300,90 200,130 C100,170 0,90 0,130 Z" fill="#FEFAE0"/>
+
+  <!-- Wave band 2 - Teal -->
+  <path d="M0,160 C100,120 200,200 300,160 C400,120 500,200 600,160 C700,120 800,200 800,160 L800,230 C700,270 600,190 500,230 C400,270 300,190 200,230 C100,270 0,190 0,230 Z" fill="#2A9D8F"/>
+
+  <!-- Wave band 3 - Sand -->
+  <path d="M0,260 C100,220 200,300 300,260 C400,220 500,300 600,260 C700,220 800,300 800,260 L800,330 C700,370 600,290 500,330 C400,370 300,290 200,330 C100,370 0,290 0,330 Z" fill="#DDA15E"/>
+
+  <!-- Wave band 4 - Light Blue -->
+  <path d="M0,360 C100,320 200,400 300,360 C400,320 500,400 600,360 C700,320 800,400 800,360 L800,430 C700,470 600,390 500,430 C400,470 300,390 200,430 C100,470 0,390 0,430 Z" fill="#A8DADC"/>
+
+  <!-- Wave band 5 - Cream again -->
+  <path d="M0,460 C100,420 200,500 300,460 C400,420 500,500 600,460 C700,420 800,500 800,460 L800,530 C700,570 600,490 500,530 C400,570 300,490 200,530 C100,570 0,490 0,530 Z" fill="#FEFAE0"/>
+
+  <!-- Wave band 6 - Teal -->
+  <path d="M0,560 C100,520 200,600 300,560 C400,520 500,600 600,560 C700,520 800,600 800,560 L800,630 C700,670 600,590 500,630 C400,670 300,590 200,630 C100,670 0,590 0,630 Z" fill="#2A9D8F"/>
+
+  <!-- Wave band 7 - Sand -->
+  <path d="M0,660 C100,620 200,700 300,660 C400,620 500,700 600,660 C700,620 800,700 800,660 L800,730 C700,770 600,690 500,730 C400,770 300,690 200,730 C100,770 0,690 0,730 Z" fill="#DDA15E"/>
+
+  <!-- Wave band 8 - Light Blue bottom -->
+  <path d="M0,760 C100,720 200,800 300,760 C400,720 500,800 600,760 C700,720 800,800 800,760 L800,800 L0,800 Z" fill="#A8DADC"/>
+
+  <!-- Circles at wave peaks (top of each band) -->
+  <!-- Band 1 peaks at x=50,250,450,650 y~20 -->
+  <circle cx="50"  cy="30"  r="10" fill="#F4D35E"/>
+  <circle cx="250" cy="30"  r="10" fill="#E63946"/>
+  <circle cx="450" cy="30"  r="10" fill="#F4D35E"/>
+  <circle cx="650" cy="30"  r="10" fill="#E63946"/>
+
+  <!-- Band 2 peaks at y~120 -->
+  <circle cx="150" cy="128" r="10" fill="#E63946"/>
+  <circle cx="350" cy="128" r="10" fill="#F4D35E"/>
+  <circle cx="550" cy="128" r="10" fill="#E63946"/>
+  <circle cx="750" cy="128" r="10" fill="#F4D35E"/>
+
+  <!-- Band 3 peaks at y~220 -->
+  <circle cx="50"  cy="228" r="10" fill="#F4D35E"/>
+  <circle cx="250" cy="228" r="10" fill="#E63946"/>
+  <circle cx="450" cy="228" r="10" fill="#F4D35E"/>
+  <circle cx="650" cy="228" r="10" fill="#E63946"/>
+
+  <!-- Band 4 peaks at y~320 -->
+  <circle cx="150" cy="328" r="10" fill="#E63946"/>
+  <circle cx="350" cy="328" r="10" fill="#F4D35E"/>
+  <circle cx="550" cy="328" r="10" fill="#E63946"/>
+  <circle cx="750" cy="328" r="10" fill="#F4D35E"/>
+
+  <!-- Band 5 peaks at y~420 -->
+  <circle cx="50"  cy="428" r="10" fill="#F4D35E"/>
+  <circle cx="250" cy="428" r="10" fill="#E63946"/>
+  <circle cx="450" cy="428" r="10" fill="#F4D35E"/>
+  <circle cx="650" cy="428" r="10" fill="#E63946"/>
+
+  <!-- Band 6 peaks at y~520 -->
+  <circle cx="150" cy="528" r="10" fill="#E63946"/>
+  <circle cx="350" cy="528" r="10" fill="#F4D35E"/>
+  <circle cx="550" cy="528" r="10" fill="#E63946"/>
+  <circle cx="750" cy="528" r="10" fill="#F4D35E"/>
+
+  <!-- Band 7 peaks at y~620 -->
+  <circle cx="50"  cy="628" r="10" fill="#F4D35E"/>
+  <circle cx="250" cy="628" r="10" fill="#E63946"/>
+  <circle cx="450" cy="628" r="10" fill="#F4D35E"/>
+  <circle cx="650" cy="628" r="10" fill="#E63946"/>
+
+  <!-- Vertical accent lines -->
+  <line x1="80"  y1="0" x2="80"  y2="800" stroke="#FFFFFF" stroke-width="1.5" opacity="0.15"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#FFFFFF" stroke-width="1.5" opacity="0.15"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#FFFFFF" stroke-width="2" opacity="0.2"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#FFFFFF" stroke-width="1.5" opacity="0.15"/>
+  <line x1="720" y1="0" x2="720" y2="800" stroke="#FFFFFF" stroke-width="1.5" opacity="0.15"/>
+</svg>

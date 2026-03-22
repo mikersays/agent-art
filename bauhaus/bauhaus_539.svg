@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background - dark blue -->
+  <rect x="0" y="0" width="800" height="800" fill="#1D3557"/>
+  <!-- Connecting lines between clusters (dotted effect with small circles) -->
+  <circle cx="220" cy="200" r="2" fill="#A89F91" opacity="0.4"/>
+  <circle cx="250" cy="220" r="2" fill="#A89F91" opacity="0.4"/>
+  <circle cx="280" cy="240" r="2" fill="#A89F91" opacity="0.4"/>
+  <circle cx="310" cy="260" r="2" fill="#A89F91" opacity="0.4"/>
+  <circle cx="340" cy="280" r="2" fill="#A89F91" opacity="0.4"/>
+  <circle cx="370" cy="300" r="2" fill="#A89F91" opacity="0.4"/>
+  <circle cx="430" cy="370" r="2" fill="#A89F91" opacity="0.35"/>
+  <circle cx="460" cy="410" r="2" fill="#A89F91" opacity="0.35"/>
+  <circle cx="490" cy="450" r="2" fill="#A89F91" opacity="0.35"/>
+  <circle cx="520" cy="490" r="2" fill="#A89F91" opacity="0.35"/>
+  <circle cx="550" cy="530" r="2" fill="#A89F91" opacity="0.35"/>
+  <!-- Connection from cluster 1 to cluster 4 -->
+  <circle cx="160" cy="230" r="2" fill="#A89F91" opacity="0.3"/>
+  <circle cx="150" cy="290" r="2" fill="#A89F91" opacity="0.3"/>
+  <circle cx="140" cy="350" r="2" fill="#A89F91" opacity="0.3"/>
+  <circle cx="135" cy="410" r="2" fill="#A89F91" opacity="0.3"/>
+  <!-- Cluster 1 - top left - Red/Orange theme -->
+  <circle cx="120" cy="140" r="40" fill="#E63946" opacity="0.85"/>
+  <rect x="155" y="110" width="50" height="50" fill="#E76F51" opacity="0.7"/>
+  <polygon points="100,90 120,60 140,90" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="170" cy="175" r="15" fill="#E63946" opacity="0.5"/>
+  <rect x="90" y="160" width="25" height="35" fill="#E76F51" opacity="0.6"/>
+  <!-- Cluster 2 - top right - Yellow/Coral theme -->
+  <rect x="580" cy="80" width="70" height="45" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="640" cy="120" r="35" fill="#E9C46A" opacity="0.7"/>
+  <polygon points="600,60 620,25 640,60" fill="#F4D35E" opacity="0.9"/>
+  <rect x="660" y="70" width="30" height="60" fill="#DDA15E" opacity="0.65"/>
+  <circle cx="590" cy="130" r="12" fill="#FFFFFF" opacity="0.4"/>
+  <!-- Cluster 3 - center - Teal/Blue theme -->
+  <circle cx="400" cy="370" r="50" fill="#2A9D8F" opacity="0.75"/>
+  <rect x="430" y="340" width="60" height="40" fill="#457B9D" opacity="0.7"/>
+  <polygon points="370,310 400,270 430,310" fill="#A8DADC" opacity="0.65"/>
+  <rect x="350" y="385" width="40" height="50" fill="#264653" opacity="0.8"/>
+  <circle cx="460" cy="400" r="18" fill="#2A9D8F" opacity="0.5"/>
+  <!-- Cluster 4 - bottom left - Burgundy/Forest theme -->
+  <rect x="80" y="520" width="80" height="55" fill="#6D2E46" opacity="0.85"/>
+  <circle cx="200" cy="560" r="30" fill="#264653" opacity="0.8"/>
+  <polygon points="120,510 145,470 170,510" fill="#6D2E46" opacity="0.7"/>
+  <rect x="170" y="530" width="25" height="45" fill="#264653" opacity="0.6"/>
+  <circle cx="110" cy="580" r="12" fill="#E63946" opacity="0.5"/>
+  <!-- Cluster 5 - bottom right - White/Light Blue theme -->
+  <circle cx="620" cy="620" r="45" fill="#A8DADC" opacity="0.7"/>
+  <rect x="650" y="590" width="55" height="70" fill="#FFFFFF" opacity="0.5"/>
+  <polygon points="580,580 610,540 640,580" fill="#FEFAE0" opacity="0.75"/>
+  <circle cx="690" cy="650" r="20" fill="#457B9D" opacity="0.6"/>
+  <rect x="570" y="640" width="35" height="30" fill="#A8DADC" opacity="0.5"/>
+  <!-- More connecting dots -->
+  <circle cx="550" cy="560" r="2" fill="#A89F91" opacity="0.35"/>
+  <circle cx="570" cy="575" r="2" fill="#A89F91" opacity="0.35"/>
+  <circle cx="590" cy="590" r="2" fill="#A89F91" opacity="0.35"/>
+  <!-- Corner accents -->
+  <rect x="15" y="15" width="15" height="15" fill="#FFFFFF" opacity="0.1"/>
+  <rect x="770" y="770" width="15" height="15" fill="#FFFFFF" opacity="0.1"/>
+</svg>

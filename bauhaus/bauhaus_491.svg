@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Warm gray shadow/depth rectangles -->
+  <rect x="0" y="140" width="420" height="30" fill="#A89F91" opacity="0.2"/>
+  <rect x="0" y="290" width="350" height="25" fill="#A89F91" opacity="0.2"/>
+  <rect x="0" y="520" width="480" height="28" fill="#A89F91" opacity="0.2"/>
+  <rect x="310" y="0" width="28" height="380" fill="#A89F91" opacity="0.2"/>
+  <rect x="540" y="0" width="25" height="500" fill="#A89F91" opacity="0.2"/>
+  <rect x="450" y="0" width="22" height="300" fill="#A89F91" opacity="0.2"/>
+  <!-- Teal triangle supports -->
+  <polygon points="80,155 130,155 105,120" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="60,305 110,305 85,270" fill="#2A9D8F" opacity="0.7"/>
+  <polygon points="100,535 150,535 125,500" fill="#2A9D8F" opacity="0.8"/>
+  <polygon points="320,60 320,110 355,85" fill="#2A9D8F" opacity="0.7"/>
+  <polygon points="550,80 550,130 585,105" fill="#2A9D8F" opacity="0.75"/>
+  <!-- Red bars from left edge -->
+  <rect x="0" y="120" width="400" height="22" fill="#E63946"/>
+  <rect x="0" y="270" width="330" height="22" fill="#E63946"/>
+  <rect x="0" y="500" width="460" height="22" fill="#E63946"/>
+  <rect x="0" y="650" width="280" height="18" fill="#E63946" opacity="0.85"/>
+  <!-- Blue bars from top -->
+  <rect x="300" y="0" width="22" height="360" fill="#1D3557"/>
+  <rect x="530" y="0" width="22" height="480" fill="#1D3557"/>
+  <rect x="440" y="0" width="18" height="280" fill="#1D3557"/>
+  <rect x="680" y="0" width="20" height="220" fill="#1D3557" opacity="0.85"/>
+  <!-- Yellow bars from right edge -->
+  <rect x="500" y="380" width="300" height="22" fill="#F4D35E"/>
+  <rect x="580" y="560" width="220" height="22" fill="#F4D35E"/>
+  <rect x="450" y="200" width="350" height="18" fill="#F4D35E"/>
+  <rect x="620" y="700" width="180" height="20" fill="#F4D35E" opacity="0.85"/>
+  <!-- Intersection overlaps - layered colored rectangles -->
+  <rect x="296" y="116" width="30" height="30" fill="#000000" opacity="0.15"/>
+  <rect x="526" y="196" width="26" height="26" fill="#000000" opacity="0.15"/>
+  <rect x="436" y="268" width="26" height="26" fill="#000000" opacity="0.12"/>
+  <!-- Black circles hanging from bar ends -->
+  <circle cx="400" cy="155" r="16" fill="#000000"/>
+  <circle cx="330" cy="305" r="14" fill="#000000"/>
+  <circle cx="460" cy="535" r="18" fill="#000000"/>
+  <circle cx="280" cy="680" r="12" fill="#000000"/>
+  <circle cx="311" cy="370" r="14" fill="#000000"/>
+  <circle cx="541" cy="490" r="16" fill="#000000"/>
+  <circle cx="451" cy="290" r="12" fill="#000000"/>
+  <circle cx="690" cy="230" r="13" fill="#000000"/>
+  <!-- Orange circles at joints -->
+  <circle cx="300" cy="120" r="8" fill="#E76F51"/>
+  <circle cx="300" cy="270" r="7" fill="#E76F51"/>
+  <circle cx="530" cy="200" r="8" fill="#E76F51"/>
+  <circle cx="440" cy="270" r="7" fill="#E76F51"/>
+  <circle cx="530" cy="380" r="9" fill="#E76F51"/>
+  <circle cx="500" cy="500" r="8" fill="#E76F51"/>
+  <circle cx="580" cy="560" r="7" fill="#E76F51"/>
+  <circle cx="680" cy="120" r="6" fill="#E76F51"/>
+  <!-- Forest green accent shapes -->
+  <rect x="150" y="160" width="35" height="35" fill="#264653" opacity="0.7"/>
+  <rect x="600" y="420" width="30" height="30" fill="#264653" opacity="0.6"/>
+  <circle cx="220" cy="540" r="20" fill="#264653" opacity="0.5"/>
+  <polygon points="700,300 730,340 670,340" fill="#264653" opacity="0.65"/>
+  <rect x="350" y="600" width="40" height="15" fill="#264653" opacity="0.55"/>
+  <!-- Additional small accents for richness -->
+  <circle cx="50" cy="420" r="5" fill="#E63946" opacity="0.5"/>
+  <circle cx="750" cy="150" r="6" fill="#1D3557" opacity="0.5"/>
+  <rect x="200" y="720" width="12" height="12" fill="#F4D35E" opacity="0.6"/>
+  <line x1="460" y1="500" x2="460" y2="560" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="530" y1="480" x2="580" y2="560" stroke="#000000" stroke-width="1" opacity="0.25"/>
+</svg>

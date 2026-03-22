@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Subtle background grid -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Plate 1 - large blue, upper left -->
+  <polygon points="20,20 380,30 350,320 40,280" fill="#1D3557" opacity="0.8"/>
+
+  <!-- Plate 2 - red, upper right -->
+  <polygon points="390,25 780,20 770,260 420,300" fill="#E63946" opacity="0.75"/>
+
+  <!-- Plate 3 - yellow, middle left -->
+  <polygon points="30,290 340,330 310,540 25,510" fill="#F4D35E" opacity="0.8"/>
+
+  <!-- Plate 4 - teal, center -->
+  <polygon points="355,335 760,270 740,520 380,550" fill="#2A9D8F" opacity="0.7"/>
+
+  <!-- Plate 5 - orange, lower left -->
+  <polygon points="20,520 300,550 280,780 18,775" fill="#E76F51" opacity="0.75"/>
+
+  <!-- Plate 6 - steel blue, lower center -->
+  <polygon points="310,560 370,560 390,780 290,785" fill="#457B9D" opacity="0.8"/>
+
+  <!-- Plate 7 - burgundy, lower right -->
+  <polygon points="380,555 730,530 780,780 400,785" fill="#6D2E46" opacity="0.7"/>
+
+  <!-- Fault line dots - between plate 1 and 2 -->
+  <circle cx="385" cy="30" r="3" fill="#000000" opacity="0.5"/>
+  <circle cx="387" cy="100" r="2.5" fill="#000000" opacity="0.5"/>
+  <circle cx="383" cy="170" r="3" fill="#000000" opacity="0.4"/>
+  <circle cx="390" cy="240" r="2.5" fill="#000000" opacity="0.5"/>
+  <circle cx="385" cy="310" r="3" fill="#000000" opacity="0.4"/>
+
+  <!-- Fault line dots - between plate 1 and 3 -->
+  <circle cx="100" cy="285" r="2.5" fill="#000000" opacity="0.5"/>
+  <circle cx="200" cy="300" r="3" fill="#000000" opacity="0.4"/>
+  <circle cx="300" cy="318" r="2.5" fill="#000000" opacity="0.5"/>
+
+  <!-- Fault line dots - between plate 3 and 5 -->
+  <circle cx="35" cy="515" r="3" fill="#000000" opacity="0.4"/>
+  <circle cx="150" cy="535" r="2.5" fill="#000000" opacity="0.5"/>
+  <circle cx="280" cy="548" r="3" fill="#000000" opacity="0.4"/>
+
+  <!-- Fault line dots - between plate 4 and 7 -->
+  <circle cx="450" cy="540" r="3" fill="#000000" opacity="0.5"/>
+  <circle cx="560" cy="530" r="2.5" fill="#000000" opacity="0.4"/>
+  <circle cx="680" cy="525" r="3" fill="#000000" opacity="0.5"/>
+
+  <!-- Fault line dots - horizontal mid -->
+  <circle cx="370" cy="445" r="2" fill="#E63946" opacity="0.6"/>
+  <circle cx="500" cy="400" r="2" fill="#E63946" opacity="0.5"/>
+
+  <!-- Stress marks - small lines along faults -->
+  <line x1="382" y1="55" x2="392" y2="55" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+  <line x1="380" y1="145" x2="395" y2="145" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+  <line x1="35" y1="395" x2="35" y2="410" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+
+  <!-- Corner accents -->
+  <rect x="5" y="5" width="12" height="12" fill="#000000" opacity="0.2"/>
+  <rect x="783" y="5" width="12" height="12" fill="#000000" opacity="0.2"/>
+  <rect x="5" y="783" width="12" height="12" fill="#000000" opacity="0.2"/>
+  <rect x="783" y="783" width="12" height="12" fill="#000000" opacity="0.2"/>
+</svg>

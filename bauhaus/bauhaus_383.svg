@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<!-- Background -->
+<rect width="800" height="800" fill="#FFFFFF"/>
+
+<!-- Subtle grid lines -->
+<line x1="0" y1="200" x2="800" y2="200" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+<line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+<line x1="0" y1="600" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+<line x1="60" y1="0" x2="60" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+
+<!-- Vertical support line on left -->
+<line x1="60" y1="80" x2="60" y2="720" stroke="#000000" stroke-width="4"/>
+
+<!-- Support base -->
+<rect x="40" y="710" width="40" height="10" fill="#000000"/>
+<rect x="40" y="80" width="40" height="10" fill="#000000"/>
+
+<!-- Cantilever beam 1 - top, long blue -->
+<rect x="60" y="120" width="520" height="18" fill="#1D3557" opacity="0.9"/>
+<!-- Circle hanging from end -->
+<circle cx="580" cy="160" r="28" fill="#E63946" opacity="0.8"/>
+<!-- Small yellow accent -->
+<rect x="300" y="105" width="25" height="15" fill="#F4D35E" opacity="0.9"/>
+
+<!-- Cantilever beam 2 - red, medium -->
+<rect x="60" y="200" width="380" height="14" fill="#E63946" opacity="0.85"/>
+<!-- Circle at end -->
+<circle cx="440" cy="230" r="22" fill="#1D3557" opacity="0.75"/>
+<!-- Yellow diamond accent -->
+<rect x="200" y="190" width="12" height="12" fill="#F4D35E" opacity="0.9" transform="rotate(45,206,196)"/>
+
+<!-- Cantilever beam 3 - short steel blue -->
+<rect x="60" y="290" width="220" height="12" fill="#457B9D" opacity="0.8"/>
+<!-- Hanging circle -->
+<circle cx="280" cy="318" r="18" fill="#F4D35E" opacity="0.85"/>
+
+<!-- Cantilever beam 4 - long blue, thicker -->
+<rect x="60" y="370" width="600" height="22" fill="#1D3557" opacity="0.85"/>
+<!-- Large circle at end -->
+<circle cx="660" cy="405" r="35" fill="#F4D35E" opacity="0.8"/>
+<!-- Accent circle on beam -->
+<circle cx="350" cy="381" r="8" fill="#E63946" opacity="0.9"/>
+
+<!-- Cantilever beam 5 - red, medium-short -->
+<rect x="60" y="450" width="300" height="16" fill="#E63946" opacity="0.85"/>
+<!-- Circle pair at end -->
+<circle cx="360" cy="480" r="20" fill="#2A9D8F" opacity="0.8"/>
+<circle cx="360" cy="480" r="10" fill="#FFFFFF" opacity="0.9"/>
+
+<!-- Cantilever beam 6 - thin blue -->
+<rect x="60" y="530" width="480" height="10" fill="#1D3557" opacity="0.7"/>
+<!-- Circle -->
+<circle cx="540" cy="548" r="15" fill="#E76F51" opacity="0.85"/>
+
+<!-- Cantilever beam 7 - yellow accent beam -->
+<rect x="60" y="580" width="160" height="20" fill="#F4D35E" opacity="0.9"/>
+<!-- Black circle -->
+<circle cx="220" cy="605" r="16" fill="#000000" opacity="0.8"/>
+
+<!-- Cantilever beam 8 - bottom, long red -->
+<rect x="60" y="650" width="550" height="15" fill="#E63946" opacity="0.8"/>
+<!-- Circle at end -->
+<circle cx="610" cy="672" r="25" fill="#1D3557" opacity="0.75"/>
+<!-- Yellow square accent -->
+<rect x="400" y="640" width="14" height="14" fill="#F4D35E" opacity="0.9"/>
+
+<!-- Vertical yellow accent bar -->
+<rect x="150" y="150" width="8" height="100" fill="#F4D35E" opacity="0.6"/>
+
+<!-- Diagonal tension line -->
+<line x1="60" y1="120" x2="660" y2="670" stroke="#000000" stroke-width="1" opacity="0.1"/>
+
+<!-- Small accent shapes -->
+<circle cx="100" cy="500" r="5" fill="#E63946" opacity="0.5"/>
+<rect x="80" y="340" width="8" height="8" fill="#F4D35E" opacity="0.6"/>
+<circle cx="120" cy="250" r="4" fill="#000000" opacity="0.4"/>
+
+<!-- Counterweight shapes on left -->
+<rect x="20" y="365" width="40" height="30" fill="#1D3557" opacity="0.3"/>
+<circle cx="40" cy="580" r="12" fill="#E63946" opacity="0.3"/>
+
+<!-- Top-right accent -->
+<circle cx="720" cy="100" r="10" fill="#A89F91" opacity="0.3"/>
+<rect x="710" y="680" width="20" height="20" fill="#000000" opacity="0.15"/>
+
+<!-- Corner markers -->
+<rect x="10" y="10" width="10" height="10" fill="#000000" opacity="0.2"/>
+<rect x="780" y="780" width="10" height="10" fill="#000000" opacity="0.2"/>
+</svg>

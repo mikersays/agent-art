@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Dark background -->
+  <rect x="0" y="0" width="800" height="800" fill="#264653"/>
+  <rect x="0" y="0" width="800" height="800" fill="#1D3557" opacity="0.5"/>
+
+  <!-- Subtle background grid -->
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#457B9D" stroke-width="0.5" opacity="0.08"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#457B9D" stroke-width="0.5" opacity="0.08"/>
+  <line x1="300" y1="0" x2="300" y2="800" stroke="#457B9D" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#457B9D" stroke-width="0.5" opacity="0.08"/>
+  <line x1="500" y1="0" x2="500" y2="800" stroke="#457B9D" stroke-width="0.5" opacity="0.08"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#457B9D" stroke-width="0.5" opacity="0.08"/>
+  <line x1="700" y1="0" x2="700" y2="800" stroke="#457B9D" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Ground blocks at bottom -->
+  <rect x="0" y="680" width="800" height="120" fill="#000000" opacity="0.6"/>
+  <rect x="50" y="660" width="120" height="140" fill="#1D3557" opacity="0.7"/>
+  <rect x="200" y="670" width="100" height="130" fill="#264653" opacity="0.8"/>
+  <rect x="350" y="650" width="140" height="150" fill="#000000" opacity="0.5"/>
+  <rect x="520" y="665" width="110" height="135" fill="#1D3557" opacity="0.6"/>
+  <rect x="660" y="675" width="130" height="125" fill="#264653" opacity="0.7"/>
+
+  <!-- Main lightning bolt 1 - left side -->
+  <polyline points="280,0 260,120 320,180 240,320 310,380 220,520 290,580 230,680"
+            fill="none" stroke="#F4D35E" stroke-width="4" opacity="0.9"/>
+  <polyline points="280,0 260,120 320,180 240,320 310,380 220,520 290,580 230,680"
+            fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Main lightning bolt 2 - right side -->
+  <polyline points="550,0 570,100 510,200 580,280 500,420 560,470 490,600 540,680"
+            fill="none" stroke="#E9C46A" stroke-width="3.5" opacity="0.85"/>
+  <polyline points="550,0 570,100 510,200 580,280 500,420 560,470 490,600 540,680"
+            fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+
+  <!-- Smaller lightning branch from bolt 1 -->
+  <polyline points="240,320 180,400 220,440 170,520"
+            fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.6"/>
+
+  <!-- Smaller lightning branch from bolt 2 -->
+  <polyline points="580,280 640,350 600,410 650,480"
+            fill="none" stroke="#E9C46A" stroke-width="2" opacity="0.55"/>
+
+  <!-- Strike point circles - bolt 1 -->
+  <circle cx="230" cy="680" r="20" fill="#F4D35E" opacity="0.3"/>
+  <circle cx="230" cy="680" r="10" fill="#F4D35E" opacity="0.5"/>
+  <circle cx="230" cy="680" r="4" fill="#FFFFFF" opacity="0.7"/>
+
+  <!-- Strike point circles - bolt 2 -->
+  <circle cx="540" cy="680" r="18" fill="#E9C46A" opacity="0.3"/>
+  <circle cx="540" cy="680" r="9" fill="#E9C46A" opacity="0.5"/>
+  <circle cx="540" cy="680" r="3.5" fill="#FFFFFF" opacity="0.7"/>
+
+  <!-- Scattered small shapes - storm debris/energy -->
+  <rect x="150" y="200" width="6" height="6" fill="#E63946" opacity="0.5" transform="rotate(30 153 203)"/>
+  <rect x="450" y="150" width="5" height="5" fill="#2A9D8F" opacity="0.45" transform="rotate(45 452.5 152.5)"/>
+  <circle cx="380" cy="100" r="3" fill="#E76F51" opacity="0.4"/>
+  <circle cx="680" cy="200" r="4" fill="#F4D35E" opacity="0.35"/>
+  <circle cx="100" cy="350" r="3.5" fill="#E63946" opacity="0.4"/>
+  <rect x="700" y="400" width="7" height="7" fill="#E9C46A" opacity="0.3" transform="rotate(20 703.5 403.5)"/>
+  <circle cx="60" cy="550" r="3" fill="#2A9D8F" opacity="0.35"/>
+  <circle cx="750" cy="550" r="4" fill="#F4D35E" opacity="0.3"/>
+  <polygon points="400,50 405,40 410,50" fill="#E76F51" opacity="0.4"/>
+  <polygon points="130,600 135,590 140,600" fill="#F4D35E" opacity="0.35"/>
+
+  <!-- Cloud-like shapes at top -->
+  <ellipse cx="200" cy="40" rx="80" ry="25" fill="#457B9D" opacity="0.2"/>
+  <ellipse cx="600" cy="30" rx="100" ry="20" fill="#457B9D" opacity="0.15"/>
+  <ellipse cx="400" cy="55" rx="60" ry="18" fill="#1D3557" opacity="0.25"/>
+
+  <!-- Glow effect around bolts -->
+  <line x1="250" y1="180" x2="300" y2="200" stroke="#F4D35E" stroke-width="0.8" opacity="0.2"/>
+  <line x1="560" y1="260" x2="610" y2="290" stroke="#E9C46A" stroke-width="0.8" opacity="0.2"/>
+</svg>

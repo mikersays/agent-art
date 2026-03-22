@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Subtle grid structure -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Connecting lines between diamonds -->
+  <line x1="200" y1="180" x2="380" y2="310" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="380" y1="310" x2="550" y2="200" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="550" y1="200" x2="650" y2="400" stroke="#000000" stroke-width="0.8" opacity="0.2"/>
+  <line x1="300" y1="500" x2="500" y2="580" stroke="#000000" stroke-width="1" opacity="0.3"/>
+  <line x1="150" y1="550" x2="300" y2="500" stroke="#000000" stroke-width="0.8" opacity="0.25"/>
+  <line x1="500" y1="580" x2="680" y2="520" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="200" y1="180" x2="120" y2="380" stroke="#000000" stroke-width="0.8" opacity="0.2"/>
+  <line x1="650" y1="400" x2="680" y2="520" stroke="#000000" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- Large diamonds (background layer) -->
+  <polygon points="400,100 480,200 400,300 320,200" fill="#1D3557" stroke="#000000" stroke-width="1.5" opacity="0.25" transform="rotate(5,400,200)"/>
+  <polygon points="200,350 270,430 200,510 130,430" fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.2" transform="rotate(-3,200,430)"/>
+  <polygon points="620,300 700,400 620,500 540,400" fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.2"/>
+
+  <!-- Medium diamonds (mid layer) -->
+  <polygon points="200,140 250,190 200,240 150,190" fill="#E63946" stroke="#000000" stroke-width="1.5" opacity="0.8"/>
+  <polygon points="550,160 610,220 550,280 490,220" fill="#1D3557" stroke="#000000" stroke-width="1.5" opacity="0.85"/>
+  <polygon points="380,270 430,320 380,370 330,320" fill="#F4D35E" stroke="#000000" stroke-width="2" opacity="0.8"/>
+  <polygon points="120,340 170,390 120,440 70,390" fill="#1D3557" stroke="#000000" stroke-width="1.5" opacity="0.75"/>
+  <polygon points="650,360 710,420 650,480 590,420" fill="#F4D35E" stroke="#000000" stroke-width="1.5" opacity="0.8"/>
+  <polygon points="300,460 360,520 300,580 240,520" fill="#E63946" stroke="#000000" stroke-width="2" opacity="0.85"/>
+  <polygon points="500,540 560,600 500,660 440,600" fill="#1D3557" stroke="#000000" stroke-width="1.5" opacity="0.8"/>
+  <polygon points="150,510 200,560 150,610 100,560" fill="#F4D35E" stroke="#000000" stroke-width="1.5" opacity="0.7"/>
+  <polygon points="680,480 730,530 680,580 630,530" fill="#E63946" stroke="#000000" stroke-width="1.5" opacity="0.75"/>
+
+  <!-- Small diamonds (foreground accents) -->
+  <polygon points="320,120 345,145 320,170 295,145" fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.7"/>
+  <polygon points="460,140 485,165 460,190 435,165" fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <polygon points="700,200 720,220 700,240 680,220" fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.7"/>
+  <polygon points="80,240 105,265 80,290 55,265" fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.6"/>
+  <polygon points="480,400 505,425 480,450 455,425" fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.7"/>
+  <polygon points="250,660 275,685 250,710 225,685" fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.65"/>
+  <polygon points="600,650 625,675 600,700 575,675" fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.6"/>
+  <polygon points="420,700 445,725 420,750 395,725" fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.7"/>
+  <polygon points="100,680 120,700 100,720 80,700" fill="#F4D35E" stroke="#000000" stroke-width="1" opacity="0.55"/>
+  <polygon points="720,100 740,120 720,140 700,120" fill="#E63946" stroke="#000000" stroke-width="1" opacity="0.6"/>
+
+  <!-- Tiny diamonds scattered -->
+  <polygon points="560,80 572,92 560,104 548,92" fill="#2A9D8F" stroke="#000000" stroke-width="0.8" opacity="0.5"/>
+  <polygon points="40,500 52,512 40,524 28,512" fill="#2A9D8F" stroke="#000000" stroke-width="0.8" opacity="0.5"/>
+  <polygon points="760,600" fill="none"/>
+
+  <!-- Circle accents at edges -->
+  <circle cx="50" cy="80" r="18" fill="none" stroke="#E63946" stroke-width="2" opacity="0.5"/>
+  <circle cx="750" cy="80" r="14" fill="none" stroke="#1D3557" stroke-width="2" opacity="0.5"/>
+  <circle cx="750" cy="720" r="20" fill="none" stroke="#F4D35E" stroke-width="2" opacity="0.45"/>
+  <circle cx="50" cy="720" r="16" fill="none" stroke="#E63946" stroke-width="2" opacity="0.5"/>
+  <circle cx="400" cy="50" r="10" fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.4"/>
+  <circle cx="400" cy="750" r="12" fill="#2A9D8F" stroke="#000000" stroke-width="1" opacity="0.4"/>
+  <circle cx="50" cy="400" r="8" fill="#E63946" stroke="none" opacity="0.35"/>
+  <circle cx="750" cy="400" r="8" fill="#1D3557" stroke="none" opacity="0.35"/>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background cream -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Faint diagonal lines -->
+  <line x1="0" y1="0" x2="800" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="100" y1="0" x2="800" y2="700" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="200" y1="0" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="200" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="300" y1="0" x2="800" y2="500" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="400" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.07"/>
+  <line x1="500" y1="0" x2="800" y2="300" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+  <!-- Tall vertical rectangles - organ pipe rhythm -->
+  <rect x="40" y="120" width="35" height="580" fill="#1D3557" opacity="0.9"/>
+  <rect x="90" y="60" width="50" height="680" fill="#E63946" opacity="0.85"/>
+  <rect x="155" y="180" width="28" height="500" fill="#F4D35E" opacity="0.9"/>
+  <rect x="200" y="100" width="45" height="620" fill="#1D3557" opacity="0.7"/>
+  <rect x="260" y="200" width="60" height="480" fill="#E63946" opacity="0.9"/>
+  <rect x="335" y="50" width="30" height="700" fill="#F4D35E" opacity="0.85"/>
+  <rect x="380" y="150" width="55" height="550" fill="#1D3557" opacity="0.8"/>
+  <rect x="450" y="90" width="40" height="630" fill="#E63946" opacity="0.75"/>
+  <rect x="505" y="220" width="25" height="440" fill="#F4D35E" opacity="0.9"/>
+  <rect x="545" y="70" width="48" height="660" fill="#1D3557" opacity="0.85"/>
+  <rect x="610" y="160" width="55" height="520" fill="#E63946" opacity="0.9"/>
+  <rect x="680" y="110" width="32" height="600" fill="#F4D35E" opacity="0.8"/>
+  <rect x="725" y="190" width="45" height="490" fill="#1D3557" opacity="0.9"/>
+  <!-- Thin horizontal warm gray lines -->
+  <line x1="20" y1="180" x2="780" y2="180" stroke="#A89F91" stroke-width="1.5" opacity="0.5"/>
+  <line x1="30" y1="300" x2="770" y2="300" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
+  <line x1="50" y1="450" x2="750" y2="450" stroke="#A89F91" stroke-width="2" opacity="0.45"/>
+  <line x1="10" y1="550" x2="790" y2="550" stroke="#A89F91" stroke-width="1" opacity="0.35"/>
+  <line x1="60" y1="650" x2="740" y2="650" stroke="#A89F91" stroke-width="1.5" opacity="0.4"/>
+  <!-- Bold black horizontal bar across middle -->
+  <rect x="0" y="385" width="800" height="30" fill="#000000" opacity="0.9"/>
+  <!-- Small teal circles between bars -->
+  <circle cx="78" cy="350" r="8" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="180" cy="500" r="6" fill="#2A9D8F" opacity="0.7"/>
+  <circle cx="245" cy="250" r="10" fill="#2A9D8F" opacity="0.85"/>
+  <circle cx="330" cy="600" r="7" fill="#2A9D8F" opacity="0.75"/>
+  <circle cx="440" cy="300" r="9" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="535" cy="520" r="6" fill="#2A9D8F" opacity="0.7"/>
+  <circle cx="605" cy="280" r="11" fill="#2A9D8F" opacity="0.85"/>
+  <circle cx="670" cy="470" r="8" fill="#2A9D8F" opacity="0.75"/>
+  <circle cx="760" cy="340" r="7" fill="#2A9D8F" opacity="0.8"/>
+  <circle cx="150" cy="680" r="5" fill="#2A9D8F" opacity="0.65"/>
+  <circle cx="490" cy="150" r="9" fill="#2A9D8F" opacity="0.8"/>
+  <!-- Corner accents -->
+  <rect x="10" y="10" width="15" height="15" fill="#000000" opacity="0.6"/>
+  <rect x="775" y="10" width="15" height="15" fill="#000000" opacity="0.6"/>
+  <rect x="10" y="775" width="15" height="15" fill="#E63946" opacity="0.6"/>
+  <rect x="775" y="775" width="15" height="15" fill="#F4D35E" opacity="0.6"/>
+</svg>

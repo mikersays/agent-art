@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Water area below bridge -->
+  <rect x="0" y="520" width="800" height="280" fill="#A8DADC" opacity="0.3"/>
+  <rect x="0" y="560" width="800" height="240" fill="#457B9D" opacity="0.15"/>
+  <rect x="0" y="620" width="800" height="180" fill="#1D3557" opacity="0.1"/>
+
+  <!-- Water ripple lines -->
+  <line x1="50" y1="580" x2="250" y2="580" stroke="#1D3557" stroke-width="1" opacity="0.15"/>
+  <line x1="300" y1="610" x2="550" y2="610" stroke="#1D3557" stroke-width="0.8" opacity="0.12"/>
+  <line x1="100" y1="650" x2="400" y2="650" stroke="#457B9D" stroke-width="0.8" opacity="0.1"/>
+  <line x1="450" y1="670" x2="700" y2="670" stroke="#457B9D" stroke-width="1" opacity="0.1"/>
+  <line x1="200" y1="710" x2="600" y2="710" stroke="#1D3557" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Bridge pillars -->
+  <rect x="120" y="300" width="30" height="250" fill="#A89F91" opacity="0.9"/>
+  <rect x="350" y="280" width="35" height="270" fill="#A89F91" opacity="0.9"/>
+  <rect x="600" y="300" width="30" height="250" fill="#A89F91" opacity="0.9"/>
+
+  <!-- Pillar bases in water -->
+  <rect x="110" y="520" width="50" height="30" fill="#A89F91" opacity="0.7"/>
+  <rect x="340" y="520" width="55" height="30" fill="#A89F91" opacity="0.7"/>
+  <rect x="590" y="520" width="50" height="30" fill="#A89F91" opacity="0.7"/>
+
+  <!-- Main bridge deck - horizontal structural elements -->
+  <rect x="0" y="290" width="800" height="12" fill="#457B9D" opacity="0.95"/>
+  <rect x="0" y="310" width="800" height="8" fill="#1D3557" opacity="0.8"/>
+  <rect x="0" y="325" width="800" height="5" fill="#457B9D" opacity="0.6"/>
+
+  <!-- Upper railing -->
+  <rect x="0" y="270" width="800" height="4" fill="#000000" opacity="0.7"/>
+
+  <!-- Truss patterns - triangles below deck -->
+  <polygon points="120,330 200,480 40,480" fill="none" stroke="#A89F91" stroke-width="2.5" opacity="0.7"/>
+  <polygon points="200,330 280,480 120,480" fill="none" stroke="#A89F91" stroke-width="2" opacity="0.5"/>
+  <polygon points="350,330 430,480 270,480" fill="none" stroke="#A89F91" stroke-width="2.5" opacity="0.7"/>
+  <polygon points="430,330 510,480 350,480" fill="none" stroke="#A89F91" stroke-width="2" opacity="0.5"/>
+  <polygon points="600,330 680,480 520,480" fill="none" stroke="#A89F91" stroke-width="2.5" opacity="0.7"/>
+  <polygon points="680,330 760,480 600,480" fill="none" stroke="#A89F91" stroke-width="2" opacity="0.5"/>
+
+  <!-- Diagonal truss lines -->
+  <line x1="40" y1="330" x2="120" y2="500" stroke="#A89F91" stroke-width="1.5" opacity="0.4"/>
+  <line x1="270" y1="330" x2="350" y2="500" stroke="#A89F91" stroke-width="1.5" opacity="0.4"/>
+  <line x1="510" y1="330" x2="600" y2="500" stroke="#A89F91" stroke-width="1.5" opacity="0.4"/>
+  <line x1="760" y1="330" x2="800" y2="420" stroke="#A89F91" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Red accent circles at connection points -->
+  <circle cx="135" cy="300" r="8" fill="#E63946" opacity="0.9"/>
+  <circle cx="367" cy="290" r="9" fill="#E63946" opacity="0.9"/>
+  <circle cx="615" cy="300" r="8" fill="#E63946" opacity="0.9"/>
+  <circle cx="120" cy="480" r="6" fill="#E63946" opacity="0.7"/>
+  <circle cx="350" cy="480" r="6" fill="#E63946" opacity="0.7"/>
+  <circle cx="600" cy="480" r="6" fill="#E63946" opacity="0.7"/>
+
+  <!-- Small structural details on deck -->
+  <rect x="50" y="278" width="3" height="12" fill="#000000" opacity="0.5"/>
+  <rect x="100" y="278" width="3" height="12" fill="#000000" opacity="0.5"/>
+  <rect x="180" y="278" width="3" height="12" fill="#000000" opacity="0.5"/>
+  <rect x="260" y="278" width="3" height="12" fill="#000000" opacity="0.5"/>
+  <rect x="440" y="278" width="3" height="12" fill="#000000" opacity="0.5"/>
+  <rect x="520" y="278" width="3" height="12" fill="#000000" opacity="0.5"/>
+  <rect x="680" y="278" width="3" height="12" fill="#000000" opacity="0.5"/>
+  <rect x="750" y="278" width="3" height="12" fill="#000000" opacity="0.5"/>
+
+  <!-- Sky accent shapes -->
+  <circle cx="680" cy="80" r="40" fill="#F4D35E" opacity="0.2"/>
+  <circle cx="680" cy="80" r="25" fill="#F4D35E" opacity="0.3"/>
+  <rect x="30" y="100" width="60" height="4" fill="#A89F91" opacity="0.15"/>
+  <rect x="200" y="150" width="80" height="3" fill="#A89F91" opacity="0.1"/>
+</svg>

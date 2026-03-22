@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Subtle background structure lines -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.07"/>
+
+  <!-- Nested squares: each rotated progressively more, alternating colors -->
+  <!-- Square 1: outermost, Black outline, 0 deg -->
+  <rect x="80" y="80" width="640" height="640" fill="none" stroke="#000000" stroke-width="3" opacity="0.80"/>
+
+  <!-- Square 2: Red fill, rotated 7 deg -->
+  <rect x="108" y="108" width="584" height="584" fill="#E63946" opacity="0.22" stroke="#E63946" stroke-width="2.5"
+    transform="rotate(7 400 400)"/>
+
+  <!-- Square 3: Blue fill, rotated 14 deg -->
+  <rect x="136" y="136" width="528" height="528" fill="#1D3557" opacity="0.22" stroke="#1D3557" stroke-width="2.5"
+    transform="rotate(14 400 400)"/>
+
+  <!-- Square 4: Yellow fill, rotated 21 deg -->
+  <rect x="164" y="164" width="472" height="472" fill="#F4D35E" opacity="0.30" stroke="#F4D35E" stroke-width="2.5"
+    transform="rotate(21 400 400)"/>
+
+  <!-- Square 5: Teal fill, rotated 28 deg -->
+  <rect x="192" y="192" width="416" height="416" fill="#2A9D8F" opacity="0.25" stroke="#2A9D8F" stroke-width="2.5"
+    transform="rotate(28 400 400)"/>
+
+  <!-- Square 6: Orange fill, rotated 35 deg -->
+  <rect x="220" y="220" width="360" height="360" fill="#E76F51" opacity="0.22" stroke="#E76F51" stroke-width="2.5"
+    transform="rotate(35 400 400)"/>
+
+  <!-- Square 7: Steel Blue fill, rotated 42 deg -->
+  <rect x="248" y="248" width="304" height="304" fill="#457B9D" opacity="0.25" stroke="#457B9D" stroke-width="2.5"
+    transform="rotate(42 400 400)"/>
+
+  <!-- Square 8: Burgundy outline, rotated 45 deg (diamond) -->
+  <rect x="276" y="276" width="248" height="248" fill="none" stroke="#6D2E46" stroke-width="2"
+    transform="rotate(45 400 400)"/>
+
+  <!-- Square 9: innermost Red, rotated 50 deg -->
+  <rect x="310" y="310" width="180" height="180" fill="#E63946" opacity="0.35" stroke="#000000" stroke-width="2"
+    transform="rotate(50 400 400)"/>
+
+  <!-- Square 10: innermost Blue solid, rotated 55 deg -->
+  <rect x="340" y="340" width="120" height="120" fill="#1D3557" opacity="0.55" stroke="#1D3557" stroke-width="2"
+    transform="rotate(55 400 400)"/>
+
+  <!-- Center square: Yellow -->
+  <rect x="365" y="365" width="70" height="70" fill="#F4D35E" stroke="#000000" stroke-width="2"
+    transform="rotate(60 400 400)"/>
+
+  <!-- Center dot -->
+  <circle cx="400" cy="400" r="12" fill="#000000"/>
+  <circle cx="400" cy="400" r="6" fill="#FEFAE0"/>
+
+  <!-- Corner small circles at outermost square corners -->
+  <circle cx="80" cy="80" r="10" fill="#E63946"/>
+  <circle cx="720" cy="80" r="10" fill="#1D3557"/>
+  <circle cx="80" cy="720" r="10" fill="#2A9D8F"/>
+  <circle cx="720" cy="720" r="10" fill="#F4D35E" stroke="#000000" stroke-width="1"/>
+
+  <!-- Mid-ring corner accents (rotated square 2 corners approx) -->
+  <circle cx="331" cy="109" r="7" fill="#E63946" opacity="0.80"/>
+  <circle cx="469" cy="109" r="7" fill="#E63946" opacity="0.80"/>
+  <circle cx="691" cy="331" r="7" fill="#1D3557" opacity="0.80"/>
+  <circle cx="691" cy="469" r="7" fill="#1D3557" opacity="0.80"/>
+  <circle cx="469" cy="691" r="7" fill="#2A9D8F" opacity="0.80"/>
+  <circle cx="331" cy="691" r="7" fill="#2A9D8F" opacity="0.80"/>
+  <circle cx="109" cy="469" r="7" fill="#F4D35E" opacity="0.90"/>
+  <circle cx="109" cy="331" r="7" fill="#F4D35E" opacity="0.90"/>
+
+  <!-- Thin diagonal tension lines -->
+  <line x1="80" y1="80" x2="720" y2="720" stroke="#000000" stroke-width="1" opacity="0.08"/>
+  <line x1="720" y1="80" x2="80" y2="720" stroke="#000000" stroke-width="1" opacity="0.08"/>
+
+  <!-- Small accent rects at page corners -->
+  <rect x="0" y="0" width="40" height="8" fill="#E63946" opacity="0.50"/>
+  <rect x="0" y="0" width="8" height="40" fill="#E63946" opacity="0.50"/>
+  <rect x="760" y="0" width="40" height="8" fill="#1D3557" opacity="0.50"/>
+  <rect x="792" y="0" width="8" height="40" fill="#1D3557" opacity="0.50"/>
+  <rect x="0" y="792" width="8" height="8" fill="#2A9D8F" opacity="0.60"/>
+  <rect x="792" y="792" width="8" height="8" fill="#F4D35E" opacity="0.60"/>
+</svg>

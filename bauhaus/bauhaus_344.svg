@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Cream background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Thin warm gray lines above the band -->
+  <line x1="0" y1="50" x2="800" y2="50" stroke="#A89F91" stroke-width="0.5" opacity="0.4"/>
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="150" x2="800" y2="150" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <!-- Thin warm gray lines below the band -->
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="650" x2="800" y2="650" stroke="#A89F91" stroke-width="0.5" opacity="0.2"/>
+  <line x1="0" y1="700" x2="800" y2="700" stroke="#A89F91" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="750" x2="800" y2="750" stroke="#A89F91" stroke-width="0.5" opacity="0.4"/>
+  <!-- Bold black horizontal lines at band edges -->
+  <line x1="0" y1="250" x2="800" y2="250" stroke="#000000" stroke-width="4"/>
+  <line x1="0" y1="550" x2="800" y2="550" stroke="#000000" stroke-width="4"/>
+  <!-- Dense band: overlapping circles in blue and teal -->
+  <circle cx="80" cy="350" r="60" fill="#1D3557" opacity="0.5"/>
+  <circle cx="180" cy="400" r="70" fill="#2A9D8F" opacity="0.4"/>
+  <circle cx="300" cy="370" r="55" fill="#1D3557" opacity="0.45"/>
+  <circle cx="420" cy="420" r="65" fill="#2A9D8F" opacity="0.5"/>
+  <circle cx="550" cy="360" r="50" fill="#1D3557" opacity="0.4"/>
+  <circle cx="670" cy="400" r="75" fill="#2A9D8F" opacity="0.35"/>
+  <circle cx="140" cy="450" r="40" fill="#457B9D" opacity="0.4"/>
+  <circle cx="500" cy="300" r="45" fill="#1D3557" opacity="0.3"/>
+  <!-- Rectangles in red and yellow -->
+  <rect x="50" y="280" width="100" height="60" fill="#E63946" opacity="0.6"/>
+  <rect x="200" y="320" width="80" height="80" fill="#F4D35E" opacity="0.55"/>
+  <rect x="350" y="270" width="120" height="50" fill="#E63946" opacity="0.5"/>
+  <rect x="520" y="450" width="90" height="70" fill="#F4D35E" opacity="0.6"/>
+  <rect x="680" y="290" width="70" height="100" fill="#E63946" opacity="0.45"/>
+  <rect x="400" y="480" width="110" height="50" fill="#F4D35E" opacity="0.5"/>
+  <!-- Triangles in forest and black -->
+  <polygon points="250,280 300,350 200,350" fill="#264653" opacity="0.6"/>
+  <polygon points="600,300 650,380 550,380" fill="#000000" opacity="0.4"/>
+  <polygon points="100,480 150,530 50,530" fill="#264653" opacity="0.5"/>
+  <polygon points="720,480 770,530 670,530" fill="#000000" opacity="0.35"/>
+  <!-- Coral and sand accents -->
+  <circle cx="350" cy="500" r="20" fill="#E9C46A" opacity="0.7"/>
+  <circle cx="600" cy="520" r="15" fill="#DDA15E" opacity="0.6"/>
+  <rect x="150" y="500" width="40" height="30" fill="#E9C46A" opacity="0.5"/>
+  <!-- Small burgundy squares escaping the band -->
+  <rect x="120" y="220" width="18" height="18" fill="#6D2E46" opacity="0.7"/>
+  <rect x="400" y="560" width="16" height="16" fill="#6D2E46" opacity="0.7"/>
+  <rect x="650" y="230" width="14" height="14" fill="#6D2E46" opacity="0.7"/>
+  <rect x="300" y="570" width="20" height="20" fill="#6D2E46" opacity="0.6"/>
+  <rect x="550" y="210" width="12" height="12" fill="#6D2E46" opacity="0.8"/>
+  <rect x="80" y="580" width="15" height="15" fill="#6D2E46" opacity="0.65"/>
+  <rect x="720" y="575" width="17" height="17" fill="#6D2E46" opacity="0.7"/>
+</svg>

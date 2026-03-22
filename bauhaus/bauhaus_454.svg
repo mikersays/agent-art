@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+  <!-- Grid of thin black lines at 0.1 opacity -->
+  <line x1="80" y1="0" x2="80" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="160" y1="0" x2="160" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="320" y1="0" x2="320" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="480" y1="0" x2="480" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="560" y1="0" x2="560" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="640" y1="0" x2="640" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="720" y1="0" x2="720" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="240" x2="800" y2="240" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <line x1="0" y1="720" x2="800" y2="720" stroke="#000000" stroke-width="0.5" opacity="0.1"/>
+  <!-- Concentric circles centered slightly right of middle -->
+  <circle cx="450" cy="400" r="300" fill="#1D3557" opacity="0.7"/>
+  <circle cx="450" cy="400" r="250" fill="#FEFAE0" opacity="0.8"/>
+  <circle cx="450" cy="400" r="200" fill="#E63946" opacity="0.65"/>
+  <circle cx="450" cy="400" r="155" fill="#F4D35E" opacity="0.75"/>
+  <circle cx="450" cy="400" r="110" fill="#2A9D8F" opacity="0.7"/>
+  <circle cx="450" cy="400" r="70" fill="#1D3557" opacity="0.6"/>
+  <circle cx="450" cy="400" r="35" fill="#FEFAE0" opacity="0.9"/>
+  <!-- Bold orange rectangles breaking through circles on left -->
+  <rect x="30" y="280" width="250" height="60" fill="#E76F51" opacity="0.9"/>
+  <rect x="60" y="400" width="200" height="50" fill="#E76F51" opacity="0.85"/>
+  <rect x="80" y="510" width="180" height="45" fill="#E76F51" opacity="0.8"/>
+  <rect x="20" y="180" width="160" height="40" fill="#E76F51" opacity="0.7"/>
+  <!-- Small coral dots forming an arc in upper left -->
+  <circle cx="80" cy="80" r="8" fill="#E9C46A" opacity="0.85"/>
+  <circle cx="120" cy="60" r="7" fill="#E9C46A" opacity="0.8"/>
+  <circle cx="165" cy="50" r="9" fill="#E9C46A" opacity="0.85"/>
+  <circle cx="210" cy="55" r="6" fill="#E9C46A" opacity="0.75"/>
+  <circle cx="255" cy="70" r="8" fill="#E9C46A" opacity="0.8"/>
+  <circle cx="295" cy="95" r="7" fill="#E9C46A" opacity="0.85"/>
+  <circle cx="325" cy="130" r="9" fill="#E9C46A" opacity="0.8"/>
+  <circle cx="345" cy="170" r="6" fill="#E9C46A" opacity="0.75"/>
+  <circle cx="50" cy="110" r="7" fill="#E9C46A" opacity="0.8"/>
+  <!-- Accent: small black circle at center -->
+  <circle cx="450" cy="400" r="12" fill="#000000" opacity="0.9"/>
+</svg>

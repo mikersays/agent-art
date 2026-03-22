@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Background grid lines at very low opacity -->
+  <line x1="0" y1="0" x2="800" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="100" y1="0" x2="800" y2="700" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="200" y1="0" x2="800" y2="600" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="100" x2="700" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="200" x2="600" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="300" y1="0" x2="800" y2="500" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="300" x2="500" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="400" y1="0" x2="800" y2="400" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="400" x2="400" y2="800" stroke="#000000" stroke-width="0.5" opacity="0.06"/>
+
+  <!-- Strong diagonal lines -->
+  <line x1="50" y1="30" x2="770" y2="750" stroke="#000000" stroke-width="4" opacity="0.85"/>
+  <line x1="120" y1="0" x2="800" y2="680" stroke="#1D3557" stroke-width="3" opacity="0.7"/>
+  <line x1="0" y1="180" x2="620" y2="800" stroke="#E63946" stroke-width="2.5" opacity="0.6"/>
+  <line x1="250" y1="0" x2="800" y2="550" stroke="#000000" stroke-width="1.5" opacity="0.5"/>
+  <line x1="0" y1="350" x2="450" y2="800" stroke="#264653" stroke-width="2" opacity="0.4"/>
+
+  <!-- Large red rectangle - top right area, asymmetric -->
+  <rect x="420" y="80" width="300" height="180" fill="#E63946" opacity="0.85"/>
+
+  <!-- Large blue rectangle - bottom left area -->
+  <rect x="60" y="500" width="260" height="200" fill="#1D3557" opacity="0.8"/>
+
+  <!-- Medium yellow rectangle overlapping -->
+  <rect x="340" y="350" width="150" height="120" fill="#F4D35E" opacity="0.75"/>
+
+  <!-- Teal accent rectangle -->
+  <rect x="550" y="450" width="120" height="80" fill="#2A9D8F" opacity="0.6"/>
+
+  <!-- Black structural rectangle -->
+  <rect x="150" y="280" width="100" height="160" fill="#000000" opacity="0.3"/>
+
+  <!-- Small yellow circles scattered along diagonals -->
+  <circle cx="130" cy="110" r="12" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="250" cy="230" r="9" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="370" cy="350" r="14" fill="#F4D35E" opacity="0.8"/>
+  <circle cx="500" cy="480" r="10" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="620" cy="600" r="11" fill="#F4D35E" opacity="0.85"/>
+  <circle cx="720" cy="700" r="8" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="190" cy="150" r="7" fill="#E9C46A" opacity="0.7"/>
+  <circle cx="440" cy="400" r="6" fill="#E9C46A" opacity="0.75"/>
+  <circle cx="560" cy="530" r="8" fill="#E9C46A" opacity="0.7"/>
+
+  <!-- Corner accents -->
+  <rect x="10" y="10" width="30" height="30" fill="#000000" opacity="0.6"/>
+  <rect x="760" y="760" width="30" height="30" fill="#E63946" opacity="0.7"/>
+  <rect x="760" y="10" width="25" height="25" fill="#1D3557" opacity="0.5"/>
+  <rect x="10" y="765" width="25" height="25" fill="#F4D35E" opacity="0.6"/>
+
+  <!-- Additional diagonal accent lines -->
+  <line x1="500" y1="150" x2="700" y2="350" stroke="#E76F51" stroke-width="2" opacity="0.5"/>
+  <line x1="80" y1="550" x2="280" y2="750" stroke="#457B9D" stroke-width="1.5" opacity="0.45"/>
+
+  <!-- Small accent shapes along edges -->
+  <circle cx="400" cy="20" r="5" fill="#E63946" opacity="0.6"/>
+  <circle cx="20" cy="400" r="5" fill="#1D3557" opacity="0.6"/>
+  <circle cx="780" cy="400" r="5" fill="#2A9D8F" opacity="0.6"/>
+  <circle cx="400" cy="780" r="5" fill="#E76F51" opacity="0.6"/>
+
+  <!-- Thin structural lines crossing the diagonals -->
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.15"/>
+</svg>

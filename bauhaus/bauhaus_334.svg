@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Cream background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Thin lines connecting rectangle corners to canvas edges -->
+  <line x1="0" y1="0" x2="250" y2="180" stroke="#000000" stroke-width="0.8" opacity="0.12"/>
+  <line x1="800" y1="0" x2="580" y2="150" stroke="#000000" stroke-width="0.8" opacity="0.12"/>
+  <line x1="0" y1="800" x2="200" y2="550" stroke="#000000" stroke-width="0.8" opacity="0.12"/>
+  <line x1="800" y1="800" x2="600" y2="600" stroke="#000000" stroke-width="0.8" opacity="0.12"/>
+  <line x1="400" y1="0" x2="350" y2="200" stroke="#000000" stroke-width="0.8" opacity="0.1"/>
+  <line x1="0" y1="400" x2="180" y2="350" stroke="#000000" stroke-width="0.8" opacity="0.1"/>
+  <line x1="800" y1="400" x2="620" y2="420" stroke="#000000" stroke-width="0.8" opacity="0.1"/>
+  <line x1="400" y1="800" x2="420" y2="600" stroke="#000000" stroke-width="0.8" opacity="0.1"/>
+  <!-- Rect 1: Red, rotated 10deg -->
+  <rect x="175" y="175" width="250" height="350" fill="#E63946" opacity="0.5" transform="rotate(10, 300, 350)"/>
+  <!-- Rect 2: Blue, rotated -15deg -->
+  <rect x="280" y="200" width="250" height="350" fill="#1D3557" opacity="0.5" transform="rotate(-15, 405, 375)"/>
+  <!-- Rect 3: Yellow, rotated 5deg -->
+  <rect x="350" y="220" width="250" height="350" fill="#F4D35E" opacity="0.5" transform="rotate(5, 475, 395)"/>
+  <!-- Small black triangles as punctuation -->
+  <polygon points="100,100 120,100 110,80" fill="#000000"/>
+  <polygon points="700,120 720,120 710,100" fill="#000000"/>
+  <polygon points="80,650 100,650 90,630" fill="#000000"/>
+  <polygon points="720,680 740,680 730,660" fill="#000000"/>
+  <polygon points="400,60 415,60 407,42" fill="#000000"/>
+  <polygon points="50,400 68,400 59,382" fill="#000000"/>
+  <polygon points="750,380 768,380 759,362" fill="#000000"/>
+  <!-- Small black circles as punctuation -->
+  <circle cx="150" cy="500" r="8" fill="#000000"/>
+  <circle cx="680" cy="200" r="6" fill="#000000"/>
+  <circle cx="650" cy="550" r="7" fill="#000000"/>
+  <circle cx="200" cy="720" r="5" fill="#000000"/>
+  <circle cx="580" cy="730" r="6" fill="#000000"/>
+  <!-- Teal dots at centers of rectangles -->
+  <circle cx="300" cy="350" r="10" fill="#2A9D8F" opacity="0.8" transform="rotate(10, 300, 350)"/>
+  <circle cx="405" cy="375" r="10" fill="#2A9D8F" opacity="0.8" transform="rotate(-15, 405, 375)"/>
+  <circle cx="475" cy="395" r="10" fill="#2A9D8F" opacity="0.8" transform="rotate(5, 475, 395)"/>
+  <!-- Forest accent shapes -->
+  <rect x="30" y="30" width="40" height="40" fill="#264653" opacity="0.5"/>
+  <rect x="730" y="30" width="40" height="40" fill="#264653" opacity="0.5"/>
+  <rect x="30" y="730" width="40" height="40" fill="#264653" opacity="0.5"/>
+  <rect x="730" y="730" width="40" height="40" fill="#264653" opacity="0.5"/>
+  <circle cx="400" cy="750" r="15" fill="#264653" opacity="0.4"/>
+  <!-- Additional accent elements -->
+  <line x1="100" y1="300" x2="100" y2="500" stroke="#E76F51" stroke-width="2" opacity="0.4"/>
+  <line x1="700" y1="300" x2="700" y2="500" stroke="#E76F51" stroke-width="2" opacity="0.4"/>
+  <circle cx="400" cy="50" r="12" fill="#DDA15E" opacity="0.5"/>
+</svg>

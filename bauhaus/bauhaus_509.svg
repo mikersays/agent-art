@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFFFFF"/>
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="600" x2="800" y2="600" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="200" y1="0" x2="200" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <line x1="600" y1="0" x2="600" y2="800" stroke="#A89F91" stroke-width="0.5" opacity="0.08"/>
+  <!-- Large overlapping rotated rectangles -->
+  <rect x="80" y="100" width="400" height="300" fill="#1D3557" opacity="0.55" transform="rotate(12 280 250)"/>
+  <rect x="250" y="200" width="380" height="280" fill="#E63946" opacity="0.5" transform="rotate(-8 440 340)"/>
+  <rect x="150" y="350" width="350" height="250" fill="#FEFAE0" opacity="0.7" transform="rotate(18 325 475)"/>
+  <rect x="350" y="80" width="320" height="350" fill="#457B9D" opacity="0.5" transform="rotate(-15 510 255)"/>
+  <rect x="100" y="450" width="450" height="220" fill="#1D3557" opacity="0.45" transform="rotate(10 325 560)"/>
+  <rect x="400" y="400" width="300" height="300" fill="#E63946" opacity="0.5" transform="rotate(-20 550 550)"/>
+  <rect x="50" y="50" width="250" height="200" fill="#FEFAE0" opacity="0.6" transform="rotate(25 175 150)"/>
+  <rect x="500" y="500" width="250" height="200" fill="#457B9D" opacity="0.55" transform="rotate(15 625 600)"/>
+  <!-- Thin orange accent lines -->
+  <line x1="100" y1="50" x2="700" y2="150" stroke="#E76F51" stroke-width="1.5" opacity="0.7"/>
+  <line x1="50" y1="400" x2="750" y2="350" stroke="#E76F51" stroke-width="1" opacity="0.6"/>
+  <line x1="200" y1="700" x2="650" y2="600" stroke="#E76F51" stroke-width="1.5" opacity="0.65"/>
+  <line x1="500" y1="50" x2="600" y2="750" stroke="#E76F51" stroke-width="0.8" opacity="0.5"/>
+  <!-- Small black squares at corners of planes -->
+  <rect x="78" y="98" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(12 83 103)"/>
+  <rect x="248" y="198" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(-8 253 203)"/>
+  <rect x="620" y="470" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(-8 625 475)"/>
+  <rect x="148" y="348" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(18 153 353)"/>
+  <rect x="660" y="420" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(-15 665 425)"/>
+  <rect x="98" y="448" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(10 103 453)"/>
+  <rect x="690" y="690" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(-20 695 695)"/>
+  <rect x="48" y="48" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(25 53 53)"/>
+  <rect x="740" y="690" width="10" height="10" fill="#000000" opacity="0.8" transform="rotate(15 745 695)"/>
+  <!-- Additional small accent squares -->
+  <rect x="350" y="200" width="8" height="8" fill="#000000" opacity="0.6"/>
+  <rect x="550" y="550" width="8" height="8" fill="#000000" opacity="0.6"/>
+  <rect x="180" y="600" width="8" height="8" fill="#000000" opacity="0.6"/>
+</svg>

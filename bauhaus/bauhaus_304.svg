@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Horizontal lines in warm gray -->
+  <line x1="0" y1="120" x2="800" y2="120" stroke="#A89F91" stroke-width="1.5" opacity="0.5"/>
+  <line x1="0" y1="250" x2="800" y2="250" stroke="#A89F91" stroke-width="2" opacity="0.4"/>
+  <line x1="0" y1="380" x2="800" y2="380" stroke="#A89F91" stroke-width="1" opacity="0.45"/>
+  <line x1="0" y1="510" x2="800" y2="510" stroke="#A89F91" stroke-width="1.5" opacity="0.5"/>
+  <line x1="0" y1="640" x2="800" y2="640" stroke="#A89F91" stroke-width="2" opacity="0.35"/>
+  <line x1="0" y1="750" x2="800" y2="750" stroke="#A89F91" stroke-width="1" opacity="0.4"/>
+  <!-- Nested squares rotated at center -->
+  <rect x="200" y="200" width="400" height="400" fill="#E63946" opacity="0.3" transform="rotate(2, 400, 400)"/>
+  <rect x="240" y="240" width="320" height="320" fill="#1D3557" opacity="0.4" transform="rotate(-5, 400, 400)"/>
+  <rect x="280" y="280" width="240" height="240" fill="#F4D35E" opacity="0.5" transform="rotate(8, 400, 400)"/>
+  <rect x="320" y="320" width="160" height="160" fill="#2A9D8F" opacity="0.6" transform="rotate(-3, 400, 400)"/>
+  <rect x="360" y="360" width="80" height="80" fill="#000000" opacity="0.7" transform="rotate(12, 400, 400)"/>
+  <!-- Large forest triangle anchored at bottom-left -->
+  <polygon points="0,800 0,500 280,800" fill="#264653" opacity="0.75"/>
+  <!-- Cluster of small circles spilling from the right side -->
+  <circle cx="700" cy="300" r="12" fill="#E76F51" opacity="0.85"/>
+  <circle cx="730" cy="260" r="8" fill="#E9C46A" opacity="0.8"/>
+  <circle cx="750" cy="320" r="10" fill="#E76F51" opacity="0.9"/>
+  <circle cx="680" cy="350" r="7" fill="#E9C46A" opacity="0.75"/>
+  <circle cx="720" cy="380" r="11" fill="#E76F51" opacity="0.8"/>
+  <circle cx="760" cy="280" r="6" fill="#E9C46A" opacity="0.85"/>
+  <circle cx="690" cy="280" r="9" fill="#E76F51" opacity="0.7"/>
+  <circle cx="740" cy="350" r="5" fill="#E9C46A" opacity="0.9"/>
+  <circle cx="770" cy="360" r="8" fill="#E76F51" opacity="0.75"/>
+  <circle cx="660" cy="320" r="10" fill="#E9C46A" opacity="0.8"/>
+  <circle cx="710" cy="240" r="7" fill="#E76F51" opacity="0.85"/>
+  <circle cx="750" cy="400" r="9" fill="#E9C46A" opacity="0.7"/>
+  <circle cx="680" cy="400" r="6" fill="#E76F51" opacity="0.8"/>
+  <circle cx="730" cy="420" r="11" fill="#E9C46A" opacity="0.75"/>
+  <circle cx="770" cy="240" r="5" fill="#E76F51" opacity="0.9"/>
+  <!-- Additional accent elements -->
+  <circle cx="620" cy="150" r="18" fill="#E63946" opacity="0.4"/>
+  <circle cx="180" cy="680" r="15" fill="#F4D35E" opacity="0.5"/>
+  <rect x="600" y="600" width="45" height="45" fill="#457B9D" opacity="0.4" transform="rotate(20, 622, 622)"/>
+  <rect x="100" y="100" width="35" height="35" fill="#1D3557" opacity="0.35" transform="rotate(-10, 117, 117)"/>
+  <line x1="500" y1="0" x2="800" y2="200" stroke="#000000" stroke-width="1" opacity="0.2"/>
+  <line x1="0" y1="400" x2="200" y2="600" stroke="#000000" stroke-width="1" opacity="0.15"/>
+</svg>

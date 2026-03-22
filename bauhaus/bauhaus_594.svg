@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Sky background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+  <rect x="0" y="0" width="800" height="520" fill="#A8DADC" opacity="0.2"/>
+
+  <!-- Water below -->
+  <rect x="0" y="580" width="800" height="220" fill="#1D3557" opacity="0.3"/>
+  <rect x="0" y="620" width="800" height="180" fill="#1D3557" opacity="0.2"/>
+  <rect x="0" y="660" width="800" height="140" fill="#457B9D" opacity="0.15"/>
+  <!-- Water ripple lines -->
+  <line x1="50" y1="640" x2="200" y2="640" stroke="#A8DADC" stroke-width="1" opacity="0.4"/>
+  <line x1="300" y1="670" x2="500" y2="670" stroke="#A8DADC" stroke-width="1" opacity="0.3"/>
+  <line x1="550" y1="650" x2="750" y2="650" stroke="#A8DADC" stroke-width="1" opacity="0.4"/>
+  <line x1="100" y1="700" x2="350" y2="700" stroke="#A8DADC" stroke-width="1" opacity="0.25"/>
+  <line x1="450" y1="710" x2="700" y2="710" stroke="#A8DADC" stroke-width="1" opacity="0.25"/>
+
+  <!-- Roadway -->
+  <rect x="0" y="540" width="800" height="40" fill="#A89F91" opacity="0.8"/>
+  <line x1="0" y1="540" x2="800" y2="540" stroke="#000000" stroke-width="2"/>
+  <line x1="0" y1="580" x2="800" y2="580" stroke="#000000" stroke-width="2"/>
+
+  <!-- Left tower -->
+  <rect x="140" y="200" width="60" height="380" fill="#E63946" opacity="0.9" stroke="#000000" stroke-width="1.5"/>
+  <rect x="150" y="210" width="40" height="50" fill="#6D2E46" opacity="0.5"/>
+  <rect x="150" y="300" width="40" height="30" fill="#6D2E46" opacity="0.3"/>
+  <!-- Tower top accent -->
+  <rect x="155" y="190" width="30" height="15" fill="#F4D35E" opacity="0.8"/>
+
+  <!-- Right tower -->
+  <rect x="600" y="200" width="60" height="380" fill="#E63946" opacity="0.9" stroke="#000000" stroke-width="1.5"/>
+  <rect x="610" y="210" width="40" height="50" fill="#6D2E46" opacity="0.5"/>
+  <rect x="610" y="300" width="40" height="30" fill="#6D2E46" opacity="0.3"/>
+  <!-- Tower top accent -->
+  <rect x="615" y="190" width="30" height="15" fill="#F4D35E" opacity="0.8"/>
+
+  <!-- Main cables (arc paths) - left side droop -->
+  <path d="M170,210 Q400,450 630,210" fill="none" stroke="#000000" stroke-width="3.5"/>
+  <path d="M170,220 Q400,460 630,220" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Left anchor cable -->
+  <path d="M20,540 Q80,300 170,210" fill="none" stroke="#000000" stroke-width="2.5"/>
+  <!-- Right anchor cable -->
+  <path d="M780,540 Q720,300 630,210" fill="none" stroke="#000000" stroke-width="2.5"/>
+
+  <!-- Vertical suspender lines from main cable -->
+  <line x1="230" y1="275" x2="230" y2="540" stroke="#000000" stroke-width="1" opacity="0.6"/>
+  <line x1="290" y1="330" x2="290" y2="540" stroke="#000000" stroke-width="1" opacity="0.6"/>
+  <line x1="340" y1="370" x2="340" y2="540" stroke="#000000" stroke-width="1" opacity="0.6"/>
+  <line x1="400" y1="400" x2="400" y2="540" stroke="#000000" stroke-width="1" opacity="0.6"/>
+  <line x1="460" y1="370" x2="460" y2="540" stroke="#000000" stroke-width="1" opacity="0.6"/>
+  <line x1="510" y1="330" x2="510" y2="540" stroke="#000000" stroke-width="1" opacity="0.6"/>
+  <line x1="570" y1="275" x2="570" y2="540" stroke="#000000" stroke-width="1" opacity="0.6"/>
+
+  <!-- Yellow accent lights on roadway -->
+  <circle cx="230" cy="555" r="4" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="340" cy="555" r="4" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="460" cy="555" r="4" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="570" cy="555" r="4" fill="#F4D35E" opacity="0.9"/>
+
+  <!-- Distant small shapes for atmosphere -->
+  <circle cx="60" cy="480" r="5" fill="#264653" opacity="0.3"/>
+  <circle cx="740" cy="490" r="5" fill="#264653" opacity="0.3"/>
+  <rect x="380" y="150" width="8" height="8" fill="#F4D35E" opacity="0.4"/>
+
+  <!-- Reflection hints in water -->
+  <rect x="150" y="590" width="40" height="60" fill="#E63946" opacity="0.1"/>
+  <rect x="610" y="590" width="40" height="60" fill="#E63946" opacity="0.1"/>
+</svg>

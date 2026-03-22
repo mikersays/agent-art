@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFFFFF"/>
+
+  <!-- Large teal half-circle at bottom -->
+  <path d="M100,800 A300,300 0 0,1 700,800" fill="#2A9D8F" opacity="0.6"/>
+
+  <!-- Red quarter-circle from top-right corner -->
+  <path d="M800,0 L800,200 A200,200 0 0,1 600,0 Z" fill="#E63946" opacity="0.55"/>
+
+  <!-- Blue arc sweeping from left -->
+  <path d="M0,200 A350,350 0 0,1 350,550" fill="none" stroke="#1D3557" stroke-width="60" opacity="0.5"/>
+
+  <!-- Yellow arc from bottom-right -->
+  <path d="M800,600 A250,250 0 0,0 550,800" fill="none" stroke="#F4D35E" stroke-width="50" opacity="0.6"/>
+
+  <!-- Additional arcs for richness -->
+  <path d="M150,0 A280,280 0 0,1 430,280" fill="none" stroke="#E63946" stroke-width="8" opacity="0.4"/>
+  <path d="M0,500 A200,200 0 0,1 200,300" fill="none" stroke="#2A9D8F" stroke-width="35" opacity="0.45"/>
+  <path d="M500,100 A180,180 0 0,1 680,280" fill="none" stroke="#1D3557" stroke-width="25" opacity="0.5"/>
+  <path d="M300,400 A150,150 0 0,0 450,550" fill="none" stroke="#F4D35E" stroke-width="20" opacity="0.55"/>
+
+  <!-- Forest-colored angular straight lines for contrast -->
+  <line x1="50" y1="50" x2="750" y2="150" stroke="#264653" stroke-width="3" opacity="0.7"/>
+  <line x1="100" y1="350" x2="700" y2="300" stroke="#264653" stroke-width="2" opacity="0.6"/>
+  <line x1="200" y1="600" x2="650" y2="450" stroke="#264653" stroke-width="2.5" opacity="0.65"/>
+  <line x1="400" y1="50" x2="300" y2="700" stroke="#264653" stroke-width="2" opacity="0.5"/>
+  <line x1="600" y1="100" x2="750" y2="650" stroke="#264653" stroke-width="1.5" opacity="0.55"/>
+
+  <!-- Small black squares along arc curves -->
+  <rect x="93" y="193" width="15" height="15" fill="#000000" opacity="0.85"/>
+  <rect x="140" y="300" width="15" height="15" fill="#000000" opacity="0.85"/>
+  <rect x="220" y="430" width="15" height="15" fill="#000000" opacity="0.85"/>
+  <rect x="310" y="520" width="15" height="15" fill="#000000" opacity="0.85"/>
+  <rect x="785" y="5" width="15" height="15" fill="#000000" opacity="0.85"/>
+  <rect x="720" y="5" width="15" height="15" fill="#000000" opacity="0.85"/>
+  <rect x="680" y="230" width="15" height="15" fill="#000000" opacity="0.85"/>
+  <rect x="570" y="780" width="15" height="15" fill="#000000" opacity="0.85"/>
+  <rect x="250" y="780" width="15" height="15" fill="#000000" opacity="0.85"/>
+  <rect x="450" y="780" width="15" height="15" fill="#000000" opacity="0.85"/>
+  <rect x="500" y="140" width="15" height="15" fill="#000000" opacity="0.85"/>
+  <rect x="380" y="380" width="15" height="15" fill="#000000" opacity="0.85"/>

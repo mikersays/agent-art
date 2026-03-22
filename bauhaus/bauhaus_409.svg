@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Horizontal Strata -->
+  <!-- Base background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Strata layers, varying thickness, stacked from top to bottom -->
+
+  <!-- Stratum 1: thin cream -->
+  <rect x="0" y="0" width="800" height="28" fill="#FEFAE0"/>
+  <!-- Stratum 2: sand, medium -->
+  <rect x="0" y="28" width="800" height="52" fill="#DDA15E"/>
+  <!-- Stratum 3: warm gray, thin -->
+  <rect x="0" y="80" width="800" height="22" fill="#A89F91"/>
+  <!-- Stratum 4: light blue, thick -->
+  <rect x="0" y="102" width="800" height="78" fill="#A8DADC"/>
+  <!-- Stratum 5: cream, medium -->
+  <rect x="0" y="180" width="800" height="44" fill="#FEFAE0"/>
+  <!-- Stratum 6: steel blue, thick -->
+  <rect x="0" y="224" width="800" height="90" fill="#457B9D"/>
+  <!-- Stratum 7: sand, thin -->
+  <rect x="0" y="314" width="800" height="30" fill="#DDA15E"/>
+  <!-- Stratum 8: warm gray, medium -->
+  <rect x="0" y="344" width="800" height="60" fill="#A89F91"/>
+  <!-- Stratum 9: light blue, thin -->
+  <rect x="0" y="404" width="800" height="24" fill="#A8DADC"/>
+  <!-- Stratum 10: cream, thick -->
+  <rect x="0" y="428" width="800" height="86" fill="#FEFAE0"/>
+  <!-- Stratum 11: steel blue, medium -->
+  <rect x="0" y="514" width="800" height="56" fill="#457B9D"/>
+  <!-- Stratum 12: sand, thin -->
+  <rect x="0" y="570" width="800" height="26" fill="#DDA15E"/>
+  <!-- Stratum 13: warm gray, thick -->
+  <rect x="0" y="596" width="800" height="72" fill="#A89F91"/>
+  <!-- Stratum 14: light blue, medium -->
+  <rect x="0" y="668" width="800" height="48" fill="#A8DADC"/>
+  <!-- Stratum 15: cream, thin -->
+  <rect x="0" y="716" width="800" height="30" fill="#FEFAE0"/>
+  <!-- Stratum 16: sand, base -->
+  <rect x="0" y="746" width="800" height="54" fill="#DDA15E"/>
+
+  <!-- Horizontal dividing lines between strata -->
+  <line x1="0" y1="28"  x2="800" y2="28"  stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="80"  x2="800" y2="80"  stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="102" x2="800" y2="102" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="180" x2="800" y2="180" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="224" x2="800" y2="224" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="314" x2="800" y2="314" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="344" x2="800" y2="344" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="404" x2="800" y2="404" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="428" x2="800" y2="428" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="514" x2="800" y2="514" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="570" x2="800" y2="570" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="596" x2="800" y2="596" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="668" x2="800" y2="668" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="716" x2="800" y2="716" stroke="#000000" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="746" x2="800" y2="746" stroke="#000000" stroke-width="1" opacity="0.25"/>
+
+  <!-- Embedded shapes in strata -->
+
+  <!-- Stratum 2 (sand, y=28): circles -->
+  <circle cx="120" cy="54"  r="16" fill="#FEFAE0" stroke="#000000" stroke-width="1" opacity="0.85"/>
+  <circle cx="320" cy="54"  r="12" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.85"/>
+  <circle cx="560" cy="54"  r="18" fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.70"/>
+  <circle cx="720" cy="54"  r="10" fill="#FEFAE0" stroke="#000000" stroke-width="1" opacity="0.85"/>
+
+  <!-- Stratum 4 (light blue, y=102): triangles -->
+  <polygon points="60,110 100,170 20,170"  fill="#457B9D" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="220,108 268,174 172,174" fill="#FEFAE0" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="410,112 454,172 366,172" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="600,110 644,172 556,172" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <!-- small circles -->
+  <circle cx="730" cy="141" r="14" fill="#1D3557" stroke="#000000" stroke-width="1" opacity="0.70"/>
+
+  <!-- Stratum 6 (steel blue, y=224): circles and a triangle -->
+  <circle cx="80"  cy="269" r="24" fill="#FEFAE0" stroke="#000000" stroke-width="1.5" opacity="0.85"/>
+  <circle cx="200" cy="269" r="16" fill="#A8DADC" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="340,230 390,308 290,308" fill="#FEFAE0" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <circle cx="500" cy="269" r="28" fill="#A89F91" stroke="#000000" stroke-width="1.5" opacity="0.75"/>
+  <circle cx="640" cy="269" r="20" fill="#A8DADC" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="720,228 760,308 680,308" fill="#FEFAE0" stroke="#000000" stroke-width="1" opacity="0.75"/>
+
+  <!-- Stratum 8 (warm gray, y=344): circles -->
+  <circle cx="150" cy="374" r="18" fill="#A8DADC" stroke="#000000" stroke-width="1" opacity="0.85"/>
+  <circle cx="400" cy="374" r="22" fill="#457B9D" stroke="#000000" stroke-width="1.5" opacity="0.80"/>
+  <circle cx="650" cy="374" r="14" fill="#FEFAE0" stroke="#000000" stroke-width="1" opacity="0.85"/>
+
+  <!-- Stratum 10 (cream, y=428): triangles -->
+  <polygon points="60,436  110,508  10,508"  fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <polygon points="240,434 300,510 180,510"  fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <circle cx="430" cy="471" r="26" fill="#A8DADC" stroke="#000000" stroke-width="1.5" opacity="0.75"/>
+  <polygon points="580,436 636,510 524,510"  fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.75"/>
+  <circle cx="730" cy="471" r="20" fill="#A89F91" stroke="#000000" stroke-width="1" opacity="0.80"/>
+
+  <!-- Stratum 11 (steel blue, y=514): circles -->
+  <circle cx="100" cy="542" r="16" fill="#A8DADC" stroke="#000000" stroke-width="1" opacity="0.85"/>
+  <circle cx="280" cy="542" r="20" fill="#FEFAE0" stroke="#000000" stroke-width="1.5" opacity="0.80"/>
+  <circle cx="520" cy="542" r="14" fill="#A8DADC" stroke="#000000" stroke-width="1" opacity="0.85"/>
+  <circle cx="700" cy="542" r="18" fill="#FEFAE0" stroke="#000000" stroke-width="1" opacity="0.80"/>
+
+  <!-- Stratum 13 (warm gray, y=596): triangles -->
+  <polygon points="80,600  128,662  32,662"  fill="#A8DADC" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <circle cx="260" cy="632" r="22" fill="#457B9D" stroke="#000000" stroke-width="1.5" opacity="0.75"/>
+  <polygon points="440,602 490,664 390,664"  fill="#FEFAE0" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <circle cx="620" cy="632" r="18" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <polygon points="730,600 776,664 684,664"  fill="#A8DADC" stroke="#000000" stroke-width="1" opacity="0.80"/>
+
+  <!-- Stratum 14 (light blue, y=668): small circles -->
+  <circle cx="160" cy="692" r="12" fill="#457B9D" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <circle cx="380" cy="692" r="16" fill="#DDA15E" stroke="#000000" stroke-width="1" opacity="0.80"/>
+  <circle cx="600" cy="692" r="12" fill="#457B9D" stroke="#000000" stroke-width="1" opacity="0.80"/>
+
+  <!-- Vertical accent lines across multiple strata for tension -->
+  <line x1="170" y1="0" x2="170" y2="800" stroke="#000000" stroke-width="0.7" opacity="0.10"/>
+  <line x1="490" y1="0" x2="490" y2="800" stroke="#000000" stroke-width="0.7" opacity="0.10"/>
+  <line x1="680" y1="0" x2="680" y2="800" stroke="#000000" stroke-width="0.7" opacity="0.10"/>
+</svg>

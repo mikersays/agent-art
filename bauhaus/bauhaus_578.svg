@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FEFAE0"/>
+
+  <!-- Subtle diagonal guide line -->
+  <line x1="80" y1="700" x2="720" y2="80" stroke="#A89F91" stroke-width="1" opacity="0.15"/>
+  <line x1="100" y1="720" x2="740" y2="100" stroke="#A89F91" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Fall trajectory arc -->
+  <path d="M 120 650 Q 400 300 700 130" fill="none" stroke="#E63946" stroke-width="1.5" opacity="0.2"/>
+
+  <!-- Domino 1 - nearly upright -->
+  <rect x="115" y="560" width="35" height="90" fill="#000000" opacity="0.9" transform="rotate(-2, 132, 605)"/>
+  <circle cx="127" cy="585" r="5" fill="#E63946"/>
+  <circle cx="138" cy="620" r="5" fill="#F4D35E"/>
+
+  <!-- Domino 2 - slight tilt -->
+  <rect x="185" y="520" width="35" height="90" fill="#FFFFFF" stroke="#000000" stroke-width="2" opacity="0.9" transform="rotate(-8, 202, 565)"/>
+  <circle cx="197" cy="540" r="5" fill="#1D3557"/>
+  <circle cx="208" cy="575" r="5" fill="#2A9D8F"/>
+  <circle cx="197" cy="575" r="5" fill="#E76F51"/>
+
+  <!-- Domino 3 - more tilt -->
+  <rect x="260" y="475" width="35" height="90" fill="#000000" opacity="0.9" transform="rotate(-16, 277, 520)"/>
+  <circle cx="272" cy="500" r="5" fill="#F4D35E"/>
+  <circle cx="283" cy="500" r="5" fill="#F4D35E"/>
+  <circle cx="272" cy="535" r="5" fill="#FFFFFF"/>
+
+  <!-- Domino 4 - significant tilt -->
+  <rect x="340" y="420" width="35" height="90" fill="#FFFFFF" stroke="#000000" stroke-width="2" opacity="0.9" transform="rotate(-26, 357, 465)"/>
+  <circle cx="352" cy="445" r="5" fill="#E63946"/>
+  <circle cx="363" cy="445" r="5" fill="#E63946"/>
+  <circle cx="352" cy="470" r="5" fill="#1D3557"/>
+  <circle cx="363" cy="470" r="5" fill="#1D3557"/>
+
+  <!-- Domino 5 - heavy tilt -->
+  <rect x="420" y="360" width="35" height="90" fill="#000000" opacity="0.9" transform="rotate(-38, 437, 405)"/>
+  <circle cx="432" cy="380" r="5" fill="#2A9D8F"/>
+  <circle cx="432" cy="410" r="5" fill="#F4D35E"/>
+  <circle cx="443" cy="395" r="5" fill="#E9C46A"/>
+
+  <!-- Domino 6 - nearly fallen -->
+  <rect x="500" y="290" width="35" height="90" fill="#FFFFFF" stroke="#000000" stroke-width="2" opacity="0.9" transform="rotate(-52, 517, 335)"/>
+  <circle cx="510" cy="310" r="5" fill="#E76F51"/>
+  <circle cx="525" cy="340" r="5" fill="#457B9D"/>
+
+  <!-- Domino 7 - almost horizontal -->
+  <rect x="575" y="215" width="35" height="90" fill="#000000" opacity="0.9" transform="rotate(-68, 592, 260)"/>
+  <circle cx="585" cy="235" r="5" fill="#E63946"/>
+  <circle cx="600" cy="250" r="5" fill="#F4D35E"/>
+  <circle cx="585" cy="265" r="5" fill="#FFFFFF"/>
+  <circle cx="600" cy="265" r="5" fill="#FFFFFF"/>
+
+  <!-- Impact lines / motion marks -->
+  <line x1="140" y1="660" x2="120" y2="680" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="155" y1="660" x2="145" y2="680" stroke="#000000" stroke-width="1" opacity="0.2"/>
+
+  <!-- Ground line -->
+  <line x1="60" y1="680" x2="350" y2="680" stroke="#000000" stroke-width="2" opacity="0.4"/>
+
+  <!-- Accent elements -->
+  <rect x="40" y="40" width="12" height="12" fill="#E63946" opacity="0.5"/>
+  <rect x="748" y="40" width="12" height="12" fill="#1D3557" opacity="0.5"/>
+  <rect x="40" y="748" width="12" height="12" fill="#F4D35E" opacity="0.5"/>
+  <rect x="748" y="748" width="12" height="12" fill="#2A9D8F" opacity="0.5"/>
+
+  <!-- Scattered small shapes for texture -->
+  <circle cx="650" cy="700" r="8" fill="#E63946" opacity="0.15"/>
+  <circle cx="700" cy="650" r="12" fill="#1D3557" opacity="0.1"/>
+  <rect x="70" y="150" width="10" height="10" fill="#F4D35E" opacity="0.2"/>
+</svg>

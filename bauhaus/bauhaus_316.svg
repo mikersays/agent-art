@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Cream background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FEFAE0"/>
+  <!-- Light blue accents at top -->
+  <rect x="50" y="20" width="120" height="8" fill="#A8DADC" opacity="0.6"/>
+  <rect x="300" y="35" width="80" height="6" fill="#A8DADC" opacity="0.5"/>
+  <circle cx="600" cy="40" r="15" fill="#A8DADC" opacity="0.4"/>
+  <circle cx="650" cy="25" r="8" fill="#A8DADC" opacity="0.7"/>
+  <!-- Fulcrum line -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#000000" stroke-width="1" opacity="0.4"/>
+  <!-- Massive black circle center-left -->
+  <circle cx="250" cy="400" r="200" fill="#000000"/>
+  <!-- Orange triangle pointing at circle -->
+  <polygon points="520,400 580,360 580,440" fill="#E76F51" opacity="0.85"/>
+  <!-- Small red rectangles on right -->
+  <rect x="600" y="280" width="18" height="18" fill="#E63946"/>
+  <rect x="630" y="310" width="12" height="24" fill="#E63946"/>
+  <rect x="660" y="260" width="20" height="14" fill="#E63946" opacity="0.8"/>
+  <rect x="580" y="340" width="14" height="14" fill="#E63946" opacity="0.9"/>
+  <rect x="700" y="300" width="10" height="20" fill="#E63946"/>
+  <!-- Small yellow rectangles and circles -->
+  <rect x="620" y="380" width="22" height="10" fill="#F4D35E"/>
+  <circle cx="660" cy="400" r="8" fill="#F4D35E"/>
+  <rect x="690" y="370" width="16" height="16" fill="#F4D35E" opacity="0.9"/>
+  <circle cx="580" cy="420" r="6" fill="#F4D35E"/>
+  <rect x="640" y="440" width="12" height="12" fill="#F4D35E" opacity="0.8"/>
+  <!-- Small teal rectangles and circles -->
+  <circle cx="610" cy="470" r="10" fill="#2A9D8F"/>
+  <rect x="650" y="460" width="14" height="18" fill="#2A9D8F" opacity="0.85"/>
+  <circle cx="700" cy="440" r="7" fill="#2A9D8F"/>
+  <rect x="580" y="500" width="20" height="8" fill="#2A9D8F"/>
+  <circle cx="640" cy="520" r="9" fill="#2A9D8F" opacity="0.7"/>
+  <!-- Forest vertical bars at far right -->
+  <rect x="740" y="200" width="8" height="180" fill="#264653" opacity="0.7"/>
+  <rect x="758" y="240" width="6" height="220" fill="#264653" opacity="0.6"/>
+  <rect x="772" y="280" width="10" height="160" fill="#264653" opacity="0.8"/>
+  <rect x="740" y="450" width="8" height="150" fill="#264653" opacity="0.5"/>
+  <rect x="758" y="500" width="6" height="120" fill="#264653" opacity="0.65"/>
+  <!-- Additional small shapes for balance -->
+  <circle cx="550" cy="300" r="5" fill="#E63946" opacity="0.6"/>
+  <circle cx="720" cy="350" r="4" fill="#000000" opacity="0.5"/>
+  <rect x="670" y="340" width="8" height="8" fill="#1D3557"/>
+  <circle cx="600" cy="550" r="6" fill="#E76F51" opacity="0.6"/>
+  <rect x="550" y="250" width="10" height="10" fill="#F4D35E" opacity="0.5"/>
+</svg>
